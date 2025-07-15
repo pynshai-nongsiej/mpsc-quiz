@@ -1,0 +1,36 @@
+Here are 5 MCQs on basic computer and internet concepts:
+
+1.  Which of the following is primarily an **output** device?
+    a) Keyboard
+    b) Mouse
+    c) Microphone
+    d) Printer
+    Answer: d
+
+2.  What is the smallest unit of data that a computer can understand and process?
+    a) Byte
+    b) Kilobyte
+    c) Bit
+    d) Megabyte
+    Answer: c
+
+3.  What does WWW stand for in the context of the internet?
+    a) World Wide Web
+    b) World Web Wide
+    c) Web World Wide
+    d) Wide Web World
+    Answer: a
+
+4.  The primary function of an Operating System (OS) is to:
+    a) Create documents and spreadsheets
+    b) Play video games
+    c) Manage computer hardware and software resources
+    d) Connect to the Internet
+    Answer: c
+
+5.  An IP address is a unique numerical label assigned to each device connected to a computer network. What is its main purpose?
+    a) To store user passwords securely
+    b) To identify and locate a device on a network
+    c) To encrypt data during transmission
+    d) To speed up internet browsing
+    Answer: b

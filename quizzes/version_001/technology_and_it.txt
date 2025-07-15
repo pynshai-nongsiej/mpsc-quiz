@@ -1,0 +1,36 @@
+Here are 5 MCQs on basic computer and internet concepts:
+
+1.  Which of the following components is considered the "brain" of the computer, responsible for executing instructions and performing calculations?
+    a) Monitor
+    b) Keyboard
+    c) Central Processing Unit (CPU)
+    d) Hard Drive
+    Answer: c
+
+2.  What is the primary function of an Operating System (OS)?
+    a) To browse the internet and visit websites.
+    b) To manage computer hardware and software resources.
+    c) To create and edit text documents.
+    d) To protect the computer from viruses.
+    Answer: b
+
+3.  What does the acronym "WWW" commonly refer to in the context of the internet?
+    a) Wireless Wide World
+    b) World Web Works
+    c) World Wide Web
+    d) Web World Wide
+    Answer: c
+
+4.  Which of the following is an example of an input device for a computer?
+    a) Printer
+    b) Speaker
+    c) Mouse
+    d) Monitor
+    Answer: c
+
+5.  What is an ISP responsible for?
+    a) Providing cloud storage services.
+    b) Developing web browsers.
+    c) Connecting users to the internet.
+    d) Creating computer hardware.
+    Answer: c

@@ -1,0 +1,36 @@
+Here are 5 MCQs where you identify the part with a grammatical error:
+
+1.  The collection of rare books / were carefully preserved / by the museum curator / for future generations.
+    a) The collection of rare books
+    b) were carefully preserved
+    c) by the museum curator
+    d) for future generations
+    Answer: b
+
+2.  Between you and I, / I think the new policy / will have a significant / impact on our workflow.
+    a) Between you and I,
+    b) I think the new policy
+    c) will have a significant
+    d) impact on our workflow
+    Answer: a
+
+3.  By the time he arrived, / she already left / the building, leaving / him alone.
+    a) By the time he arrived,
+    b) she already left
+    c) the building, leaving
+    d) him alone
+    Answer: b
+
+4.  She enjoys hiking, / to swim, and / cycling in the / mountains.
+    a) She enjoys hiking,
+    b) to swim, and
+    c) cycling in the
+    d) mountains
+    Answer: b
+
+5.  He performed good / on the exam, / surprising everyone / with his high score.
+    a) He performed good
+    b) on the exam,
+    c) surprising everyone
+    d) with his high score
+    Answer: a

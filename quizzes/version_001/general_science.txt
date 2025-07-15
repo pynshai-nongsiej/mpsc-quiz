@@ -1,0 +1,36 @@
+Here are 5 MCQs on biology, physics, and chemistry relevant to exams:
+
+1. Which organelle is primarily responsible for generating the majority of a cell's supply of ATP (adenosine triphosphate) through aerobic respiration?
+    a) Ribosome
+    b) Mitochondrion
+    c) Endoplasmic Reticulum
+    d) Golgi Apparatus
+    Answer: b
+
+2.  What is the standard SI unit for electrical resistance?
+    a) Ampere (A)
+    b) Volt (V)
+    c) Ohm (Ω)
+    d) Watt (W)
+    Answer: c
+
+3.  According to the Brønsted-Lowry theory, which statement accurately defines an acid?
+    a) A substance that produces hydrogen ions (H⁺) in aqueous solution.
+    b) A substance that accepts a proton (H⁺).
+    c) A substance that donates a proton (H⁺).
+    d) A substance that produces hydroxide ions (OH⁻) in aqueous solution.
+    Answer: c
+
+4.  What is the primary role of xylem tissue in plants?
+    a) Transporting sugars from leaves to other parts of the plant.
+    b) Storing excess food reserves.
+    c) Absorbing water and nutrients from the soil.
+    d) Transporting water and dissolved minerals from roots to leaves.
+    Answer: d
+
+5.  Which type of chemical bond typically forms between a metal and a non-metal atom due to the complete transfer of one or more electrons?
+    a) Covalent bond
+    b) Metallic bond
+    c) Ionic bond
+    d) Hydrogen bond
+    Answer: c

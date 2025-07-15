@@ -1,0 +1,34 @@
+1.  **Question text:** Which country holds the record for the most FIFA World Cup titles in men's football?
+    a) Germany
+    b) Italy
+    c) Brazil
+    d) Argentina
+    Answer: c
+
+2.  **Question text:** The "Man Booker Prize" is an annual literary award given for the best original novel written in the English language and published in which country?
+    a) United States
+    b) Canada
+    c) United Kingdom and Ireland
+    d) Australia
+    Answer: c
+
+3.  **Question text:** What is "Bollywood" primarily known for in Indian culture?
+    a) Traditional classical dance
+    b) The Hindi-language film industry
+    c) Ancient philosophical texts
+    d) Folk music festivals
+    Answer: b
+
+4.  **Question text:** Who was the first President of the United States to resign from office?
+    a) Andrew Johnson
+    b) Richard Nixon
+    c) Bill Clinton
+    d) George W. Bush
+    Answer: b
+
+5.  **Question text:** The iconic Parthenon temple, dedicated to the goddess Athena, is located in which ancient city?
+    a) Rome
+    b) Athens
+    c) Luxor
+    d) Istanbul
+    Answer: b

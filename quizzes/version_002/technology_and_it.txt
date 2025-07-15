@@ -1,0 +1,36 @@
+Here are 5 MCQs on basic computer and internet concepts:
+
+1.  What is the primary function of RAM (Random Access Memory) in a computer?
+    a) Permanent storage of operating system files
+    b) Storing data that is actively being used by the CPU
+    c) Connecting to the internet wirelessly
+    d) Displaying graphics on the monitor
+    Answer: b)
+
+2.  Which of the following is a global system of interconnected computer networks that uses the Internet Protocol Suite (TCP/IP) to link devices worldwide?
+    a) Intranet
+    b) Extranet
+    c) The Internet
+    d) Local Area Network (LAN)
+    Answer: c)
+
+3.  What does URL stand for in the context of web addresses?
+    a) Universal Resource Link
+    b) Uniform Resource Locator
+    c) United Remote Link
+    d) User Registration Login
+    Answer: b)
+
+4.  Which device is used to connect multiple computers and other network devices together within a local area network (LAN) and forward data packets between them?
+    a) Modem
+    b) Router
+    c) Monitor
+    d) Printer
+    Answer: b)
+
+5.  What is an "Operating System" (OS)?
+    a) A program used for creating documents and spreadsheets
+    b) The physical components of a computer
+    c) Software that manages computer hardware and software resources
+    d) A specific type of web browser
+    Answer: c)

@@ -1,0 +1,36 @@
+Here are 5 MCQs where the user must choose the word opposite in meaning:
+
+1.  Choose the word most nearly opposite in meaning to **Optimistic**:
+    a) Hopeful
+    b) Positive
+    c) Pessimistic
+    d) Cheerful
+    Answer: c
+
+2.  Choose the word most nearly opposite in meaning to **Abundant**:
+    a) Plentiful
+    b) Copious
+    c) Scarce
+    d) Generous
+    Answer: c
+
+3.  Choose the word most nearly opposite in meaning to **Cautious**:
+    a) Prudent
+    b) Wary
+    c) Reckless
+    d) Meticulous
+    Answer: c
+
+4.  Choose the word most nearly opposite in meaning to **Ephemeral**:
+    a) Fleeting
+    b) Momentary
+    c) Permanent
+    d) Brief
+    Answer: c
+
+5.  Choose the word most nearly opposite in meaning to **Venerate**:
+    a) Admire
+    b) Revere
+    c) Despise
+    d) Honor
+    Answer: c

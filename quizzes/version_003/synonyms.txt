@@ -1,0 +1,36 @@
+Here are 5 MCQs where the user must choose the word most similar in meaning:
+
+1.  Choose the word most similar in meaning to **Ambiguous**:
+    a) Clear
+    b) Vague
+    c) Definite
+    d) Concise
+    Answer: b)
+
+2.  Choose the word most similar in meaning to **Benevolent**:
+    a) Cruel
+    b) Generous
+    c) Selfish
+    d) Grumpy
+    Answer: b)
+
+3.  Choose the word most similar in meaning to **Concur**:
+    a) Disagree
+    b) Compete
+    c) Agree
+    d) Depart
+    Answer: c)
+
+4.  Choose the word most similar in meaning to **Diligent**:
+    a) Lazy
+    b) Careless
+    c) Industrious
+    d) Hasty
+    Answer: c)
+
+5.  Choose the word most similar in meaning to **Ephemeral**:
+    a) Permanent
+    b) Lasting
+    c) Fleeting
+    d) Eternal
+    Answer: c)

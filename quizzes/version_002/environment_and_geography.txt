@@ -1,0 +1,36 @@
+Here are 5 MCQs about climate change, mirrors, rivers, and lines:
+
+1.  Climate change is significantly altering global river systems. Which of the following is a primary expected impact on rivers, often causing changes to their typical "lines" or flow paths?
+    a) A universal decrease in water temperature due to atmospheric cooling.
+    b) More predictable and stable water levels year-round.
+    c) Altered seasonal flow regimes, including more intense floods and prolonged droughts.
+    d) Increased sedimentation leading to shallower, straighter river channels.
+    Answer: c)
+
+2.  In the context of climate change mitigation, some geoengineering proposals aim to reduce the amount of solar radiation absorbed by Earth. Which approach conceptually utilizes "mirror-like" reflection to achieve this, thereby influencing global climate "lines"?
+    a) Direct air capture of carbon dioxide from the atmosphere.
+    b) Ocean fertilization to enhance marine carbon sequestration.
+    c) Solar Radiation Management (SRM) techniques, such as stratospheric aerosol injection or space-based reflectors.
+    d) Planting vast new forests for increased carbon absorption.
+    Answer: c)
+
+3.  Rivers naturally form complex paths across landscapes. Which geometric term best describes the often winding, sinuous "line" or series of "lines" a river takes as it flows, particularly when it develops curves?
+    a) Hyperbolic trajectory
+    b) Straight line
+    c) Meander
+    d) Parabolic curve
+    Answer: c)
+
+4.  When a ray of light strikes a flat "mirror," it reflects according to specific physical laws. What is the precise relationship between the incoming ray's angle (angle of incidence) and the outgoing ray's angle (angle of reflection) with respect to the normal "line" perpendicular to the mirror's surface?
+    a) The angle of incidence is always greater than the angle of reflection.
+    b) The angle of incidence is inversely proportional to the angle of reflection.
+    c) The angle of incidence is equal to the angle of reflection.
+    d) The angles sum to 90 degrees.
+    Answer: c)
+
+5.  The melting of glaciers due to climate change significantly impacts downstream "rivers." As highly reflective "mirror-like" glacial ice melts and exposes darker land or water, the albedo of the region decreases. How does this change in reflectivity, which shifts the "line" marking the glacier's boundary, contribute to climate change feedback loops and river systems?
+    a) Increased albedo leads to more reflection, slowing down melting and stabilizing river flow.
+    b) Decreased albedo (from ice to darker surfaces) leads to more heat absorption, accelerating melting and contributing to increased river discharge and sea-level rise.
+    c) It causes glaciers to grow in length, creating new river sources from the increased meltwater.
+    d) The change in reflectivity is negligible and has no significant impact on glacial melt or river systems.
+    Answer: b)

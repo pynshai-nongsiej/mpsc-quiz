@@ -1,0 +1,41 @@
+Here are 5 MCQs on biology, physics, and chemistry:
+
+1.  **Question text**
+    Which of the following is a primary product of the light-dependent reactions of photosynthesis?
+    a) Glucose
+    b) Oxygen
+    c) Carbon dioxide
+    d) Water
+    Answer: b)
+
+2.  **Question text**
+    A 100-watt light bulb is connected to a 120-volt power source. Approximately what current flows through the bulb?
+    a) 0.83 A
+    b) 1.2 A
+    c) 8.3 A
+    d) 12 A
+    Answer: a)
+
+3.  **Question text**
+    Which of the following pH values indicates the strongest basic solution?
+    a) pH 2
+    b) pH 7
+    c) pH 9
+    d) pH 13
+    Answer: d)
+
+4.  **Question text**
+    In a DNA molecule, adenine (A) always pairs with which other nitrogenous base?
+    a) Cytosine (C)
+    b) Guanine (G)
+    c) Thymine (T)
+    d) Uracil (U)
+    Answer: c)
+
+5.  **Question text**
+    According to Newton's First Law of Motion, an object in motion will stay in motion with the same speed and in the same direction unless acted upon by an unbalanced force. This law is also known as the law of:
+    a) Action-Reaction
+    b) Conservation of Momentum
+    c) Inertia
+    d) Universal Gravitation
+    Answer: c)

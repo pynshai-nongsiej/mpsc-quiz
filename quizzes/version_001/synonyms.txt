@@ -1,0 +1,36 @@
+Here are 5 MCQs where the user must choose the word most similar in meaning:
+
+1.  Choose the word most similar in meaning to **Zenith**:
+    a) Base
+    b) Peak
+    c) Decline
+    d) Nadir
+    Answer: b)
+
+2.  Choose the word most similar in meaning to **Ubiquitous**:
+    a) Rare
+    b) Limited
+    c) Pervasive
+    d) Scarce
+    Answer: c)
+
+3.  Choose the word most similar in meaning to **Benevolent**:
+    a) Cruel
+    b) Selfish
+    c) Generous
+    d) Hostile
+    Answer: c)
+
+4.  Choose the word most similar in meaning to **Ephemeral**:
+    a) Lasting
+    b) Permanent
+    c) Fleeting
+    d) Eternal
+    Answer: c)
+
+5.  Choose the word most similar in meaning to **Meticulous**:
+    a) Careless
+    b) Precise
+    c) Hasty
+    d) Disorganized
+    Answer: b)
