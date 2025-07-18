@@ -1,0 +1,832 @@
+1. CORPULENT
+   a) Lean
+   b) Gaunt
+   c) Emaciated
+   d) Obese
+
+   Answer: d
+
+2. BRIEF
+   a) Limited
+   b) Small
+   c) Little
+   d) Short
+
+   Answer: d
+
+3. EMBEZZLE
+   a) Misappropriate
+   b) Balance
+   c) Remunerate
+   d) Clear
+
+   Answer: a
+
+4. VENT
+   a) Opening
+   b) Stodge
+   c) End
+   d) Past tense of go
+
+   Answer: a
+
+5. AUGUST
+   a) Common
+   b) Ridiculous
+   c) Dignified
+   d) Petty
+
+   Answer: c
+
+6. CANNY
+   a) Obstinate
+   b) Handsome
+   c) Clever
+   d) Stout
+
+   Answer: c
+
+7. ALERT
+   a) Energetic
+   b) Observant
+   c) Intelligent
+   d) Watchful
+
+   Answer: d
+
+8. WARRIOR
+   a) Soldier
+   b) Sailor
+   c) Pirate
+   d) Spy
+
+   Answer: a
+
+9. DISTANT
+   a) Far
+   b) Removed
+   c) Reserved
+   d) Separate
+
+   Answer: a
+
+10. ADVERSITY
+   a) Failure
+   b) Helplessness
+   c) Misfortune
+   d) Crisis
+
+   Answer: c
+
+11. FAKE
+   a) Original
+   b) Imitation
+   c) Trustworthy
+   d) Loyal
+
+   Answer: b
+
+12. INDICT
+   a) Condemn
+   b) Reprimand
+   c) Accuse
+   d) Allege
+
+   Answer: c
+
+13. STRINGENT
+   a) Dry
+   b) Strained
+   c) Rigorous
+   d) Shrill
+
+   Answer: c
+
+14. LAMENT
+   a) Complain
+   b) Comment
+   c) Condone
+   d) Console
+
+   Answer: a
+
+15. HESITATED
+   a) Stopped
+   b) Paused
+   c) Slowed
+   d) Postponed
+
+   Answer: b
+
+16. RESCUE
+   a) Command
+   b) Help
+   c) Defence
+   d) Safety
+
+   Answer: b
+
+17. ATTEMPT
+   a) Serve
+   b) Explore
+   c) Try
+   d) Explain
+
+   Answer: c
+
+18. FORAY
+   a) Maraud
+   b) Contest
+   c) Ranger
+   d) Intuition
+
+   Answer: a
+
+19. RECKLESS
+   a) Courageous
+   b) Rash
+   c) Bold
+   d) Daring
+
+   Answer: b
+
+20. CONSEQUENCES
+   a) Results
+   b) Conclusions
+   c) Difficulties
+   d) Applications
+
+   Answer: a
+
+21. IMPROVEMENT
+   a) Advancement
+   b) Betterment
+   c) Promotion
+   d) Preference
+
+   Answer: b
+
+22. INEBRIATE
+   a) Dreamy
+   b) Stupefied
+   c) Unsteady
+   d) Drunken
+
+   Answer: d
+
+23. STERILE
+   a) Barren
+   b) Arid
+   c) Childless
+   d) Dry
+
+   Answer: a
+
+24. ABJECT
+   a) Challenge
+   b) Miserable
+   c) Deny
+   d) Disobey
+
+   Answer: b
+
+25. MOVING
+   a) Taking
+   b) Toying
+   c) Shifting
+   d) Turning
+
+   Answer: c
+
+26. IRONIC
+   a) Inflexible
+   b) Bitter
+   c) Good-natured
+   d) Disguisedly sarcastic
+
+   Answer: d
+
+27. TIMID
+   a) Fast
+   b) Slow
+   c) Medium
+   d) Shy
+
+   Answer: d
+
+28. EXTRICATE
+   a) Pull
+   b) Free
+   c) Tie
+   d) Complicate
+
+   Answer: b
+
+29. NEUTRAL
+   a) Unbiased
+   b) Non-aligned
+   c) Undecided
+   d) Indifferent
+
+   Answer: a
+
+30. SHALLOW
+   a) Artificial
+   b) Superficial
+   c) Foolish
+   d) Worthless
+
+   Answer: b
+
+31. DIVERSION
+   a) Amusement
+   b) Distortion
+   c) Deviation
+   d) Bylane
+
+   Answer: c
+
+32. INSOLVENT
+   a) Poor
+   b) Bankrupt
+   c) Penniless
+   d) Broke
+
+   Answer: b
+
+33. INEXPLICABLE
+   a) Confusing
+   b) Unaccountable
+   c) Chaotic
+   d) Unconnected
+
+   Answer: b
+
+34. FEEBLE
+   a) Weak
+   b) Vain
+   c) Arrogant
+   d) Sick
+
+   Answer: a
+
+35. TRANSIENT
+   a) Transparent
+   b) Fleeting
+   c) Feeble
+   d) Fanciful
+
+   Answer: b
+
+36. BARE
+   a) Uncovered
+   b) Tolerate
+   c) Clear
+   d) Neat
+
+   Answer: a
+
+37. REPEAL
+   a) Sanction
+   b) Perpetuate
+   c) Pass
+   d) Cancel
+
+   Answer: d
+
+38. SALACITY
+   a) Bliss
+   b) Depression
+   c) Indecency
+   d) Recession
+
+   Answer: c
+
+39. ECSTATIC
+   a) Animated
+   b) Bewildered
+   c) Enraptured
+   d) Illful
+
+   Answer: c
+
+40. ADMONISH
+   a) Punish
+   b) Curse
+   c) Dismiss
+   d) Reprimand
+
+   Answer: d
+
+41. DILIGENT
+   a) Progressive
+   b) Brilliant
+   c) Inventive
+   d) Hard-working
+
+   Answer: d
+
+42. PIOUS
+   a) Pure
+   b) Pretentious
+   c) Clean
+   d) Devout
+
+   Answer: d
+
+43. BROWSE
+   a) Heal
+   b) Deceive
+   c) Examine
+   d) Strike
+
+   Answer: c
+
+44. INFREQUENT
+   a) Never
+   b) Usual
+   c) Rare
+   d) Sometimes
+
+   Answer: c
+
+45. RESTRAINT
+   a) Hindrance
+   b) Repression
+   c) Obstacle
+   d) Restriction
+
+   Answer: d
+
+46. DEIFY
+   a) Flatter
+   b) Challenge
+   c) Worship
+   d) Face
+
+   Answer: c
+
+47. HARBINGER
+   a) Messenger
+   b) Steward
+   c) Forerunner
+   d) Pilot
+
+   Answer: c
+
+48. VENUE
+   a) Place
+   b) Agenda
+   c) Time
+   d) Duration
+
+   Answer: a
+
+49. CANDID
+   a) Apparent
+   b) Explicit
+   c) Frank
+   d) Bright
+
+   Answer: c
+
+50. MELD
+   a) To soothe
+   b) Merge
+   c) Purchase
+   d) Glisten
+
+   Answer: b
+
+51. LYNCH
+   a) Hang
+   b) Madden
+   c) Kill
+   d) Shoot
+
+   Answer: c
+
+52. TORTURE
+   a) Torment
+   b) Chastisement
+   c) Harassment
+   d) Terror
+
+   Answer: a
+
+53. ABUNDANT
+   a) Ripe
+   b) Cheap
+   c) Plenty
+   d) Absent
+
+   Answer: c
+
+54. ENTIRE
+   a) Part
+   b) Quarter
+   c) Whole
+   d) Half
+
+   Answer: c
+
+55. DESTITUTION
+   a) Humility
+   b) Moderation
+   c) Poverty
+   d) Beggary
+
+   Answer: c
+
+56. WRETCHED
+   a) Poor
+   b) Foolish
+   c) Insane
+   d) Strained
+
+   Answer: a
+
+57. INTIMIDATE
+   a) To hint
+   b) Frighten
+   c) Bluff
+   d) Harass
+
+   Answer: b
+
+58. CANTANKEROUS
+   a) Quarrelsome
+   b) Rash
+   c) Disrespectful
+   d) Noisy
+
+   Answer: a
+
+59. RANT
+   a) Praise inordinately
+   b) Formalise
+   c) To preach noisily
+   d) Treat with screen
+
+   Answer: c
+
+60. ZANY
+   a) Clown
+   b) Pet
+   c) Thief
+   d) Magician
+
+   Answer: a
+
+61. TACITURNITY
+   a) Dumbness
+   b) Changeablemess
+   c) Hesitation
+   d) Reserve
+
+   Answer: d
+
+62. MASSACRE
+   a) Murder
+   b) Stab
+   c) Assassinate
+   d) Slaughter
+
+   Answer: d
+
+63. KEN
+   a) Ignorance
+   b) Witness
+   c) Trial
+   d) Knowledge
+
+   Answer: d
+
+64. WARY
+   a) Sad
+   b) vigilant
+   c) Distorted
+   d) Tired
+
+   Answer: b
+
+65. RABBLE
+   a) Mob
+   b) Noise
+   c) Roar
+   d) Rubbish
+
+   Answer: a
+
+66. MAYHEM
+   a) Jubilation
+   b) Havoc
+   c) Excitement
+   d) Defeat
+
+   Answer: b
+
+67. PONDER
+   a) Think
+   b) Evaluate
+   c) Anticipate
+   d) Increase
+
+   Answer: a
+
+68. CONNOISSEUR
+   a) Ignorant
+   b) Lover of art
+   c) Interpreter
+   d) Delinquent
+
+   Answer: b
+
+69. SHIVER
+   a) Feel
+   b) Rock
+   c) Tremble
+   d) Move
+
+   Answer: c
+
+70. PRESTIGE
+   a) Influence
+   b) Quality
+   c) Name
+   d) Wealth
+
+   Answer: c
+
+71. STRINGENT
+   a) Tense
+   b) Stringly
+   c) Strict
+   d) Causing to Shrink
+
+   Answer: c
+
+72. INSOMNIA
+   a) Lethargy
+   b) Sleeplessness
+   c) Drunkenness
+   d) Unconsciousness
+
+   Answer: b
+
+73. LAUD
+   a) Lord
+   b) Eulogy
+   c) Praise
+   d) Extolled
+
+   Answer: c
+
+74. REPERCUSSION
+   a) Clever reply
+   b) Recollection
+   c) Remuneration
+   d) Reaction
+
+   Answer: d
+
+75. IMPROMPTU
+   a) Offhand
+   b) Unimportant
+   c) Unreal
+   d) Effective
+
+   Answer: a
+
+76. FRUGALITY
+   a) Foolishness
+   b) Extremity
+   c) Enthusiasm
+   d) Economy
+
+   Answer: d
+
+77. CORRESPONDENCE
+   a) Agreements
+   b) Contracts
+   c) Documents
+   d) Letters
+
+   Answer: d
+
+78. ASCEND
+   a) Leap
+   b) Grow
+   c) Deviate
+   d) Mount
+
+   Answer: d
+
+79. FURORE
+   a) Excitement
+   b) Worry
+   c) Flux
+   d) Anteroom
+
+   Answer: a
+
+80. SYNOPSIS
+   a) Index
+   b) Mixture
+   c) Summary
+   d) Puzzles
+
+   Answer: c
+
+81. TURN UP
+   a) Land up
+   b) Show up
+   c) Crop up
+   d) Come up
+
+   Answer: b
+
+82. VIGOUR
+   a) Strength
+   b) Boldness
+   c) Warmth
+   d) Enthusism
+
+   Answer: a
+
+83. GARNISH
+   a) Paint
+   b) Garner
+   c) Adorn
+   d) Abuse
+
+   Answer: c
+
+84. MENDACIOUS
+   a) Full of Confidence
+   b) False
+   c) Encouraging
+   d) Provocative
+
+   Answer: b
+
+85. GARRULITY
+   a) Credulity
+   b) Senility
+   c) Loquaciousness
+   d) Speciousness
+
+   Answer: c
+
+86. MOROSE
+   a) Annoyed
+   b) Gloomy
+   c) Moody
+   d) Displeased
+
+   Answer: b
+
+87. VORACIOUS
+   a) Truthful
+   b) Gluttonous
+   c) Funny
+   d) Venturous
+
+   Answer: b
+
+88. AWAKENED
+   a) Enlightened
+   b) Realised
+   c) Shook
+   d) Waken
+
+   Answer: d
+
+89. GRATIFY
+   a) Appreciate
+   b) Frank
+   c) Indulge
+   d) Pacify
+
+   Answer: c
+
+90. PRECARIOUS
+   a) Cautious
+   b) Critical
+   c) Perilous
+   d) Brittle
+
+   Answer: c
+
+91. INFAMY
+   a) Dishonour
+   b) Glory
+   c) Integrity
+   d) Reputation
+
+   Answer: a
+
+92. MASTERLY
+   a) Crafty
+   b) Skilful
+   c) Meaningful
+   d) Cruel
+
+   Answer: b
+
+93. SCINTILLATING
+   a) Smouldering
+   b) Glittering
+   c) Touching
+   d) Warming
+
+   Answer: b
+
+94. TEPID
+   a) Hot
+   b) Warm
+   c) Cold
+   d) Boiling
+
+   Answer: b
+
+95. VORACIOUS
+   a) Wild
+   b) Greedy
+   c) Angry
+   d) Quick
+
+   Answer: b
+
+96. UNITE
+   a) Unfold
+   b) Unchain
+   c) Combine
+   d) Unhinge
+
+   Answer: c
+
+97. COMBAT
+   a) Conflict
+   b) Quarrel
+   c) Feud
+   d) Fight
+
+   Answer: d
+
+98. REFECTORY
+   a) Restaurant
+   b) Parlour
+   c) Living Room
+   d) Dining Room
+
+   Answer: d
+
+99. UNCOUTH
+   a) Ungraceful
+   b) Rough
+   c) Slovenly
+   d) Dirty
+
+   Answer: b
+
+100. ERROR
+   a) Misadventure
+   b) Misgiving
+   c) Ambiguity
+   d) Blunder
+
+   Answer: d
+
+101. COMMENSURATE
+   a) Measurable
+   b) Proportionate
+   c) Begining
+   d) Appropriate
+
+   Answer: b
+
+102. DEBACLE
+   a) Collapse
+   b) Decline
+   c) Defeat
+   d) Disgrace
+
+   Answer: a
+
+103. GERMANE
+   a) Responsible
+   b) Logical
+   c) Possible
+   d) Relevant
+
+   Answer: d
+
+104. DISTINCTION
+   a) Diffusion
+   b) Disagreement
+   c) Different
+   d) Degree
+
+   Answer: c
+

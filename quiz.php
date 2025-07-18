@@ -1,25 +1,76 @@
 <?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
 session_start();
 require_once __DIR__ . '/includes/functions.php';
 
-$mock_mode = isset($_GET['mock']) && $_GET['mock'] == 1 && isset($_GET['version']);
+$mock_mode = isset($_GET['mock']) && $_GET['mock'] == 1;
 
 if ($mock_mode) {
-    $version = basename($_GET['version']);
-    $base_dir = __DIR__ . '/quizzes/' . $version;
-    $quiz_files = [];
-    foreach (glob($base_dir . '/*.txt') as $file) {
-        if (basename($file) === 'metadata.txt') continue;
-        $quiz_files[] = $file;
+    // Get all questions from TestQnA directory
+    $all_questions = parse_test_questions();
+    
+    // Debug: Check if we got any questions
+    if (empty($all_questions)) {
+        error_log('No questions found in parse_test_questions() output');
+        die('No questions found. Please check the error logs for more information.');
     }
-    if (empty($quiz_files)) die('No quizzes found in this version.');
-    $questions = [];
-    foreach ($quiz_files as $qf) {
-        $questions = array_merge($questions, parse_quiz($qf));
+    
+    error_log('Successfully loaded ' . count($all_questions) . ' questions from all categories');
+    
+    // Define English-related categories
+    $english_categories = [
+        'Antonyms', 'Synonyms', 'Spellings', 'Idioms and Phrases', 
+        'One Word Substitutes', 'Change of Speech', 'Change of Voice',
+        'Error Spotting', 'Fill in the Blanks'
+    ];
+    
+    // Separate questions into English and other categories
+    $english_questions = [];
+    $other_questions = [];
+    
+    foreach ($all_questions as $question) {
+        if (in_array($question['category']['name'], $english_categories)) {
+            $english_questions[] = $question;
+        } else {
+            $other_questions[] = $question;
+        }
     }
+    
+    // Shuffle both sets of questions
+    shuffle($english_questions);
+    shuffle($other_questions);
+    
+    // Take 25 from each category (or all available if less than 25)
+    $english_selected = array_slice($english_questions, 0, 25);
+    $other_selected = array_slice($other_questions, 0, 25);
+    
+    // Combine the selected questions
+    $questions = array_merge($english_selected, $other_selected);
+    
+    // Shuffle the combined questions to mix English and other questions
     shuffle($questions);
-    $quiz_title = ucfirst(str_replace('_',' ',$version)) . ' Mock Test';
-    $quiz_id = $version . '_mock';
+    
+    if (empty($questions)) {
+        error_log('No questions available after filtering');
+        die('No valid questions found. Please check the question format in the TestQnA directory.');
+    }
+    
+    // Set marks per question (2 marks per question)
+    foreach ($questions as &$question) {
+        $question['marks'] = 2;
+    }
+    unset($question); // Break the reference
+    
+    // Store questions in session for review
+    $_SESSION['questions'] = $questions;
+    $_SESSION['mock_mode'] = true;
+    
+    // Debug: Check the first question
+    error_log('First question: ' . print_r($questions[0], true));
+    
+    $quiz_title = 'Mock Test (50 Questions - 2 Marks Each)';
+    $quiz_id = 'mock_test_' . time(); // Unique ID for each mock test
 } else {
     if (!isset($_GET['quiz'])) {
         header('Location: index.php');
@@ -227,30 +278,73 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
             <div class="glassmorphism-panel p-6 sm:p-8 flex-grow flex flex-col justify-center fade-in" style="animation-delay: 0.2s;">
                 <?php foreach ($questions as $i => $q): ?>
-                    <div class="question-container <?= $i === 0 ? 'active' : 'hidden' ?>" data-question="<?= $i ?>">
-                        <h2 class="text-2xl font-bold leading-tight mb-8 text-center"><?= htmlspecialchars($q['question']) ?></h2>
-                        <div class="space-y-3">
-                            <?php 
-                            $letters = range('A', 'Z');
-                            foreach ($q['options'] as $j => $opt): 
-                                $opt_letter = $letters[$j];
-                            ?>
-                                <div class="quiz-option p-4 rounded-xl cursor-pointer border border-transparent flex justify-between items-center" 
-                                     data-question="<?= $i ?>" 
-                                     data-option="<?= $j ?>">
-                                    <span class="text-base font-semibold flex-1"><?= htmlspecialchars($opt) ?></span>
-                                    <div class="indicator hidden">
-                                        <svg class="w-6 h-6 text-[var(--correct-text)]" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                            <path clip-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" fill-rule="evenodd"></path>
-                                        </svg>
-                                        <svg class="w-6 h-6 text-[var(--incorrect-text)] hidden" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                            <path clip-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" fill-rule="evenodd"></path>
-                                        </svg>
-                                    </div>
-                                    <input type="radio" name="answers[<?= $i ?>]" value="<?= strtolower($opt_letter) ?>" class="hidden" required>
-                                </div>
-                            <?php endforeach; ?>
+                    <div class="question-container <?= $i === 0 ? 'active' : 'hidden' ?>" data-question="<?= $i ?>" data-correct-answer="<?= strtolower($q['answer'] ?? 'a') ?>">
+                        <?php 
+                        // Get category information from the question data
+                        $category = $q['category'] ?? [
+                            'name' => 'General',
+                            'icon' => '📚',
+                            'bg_color' => 'bg-purple-100',
+                            'text_color' => 'text-purple-800'
+                        ];
+                        ?>
+                        <div class="mb-4">
+                            <span class="inline-flex items-center px-3 py-1 text-sm font-semibold rounded-full <?= $category['bg_color'] ?> <?= $category['text_color'] ?> space-x-2">
+                                <span class="text-base"><?= $category['icon'] ?></span>
+                                <span><?= htmlspecialchars($category['name']) ?></span>
+                            </span>
                         </div>
+                        <h2 class="text-2xl font-bold leading-tight mb-8 text-center"><?= htmlspecialchars($q['question']) ?></h2>
+                        <?php if (isset($q['is_error_spotting']) && $q['is_error_spotting']): ?>
+                            <div class="mb-6 p-4 bg-white/10 rounded-lg">
+                                <p class="text-lg mb-4"><?= nl2br(htmlspecialchars($q['full_sentence'] ?? '')) ?></p>
+                            </div>
+                            <div class="space-y-3">
+                                <?php 
+                                $letters = range('A', 'D'); // Only A-D for error spotting
+                                foreach ($q['options'] as $j => $opt_letter): 
+                                    $opt_letter = strtoupper($opt_letter[0]); // Get just the letter part
+                                ?>
+                                    <div class="quiz-option p-4 rounded-xl cursor-pointer border border-transparent flex justify-between items-center" 
+                                         data-question="<?= $i ?>" 
+                                         data-option="<?= $j ?>">
+                                        <span class="text-base font-semibold flex-1"><?= $opt_letter ?>) Part (<?= strtoupper($opt_letter) ?>) contains the error</span>
+                                        <div class="indicator hidden">
+                                            <svg class="w-6 h-6 text-[var(--correct-text)]" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                                <path clip-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" fill-rule="evenodd"></path>
+                                            </svg>
+                                            <svg class="w-6 h-6 text-[var(--incorrect-text)] hidden" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                                <path clip-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" fill-rule="evenodd"></path>
+                                            </svg>
+                                        </div>
+                                        <input type="radio" name="answers[<?= $i ?>]" value="<?= strtolower($opt_letter) ?>" class="hidden" required>
+                                    </div>
+                                <?php endforeach; ?>
+                            </div>
+                        <?php else: ?>
+                            <div class="space-y-3">
+                                <?php 
+                                $letters = range('A', 'Z');
+                                foreach ($q['options'] as $j => $opt): 
+                                    $opt_letter = $letters[$j];
+                                ?>
+                                    <div class="quiz-option p-4 rounded-xl cursor-pointer border border-transparent flex justify-between items-center" 
+                                         data-question="<?= $i ?>" 
+                                         data-option="<?= $j ?>">
+                                        <span class="text-base font-semibold flex-1"><?= htmlspecialchars($opt) ?></span>
+                                        <div class="indicator hidden">
+                                            <svg class="w-6 h-6 text-[var(--correct-text)]" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                                <path clip-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" fill-rule="evenodd"></path>
+                                            </svg>
+                                            <svg class="w-6 h-6 text-[var(--incorrect-text)] hidden" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                                <path clip-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" fill-rule="evenodd"></path>
+                                            </svg>
+                                        </div>
+                                        <input type="radio" name="answers[<?= $i ?>]" value="<?= strtolower($opt_letter) ?>" class="hidden" required>
+                                    </div>
+                                <?php endforeach; ?>
+                            </div>
+                        <?php endif; ?>
                     </div>
                 <?php endforeach; ?>
             </div>
@@ -368,7 +462,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 if (!selectedOption) return;
                 
                 answerLocked = true;
-                const isCorrect = selectedOption.querySelector('input[type="radio"]').value === '<?= strtolower($q['answer'] ?? 'a') ?>';
+                const questionIndex = selectedOption.closest('.question-container').dataset.question;
+                const correctAnswer = document.querySelector(`.question-container[data-question="${questionIndex}"]`).dataset.correctAnswer;
+                const isCorrect = selectedOption.querySelector('input[type="radio"]').value === correctAnswer;
                 
                 // Show feedback
                 const indicator = selectedOption.querySelector('.indicator');
@@ -382,7 +478,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     indicator.querySelector('svg:last-child').classList.remove('hidden');
                     
                     // Highlight correct answer
-                    const correctOption = document.querySelector(`.question-container[data-question="${currentQuestion}"] input[value="<?= strtolower($q['answer'] ?? 'a') ?>"]`).parentNode;
+                    const correctAnswer = document.querySelector(`.question-container[data-question="${currentQuestion}"]`).dataset.correctAnswer;
+                    const correctOption = document.querySelector(`.question-container[data-question="${currentQuestion}"] input[value="${correctAnswer}"]`).parentNode;
                     correctOption.classList.add('correct');
                     correctOption.querySelector('.indicator').classList.remove('hidden');
                     correctOption.querySelector('svg:first-child').classList.remove('hidden');

@@ -10,19 +10,10 @@ if (!isset($_SESSION['quiz_file']) || !isset($_SESSION['answers'])) {
 $mock_mode = isset($_SESSION['mock_mode']) && $_SESSION['mock_mode'];
 
 if ($mock_mode) {
-    $version = $_SESSION['mock_version'];
-    $base_dir = __DIR__ . '/quizzes/' . $version;
-    $quiz_files = [];
-    foreach (glob($base_dir . '/*.txt') as $file) {
-        if (basename($file) === 'metadata.txt') continue;
-        $quiz_files[] = $file;
-    }
-    $questions = [];
-    foreach ($quiz_files as $qf) {
-        $questions = array_merge($questions, parse_quiz($qf));
-    }
-    $quiz_title = ucfirst(str_replace('_',' ',$version)) . ' Mock Test';
-    $quiz_id = $version . '_mock';
+    // For mock tests, we already have the questions in the session
+    $questions = $_SESSION['questions'] ?? [];
+    $quiz_title = 'Mock Test Review';
+    $quiz_id = 'mock_test_review';
 } else {
     $quiz_file = $_SESSION['quiz_file'];
     $quiz_path = __DIR__ . '/quizzes/' . $quiz_file;
@@ -34,39 +25,43 @@ if ($mock_mode) {
     $quiz_id = $quiz_file;
 }
 
-$user_answers = $_SESSION['answers'];
+$user_answers = $_SESSION['answers'] ?? [];
 $score = 0;
 $total = count($questions);
 $results = [];
 
 foreach ($questions as $i => $q) {
-    $correct = $q['answer'];
-    $user = $user_answers[$i] ?? '';
-    $is_correct = ($user === $correct);
-    if ($is_correct) $score++;
+    $correct = strtolower(trim($q['answer']));
+    $user = isset($user_answers[$i]) ? strtolower(trim($user_answers[$i])) : '';
+    
+    // Handle both single letter answers (a, b, c, d) and full option text
+    $is_correct = false;
+    if (!empty($user)) {
+        if (strlen($user) === 1) {
+            // Compare single letter answers
+            $is_correct = ($user[0] === $correct[0]);
+        } else {
+            // Compare full option text
+            $option_index = ord(strtolower($correct[0])) - ord('a');
+            if (isset($q['options'][$option_index])) {
+                $correct_full_text = substr(trim($q['options'][$option_index]), 3); // Remove 'a) ' prefix
+                $is_correct = (strcasecmp(trim($user), $correct_full_text) === 0);
+            }
+        }
+    }
+    
+    // Add 2 marks for each correct answer in mock test
+    if ($is_correct) {
+        $score += $mock_mode ? 2 : 1;
+    }
+    
     $results[] = [
         'question' => $q['question'],
         'user' => $user,
         'correct' => $correct,
         'options' => $q['options'],
-        'is_correct' => $is_correct
-    ];
-}
-$score = 0;
-$total = count($questions);
-$results = [];
-
-foreach ($questions as $i => $q) {
-    $correct = $q['answer'];
-    $user = $user_answers[$i] ?? '';
-    $is_correct = ($user === $correct);
-    if ($is_correct) $score++;
-    $results[] = [
-        'question' => $q['question'],
-        'user' => $user,
-        'correct' => $correct,
-        'options' => $q['options'],
-        'is_correct' => $is_correct
+        'is_correct' => $is_correct,
+        'category' => $q['category'] ?? []
     ];
 }
 ?>

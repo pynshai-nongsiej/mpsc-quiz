@@ -37,12 +37,34 @@ if ($mock_mode) {
 $user_answers = $_SESSION['answers'];
 $score = 0;
 $total = count($questions);
+$max_score = $total * 2; // Each question is worth 2 marks
 $results = [];
+
 foreach ($questions as $i => $q) {
-    $correct = $q['answer'];
-    $user = $user_answers[$i] ?? '';
-    $is_correct = ($user === $correct);
-    if ($is_correct) $score++;
+    $correct = strtolower(trim($q['answer']));
+    $user = isset($user_answers[$i]) ? strtolower(trim($user_answers[$i])) : '';
+    
+    // Handle both single letter answers (a, b, c, d) and full option text
+    $is_correct = false;
+    if (!empty($user)) {
+        if (strlen($user) === 1) {
+            // Compare single letter answers
+            $is_correct = ($user[0] === $correct[0]);
+        } else {
+            // Compare full option text
+            $option_index = ord(strtolower($correct[0])) - ord('a');
+            if (isset($q['options'][$option_index])) {
+                $correct_full_text = substr(trim($q['options'][$option_index]), 3); // Remove 'a) ' prefix
+                $is_correct = (strcasecmp(trim($user), $correct_full_text) === 0);
+            }
+        }
+    }
+    
+    // Add 2 marks for each correct answer
+    if ($is_correct) {
+        $score += 2;
+    }
+    
     $results[] = [
         'question' => $q['question'],
         'user' => $user,
@@ -204,13 +226,15 @@ foreach ($questions as $i => $q) {
                     
                     <div class="mb-8 flex flex-col items-center justify-center rounded-2xl bg-[var(--score-bg)] p-8 transition-colors duration-300">
                         <p class="text-text-secondary text-lg mb-2">Your Score</p>
-                        <p class="text-7xl font-extrabold tracking-tighter">
+                        <div class="text-5xl font-bold">
                             <span class="text-[var(--result-correct)]"><?= $score ?></span>
-                            <span class="text-text-secondary">/<?= $total ?></span>
+                            <span class="text-text-secondary">/100</span>
+                        </div>
+                        <p class="mt-2 text-text-secondary">
+                            (<?= round(($score / 100) * 100) ?>%)
                         </p>
-                        <p class="mt-4 text-text-secondary">
-                            <?php
-                            $percentage = ($score / $total) * 100;
+                        <?php
+                            $percentage = $score; // Score is already out of 100
                             if ($percentage >= 80) {
                                 echo "Excellent work! ";
                             } elseif ($percentage >= 60) {

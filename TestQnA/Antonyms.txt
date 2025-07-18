@@ -1,0 +1,880 @@
+1. ENORMOUS
+   a) Soft
+   b) Average
+   c) Tiny
+   d) Weak
+
+   Answer: c
+
+2. COMMISSIONED
+   a) Started
+   b) Closed
+   c) Finished
+   d) Terminated
+
+   Answer: d
+
+3. ARTIFICIAL
+   a) Red
+   b) Natural
+   c) Truthful
+   d) Solid
+
+   Answer: b
+
+4. EXODUS
+   a) Influx
+   b) Home-coming
+   c) Return
+   d) Restoration
+
+   Answer: a
+
+5. RELINQUISH
+   a) Abdicate
+   b) Renounce
+   c) Possess
+   d) Deny
+
+   Answer: c
+
+6. EXPAND
+   a) Convert
+   b) Condense
+   c) Congest
+   d) Conclude
+
+   Answer: b
+
+7. MORTAL
+   a) Divine
+   b) Immortal
+   c) Spiritual
+   d) Eternal
+
+   Answer: b
+
+8. QUIESCENT
+   a) ACTIVE
+   b) Dormant
+   c) Weak
+   d) Unconcerned
+
+   Answer: a
+
+9. OBEYING
+   a) Ordering
+   b) Following
+   c) Refusing
+   d) Contradicting
+
+   Answer: a
+
+10. FRAUDULENT
+   a) Candid
+   b) Direct
+   c) Forthright
+   d) Genuine
+
+   Answer: d
+
+11. FLAGITIOUS
+   a) Innocent
+   b) Vapid
+   c) Ignorant
+   d) Frivolous
+
+   Answer: a
+
+12. BELITTLE
+   a) Criticize
+   b) Flatter
+   c) Exaggerate
+   d) Adore
+
+   Answer: c
+
+13. STARTLED
+   a) Amused
+   b) Relaxed
+   c) Endless
+   d) Astonished
+
+   Answer: b
+
+14. BUSY
+   a) Occupied
+   b) Engrossed
+   c) Relaxed
+   d) Engaged
+
+   Answer: c
+
+15. FRESH
+   a) Faulty
+   b) Sluggish
+   c) Disgraceful
+   d) Stale
+
+   Answer: d
+
+16. CULPABLE
+   a) Defendable
+   b) Blameless
+   c) Careless
+   d) Irresponsible
+
+   Answer: b
+
+17. EVASIVE
+   a) Free
+   b) Honest
+   c) Liberal
+   d) Frank
+
+   Answer: b
+
+18. GREGARIOUS
+   a) Antisocial
+   b) Glorious
+   c) Horrendous
+   d) Similar
+
+   Answer: a
+
+19. AWARE
+   a) Uncertain
+   b) Ignorant
+   c) Sure
+   d) Doubtful
+
+   Answer: b
+
+20. HIRSUTE
+   a) Scaly
+   b) Bald
+   c) Erudite
+   d) Quiet
+
+   Answer: b
+
+21. SHRINK
+   a) Contract
+   b) Spoil
+   c) Expand
+   d) Stretch
+
+   Answer: c
+
+22. COMMON
+   a) Rare
+   b) Small
+   c) Petty
+   d) Poor
+
+   Answer: a
+
+23. COMFORT
+   a) Uncomfort
+   b) Miscomfort
+   c) Discomfort
+   d) None Of These
+
+   Answer: c
+
+24. DEAR
+   a) Priceless
+   b) Free
+   c) Worthless
+   d) Cheap
+
+   Answer: d
+
+25. ARROGANT
+   a) Humble
+   b) Cowardly
+   c) Egotistic
+   d) Gentlemanly
+
+   Answer: a
+
+26. VICTORIOUS
+   a) Defeated
+   b) Annexed
+   c) Destroyed
+   d) Vanquished
+
+   Answer: a
+
+27. GRACEFUL
+   a) Rough
+   b) Expert
+   c) Miserable
+   d) Awkward
+
+   Answer: d
+
+28. NADIR
+   a) Modernity
+   b) Zenith
+   c) Liberty
+   d) Progress
+
+   Answer: b
+
+29. EXTRAVAGANCE
+   a) Luxury
+   b) Poverty
+   c) Economical
+   d) Cheapness
+
+   Answer: c
+
+30. PERTINENT
+   a) Irrational
+   b) Irregular
+   c) Insistent
+   d) Irrelevant
+
+   Answer: d
+
+31. OBSCURE
+   a) Implicit
+   b) Obnoxious
+   c) Explicit
+   d) Pedantic
+
+   Answer: c
+
+32. URBANE
+   a) Illiterate
+   b) Backward
+   c) Discourteous
+   d) Orthodox
+
+   Answer: c
+
+33. VANITY
+   a) Pride
+   b) Humility
+   c) Conceit
+   d) Ostentatious
+
+   Answer: b
+
+34. RARELY
+   a) Hardly
+   b) Definately
+   c) Frequently
+   d) Periodically
+
+   Answer: c
+
+35. MALICIOUS
+   a) Kind
+   b) Boastful
+   c) Generous
+   d) Indifferent
+
+   Answer: a
+
+36. EPILOGUE
+   a) Dialogue
+   b) Prelude
+   c) Post script
+   d) Epigram
+
+   Answer: b
+
+37. CAPACIOUS
+   a) Limited
+   b) Caring
+   c) Foolish
+   d) Changeable
+
+   Answer: a
+
+38. CONDENSE
+   a) Expand
+   b) Distribute
+   c) Interpret
+   d) Lengthen
+
+   Answer: a
+
+39. ADAPTABLE
+   a) Adoptable
+   b) Flexible
+   c) Yielding
+   d) Rigid
+
+   Answer: d
+
+40. SACROSANCT
+   a) Irreligious
+   b) Unethical
+   c) Irreverent
+   d) Unholy
+
+   Answer: d
+
+41. INDISCREET
+   a) Reliable
+   b) Honest
+   c) Prudent
+   d) Stupid
+
+   Answer: c
+
+42. FAMILIAR
+   a) Unpleasant
+   b) Dangerous
+   c) Friendly
+   d) Strange
+
+   Answer: d
+
+43. TANGIBLE
+   a) Ethereal
+   b) Concrete
+   c) Actual
+   d) Solid
+
+   Answer: a
+
+44. LOVE
+   a) Villainy
+   b) Hatred
+   c) Compulsion
+   d) Force
+
+   Answer: b
+
+45. FAMOUS
+   a) Disgraced
+   b) Unknown
+   c) Evil
+   d) Popular
+
+   Answer: b
+
+46. ABSOLUTE
+   a) Deficient
+   b) Faulty
+   c) Limited
+   d) Scarce
+
+   Answer: c
+
+47. FRUGAL
+   a) Copious
+   b) Extravagant
+   c) Generous
+   d) Ostentatious
+
+   Answer: b
+
+48. INSIPID
+   a) Tasty
+   b) Stupid
+   c) Discreet
+   d) Feast
+
+   Answer: a
+
+49. ABLE
+   a) Disable
+   b) Inable
+   c) Unable
+   d) Misable
+
+   Answer: c
+
+50. HOSTILITY
+   a) Courtesy
+   b) Hospitality
+   c) Relationship
+   d) Friendliness
+
+   Answer: d
+
+51. CROWDED
+   a) Busy
+   b) Congested
+   c) Quiet
+   d) Deserted
+
+   Answer: d
+
+52. COMIC
+   a) Emotional
+   b) Tragic
+   c) Fearful
+   d) Painful
+
+   Answer: b
+
+53. HAPLESS
+   a) Cheerful
+   b) Consistent
+   c) Fortunate
+   d) Shapely
+
+   Answer: c
+
+54. FLIMSY
+   a) Frail
+   b) Filthy
+   c) Firm
+   d) Flippant
+
+   Answer: c
+
+55. EQUANIMITY
+   a) Resentment
+   b) Dubiousness
+   c) Duplicity
+   d) Excitement
+
+   Answer: d
+
+56. ADDITION
+   a) Division
+   b) Enumeration
+   c) Subtraction
+   d) Multiplication
+
+   Answer: c
+
+57. ZENITH
+   a) Acme
+   b) Top
+   c) Nadir
+   d) Pinnacle
+
+   Answer: c
+
+58. DOUBTFUL
+   a) Famous
+   b) Certain
+   c) Fixed
+   d) Important
+
+   Answer: b
+
+59. PERENNIAL
+   a) Frequent
+   b) Regular
+   c) Lasting
+   d) Rare
+
+   Answer: d
+
+60. BENIGN
+   a) Malevolent
+   b) Soft
+   c) Friendly
+   d) Unwise
+
+   Answer: a
+
+61. HINDRANCE
+   a) Aid
+   b) Persuasion
+   c) Cooperation
+   d) Agreement
+
+   Answer: a
+
+62. EXTRICATE
+   a) Manifest
+   b) Palpable
+   c) Release
+   d) Entangle
+
+   Answer: d
+
+63. REPRESS
+   a) Inhibit
+   b) Liberate
+   c) Curb
+   d) Quell
+
+   Answer: b
+
+64. ACQUITTED
+   a) Freed
+   b) Burdened
+   c) Convicted
+   d) Entrusted
+
+   Answer: c
+
+65. PROVOCATION
+   a) Vocation
+   b) Pacification
+   c) Peace
+   d) Destruction
+
+   Answer: b
+
+66. SUBSERVIENT
+   a) Aggressive
+   b) Straightforward
+   c) Dignified
+   d) Supercilious
+
+   Answer: c
+
+67. LEND
+   a) Borrow
+   b) Cheat
+   c) Pawn
+   d) Hire
+
+   Answer: a
+
+68. FAINT-HEARTED
+   a) Warm-hearted
+   b) Full-blooded
+   c) Hot-blooded
+   d) Stout-hearted
+
+   Answer: d
+
+69. REMISS
+   a) Forgetful
+   b) Watchful
+   c) Dutiful
+   d) Harmful
+
+   Answer: c
+
+70. TRANSPARENT
+   a) Semi-transparent
+   b) Muddy
+   c) Opaque
+   d) Dark
+
+   Answer: c
+
+71. HONORARY
+   a) Dishonorable
+   b) Reputed
+   c) Paid
+   d) Official
+
+   Answer: c
+
+72. METICULOUS
+   a) Mutual
+   b) Shaggy
+   c) Meretricious
+   d) Slovenly
+
+   Answer: d
+
+73. LOQUACIOUS
+   a) Reticent
+   b) Talkative
+   c) Garrulous
+   d) Verbose
+
+   Answer: a
+
+74. CONFESS
+   a) Deny
+   b) Refuse
+   c) Contest
+   d) Contend
+
+   Answer: a
+
+75. ANNOY
+   a) Praise
+   b) Rejoice
+   c) Please
+   d) Reward
+
+   Answer: c
+
+76. REPEL
+   a) Attend
+   b) Concentrate
+   c) Continue
+   d) Attract
+
+   Answer: d
+
+77. SUPPRESS
+   a) Encourage
+   b) Allow
+   c) Praise
+   d) Permit
+
+   Answer: a
+
+78. NIGGARDLY
+   a) Frugal
+   b) Thrifty
+   c) Stingy
+   d) Generous
+
+   Answer: d
+
+79. IMPASSE
+   a) Resurgence
+   b) Breakthrough
+   c) Continuation
+   d) Combination
+
+   Answer: b
+
+80. HAPHAZARD
+   a) Fortuitous
+   b) Indifferent
+   c) Deliberate
+   d) Accidental
+
+   Answer: c
+
+81. DENSITY
+   a) Rarity
+   b) Intelligence
+   c) Clarity
+   d) Brightness
+
+   Answer: a
+
+82. ADHERENT
+   a) Detractor
+   b) Enemy
+   c) Alien
+   d) Rival
+
+   Answer: b
+
+83. BASE
+   a) Climax
+   b) Height
+   c) Top
+   d) Roof
+
+   Answer: c
+
+84. PATCHY
+   a) Attractive
+   b) Uniform
+   c) Simple
+   d) Clear
+
+   Answer: b
+
+85. ENMITY
+   a) Important
+   b) Unnecessary
+   c) Friendship
+   d) Likeness
+
+   Answer: c
+
+86. HOLLOW
+   a) Filled
+   b) Solid
+   c) Strong
+   d) Substantial
+
+   Answer: b
+
+87. VALUABLE
+   a) Invaluable
+   b) Worthless
+   c) Inferior
+   d) Lowly
+
+   Answer: b
+
+88. GULLIBLE
+   a) Incredulous
+   b) Fickle
+   c) Easy
+   d) Stylish
+
+   Answer: a
+
+89. INDUSTRIOUS
+   a) Indifferent
+   b) Indolent
+   c) Casual
+   d) Passive
+
+   Answer: b
+
+90. AUTONOMY
+   a) Slavery
+   b) Subordination
+   c) Dependence
+   d) Submissiveness
+
+   Answer: c
+
+91. ALIEN
+   a) Native
+   b) Domiciled
+   c) Natural
+   d) Resident
+
+   Answer: a
+
+92. SYNTHETIC
+   a) Affable
+   b) Natural
+   c) Plastic
+   d) Cosmetic
+
+   Answer: b
+
+93. BALANCE
+   a) Disbalance
+   b) Misbalance
+   c) Debalance
+   d) Imbalance
+
+   Answer: d
+
+94. LIABILITY
+   a) Property
+   b) Assets
+   c) Debt
+   d) Treasure
+
+   Answer: b
+
+95. MOUNTAIN
+   a) Plain
+   b) Plateau
+   c) Precipice
+   d) Valley
+
+   Answer: d
+
+96. STATIONARY
+   a) Active
+   b) Mobile
+   c) Rapid
+   d) Busy
+
+   Answer: b
+
+97. CONCEDE
+   a) Object
+   b) Refuse
+   c) Grant
+   d) Accede
+
+   Answer: b
+
+98. VIOLENT
+   a) Humble
+   b) Harmless
+   c) Gentle
+   d) Tame
+
+   Answer: c
+
+99. VIRTUOUS
+   a) Wicked
+   b) Corrupt
+   c) Vicious
+   d) Scandalous
+
+   Answer: a
+
+100. GAIN
+   a) Loose
+   b) Fall
+   c) Lost
+   d) Lose
+
+   Answer: d
+
+101. PRELIMINARY
+   a) Final
+   b) First
+   c) Secondary
+   d) Initial
+
+   Answer: a
+
+102. DEFIANCE
+   a) Anxiety
+   b) Obedience
+   c) Suspicion
+   d) Dismay
+
+   Answer: b
+
+103. ENCOURAGE
+   a) Dampen
+   b) Disapprove
+   c) Discourage
+   d) Warn
+
+   Answer: c
+
+104. LUCID
+   a) Glory
+   b) Noisy
+   c) Obscure
+   d) Distinct
+
+   Answer: c
+
+105. STRINGENT
+   a) General
+   b) Vehement
+   c) Lenient
+   d) Magnanimous
+
+   Answer: c
+
+106. MINOR
+   a) Big
+   b) Major
+   c) Tall
+   d) Heavy
+
+   Answer: b
+
+107. REVEALED
+   a) Denied
+   b) Concealed
+   c) Ignored
+   d) Overlooked
+
+   Answer: b
+
+108. ESSENTIAL
+   a) Extra
+   b) Noughts
+   c) Minors
+   d) Trivial
+
+   Answer: a
+
+109. HYPOCRITICAL
+   a) Gentle
+   b) Sincere
+   c) Amiable
+   d) Dependable
+
+   Answer: b
+
+110. FICKLE
+   a) Courageous
+   b) Sincere
+   c) Steadfast
+   d) Humble
+
+   Answer: c
+

@@ -133,12 +133,12 @@ $versions = array_keys($grouped);
                     </h2>
                     <p class="typography_body">Assess your typing speed and accuracy with our comprehensive test.</p>
                 </a>
-                <a class="glass-card block p-6 text-left" href="quiz.php?mock=1&version=<?= urlencode($versions[array_rand($versions)]) ?>">
+                <a class="glass-card block p-6 text-left" href="quiz.php?mock=1">
                     <h2 class="typography_h2 mb-1.5 flex items-center">
                         <span class="material-icons mr-2">book</span>
                         Mock Test
                     </h2>
-                    <p class="typography_body">Simulate the exam environment and test your knowledge under pressure.</p>
+                    <p class="typography_body">Take a 50-question test with randomized questions from all categories.</p>
                 </a>
             </div>
         </main>
