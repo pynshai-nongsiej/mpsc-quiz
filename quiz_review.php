@@ -2,68 +2,13 @@
 session_start();
 require_once __DIR__ . '/includes/functions.php';
 
-if (!isset($_SESSION['quiz_file']) || !isset($_SESSION['answers'])) {
+if (!isset($_SESSION['quiz_results'])) {
     header('Location: index.php');
     exit;
 }
 
-$mock_mode = isset($_SESSION['mock_mode']) && $_SESSION['mock_mode'];
-
-if ($mock_mode) {
-    // For mock tests, we already have the questions in the session
-    $questions = $_SESSION['questions'] ?? [];
-    $quiz_title = 'Mock Test Review';
-    $quiz_id = 'mock_test_review';
-} else {
-    $quiz_file = $_SESSION['quiz_file'];
-    $quiz_path = __DIR__ . '/quizzes/' . $quiz_file;
-    if (!file_exists($quiz_path)) {
-        die('Quiz not found.');
-    }
-    $questions = parse_quiz($quiz_path);
-    $quiz_title = quiz_title_from_filename($quiz_file);
-    $quiz_id = $quiz_file;
-}
-
-$user_answers = $_SESSION['answers'] ?? [];
-$score = 0;
-$total = count($questions);
-$results = [];
-
-foreach ($questions as $i => $q) {
-    $correct = strtolower(trim($q['answer']));
-    $user = isset($user_answers[$i]) ? strtolower(trim($user_answers[$i])) : '';
-    
-    // Handle both single letter answers (a, b, c, d) and full option text
-    $is_correct = false;
-    if (!empty($user)) {
-        if (strlen($user) === 1) {
-            // Compare single letter answers
-            $is_correct = ($user[0] === $correct[0]);
-        } else {
-            // Compare full option text
-            $option_index = ord(strtolower($correct[0])) - ord('a');
-            if (isset($q['options'][$option_index])) {
-                $correct_full_text = substr(trim($q['options'][$option_index]), 3); // Remove 'a) ' prefix
-                $is_correct = (strcasecmp(trim($user), $correct_full_text) === 0);
-            }
-        }
-    }
-    
-    // Add 2 marks for each correct answer in mock test
-    if ($is_correct) {
-        $score += $mock_mode ? 2 : 1;
-    }
-    
-    $results[] = [
-        'question' => $q['question'],
-        'user' => $user,
-        'correct' => $correct,
-        'options' => $q['options'],
-        'is_correct' => $is_correct,
-        'category' => $q['category'] ?? []
-    ];
-}
+$quiz_title = $_SESSION['quiz_title'] ?? 'Quiz Review';
+$results = $_SESSION['quiz_results']['results'];
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -153,16 +98,30 @@ foreach ($questions as $i => $q) {
         <main class="px-4 py-6 space-y-6">
             <?php foreach ($results as $index => $result): 
                 $is_correct = $result['is_correct'];
-                $user_letter = '';
-                $correct_letter = '';
+                $user_letter = $result['user'] ?? '';
+                $correct_letter = $result['correct'] ?? '';
+                $options = $result['options'] ?? [];
                 
-                // Find user's answer letter
-                foreach ($result['options'] as $i => $option) {
-                    if ($option === $result['user']) {
-                        $user_letter = chr(65 + $i);
+                // Get the full text of the answers
+                $user_answer_text = $result['user_text'] ?? '';
+                $correct_answer_text = '';
+                
+                // Find the correct answer text from options
+                if (!empty($correct_letter) && !empty($options)) {
+                    $correct_index = ord(strtoupper($correct_letter[0])) - 65;
+                    if (isset($options[$correct_index])) {
+                        $correct_answer_text = $options[$correct_index];
+                    } else {
+                        // Fallback: use the first option if index is invalid
+                        $correct_answer_text = $options[0] ?? '';
                     }
-                    if ($option === $result['correct']) {
-                        $correct_letter = chr(65 + $i);
+                }
+                
+                // If user answer text is empty but we have a user letter, try to get the text
+                if (empty($user_answer_text) && !empty($user_letter) && !empty($options)) {
+                    $user_index = ord(strtoupper($user_letter[0])) - 65;
+                    if (isset($options[$user_index])) {
+                        $user_answer_text = $options[$user_index];
                     }
                 }
             ?>
@@ -170,7 +129,7 @@ foreach ($questions as $i => $q) {
                     <div class="flex justify-between items-start">
                         <div>
                             <p class="text-[var(--text-secondary)] text-sm">Question <?= $index + 1 ?> of <?= count($results) ?></p>
-                            <p class="text-base font-medium mt-1"><?= htmlspecialchars($result['question']) ?></p>
+                            <p class="text-base font-medium mt-1"><?= htmlspecialchars($result['question'] ?? '') ?></p>
                         </div>
                         <div class="flex items-center gap-2 text-[var(<?= $is_correct ? '--correct' : '--incorrect' ?>)]">
                             <?php if ($is_correct): ?>
@@ -186,31 +145,6 @@ foreach ($questions as $i => $q) {
                         </div>
                     </div>
                     
-                    <?php 
-                    // Get the full text of the user's answer
-                    $user_answer_letter = $result['user'];
-                    $correct_answer_letter = $result['correct'];
-                    $options = $result['options'];
-                    
-                    // Initialize with the letters as fallback
-                    $user_answer_text = $user_answer_letter;
-                    $correct_answer_text = $correct_answer_letter;
-                    
-                    // Find the index of the answer (A=0, B=1, etc.)
-                    $user_index = ord(strtoupper($user_answer_letter)) - 65; // A->0, B->1, etc.
-                    $correct_index = ord(strtoupper($correct_answer_letter)) - 65;
-                    
-                    // Get the full text for user's answer if index is valid
-                    if (isset($options[$user_index])) {
-                        $user_answer_text = $options[$user_index];
-                    }
-                    
-                    // Get the full text for correct answer if index is valid
-                    if (isset($options[$correct_index])) {
-                        $correct_answer_text = $options[$correct_index];
-                    }
-                    ?>
-                    
                     <?php if ($is_correct): ?>
                         <div>
                             <p class="text-sm text-[var(--text-secondary)]">Your answer:</p>
@@ -218,13 +152,35 @@ foreach ($questions as $i => $q) {
                         </div>
                     <?php else: ?>
                         <div class="space-y-2">
-                            <div>
-                                <p class="text-sm text-[var(--text-secondary)]">Your answer:</p>
-                                <p class="text-base font-medium text-[var(--incorrect)] line-through"><?= htmlspecialchars($user_answer_text) ?></p>
-                            </div>
-                            <div>
-                                <p class="text-sm text-[var(--text-secondary)]">Correct answer:</p>
-                                <p class="text-base font-medium text-[var(--correct)]"><?= htmlspecialchars($correct_answer_text) ?></p>
+                            <?php if (!empty($user_answer_text)): ?>
+                                <div>
+                                    <p class="text-sm text-[var(--text-secondary)]">Your answer:</p>
+                                    <p class="text-base font-medium text-[var(--incorrect)] line-through"><?= htmlspecialchars($user_answer_text) ?></p>
+                                </div>
+                            <?php endif; ?>
+                            <?php if (!empty($correct_answer_text)): ?>
+                                <div>
+                                    <p class="text-sm text-[var(--text-secondary)]">Correct answer:</p>
+                                    <p class="text-base font-medium text-[var(--correct)]"><?= htmlspecialchars($correct_answer_text) ?></p>
+                                </div>
+                            <?php endif; ?>
+                        </div>
+                    <?php endif; ?>
+                    
+                    <?php if (!empty($options)): ?>
+                        <div class="mt-2">
+                            <p class="text-sm text-[var(--text-secondary)] mb-1">Options:</p>
+                            <div class="space-y-2">
+                                <?php foreach ($options as $i => $option): 
+                                    $is_user_answer = (strtoupper($user_letter[0] ?? '') === chr(65 + $i));
+                                    $is_correct_answer = (strtoupper($correct_letter[0] ?? '') === chr(65 + $i));
+                                    $bg_color = $is_correct_answer ? 'bg-[var(--correct)]/10' : ($is_user_answer ? 'bg-[var(--incorrect)]/10' : 'bg-[var(--glass-bg)]');
+                                    $border_color = $is_correct_answer ? 'border-[var(--correct)]' : ($is_user_answer ? 'border-[var(--incorrect)]' : 'border-[var(--glass-border)]');
+                                ?>
+                                    <div class="p-2 rounded-lg border <?= $border_color ?> <?= $bg_color ?>">
+                                        <p class="text-sm"><?= htmlspecialchars($option) ?></p>
+                                    </div>
+                                <?php endforeach; ?>
                             </div>
                         </div>
                     <?php endif; ?>

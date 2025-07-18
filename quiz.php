@@ -7,6 +7,12 @@ require_once __DIR__ . '/includes/functions.php';
 $mock_mode = isset($_GET['mock']) && $_GET['mock'] == 1;
 
 if ($mock_mode) {
+    if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+        // On form submission, use the previously stored questions and titles
+        $questions   = $_SESSION['questions'] ?? [];
+        $quiz_title  = $_SESSION['quiz_title'] ?? 'Mock Test';
+        $quiz_id     = $_SESSION['quiz_file'] ?? 'mock_test';
+    } else {
     // Get all questions from TestQnA directory
     $all_questions = parse_test_questions();
     
@@ -71,6 +77,7 @@ if ($mock_mode) {
     
     $quiz_title = 'Mock Test (50 Questions - 2 Marks Each)';
     $quiz_id = 'mock_test_' . time(); // Unique ID for each mock test
+    } // end generation branch
 } else {
     if (!isset($_GET['quiz'])) {
         header('Location: index.php');
@@ -90,9 +97,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $_SESSION['answers'] = $_POST['answers'] ?? [];
     $_SESSION['quiz_file'] = $quiz_id;
     $_SESSION['mock_mode'] = $mock_mode;
-    if ($mock_mode) {
-        $_SESSION['mock_version'] = $version;
-    }
+    $_SESSION['quiz_title'] = $quiz_title;
     header('Location: result.php');
     exit;
 }
@@ -246,7 +251,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </head>
 <body class="bg-[var(--background-color)] text-[var(--text-primary)]">
     <div class="relative flex flex-col min-h-screen justify-between overflow-hidden">
-        <form method="post" class="flex-grow flex flex-col">
+        <form method="post" action="quiz.php<?= $mock_mode ? '?mock=1' : '' ?>" class="flex-grow flex flex-col">
             <header class="flex items-center justify-between p-4 md:p-6">
                 <a href="index.php" class="text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors">
                     <svg fill="currentColor" height="24" viewBox="0 0 256 256" width="24" xmlns="http://www.w3.org/2000/svg">

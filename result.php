@@ -10,19 +10,9 @@ if (!isset($_SESSION['quiz_file']) || !isset($_SESSION['answers'])) {
 }
 
 if ($mock_mode) {
-    $version = $_SESSION['mock_version'];
-    $base_dir = __DIR__ . '/quizzes/' . $version;
-    $quiz_files = [];
-    foreach (glob($base_dir . '/*.txt') as $file) {
-        if (basename($file) === 'metadata.txt') continue;
-        $quiz_files[] = $file;
-    }
-    $questions = [];
-    foreach ($quiz_files as $qf) {
-        $questions = array_merge($questions, parse_quiz($qf));
-    }
-    $quiz_title = ucfirst(str_replace('_',' ',$version)) . ' Mock Test';
-    $quiz_id = $version . '_mock';
+    $questions = $_SESSION['questions'] ?? [];
+    $quiz_title = $_SESSION['quiz_title'] ?? 'Mock Test';
+    $quiz_id = $_SESSION['quiz_file'] ?? 'mock_test';
 } else {
     $quiz_file = $_SESSION['quiz_file'];
     $quiz_path = __DIR__ . '/quizzes/' . $quiz_file;
@@ -39,25 +29,22 @@ $score = 0;
 $total = count($questions);
 $max_score = $total * 2; // Each question is worth 2 marks
 $results = [];
+$_SESSION['quiz_results'] = ['questions' => $questions, 'results' => []];
 
 foreach ($questions as $i => $q) {
     $correct = strtolower(trim($q['answer']));
-    $user = isset($user_answers[$i]) ? strtolower(trim($user_answers[$i])) : '';
+    $user = isset($user_answers[$i]) ? trim($user_answers[$i]) : '';
     
-    // Handle both single letter answers (a, b, c, d) and full option text
+    // Handle different answer formats
     $is_correct = false;
     if (!empty($user)) {
-        if (strlen($user) === 1) {
-            // Compare single letter answers
-            $is_correct = ($user[0] === $correct[0]);
-        } else {
-            // Compare full option text
-            $option_index = ord(strtolower($correct[0])) - ord('a');
-            if (isset($q['options'][$option_index])) {
-                $correct_full_text = substr(trim($q['options'][$option_index]), 3); // Remove 'a) ' prefix
-                $is_correct = (strcasecmp(trim($user), $correct_full_text) === 0);
-            }
+        // Extract just the letter if it's in format 'a)' or 'a.'
+        if (preg_match('/^([a-d])[\)\.]?/i', $user, $matches)) {
+            $user = strtolower($matches[1]);
         }
+        
+        // Compare first character of answer
+        $is_correct = (strtolower($user[0] ?? '') === strtolower($correct[0] ?? ''));
     }
     
     // Add 2 marks for each correct answer
@@ -72,6 +59,7 @@ foreach ($questions as $i => $q) {
         'options' => $q['options'],
         'is_correct' => $is_correct
     ];
+    $_SESSION['quiz_results']['results'][] = $results[count($results) - 1];
 }
 ?>
 <!DOCTYPE html>
@@ -228,13 +216,13 @@ foreach ($questions as $i => $q) {
                         <p class="text-text-secondary text-lg mb-2">Your Score</p>
                         <div class="text-5xl font-bold">
                             <span class="text-[var(--result-correct)]"><?= $score ?></span>
-                            <span class="text-text-secondary">/100</span>
+                            <span class="text-text-secondary">/<?= $max_score ?></span>
                         </div>
                         <p class="mt-2 text-text-secondary">
-                            (<?= round(($score / 100) * 100) ?>%)
+                            (<?= $max_score > 0 ? round(($score / $max_score) * 100) : 0 ?>%)
                         </p>
                         <?php
-                            $percentage = $score; // Score is already out of 100
+                            $percentage = $max_score > 0 ? ($score / $max_score) * 100 : 0;
                             if ($percentage >= 80) {
                                 echo "Excellent work! ";
                             } elseif ($percentage >= 60) {
