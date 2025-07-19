@@ -24,38 +24,101 @@ if ($mock_mode) {
     
     error_log('Successfully loaded ' . count($all_questions) . ' questions from all categories');
     
-    // Define English-related categories
+    // Define categories for balanced distribution
     $english_categories = [
         'Antonyms', 'Synonyms', 'Spellings', 'Idioms and Phrases', 
         'One Word Substitutes', 'Change of Speech', 'Change of Voice',
         'Error Spotting', 'Fill in the Blanks'
     ];
     
-    // Separate questions into English and other categories
+    // Special categories we want to ensure are included
+    $special_categories = ['General Knowledge', 'Meghalaya GK'];
+    
+    // Separate questions into categories
     $english_questions = [];
+    $special_category_questions = [];
     $other_questions = [];
     
     foreach ($all_questions as $question) {
-        if (in_array($question['category']['name'], $english_categories)) {
+        $category = $question['category']['name'];
+        if (in_array($category, $english_categories)) {
             $english_questions[] = $question;
+        } elseif (in_array($category, $special_categories)) {
+            $special_category_questions[$category][] = $question;
         } else {
             $other_questions[] = $question;
         }
     }
     
-    // Shuffle both sets of questions
+    // Shuffle all question arrays
     shuffle($english_questions);
     shuffle($other_questions);
+    foreach ($special_categories as $category) {
+        if (!empty($special_category_questions[$category])) {
+            shuffle($special_category_questions[$category]);
+        }
+    }
     
-    // Take 25 from each category (or all available if less than 25)
-    $english_selected = array_slice($english_questions, 0, 25);
-    $other_selected = array_slice($other_questions, 0, 25);
+    // Calculate how many questions to take from each category
+    $total_questions = 50; // Target total questions
+    $num_categories = 1 + count($special_categories) + 1; // English + Special Categories + Others
+    $questions_per_category = max(10, floor($total_questions / $num_categories));
     
-    // Combine the selected questions
-    $questions = array_merge($english_selected, $other_selected);
+    error_log("DEBUG: Questions per category: " . $questions_per_category);
+    error_log("DEBUG: English questions available: " . count($english_questions));
+    error_log("DEBUG: Other questions available: " . count($other_questions));
     
-    // Shuffle the combined questions to mix English and other questions
-    shuffle($questions);
+    // Log special categories questions count
+    foreach ($special_categories as $category) {
+        $count = !empty($special_category_questions[$category]) ? count($special_category_questions[$category]) : 0;
+        error_log("DEBUG: $category questions available: " . $count);
+    }
+    
+    // Take questions from each category
+    $selected_questions = [];
+    
+    // Take English questions
+    $eng_questions = array_slice($english_questions, 0, $questions_per_category);
+    $selected_questions = array_merge($selected_questions, $eng_questions);
+    error_log("DEBUG: Selected " . count($eng_questions) . " English questions");
+    
+    // Take questions from special categories
+    foreach ($special_categories as $category) {
+        if (!empty($special_category_questions[$category])) {
+            $cat_questions = array_slice($special_category_questions[$category], 0, $questions_per_category);
+            $selected_questions = array_merge($selected_questions, $cat_questions);
+            error_log("DEBUG: Selected " . count($cat_questions) . " questions from $category");
+            
+            // Log first question from this category for verification
+            if (!empty($cat_questions)) {
+                $first_q = reset($cat_questions);
+                error_log("DEBUG: First question from $category: " . 
+                         substr($first_q['question'], 0, 100) . "...");
+            }
+        } else {
+            error_log("WARNING: No questions found for special category: $category");
+        }
+    }
+    
+    // Take remaining questions from others
+    $remaining = $total_questions - count($selected_questions);
+    if ($remaining > 0) {
+        $other_questions_selected = array_slice($other_questions, 0, $remaining);
+        $selected_questions = array_merge($selected_questions, $other_questions_selected);
+        error_log("DEBUG: Selected " . count($other_questions_selected) . " questions from other categories");
+        
+        // Log categories of other questions selected
+        $other_cats = [];
+        foreach ($other_questions_selected as $q) {
+            $cat = $q['category']['name'];
+            $other_cats[$cat] = ($other_cats[$cat] ?? 0) + 1;
+        }
+        error_log("DEBUG: Other categories selected: " . print_r($other_cats, true));
+    }
+    
+    // Shuffle the final set of questions
+    shuffle($selected_questions);
+    $questions = $selected_questions;
     
     if (empty($questions)) {
         error_log('No questions available after filtering');

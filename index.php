@@ -133,7 +133,8 @@ $versions = array_keys($grouped);
                     </h2>
                     <p class="typography_body">Assess your typing speed and accuracy with our comprehensive test.</p>
                 </a>
-                <a class="glass-card block p-6 text-left" href="quiz.php?mock=1">
+                <a class="glass-card block p-6 text-left hover:bg-[var(--card-bg)] transition-colors duration-300" 
+                   href="quiz.php?mock=1&debug=1">
                     <h2 class="typography_h2 mb-1.5 flex items-center">
                         <span class="material-icons mr-2">book</span>
                         Mock Test
@@ -147,6 +148,23 @@ $versions = array_keys($grouped);
         </footer>
     </div>
     <script>
+        // Debug script
+        console.log('Index page loaded');
+        
+        // Add click handler to mock test link
+        document.addEventListener('DOMContentLoaded', function() {
+            const mockTestLink = document.querySelector('a[href*="quiz.php?mock=1"]');
+            if (mockTestLink) {
+                console.log('Mock test link found');
+                mockTestLink.addEventListener('click', function(e) {
+                    console.log('Mock test link clicked');
+                    // Let the default action proceed
+                });
+            } else {
+                console.error('Mock test link not found!');
+            }
+        });
+
         const themeToggle = document.getElementById('theme-toggle');
         const html = document.documentElement;
         const toggleBall = document.getElementById('toggle-ball');
