@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Quiz Analytics Dashboard</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<style type="text/tailwindcss">
+        :root {
+            --background-color: #121212;
+            --card-background: rgba(255, 255, 255, 0.1);
+            --card-border: rgba(255, 255, 255, 0.2);
+            --text-primary: #FFFFFF;
+            --text-secondary: #B0B0B0;
+            --chart-line: #FFFFFF;
+            --success-color: #22c55e;
+            --warning-color: #f59e0b;
+            --danger-color: #ef4444;
+            --grid-color: rgba(255, 255, 255, 0.1);
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .main_container {
+            @apply container mx-auto px-4 py-8;
+        }
+        .card {
+            @apply bg-[var(--card-background)] rounded-lg p-6 border border-[var(--card-border)] backdrop-blur-sm transition-all duration-300 hover:bg-[rgba(255,255,255,0.15)] hover:border-[rgba(255,255,255,0.3)];
+        }
+        .card_title {
+            @apply text-lg font-semibold mb-2 text-[var(--text-secondary)];
+        }
+        .kpi_value {
+            @apply text-3xl font-bold text-[var(--text-primary)];
+        }
+        .kpi_change {
+            @apply text-sm ml-2;
+        }
+        .chart_container {
+            @apply h-64;
+        }
+        .filter_container {
+            @apply flex items-center justify-between mb-6;
+        }
+        .filter_group {
+            @apply flex space-x-2;
+        }
+        .filter_toggle {
+            @apply bg-gray-800 text-[var(--text-primary)] px-4 py-2 rounded-lg text-sm font-medium hover:bg-gray-700 transition-colors;
+        }
+        .filter_toggle.active {
+            @apply bg-white text-black;
+        }
+        .dropdown_button {
+            @apply bg-gray-800 text-[var(--text-primary)] px-4 py-2 rounded-lg text-sm font-medium hover:bg-gray-700 transition-colors flex items-center gap-2;
+        }
+        .typography_h1 {
+            @apply text-3xl font-bold mb-6 text-[var(--text-primary)];
+        }
+        .typography_h2 {
+            @apply text-2xl font-semibold mb-4 text-[var(--text-primary)];
+        }
+        .typography_body {
+            @apply text-base text-[var(--text-secondary)];
+        }
+        .progress_bar_bg {
+            @apply bg-gray-700 rounded-full h-2.5;
+        }
+        .progress_bar {
+            @apply h-2.5 rounded-full;
+        }
+        .table_row {
+            @apply border-b border-[var(--card-border)];
+        }
+        .table_cell {
+            @apply py-3 px-2 text-sm;
+        }
+    </style>
+</head>
+<body class="bg-[var(--background-color)]">
+<div class="min-h-screen flex flex-col">
+<header class="sticky top-0 bg-[var(--background-color)]/80 backdrop-blur-lg z-10">
+<div class="main_container flex items-center justify-between border-b border-white/10">
+<div class="flex items-center gap-4">
+<svg class="text-[var(--text-primary)]" fill="none" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 4H12V12H4V4Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+<path d="M4 12H12V20H4V12Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+<path d="M12 4H20V12H12V4Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+<path d="M12 12H20V20H12V12Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+<h1 class="text-xl font-bold text-[var(--text-primary)]">Quiz Performance</h1>
+</div>
+<nav class="flex items-center gap-6">
+<a class="text-sm font-medium text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors" href="#">Dashboard</a>
+<a class="text-sm font-medium text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors" href="#">Reports</a>
+<a class="text-sm font-medium text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors" href="#">Settings</a>
+<div class="size-10 rounded-full bg-cover bg-center" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuD1C9teRqc49K_ZozMdkoajlsZ4gdG8tnHILpaToMnaaGUOXM_kqrAOm-8gccuFYgPajZBpcLrPjRFER0Xdarc8v3GlqyWQwKmwoVCiSwtGwyZLyNtks9rxWVO0QUP49s3u7HelpNXuHzpTYWC5R0e1fhiLtAX7cW5vKrXxIVF48dDrk4M8-7Zaqf1XLzsbLheqfm7xdv7rcPT9B1iEGX4tET10feQbAXiIsjBzgDCEbUPPQZBhkUyv3icJngnPrC807rMCA6Qd3B0");'></div>
+</nav>
+</div>
+</header>
+<main class="main_container flex-1">
+<div class="filter_container">
+<button class="dropdown_button">
+                    All Quizzes
+                    <svg class="bi bi-chevron-down" fill="currentColor" height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" fill-rule="evenodd"></path>
+</svg>
+</button>
+<div class="filter_group">
+<button class="filter_toggle active">Last 7 days</button>
+<button class="filter_toggle">Last 30 days</button>
+<button class="filter_toggle">Last 90 days</button>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-6">
+<div class="card">
+<p class="card_title">Total Quizzes Taken</p>
+<p class="kpi_value">234<span class="kpi_change text-[var(--success-color)]">+5.4%</span></p>
+</div>
+<div class="card">
+<p class="card_title">Average Accuracy</p>
+<p class="kpi_value">85%<span class="kpi_change text-[var(--danger-color)]">-1.2%</span></p>
+</div>
+<div class="card">
+<p class="card_title">Total Time Spent</p>
+<p class="kpi_value">12h 34m<span class="kpi_change text-[var(--success-color)]">+8%</span></p>
+</div>
+<div class="card">
+<p class="card_title">Completion Rate</p>
+<p class="kpi_value">92%<span class="kpi_change text-[var(--warning-color)]">-0.5%</span></p>
+</div>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-6">
+<div class="card lg:col-span-2">
+<h2 class="typography_h2">Daily Accuracy Breakdown</h2>
+<div class="chart_container flex items-end justify-between gap-2 pt-4">
+<div class="group relative flex h-full w-full flex-col-reverse items-center gap-2 text-center">
+<div class="h-[75%] w-1/2 rounded-t-lg bg-gray-700 transition-colors group-hover:bg-[var(--success-color)]" style="height: 80%"></div>
+<div class="absolute -top-8 hidden rounded-md bg-gray-900/80 px-2 py-1 text-xs font-bold text-white group-hover:block">80%</div>
+<p class="text-xs text-[var(--text-secondary)]">Mon</p>
+</div>
+<div class="group relative flex h-full w-full flex-col-reverse items-center gap-2 text-center">
+<div class="h-[75%] w-1/2 rounded-t-lg bg-gray-700 transition-colors group-hover:bg-[var(--success-color)]" style="height: 92%"></div>
+<div class="absolute -top-8 hidden rounded-md bg-gray-900/80 px-2 py-1 text-xs font-bold text-white group-hover:block">92%</div>
+<p class="text-xs text-[var(--text-secondary)]">Tue</p>
+</div>
+<div class="group relative flex h-full w-full flex-col-reverse items-center gap-2 text-center">
+<div class="h-[75%] w-1/2 rounded-t-lg bg-gray-700 transition-colors group-hover:bg-[var(--warning-color)]" style="height: 78%"></div>
+<div class="absolute -top-8 hidden rounded-md bg-gray-900/80 px-2 py-1 text-xs font-bold text-white group-hover:block">78%</div>
+<p class="text-xs text-[var(--text-secondary)]">Wed</p>
+</div>
+<div class="group relative flex h-full w-full flex-col-reverse items-center gap-2 text-center">
+<div class="h-[75%] w-1/2 rounded-t-lg bg-gray-700 transition-colors group-hover:bg-[var(--success-color)]" style="height: 88%"></div>
+<div class="absolute -top-8 hidden rounded-md bg-gray-900/80 px-2 py-1 text-xs font-bold text-white group-hover:block">88%</div>
+<p class="text-xs text-[var(--text-secondary)]">Thu</p>
+</div>
+<div class="group relative flex h-full w-full flex-col-reverse items-center gap-2 text-center">
+<div class="h-[75%] w-1/2 rounded-t-lg bg-gray-700 transition-colors group-hover:bg-[var(--danger-color)]" style="height: 65%"></div>
+<div class="absolute -top-8 hidden rounded-md bg-gray-900/80 px-2 py-1 text-xs font-bold text-white group-hover:block">65%</div>
+<p class="text-xs text-[var(--text-secondary)]">Fri</p>
+</div>
+<div class="group relative flex h-full w-full flex-col-reverse items-center gap-2 text-center">
+<div class="h-[75%] w-1/2 rounded-t-lg bg-gray-700 transition-colors group-hover:bg-[var(--success-color)]" style="height: 85%"></div>
+<div class="absolute -top-8 hidden rounded-md bg-gray-900/80 px-2 py-1 text-xs font-bold text-white group-hover:block">85%</div>
+<p class="text-xs text-[var(--text-secondary)]">Sat</p>
+</div>
+<div class="group relative flex h-full w-full flex-col-reverse items-center gap-2 text-center">
+<div class="h-[75%] w-1/2 rounded-t-lg bg-gray-700 transition-colors group-hover:bg-[var(--success-color)]" style="height: 95%"></div>
+<div class="absolute -top-8 hidden rounded-md bg-gray-900/80 px-2 py-1 text-xs font-bold text-white group-hover:block">95%</div>
+<p class="text-xs text-[var(--text-secondary)]">Sun</p>
+</div>
+</div>
+</div>
+<div class="card">
+<h2 class="typography_h2">Topic Performance</h2>
+<div class="space-y-4">
+<div>
+<div class="flex justify-between mb-1 text-sm font-medium text-[var(--text-secondary)]">
+<span>Algebra</span>
+<span class="text-[var(--text-primary)]">92%</span>
+</div>
+<div class="progress_bar_bg">
+<div class="progress_bar bg-[var(--success-color)]" style="width: 92%"></div>
+</div>
+</div>
+<div>
+<div class="flex justify-between mb-1 text-sm font-medium text-[var(--text-secondary)]">
+<span>Geometry</span>
+<span class="text-[var(--text-primary)]">85%</span>
+</div>
+<div class="progress_bar_bg">
+<div class="progress_bar bg-[var(--success-color)]" style="width: 85%"></div>
+</div>
+</div>
+<div>
+<div class="flex justify-between mb-1 text-sm font-medium text-[var(--text-secondary)]">
+<span>Calculus</span>
+<span class="text-[var(--text-primary)]">78%</span>
+</div>
+<div class="progress_bar_bg">
+<div class="progress_bar bg-[var(--warning-color)]" style="width: 78%"></div>
+</div>
+</div>
+<div>
+<div class="flex justify-between mb-1 text-sm font-medium text-[var(--text-secondary)]">
+<span>Trigonometry</span>
+<span class="text-[var(--text-primary)]">65%</span>
+</div>
+<div class="progress_bar_bg">
+<div class="progress_bar bg-[var(--danger-color)]" style="width: 65%"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="card">
+<h2 class="typography_h2">Recent Quiz Results</h2>
+<div class="overflow-x-auto">
+<table class="w-full text-left text-[var(--text-secondary)]">
+<thead class="text-xs uppercase">
+<tr class="border-b border-[var(--card-border)]">
+<th class="table_cell">Quiz Name</th>
+<th class="table_cell">Date</th>
+<th class="table_cell">Accuracy</th>
+<th class="table_cell">Time Spent</th>
+<th class="table_cell">Status</th>
+</tr>
+</thead>
+<tbody>
+<tr class="table_row">
+<td class="table_cell text-[var(--text-primary)]">Advanced Algebra II</td>
+<td class="table_cell">2 days ago</td>
+<td class="table_cell text-[var(--success-color)]">95%</td>
+<td class="table_cell">15m 20s</td>
+<td class="table_cell text-[var(--success-color)]">Completed</td>
+</tr>
+<tr class="table_row">
+<td class="table_cell text-[var(--text-primary)]">Geometry Fundamentals</td>
+<td class="table_cell">3 days ago</td>
+<td class="table_cell text-[var(--success-color)]">88%</td>
+<td class="table_cell">12m 45s</td>
+<td class="table_cell text-[var(--success-color)]">Completed</td>
+</tr>
+<tr class="table_row">
+<td class="table_cell text-[var(--text-primary)]">Calculus Challenge</td>
+<td class="table_cell">5 days ago</td>
+<td class="table_cell text-[var(--danger-color)]">62%</td>
+<td class="table_cell">25m 10s</td>
+<td class="table_cell text-[var(--danger-color)]">Failed</td>
+</tr>
+<tr class="table_row">
+<td class="table_cell text-[var(--text-primary)]">Introduction to Trigonometry</td>
+<td class="table_cell">6 days ago</td>
+<td class="table_cell text-[var(--warning-color)]">71%</td>
+<td class="table_cell">-</td>
+<td class="table_cell text-[var(--warning-color)]">In Progress</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</main>
+</div>
+</body></html>

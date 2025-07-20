@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Leaderboard</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<style type="text/tailwindcss">
+      body {
+        font-family: 'Inter', sans-serif;
+        background-color: #111111;
+      }
+      .frosted-row {
+        background-color: rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+      }
+      .glowing-border {
+        box-shadow: 0 0 15px rgba(255, 255, 255, 0.75);
+      }
+    </style>
+</head>
+<body class="text-white">
+<div class="flex min-h-screen flex-col bg-[#111111]">
+<main class="flex-grow">
+<div class="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
+<div class="text-center">
+<h1 class="text-4xl font-bold tracking-tight sm:text-5xl">Leaderboard</h1>
+<p class="mt-3 text-xl text-neutral-400">See who's on top of the game</p>
+</div>
+<div class="mt-10">
+<div class="border-b border-neutral-700">
+<nav aria-label="Tabs" class="-mb-px flex justify-center space-x-8">
+<a class="border-transparent text-neutral-400 hover:border-white hover:text-white whitespace-nowrap border-b-2 py-4 px-1 text-base font-medium" href="#">Week</a>
+<a aria-current="page" class="border-white text-white whitespace-nowrap border-b-2 py-4 px-1 text-base font-medium" href="#">Month</a>
+<a class="border-transparent text-neutral-400 hover:border-white hover:text-white whitespace-nowrap border-b-2 py-4 px-1 text-base font-medium" href="#">All-Time</a>
+</nav>
+</div>
+</div>
+<div class="mt-8">
+<div class="space-y-4">
+<div class="frosted-row flex items-center rounded-xl p-4">
+<div class="w-12 text-center text-2xl font-bold">🥇</div>
+<div class="ml-4 flex-grow">
+<div class="font-medium">Alex</div>
+</div>
+<div class="text-lg font-semibold">1200</div>
+</div>
+<div class="frosted-row flex items-center rounded-xl p-4">
+<div class="w-12 text-center text-2xl font-bold">🥈</div>
+<div class="ml-4 flex-grow">
+<div class="font-medium">Sarah</div>
+</div>
+<div class="text-lg font-semibold">1150</div>
+</div>
+<div class="frosted-row flex items-center rounded-xl p-4">
+<div class="w-12 text-center text-2xl font-bold">🥉</div>
+<div class="ml-4 flex-grow">
+<div class="font-medium">Chris</div>
+</div>
+<div class="text-lg font-semibold">1100</div>
+</div>
+<div class="frosted-row glowing-border flex items-center rounded-xl p-4">
+<div class="w-12 text-center text-lg font-bold text-neutral-400">4</div>
+<div class="ml-4 flex-grow">
+<div class="font-medium">You (Emily)</div>
+</div>
+<div class="text-lg font-semibold">1050</div>
+</div>
+<div class="frosted-row flex items-center rounded-xl p-4">
+<div class="w-12 text-center text-lg font-bold text-neutral-400">5</div>
+<div class="ml-4 flex-grow">
+<div class="font-medium">David</div>
+</div>
+<div class="text-lg font-semibold">1000</div>
+</div>
+<div class="frosted-row flex items-center rounded-xl p-4">
+<div class="w-12 text-center text-lg font-bold text-neutral-400">6</div>
+<div class="ml-4 flex-grow">
+<div class="font-medium">Jessica</div>
+</div>
+<div class="text-lg font-semibold">950</div>
+</div>
+<div class="frosted-row flex items-center rounded-xl p-4">
+<div class="w-12 text-center text-lg font-bold text-neutral-400">7</div>
+<div class="ml-4 flex-grow">
+<div class="font-medium">Michael</div>
+</div>
+<div class="text-lg font-semibold">900</div>
+</div>
+<div class="frosted-row flex items-center rounded-xl p-4">
+<div class="w-12 text-center text-lg font-bold text-neutral-400">8</div>
+<div class="ml-4 flex-grow">
+<div class="font-medium">Amanda</div>
+</div>
+<div class="text-lg font-semibold">850</div>
+</div>
+<div class="frosted-row flex items-center rounded-xl p-4">
+<div class="w-12 text-center text-lg font-bold text-neutral-400">9</div>
+<div class="ml-4 flex-grow">
+<div class="font-medium">Ryan</div>
+</div>
+<div class="text-lg font-semibold">800</div>
+</div>
+<div class="frosted-row flex items-center rounded-xl p-4">
+<div class="w-12 text-center text-lg font-bold text-neutral-400">10</div>
+<div class="ml-4 flex-grow">
+<div class="font-medium">Sophia</div>
+</div>
+<div class="text-lg font-semibold">750</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+</div>
+
+</body></html>

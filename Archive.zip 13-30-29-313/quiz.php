@@ -47,16 +47,10 @@ if ($mock_mode || $exam_type) {
             // Filter questions for this category
             foreach ($all_questions as $question) {
                 $question_category = $question['category']['name'];
-                $question_subcategory = $question['category']['subcategory'] ?? '';
                 
-                // For Typist test, only include English category questions
-                if ($exam_type === 'mpsc_typist') {
-                    if ($question_category === 'General English') {
-                        $category_questions[] = $question;
-                    }
-                }
-                // For other tests, use the normal filtering
-                else if (empty($subcategories) || in_array($question_category, $subcategories)) {
+                // If subcategories are specified, check if question matches any of them
+                // Otherwise, include all questions for this category
+                if (empty($subcategories) || in_array($question_category, $subcategories)) {
                     $category_questions[] = $question;
                 }
             }
@@ -89,27 +83,12 @@ if ($mock_mode || $exam_type) {
             error_log('WARNING: No questions were selected for the test');
         }
         
-        // Get the total expected questions from the exam config or use the count of selected questions
-        $total_expected = $exam_config['total_questions'] ?? count($selected_questions);
-        
-        // If we still need more questions to reach the expected total
-        $remaining = $total_expected - count($selected_questions);
+        // Take remaining questions from others
+        $remaining = 50 - count($selected_questions);
         if ($remaining > 0) {
-            // Filter out questions that are already selected
-            $available_questions = array_udiff($all_questions, $selected_questions, function($a, $b) {
-                return strcmp(serialize($a), serialize($b));
-            });
-            
-            // Shuffle and select the remaining questions needed
-            shuffle($available_questions);
-            $other_questions_selected = array_slice($available_questions, 0, $remaining);
+            $other_questions_selected = array_slice($all_questions, 0, $remaining);
             $questions = array_merge($selected_questions, $other_questions_selected);
-            
-            error_log(sprintf(
-                'Added %d more questions from other categories to reach total of %d',
-                count($other_questions_selected),
-                count($questions)
-            ));
+            error_log("DEBUG: Selected " . count($other_questions_selected) . " questions from other categories");
             
             // Log categories of other questions selected
             $other_cats = [];
@@ -117,7 +96,7 @@ if ($mock_mode || $exam_type) {
                 $cat = $q['category']['name'];
                 $other_cats[$cat] = ($other_cats[$cat] ?? 0) + 1;
             }
-            error_log("DEBUG: Additional categories selected: " . print_r($other_cats, true));
+            error_log("DEBUG: Other categories selected: " . print_r($other_cats, true));
         }
         
         // Shuffle the final set of questions
@@ -378,21 +357,18 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <?php foreach ($questions as $i => $q): ?>
                     <div class="question-container <?= $i === 0 ? 'active' : 'hidden' ?>" data-question="<?= $i ?>" data-correct-answer="<?= strtolower($q['answer'] ?? 'a') ?>">
                         <?php 
-                        // Get the subcategory from the question data
-                        $subcategory = $q['category']['subcategory'] ?? 'General';
-                        
-                        // Get the category metadata for this subcategory
-                        $category_meta = get_category_meta($subcategory);
-                        
-                        // Set default values if not found
-                        $bg_color = $category_meta['bg_color'] ?? 'bg-gray-100';
-                        $text_color = $category_meta['text_color'] ?? 'text-gray-800';
-                        $icon = $category_meta['icon'] ?? '📚';
+                        // Get category information from the question data
+                        $category = $q['category'] ?? [
+                            'name' => 'General',
+                            'icon' => '📚',
+                            'bg_color' => 'bg-purple-100',
+                            'text_color' => 'text-purple-800'
+                        ];
                         ?>
                         <div class="mb-4">
-                            <span class="inline-flex items-center px-3 py-1 text-sm font-semibold rounded-full <?= $bg_color ?> <?= $text_color ?> space-x-2">
-                                <span class="text-base"><?= $icon ?></span>
-                                <span><?= htmlspecialchars($subcategory) ?></span>
+                            <span class="inline-flex items-center px-3 py-1 text-sm font-semibold rounded-full <?= $category['bg_color'] ?> <?= $category['text_color'] ?> space-x-2">
+                                <span class="text-base"><?= $category['icon'] ?></span>
+                                <span><?= htmlspecialchars($category['name']) ?></span>
                             </span>
                         </div>
                         <h2 class="text-2xl font-bold leading-tight mb-8 text-center"><?= htmlspecialchars($q['question']) ?></h2>

@@ -1,0 +1,2434 @@
+1. If A and B together can complete a piece of work in 15 days and B alone in 20 days, in how many days can A alone complete the work?
+   a) 60
+   b) 45
+   c) 40
+   d) 30
+
+   Answer: a
+
+2. If A and B together can complete a work in 18 days, A and C together in 12 days, and B and C together in 9 days, then B alone can do the work in:
+   a) 18 days
+   b) 24 days
+   c) 30 days
+   d) 40 days
+
+   Answer: b
+
+3. A and B together can complete a work in 3 days. They start together but after 2 days, B left the work. If the work is completed after two more days, B alone could do the work in
+   a) 5 days
+   b) 6 days
+   c) 9 days
+   d) 10 days
+
+   Answer: b
+
+4. A can complete a piece of work in 18 days, B in 20 days and C in 30 days, B and C together start the work and forced to leave after 2 days. The time taken by A alone to complete the remaining work is:
+   a) 10 days
+   b) 12 days
+   c) 15 days
+   d) 16 days
+
+   Answer: c
+
+5. Working 5 hours a day, A can Complete a work in 8 days and working 6 hours a day, B can complete the same work in 10 days. Working 8 hours a day, they can jointly complete the work in:
+   a) 3 days
+   b) 4 days
+   c) 4.5 days
+   d) 5.4 days
+
+   Answer: a
+
+6. Ganga and Saraswati, working separately can mow field in 8 and 12 hours respectively. If they work in stretches of one hour alternately. Ganga is beginning at 9 a.m., when will the moving be completed?
+   a) 6:20 PM
+   b) 6:30 PM
+   c) 6:36 PM
+   d) 6:42 PM
+
+   Answer: b
+
+7. If 10 men can do a piece of work in 12 days, the time taken by 12 men to do the same piece of work will be:
+   a) 12 days
+   b) 10 days
+   c) 9 days
+   d) 8 days
+
+   Answer: b
+
+8. To complete a work, A takes 50% more time than B. If together they take 18 days to complete the work, how much time shall B take to do it?
+   a) 30 days
+   b) 35 days
+   c) 40 days
+   d) 45 days
+
+   Answer: a
+
+9. If 10 men or 20 boys can make 260 mats in 20 days, then how many mats will be made by 8 men and 4 boys in 20 days?
+   a) 260
+   b) 240
+   c) 280
+   d) 520
+
+   Answer: a
+
+10. A complete710710of a work in 15 days, then he completed the remaining work with the help of B in 4 days. In how many day A and B can complete entire work together?
+   a) 1012days1012days
+   b) 1223days1223days
+   c) 1313days1313days
+   d) 814days814days
+
+   Answer: c
+
+11. X can do a piece of work in 40 days. He works at it for 8 days and then Y finished it in 16 days. How long will they together take to complete the work?
+   a) 13131313days
+   b) 15 days
+   c) 20 days
+   d) 26 days
+
+   Answer: a
+
+12. A and B can do a job together in 7 days. A is134134times as efficient as B. The same job can be done by A alone in :
+   a) 913913days
+   b) 11 days
+   c) 12141214days
+   d) 16131613days
+
+   Answer: b
+
+13. A and B together can do a piece of work in 30 days. A having worked for 16 days, B finishes the remaining work alone in 44 days. In how many days shall B finish the whole work alone?
+   a) 30 days
+   b) 40 days
+   c) 60 days
+   d) 70 days
+
+   Answer: c
+
+14. A can finish a piece of work in 18 days and B can do the same work in half of the time taken by A. Then working together what part of the same work they  can finish in a day ?
+   a) 1616
+   b) 2525
+   c) 1919
+   d) 2727
+
+   Answer: a
+
+15. A and B can do a piece of work in 72 days, B and C can do it in 120 days and A and C can do it in 90 days. In how many days all three together can do the work ?
+   a) 80 days
+   b) 100 days
+   c) 60 days
+   d) 150 days
+
+   Answer: c
+
+16. Ayesha can complete a piece of work in 16 days. Amita can complete the same piece of work in 8 days. If both of them work together in how many days can they complete the same piece of work ?
+   a) 425days425days
+   b) 513days513days
+   c) 6 days6 days
+   d) 12 days12 days
+
+   Answer: b
+
+17. A can complete a certain work in 4 minutes, B in 5 minutes, C in 6 minutes, D in 10 minutes and E in 12 minutes. The average number of units of work completed by them per minute will be = ?
+   a) 0.16
+   b) 0.40
+   c) 0.80
+   d) None of these
+
+   Answer: a
+
+18. A daily-wages labourer was engaged for a certain number of days for Rs. 5750, but being absent on some of those days he paid only Rs. 5000. What were his maximum possible daily wages ?
+   a) Rs. 125
+   b) Rs. 250
+   c) Rs. 375
+   d) Rs. 500
+
+   Answer: b
+
+19. A and B together can do a piece of work in 8 days, B and C together in 10 days, while C and A together in 6 days, if they all work together the work will be completed in ?
+   a) 334days334days
+   b) 337days337days
+   c) 5547days5547days
+   d) 449days449days
+
+   Answer: c
+
+20. A and B together can complete a piece of work in 8 days, B alone can complete that work in 12 days. B alone worked for four days. After that how long will A alone takes to complete the work ?
+   a) 15 days
+   b) 18 days
+   c) 16 days
+   d) 20 days
+
+   Answer: c
+
+21. A can complete a piece of work in 36 days, B in 54 days and C in 72 days. All the three began the work the work together but A left 8 days before the completion of the work and B 12 days before the completion of work. Only C worked up to the end. In how many days was the work completed?
+   a) 24 days
+   b) 25 days
+   c) 27 days
+   d) 30 days
+
+   Answer: a
+
+22. While working 7 hour a day, A alone can complete a piece of work in 6 days and B alone in 8 days. In what time would they complete it together, 8 hour a day?
+   a) 3 days
+   b) 4 days
+   c) 2.1 days
+   d) 3.6 days
+
+   Answer: a
+
+23. Two pipes, P and Q can fill a cistern in 12 and 15 minutes respectively. Both are opened together, but at the end of 3 minutes, P is turned off. In how many more minutes will Q fill the cistern?
+   a) 7 minutes
+   b) 712712minutes
+   c) 8 minutes
+   d) 814814minutes
+
+   Answer: d
+
+24. Two pipes can fill an empty tank separately in 24 minutes and 40 minutes respectively and a third pipe can empty 30 gallons of water per minute. If all three pipes are open, empty tanks become full in one hour. The capacity of the tank (in gallons) is:
+   a) 800 gallons
+   b) 600	gallons
+   c) 500 gallons
+   d) 400 gallons
+
+   Answer: b
+
+25. A cistern can be filled by two pipes in 20 and 30 minutes respectively. Both pipes being opened, when the first pipe must be turned off so that the cistern may be filled in 10 minutes more.
+   a) After 10 minutes
+   b) After 12 minutes
+   c) After 20 minutes
+   d) After 8 minutes
+
+   Answer: d
+
+26. A tank can be filled with water by two pipes A and B together in 36 minutes. If the pipe B was stopped after 30 minutes, the tank is filled in 40 minutes. The pipe B can alone fill the tank in:
+   a) 45 minutes
+   b) 60 minutes
+   c) 75 minutes
+   d) 90 minutes
+
+   Answer: d
+
+27. A boy and a girl together fill a cistern with water. The boy pours 4 liters of water every 3 minutes and girl pours 3 litres every 4 minutes. How much time will it take to fill 100 litres of water in the cistern?
+   a) 36 minute
+   b) 42 minutes
+   c) 48 minutes
+   d) 44 minutes
+
+   Answer: c
+
+28. A tank has a leak which would empty the completely filled tank in 10 hours. If the tank is full of water and a tap is opened which admits 4 litres of water per minutes in the tank, the leak takes 15 hours to empty the tank.  how many litres does the tank hold?
+   a) 2400 litres
+   b) 4500 litres
+   c) 1200 litres
+   d) 7200 litres
+
+   Answer: d
+
+29. A, B and C completed a work costing Rs. 1800.  A work for 6 days, B for 4 days and C for 9 days. If their daily wages are in the ratio of 5 : 6 : 4, how much amount will be received by A?
+   a) Rs. 800
+   b) Rs. 600
+   c) Rs. 900
+   d) Rs. 750
+
+   Answer: b
+
+30. A man and a boy received Rs. 800 as wages for 5 days for the work they did together. The man's efficiency in the work was thrice times that of the boy. What are the daily wages of the boy?
+   a) Rs.  76
+   b) Rs. 56
+   c) Rs.  44
+   d) Rs.  40
+
+   Answer: d
+
+31. Subhash can copy 50 pages in 10 hours; Subhash and Prakash together can copy 300 pages in 40 hours. In how much time can Prakash copy 30 pages?
+   a) 13 hour
+   b) 12 hour
+   c) 11 hour
+   d) 9 hour
+   e) 10 hour
+
+   Answer: b
+
+32. An engineer undertakes a project to build a road 15 km long in 300 days and employs 45 men for the purpose. After 100 days, he finds 2.5 km of the road has been completed. Find the (approx.) number of extra men he must employ to finish the work in time.
+   a) 43
+   b) 45
+   c) 55
+   d) 68
+   e) 60
+
+   Answer: d
+
+33. There is provision of food in fort for 1200 soldiers for 60 days. After 15 days, 200 soldiers leave the fort. Remaining food will last for how many days?
+   a) 56 days
+   b) 50 days
+   c) 54 days
+   d) 48 days
+
+   Answer: c
+
+34. A and B working together completed a job in 5 days. If A works twice as efficiently as he actually did and B works1313of actual efficiency, the work would have completed in 3 days. Find the for A to complete the job alone.
+   a) 612612
+   b) 614614
+   c) 634634
+   d) 12121212
+   e) None of these
+
+   Answer: b
+
+35. Two pipes A and B  can fill a cistern in 12 min and 16 min respectively. Both the pipes are opened together for a certain time but due to some obstruction the flow of water was restricted to7878of full flow in pipe A and5656of full in pipe B. This obstruction is removed after some time and tank is now filled in 3 min from that moment. How long was it before the full flow.
+   a) 8 min
+   b) 3 min
+   c) 5.6 min
+   d) 4.5 min
+   e) None of these
+
+   Answer: d
+
+36. Three pipes A,B and C attached to a cistern. A can fill it in 10 min, B in 15 min, C is a waste pipe for emptying it. After opening both the pipes A and B, a man leaves the cistern  and returns when the cistern should have been just full. Finding, however, that the waste pipe had left open, he closes it and the cistern now gets filled in 2 min. In how much time the pipe C, if opened alone, empty the full cistern?
+   a) 12 min
+   b) 16 min
+   c) 18 min
+   d) 15 min
+   e) None of these
+
+   Answer: c
+
+37. There is a group of 5 boys and 2 girls. The two groups working together can do four times as much work as a boy and a girl. Ratio of working capacities of a boy and a girl is:
+   a) 2 : 1
+   b) 2 : 3
+   c) 1 : 3
+   d) 1 : 2
+
+   Answer: a
+
+38. A group of 12 men can do a piece of work in 14 days and other group of 12 women can do the same work in 21 days. They begin together but 3 days before the completion of work, man's group leaves off. The total number of days to complete the work is:
+   a) 654654
+   b) 933933
+   c) 515515
+   d) 60
+
+   Answer: c
+
+39. Vimal can do a piece of work in 20 days, Vimal and Kamal together can do in 12 days. If Kamal does the work only for half a day daily then in how many days the work will be completed ?
+   a) 14
+   b) 17
+   c) 12
+   d) 15
+
+   Answer: d
+
+40. There are three boats A, B and C, working together they carry 60 people in each trip. One day an early morning A carried 50 people in few trips alone. When it stopped carrying the passengers B and C  started carrying the people together. It took a total of 10 trips to carry 300 people by A, B and C. It is known that each day on an average 300 people cross the river using only one of the 3 boats A, B and C. How many trips it would take to A to carry 150 passengers alone?
+   a) 15
+   b) 30
+   c) 25
+   d) 10
+   e) None of these
+
+   Answer: a
+
+41. Raj can do a piece of work in 20 days. He started the work and left after some days, when 25% work was done. After it Abhijit joined and completed it working for 10 days. In how many days Raj and Abhijit can do the complete work, working together?
+   a) 6
+   b) 8
+   c) 10
+   d) 12
+
+   Answer: b
+
+42. If 10 persons can do a job in 20 days, then 20 person with twice the efficiency can do the same job in:
+   a) 5 days
+   b) 40 days
+   c) 10 days
+   d) 20 days
+
+   Answer: a
+
+43. There was a leakage in the container of the refined oil. If 11 kg oil is leaked out per day then it would have lasted for 50 days, if the leakage was 15 kg per day, then it would have lasted for only 45 days. For how many days would the oil have lasted, if there was no leakage ant it was completely used for eating purpose?
+   a) 80 days
+   b) 72 days
+   c) 100 days
+   d) 120 days
+
+   Answer: b
+
+44. If 2 men or 3 women or 4 boys can do a piece of work in 52 days, then the same piece of work will be done by 1 man, 1 woman and 1 boy in:
+   a) 48 days
+   b) 36 days
+   c) 45 days
+   d) 50 days
+
+   Answer: a
+
+45. If one pipe A can fill a tank in 20 minutes, then 5 pipes, each of 20% efficiency of A, can fill the tank in:
+   a) 80 min
+   b) 100 min
+   c) 20 min
+   d) 25 min
+
+   Answer: c
+
+46. If m men can do a work in r days, then the number of days taken by (m + n) men to do it is :
+   a) m+nmnm+nmn
+   b) m+nmrm+nmr
+   c) mrm+nmrm+n
+   d) r(m+n)mnr(m+n)mn
+
+   Answer: c
+
+47. X takes 4 days to complete one-third of a job. Y takes 3 days to complete one-sixth of the job and Z takes 5 days to complete half the job. If all of them work together for 3 days and X and Z quit, how long will it take for Y to complete the remaining work done.
+   a) 6 days
+   b) 8.1 days
+   c) 5.1 days
+   d) 7 days
+   e) None of these
+
+   Answer: c
+
+48. Two typist of varying skills can do a job in 6 minutes if they work together. If the first typist typed alone for 4 minutes and then the second typist typed alone for 6 minutes, they would be left with1515of the whole work. How many minutes would it take the slower typist to complete the typing job working alone ?
+   a) 10 minutes
+   b) 15 minutes
+   c) 12 minutes
+   d) 20 minutes
+   e) 17 minutes
+
+   Answer: b
+
+49. A and B completed a work together in 5 days. had A worked at twice the speed and B at half the speed, it would have taken them four days to complete the job. How much time would it take for A alone to do the work?
+   a) 10 days
+   b) 20 days
+   c) 25 days
+   d) 15 days
+   e) 24 days
+
+   Answer: a
+
+50. Two forest officials in their respective division were involved in the harvesting of tendu leave. One division had an average output of 21 tons from a hectares and other division, which had 12 hectares of land less, dedicated to tendu leaves, got 25 tons of tendu from a hectare. As a result, the second division harvested 300 tons of tendu leaves more than the first. How many tons of tendu leaves did the first division harvest.
+   a) 3150
+   b) 3450
+   c) 3500
+   d) 3600
+   e) None of these
+
+   Answer: a
+
+51. The charges per hour of internet surfing is increased by 25% then find the percentage decrease in the time period of surfing user (a net savy) who can afford only 10% increase in expenditure:
+   a) 22%
+   b) 12%
+   c) 15%
+   d) 9.09%
+
+   Answer: b
+
+52. Ram Lal is a renowned packager of fruits in Varanasi. He packs 70 mangoes or 56 guavas every day working 7 hours a day. His wife also helps him. She packs 30 mangoes or 24 guavas working 6 hours per day. Ram Lal has to pack 3300 mangoes and 2400 guavas with help of his wife. They works alternately, each day 10 hours. His wife started packaging firs day and works every alternate days. Similarly, Ram Lal started his work second day and and worked alternatively till the completion of the work. In how many days the work will finished?
+   a) 85328532
+   b) 85
+   c) 84
+   d) 80
+   e) None of these
+
+   Answer: c
+
+53. A group of men decided to do a job in 4 days. But since 20 men dropped out every day, the job completed at the end of the 7thday. How many men were there at the beginning?
+   a) 240
+   b) 140
+   c) 280
+   d) 150
+   e) None of these
+
+   Answer: b
+
+54. Two persons having different productivity of labour, working together can reap a field in 2 days. If one-third of the field was reaped by the first man and rest by the other one working alternatively took 4 days. How long did it take for the faster person to reap the whole field working alone?
+   a) 3
+   b) 6
+   c) 8
+   d) 12
+   e) None of these
+
+   Answer: a
+
+55. A group of workers was put on a job. From second day onwards, one worker was withdrawn each day. The job was finished when the last worker was withdrawn. Had no worker been withdrawn at any stage, the group would have finished the job in 55% of the time. How many workers were there in the group?
+   a) 15
+   b) 14
+   c) 12
+   d) 10
+   e) 8
+
+   Answer: d
+
+56. A single reservoir supplies the petrol to the whole city, while the reservoir is fed by a single pipeline filling the reservoir with the stream of uniform volume. When the reservoir is full and if 40, 000 litres of petrol is used daily, the supply fails in 90 days. If 32, 000 litres of petrol used daily, it fails in 60 days. How much petrol can be used daily without the supply ever failing?
+   a) 64000 litres
+   b) 56000 litres
+   c) 60000 litres
+   d) 78000 litres
+   e) None of these
+
+   Answer: b
+
+57. Working together  B and C take 50% more number of days than A, B and C together take and A and B working together, take8383more number of days than A, B and C take together. If A, B and C all have worked together till the completion of the work and B has received Rs. 120 out of total earnings of Rs. 450, then in how many days did A, B and C together complete the whole work?
+   a) 2 days
+   b) 4 days
+   c) 6 days
+   d) 8 days
+   e) 10 days
+
+   Answer: b
+
+58. Two men and women are entrusted with a task. The second man needs three hours more to cope up with the job than the second man and the woman would need working together. The first man, working alone, would need as much time as second man and the woman working together. The first man  working alone, would spend  eight hours less than the double period of the time second man would spend working alone. How much time would the two men and the women need to complete the task if they all asked together?
+   a) 1 hour
+   b) 2 hours
+   c) 3 hours
+   d) 4 hours
+   e) 5 hours
+
+   Answer: a
+
+59. At a Tech Pvt Ltd. there are some engineering students employed as trainee engineers, belong to two eminent institutions of India. One group belongs to IIT and another to NIT. Each student of IIT works for 10 hours a day till 60 days and each student of NIT works for 8 hours a day till 80 days on the two same project. The ratio of students of IIT and that of NIT is 4:5 respectively. Students of  which institution is slower in work and by how much?
+   a) IITian is 20% less efficient
+   b) NITian is 33.33% less efficien
+   c) NIT is 25% less efficient
+   d) IIT is 33.33% less efficient
+   e) Cannot be determined
+
+   Answer: c
+
+60. 42 women can do a piece of work in 18 days, How many women would be required do the same work in 21 days.
+   a) 35
+   b) 36
+   c) 37
+   d) 38
+
+   Answer: b
+
+61. A is thrice good a workman as B and therefore is able to finish a job in 40 days less than B. Working together they can do it in:
+   a) 15 days
+   b) 16 days
+   c) 18 days
+   d) 20 days
+
+   Answer: a
+
+62. A and B can compete a piece of work in 18 days. They worked together for 12 days and then A left. B alone finished the work in 15 days. If Rs. 1500 be paid for the work then A's share is:
+   a) Rs. 750
+   b) Rs. 800
+   c) Rs. 600
+   d) Rs. 900
+
+   Answer: c
+
+63. If 3 men or 4 women can plough a field in 43 days, how long will 7 men and 5 women take to plough it?
+   a) 10 days
+   b) 11 days
+   c) 9 days
+   d) 12 days
+
+   Answer: d
+
+64. To complete a piece of work A and B take 8 days, B and C 12 days. A, B and C take 6 days. A and C will take :
+   a) 7 Days
+   b) 7.5 Days
+   c) 8 Days
+   d) 8.5 Days
+
+   Answer: c
+
+65. Two pipes can fill the cistern in 10hr and 12 hr respectively, while the third empty it in 20hr. If all pipes are opened simultaneously, then the cistern will be filled in:
+   a) 7.5 hr
+   b) 8 hr
+   c) 8.5 hr
+   d) 10 hr
+
+   Answer: a
+
+66. Three taps A, B and C together can fill an empty cistern in 10 minutes. The tap A alone can fill it in 30 minutes and the tap B alone in 40 minutes. How long will the tap C alone take to fill it?
+   a) 16 minutes
+   b) 24 minutes
+   c) 32 minutes
+   d) 40 minutes
+
+   Answer: b
+
+67. A and B working separately can do a piece of work in 9 and 15 days respectively. If they work for a day alternately, with A beginning, then the work will be completed in:
+   a) 9 days
+   b) 10 days
+   c) 11 days
+   d) 12 days
+
+   Answer: c
+
+68. Two pipes A and B can fill a tank in 36 min. and 45 min. respectively. Another pipe C can empty the tank in 30 min. First A and B are opened. After 7 minutes, C is also opened. The tank filled up in:
+   a) 39 min.
+   b) 46 min
+   c) 40 min.
+   d) 45 min.
+
+   Answer: b
+
+69. Three men A, B, C working together can do a job in 6 hours less time than A alone, in one hour less time than B alone and in one half the time needed by C when working alone. Then A and B together can do the job in:
+   a) 2323hours
+   b) 3434hours
+   c) 3232hours
+   d) 4343hours
+
+   Answer: d
+
+70. A does half as much work as B in one -sixth of the time.If together they take 10 days to complete a work, how much time shall B take to do it alone?
+   a) 13.33 days
+   b) 20 days
+   c) 30 days
+   d) 40 days
+
+   Answer: d
+
+71. An employee pays Rs. 26 for each day a worker and forfeits Rs. 7 for each day he idle. At the end of 56 days, if the worker got Rs. 829, for how many days did the worker remain idle?
+   a) 21
+   b) 15
+   c) 19
+   d) 13
+   e) 17
+
+   Answer: c
+
+72. A is 60% more efficient than B. In how many days will A and B working together complete a piece of work which A alone takes 15 days to finish?
+   a) 1241312413days
+   b) 1131311313days
+   c) 1081310813days
+   d) 1311313113days
+   e) 1201312013days
+
+   Answer: e
+
+73. A pipe can fill a tank in 0.9 hours and another pipe can empty in 0.7 hours. If tank is completely filled and both pipes are opened simultaneously then 450 liters of water is removed from the tank is 2.5 hours. What is the capacity of the tank?
+   a) 200 liters
+   b) 350 liters
+   c) 456 liters
+   d) 567 liters
+   e) None of these
+
+   Answer: d
+
+74. A can do a work in 15 days and B in 20 days. If they work on it together for 4 days, then the fraction of the work that is left is :
+   a) 1414
+   b) 110110
+   c) 715715
+   d) 815815
+
+   Answer: d
+
+75. A can lay railway track between two given stations in 16 days and B can do the same job in 12 days. With help of C, they did the job in 4 days only. Then, C alone can do the job in:
+   a) 915915days
+   b) 927927days
+   c) 935935days
+   d) 10
+
+   Answer: c
+
+76. A, B and C can do a piece of work in 20, 30 and 60 days respectively. In how many days can A do the work if he is assisted by B and C on every third day?
+   a) 12 days
+   b) 15 days
+   c) 16 days
+   d) 18 days
+
+   Answer: b
+
+77. A is thrice as good as workman as B and therefore is able to finish a job in 60 days less than B. Working together, they can do it in:
+   a) 20 days
+   b) 22122212days
+   c) 25 days
+   d) 30 days
+
+   Answer: b
+
+78. A alone can do a piece of work in 6 days and B alone in 8 days. A and B undertook to do it for Rs. 3200. With the help of C, they completed the work in 3 days. How much is to be paid to C?
+   a) Rs. 375
+   b) Rs. 400
+   c) Rs. 600
+   d) Rs. 800
+
+   Answer: b
+
+79. If 6 men and 8 boys can do a piece of work in 10 days while 26 men and 48 boys can do the same in 2 days, the time taken by 15 men and 20 boys in doing the same type of work will be:
+   a) 4 days
+   b) 5 days
+   c) 6 days
+   d) 7 days
+
+   Answer: a
+
+80. A can do a piece of work in 4 hours; B and C together can do it in 3 hours, while A and C together can do it in 2 hours. How long will B alone take to do it?
+   a) 8 hours
+   b) 10 hours
+   c) 12 hours
+   d) 24 hours
+
+   Answer: c
+
+81. A can do a certain work in the same time in which B and C together can do it. If A and B together could do it in 10 days and C alone in 50 days, then B alone could do it in:
+   a) 15 days
+   b) 20 days
+   c) 25 days
+   d) 30 days
+
+   Answer: c
+
+82. A does 80% of a work in 20 days. He then calls in B and they together finish the remaining work in 3 days. How long B alone would take to do the whole work?
+   a) 23 days
+   b) 37 days
+   c) 37123712days
+   d) 40 days
+
+   Answer: c
+
+83. A machine P can print one lakh books in 8 hours, machine Q can print the same number of books in 10 hours while machine R can print them in 12 hours. All the machines are started at 9 A.M. while machine P is closed at 11 A.M. and the remaining two machines complete work. Approximately at what time will the work (to print one lakh books) be finished ?
+   a) 11:30 A.M.
+   b) 12 Noon
+   c) 12:30 P.M.
+   d) 1:00 P.M.
+
+   Answer: d
+
+84. A can finish a work in 18 days and B can do the same work in 15 days. B worked for 10 days and left the job. In how many days, A alone can finish the remaining work?
+   a) 5
+   b) 512512
+   c) 6
+   d) 8
+   e) None of these
+
+   Answer: c
+
+85. 4 men and 6 women can complete a work in 8 days, while 3 men and 7 women can complete it in 10 days. In how many days will 10 women complete it?
+   a) 35
+   b) 40
+   c) 45
+   d) 50
+   e) None of these
+
+   Answer: b
+
+86. A and B can together finish a work 30 days. They worked together for 20 days and then B left. After another 20 days, A finished the remaining work. In how many days A alone can finish the work?
+   a) 40
+   b) 50
+   c) 54
+   d) 60
+   e) None of these
+
+   Answer: d
+
+87. P can complete a work in 12 days working 8 hours a day. Q can complete the same work in 8 days working 10 hours a day. If both P and Q work together, working 8 hours a day, in how many days can they complete the work?
+   a) 55115511
+   b) 56115611
+   c) 65116511
+   d) 66116611
+   e) None of these
+
+   Answer: a
+
+88. 10 women can complete a work in 7 days and 10 children take 14 days to complete the work. How many days will 5 women and 10 children take to complete the work?
+   a) 3
+   b) 5
+   c) 7
+   d) Cannot be determined
+   e) None of these
+
+   Answer: c
+
+89. X and Y can do a piece of work in 20 days and 12 days respectively. X started the work alone and then after 4 days Y joined him till the completion of the work. How long did the work last?
+   a) 6 days
+   b) 10 days
+   c) 15 days
+   d) 20 days
+
+   Answer: b
+
+90. A is 30% more efficient than B. How much time will they, working together, take to complete a job which A alone could have done in 23 days?
+   a) 11 days
+   b) 13 days
+   c) 2031720317days
+   d) None of these
+
+   Answer: b
+
+91. Ravi and Kumar are working on an assignment. Ravi takes 6 hours to type 32 pages on a computer, while Kumar takes 5 hours to type 40 pages. How much time will they take, working together on two different computers to type an assignment of 110 pages?
+   a) 7 hours 30 minutes
+   b) 8 hours
+   c) 8 hours 15 minutes
+   d) 8 hours 25 minutes
+
+   Answer: c
+
+92. A, B and C can complete a piece of work in 24, 6 and 12 days respectively. Working together, they will complete the same work in:
+   a) 124124day
+   b) 724724day
+   c) 337337days
+   d) 4 days
+
+   Answer: c
+
+93. Sakshi can do a piece of work in 20 days. Tanya is 25% more efficient than Sakshi. The number of days taken by Tanya to do the same piece of work is:
+   a) 15
+   b) 16
+   c) 18
+   d) 25
+
+   Answer: b
+
+94. A takes twice as much time as B or thrice as much time as C to finish a piece of work. Working together, they can finish the work in 2 days. B can do the work alone in:
+   a) 4 days
+   b) 6 days
+   c) 8 days
+   d) 12 days
+
+   Answer: b
+
+95. A and B can complete a work in 15 days and 10 days respectively. They started doing the work together but after 2 days B had to leave and A alone completed the remaining work. The whole work was completed in :
+   a) 8 days
+   b) 10 days
+   c) 12 days
+   d) 15 days
+
+   Answer: c
+
+96. A and B can do a piece of work in 30 days, while B and C can do the same work in 24 days and C and A in 20 days. They all work together for 10 days when B and C leave. How many days more will A take to finish the work?
+   a) 18 days
+   b) 24 days
+   c) 30 days
+   d) 36 days
+
+   Answer: a
+
+97. A works twice as fast as B. If B can complete a work in 12 days independently, the number of days in which A and B can together finish the work in :
+   a) 4 days
+   b) 6 days
+   c) 8 days
+   d) 18 days
+
+   Answer: a
+
+98. Twenty women can do a work in sixteen days. Sixteen men can complete the same work in fifteen days. What is the ratio between the capacity of a man and a woman?
+   a) 3 : 4
+   b) 4 : 3
+   c) 5 : 3
+   d) Data inadequate
+
+   Answer: b
+
+99. A and B can do a work in 8 days, B and C can do the same work in 12 days. A, B and C together can finish it in 6 days. A and C together will do it in :
+   a) 4 days
+   b) 6 days
+   c) 8 days
+   d) 12 days
+
+   Answer: c
+
+100. A can finish a work in 24 days, B in 9 days and C in 12 days. B and C start the work but are forced to leave after 3 days. The remaining work was done by A in:
+   a) 5 days
+   b) 6 days
+   c) 10 days
+   d) 10121012days
+
+   Answer: c
+
+101. A can finish a work in 18 days and B can do the same work in half the time take by A. Then, working together, what part of the same work they can finish in a day ?
+   a) 1616
+   b) 1919
+   c) 2525
+   d) 2727
+
+   Answer: a
+
+102. A  can knit a pair of socks in 3 days. B can knit the same pair of socks in 9 days. If they are knitting together, then in how many days will they knit two pairs of socks ?
+   a) 3 days
+   b) 4 days
+   c) 412412days
+   d) 5 days
+
+   Answer: c
+
+103. P can complete1414of a work in 10 days, Q can complete 40% of the same work in 145 days. R, complete1313of the work in 13 days and S,1616of the work in 7 days. Who will be able complete the work first ?
+   a) P
+   b) Q
+   c) R
+   d) S
+
+   Answer: c
+
+104. George takes 8 hours to copy a 50-page manuscript while Sonia can copy the same manuscript in 6 hours. How many hours would it take them to copy a 100-page manuscript, if they work together ?
+   a) 667hours667hours
+   b) 9 hours9 hours
+   c) 957hours957hours
+   d) 14 hours14 hours
+
+   Answer: a
+
+105. A and B together complete a piece of work in T days. If A alone completes the work in T + 3 days and B alone completes the piece of work in T + 12 days, what is T ?
+   a) 3 days
+   b) 9 days
+   c) 12 days
+   d) Cannot be determined
+   e) None of these
+
+   Answer: e
+
+106. A can do a piece of work in 20 days and B in 40 days. If they work together for 5 days, then the fraction of the work that is left is ?
+   a) 5858
+   b) 815815
+   c) 715715
+   d) 110110
+
+   Answer: a
+
+107. If there is a reduction in the number of workers in a factory in the ratio 15 : 11 and an increment in their wages in the rate 22 : 25, then the ratio by which the total wages of the workers should be decreased is = ?
+   a) 6 : 5
+   b) 5 : 6
+   c) 3 : 7
+   d) 3 : 5
+
+   Answer: a
+
+108. x does1414of a job in 6 days. y completes rest of the job in 12 days. Then x and y could complete the job together in = ?
+   a) 9 days9 days
+   b) 818days818days
+   c) 935days935days
+   d) 713days713days
+
+   Answer: c
+
+109. Reena, Aastha and Shloka can independently complete a piece of work in 6 hours, 4 hours and 12 hours respectively. If they work together, how much time will they take to complete that piece of work ?
+   a) 2 hours
+   b) 5 hours
+   c) 6 hours
+   d) 8 hours
+   e) None of these
+
+   Answer: a
+
+110. Amit and Sumit can plough a field in 4 days. Sumit alone can plough the field in 6 days. In how many days will Amit alone plough the feild ?
+   a) 10 days
+   b) 12 days
+   c) 14 days
+   d) 15 days
+
+   Answer: b
+
+111. A contractor was engaged to construct a road in 16 days. After working for 12 days with 20 labours it was found that only5858th  of the road had been constructed. To complete the work in stipulated time the number of extra labours required are ?
+   a) 16
+   b) 12
+   c) 10
+   d) 18
+
+   Answer: a
+
+112. A alone can complete a piece of work in 18 days and B alone in 15 days, B alone worked at it for 10 days and then left the work. In how many more days, will A alone complete the remaining work ?
+   a) 5 days
+   b) 512days512days
+   c) 6 days
+   d) 8 days
+
+   Answer: c
+
+113. A can do a piece of work in 12 days. When he had worked for 3 days. B joined him. If they complete the work in 3 more days, in how many days can B alone finish the work ?
+   a) 6 days
+   b) 12 days
+   c) 4 days
+   d) 8 days
+
+   Answer: a
+
+114. 45 men can complete a piece of work in 16 days. Four days they started working , 36 more men joined them. How many days will they take to complete the remaining work ?
+   a) 6 days
+   b) 8 days
+   c) 623days623days
+   d) 734days734days
+
+   Answer: c
+
+115. A started a ,work and left after working for 2 days. Then B was called and he finished the work in 9 days. had A left the work after working for 3 days, B would have finished the remaining work in 6 days. In how many days can each of them, working alone, finish the whole work ?
+   a) 2.5 days, 7.5 days
+   b) 5 days, 8.5 days
+   c) 5 days, 15 days
+   d) None of these
+
+   Answer: c
+
+116. Working together, Asha and Sudha can complete an assigned task in 20 days. However, if Asha worked alone and completed half the work and then Sudha takes over the task and completes the second half of the task, the  task will be completed in 45 days. How long will Asha take to complete the if she worked alone ? Assume that Sudha is more efficient than Asha.
+   a) 25 days
+   b) 30 days
+   c) 60 days
+   d) 65 days
+
+   Answer: c
+
+117. A can do a piece of work in 14 days which B can do in 21 days. They begin together but 3 days before the completion of the work. A leaves off. The total number of days to complete the work is ?
+   a) 635635
+   b) 812812
+   c) 10151015
+   d) 13121312
+
+   Answer: c
+
+118. A and B together can complete a job in 8 days. Both B and C, working alone can finish the same job in 12 days, A and B commence work on the job, and work for 4 days, where upon A leaves, B continues for 2 more days, and then he leaves too, C now starts working, and finishes the job. How many days will C require to finish the remaining work ?
+   a) 5 days
+   b) 8 days
+   c) 3 days
+   d) 4 days
+
+   Answer: d
+
+119. A and B can together finish a piece of work in 30 days. They worked on it 20 days and then B left. The remaining work was done by A alone in 20 days. A alone can finish the work in = ?
+   a) 60 days
+   b) 54 days
+   c) 48 days
+   d) 50 days
+
+   Answer: a
+
+120. 16 women take 12 days to complete a work which can be completed by 12 men in 8 days. 16 men started working and after 3 days 10 men left and 4 women joined them. How many days will they take to complete the remaining work ?
+   a) 4 days
+   b) 6 days
+   c) 8 days
+   d) 10 days
+
+   Answer: b
+
+121. Janardan completes2323of his work in 10 days. Time he will take to complete of the same3535work, is ?
+   a) 4 days
+   b) 8 days
+   c) 6 days
+   d) 9 days
+
+   Answer: d
+
+122. A can do a piece of work in 12 days while B alone can do it in 15 days. With the help of C they can finish it in 5 days. If they are paid Rs. 960 for the whole work. How much money A gets ?
+   a) Rs. 480
+   b) Rs. 240
+   c) Rs. 320
+   d) Rs. 400
+
+   Answer: d
+
+123. Two spinning machines A and B can together produce 300000 metres of cloth in 10 hours. If machine B alone can produce the same amount of cloth in 15 hours. Then how much cloth can machine A produce alone in 10 hours ?
+   a) 50000 metres
+   b) 100000 metres
+   c) 150000 metres
+   d) 200000 metres
+
+   Answer: b
+
+124. X, Y and Z complete a work in 6 days. X or Y alone can do the same work in 16 days. In how many days Z alone can finish the same work ?
+   a) 12
+   b) 16
+   c) 24
+   d) 36
+
+   Answer: c
+
+125. In two days A, B and C together can finish1212of a work and in another 2 days B and C together can finish310310part of the work. Then A alone can complete the whole work in ?
+   a) 15 days
+   b) 10 days
+   c) 12 days
+   d) 14 days
+
+   Answer: b
+
+126. Working efficiencies of P and Q for completing a piece of work are in the ratio 3 : 4. The number of days to be taken by them to complete the work will be in the ratio ?
+   a) 3 : 2
+   b) 2 : 3
+   c) 3 : 4
+   d) 4 : 3
+
+   Answer: d
+
+127. 5 men can do a piece of work in 6 days while 10 women can do it in 5 days. In how many days can 5 women  and 3 men do it ?
+   a) 4 days
+   b) 5 days
+   c) 6 days
+   d) 8 days
+
+   Answer: b
+
+128. A can lay railway track between two given stations in 16 days and B can do the same job in 12 days. With the help of C, they did the job in 4 days only. Then, C alone can do the job in ?
+   a) 915days915days
+   b) 925days925days
+   c) 935days935days
+   d) 10 days10 days
+
+   Answer: c
+
+129. A can complete1313of a work in 5 days and B,2525of the work in 10 days. In how many days both A and B together can complete the work ?
+   a) 712712
+   b) 845845
+   c) 938938
+   d) 10
+
+   Answer: c
+
+130. If 3 men or 6 women can do a piece of work in 16 days, in how many days can 12 men and 8 women do the same piece of work ?
+   a) 4 days
+   b) 5 days
+   c) 3 days
+   d) 2 days
+
+   Answer: c
+
+131. If 16 men or 20 women can do a piece of work in 25 days. In what time will 28 men and 15 women do it ?
+   a) 1427days1427days
+   b) 3313days3313days
+   c) 1834days1834days
+   d) 10 days10 days
+
+   Answer: d
+
+132. Jyoti can do3434of a job in 12 days. Mala is twice as efficient as Jyoti. In how many days will Mala finish the job ?
+   a) 6 days
+   b) 8 days
+   c) 12 days
+   d) 16 days
+
+   Answer: b
+
+133. A man and a boy together can do a certain amount of digging in 40 days. Their speeds in digging are in the ratio of 8 : 5. How many days will the boy take to complete the work if engaged alone ?
+   a) 52 days
+   b) 68 days
+   c) 80 days
+   d) 104 days
+
+   Answer: d
+
+134. Work done by A in one day is half of the work done by B in one day. Work done by B is half of the work done by C in one day. If C alone can complete the work in 7 days, in how many days can A, B and C together complete the work ?
+   a) 4 days
+   b) 14 days
+   c) 21 days
+   d) 28 days
+   e) None of these
+
+   Answer: a
+
+135. Rosa can eat 32 rosogollas in one hour. Her sister Lila needs three hours to eat the same number. How much time will they take to eat 32 rosogollas together ?
+   a) 45 minutes
+   b) 75 minutes
+   c) 90 minutes
+   d) None of these
+
+   Answer: a
+
+136. Tapas works twice as fast as Mihir. If both of them together complete a work in 12 days, Tapas alone can complete it in ?
+   a) 15 days
+   b) 18 days
+   c) 20 days
+   d) 24 days
+
+   Answer: b
+
+137. 2 men and 3 women together or 4 men can complete a piece of work in 20 days. 3 men and 3 women will complete the same work in = ?
+   a) 12 days
+   b) 16 days
+   c) 18 days
+   d) 19 days
+
+   Answer: b
+
+138. Twenty women together can complete a piece of work in 16 days, 16 men together can complete the same work in 15 days. The ratio of the working capacity of a man to that of a women is = ?
+   a) 3 : 4
+   b) 4 : 3
+   c) 5 : 3
+   d) 4 : 5
+
+   Answer: b
+
+139. A conveyor belt delivers baggage at the rate of 3 tons in 5 minutes and second conveyor belt delivers baggage at the rate of 1 ton in 2 minutes. How much time will it take to get 
+33 tons of baggage delivered using both the conveyor belts together ?
+   a) 25 minutes  30 seconds
+   b) 30 minutes
+   c) 35 minutes
+   d) 45 minutes
+
+   Answer: b
+
+140. A manufacturer builds a machine which will address 500 envelopes in 8 minutes. He wishes to build another machine so that when both are operating together they will address 500 envelopes in 2 minutes. The equation used to find how many minutes x it would require the second machine to address 500 envelopes alone, is = ?
+   a) 8−x=28−x=2
+   b) 18+1x=1218+1x=12
+   c) 5008+500x=5005008+500x=500
+   d) x2+x8=1x2+x8=1
+
+   Answer: b
+
+141. Computer A takes 3 minutes to process an input while computer B takes 5 minutes. If computers A, B and C can process an average of 14 inputs in one hour, how many minutes does computer C alone take to process one input ?
+   a) 4 minutes
+   b) 6 minutes
+   c) 10 minitus
+   d) None of these
+
+   Answer: b
+
+142. 5 men and 2 women working together can do four times as much work per hour as a men and a women together. The work done by a men and a women should be in the ratio ?
+   a) 1 : 2
+   b) 2 : 1
+   c) 1 : 3
+   d) 4 : 1
+
+   Answer: b
+
+143. If 40 men or 60 women or 80 children can do a piece of work in 6 months, then 10 men, 10 women and 10 children together do the work in ?
+   a) 5613months5613months
+   b) 6 months6 months
+   c) 5713months5713months
+   d) 11113months11113months
+
+   Answer: d
+
+144. Two workers A and B  working together completed a job in 5 days. If A had worked twice as efficiently as he actually did, the work would have been completed in 3 days. To complete the job alone, A would require?
+   a) 515days515days
+   b) 614days614days
+   c) 712days712days
+   d) 834days834days
+
+   Answer: c
+
+145. 3 men and 7 women can do a job in 5 days, while 4 men and 6 women can do it in 4 days. The number of days required for a group of 10 women working together, at the same rate as before, to finish the same job in ?
+   a) 30 days
+   b) 36 days
+   c) 40 days
+   d) 20 days
+
+   Answer: d
+
+146. P, Q and R are three typists who working simultaneously can type 216 pages in 4 hours. In one hour, R can type as many pages more than Q as Q can type more than P. During a period of five hours, R can type as many pages as P can during seven hours. How many pages does each of them type per hour ?
+   a) 14, 17, 20
+   b) 15, 17, 22
+   c) 15, 18, 21
+   d) 16, 18, 22
+
+   Answer: c
+
+147. Ronald and Elan are working on an assignment. Ronald takes 6 hours to type 32 pages on a computer, while Elan takes 5 hours to type 40 pages.  How much time will they take, working together on two different computers to type an assignment of 110 pages ?
+   a) 7 hours 30 minutes
+   b) 8 hours
+   c) 8 hours 15 minutes
+   d) 8  hours 25 minutes
+
+   Answer: c
+
+148. Cloth Makers Inc. has p spindles, each of which can produce q metres of cloth on an average in r  minutes. If the spindles are made to run with no interruption, then how many hours will it take for 20000 metres of cloth to be produced ?
+   a) 20000pqr20000pqr
+   b) 20000rqp20000rqp
+   c) 20000rpq20000rpq
+   d) 20000r60pq20000r60pq
+
+   Answer: d
+
+149. One man or two women or three boys can do a piece  of work in 88 days. One man, one woman and one boy will do it in ?
+   a) 44 days
+   b) 24 days
+   c) 48 days
+   d) 20 days
+
+   Answer: c
+
+150. 15 men can finish a piece of work in 20 days, however it takes 24 women to finish it in 20 days. If 10 men and 8 women undertake to complete the work, then they will take ?
+   a) 20 days
+   b) 30 days
+   c) 10 days
+   d) 15 days
+
+   Answer: a
+
+151. 3 men or 5 women can do a work in 12 days. How long will 6 men and 5 women take to finish the work ?
+   a) 20 days
+   b) 10 days
+   c) 4 days
+   d) 15 days
+
+   Answer: c
+
+152. A particular job can be completed by a team of 10 men in 12 days. The same job can be completed by a team of 10 women in 6 days. How many days are needed to complete the job if the two teams work together ?
+   a) 4 days
+   b) 6 days
+   c) 9 days
+   d) 18 days
+
+   Answer: a
+
+153. Two workers A and B are engaged to do a work. A working alone takes 8 hours more to complete the job than if both worked together. If B worked alone, he would need 41/2hours more to complete the job than they both working together. What time would they take to do the work together ?
+   a) 4 hours
+   b) 5 hours
+   c) 6 hours
+   d) 7 hours
+
+   Answer: c
+
+154. Three friends Anne, Bob and Chris work together to do a certain job. Time it takes them to do the work together to do a certain job. The it takes them to do the work together is 6 hours less than Anne would have take alone, 1 hour less than Bob would have taken alone and half the time Chris would have taken working alone text. How long did it take them to complete the job, working together ?
+   a) 20 minutes
+   b) 30 minutes
+   c) 40 minutes
+   d) 50 minutes
+
+   Answer: c
+
+155. A and B together can complete a work in 12 days. B and C together can complete the same work in 8 days and A and C together can complete it in 16 days. In total, how many days do A, B and C together take to complete the same work ?
+   a) 35123512
+   b) 39133913
+   c) 75127512
+   d) 75137513
+
+   Answer: d
+
+156. A contractor undertakes to make a road in 40 days and employs 25 men. After 24 days, he finds that only one-third of the road is made. How many extra men should he employ so that he is able to complete the work 4 days earlier ?
+   a) 100
+   b) 60
+   c) 75
+   d) None of these
+
+   Answer: c
+
+157. 639 persons can repair a road in 12 days working 5 hours a day. In how many days will 30 persons working 6 hours a day complete the work ?
+   a) 210 days
+   b) 213 days
+   c) 214 days
+   d) 215 days
+
+   Answer: b
+
+158. If 72 men can build a wall of 280 m length in 21 days, how many men could take 18 days to build a similar type of wall of length 100 m ?
+   a) 30
+   b) 10
+   c) 18
+   d) 28
+
+   Answer: a
+
+159. 4 mat-weavers can weave 4 mats in 4 days. At the same rate how many mats would be woven by 8 mat-weavers in 8 days ?
+   a) 4
+   b) 8
+   c) 12
+   d) 16
+
+   Answer: d
+
+160. A can do a piece of work in 4 hours, B and C together in 3 hours, and A and C together in 2 hours. How long will B alone take to do it ?
+   a) 8 hours
+   b) 10 hours
+   c) 12 hours
+   d) 24 hours
+
+   Answer: c
+
+161. A and B can do a work in 8 days, B and C can do the same work in 12 days. A, B and C together can finish it in 6 days. A and C together will do it in = ?
+   a) 4 days
+   b) 6 days
+   c) 8 days
+   d) 12 days
+
+   Answer: c
+
+162. A and B together can do a job in 2 days; B and C can do it in 4 days; A and C in225225days. The number of days required for A to do the job alone is = ?
+   a) 1
+   b) 3
+   c) 6
+   d) 12
+
+   Answer: b
+
+163. 10 men working 6 hours a day can complete a work in 18 days. How many hours a day must 15 men work to complete the same work in 12 days ?
+   a) 6 hours/day
+   b) 10 hours/day
+   c) 12 hours/day
+   d) 15 hours/day
+
+   Answer: a
+
+164. A work could be completed in 100 days by some workers. However, due to the absence of 10 workers, it was completed in 110 days. The original number of workers was ?
+   a) 100
+   b) 110
+   c) 55
+   d) 50
+
+   Answer: b
+
+165. A job can be complete by 12 men in 12 days. How many extra days will be needed to complete the job if 6 men leave after working for 6 days ?
+   a) 3 days
+   b) 6 days
+   c) 12 days
+   d) 24 days
+
+   Answer: b
+
+166. 60 men could complete a piece of work in 250 days. They worked together for 200 days. After that work had to be stopped for 10 days due to bad weather. How many more men should be engaged to complete the work in time ?
+   a) 10
+   b) 15
+   c) 18
+   d) 20
+
+   Answer: b
+
+167. A and B can do a piece of work in 12 days, B and C in 8 days and C and A in 6 days. How long would B take to do the same work alone ?
+   a) 24 days
+   b) 32 days
+   c) 40 days
+   d) 48 days
+
+   Answer: d
+
+168. A can build a wall in the same time in which B and C together can do it. If A and B together can do it. If A and B together could do it in 25 days and C alone in 35 days, in what time could B alone do it ?
+   a) 91 days
+   b) 100 days
+   c) 175 days
+   d) None of these
+
+   Answer: c
+
+169. Madhu takes twice as much time as Uma to complete a work and Rahul does it in the same time as Madhu and Uma together. If all three working together can finish the work in 6 days, then the time taken by Madhu to finish the work is = ?
+   a) 12 days
+   b) 14 days
+   c) 36 days
+   d) 40 days
+
+   Answer: c
+
+170. If 28 men complete7878of a piece of work in a week, then the number of men, who must be engaged to get the remaining work completed in another week, is = ?
+   a) 5
+   b) 6
+   c) 4
+   d) 3
+
+   Answer: c
+
+171. A 10 hectare field is reaped by 2 men, 3 women and 4 children together in 10 days. If working capabilities of a man, a woman and a child are in the ratio 5 : 4 : 2, then a 16 hectare field will be reaped by 6 men, 4 women and 7 children in = ?
+   a) 5 days
+   b) 6 days
+   c) 7 days
+   d) 8 days
+
+   Answer: d
+
+172. If p men working p hours per day for p days produce p units of work, then the units of work produced by n men working n hours a day for days is = ?
+   a) p2n2p2n2
+   b) p3n2p3n2
+   c) n2p2n2p2
+   d) n3p2n3p2
+
+   Answer: d
+
+173. If two persons, with equal abilities, can do two jobs in two days then 100 persons with equal abilities can do 100 similar jobs in = ?
+   a) 100 days
+   b) 10 days
+   c) 5 days
+   d) 2 days
+
+   Answer: d
+
+174. A is twice as good a workman as B. If they work together, they can complete a job in 18 days. If A alone does the job, in how many days he will complete the job ?
+   a) 27 days
+   b) 36 days
+   c) 40 days
+   d) 54 days
+
+   Answer: a
+
+175. A is thrice as good a workman as B and so takes 60 days less than B for doing a job. The time in which they can do the job together is = ?
+   a) 2212days2212days
+   b) 30 days30 days
+   c) 45 days45 days
+   d) 60 days60 days
+
+   Answer: a
+
+176. A and B can do a job in 7 days. A is134134times as efficient as B. The same job can be done by A alone in ?
+   a) 913days913days
+   b) 11 days11 days
+   c) 1214days1214days
+   d) 1613days1613days
+
+   Answer: b
+
+177. A road of 5 m length will be constructed in 100 days. So, 280 workers were employed. But after 80 days it was found that only312312km road was completed. Now how many more people were need to finish the work in the specified time ?
+   a) 480
+   b) 80
+   c) 200
+   d) 100
+
+   Answer: c
+
+178. If the work done by (x - 1) men in (x + 1) days and the work done by (x + 2) men in (x - 1) days are in the ratio 9 : 10,  then the value of x is equal to ?
+   a) 5
+   b) 6
+   c) 7
+   d) 8
+
+   Answer: d
+
+179. A can do a piece of work in 70 days and B is 40%  more efficient then A. Then the number of days taken by B to do the same work is = ?
+   a) 40 dayd
+   b) 60 days
+   c) 50 days
+   d) 45 days
+
+   Answer: c
+
+180. A can do a certain work in 12 days. B is 60% more efficient then A. How many days will B and A together take to do the same job?
+   a) 8013days8013days
+   b) 7013days7013days
+   c) 7513days7513days
+   d) 6013days6013days
+
+   Answer: d
+
+181. Kamal can do a work in 15 days. Bimal is 50%  more efficient then Kamal. The number of days, Bimal will take to do the same piece of work, is = ?
+   a) 712712
+   b) 10
+   c) 12
+   d) 14
+
+   Answer: b
+
+182. A does 20% less work than B. If A can complete a piece of work in712712hours, then B can do it in ?
+   a) 5 hours
+   b) 4 hours
+   c) 6 hours
+   d) 7 hours
+
+   Answer: c
+
+183. A, B and C can separately do a work in 12, 15 and 20 days respectively. They started to work together but C left after 2 days. The remaining work will be finished in = ?
+   a) 4 days
+   b) 5 days
+   c) 6 days
+   d) 15 days
+
+   Answer: a
+
+184. A can do a piece of work in 15 days, which B can do it in 10 days. B worked at it for 8 days. A can finish the remaining work in?
+   a) 2 days
+   b) 3 days
+   c) 5 days
+   d) 10 days
+
+   Answer: b
+
+185. A does half as much work as B in one-sixth of the time. If together they take 10 days to complete a work. How much time shall B alone take to do it ?
+   a) 30 days
+   b) 40 days
+   c) 50 days
+   d) 70 days
+
+   Answer: b
+
+186. Some carpenters promised to do a job in 9 days but 5 of them were absent and remaining men did the job in 12 day. The original number of carpenters was ?
+   a) 24
+   b) 20
+   c) 16
+   d) 18
+
+   Answer: b
+
+187. If 4 men or 6 women can do a piece of work in 12 days working 7 hours a day, how many days will it take to complete a work twice as large with 10 men and 3 women working together 8 hours a day ?
+   a) 6 days
+   b) 7 days
+   c) 8 days
+   d) 10 days
+
+   Answer: b
+
+188. A contractor undertook to finish a work in 92 days and employed 110 men. After 48 days, he found that he had already done3535part of the work, the number of men he can withdraw so that his work may still be finished in time is ?
+   a) 45
+   b) 40
+   c) 35
+   d) 30
+
+   Answer: d
+
+189. A man undertakes to do a certain work in 150 days. He employs 200 men. He finds that only a quarter of the work is done in 50 days. The number of additional men that should be appointed so that the whole work will be finished in time is = ?
+   a) 75
+   b) 100
+   c) 125
+   d) 50
+
+   Answer: b
+
+190. A can complete a piece of work in 18 days, B in 20 days and C in 30 days. B and C together start the work and are forced to leave after 2 days. The time taken by A alone to complete the remaining work is ?
+   a) 10 days
+   b) 12 days
+   c) 15 days
+   d) 16 days
+
+   Answer: c
+
+191. A can complete a piece of work in 10 days, B in 15 days and C in 20 days. A and C together for 2 days and A was replaced by B. In how many days, altogether, was the work complete ?
+   a) 6 days
+   b) 8 days
+   c) 15 days
+   d) 16 days
+
+   Answer: b
+
+192. A completes710710of the work 15 days. Then he completes the remaining work the help of B in 4 days. The time required for A and B together to complete the entire work is = ?
+   a) 814days814days
+   b) 1012days1012days
+   c) 1223days1223days
+   d) 1313days1313days
+
+   Answer: d
+
+193. A man and a boy can do a piece of work in 24 days. If the man works alone for the last 6 days, it is completed in 26 days. How long would the boy take to do it alone ?
+   a) 20 days
+   b) 24 days
+   c) 36 days
+   d) 72 days
+
+   Answer: d
+
+194. Two men can do a piece of work in x days. But y women can do that in 3 days. Then the ratio of the work done by 1 man and 1 woman is ?
+   a) 3y : 2x
+   b) 2x : 3y
+   c) x : y
+   d) 2y : 3x
+
+   Answer: a
+
+195. If 12 carpenters working 6 hours a day can make 460 chairs in 240 days, then number of chairs made by 18 carpenters in 360 days each working 8 hours a day ?
+   a) 1320
+   b) 1380
+   c) 1260
+   d) 920
+
+   Answer: b
+
+196. A company employed 200 workers to complete a certain work in 150 days. If only1414th of the work had been done in 50 days, then in order to complete the whole work in time, the number of additional workers to be employed were ?
+   a) 100
+   b) 600
+   c) 300
+   d) 200
+
+   Answer: a
+
+197. If 20 women can lay a road of length 100m in 10 days. 10 women can lay the same road of length 50m in = ?
+   a) 5 days
+   b) 15 days
+   c) 10 days
+   d) 20 days
+
+   Answer: c
+
+198. A and B can together finish a work in 30 days. They worked together for 20 days and B left. After another 20 days, A finished the remaining work. In how many days A alone can finish the job ?
+   a) 40 days
+   b) 50 days
+   c) 54 days
+   d) 60 days
+
+   Answer: d
+
+199. A can build up a wall in 8 days while B can break it in 3 days. A has worked for 4 days and then B joined to work with A for another 2 days only. In how many days will A alone build up the remaining part of the wall ?
+   a) 613days613days
+   b) 7 days
+   c) 713days713days
+   d) 1313days1313days
+
+   Answer: c
+
+200. Anuj and Manoj can together paint their house in 30 days. After working for 20 days, Anuj has to go out and Manoj finished the remaining working the next 30 days. If Manoj had gone away after 20 days instead of Anuj, then Anuj would have completed the remaining work in ?
+   a) 15 days
+   b) 20 days
+   c) 25 days
+   d) 35 days
+
+   Answer: a
+
+201. 40 men can complete a piece of work in 18 days. Eight days after they started working together, 10 more men joined them. How many days will they now take to complete the remaining work ?
+   a) 6 days
+   b) 8 days
+   c) 10 days
+   d) 12 days
+
+   Answer: b
+
+202. A, B and C can complete a work in 10, 12 and 15 days respectively. They started the work together. But A left the work 5 days before its completion. B also left the work 2 days after A left. In how many days was the work completed ?
+   a) 4
+   b) 5
+   c) 7
+   d) 8
+
+   Answer: c
+
+203. A man and a boy received Rs. 800 as wages for 5 days for the work they did together. The man's efficiency in the work was three times that of the boy. What are the daily wages of the boy ?
+   a) Rs. 40
+   b) Rs. 44
+   c) Rs. 56
+   d) Rs. 76
+
+   Answer: a
+
+204. Two men undertake to do a piece of work for Rs. 1400. The first man alone can do this work in 7 days while the second man alone can do this work in 8 days. If they working together complete this work in 3 days with the help of a boy, how should the money be divided ?
+   a) Rs. 600, Rs. 550, Rs. 250
+   b) Rs. 600, Rs. 525, Rs. 275
+   c) Rs. 600, Rs. 500, Rs. 300
+   d) Rs. 500, Rs. 525, Rs. 375
+
+   Answer: b
+
+205. 20 men can do a piece of work in 18 days. They worked together for 3 days, then 5 men joined. In how many days is the remaining work completed ?
+   a) 12 days
+   b) 14 days
+   c) 13 days
+   d) 15 days
+
+   Answer: a
+
+206. A, B and C can complete a piece of work in 10, 12 and 15 days respectively. A left the work 5 days before the work was completed and B left 2 days after A had left. Number of days required to complete the whole work was ?
+   a) 5 days
+   b) 6 days
+   c) 8 days
+   d) 7 days
+
+   Answer: d
+
+207. X alone can complete a piece of work in 40 days. He worked for 8 days and left. Y alone completed the remaining work in 16 days. How long would X and Y together take to complete the work ?
+   a) 1313days1313days
+   b) 14 days14 days
+   c) 15 days15 days
+   d) 1623days1623days
+
+   Answer: a
+
+208. A and B together can do a piece of work in 30 days, B and C together can do it in 20 days, A starts the work and works on it for 5 days, B takes up and work for 15 days. Finally C finishes the work in 18 days. The number of days in which C alone can do the work where doing it separately is  =  ?
+   a) 120 days
+   b) 40 days
+   c) 60 days
+   d) 24 days
+
+   Answer: d
+
+209. A sum of money is sufficient to pay A's wages for 21 days and B's wages for 28 days. The same money is sufficient to pay the wages of both for ?
+   a) 12 days
+   b) 13 days
+   c) 14 days
+   d) 15 days
+
+   Answer: a
+
+210. A can do a piece of work in 10 days, B in 15 days. They work for 5 days. The rest of the work was finished by C in 2 days. If they get Rs. 1500 for the whole work, the daily wages of B and C are ?
+   a) Rs. 150
+   b) Rs. 225
+   c) Rs. 250
+   d) Rs. 300
+
+   Answer: b
+
+211. A is twice as good a workman as B and together they finish a piece of work in 22 days. In how many days will A alone finish the same work?
+   a) 11 days
+   b) 44 days
+   c) 30 days
+   d) 33 days
+
+   Answer: d
+
+212. A alone can do2525of a work in 12 days. B is 25 percent more efficient than A. C alone can do the same work in 12 days less than B. D is 25 percent less efficient than C. If they all work together, then the work will be completed in how many days?
+   a) 3004730047
+   b) 2405324053
+   c) 1804318043
+   d) 2005120051
+
+   Answer: b
+
+213. 4 men and 5 women can complete a work in 15 days, whereas 9 men and 6 women can do it in 10 days. To complete the same work in 7 days, how many women should assist 4 men?
+   a) 11
+   b) 14
+   c) 12
+   d) 13
+
+   Answer: d
+
+214. A and B can do a work in26232623days. B and C together can complete the same work in 48 days, while A and C together can complete the same work in 30 days. How long (in days) will A alone take to complete 60% of the work?
+   a) 24
+   b) 36
+   c) 32
+   d) 20
+
+   Answer: a
+
+215. A and B working together can do 30% of the work in 6 days. B alone can do the same Work in 25 days. How long will A alone take to complete the same work?
+   a) 75 days
+   b) 60 days
+   c) 80 days
+   d) 100 days
+
+   Answer: d
+
+216. A and B together can complete a piece of work in 15 days. B and C together can do it in 24 days. If A is twice as good a workman as C. Then in how many days can B alone complete the work?
+   a) 40 days
+   b) 60 days
+   c) 52 days
+   d) 45 days
+
+   Answer: b
+
+217. Kiran, Vishal and Dinesh work in a juice factory. Kiran takes 2 hours to extract as much juice as Vishal can in 3 hours. Dinesh takes 5 hours to extract as much juice that Kiran extracts in 4 hours. A tank can be filled with juice in 48 hours, if all of them work together. How long will it take to fill the tank, if Dinesh alone is trying to fill the tank?
+   a) 132 hrs
+   b) 148 hrs
+   c) 140 hrs
+   d) 135 hrs
+
+   Answer: b
+
+218. A and B can do a work in 12 days and 18 days, respectively. They worked for 4 days after which B was replaced by C and the remaining work was completed by A and C in the next 4 days. In how many days will C alone complete 50% of the same work?
+   a) 24
+   b) 18
+   c) 21
+   d) 36
+
+   Answer: b
+
+219. A can complete a certain work in 35 days and B can complete the same work in 15 days. They worked together for 7 days, then B left the work. In how many days will A alone complete 60% of the remaining work?
+   a) 7
+   b) 15
+   c) 10
+   d) 8
+
+   Answer: a
+
+220. Shyam can complete a task in 12 days by working 10 hours a day. How many hours a day should he work to complete the task in 8 days?
+   a) 14
+   b) 16
+   c) 12
+   d) 15
+
+   Answer: d
+
+221. A, B and C completed a work costing Rs. 1800. A worked for 6 days, B for 4 days and C for 9 days.  If their daily wages are in the ratio of 5 : 6 : 4, how much amount will be received by A ?
+   a) Rs. 600
+   b) Rs. 750
+   c) Rs. 800
+   d) Rs. 900
+
+   Answer: a
+
+222. P and Q together can do a job in 6 days. Q and R can finish the same job in607607days. P started the work and worked for 3 days. Q and R continued for 6 days to finish the work. Then the difference of days in which R and P can complete the alone is P can complete the job alone is ?
+   a) 10 days
+   b) 8 days
+   c) 12 days
+   d) 15 days
+
+   Answer: a
+
+223. If the expenditure of gas on burning 6 burners for 6 hours a day for 8 days is Rs. 450, then how many burners can be used for 10 days at 5 hours a day for Rs. 625 ?
+   a) 12
+   b) 16
+   c) 4
+   d) 8
+
+   Answer: d
+
+224. X can do a piece of work in 24 days. When he had worked for 4 days, Y joined him. If complete work was finished in 16 days, Y can alone finish that work in ?
+   a) 27 days
+   b) 36 days
+   c) 42 days
+   d) 18 days
+
+   Answer: b
+
+225. Working efficiencies of P and Q for completing a piece of working are in the ratio 3 : 4. The number of days to be taken by them to complete the work will be in the ratio ?
+   a) 3 : 2
+   b) 2 : 3
+   c) 3 : 4
+   d) 4 : 3
+
+   Answer: d
+
+226. A and B can complete a piece of work in 12 and 18 days respectively. A begins to do the work and they work alternatively one at a time for one day each. The whole work will be completed in ?
+   a) 1413days1413days
+   b) 1523days1523days
+   c) 1613days1613days
+   d) 1823days1823days
+
+   Answer: a
+
+227. A can do a piece of work in 90 days, B in 40 days and C in 12 days. They work for a day each in turn i.e., first day A does it alone, B does it the second day and C the third day. After that A does it for another day, and so on. After finishing the work they get Rs. 240. If the  wages are divided in proportion to the work done by them, find what each will get ?
+   a) A Rs. 24, B Rs. 54, C Rs. 162
+   b) A Rs. 22, B Rs.50, C Rs. 132
+   c) A Rs. 26, B Rs. 52, C Rs. 142
+   d) A Rs. 20, B Rs. 44, C Rs. 182
+
+   Answer: a
+
+228. A job can be done by 3 skilled workmen in 20 days or by 5 boys in 30 days. How many days will they take if they work together ?
+   a) 8 days
+   b) 10 days
+   c) 11 days
+   d) 12 days
+
+   Answer: d
+
+229. P is thrice as good a workman as Q and therefore able to finish a job in 48 days less than Q. Working together, they can do it in ?
+   a) 18 days
+   b) 24 days
+   c) 30 days
+   d) 12 days
+
+   Answer: a
+
+230. A does 20% less work than B. If A can complete a piece of work in712712hours, then B can do it in ?
+   a) 612hours612hours
+   b) 6 hours
+   c) 512hours512hours
+   d) 5 hours
+
+   Answer: b
+
+231. A can do a piece of work in 6 days. B is 25% more efficient than A. How long would B alone take to finish this work ?
+   a) 445days445days
+   b) 313days313days
+   c) 514days514days
+   d) 223days223days
+
+   Answer: a
+
+232. A takes three times as long as B and C together to do a job. B takes four times as long as A and C together to do the work. If all the three, working together can complete the job in 24 days, then the number of days, A alone will take to finish the job is = ?
+   a) 100 days
+   b) 96 days
+   c) 95 days
+   d) 90 days
+
+   Answer: b
+
+233. Five men are working to complete a work in 15 days. After five days 10 women are accompanied by them to complete the work in next 5 days. If the work is to be done by women only, then in how many days could the work be over if 10 women have started it ?
+   a) 10 days
+   b) 12 days
+   c) 15 days
+   d) 18 days
+
+   Answer: c
+
+234. A contractor undertake to do a piece of work in 40 days. He engages 100 men at the beginning and 100 more after 35 days and completes the work in stipulated time. If he had not engaged the work in men, how many days behind the scheduled the work should have been finished ?
+   a) 5
+   b) 6
+   c) 7
+   d) 8
+
+   Answer: a
+
+235. A man, a woman and a boy can do a piece of work  in 6, 9 and 18 days respectively. How many boys must assist one man and one woman to do the work in 1 day ?
+   a) 5
+   b) 6
+   c) 9
+   d) 13
+
+   Answer: d
+
+236. A man is twice as fast as a women and a woman is twice as fast as a boy in doing a work. If all of them, a man , a woman and a boy can finish the work in 7 days, a boy will do it alone ?
+   a) 49 days
+   b) 7 days
+   c) 6 days
+   d) 42 days
+
+   Answer: a
+
+237. A's 2 days work is equal to B's 3 days work. If A can complete the work in 8 days, then to complete the work B will take ?
+   a) 15 days
+   b) 12 days
+   c) 16 days
+   d) 14 days
+
+   Answer: b
+
+238. If A, B and C can complete a piece of work in 6 days. If A can work twice faster than B and thrice faster then C, than the number of days C alone can complete the work is ?
+   a) 44 days
+   b) 33 days
+   c) 22 days
+   d) 11 days
+
+   Answer: b
+
+239. A can do half of a piece of work in 1 day,where B can do full. B can do half the work as C in 1 day. The ratio of their efficiencies of work is = ?
+   a) 1 : 2 : 4
+   b) 2 : 1 : 4
+   c) 4 : 2 : 1
+   d) 2 : 4 : 1
+
+   Answer: a
+
+240. If 3 men or 9 boys can finish a piece of work in 21 days, in how many days can 5 men and 6 boys together do the same piece of work ?
+   a) 8 days
+   b) 12 days
+   c) 14 days
+   d) Cannot be determined
+   e) None of these
+
+   Answer: e
+
+241. If 2 men or 6 women or 4 boys can finish a work in 99 days, how many days will one man, one woman and one boy together take to finish the same work ?
+   a) 44 days
+   b) 54 days
+   c) 64 days
+   d) 104 days
+   e) None of these
+
+   Answer: e
+
+242. 8 men can complete a piece of work in 20 days. 8 women can complete the same work in 32 days. In how many days will 5 men and 8 women together complete the same work ?
+   a) 10 days
+   b) 12 days
+   c) 14 days
+   d) 16 days
+   e) None of these
+
+   Answer: d
+
+243. A can do three times the work done by B in one day. They together finish2525of the work in 9 days. The number of days by which B can do the work alone are ?
+   a) 120 days
+   b) 100 days
+   c) 30 days
+   d) 90 days
+
+   Answer: d
+
+244. A can write 75 pages in 25 hours. A and B together can write 135 pages in 27 hours. In what time can B write 42 pages ?
+   a) 17 hrs
+   b) 19 hrs
+   c) 21 hrs
+   d) 23 hrs
+
+   Answer: c
+
+245. A and B can complete a piece of work in 12 and 18 days respectively. A begins to do the work and they work alternatively one at a time for one day each. The whole work will be complete in ?
+   a) 1413days1413days
+   b) 1513days1513days
+   c) 1613days1613days
+   d) 1823days1823days
+
+   Answer: a
+
+246. A labourer was appointed by a contractor on the condition he would be paid Rs. 75 for each day of his work but would be, fined at the rate of Rs. 15 per day for his absent. After 20 days, the contractor paid the labourer Rs. 1140. The number of days the labourer absented from work was ?
+   a) 3 days
+   b) 5 days
+   c) 4 days
+   d) 2 days
+
+   Answer: c
+
+247. 18 men can complete a piece of work in 63 days. 9 women take 189 days to complete the same piece of work. How many days will 4 men, 9 women and 12 children together take to complete the piece of work if 7 children alone can complete the piece of work in 486 days ?
+   a) 54 days
+   b) 63 days
+   c) 76 days
+   d) 81 days
+   e) None of these
+
+   Answer: d
+
+248. 16 men can finish a work in 24 days and 48 boys can finish the same work in 16 days. 12 men started the work and after 4 days 12 boys joined them. In how many days can they finish the remaining work ?
+   a) 6
+   b) 12
+   c) 16
+   d) None of these
+
+   Answer: d
+
+249. 4 men and 10 women were put on a work. They completed1313of the work in 4 days. After this 2 men and 2 women were increased. They completed2929more of the work in 2 days. If the remaining work is to be completed in 3 days, then how many more women must be increased ?
+   a) 8
+   b) 32
+   c) 50
+   d) 55
+
+   Answer: a
+
+250. A can do a piece of work in 5 days less than the time taken by B to do it. If both of them together   take11191119days, then the time taken by B alone to do the same work (in days ) is ?
+   a) 15 days
+   b) 20 days
+   c) 25 days
+   d) 30 days
+
+   Answer: c
+
+251. A takes 10 days less than the time taken by B to finish a piece of work. If both A and B can do it in 12 days, then the time taken by B alone to finish the work is = ?
+   a) 30 days
+   b) 27 days
+   c) 20 days
+   d) 25 days
+
+   Answer: a
+
+252. Dinesh and Rakesh are working on an Assignment, Dinesh takes 6 hours to type 32 pages on a computer, while Rakesh takes 5 hours to type 40 pages. How much time will they take working together on two different computers to type an assignment of 110 page ?
+   a) 7 hours, 30 minutes
+   b) 8 hours
+   c) 8 hours, 15 minutes
+   d) 8 hours, 25 minutes
+
+   Answer: c
+
+253. A can do as much work as B and C together can do. A and B can together do a piece of work in 9 hours 36 minutes and C can do it in 48 hours. The time in hours that B needs to do the work alone, is ?
+   a) 18 hours
+   b) 24 hours
+   c) 30 hours
+   d) 12 hours
+
+   Answer: b
+
+254. If 5 men and 3 women can reap 18 acre of crop in 4 days, 3 men and 2 women can reap 22 acre of crop in 8 days, then how many men are required to join 21 women to reap 54 acre of crop in 6 days ?
+   a) 5
+   b) 6
+   c) 10
+   d) 12
+
+   Answer: a
+
+255. 25 men with 10 boys can do in 6 days as much work as 21 men with 30 boys can do in days. How many boys must help 40 men to do the same work in 4 days ?
+   a) 5
+   b) 10
+   c) 20
+   d) 40
+
+   Answer: b
+
+256. 40 men can complete a piece of work in 15 days. 20 more men joined them after 5 days they start doing work. How many days will be required by them to finish the remaining work ?
+   a) 723days723days
+   b) 615days615days
+   c) 814days814days
+   d) 623days623days
+
+   Answer: d
+
+257. A and B working separately can do a piece of work in 9 and 15 days respectively. If they work for a day alternatively, with A beginning, then the work will be completed in ?
+   a) 10 days
+   b) 11 days
+   c) 9 days
+   d) 12 days
+
+   Answer: b
+
+258. 12 monkeys can eat 12 bananas in 12 minutes. In how many minutes can 4 monkeys eat 4 bananas ?
+   a) 4 minutes
+   b) 10 minutes
+   c) 12 minutes
+   d) 8 minutes
+
+   Answer: c
+
+259. Two worker A and B are engaged to do a piece of work. A working alone would take 8 hours more to complete the work that when work together. If B worked alone, would take412412hours more than when working together. The time required to finish the work together is = ?
+   a) 5 hours
+   b) 8 houras
+   c) 4 hours
+   d) 6 hours
+
+   Answer: d
+
+260. X can copy 80 pages in 20 hours, x and y together can copy 135 pages in 27 hours. Then y can copy 20 pages in ?
+   a) 20 hours
+   b) 24 hours
+   c) 3 hours
+   d) 12 hours
+
+   Answer: a
+
+261. 12 men can do a piece of work in  24 days. How many days are needed to complete the work, if 8 men do this work ?
+   a) 28 days
+   b) 36 days
+   c) 48 days
+   d) 52 days
+
+   Answer: b
+
+262. A can do in one day three times the work done by B in one day. They together finish2525of the work in 9 days. The number of days by which B can do the work alone is = ?
+   a) 90 days
+   b) 120 days
+   c) 100 days
+   d) 30 days
+
+   Answer: a
+
+263. A, B and C can complete a piece of work in 24, 5 and 12 days respectively. Working together, they will complete the same work in ?
+   a) 724days724days
+   b) 337days337days
+   c) 4 days4 days
+   d) 3113days3113days
+
+   Answer: d
+
+264. If 4 men and 6 women can complete  a work in 8 days, while 3 men and 7 women can complete it in 10 days, then 10 women complete it in ?
+   a) 35 days
+   b) 50 days
+   c) 45 days
+   d) 40 days
+
+   Answer: d
+
+265. A can do a piece of work in 12 days and B in 24 days. If they work together, in how many days will they finish the work ?
+   a) 20 days
+   b) 8 days
+   c) 12 days
+   d) 15 days
+
+   Answer: b
+
+266. Amit, Bhawana and Chandan can do a piece of work, working together in one day only. Amit is 5 times efficient than Bhawna and Chandan takes half of the number of days taken by Bhawna to do the same work. What is the difference between the number of days taken by Amit and Chandan when they work alone ?
+   a) 4
+   b) 5
+   c) 3
+   d) 225225
+
+   Answer: d
+
+267. 12 men can do a piece of work in 15 days and 20 women can do the same work in 12 days. In how many days can 5 men and 5 women complete the same work ?
+   a) 2047days2047days
+   b) 247days247days
+   c) 2037days2037days
+   d) 18 days
+
+   Answer: a
+
+268. X can do a piece of work in 24 days. When he had worked for 4 days, Y joined him. If complete work was finished in 16 days, Y can alone finish that work in ?
+   a) 18 days
+   b) 27 days
+   c) 36 days
+   d) 42 days
+
+   Answer: c
+
+269. 6 men can complete a piece of work in 12 days, 8 women can complete the same piece of work in 18 days and 18 children can do it in 10 days. 4 men, 12 women and 20 children do the work for 2 days. If the remaining work be completed by men only in 1 day, how many men will be required ?
+   a) 36
+   b) 24
+   c) 18
+   d) Cannot be determined
+
+   Answer: a
+
+270. 16 men can finish a piece of work in 49 days. 14 men started working and 8 days they could finish certain amount of work. If it is required to finish the remaining work in 24 days. How many more men should be added to the existing workforce ?
+   a) 21
+   b) 28
+   c) 16
+   d) 14
+
+   Answer: d
+
+271. A can do a piece of work in 12 days and B in 20 days. If they together work on it for 5 days, and remaining work is completed by C in 3 days, then in how many days can C do the same work alone ?
+   a) 10 days
+   b) 9 days
+   c) 12 days
+   d) 15 days
+
+   Answer: b
+
+272. A and B work together to complete the rest of a job in 7 days. However,3710037100of the job was already done. Also the work done by A in 5 days is equal to the work done by B in 4 days. How many days would be required by the fastest worker to complete the entire work ?
+   a) 20
+   b) 25
+   c) 30
+   d) 10
+
+   Answer: a
+
+273. A can do a work in 10 days. The efficiency of A is 20% less than B. How many days B need to finish the same work?
+   a) 8.5 days
+   b) 12.3 days
+   c) 8 days
+   d) 7.5 days
+
+   Answer: c
+
+274. A group of workers can complete a piece of work in 50 days, when they are working individually. On the first day one person works, on the second day another person joins him, on the third day one person joins them and this process continues till the work is completed. How many approximate days are needed to complete the work ?
+   a) 8 days
+   b) 9 days
+   c) 10 days
+   d) 11 days
+
+   Answer: c
+
+275. A can do a piece of work in 20 days and B in 15 days. With help of C, they finish the work in 5 days. In how many days C alone can do the same work ?
+   a) 5 days
+   b) 6 days
+   c) 10 days
+   d) 12 days
+
+   Answer: d
+
+276. Shashi can do piece of work in 20 days. Tanya is 25% more efficient than Sashi. The number of days taken by Tanya to do the same piece of work is = ?
+   a) 15
+   b) 25
+   c) 18
+   d) 16
+
+   Answer: d
+
+277. 18 men or 36 boys working 6 hours a day can plough a field in 24 days. In how many days will 24 men and 24 boys working 9 hours a day plough the same field ?
+   a) 9 days
+   b) 10 days
+   c) 6 days
+   d) 8 days
+
+   Answer: d
+
+278. A can do1313rd of a work in 5 days and B can do the do2525th of this work in 10 days. Both A and B, together can do the work in ?
+   a) 738days738days
+   b) 845days845days
+   c) 938days938days
+   d) 10 days
+
+   Answer: c
+
+279. A and B undertake a piece of work for Rs. 250. A alone can do that work in 5 days and B alone can do that work in 15 days. With the help of C, they finish the work in 3 days. If every one gets paid in proportion to work done by them, the amount C will get is ?
+   a) Rs. 50
+   b) Rs. 100
+   c) Rs. 150
+   d) Rs. 200
+
+   Answer: a
+
+280. A is twice as good as B and together they finish a piece of work in 16 days. The number of days taken by A alone to finish the work is = ?
+   a) 20 days
+   b) 21 days
+   c) 22 days
+   d) 24 days
+
+   Answer: d
+
+281. A and B can together do a piece of work it in 6 days and A alone can do it in 9 days. The number of days B will take to do it alone is ?
+   a) 18 days
+   b) 24 days
+   c) 9 days
+   d) 12 days
+
+   Answer: a
+
+282. A can do a piece of work in 18 days. He worked at it for 12 days and B finished the remaining work in 8 days. B alone can do the whole work in ?
+   a) 16 days
+   b) 24 days
+   c) 35 days
+   d) 28 days
+
+   Answer: b
+
+283. A and B can do a work in 8 days, B and C can do the same work in 12 days. A, B and C together can finish it in 6 days. A and C together will do it in ?
+   a) 4 days
+   b) 6 days
+   c) 8 days
+   d) 12 days
+
+   Answer: c
+
+284. A can do a certain job in 12 days and B is 60%  more efficient than A. The B can do the same piece of work in ?
+   a) 8 days8 days
+   b) 712days712days
+   c) 614days614days
+   d) 6 days6 days
+
+   Answer: b
+
+285. A man can do a piece of work in 30 hours. If he works with his son then the same piece of work is finished in 20 hours. If the son works alone then he do the work in ?
+   a) 60 hours
+   b) 50 hours
+   c) 25 hours
+   d) 10 hours
+
+   Answer: a
+
+286. The daily wages of A and B respectively are Rs. 3.50 and Rs. 2.50. When A finishes a certain work, he gets a total wage of Rs. 63. When B does the same work, he gets a total wage Rs. 75. If both of them do it together what is cost of the work ?
+   a) Rs. 67.50
+   b) Rs. 27.50
+   c) Rs. 60.50
+   d) Rs. 70.50
+
+   Answer: a
+
+287. A man does double the work done by a boy in the same time. The number of days that 3 men and 4 boys will take to finish a work which can be done by 10 men in 8 days is ?
+   a) 4
+   b) 835835
+   c) 16
+   d) 73117311
+
+   Answer: c
+
+288. P can do1414th of work in 10 days. Q can do 40% of work in 40 days and R can do1313rd of work in 13 days. Who will complete the work first ?
+   a) P
+   b) Q
+   c) R
+   d) Both P and R
+
+   Answer: c
+
+289. The time taken by 4 men to complete a job is double the time taken by 5 children to complete the same job. Each man is twice as fast as a woman. How long will 12 men, 10 children and 8 women take to complete a job, given that a child would finish the job in 20 days ?
+   a) 4 days
+   b) 2 days
+   c) 1 day
+   d) 10 days
+
+   Answer: c
+
+290. The labourers A, B, C were given a contract of Rs. 750 for doing a certain piece of work. All the three together can finish the work in 8 days, A and C together can do it 12 days, while A and B together can do it in13131313days. The money will be divided in the ratio ?
+   a) 4 : 5 : 6
+   b) 4 : 7 : 5
+   c) 5 : 7 : 4
+   d) 5 : 6 : 8
+
+   Answer: a
+
+291. Ramesh and Rahman  can do a work in 20 and 25 days respectively. After doing collectively 10 days of work, they leave the work due to illness and Suresh completes rest of the work in 3 days. How many days Suresh alone can take to complete the whole work ?
+   a) 32 days
+   b) 28 days
+   c) 29 days
+   d) 30 days
+
+   Answer: d
+
+292. The ratio of the amount of work done by (x - 1) labours in (x + 1) days and (x + 1) labours in (x + 2) days is 5 : 6. Then the value of x is ?
+   a) 16
+   b) 15
+   c) 17
+   d) 14
+
+   Answer: a
+
+293. A can do a work in 36 days, B in 18 days and C in 12 days. Every 2nd day B and every 3rd day C, helps A .Then in how many days the work will be completed?
+   a) 12
+   b) 14
+   c) 10
+   d) 8
+
+   Answer: b
+
+294. A can complete 25% of a work in 15 days. He works for 15 days and then B alone finishes the remaining work in 30 days. In how many days will A and B working together finish 50% of the same work?
+   a) 24
+   b) 20
+   c) 12
+   d) 25
+
+   Answer: c
+
+295. If 450 men can finish construction of an apartment in 20 days, then how many men are needed to complete the same work in 30 days?
+   a) 150
+   b) 300
+   c) 400
+   d) 250
+
+   Answer: b
+
+296. A can do1313of a work in 30 days, B can do2525of the same work in 24 days. They worked together for 20 days. C complete the remaining work in 8 days. Working together A, B and C will complete the same work in:
+   a) 15 days
+   b) 10 days
+   c) 18 days
+   d) 12 days
+
+   Answer: d
+
+297. X, Y and Z can do a piece of work in 46 days, 92 days and 23 days, respectively. X started the work. Y joined him after 2 days. If Z joined them after 8 days from the beginning, then for how many days did X work?
+   a) 16
+   b) 21
+   c) 18
+   d) 13
+
+   Answer: c
+
+298. A, B and C can all together do a piece of work in 10 days, in which B takes 3 times as long as A and C together to do the work. In how many days can B alone do the work?
+   a) 50 days
+   b) 40 days
+   c) 10 days
+   d) 15 days
+
+   Answer: b
+
+299. A can do 20% of work in 4 days, B can do3313%3313%of the same work in 10 days. They worked together for 9 days. C completed the remaining work in 6 days. B and C together complete 75% of the same work in:
+   a) 9 days
+   b) 15 days
+   c) 10 days
+   d) 12 days
+
+   Answer: c
+
+300. A and B can do a job in 10 days and 5 days respectively. They worked together for two days, after which B was replaced by C and the work was finished in the next three days. How long will C alone take to finish 40% of the job?
+   a) 15 days
+   b) 18 days
+   c) 10 days
+   d) 12 days
+
+   Answer: d
+

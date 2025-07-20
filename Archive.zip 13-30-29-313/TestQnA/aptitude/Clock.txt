@@ -1,0 +1,331 @@
+1. An accurate clock shows 8 o'clock in the morning. Through how may degrees will the hour hand rotate when the clock shows 2 o'clock in the afternoon?
+   a) 144º
+   b) 150º
+   c) 168º
+   d) 180º
+
+   Answer: d
+
+2. The reflex angle between the hands of a clock at 10.25 is:
+   a) 180º
+   b) 19212∘19212∘
+   c) 195º
+   d) 19712∘19712∘
+
+   Answer: d
+
+3. A clock is started at noon. By 10 minutes past 5, the hour hand has turned through:
+   a) 145º
+   b) 150º
+   c) 155º
+   d) 160º
+
+   Answer: c
+
+4. A watch which gains 5 seconds in 3 minutes was set right at 7 a.m. In the afternoon of the same day, when the watch indicated quarter past 4 o'clock, the true time is:
+   a) 5971259712min. past 3
+   b) 4 p.m.
+   c) 5871158711min. past 3
+   d) 23112311min. past 4
+
+   Answer: b
+
+5. How much does a watch lose per day, if its hands coincide every 64 minutes?
+   a) 3281132811min.
+   b) 3651136511min.
+   c) 90 min.
+   d) 96 min.
+
+   Answer: a
+
+6. At what time between 7 and 8 o'clock will the hands of a clock be in the same straight line but, not together?
+   a) 5 min. past 7
+   b) 52115211min. past 7
+   c) 53115311min. past 7
+   d) 55115511min. past 7
+
+   Answer: d
+
+7. At what time between 5:30 and 6 will the hands of a clock be at right angles?
+   a) 4351143511min. past 5
+   b) 4371143711min. past 5
+   c) 40 min. past 5
+   d) 45 min. past 5
+
+   Answer: b
+
+8. The angle between the minute hand and the hour hand of a clock when the time is 4:20, is:
+   a) 0º
+   b) 10º
+   c) 5º
+   d) 20º
+
+   Answer: b
+
+9. At what angle the hands of a clock are inclined at 15 minutes past 5?
+   a) 5812∘5812∘
+   b) 64∘64∘
+   c) 6712∘6712∘
+   d) 7212∘7212∘
+
+   Answer: c
+
+10. At 3:40, the hour hand and the minute hand of a clock form an angle of:
+   a) 120°
+   b) 125°
+   c) 130°
+   d) 135°
+
+   Answer: c
+
+11. How many times are the hands of a clock at right angle in a day?
+   a) 22
+   b) 24
+   c) 44
+   d) 48
+
+   Answer: c
+
+12. The angle between the minute hand and the hour hand of a clock when the time is 8:30, is:
+   a) 80°
+   b) 75°
+   c) 60°
+   d) 105°
+
+   Answer: b
+
+13. How many times in a day, are the hands of a clock in straight line but opposite in direction?
+   a) 20
+   b) 22
+   c) 24
+   d) 48
+
+   Answer: b
+
+14. At what time between 4 and 5 o'clock will the hands of a watch point in opposite directions?
+   a) 45 min. past 4
+   b) 40 min. past 4
+   c) 5041150411min. past 4
+   d) 5461154611min. past 4
+
+   Answer: d
+
+15. At what time between 9 and 10 o'clock will the hands of a watch be together?
+   a) 45 min. past 9
+   b) 50 min. past 9
+   c) 4911149111min. past 9
+   d) 4911149111min. past 9
+
+   Answer: c
+
+16. At what time, in minutes, between 3 o'clock and 4 o'clock, both the needles will coincide each other?
+   a) 51115111min. past 3
+   b) 1241112411min. past 3
+   c) 1341113411min. past 3
+   d) 1641116411min. past 3
+
+   Answer: d
+
+17. How many times do the hands of a clock coincide in a day?
+   a) 20
+   b) 21
+   c) 22
+   d) 24
+
+   Answer: c
+
+18. How many times in a day, the hands of a clock are straight?
+   a) 22
+   b) 24
+   c) 44
+   d) 48
+
+   Answer: c
+
+19. A watch which gains uniformly is 2 minutes low at noon on Monday and is 4 min. 48 sec fast at 2 p.m. on the following Monday. When was it correct?
+   a) 2 p.m. on Tuesday
+   b) 2 p.m. on Wednesday
+   c) 3 p.m. on Thursday
+   d) 1 p.m. on Friday
+
+   Answer: b
+
+20. A watch becomes fast by 5 minutes everyday. By what percent does it become fast ?
+   a) 524%524%
+   b) 112%112%
+   c) 5 %
+   d) 50144%50144%
+
+   Answer: d
+
+21. Through what angle does the minute hand of a clock turn in 5 minutes ?
+   a) 30∘30∘
+   b) 32∘32∘
+   c) 35∘35∘
+   d) 36∘36∘
+
+   Answer: a
+
+22. It is between 3 pm and 4 pm and the distance between the hour hand and the minute hand of clock is 18 minutes spaces. What time does the clock show ?
+   a) 3 : 12 pm
+   b) 3 : 27 pm
+   c) 3 : 31 pm
+   d) 3 : 36 pm
+
+   Answer: d
+
+23. In an accurate clock, in a period of 2 hours 20 minutes the minute hand will move over = ?
+   a) 140°
+   b) 320°
+   c) 520°
+   d) 840°
+
+   Answer: d
+
+24. What is the area of the face of a clock described by its minutes hand between 9 am and 9 : 35 am, if the minutes hand is 10 cm long ?
+   a) 3623cm 23623cm2
+   b) 15717cm 215717cm2
+   c) 18313cm218313cm2
+   d) None of these
+
+   Answer: c
+
+25. The angle between the hands of a clock when the time is 4 : 25 am is = ?
+   a) 1312∘
+   b) 1712∘
+   c) 1412∘
+   d) 1212∘
+
+   Answer: b
+
+26. Imagine that your watch was correct at noon, but then it began to lose 30 minutes each hour. It now show 4 pm but it stopped 5 hours ago. What is the correct time now = ?
+   a) 9 : 30 pm
+   b) 11 pm
+   c) 1 am
+   d) 1 : 30 am
+
+   Answer: c
+
+27. How many rotations will the hour hand of a clock complete in 72 hours ?
+   a) 3
+   b) 6
+   c) 9
+   d) 12
+
+   Answer: b
+
+28. At 8 : 30, the hour hand and the minute hand of clock form an angle of = ?
+   a) 80∘80∘
+   b) 75∘75∘
+   c) 70∘70∘
+   d) 60∘60∘
+
+   Answer: b
+
+29. At 9 : 38 A.M. through how many degrees the hour hand of a clock moved since noon the previous day ?
+   a) 323°
+   b) 612°
+   c) 646°
+   d) 649°
+
+   Answer: d
+
+30. The hands of a clock are 10 cm and 7 cm respectively. The difference between the distance traversed by their extremities in 3 days 5 hours is = ?
+   a) 4552.67 CM
+   b) 4555.67 CM
+   c) 4557.67 CM
+   d) 4559.67 CM
+
+   Answer: c
+
+31. There are two clocks, both set to show 10 pm on 21stJanuary 2010. One clock gains 2 minutes in an hour and the other clock loses 5 minutes in an hour. Then by how many minutes do the two clocks differ at 4 pm on 22ndJanuary 2010 ?
+   a) 126 minutes
+   b) 136 minutes
+   c) 96 minutes
+   d) 106 minutes
+
+   Answer: a
+
+32. In every 30 minutes the time of a watch increases by 3 minutes. After showing the correct time at 5 am , what time will the watch show after 6 hours ?
+   a) 10 : 54 am
+   b) 11 : 30 am
+   c) 11 : 36 am
+   d) 11 : 42 am
+   e) 11 : 38 pm
+
+   Answer: c
+
+33. A watch is 1 minute slow at 1 pm on Tuesday and 2 minutes fast at 1 pm on Thursday. When did it show the correct time = ?
+   a) 1 : 00 am on Wednesday
+   b) 5 : 00 am on Wednesday
+   c) 1 : 00 pm on Wednesday
+   d) 5 : 00 pm on Wednesday
+
+   Answer: b
+
+34. Henry started a trip into the country between 8 am and 9 am when the hand of clock were together, He arrived at his destination between 2 pm and 3 pm when the hands of the clock were exactly 180° apart. How long did he travel ?
+   a) 6 hours
+   b) 7 hours
+   c) 9 hours
+   d) 11 hours
+
+   Answer: a
+
+35. Between 5 and 6, a lady looked at her watch and mistaking the hour hand for the minute hand, she thought that the time was 57 minutes
+earlier than the correct time. The correct time was = ?
+   a) 12 minutes past 5
+   b) 24 minutes past 5
+   c) 36 minutes past 5
+   d) 48 minutes past 5
+
+   Answer: b
+
+36. How many times are the hour hand and the minute hand of a clock of a right angles during their motion from 1 : 00 pm to 10 : 00 pm ?
+   a) 9
+   b) 10
+   c) 18
+   d) 20
+   e) 16
+
+   Answer: e
+
+37. Wall clock gains 2 minutes in 12 hours, while a table clock loses 2 minutes every 36 hours. Both are set right at 12 noon on Tuesday.
+The correct time when both show the same time next would be = ?
+   a) 12:30 at nights, after 130 days
+   b) 12 noon, after 135 days
+   c) 1:30 at nights, after 130 days
+   d) 12 midnight, after 135 days
+
+   Answer: b
+
+38. A clock is displaying correct time at 9 am on Monday. If the clock loses 12 minutes in 24 hours, then the actual time when the clock indicates 8 : 30 pm on Wednesday of the same week is = ?
+   a) 8 pm
+   b) 7 pm
+   c) 9 pm
+   d) 8 : 59 : 45 pm
+
+   Answer: c
+
+39. A wall-clock takes 9 seconds in tinging at 9 o'clock. The time, it will take in tinging at 11 o'clock, is = ?
+   a) 10 seconds
+   b) 1.80 seconds
+   c) 11 seconds
+   d) 11.25 seconds
+
+   Answer: d
+
+40. A mechanical grandfather clock is at present showing 7 hours 40 minutes 6 seconds. Assuming that it loses 4 seconds in every hour, what time will it show after exactly612612hours ?
+   a) 14 hours 9 minutes 34 seconds
+   b) 14 hours 9 minutes 40 seconds
+   c) 14 hours 10 minutes 6 seconds
+   d) 14 hours 10 minutes 32 seconds
+
+   Answer: b
+
+41. A clock strikes once at 1 o'clock, twice at 2 o'clock, thrice at 3 o'clock and so on. What is the total number of strikings in a day = ?
+   a) 136
+   b) 146
+   c) 156
+   d) 166
+
+   Answer: c

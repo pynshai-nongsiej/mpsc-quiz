@@ -1,0 +1,1298 @@
+1. A bank offers 5% compound interest calculated on half-yearly basis. A customer deposits Rs. 1600 each on 1stJanuary and 1stJuly of a year. At the end of the year, the amount he would have gained by way of interest is:
+   a) Rs. 120
+   b) Rs. 121
+   c) Rs. 122
+   d) Rs. 123
+   e) None of these
+
+   Answer: b
+
+2. The difference between simple and compound interests compounded annually on a certain sum of money for 2 years at 4% per annum is Rs. 1. The sum (in Rs.) is:
+   a) 625
+   b) 630
+   c) 640
+   d) 650
+   e) None of these
+
+   Answer: a
+
+3. There is 60% increase in an amount in 6 years at simple interest. What will be the compound interest of Rs. 12,000 after 3 years at the same rate?
+   a) Rs. 2160
+   b) Rs. 3120
+   c) Rs. 3972
+   d) Rs. 6240
+   e) None of these
+
+   Answer: c
+
+4. What is the difference between the compound interests on Rs. 5000 for112112years at 4% per annum compounded yearly and half-yearly?
+   a) Rs. 2.04
+   b) Rs. 3.06
+   c) Rs. 4.80
+   d) Rs. 8.30
+
+   Answer: a
+
+5. The compound interest on Rs. 30,000 at 7% per annum is Rs. 4347. The period (in years) is:
+   a) 2
+   b) 212212
+   c) 3
+   d) 4
+
+   Answer: a
+
+6. What will be the compound interest on a sum of Rs. 25,000 after 3 years at the rate of 12 p.c.p.a.?
+   a) Rs. 9000.30
+   b) Rs. 9720
+   c) Rs. 10123.20
+   d) Rs. 10483.20
+   e) None of these
+
+   Answer: c
+
+7. At what rate of compound interest per annum will a sum of Rs. 1200 become Rs. 1348.32 in 2 years?
+   a) 6%
+   b) 6.5%
+   c) 7%
+   d) 7.5%
+
+   Answer: a
+
+8. The least number of complete years in which a sum of money put out at 20% compound interest will be more than doubled is:
+   a) 3
+   b) 4
+   c) 5
+   d) 6
+
+   Answer: b
+
+9. Albert invested an amount of Rs. 8000 in a fixed deposit scheme for 2 years at compound interest rate 5 p.c.p.a. How much amount will Albert get on maturity of the fixed deposit?
+   a) Rs. 8600
+   b) Rs. 8620
+   c) Rs. 8820
+   d) None of these
+
+   Answer: c
+
+10. The effective annual rate of interest corresponding to a nominal rate of 6% per annum payable half-yearly is:
+   a) 6.06%
+   b) 6.07%
+   c) 6.08%
+   d) 6.09%
+
+   Answer: d
+
+11. A sum of Rs 210 was taken as a loan. This is to be paid back in two equal installments. If the rate of interest be 10%  compounded annually, then the value of each installment is  =  ?
+   a) Rs. 127
+   b) Rs. 121
+   c) Rs. 210
+   d) Rs. 225
+
+   Answer: b
+
+12. A certain sum will amount to Rs 12100 in 2 years at 10%  per annum of compound interest, interest being compounded annually. The sum is  =  ?
+   a) Rs. 12000
+   b) Rs. 6000
+   c) Rs. 8000
+   d) Rs. 10000
+
+   Answer: d
+
+13. Find the rate percent per annum if Rs. 2000 amounts to Rs. 2315.25 in one and half years interest being compounded half yearly.
+   a) 10%
+   b) 11.5%
+   c) 5%
+   d) 20%
+
+   Answer: a
+
+14. One can purchase a flat from a house building society for Rs. 55000 cash or on the terms that he should pay Rs. 4275 as cash down payment and get the rest in three equal installments. The society charges interest at the rate of 16%  per annum compounded half-yearly. If the flat is purchased under installment plan, find the value of each installment ?
+   a) Rs. 18756
+   b) Rs. 19292
+   c) Rs. 19683
+   d) Rs. 20285
+
+   Answer: c
+
+15. The sum of money which when given on compound interest at 18%  per annum would fetch Rs 960 more when the interest is payable half-yearly then when it was payable annually for 2 years is  =  ?
+   a) Rs. 60000
+   b) Rs. 30000
+   c) Rs. 40000
+   d) Rs. 50000
+
+   Answer: d
+
+16. In what time will Rs 64000 amounts to Rs 68921 at 5%  per annum interest being compounded half yearly ?
+   a) 112112years
+   b) 2 years
+   c) 3 years
+   d) 212212years
+
+   Answer: a
+
+17. When principal  =  Rs. S, rate of interest  =  2r %  p.a., then a person will get after 3 years at compound interest  =  ?
+   a) Rs.6Sr100Rs.6Sr100
+   b) Rs. S(1+r50)3Rs. S(1+r50)3
+   c) Rs. S(1+r100)3Rs. S(1+r100)3
+   d) Rs. 3S(1+r100)3Rs. 3S(1+r100)3
+
+   Answer: b
+
+18. At what rate of compound interest per annum will a sum of Rs. 1200 become Rs. 1348.32 in 2 years ?
+   a) 6.5%
+   b) 4.5%
+   c) 6%
+   d) 7.5%
+
+   Answer: c
+
+19. On what sum of money will the difference between simple interest and compound interest for 2 years at 5%  per annum be equal to Rs. 63 ?
+   a) Rs. 24600
+   b) Rs. 24800
+   c) Rs. 25200
+   d) Rs. 25500
+
+   Answer: c
+
+20. A sum of Rs. 5324 is accumulated in 3 years at 10%  compound interest, What is the original amount =  ?
+   a) Rs. 2000
+   b) Rs. 4000
+   c) Rs. 6000
+   d) Rs. 3000
+
+   Answer: b
+
+21. Simple interest on a certain sum of money for 3 years at 8% per annum is half the compound interest on Rs. 4000 for 2 years at 10% per annum. The sum placed on simple interest is:
+   a) Rs. 1550
+   b) Rs. 1650
+   c) Rs. 1750
+   d) Rs. 2000
+   e) None of these
+
+   Answer: c
+
+22. If the simple interest on a sum of money for 2 years at 5% per annum is Rs. 50, what is the compound interest on the same at the same rate and for the same time?
+   a) Rs. 51.25
+   b) Rs. 52
+   c) Rs. 54.25
+   d) Rs. 60
+   e) None of these
+
+   Answer: a
+
+23. The difference between simple interest and compound on Rs. 1200 for one year at 10% per annum reckoned half-yearly is:
+   a) Rs. 2.50
+   b) Rs. 3
+   c) Rs. 3.75
+   d) Rs. 4
+   e) None of these
+
+   Answer: b
+
+24. The difference between compound interest and simple interest on an amount of Rs. 15,000 for 2 years is Rs. 96. What is the rate of interest per annum?
+   a) 8
+   b) 10
+   c) 12
+   d) Cannot be determined
+   e) None of these
+
+   Answer: a
+
+25. The compound interest on a certain sum for 2 years at 10% per annum is Rs. 525. The simple interest on the same sum for double the time at half the rate percent per annum is:
+   a) Rs. 400
+   b) Rs. 500
+   c) Rs. 600
+   d) Rs. 800
+
+   Answer: b
+
+26. In how many years will Rs. 2000 amounts to Rs. 2420 at 10%  per annum compound interest?
+   a) 3 years
+   b) 212212years
+   c) 2 years
+   d) 112112years
+
+   Answer: c
+
+27. If the difference between the compound interest and simple interest on a sum of 5%  rate of interest per annum for three years is Rs. 36.60, then the sum is  =  ?
+   a) Rs. 8000
+   b) Rs. 8400
+   c) Rs. 4400
+   d) Rs. 4800
+
+   Answer: d
+
+28. What would be the compound interest accrued on an amount of Rs. 8400 @ 12.5 p.c.p.a at the end of 3 years ?
+   a) Rs. 2584.16
+   b) Rs. 3560.16
+   c) Rs. 3820.14
+   d) Rs. 4205.62
+   e) None of these
+
+   Answer: b
+
+29. A sum of money doubles itself in 4 years compound interest. It will amount to 8 times itself at the same rate of interest in  =  ?
+   a) 18 years
+   b) 12 years
+   c) 16 years
+   d) 24 years
+
+   Answer: b
+
+30. A sum becomes Rs.1352 in 2 years at 4%  per annum compound interest. The sum is = ?
+   a) Rs. 1225
+   b) Rs. 1270
+   c) Rs. 1245
+   d) Rs. 1250
+
+   Answer: d
+
+31. The compound interest on Rs.2800 for 18 months at 10% p.a is  =  ?
+   a) Rs. 420
+   b) Rs. 434
+   c) Rs. 436.75
+   d) Rs. 441.35
+
+   Answer: b
+
+32. If the compound interest on a sum of money for 3 years at the rate of 5%  per annum is Rs. 252.20, the simple interest on the same sum at the same rate and for the same time is ?
+   a) Rs. 220
+   b) Rs. 240
+   c) Rs. 245
+   d) Rs. 250
+
+   Answer: b
+
+33. On a certain sum of money the compound interest for 2 years is Rs. 282.15 and the simple interest for the same period of time is Rs. 270. The rate of interest per annum is  =  ?
+   a) 6.07%
+   b) 10%
+   c) 9%
+   d) 12.15%
+
+   Answer: c
+
+34. If the rate of interest be 4%  per annum for first year, 5%  per annum foe second year and 6%  per annum for third year, then the compound interest of Rs.10000 for three years will be ?
+   a) Rs. 1575.20
+   b) Rs. 1600
+   c) Rs. 1625.80
+   d) Rs. 2000
+
+   Answer: a
+
+35. What will be the compound interest accrued on an amount of Rs.10000 @ 20 p.c.p.a in 2 years if the interest is compounded half - yearly?
+   a) Rs. 4400
+   b) Rs. 4600
+   c) Rs. 4641
+   d) Rs. 4680
+   e) None of these
+
+   Answer: c
+
+36. A sum of money invested at compound interest amounts to Rs. 650 at the end of first year and Rs. 676 at the end of second year. The sum of money is  =  ?
+   a) Rs. 600
+   b) Rs. 540
+   c) Rs. 625
+   d) Rs. 560
+
+   Answer: c
+
+37. The principal which will amounts to Rs. 270.40 in 2 years at the rate of 4%  per annum compound interest, is  =  ?
+   a) Rs. 200
+   b) Rs. 225
+   c) Rs. 250
+   d) Rs. 220
+
+   Answer: c
+
+38. A bank offers 5%  compound interest calculated on half yearly basis. A customer deposits Rs.1600 each on 1st January and 1st July of a year. At the end of the year, the amount he would have gained by way of interest is  =  ?
+   a) Rs. 120
+   b) Rs. 121
+   c) Rs. 122
+   d) Rs. 123
+
+   Answer: b
+
+39. Mr. Duggal invested Rs. 20000 with rate of interest @ 20  p.c.p.a. The interest was compounded half - yearly for first one year ans in the next year it was compounded yearly. What will be the total interest earned at the end of 2 year ?
+   a) Rs. 8040
+   b) Rs. 8800
+   c) Rs. 9040
+   d) Rs. 9800
+   e) None of these
+
+   Answer: c
+
+40. The compound interest on a certain sum of money at a certain rate for 2 years is Rs. 40.80 and the simple interest on the same sum is Rs. 40 at the same rate and for the same time. The rate of interest is  =  ?
+   a) 2% per annum
+   b) 3% per annum
+   c) 4% per annum
+   d) 5% per annum
+
+   Answer: c
+
+41. A sum of money on compound interest amounts to Rs. 10648 in 3 years and Rs. 9680 in 2 years. The rate of interest per annum is  =  ?
+   a) 5%
+   b) 10%
+   c) 15%
+   d) 20%
+
+   Answer: b
+
+42. The compound interest on Rs 16000 for 9 months at 20%  per annum, interest being compounded quarterly, is  =  ?
+   a) Rs. 2520
+   b) Rs. 2524
+   c) Rs. 2522
+   d) Rs. 2518
+
+   Answer: c
+
+43. A man gets a simple interest on Rs. 1000 on a certain principal at the rate of 5 p.c.p.a. in 4 years. What compound interest will the man get on twice the principal in 2 years at the same rate ?
+   a) Rs. 1000
+   b) Rs. 1005
+   c) Rs. 10125
+   d) Rs. 11025
+   e) None of these
+
+   Answer: e
+
+44. The difference between simple interest ans compound interest on Rs. P at R%  p.a in 2 years is  =  ?
+   a) Rs.PR100Rs.PR100
+   b) Rs.2PR100Rs.2PR100
+   c) Rs.PR2100Rs.PR2100
+   d) Rs.PR2(100)2Rs.PR2(100)2
+
+   Answer: d
+
+45. Compound interest on a sum of money for 2 years at 4%  per annum is Rs. 2448. simple interest on the same sum of money at the same rate of interest for 2 years will be  =  ?
+   a) Rs. 2500
+   b) Rs. 2400
+   c) Rs. 2360
+   d) Rs. 2250
+
+   Answer: b
+
+46. A person deposited a sum of of Rs 6000 in a bank at 5%  per annum simple interest. Another person deposited Rs 5000 at 8%  per annum compound interest. After two years, the difference of their interest will be  =  ?
+   a) Rs. 230
+   b) Rs. 232
+   c) Rs. 832
+   d) Rs. 600
+
+   Answer: b
+
+47. What will be the difference between the simple interest and compound interest accrued on an amount of Rs. 19200 of 3 years @ 12 p.c.p.a. ?
+   a) Rs. 722.6826
+   b) Rs. 798.1824
+   c) Rs. 802.5144
+   d) Rs. 862.6176
+   e) None of these
+
+   Answer: d
+
+48. What will be the difference between S.I. and C.I. on a sum of Rs. 15000 for 2 years at the same rate of interest of12121212%  per annum ?
+   a) Rs. 230.550
+   b) Rs. 234.375
+   c) Rs. 250.129
+   d) Rs. 324.357
+
+   Answer: b
+
+49. A certain sum of money yields Rs. 1261 as compound interest for three years at 5%  per annum. The sum is ?
+   a) Rs. 9000
+   b) Rs. 8400
+   c) Rs. 7500
+   d) Rs. 8000
+
+   Answer: d
+
+50. A certain sum, invested at 4%  per annum compound interest,  compounded half yearly, amounts to Rs. 7803 at the end of one year. The sum is ?
+   a) Rs. 7000
+   b) Rs. 7200
+   c) Rs. 7500
+   d) Rs. 7700
+
+   Answer: c
+
+51. A man borrow Rs. 4000 at 15%, compound rate of interest. At the end of each year he pays back Rs. 1500. How much amount should be pay at the end of the third year to clear all his dues ?
+   a) Rs. 874.75
+   b) Rs. 824.50
+   c) Rs. 924.25
+   d) Rs. 974.25
+
+   Answer: a
+
+52. A certain sum of amounts to Rs. 5832 in 2 years at 8%  per annum compound interest, the sum is  =  ?
+   a) Rs. 5000
+   b) Rs. 5200
+   c) Rs. 5280
+   d) Rs. 5400
+
+   Answer: a
+
+53. The compound interest on Rs. 6000 at 10%  per annum for112112years, when the interest being compounded annually, is  =  ?
+   a) Rs. 910
+   b) Rs. 870
+   c) Rs. 930
+   d) Rs. 900
+
+   Answer: c
+
+54. A man invests Rs. 5000 for 3 years at 5%  p.a. compound interest reckoned yearly. Income tax at the rate of 20%  on the interest earned is deducted at the end of each year. Find the amount at the end of the third year  =  ?
+   a) Rs. 5624.32
+   b) Rs. 5627.20
+   c) Rs. 5630.50
+   d) Rs. 5788.125
+
+   Answer: a
+
+55. At a certain rate per annum, the simple interest on a sum of money for one year is Rs. 260 and the compound interest on the same sum for two years is Rs. 540.80. The rate of interest per annum is  =  ?
+   a) 4%
+   b) 6%
+   c) 8%
+   d) 10%
+
+   Answer: c
+
+56. The simple interest on a sum of money at 4%  per annum for 2 years is Rs 80. The compound interest on the same sum for the same period is  =  ?
+   a) Rs. 82.60
+   b) Rs. 82.20
+   c) Rs. 81.80
+   d) Rs. 81.60
+
+   Answer: d
+
+57. The compound interest on Rs. 30000 at 7%  per annum is Rs. 4347. The period (in years) is  =  ?
+   a) 2 years
+   b) 212212years
+   c) 3 years
+   d) 4 years
+
+   Answer: a
+
+58. The compound interest on a certain sum of money at 5%  per annum for 2 years is Rs 246. The simple interest on the same sum for 3 years at 6%  per annum is  =  ?
+   a) Rs. 435
+   b) Rs. 450
+   c) Rs. 430
+   d) Rs. 432
+
+   Answer: d
+
+59. The difference between compound and simple interest on a certain sum for 3 years at 5%  per annum is Rs. 122. The sum is  =  ?
+   a) Rs. 16000
+   b) Rs. 15000
+   c) Rs. 12000
+   d) Rs. 10000
+
+   Answer: a
+
+60. Rs.2000 amounts to Rs. 2226.05 in 2 years at compound interest. What will be the rate of interest ?
+   a) 5%
+   b) 5.25%
+   c) 5.5%
+   d) 6%
+
+   Answer: c
+
+61. A certain some of money and Rs. 2420 in 2 years and Rs. 2662 in 3 years at same rate of compound interest, compounded annually. The rate of interest per annum is  =  ?
+   a) 6%
+   b) 8%
+   c) 9%
+   d) 10%
+
+   Answer: d
+
+62. Kamal took Rs. 6800 as a loan which along with interest is to be repaid in two equal annual installment. If the rate of interest is12121212% compounded annually, then the value of each installment is  =  ?
+   a) Rs. 8100
+   b) Rs. 4150
+   c) Rs. 4050
+   d) Rs. 4000
+
+   Answer: c
+
+63. A man invests Rs 4000 for 3 years at compound interest. After one year the money amounts to Rs. 4320. What will be the amount (to the nearest rupee) due at the end of 3 years ?
+   a) Rs. 4939
+   b) Rs. 5039
+   c) Rs. 5789
+   d) Rs. 6129
+
+   Answer: b
+
+64. A sum of Rs. 13360 was borrowed at834834% per annum compound interest and paid back in two years in two equal annual installments. What was the amount of each installment ?
+   a) Rs. 5769
+   b) Rs. 7569
+   c) Rs. 7009
+   d) Rs. 7500
+
+   Answer: b
+
+65. An amount of Rs. 10000 becomes Rs. 14641 in 2 years if the interest is compounded half yearly. What is the rate of compound interest p.c.p.a. ?
+   a) 10%
+   b) 12%
+   c) 16%
+   d) 20%
+   e) None of these
+
+   Answer: d
+
+66. In how many years will a sum of Rs. 800 at 10%  per annum compounded semi annually become Rs. 926.10?
+   a) 113113years
+   b) 112112years
+   c) 213213years
+   d) 212212years
+
+   Answer: b
+
+67. A loan of Rs. 12300 at 5%  per annum compound interest, is to be repaid in two equal annual installments at the end of every year. Find the amount of each installment ?
+   a) Rs. 6651
+   b) Rs. 6615
+   c) Rs. 6516
+   d) Rs. 6156
+
+   Answer: b
+
+68. An amount of Rs 6000 lent at 5%  per annum compounded interest for 2 years will become  =  ?
+   a) Rs. 600
+   b) Rs. 6600
+   c) Rs. 6610
+   d) Rs. 6615
+
+   Answer: d
+
+69. The simple interest on a certain sum of money for 3 years at 8%  per annum is half the compound interest on Rs. 4000 for 2 years at 10%  per annum. The sum placed on simple interest is ?
+   a) Rs. 1550
+   b) Rs. 1650
+   c) Rs. 1750
+   d) Rs. 2000
+
+   Answer: c
+
+70. There is 60%  increase in an amount in 6 years at simple interest. What will be the compound interest of Rs. 12000 after 3 years at the same rate ?
+   a) Rs. 2160
+   b) Rs. 3120
+   c) Rs. 3972
+   d) Rs. 6240
+   e) None of these
+
+   Answer: c
+
+71. At what rate percent per annum of compound interest, will a sum of money become four times of itself in two years ?
+   a) 100%
+   b) 75%
+   c) 50%
+   d) 20%
+
+   Answer: a
+
+72. On a certain sum of money, the difference between the compound interest for a year, payable half yearly, and the simple interest for a year is Rs. 56. If the rate of interest in both the cases is 16%, then the sum is ?
+   a) Rs. 1080
+   b) Rs. 7805
+   c) Rs. 8750
+   d) Rs. 5780
+
+   Answer: c
+
+73. On a certain sum of money, the difference between the compound interest for a year payable half yearly, and the simple interest for a year is Rs. 180. If the rate of interest in both the cases is 10%, then the sum is  =  ?
+   a) Rs. 60000
+   b) Rs. 72000
+   c) Rs. 62000
+   d) Rs. 54000
+
+   Answer: b
+
+74. The compound interest accrued on an amount of Rs. 25500 at the end of 3 years is Rs. 8440.50. What would be the simple interest accrued on the same amount at the same rate in the same period ?
+   a) Rs. 4650
+   b) Rs. 5650
+   c) Rs. 6650
+   d) Rs. 7650
+   e) None of these
+
+   Answer: d
+
+75. The difference between the amount of compound interest and simple interest accrued on an amount of Rs. 26000 at the end of 3 years is Rs. 2994.134. What is the rate of interest p.c.p.a ?
+   a) 17%
+   b) 19%
+   c) 22%
+   d) Cannot be determined
+   e) None of these
+
+   Answer: b
+
+76. A sum of money becomes eight times in 3 years, If the rate is compounded annually. In how much time will the same amount at the same compound rate become sixteen times ?
+   a) 6 years
+   b) 4 years
+   c) 8 years
+   d) 5 years
+
+   Answer: b
+
+77. A sum of money placed at compound interest double itself in 4 years. In how many years will it amount to four times itself ?
+   a) 12 years
+   b) 13 years
+   c) 8 years
+   d) 16 years
+
+   Answer: c
+
+78. The compound interest on Rs. 30000 at 7%  per annum for a certain time is Rs. 4347. The times is  = ?
+   a) 3 years
+   b) 4 years
+   c) 2 years
+   d) 2.5 years
+
+   Answer: c
+
+79. A money lender borrows money at 4%  per annum and pays the interest at the end of the year. He lends it at 6%  per annum compound interest compounded half yearly and receives the interest at the end of the year. In this way, he gains Rs. 104.50, a year. The amount of money be borrows, is ?
+   a) Rs. 4500
+   b) Rs. 5000
+   c) Rs. 5500
+   d) Rs. 6000
+
+   Answer: b
+
+80. The effective annual rate of interest corresponding to a nominal rate of 6%  per annum payable half yearly is  = ?
+   a) 6.06%
+   b) 6.07%
+   c) 6.08%
+   d) 6.09%
+
+   Answer: d
+
+81. A sum of Rs. 8000 will amount to Rs. 8820 in 2 years if the interest is calculated every year. The rate of compound interest is  =  ?
+   a) 6%
+   b) 7%
+   c) 3%
+   d) 5%
+
+   Answer: d
+
+82. The compound interest on a certain some of money for 2 years at 10%  per annum is Rs 420. The simple interest on the same sum at the same rate and for the same time will be ?
+   a) Rs. 350
+   b) Rs. 375
+   c) Rs. 380
+   d) Rs. 400
+
+   Answer: d
+
+83. A sum of money at compound interest amounts to thrice of itself in 3 years. In how many years it will be 9 times of itself?
+   a) 9 years
+   b) 27 years
+   c) 6 years
+   d) 3 years
+
+   Answer: c
+
+84. A father left a will of Rs. 16400 for his two sons aged 17 and 18 years. They must get equal amount when they are 20 years, at 5%  compound interest. Find the present share of the younger son  =  ?
+   a) Rs. 8000
+   b) Rs. 8200
+   c) Rs. 8400
+   d) Rs. 8800
+
+   Answer: a
+
+85. A sum of money put at compound interest amounts in 2 years to Rs. 672 and in 3 years Rs. 714. The rate of interest per annum is  =  ?
+   a) 5.5%
+   b) 6.0%
+   c) 6.25%
+   d) 6.75%
+
+   Answer: c
+
+86. A certain amount money at R%  compounded annually after two and three years becomes Rs. 1440 and Rs. 1728 respectively, R% is ?
+   a) 5%
+   b) 10%
+   c) 15%
+   d) 20%
+
+   Answer: d
+
+87. The compound interest on a certain sum for 2 successive years are Rs. 225 and Rs. 238.50. The rate of interest per annum is = ?
+   a) 712712%
+   b) 5%
+   c) 10%
+   d) 6%
+
+   Answer: d
+
+88. A man, borrow Rs 21000 at 10%  compound interest. How much he has to pay annually at the end of each year, to settle his loan in two years ?
+   a) Rs. 12000
+   b) Rs. 12100
+   c) Rs. 12200
+   d) Rs. 12300
+
+   Answer: b
+
+89. A sum of money invested at compound interest amounts to Rs. 4624 in 2 years and Rs. 4913 in 3 years. The sum of money is  =  ?
+   a) Rs. 4096
+   b) Rs. 4260
+   c) Rs. 4335
+   d) Rs. 4360
+
+   Answer: a
+
+90. A sum of Rs. 12000 deposited at compound interest become double after 5 years. After 20 years it will become ?
+   a) Rs. 96000
+   b) Rs. 120000
+   c) Rs. 124000
+   d) Rs. 192000
+
+   Answer: d
+
+91. The compound interest on Rs. 5000 for 3 years at 10%  p.a. will amount to  =  ?
+   a) Rs. 1654
+   b) Rs. 1655
+   c) Rs. 1600
+   d) Rs. 1565
+
+   Answer: b
+
+92. If the compound interest on a certain sum for two years at 12%  per annum is Rs. 2544, the simple interest on it at the same rate for 2 years will be  =  ?
+   a) Rs. 2400
+   b) Rs. 2500
+   c) Rs. 2480
+   d) Rs. 2440
+
+   Answer: a
+
+93. A sum becomes Rs. 2916 in 2 years at 8%  per annum compound interest. The simple interest at 9%  per annum for 3 years on the same amount will be  =  ?
+   a) Rs. 600
+   b) Rs. 675
+   c) Rs. 650
+   d) Rs. 625
+
+   Answer: b
+
+94. A sum of money is compound interest became doubles itself in 15 years. It will become eight times of itself in  =  ?
+   a) 45 years
+   b) 48 years
+   c) 54 years
+   d) 60 years
+
+   Answer: a
+
+95. A finance company declares that, at a certain compound interest rate, a sum of money deposited by anyone will become 8 times in 3 years. If the same amount is deposited at the same compound rate of interest, then in how many years will it become 16 times ?
+   a) 4 years
+   b) 5 years
+   c) 6 years
+   d) 7 years
+
+   Answer: a
+
+96. What does Rs. 250 amounts to in 2 years with compound interest at the rate of 4%  in the 1styear and 8%  in the second year ?
+   a) Rs. 280
+   b) Rs. 280.80
+   c) Rs. 468
+   d) Rs. 290.80
+
+   Answer: b
+
+97. The compound interest on a certain sum of money for 2 years at 5%  is Rs. 328, then the sum is  =  ?
+   a) Rs. 3000
+   b) Rs. 3600
+   c) Rs. 3200
+   d) Rs. 3400
+
+   Answer: c
+
+98. The compound interest on a certain sum of money for 2 years at 5%  per annum is Rs 410. The simple interest on the same sum at the same rate and for the same time is  =  ?
+   a) Rs. 400
+   b) Rs. 300
+   c) Rs. 350
+   d) Rs. 405
+
+   Answer: a
+
+99. A sum of money lent out at compound interest increases in value by 50%  in 5 years. A person wants to lend three different sums x, y and z for 10, 15 and 20 years respectively at the above rate in such a way that he gets back equal sums at the end of their respective periods. The ratio x : y : z is = ?
+   a) 6 : 9 : 4
+   b) 9 : 4 : 6
+   c) 9 : 6 : 4
+   d) 6  : 4 : 9
+
+   Answer: c
+
+100. Under the Rural Housing Scheme, the Delhi Development Authority (DDA) allotted a house to Kamal Raj for Rs. 126100. This payment is to be made in three equal annual instalments. If the money is reckoned at 5%  per annum compound interest, then how much is to be paid by Kamal Raj in each instalment ?
+   a) Rs. 45205
+   b) Rs. 46305
+   c) Rs. 47405
+   d) Rs. 48505
+
+   Answer: b
+
+101. On a certain sum of money, the simple interest for 2 years is Rs 350 at the rate of 4%  per annum. If it was invested at compound interest at the same rate for the same duration as before, how much more interest would be earned?
+   a) Rs. 3.50
+   b) Rs. 7
+   c) Rs. 14
+   d) Rs. 35
+
+   Answer: b
+
+102. The compound interest on a sum of Rs 5000 at 8%  per annum for 9 months when interest is compounded quarterly is  =  ?
+   a) Rs. 300
+   b) Rs. 300.12
+   c) Rs. 306.04
+   d) Rs. 308
+
+   Answer: c
+
+103. The compound interest on a certain sum of money for 2 years at 10%  per annum is Rs. 525.The simple interest on the same sum of money for double the time at half the rate percent per annum is ?
+   a) Rs. 1000
+   b) Rs. 500
+   c) Rs. 200
+   d) Rs. 800
+
+   Answer: b
+
+104. If the difference between the compound interest and simple interest on a certain sum at the rate of 5%  per annum for 2 years is Rs. 20, then the sum is  =  ?
+   a) Rs. 2000
+   b) Rs. 4000
+   c) Rs. 6000
+   d) Rs. 8000
+
+   Answer: d
+
+105. The difference between CI and SI for 3 years Rs. 992. If rate of interest is 10%. Find the Principal ?
+   a) Rs. 22000
+   b) Rs. 30000
+   c) Rs. 28000
+   d) Rs. 32000
+
+   Answer: d
+
+106. The difference between compound interest and simple interest on a certain sum of money for 2 years at 5%  per annum is Rs. 41. What is the sum of money ?
+   a) Rs. 7200
+   b) Rs. 9600
+   c) Rs. 16400
+   d) Rs. 8400
+
+   Answer: c
+
+107. The compound interest on a certain sum for 2 years at 10%  per annum is Rs. 525. The simple interest on the same sum for double the time at half the rate percent per annum is  =  ?
+   a) Rs. 520
+   b) Rs. 550
+   c) Rs. 500
+   d) Rs. 515
+
+   Answer: c
+
+108. Shashi had a certain amount of money. He invested2323of the total money in scheme A for 6 years and rest of the money he invested in scheme B for 2 years. Scheme A offers simple interest at a rate of 12%  p.a. and scheme B offers compound interest ( compound annually) at a rate of 10%  p.a. If the total interest obtained from both the schemes is Rs. 2750. What was the total amount invested by him in scheme A and scheme B together ? (Approximate value)
+   a) Rs. 4500
+   b) Rs. 4200
+   c) Rs. 4050
+   d) Rs. 5000
+
+   Answer: d
+
+109. The difference between CI and SI on a certain sum of money for 3 years at 5%  p.a. is Rs. 122. Find the sum invested = ?
+   a) Rs. 10000
+   b) Rs. 12000
+   c) Rs. 16000
+   d) Rs. 20000
+
+   Answer: c
+
+110. A man invested a sum of money at compound interest. It amounted to Rs. 2420 in 2 years and to Rs. 2662 in 3 years. Find the sum ?
+   a) Rs. 1000
+   b) Rs. 2000
+   c) Rs. 5082
+   d) Rs. 3000
+
+   Answer: b
+
+111. The sum for 2 years given a compound interest of Rs. 3225 at 15%  rate. Then the sum is  =  ?
+   a) Rs. 10000
+   b) Rs. 20000
+   c) Rs. 15000
+   d) Rs. 32250
+
+   Answer: a
+
+112. The compound interest on Rs. 4000 for 4 years at 10%  per annum will be  =  ?
+   a) Rs. 1856.40
+   b) Rs. 1600
+   c) Rs. 1856
+   d) Rs. 1756.60
+
+   Answer: a
+
+113. A loan is to be returned in two equal yearly instalments. If the rate of interest is 10% p.a. compounded annually and each instalment is Rs. 5,808, then 60% of the total interest (nearest to a Rs.) charge in this scheme is:
+   a) 917
+   b) 922
+   c) 913
+   d) 911
+
+   Answer: b
+
+114. The population of a city in 2014 was 8000000. If in 2015, there is an increment of 8%, in 2016, there is a decrement of 35% and in 2017, there is an increment of 65%, then what is the population of the city at the end of the year 2017?
+   a) 8400278
+   b) 9266400
+   c) 7000000
+   d) 9635535
+
+   Answer: b
+
+115. How much should you invest today at 10% compound interest annually, to accumulate Rs. 1,61,051 in 5 years?
+   a) Rs. 1,11,100
+   b) Rs. 1,00,000
+   c) Rs. 1,10,000
+   d) Rs. 1,11,000
+
+   Answer: b
+
+116. The compound interest on Rs. 4,000 after 3 year is Rs. 630.50. Then the rate of interest compounded yearly is:
+   a) 7%
+   b) 5%
+   c) 8%
+   d) 6%
+
+   Answer: b
+
+117. Vipul and Manish invested the sum on Rs. 15000 and Rs. 20000 at the rate of 20 percent p.a and 30 percent p.a. respectively on compound interest (compounding annually). If time period is 3 years for both, then what will be the total compound interest earned by Vipul and Manish?
+   a) Rs. 29460
+   b) Rs. 32480
+   c) Rs. 31688
+   d) Rs. 34860
+
+   Answer: d
+
+118. The simple interest on a sum of money at 10% per annum for 2 years is Rs. 8,100. What would be the compound interest (in Rs.) on the same sum for the same period at 15% p.a, when the interest is compound yearly?
+   a) 13061.25
+   b) 14671
+   c) 8100
+   d) 12751
+
+   Answer: a
+
+119. A sum amounts to Rs. 18,600 after 3 years and to Rs. 27,900 after 6 years, at a certain rate percent p.a, when the interest is compounded annually. The sum is:
+   a) Rs. 11,800
+   b) Rs. 12,400
+   c) Rs. 14,400
+   d) Rs. 14,600
+
+   Answer: b
+
+120. A certain sum amounts to Rs. 4,205.55 at 15% p.a. in225225years, interest compounded yearly. The sum is:
+   a) Rs. 2,700
+   b) Rs. 3,000
+   c) Rs. 3,500
+   d) Rs. 3,200
+
+   Answer: b
+
+121. The difference between the compound interest and simple interest on Rs. x at 8.5% per annum for 2 years is Rs. 28.90. The value of x is
+   a) 3500
+   b) 3800
+   c) 4000
+   d) 4500
+
+   Answer: c
+
+122. There is a 60% increase in an amount in 5 years at simple interest. What will be the compound interest on Rs. 6,250 for two years at the same rate of interest, when the interest is compounded yearly?
+   a) Rs. 1,590
+   b) Rs. 1,560
+   c) Rs. 1,500
+   d) Rs. 1,480
+
+   Answer: a
+
+123. A loan has to be returned in two equal yearly instalments each of Rs. 44,100. If the rate of interest is 5% p.a., compounded annually, then the total interest paid is:
+   a) Rs. 5,840
+   b) Rs. 6,000
+   c) Rs. 6,200
+   d) Rs. 6,280
+
+   Answer: c
+
+124. Aman borrows Rs. 18,000 and undertakes to pay back with compound interest at a rate of 20% annually in two equal yearly instalments. The amount of each instalment is:
+   a) Rs. 12,102.74
+   b) Rs. 12,152.35
+   c) Rs. 11,781.82
+   d) Rs. 11,555.32
+
+   Answer: c
+
+125. A money lender borrows money at 6% per annum and pays the interest at the end of the year. He lends it at 8% per annum compound interest compounded half-yearly and receives the interest at the end of the year. In this way, he gains Rs. 108 a year. The amount of money he borrows, is:
+   a) Rs. 5,000
+   b) Rs. 4,500
+   c) Rs. 6,000
+   d) Rs. 5,500
+
+   Answer: a
+
+126. A sum amount to Rs. 7,562 in 4 years and to Rs. 8,469.44 in 5 years at a certain rate percent per annum, when the interest is compounded yearly. The rate of interest is:
+   a) 8%
+   b) 12%
+   c) 20%
+   d) 15%
+
+   Answer: b
+
+127. A sum of Rs. 12,000 amounts to Rs. 20,736 in 3 years at a certain rate percent per annum interest compounded annually. What will amount of the same sum to in 2 years at the same rate on compound interest?
+   a) Rs. 15,640
+   b) Rs. 17,820
+   c) Rs. 17,280
+   d) Rs. 14,520
+
+   Answer: c
+
+128. At what percent is the annual compound interest rate taken such that a certain sum amounts to its 16 times in 4 years?
+   a) 175%
+   b) 100%
+   c) 200%
+   d) 75%
+
+   Answer: b
+
+129. A sum of Rs. 10,500 amounts to Rs. 13,650 in 2 years a certain rate percent annum simple interest. The same sum will amount to what in 1 year at the same rate, if the interest in compounded half yearly (nearest to Rs. 1)
+   a) Rs. 12,124
+   b) Rs. 12,134
+   c) Rs. 12,143
+   d) Rs. 12,314
+
+   Answer: b
+
+130. A person borrowed some money on compound interest and returned it in 3 equal annual instalments. If the rate of interest is 15% per annum and the annual instalment is Rs. 12,167, then find the sum borrowed.
+   a) Rs. 27,780
+   b) Rs. 28,530
+   c) Rs. 25,780
+   d) Rs. 26,970
+
+   Answer: a
+
+131. The compound interest (compounding annually) on a certain sum at the rate of 8 percent per annum for two years is Rs. 6656. What would be the simple interest on the same sum at the same rate of interest for two years?
+   a) Rs. 6224
+   b) Rs. 6400
+   c) Rs. 5600
+   d) Rs. 6336
+
+   Answer: b
+
+132. At what rate percent per annum will a sum of Rs. 15,625 amount to Rs. 21,952 in three years, if the interest is compounded annually?
+   a) 12%
+   b) 8%
+   c) 9%
+   d) 10%
+
+   Answer: a
+
+133. If the cost of a mobile phone is Rs. 25,000, available at Rs. 5,000 down payment followed by 3 equal annual instalments (each instalment is to be paid at the end of each year) at the rate 25% p.a. compound interest, then find the value of each instalment (rounded off to two decimal places):
+   a) Rs. 13,021
+   b) Rs. 17,361
+   c) Rs. 10,245.09
+   d) Rs. 10,245.90
+
+   Answer: d
+
+134. If the difference between the compound interest and simple interest on a certain sum of money for three years at 10% p.a. is Rs. 558. Then the sum is:
+   a) Rs. 18,500
+   b) Rs. 18,000
+   c) Rs. 16,000
+   d) Rs. 15,000
+
+   Answer: b
+
+135. A sum of Rs. 15,000 is lent at 16% p.a. compound interest. What is the difference between the compound interest for the second year and the third year?
+   a) Rs. 544
+   b) Rs. 445.44
+   c) Rs. 445.88
+   d) Rs. 548
+
+   Answer: b
+
+136. What is the difference (in Rs.) between the interests on Rs. 50,000 for one year at 8% per annum compounded half yearly and yearly?
+   a) 80
+   b) 50
+   c) 70
+   d) 100
+
+   Answer: a
+
+137. A sum of money becomes Rs. 11,880 after 4 years and Rs. 17,820 after 6 years on compound interest, if the interest is compounded annually. What is the half of the sum (in Rs.)?
+   a) 2,410
+   b) 2,640
+   c) 2,530
+   d) 2,750
+
+   Answer: b
+
+138. Rs. 4,000 is given at 5% per annum for one year and interest is compounded half yearly. Rs. 2,000 is given at 40% per annum compounded quarterly for 1 year. The total interest received is nearest to:
+   a) Rs. 1,444.40
+   b) Rs. 1,888.80
+   c) Rs. 1,130.70
+   d) Rs. 1,333.30
+
+   Answer: c
+
+139. What will be the compound interest on a sum of Rs. 31,250 for 2 years at 12% p.a., if the interest is compounded 8-monthly
+   a) Rs. 8,016
+   b) Rs. 8,106
+   c) Rs. 8,156
+   d) Rs. 8,116
+
+   Answer: d
+
+140. A sum of money after a period of 2 years becomes Rs. 34,560, and it becomes Rs. 41,472 after a period of three years, being compounded at 'R' rate of interest. What is the value of R?
+   a) 20%
+   b) 12%
+   c) 25%
+   d) 10%
+
+   Answer: a
+
+141. In how many years will a sum of Rs. 320 amount to Rs. 405 if interest is compounded at 12.5% per annum?
+   a) 2 years
+   b) 1 year
+   c) 212years212years
+   d) 112years112years
+
+   Answer: a
+
+142. A sum of Rs. 4,620 is to be paid back in 2 equal annual instalments. How much is each instalments (in Rs.) if the interest is compounded annually at 10% per annum?
+   a) 2,420
+   b) 2,552
+   c) 2,662
+   d) 2,750
+
+   Answer: c
+
+143. A sum of Rs. 18,000 is lent at 10% p.a. compound interest, compounded annually. What is the difference between the compound interest for 3rdyear and 4thyear?
+   a) Rs. 215.40
+   b) Rs. 217.80
+   c) Rs. 220.60
+   d) Rs. 221.80
+
+   Answer: b
+
+144. A loan is to be returned in two equal yearly instalments. If the rate of interest is 10% p.a., compounded annually, and each instalment if Rs. 5,808, then the total interest charged in this scheme is:
+   a) Rs. 1,563
+   b) Rs. 1,536
+   c) Rs. 1,632
+   d) Rs. 1,602
+
+   Answer: b
+
+145. What is the amount (in Rs.) of a sum of Rs. 32,000 at 20% per annum for 9 months, compounded quarterly?
+   a) 37,044
+   b) 35,087
+   c) 32,000
+   d) 30,876
+
+   Answer: a
+
+146. The compound interest on a sum of Rs. 5,500 at 15% p.a. for 2 years, when the interest is compounded 8 monthly is:
+   a) Rs. 1,850
+   b) Rs. 1,880
+   c) Rs. 1,820.50
+   d) Rs. 1,773.75
+
+   Answer: c
+
+147. The compound interest (compounded annually) on a sum of money invested for three years yields Rs. 800 and Rs. 840 in four years. The annual percentage rate of interest is:
+   a) 4.5%
+   b) 5.5%
+   c) 5%
+   d) 6%
+
+   Answer: c
+
+148. The compound interest on a sum of Rs. 20,000 at 15% p.a., for223223years, interest compounded yearly is:
+   a) Rs. 9,098
+   b) Rs. 8.896
+   c) Rs. 9,000
+   d) Rs. 9,095
+
+   Answer: d
+
+149. The difference between the compound interest on a sum of Rs. 8,000 for 1 year at the rate of 10% per annum, interest compounded yearly and half yearly is:
+   a) Rs. 20
+   b) Rs. 40
+   c) Rs. 30
+   d) Rs. 10
+
+   Answer: a
+
+150. If the difference between the compound interest and simple at 17% on a sum money for 2 years (compounded annually) is Rs. 433.50, then the compounded interest (in Rs.) is:
+   a) 2,500
+   b) 2,735.50
+   c) 5,533.50
+   d) 5,100
+
+   Answer: c
+
+151. A sum of Rs. x was borrowed and paid back in two equal yearly instalments, each of Rs. 35,280. If the rate of interest was 5%, compounded annually, then
+the value of x is:
+   a) 64,400
+   b) 65,600
+   c) 64,800
+   d) 65,400
+
+   Answer: b
+
+152. Rahul invested equal sums of money at compound interest under two schemes A and B. Under scheme A, the interest rate was 10% per annum and under scheme B, the interest rate was 12% per annum. The compound interest after two years on the sum invested in scheme A was Rs. 1,050. How much is the interest earned under scheme B after two years, if the interest is compounded annually in both schemes?
+   a) Rs. 1,722
+   b) Rs. 1,270
+   c) Rs. 1,272
+   d) Rs. 1,372
+
+   Answer: c
+
+153. Surekha borrowed a sum of money and returned it in two equal instalments of Rs. 5,547 each. If the rate of interest was712%712%p.a. compounded yearly, then the total interest paid by her was:
+   a) Rs. 1,144
+   b) Rs. 1,096
+   c) Rs. 1,126
+   d) Rs. 1,134
+
+   Answer: d
+
+154. Ramesh borrowed Rs. 1,20,000 interest free from Aman. If he pays back at 6.25% of this amount quarterly and has already paid Rs. 30,000, then for how many months does he need to pay back his loan for the rest of the amount?
+   a) 36 months
+   b) 24 months
+   c) 42 months
+   d) 38 months
+
+   Answer: a
+
+155. What is the compound interest on Rs. 5,000 for 2 years at 10%, per annum, compounded half-yearly?
+   a) Rs. 1,025.00
+   b) Rs. 2,320.50
+   c) Rs. 1,050.00
+   d) Rs. 1,077.50
+
+   Answer: d
+
+156. Richa took a loan of Rs. 1,20,000 for 1 year at 20% per annum, compounded quarterly. The amount that Richa has to pay after 1 year is:
+   a) Rs. 1,45,861.75
+   b) Rs. 1,45,860.75
+   c) Rs. 1,45,863.75
+   d) Rs. 1,45,862.75
+
+   Answer: b
+
+157. A certain sum amount to Rs. 15,500 in 2 years at 12% p.a. simple interest. The same sum will amount to what in112112years at 10% p.a., if the interest is compounded half yearly (nearest to Rs. 1)?
+   a) Rs. 14,470
+   b) Rs. 15,125
+   c) Rs. 14,360
+   d) Rs. 13,460
+
+   Answer: a
+
+158. What will be the simple to compound interest (compounded annually) ratio on two identical funds put in a bank at an interest rate of 8% (per annum) for three years?
+   a) 3 : 5
+   b) 1875 : 2029
+   c) 3 : 4
+   d) 243 : 342
+
+   Answer: b
+
+159. The compound interest on a certain sum in212212years at 10% p.a., interest compounded yearly, is Rs. 1,623. The sum is:
+   a) Rs. 5,000
+   b) Rs. 6,000
+   c) Rs. 6,500
+   d) Rs. 7,200
+
+   Answer: b
+
+160. A certain loan was returned in two equal half yearly installments each of Rs. 6760. If the rate of interest was 8% p.a. compounded yearly, how much was the interest paid on the loan?
+   a) Rs. 790
+   b) Rs. 770
+   c) Rs. 750
+   d) Rs. 810
+
+   Answer: b
+

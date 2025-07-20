@@ -1,0 +1,1496 @@
+1. In which decade was the American Institute of Electrical Engineers (AIEE) founded?
+   a) 1850s
+   b) 1880s
+   c) 1930s
+   d) 1950s
+
+   Answer: b
+
+2. What is part of a database that holds only one type of information?
+   a) Report
+   b) Field
+   c) Record
+   d) File
+
+   Answer: b
+
+3. 'OS' computer abbreviation usually means ?
+   a) Order of Significance
+   b) Open Software
+   c) Operating System
+   d) Optical Sensor
+
+   Answer: c
+
+4. In which decade with the first transatlantic radio broadcast occur?
+   a) 1850s
+   b) 1860s
+   c) 1870s
+   d) 1900s
+
+   Answer: d
+
+5. '.MOV' extension refers usually to what kind of file?
+   a) Image file
+   b) Animation/movie file
+   c) Audio file
+   d) MS Office document
+
+   Answer: b
+
+6. In which decade was the SPICE simulator introduced?
+   a) 1950s
+   b) 1960s
+   c) 1970s
+   d) 1980s
+
+   Answer: c
+
+7. Most modern TV's draw power even if turned off. The circuit the power is used in does what function?
+   a) Sound
+   b) Remote control
+   c) Color balance
+   d) High voltage
+
+   Answer: b
+
+8. Which is a type of Electrically-Erasable Programmable Read-Only Memory?
+   a) Flash
+   b) Flange
+   c) Fury
+   d) FRAM
+
+   Answer: a
+
+9. The purpose of choke in tube light is ?
+   a) To decrease the current
+   b) To increase the current
+   c) To decrease the voltage momentarily
+   d) To increase the voltage momentarily
+
+   Answer: d
+
+10. '.MPG' extension refers usually to what kind of file?
+   a) WordPerfect Document file
+   b) MS Office document
+   c) Animation/movie file
+   d) Image file
+
+   Answer: c
+
+11. Who is largely responsible for breaking the German Enigma codes, created a test that provided a foundation for artificial intelligence?
+   a) Alan Turing
+   b) Jeff Bezos
+   c) George Boole
+   d) Charles Babbage
+
+   Answer: a
+
+12. Who developed Yahoo?
+   a) Dennis Ritchie & Ken Thompson
+   b) David Filo & Jerry Yang
+   c) Vint Cerf & Robert Kahn
+   d) Steve Case & Jeff Bezos
+
+   Answer: b
+
+13. Made from a variety of materials, such as carbon, which inhibits the flow of current...?
+   a) Choke
+   b) Inductor
+   c) Resistor
+   d) Capacitor
+
+   Answer: c
+
+14. The most common format for a home video recorder is VHS. VHS stands for...?
+   a) Video Home System
+   b) Very high speed
+   c) Video horizontal standard
+   d) Voltage house standard
+
+   Answer: a
+
+15. What does VVVF stand for?
+   a) Variant Voltage Vile Frequency
+   b) Variable Velocity Variable Fun
+   c) Very Very Vicious Frequency
+   d) Variable Voltage Variable Frequency
+
+   Answer: d
+
+16. What frequency range is the High Frequency band?
+   a) 100 kHz
+   b) 1 GHz
+   c) 30 to 300 MHz
+   d) 3 to 30 MHz
+
+   Answer: d
+
+17. The first step to getting output from a laser is to excite an active medium. What is this process called?
+   a) Pumping
+   b) Exciting
+   c) Priming
+   d) Raising
+
+   Answer: a
+
+18. What is the relationship between resistivity r and conductivity s?
+   a) R = s2
+   b) R = s
+   c) R > s
+   d) R = 1/s
+
+   Answer: d
+
+19. Which motor is NOT suitable for use as a DC machine?
+   a) Permanent magnet motor
+   b) Series motor
+   c) Squirrel cage motor
+   d) Synchronous motor
+
+   Answer: c
+
+20. A given signal's second harmonic is twice the given signal's __________ frequency...?
+   a) Fourier
+   b) Foundation
+   c) Fundamental
+   d) Field
+
+   Answer: c
+
+21. In which year was MIDI(Musical Instrument Digital Interface) introduced?
+   a) 1987
+   b) 1983
+   c) 1973
+   d) 1977
+
+   Answer: b
+
+22. What does the term PLC stand for?
+   a) Programmable Lift Computer
+   b) Program List Control
+   c) Programmable Logic Controller
+   d) Piezo Lamp Connector
+
+   Answer: c
+
+23. When measuring the characteristics of a small-signal amplifier, say for a radio receiver, one might be concerned with its "Noise..."?
+   a) Fundamental
+   b) Fall
+   c) Force
+   d) Figure
+
+   Answer: d
+
+24. 'DB' computer abbreviation usually means ?
+   a) Database
+   b) Double Byte
+   c) Data Block
+   d) Driver Boot
+
+   Answer: a
+
+25. '.INI' extension refers usually to what kind of file?
+   a) Image file
+   b) System file
+   c) Hypertext related file
+   d) Image Color Matching Profile file
+
+   Answer: b
+
+26. The sampling rate, (how many samples per second are stored) for a CD is...?
+   a) 48.4 kHz
+   b) 22,050 Hz
+   c) 44.1 kHz
+   d) 48 kHz
+
+   Answer: c
+
+27. Who created Pretty Good Privacy (PGP)?
+   a) Phil Zimmermann
+   b) Tim Berners-Lee
+   c) Marc Andreessen
+   d) Ken Thompson
+
+   Answer: a
+
+28. What do we call a network whose elements may be separated by some distance? It usually involves two or more small networks and dedicated high-speed telephone lines.
+   a) URL (Universal Resource Locator)
+   b) LAN (Local Area Network)
+   c) WAN (Wide Area Network)
+   d) World Wide Web
+
+   Answer: c
+
+29. After the first photons of light are produced, which process is responsible for amplification of the light?
+   a) Blackbody radiation
+   b) Stimulated emission
+   c) Planck's radiation
+   d) Einstein oscillation
+
+   Answer: b
+
+30. Which is NOT an acceptable method of distributing small power outlets throughout an open plan office area?
+   a) Power Poles
+   b) Power Skirting
+   c) Flush Floor Ducting
+   d) Extension Cords
+
+   Answer: d
+
+31. Sometimes computers and cache registers in a foodmart are connected to a UPS system. What does UPS mean?
+   a) United Parcel Service
+   b) Uniform Product Support
+   c) Under Paneling Storage
+   d) Uninterruptable Power Supply
+
+   Answer: d
+
+32. Who co-founded Hotmail in 1996 and then sold the company to Microsoft?
+   a) Shawn Fanning
+   b) Ada Byron Lovelace
+   c) Sabeer Bhatia
+   d) Ray Tomlinson
+
+   Answer: c
+
+33. '.TMP' extension refers usually to what kind of file?
+   a) Compressed Archive file
+   b) Image file
+   c) Temporary file
+   d) Audio file
+
+   Answer: c
+
+34. In the UK, what type of installation requires a fireman's switch?
+   a) Neon Lighting
+   b) High Pressure Sodium Lighting
+   c) Water Features
+   d) Hotel Rooms
+
+   Answer: a
+
+35. The electromagnetic coils on the neck of the picture tube or tubes which pull the electron beam from side to side and up and down are called a...?
+   a) Transformer
+   b) Yoke
+   c) Capacitor
+   d) Diode
+
+   Answer: b
+
+36. In the United States the television broadcast standard is...?
+   a) PAL
+   b) NTSC
+   c) SECAM
+   d) RGB
+
+   Answer: b
+
+37. In a color television set using a picture tube a high voltage is used to accelerate electron beams to light the screen. That voltage is about...?
+   a) 500 volts
+   b) 5 thousand volts
+   c) 25 thousand volts
+   d) 100 thousand volts
+
+   Answer: c
+
+38. The transformer that develops the high voltage in a home television is commonly called a...?
+   a) Tesla coil
+   b) Flyback
+   c) Yoke
+   d) Van de Graaf
+
+   Answer: b
+
+39. Which consists of two plates separated by a dielectric and can store a charge?
+   a) Inductor
+   b) Capacitor
+   c) Transistor
+   d) Relay
+
+   Answer: b
+
+40. What do we call a collection of two or more computers that are located within a limited distance of each other and that are connected to each other directly or indirectly?
+   a) Inernet
+   b) Interanet
+   c) Local Area Network
+   d) Wide Area Network
+
+   Answer: c
+
+41. '.JPG' extension refers usually to what kind of file?
+   a) System file
+   b) Animation/movie file
+   c) MS Encarta document
+   d) Image file
+
+   Answer: d
+
+42. What does AM mean?
+   a) Angelo marconi
+   b) Anno median
+   c) Amplitude modulation
+   d) Amperes
+
+   Answer: c
+
+43. In what year was the "@" chosen for its use in e-mail addresses?
+   a) 1976
+   b) 1972
+   c) 1980
+   d) 1984
+
+   Answer: b
+
+44. '.TXT' extension refers usually to what kind of file?
+   a) Text File
+   b) Image file
+   c) Audio file
+   d) Adobe Acrobat file
+
+   Answer: a
+
+45. What was the first ARPANET message?
+   a) "lo"
+   b) "hello world"
+   c) "mary had a little lamb"
+   d) "cyberspace, the final frontier"
+
+   Answer: a
+
+46. The NTSC (National Television Standards Committee) is also used in the country of...?
+   a) Japan
+   b) France
+   c) Germany
+   d) England
+
+   Answer: a
+
+47. "FET" is a type of transistor, Its full name is ________ Effect Transistor...?
+   a) Field
+   b) Factor
+   c) Flash
+   d) Force
+
+   Answer: a
+
+48. What are three types of lasers?
+   a) Gas, metal vapor, rock
+   b) Pointer, diode, CD
+   c) Diode, inverted, pointer
+   d) Gas, solid state, diode
+
+   Answer: d
+
+49. What will a UPS be used for in a building?
+   a) To provide power to essential equipment
+   b) To monitor building electricity use
+   c) To carry messages between departments
+   d) To control lighting and power systems
+
+   Answer: a
+
+50. Who built the world's first binary digit computer: Z1...?
+   a) Konrad Zuse
+   b) Ken Thompson
+   c) Alan Turing
+   d) George Boole
+
+   Answer: a
+
+51. Compact discs, (according to the original CD specifications) hold how many minutes of music?
+   a) 74 mins
+   b) 56 mins
+   c) 60 mins
+   d) 90 mins
+
+   Answer: a
+
+52. Once the active medium is excited, the first photons of light are produced by which physical process?
+   a) Blackbody radiation
+   b) Spontaneous emission
+   c) Synchrotron radiation
+   d) Planck’s oscillation
+
+   Answer: b
+
+53. 'DTP' computer abbreviation usually means ?
+   a) Digital Transmission Protocol
+   b) DeskTop Publishing
+   c) Data Type Programming
+   d) Document Type Processing
+
+   Answer: b
+
+54. The average power (in watts) used by a 20 to 25 inch home color television is...?
+   a) 70-100
+   b) 25-50
+   c) 500-800
+   d) Over 1000
+
+   Answer: a
+
+55. What does AC and DC stand for in the electrical field?
+   a) Alternating Current and Direct Current
+   b) A Rock Band from Australia
+   c) Average Current and Discharged Capacitor
+   d) Atlantic City and District of Columbia
+
+   Answer: a
+
+56. In which decade was the ARRL founded?
+   a) 1940s
+   b) 1930s
+   c) 1920s
+   d) 1910s
+
+   Answer: d
+
+57. 'CD' computer abbreviation usually means ?
+   a) Command Description
+   b) Change Data
+   c) Copy Density
+   d) Compact Disc
+
+   Answer: d
+
+58. '.BAK' extension refers usually to what kind of file?
+   a) Backup file
+   b) Audio file
+   c) Animation/movie file
+   d) MS Encarta document
+
+   Answer: a
+
+59. Where is the headquarters of Intel located?
+   a) Redmond, Washington
+   b) Tucson, Arizona
+   c) Santa Clara, California
+   d) Richmond, Virginia
+
+   Answer: c
+
+60. Who co-created the UNIX operating system in 1969 with Dennis Ritchie?
+   a) Bjarne Stroustrup
+   b) Steve Wozniak
+   c) Ken Thompson
+   d) Niklaus Wirth
+
+   Answer: c
+
+61. Voltage is sometimes referred to as EMF, or Electromotive...?
+   a) Field
+   b) Factor
+   c) Flash
+   d) Force
+
+   Answer: d
+
+62. What does AM mean?
+   a) Angelo marconi
+   b) Anno median
+   c) Amplitude modulation
+   d) Amperes
+
+   Answer: c
+
+63. '.BAT' extension refers usually to what kind of file?
+   a) Compressed Archive file
+   b) System file
+   c) Audio file
+   d) Backup file
+
+   Answer: b
+
+64. What is the term to ask the computer to put information in order numerically or alphabetically?
+   a) Crop
+   b) Report
+   c) Record
+   d) Sort
+
+   Answer: d
+
+65. The input used by an antenna or cable to a TV set uses frequencies called...?
+   a) IF
+   b) RF
+   c) AF
+   d) SAP
+
+   Answer: b
+
+66. Larger buildings may be supplied with a medium voltage electricity supply, and will required a substation or mini-sub. What is the main item of equipment contained in these?
+   a) Transformer
+   b) Transponder
+   c) Transducer
+   d) Converter
+
+   Answer: a
+
+67. What was the active medium used in the first working laser ever constructed?
+   a) A diamond block
+   b) Helium-neon gas
+   c) A ruby rod
+   d) Carbon dioxide gas
+
+   Answer: c
+
+68. What does EPROM stand for?
+   a) Electric Programmable Read Only Memory
+   b) Erasable Programmable Read Only Memory
+   c) Evaluable Philotic Random Optic Memory
+   d) Every Person Requires One Mind
+
+   Answer: b
+
+69. Blue is what number on the resistor color code?
+   a) 1
+   b) 4
+   c) 2
+   d) 6
+
+   Answer: d
+
+70. Changing computer language of 1's and 0's to characters that a person can understand is...
+   a) Highlight
+   b) Clip art
+   c) Decode
+   d) Execute
+
+   Answer: c
+
+71. What's a web browser?
+   a) A kind of spider
+   b) A computer that stores WWW files
+   c) A person who likes to look at websites
+   d) A software program that allows you to access sites on the World Wide Web
+
+   Answer: d
+
+72. http://www.indiabix.com - is an example of what?
+   a) A URL
+   b) An access code
+   c) A directory
+   d) A server
+
+   Answer: a
+
+73. How many bits is a byte?
+   a) 4
+   b) 8
+   c) 16
+   d) 32
+
+   Answer: b
+
+74. How do you subscribe to an Internet mailing list?
+   a) Contact your Internet service provider
+   b) Send e-mail to the list manager
+   c) Telephone the mailing list webmaster
+   d) Send a letter to the list
+
+   Answer: b
+
+75. Computers calculate numbers in what mode?
+   a) Decimal
+   b) Octal
+   c) Binary
+   d) None of the above
+
+   Answer: c
+
+76. What is an FET?
+   a) Farad Effect Transformer
+   b) Field Effect Transformer
+   c) Field Effect Transistor
+   d) French Energy Transfer
+
+   Answer: c
+
+77. The speed of your net access is defined in terms of...
+   a) RAM
+   b) MHz
+   c) Kbps
+   d) Megabytes
+
+   Answer: c
+
+78. How many diodes are in a full wave bridge rectifier?
+   a) 8
+   b) 2
+   c) 4
+   d) 3
+
+   Answer: c
+
+79. The "desktop" of a computer refers to:
+   a) The visible screen
+   b) The area around the monitor
+   c) The top of the mouse pad
+   d) The inside of a folder
+
+   Answer: a
+
+80. Which of these is a search engine?
+   a) FTP
+   b) Google
+   c) Archie
+   d) ARPANET
+
+   Answer: b
+
+81. The letters, "DOS" stand for...
+   a) Data Out System
+   b) Disk Out System
+   c) Disk Operating System
+   d) Data Operating System
+
+   Answer: c
+
+82. What does CPU stand for?
+   a) Cute People United
+   b) Commonwealth Press Union
+   c) Computer Parts of USA
+   d) Central Processing Unit
+
+   Answer: d
+
+83. Which of these is a valid e-mail address?
+   a) professor.at.learnthenet
+   b) www.learnthenet.com
+   c) professor@learnthenet.com
+   d) professor@learnthenet
+
+   Answer: c
+
+84. Which device can be used to store charge?
+   a) Transistor
+   b) Diode
+   c) Capacitor
+   d) Resistor
+
+   Answer: c
+
+85. Modem stands for...
+   a) Modulator Demodulater
+   b) Monetary Devaluation Exchange Mechanism
+   c) Memory Demagnetization
+   d) Monetary Demarkation
+
+   Answer: a
+
+86. What is the difference between the Internet and an intranet?
+   a) One is public, the other is private
+   b) One is safer than the other
+   c) One can be monitored, the other can't
+   d) None of the above
+
+   Answer: a
+
+87. In a Digital circuit, what is 1 'AND' 1?
+   a) 0
+   b) 1
+   c) 2
+   d) 4
+
+   Answer: b
+
+88. Your computer has gradually slowed down. What's the most likely cause?
+   a) Overheating
+   b) Your processor chip is just getting old
+   c) Adware/spyware is infecting your PC
+   d) You dropped a sandwich in your computer
+
+   Answer: c
+
+89. In which decade was the transistor invented?
+   a) 1940s
+   b) 1950s
+   c) 1960s
+   d) 1980s
+
+   Answer: a
+
+90. A JPG is...
+   a) A Jumper Programmed Graphic
+   b) A format for an image file
+   c) A type of hard disk
+   d) A unit of measure for memory
+
+   Answer: b
+
+91. A dual-layer DVD is valued because it:
+   a) Can hold more data
+   b) Contains a backup of the data stored
+   c) Uses a second layer to offer a speed increase
+   d) Creates alternative sound tracks
+
+   Answer: a
+
+92. To select text by shading as you drag the mouse arrow over the text is known as...
+   a) Clip art
+   b) To highlight
+   c) To fetch
+   d) To decode
+
+   Answer: b
+
+93. Another word for 'Graphics for a word processor'?
+   a) Peripheral
+   b) Clip art
+   c) Highlight
+   d) Execute
+
+   Answer: b
+
+94. What Designates where the next action occurs?
+   a) Decode
+   b) Highlight
+   c) Select
+   d) Mother board
+
+   Answer: c
+
+95. Which was an early mainframe computer?
+   a) ENIAC
+   b) UNIC
+   c) BRAINIA
+   d) FUNTRIA
+
+   Answer: a
+
+96. Experts say the healthiest way to view a computer monitor is by...
+   a) Placing it 18 to 30 inches away from your eyes
+   b) Viewing from a darkened room
+   c) Adjusting the screen for maximum contrast
+   d) Using special glasses that filter out UV rays
+
+   Answer: a
+
+97. Name the terminals of a BJT.
+   a) Drain, Gate, Source
+   b) Positive, Negative, Neutral
+   c) Anode, Cathode, Triode
+   d) Emitter, Base, Collector
+
+   Answer: d
+
+98. What do you call a computer on a network that requests files from another computer?
+   a) A client
+   b) A host
+   c) A router
+   d) A web server
+
+   Answer: a
+
+99. In which decade were the first successful diode and triode vacuum tubes invented?
+   a) 1800s
+   b) 1880s
+   c) 1890s
+   d) 1900s
+
+   Answer: d
+
+100. RAM stands for...
+   a) Random Access Memory
+   b) Really Annoying Machine
+   c) Read A Manual
+   d) Real Absolute Memory
+
+   Answer: a
+
+101. Hardware devices that are not part of the main computer system and are often added later to the system.
+   a) Peripheral
+   b) Clip art
+   c) Highlight
+   d) Execute
+
+   Answer: a
+
+102. On which of the following sites can you set up your email account:
+   a) Www.linux.org
+   b) Www.gre.org
+   c) Www.syvum.com
+   d) Www.hotmail.com
+
+   Answer: d
+
+103. The main computer that stores the files that can be sent to computers that are networked together is...
+   a) Clip art
+   b) Mother board
+   c) Peripheral
+   d) File server
+
+   Answer: d
+
+104. How can you catch a computer virus?
+   a) Sending e-mail messages
+   b) Using a laptop during the winter
+   c) Opening e-mail attachments
+   d) Shopping online
+
+   Answer: c
+
+105. In which decade was the first solid state integrated circuit demonstrated?
+   a) 1950s
+   b) 1960s
+   c) 1970s
+   d) 1980s
+
+   Answer: a
+
+106. A DV camcorder is...
+   a) Capable of creating video in HDTV
+   b) Used to create digital video
+   c) Limited to the Direct Video format
+   d) A Denon Video brand product
+
+   Answer: b
+
+107. What are the 2 terminals of a diode called?
+   a) Pentode and Triode
+   b) Gate and Drain
+   c) Drain and Source
+   d) Anode and Cathode
+
+   Answer: d
+
+108. A coating of dust on a computer's main circuit boards has this probable consequence
+   a) Overheating
+   b) Short circuits
+   c) Slower hard disk
+   d) None
+
+   Answer: a
+
+109. How many terminals does a BJT have?
+   a) 1
+   b) 5
+   c) 4
+   d) 3
+
+   Answer: d
+
+110. Google (www.google.com) is a...
+   a) Search Engine
+   b) Number in Math
+   c) Directory of images
+   d) Chat service on the web
+
+   Answer: a
+
+111. What is a BJT?
+   a) Bit Junction Transfer
+   b) Bi-polar Junction Transistor
+   c) Bell Jar Transformer
+   d) Back Junction Transformer
+
+   Answer: b
+
+112. Which is not an internet protocol?
+   a) HTTP
+   b) FTP
+   c) STP
+   d) IP
+
+   Answer: c
+
+113. Which of the following is not a valid domain name?
+   a) Www.yahoo.com
+   b) Www.yahoo.co.uk
+   c) Www.fr.yahoo
+   d) Www.yahoo.fr
+
+   Answer: c
+
+114. AOL stands for...
+   a) Arranged Outer Line
+   b) America Over LAN
+   c) Audio Over LAN
+   d) America Online
+
+   Answer: d
+
+115. What are the three main search expressions, or operators, recognized by Boolean logic?
+   a) FROM, TO, WHOM
+   b) AND, OR, NOT
+   c) SEARCH, KEYWORD, TEXT
+   d) AND, OR, BUT
+
+   Answer: b
+
+116. Another name for a computer chip is ...
+   a) Execute
+   b) Micro chip
+   c) Microprocessor
+   d) Select
+
+   Answer: b
+
+117. "www" stands for...
+   a) World Wide Web
+   b) World Wide Wares
+   c) World Wide Wait
+   d) World Wide War
+
+   Answer: a
+
+118. Which of these is not a computer?
+   a) Aptiva
+   b) Macintosh
+   c) Acorn
+   d) Paseo
+
+   Answer: d
+
+119. Which of the following is not a programming language?
+   a) Basic
+   b) Java
+   c) Turing
+   d) C#
+
+   Answer: c
+
+120. Which of the following is not a method of accessing the web?
+   a) ISDN
+   b) Modem
+   c) CPU
+   d) DSL
+
+   Answer: c
+
+121. The "home page" of a web site is...
+   a) The largest page
+   b) The last page
+   c) The first page
+   d) The most colorful page
+
+   Answer: c
+
+122. ROM stands for...
+   a) Royal Ontario Museum
+   b) Read Only Memory
+   c) Read on Monday
+   d) Real Obsolute Memory
+
+   Answer: b
+
+123. HTML is used to...
+   a) Plot complicated graphs
+   b) Author webpages
+   c) Translate one language into another
+   d) Solve equations
+
+   Answer: b
+
+124. In which decade was the telegraph invented?
+   a) 1810s
+   b) 1840s
+   c) 1870s
+   d) 1890s
+
+   Answer: b
+
+125. Another word for the CPU is...
+   a) Execute
+   b) Microprocessor
+   c) Micro chip
+   d) Decode
+
+   Answer: b
+
+126. What would you use for immediate, real-time communication with a friend?
+   a) Instant Messenging
+   b) E-Mail
+   c) Usenet
+   d) A mailing list
+
+   Answer: a
+
+127. What kind of data can you send by e-mail?
+   a) Audio
+   b) Pictures
+   c) Video
+   d) All of the above
+
+   Answer: d
+
+128. When discussing technology, a hot spot is...
+   a) A small overheated area on a CPU
+   b) A place served by public wireless access
+   c) Jargon for an X-rated Web site
+   d) A faulty area in the programming code
+
+   Answer: b
+
+129. In which decade was the Internet first implemented?
+   a) 1940s
+   b) 1950s
+   c) 1960s
+   d) 1980s
+
+   Answer: c
+
+130. In which decade was the telephone invented?
+   a) 1850s
+   b) 1860s
+   c) 1870s
+   d) 1880s
+
+   Answer: c
+
+131. Main circuit board in a computer is...
+   a) Decoder
+   b) Highlight
+   c) Select
+   d) Mother board
+
+   Answer: d
+
+132. Name the terminals of an FET.
+   a) Drain, Gate, Source
+   b) Positive, Negative, Neutral
+   c) Anode, Cathode, Triode
+   d) Emitter, Base, Collector
+
+   Answer: a
+
+133. Where are the contents of your computer's hard drive indexed?
+   a) Yahoo!
+   b) Google
+   c) MSN
+   d) None of the above
+
+   Answer: d
+
+134. ISP stands for...
+   a) Internet Survey Period
+   b) Integrated Service Provider
+   c) Internet Security Protocol
+   d) Internet Service Provider
+
+   Answer: d
+
+135. Internet Explorer is a...
+   a) Any person browsing the net
+   b) Web Browser
+   c) Graphing Package
+   d) News Reader
+
+   Answer: b
+
+136. Lately you hear a clatter from your computer, especially when you load a program or call up information. What's going on?
+   a) It's infested with reindeer
+   b) Your hard disk may be headed for failure
+   c) A loose wire is hitting the cooling fan
+   d) A loud metallic clatter is normal
+
+   Answer: b
+
+137. The "http" you type at the beginning of any site's address stands for...
+   a) HTML Transfer Technology Process
+   b) Hyperspace Terms and Tech Protocol
+   c) Hyperspace Techniques & Tech Progress
+   d) Hyper Text Transfer Protocol
+
+   Answer: d
+
+138. Which company created the most used networking software in the 1980's
+   a) Microsoft
+   b) Sun
+   c) IBM
+   d) Novell
+
+   Answer: d
+
+139. Which of the following operating systems is produced by IBM?
+   a) OS-2
+   b) Windows
+   c) DOS
+   d) UNIX
+
+   Answer: a
+
+140. Which of the following is NOT a type of expansion slot or bus design used in Advanced-Technology class systems?
+   a) PCMCIA
+   b) ISA
+   c) PROM
+   d) EISA
+
+   Answer: c
+
+141. What is a GPU?
+   a) Grouped Processing Unit
+   b) Graphics Processing Unit
+   c) Graphical Performance Utility
+   d) Graphical Portable Unit
+
+   Answer: b
+
+142. What does DOCSIS stand for?
+   a) Data Over Cable Service Interface Specification
+   b) Data Over Cable Security Internet Std
+   c) Data Over Cable Secure International Stds
+   d) Data Over Cable Service Internet Standard
+
+   Answer: a
+
+143. Which one of the following is a search engine?
+   a) Macromedia Flash
+   b) Google
+   c) Netscape
+   d) Librarians’ Index to the Internet
+
+   Answer: b
+
+144. Which is the best search tool for finding Web sites that have been handpicked and recommended by someone else?
+   a) Subject directories
+   b) Search engines
+   c) Meta-search engines
+   d) Discussion groups
+
+   Answer: a
+
+145. What is LCP?
+   a) Local Connection Protocol
+   b) Lost Connection Problem
+   c) Link Control Protocol
+   d) Laggy Connection Problem
+
+   Answer: c
+
+146. What is VCM?
+   a) Virtual Connection Manager
+   b) Virtual Channel Memory
+   c) Voice Controlled Modem
+   d) Voice Communications Module
+
+   Answer: b
+
+147. What does the abbreviation "http" stand for?
+   a) Hypertext Transfer Protocol
+   b) High Task Termination Procedure
+   c) Harvard Teletext Proof
+   d) Hindustan Times Technical Proffesionals
+
+   Answer: a
+
+148. ARPANET, the precursor to the Internet, was developed by:
+   a) FAA
+   b) Department of Defence
+   c) NATO
+   d) UART
+
+   Answer: b
+
+149. What is a spider?
+   a) A computer virus
+   b) A program that catalogs Web sites
+   c) A hacker who breaks into computer systems
+   d) An application for viewing Web sites
+
+   Answer: b
+
+150. Which of the following is not a part of the Internet?
+   a) World Wide Web
+   b) Email
+   c) CD-ROM
+   d) HTTP
+
+   Answer: c
+
+151. The abbreviation URL stands for:
+   a) User Regulation Law
+   b) Unknown RAM Load
+   c) Uniform Resource Locator
+   d) Ultimate RAM Locator
+
+   Answer: c
+
+152. What is the Websites code for the country Mongolia?
+   a) MN
+   b) ML
+   c) MG
+   d) MO
+
+   Answer: a
+
+153. What was the clock speed of the original IBM PC?
+   a) Less than 5 MHz
+   b) 10 MHz
+   c) 8 MHz
+   d) Just over 16 MHz
+
+   Answer: a
+
+154. What is NAT?
+   a) Network Address Translation
+   b) Network Administration Tool
+   c) Novell Address Transfer
+   d) Newly Added Technology
+
+   Answer: a
+
+155. What is not always necessary for accessing the Web?
+   a) A Web browser
+   b) A connection to an Internet Access Provider
+   c) A computer
+   d) A modem
+
+   Answer: d
+
+156. On what date was the debut of the first IBM Personal Computer?
+   a) August 12, 1981
+   b) January 21 1979
+   c) August 21, 1980
+   d) January 12, 1982
+
+   Answer: a
+
+157. A computer virus that actively attacks an anti-virus program or programs in an effort to prevent detection is...
+   a) Worm
+   b) Retrovirus
+   c) Trojan
+   d) Ghost virus
+
+   Answer: b
+
+158. What is the Websites code for the country Spain?
+   a) SI
+   b) SP
+   c) ES
+   d) SN
+
+   Answer: c
+
+159. The first web server was built in:
+   a) 1990 in Geneva, Switzerland
+   b) 1985 in Berkeley, California
+   c) 1988 in Cambridge, Massachusetts
+   d) 1947 in Berningham, UK
+
+   Answer: a
+
+160. In what year did the Symantec Corporation first release Norton Antivirus?
+   a) 1990
+   b) 1995
+   c) 1988
+   d) 1997
+
+   Answer: a
+
+161. The IBM PC-XT was the first to include a hard drive. What was the capacity of this disk?
+   a) 20 MB
+   b) 1.44 MB
+   c) 10 MB
+   d) 750 KB
+
+   Answer: c
+
+162. What is the Websites code for the country Colombia?
+   a) CO
+   b) CM
+   c) CL
+   d) CB
+
+   Answer: a
+
+163. Which of the following word processors came first?
+   a) WordPerfect
+   b) Lotus Notes
+   c) MS Word
+   d) WordStar
+
+   Answer: d
+
+164. The invention of the transistor, or semiconductor, was one of the most important developments leading to the personal computer revolution. What company invented the transistor in 1947?
+   a) International Business Machines
+   b) MITS
+   c) Xerox
+   d) Bell Laboratories
+
+   Answer: d
+
+165. What is TTL?
+   a) Technical Talk Language
+   b) Transparent Transfer Layer
+   c) Time To Live
+   d) True Technology Lives
+
+   Answer: c
+
+166. What is the Websites code for the country Bulgaria?
+   a) BU
+   b) BR
+   c) BL
+   d) BG
+
+   Answer: d
+
+167. What does PPTP stand for?
+   a) Point to Point Transmission Protocol
+   b) Point to Point Transfer Protocol
+   c) Point to Point Tunneling Protocol
+   d) Point to Point Traffic Protocol
+
+   Answer: c
+
+168. According to CNN, how much did Internet traffic increase between 1994 and 1996?
+   a) Two times
+   b) Five times
+   c) Ten times
+   d) Twenty-five times
+
+   Answer: d
+
+169. In 1983, which person was the first to offer a definition of the term 'computer virus'?
+   a) McAfee
+   b) Smith
+   c) Cohen
+   d) Norton
+
+   Answer: c
+
+170. What is the World Wide Web?
+   a) A computer game
+   b) A software program
+   c) The part of the Internet that enables information-sharing via interconnected pages
+   d) Another name for the Internet
+
+   Answer: c
+
+171. What is the Websites code for the country United Kingdom?
+   a) GB
+   b) UK
+   c) EN
+   d) EG
+
+   Answer: b
+
+172. What is a MAC?
+   a) A Computer made by Apple
+   b) Memory Address Corruption
+   c) Mediocre Apple Computer
+   d) Media Access Control
+
+   Answer: d
+
+173. This virus activated every Friday the 13th, affects both .EXE and .COM files and deletes any programs run on that day. What is the name of that virus?
+   a) Chernobyl
+   b) Jerusalem
+   c) Melissa
+   d) I Love You
+
+   Answer: b
+
+174. A program that neither replicates or copies itself, but does damage or compromises the security of the computer. Which 'Computer Virus' it is?
+   a) Joke Program
+   b) Worm
+   c) Trojan
+   d) Hoax
+
+   Answer: c
+
+175. What is the Websites code for the country New Zealand?
+   a) NZ
+   b) NW
+   c) NE
+   d) ZL
+
+   Answer: a
+
+176. Which Intel chip was the first to support a 32-bit bus architecture?
+   a) 486SI
+   b) Pentium
+   c) 286
+   d) 386DX
+
+   Answer: d
+
+177. What does ECP stand for?
+   a) Extended Capabilities Port
+   b) Extra Compatible Part
+   c) Extended Connection Port
+   d) External Cordless Peripheral
+
+   Answer: a
+
+178. The first graphical browser for the WWW was named:
+   a) Netscape
+   b) Veronica
+   c) Mosaic
+   d) Explorer
+
+   Answer: c
+
+179. What is RISC?
+   a) Remodeled Interface System Computer
+   b) Remote Intranet Secured Connection
+   c) Runtime Instruction Set Compiler
+   d) Reduced Instruction Set Computer
+
+   Answer: d
+
+180. What does ICMP stand for?
+   a) Internet Connection Modem Protocol
+   b) Intranet Control Message Program
+   c) Internal Conflict Management Program
+   d) Internet Control Message Protocol
+
+   Answer: d
+
+181. What is FMD?
+   a) FastEthernet Measuring Device
+   b) Flashing Media Diode
+   c) Fluorescent Multi-Layer Disc
+   d) Flash Media Driver
+
+   Answer: c
+
+182. Which of these is a documented hoax virus?
+   a) McDonalds screensaver
+   b) Alien.worm
+   c) Merry Xmas
+   d) Adolph
+
+   Answer: a
+
+183. What does SSL stand for?
+   a) Secure Socket Layer
+   b) System Socket Layer
+   c) Superuser System Login
+   d) Secure System Login
+
+   Answer: a
+
+184. What is a URL?
+   a) A computer software program
+   b) A type of UFO
+   c) The address of a document or "page" on the World Wide Web
+   d) An acronym for Uniform Resources Learning
+
+   Answer: c
+
+185. The Central Processing Unit is an embeded chip that acts as the 'brains' of a computer. What Intel chip was used in the Altair (the first real personal computer)?
+   a) 6502
+   b) 8080
+   c) 6400
+   d) 8286
+
+   Answer: b
+
+186. What is a NIC?
+   a) Netware Intranet Controller
+   b) No Internet Connection
+   c) Network Interface Card
+   d) Network Interference Control
+
+   Answer: c
+
+187. The Internet was developed in the...
+   a) Early 1990s
+   b) Late 1980s
+   c) Early 1970s
+   d) Late 1960s
+
+   Answer: d
+

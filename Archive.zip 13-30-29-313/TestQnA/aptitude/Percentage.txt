@@ -1,0 +1,4098 @@
+1. 1.14 expressed as a per cent of 1.9 is:
+   a) 6%
+   b) 10%
+   c) 60%
+   d) 90%
+
+   Answer: c
+
+2. In an examination 80% candidates passed in English and 85% candidates passed in Mathematics. If 73% candidates passed in both these subjects, then what per cent of candidates failed in both the subjects?
+   a) 8
+   b) 15
+   c) 27
+   d) 35
+
+   Answer: a
+
+3. Half percent, written as a decimal, is
+   a) 0.2
+   b) 0.02
+   c) 0.005
+   d) 0.05
+
+   Answer: c
+
+4. If the price of the commodity is increased by 50% by what fraction must its consumption be reduced so as to keep the same expenditure on its consumption?
+   a) 1414
+   b) 1313
+   c) 1212
+   d) 2323
+
+   Answer: b
+
+5. The population of a town increases every year by 4%. If its present population is 50,000, then after 2 years it will be
+   a) 53,900
+   b) 54,000
+   c) 54,080
+   d) 54,900
+
+   Answer: c
+
+6. A and B are two fixed points 5 cm apart and C is a point on AB such that AC is 3cm. if the length of AC is increased by 6%, the length of CB is decreased by
+   a) 6%
+   b) 7%
+   c) 8%
+   d) 9%
+
+   Answer: d
+
+7. The cost of an article was Rs.75. The cost was first increased by 20% and later on it was reduced by 20%. The present cost of the article is:
+   a) Rs. 72
+   b) Rs. 60
+   c) Rs. 75
+   d) Rs. 76
+
+   Answer: a
+
+8. The price of the sugar rise by 25%. If a family wants to keep their expenses on sugar the same as earlier, the family will have to decrease its consumption of sugar by
+   a) 25%
+   b) 20%
+   c) 80%
+   d) 75%
+
+   Answer: b
+
+9. Each side of a rectangular field diminished by 40%. By how much per cent is the area of the field diminished?
+   a) 32%
+   b) 64%
+   c) 25%
+   d) 16%
+
+   Answer: b
+
+10. If the price of a commodity is decreased by 20% and its consumption is increased by 20%, what will be the increase or decrease in expenditure on the commodity?
+   a) 4%  increase
+   b) 4% decrease
+   c) 8%  increase
+   d) 8% decrease
+
+   Answer: b
+
+11. A litre of water evaporates from 6L of sea water containing 4% salt. Find the percentage of salt in the remaining solution.
+   a) 512%512%
+   b) 312%312%
+   c) 3%
+   d) 445%445%
+
+   Answer: d
+
+12. Two discount of 8% and 12% are equal to a single discount of:
+   a) 20%
+   b) 19.04%
+   c) 22.96%
+   d) 22%
+
+   Answer: b
+
+13. In a library 60% of the books are in Hindi, 60% of the remaining books are in English rest of the books are in Urdu. If there are 3600 books in English, then total no. of books in Urdu are:
+   a) 2400
+   b) 2500
+   c) 3000
+   d) 3200
+
+   Answer: a
+
+14. In Sabarmati Express, there as many wagons as there are the no. of seats in each wagon and not more than one passenger can have the same berth (seat). If the middlemost compartment carrying 25 passengers is filled with 71.428% of its capacity, then find the maximum no. of passengers in the train that can be accommodated if it has minimum 20% seats always vacant.
+   a) 500 seats
+   b) 786 seats
+   c) 980 seats
+   d) 1060 seats
+   e) None of These
+
+   Answer: c
+
+15. The population of a village is 5000 and it increases at the rate of 2% every year. After 2 years, the population will be:
+   a) 5116
+   b) 5202
+   c) 5200
+   d) 5204
+
+   Answer: b
+
+16. In a class, the no. of boys is more than the no. of girls by 12% of the total strength. The ratio of boys and girls is:
+   a) 15 : 11
+   b) 11 : 14
+   c) 14 : 11
+   d) 8 : 11
+
+   Answer: c
+
+17. In an office there were initially N employees. The HR manager first hired P% employees then after a month Q% employees left the office, the value of (P - Q) is:
+   a) PQ
+   b) PQ100PQ100
+   c) PQPQ
+   d) QPQP
+   e) None of These
+
+   Answer: b
+
+18. The amount of work in a leather factory is increased by 50%. By what percent is it necessary to increase the number of workers to complete the new amount of work in previously planned time, if the productivity of the new labour is 25% more.
+   a) 60%
+   b) 66.66%
+   c) 40%
+   d) 33.33%
+
+   Answer: c
+
+19. A big cube is formed by rearranging the 160 coloured and 56 non-coloured similar cubes in such a way that the expouser of the coloured cubes to the outside is minimum. The percentage of exposed area that is coloured is:
+   a) 25.9%
+   b) 44.44%
+   c) 35%
+   d) 32%
+   e) None of These
+
+   Answer: b
+
+20. 78% of 750 + 34% of x = 30% of 2630. Find x.
+   a) 960
+   b) 600
+   c) 800
+   d) 750
+
+   Answer: b
+
+21. If A's salary is 25% more than B's salary, then B's salary is how much lower than A's salary?
+   a) 3313%3313%
+   b) 25%
+   c) 20%
+   d) 1623%1623%
+
+   Answer: c
+
+22. Population of a town increase 2.5% annually but is decreased by 0.5% every year due to migration. What will be the percentage increase in 2 years?
+   a) 5%
+   b) 4.04%
+   c) 4%
+   d) 3.96%
+
+   Answer: b
+
+23. In an election between two candidates, the winner got 65% of the total votes cast and won the election by a majority of 2748 votes. What is the total number of votes cast if no vote is declared invalid?
+   a) 8580
+   b) 8720
+   c) 9000
+   d) 9160
+
+   Answer: d
+
+24. Last year, the population of a town was x and if it increases at the same rate, next year it will be y. the present population of the town is
+   a) x+y2x+y2
+   b) y−x2y−x2
+   c) 2xyx+y2xyx+y
+   d) xy‾‾√xy
+
+   Answer: d
+
+25. Narayan spends 30% of his income on education and 50% of the remaining on food. He gives Rs. 1000 as monthly rent and now has Rs. 1800 left with him. What is his monthly income?
+   a) Rs. 8000
+   b) Rs. 7000
+   c) Rs. 9000
+   d) Rs. 6000
+
+   Answer: a
+
+26. P is 6 times greater than Q then by what per cent is Q smaller than P?
+   a) 84%
+   b) 85.5%
+   c) 80%
+   d) 83.33%
+
+   Answer: d
+
+27. If two numbers are respectively 30% and 40% more than a third number, what percent is the first of the second?
+   a) 9267%9267%
+   b) 8445%8445%
+   c) 80%
+   d) 75%
+
+   Answer: a
+
+28. The population of a city is 35000. On an increase of 6% in the number of men and an increase of 4% in the number of women, the population would become 36760. What was the number of women initially?
+   a) 18000
+   b) 19000
+   c) 17000
+   d) 20000
+
+   Answer: c
+
+29. The length, breadth and height of a room in the shape of a cuboid are increased by 10%, 20% and 50% respectively. Find the percentage change in the volume of the cuboid.
+   a) 77%
+   b) 75%
+   c) 88%
+   d) 98%
+   e) 99%
+
+   Answer: d
+
+30. The price of rice falls by 20%. How much rice can be bought now with the money that was sufficient to buy 20 kg of rice previously?
+   a) 5 kg
+   b) 15 kg
+   c) 25 kg
+   d) 30 kg
+
+   Answer: c
+
+31. 30% of a number when subtracted from 91, gives the number itself. Find the number.
+   a) 60
+   b) 65
+   c) 75
+   d) 70
+   e) None of these
+
+   Answer: d
+
+32. The population of village is 1,00,000. The rate of increase is 10% per annum. Find the population at the start of the third year?
+   a) 1,33,100
+   b) 1,21,000
+   c) 1,18,800
+   d) 1,20,000
+   e) None of these
+
+   Answer: b
+
+33. Vicky's salary is 75% more than Ashu's. Vicky got a raise of 40% on his salary while Ashu got a raise of 25% on his salary. By what percent is Vicky's salary more than Ashu's?
+   a) 96%
+   b) 51.1%
+   c) 90%
+   d) 52.1%
+
+   Answer: a
+
+34. An ore contains 25% of an alloy that has 90% iron. Other than this, in the remaining 75% of the ore, there is no iron. How many kilograms of the ore are needed to obtain 60 kg of pure iron?
+   a) 250 kg
+   b) 275 kg
+   c) 300 kg
+   d) 266.66 kg
+
+   Answer: d
+
+35. In the recent, climate conference in New York, out of 700 men, 500 women, 800 children present inside the building premises, 20% of the men, 40% of the women and 10% of the children were Indians. Find the percentage of people who were not Indian?
+   a) 77%
+   b) 73%
+   c) 79%
+   d) 83%
+
+   Answer: c
+
+36. Out of the total production of iron from hematite, an ore of Iron, 20% of the ore gets wasted, and out of the remaining iron, only 25% is pure iron. If the pure iron obtained in a year from a mine of hematite was 80,000 kg, then the quantity of hematite mined from that mine in the year is
+   a) 5,00,000 kg
+   b) 4,00,000 kg
+   c) 4,50,000 kg
+   d) None of these
+
+   Answer: b
+
+37. A man buys a truck for Rs. 2,50,000. The annual repair cost comes to 2% of the price of purchase. Besides, he has to pay an annual tax of Rs. 2000. At what monthly rent must he rent out the truck to get a return of 15% on his net invests of the first year?
+   a) Rs. 3359
+   b) Rs. 2500
+   c) Rs. 4000
+   d) Rs. 3212.5
+
+   Answer: d
+
+38. Ram spends 30% of his salary on house rent, 30% of the rest he spends on his children's education and 24% of the total salary he spends on clothes. After his expenditure, he is left with Rs. 2500. What is Ram's salary?
+   a) Rs. 11,494.25
+   b) Rs. 20,000
+   c) Rs. 10,000
+   d) Rs. 15,000
+
+   Answer: c
+
+39. A report consists of 20 sheets each of 55 lines and each such line consist of 65 characters. This report is reduced onto sheets each of 65 lines such that each line consists of 70 characters. The percentage reduction in number of sheets is closer to
+   a) 20%
+   b) 5%
+   c) 30%
+   d) 35%
+   e) None of these
+
+   Answer: a
+
+40. The price of Maruti car rises by 30 percent while the sales of the car come down by 20%. What is the percentage change in the total revenue?
+   a) - 4%
+   b) - 2%
+   c) + 4%
+   d) + 2%
+   e) None of these
+
+   Answer: c
+
+41. In an institute, 60% of the students are boys and the rest are girls. Further 15% of the boys and 7.5% of the girls are getting a fee waiver. If the number of those getting a fee waiver is 90, find the total number of students getting 50% concessions if it is given that 50% of those not getting a fee waiver are eligible to get half fee concession?
+   a) 360
+   b) 280
+   c) 320
+   d) 330
+   e) 350
+
+   Answer: d
+
+42. After three successive equal percentage rise in the salary the sum of 100 rupees turned into 140 rupees and 49 paise. Find the percentage rise in the salary.
+   a) 12%
+   b) 22%
+   c) 66%
+   d) 82%
+   e) 77%
+
+   Answer: a
+
+43. A student took five papers in an examination, where the full marks were the same for each paper. His marks in these papers were in the proportion of 6:7:8:9:10. In all papers together, the candidate obtained 60% of the total marks then, the number of papers in which he got more than 50% marks is
+   a) 1
+   b) 3
+   c) 4
+   d) 5
+   e) None of these
+
+   Answer: c
+
+44. The length, breadth and height of a room are in ratio 3:2:1. If breadth and height are halved while the length is doubled, then the total area of the four walls of the room will
+   a) remain the same
+   b) decrease by 13.64%
+   c) decrease by 15%
+   d) decrease by 18.75%
+   e) decrease by 30%
+
+   Answer: e
+
+45. One bacterium splits into eight bacteria of the next generation. But due to environment, only 50% of one generation can produced the next generation. If the seventh generation number is 4096 million, what is the number in first generation?
+   a) 1 million
+   b) 2 million
+   c) 4 million
+   d) 8 million
+   e) None of these
+
+   Answer: a
+
+46. The rate of increase of the price of sugar is observed to be two percent more than the inflation rate expressed in percentage. The price of sugar, on January 1, 1994 is Rs. 20 per kg. The inflation rates of the years 1994 and 1995 are expected to be 8% each. The expected price of sugar on January 1, 1996 would be
+   a) Rs. 23.60
+   b) Rs. 24
+   c) Rs. 24.20
+   d) Rs. 24.60
+   e) None of these
+
+   Answer: c
+
+47. In an examination, questions were asked in five sections. Out of the total students, 5% candidates cleared the cut-off in all the sections and 5% cleared none. Of the rest, 25% cleared only one section and 20% cleared four sections. If 24.5% of the entire candidates cleared two sections and 300 candidates cleared three sections. Find out how many candidates appeared at the examination?
+   a) 1000
+   b) 1200
+   c) 1500
+   d) 2000
+   e) 1800
+
+   Answer: b
+
+48. A clock is set right at 12 noon on Monday. It losses1212% on the correct time in the first week but gains1414% on the true time during the second week. The time shown on Monday after two weeks will be
+   a) 12 : 25 : 12
+   b) 11 : 34 : 48
+   c) 12 : 50 : 24
+   d) 12 : 24 : 16
+   e) None of these
+
+   Answer: b
+
+49. If a 36 inches long strip cloth shrinks to 33 inches after being washed, how many inches long will the same strip remain after washing if it were 48 inches long?
+   a) 47 inches
+   b) 44 inches
+   c) 45 inches
+   d) 46 inches
+
+   Answer: b
+
+50. (X% of Y) + (Y% of X) is equal to:
+   a) X% of Y
+   b) 20% of XY
+   c) 2% of XY
+   d) 2% of 100 XY
+
+   Answer: c
+
+51. A fraction in reduced form is such that when it is squared and then its numerator is reduced by33133313% and denominator is reduced to 20%, its result is twice the original fraction. The sum of numerator and denominator is:
+   a) 8
+   b) 13
+   c) 17
+   d) 15
+   e) None of these
+
+   Answer: a
+
+52. A student appeared in the Mock CAT. The test paper contained 3 sections namely QA, DI and VA. The percentage marks in all VA was equal to the average of percentage marks in all the 3 sections. Coincidentally, if we reverse the digit of the percentage marks of QA we get the percentage marks of DI. The percentage marks in VA scored by student could be:
+   a) 81
+   b) 48
+   c) 66
+   d) 69
+   e) None of these
+
+   Answer: c
+
+53. A shopkeeper first raises the price of Jewellery by x% then he decreases the new price by x%. After such up down cycle, the price of a Jewellery decreased by Rs. 21025. After a second up down cycle the Jewellery was sold for Rs. 484416. What was the original price of the jewellery.
+   a) Rs. 5,26,000
+   b) Rs. 6,00,625
+   c) Rs. 5,25,625
+   d) Rs. 5,00,000
+   e) None of these
+
+   Answer: c
+
+54. A company has 12 machines of equal efficiency in its factory. The annual manufacturing expenses are Rs. 24,000 and the establishment charges are Rs. 10,000. The annual output of the company is Rs. 48,000. The annual output and manufacturing costs are directly proportional to the no. of machines while the share holders get the 10% profit, which is directly proportional to the annual output of the company. If 8.33% of machines remained close throughout the year. Then the percentage decrease in the amount of share holders is :
+   a) 14.28%
+   b) 11.11%
+   c) 16.66%
+   d) 8.33%
+   e) None of these
+
+   Answer: a
+
+55. Every month a man consumes 25 kg rice and 9 kg wheat. The price of rice is 20% of the price of wheat and thus he spends total Rs. 350 on the rice and wheat per month. If the price of wheat is increased by 20% then what is the percentage reduction of rice consumption for the same expenditure of Rs. 350?  Given that the price of rice and consumption of wheat is constant :
+   a) 40%
+   b) 25%
+   c) 36%
+   d) 24%
+   e) Cannot determined
+
+   Answer: c
+
+56. The price of raw materials has gone up by 15%, labor cost has also increased from 25% of the cost of raw material to 30% of the cost of raw material. By how much percentage should there be reduction in the usage of raw materials so as to keep the cost same?
+   a) 28%
+   b) 17%
+   c) 27%
+   d) 24%
+   e) Cannot determined
+
+   Answer: b
+
+57. A sales executive gets 20% bonus of the total sales value and 10% commission besides the bonus on the net profit after charging such commission. If the total sales value be Rs. 10 lakh per annum and the total profit of the company be Rs. 1.32 lakh, then his total earning per annum will be, given that he is not entitled to receive any fixed salary from the company :
+   a) 2.3 lakh
+   b) 2.32 lakh
+   c) 2.12 lakh
+   d) 3.2 lakh
+   e) None of these
+
+   Answer: c
+
+58. A shepherd had n goats in the year 2000. In 2001 the no. of goats increased by 40%. In 2002 the no. of goats declined to 70%. In 2003 the no. of goats grew up 30%. In 2004, he sold 10% goats and then he had only 34,398 goats. The percentage increase of the no. of goats in this duration was :
+   a) 16.66%
+   b) 14.66%
+   c) 11.33%
+   d) 20%
+
+   Answer: b
+
+59. In an office in Singapore there are 60% female employees. 50 % of all the male employees are computer literate. If there are total 62% employees computer literate out of total 1600 employees, then  the no. of female employees who are computer literate ?
+   a) 690
+   b) 674
+   c) 672
+   d) 960
+
+   Answer: c
+
+60. The price of a car depreciates in the first year by 25% in the second year by 20% in third year by 15% and so on. The final price of the car after 3 years, if the present cost of the car is Rs. 10,00,000 :
+   a) 7,80,000
+   b) 1,70,000
+   c) 6,90,000
+   d) 5,10,000
+
+   Answer: d
+
+61. The actual area of a rectangle is 60 Cm2, but while measuring its length a student decreases it by 20% and the breadth increases by 25%. The percentage error in area, calculated by the student is :
+   a) 5%
+   b) 15%
+   c) 20%
+   d) No change
+
+   Answer: d
+
+62. The cost of packaging of the mangoes is 40% the cost of fresh mangoes themselves. The cost of mangoes increased by 30% but the cost of packaging decreased by 50%, then the percentage change of the cost of packed mangoes, if the cost of packed mangoes is equal to the sum of the cost of fresh mangoes and cost of packaging :
+   a) 14.17%
+   b) 7.14%
+   c) 8.87%
+   d) 6.66%
+
+   Answer: b
+
+63. 220% of a number X is 44. What is 44% of X.
+   a) 8.8
+   b) 8.9
+   c) 6.6
+   d) 7.7
+
+   Answer: a
+
+64. The shopkeeper increased the price of a product by 25% so that customer finds difficult to purchase the required amount. But Somehow the customer managed to purchase only 70% of the required amount. What is the net difference in the expenditure on that product ?
+   a) 55 more
+   b) 10% more
+   c) 12.5% less
+   d) 17.5% less
+   e) None of these
+
+   Answer: c
+
+65. A customer asks for the production of x number of goods. The company produces y number of goods daily. Out of which z% are units for sale. The order will be completed in :
+   a) x100y×(1−z)daysx100y×(1−z)days
+   b) 100yzxdays100yzxdays
+   c) 100x(100−z)ydays100x(100−z)ydays
+   d) 100y×(z−1)days100y×(z−1)days
+   e) Cannot determined
+
+   Answer: c
+
+66. In the Science City, Kolkata the rate of the ticket is increased by 50% to increased the revenue but simultaneously 20% of the visitor decreased. What is percentage change in the revenue. if it is known that the Science city collects one revenue only from the visitors and it has no other financial supports:
+   a) +20%
+   b) -25%
+   c) +30%
+   d) -30%
+   e) Cannot determined
+
+   Answer: a
+
+67. 600 students took the test on Physics and chemistry. 35% students failed in Physics and 45% students failed in chemistry and 40% of those who passed in chemistry also passed in Physics, then how many students failed in both :
+   a) 16
+   b) 15
+   c) 13
+   d) 12
+
+   Answer: d
+
+68. An alloy contains the copper and aluminum in the ratio of 7 : 4 While making the weapons from this alloy, 12% of the alloy got destroyed. If there is 12 kg of aluminum in the weapon, then weight of the alloy required is :
+   a) 14.4 kg
+   b) 37.5 kg
+   c) 40 kg
+   d) 48 kg
+
+   Answer: b
+
+69. 80% of a smaller number is 4 less than 40% of a larger number. The larger number is 85 greater than the smaller one. The sum of these two number is
+   a) 325
+   b) 425
+   c) 235
+   d) 500
+
+   Answer: c
+
+70. A number x is mistakenly divided by 10 instead of being multiplied by 10. what is the percentage error in the result?
+   a) -99%
+   b) -100%
+   c) +99%
+   d) +100%
+
+   Answer: a
+
+71. A college has raised 75% of the amount it needs for a new building by receiving an average donation of Rs. 600 from the  people already solicited. The people already solicited represent 60% of the people, the college will ask for donations. If the college is to raise exactly the amount needed for the new  building, what should be the average donation from the remaining people be solicited?
+   a) 300
+   b) 250
+   c) 400
+   d) 500
+
+   Answer: a
+
+72. In the Bombay Stock Exchange there are 45% female employees and thus the number of male employees is exceeded by 72. Hence the total no. of employees in the BSE is:
+   a) 540
+   b) 720
+   c) 800
+   d) 550
+
+   Answer: b
+
+73. The average weight of a class of students is 67.5 kg. The weight of the class teacher is 25% more than the average weight of the class. The average weight of the class is less than the class teacher by x%. The value of x is:
+   a) 33.335
+   b) 25%
+   c) 20%
+   d) 22%
+
+   Answer: b
+
+74. Every day a mango seller sells half his stock, 10% of the stock overnight gets spoiled. If 1983 mangoes rotted over 3 nights then how many did hi start with on the first day ?
+   a) 25,000
+   b) 24,000
+   c) 30,000
+   d) 32,000
+   e) None of these
+
+   Answer: b
+
+75. In a factory there are three types of machine M1, M2and M3which produces 25%, 35% and 40% of the total products respectively.  M1, M2and  M3produces 2%, 4% and 5% defective products, respectively. what is the percentage of non-defective products ?
+   a) 89%
+   b) 97.1%
+   c) 96.1%
+   d) 86.1%
+   e) None of these
+
+   Answer: c
+
+76. The square of a positive number is 2000% greater than the number itself, then the square of that number is :
+   a) 1762
+   b) 1635
+   c) 441
+   d) 139
+
+   Answer: c
+
+77. The cost of a car is 400% greater than the cost of a bike. If there is an increase in the cost of the car is 15% and that of bike 20%. Then the total increase in the cost of the 5 cars and 10 bikes is:
+   a) 17.5%
+   b) 16371637%
+   c) 18.5%
+   d) 18.25%
+
+   Answer: b
+
+78. Connie has a number of gold bars, all of different weights. She gives the 24 lightest bars, which weigh 45% of the total weight, to Brennan. She gives the 13 heaviest bars, which weigh 26% of the total weight, to Maya. She gives the rest of the bars to Blair. How many bars did Blair receive?
+   a) 14
+   b) 15
+   c) 16
+   d) 17
+   e) 18
+
+   Answer: b
+
+79. At the beginning of a year ,the owner of a jewel shop raised the price of all the jewels in his shop by x% and lowered them by x%. The price of one jewel after this up and down cycle reduced by Rs. 100. The owner carried out the same procedure after a month. After this second up-down cycle,the price of that jewel was Rs. 2304. Find the original price of that jewel(in Rs.)
+   a) 2500
+   b) 2550
+   c) 2600
+   d) 2650
+   e) None of these
+
+   Answer: a
+
+80. From 2000 onwards, till 2003 the price of computers increased every year by 10%. After that due to government subsidy the price of computers decreases every year by 10%. The price of a computer in 2006 will be approx. how much per cent less than the price in 2000 if the same pattern of price is continued :
+   a) 2
+   b) 3
+   c) 4
+   d) 5
+
+   Answer: b
+
+81. Heinz produces tomato puree by boiling tomato juice. Tomato puree has 20% water whereas tomato juice has 90% water.How many litres of tomato puree will be obtained from 20 litres of tomato juice ?
+   a) 2 litres
+   b) 3 litres
+   c) 2.5 litres
+   d) 5 litres
+
+   Answer: c
+
+82. What is the percentage change in the result when we add 50 to a certain number x, instead of subtracting 50 from the same number x?
+   a) 50%
+   b) 75%
+   c) 100%
+   d) 300%
+   e) Can't be determined
+
+   Answer: e
+
+83. In a school, there are 100 students. 60% of the students are boys, 40% of whom play hockey and the girls don't play hockey, 75% of girls play badminton. There are only two games to be played. The number of student who don't play any game is:
+   a) 10%
+   b) 20%
+   c) 36%
+   d) 46%
+   e) Can't be determined
+
+   Answer: e
+
+84. A book consist of 30 pages, 25 line on each page and 35 characters on each line. If this content is written in another note book consisting 30 lines and 28 characters per line then the required no. of pages will how much percent greater than previous pages?
+   a) 4.16%
+   b) 5%
+   c) 6.66%
+   d) 7%
+
+   Answer: c
+
+85. A fraction in reduced form is such that when it is squared and then its numerator is increased by 25% and the denominator is reduced t0 80% it results in5858of original fraction. The product of the numerator and denominator is :
+   a) 6
+   b) 12
+   c) 10
+   d) 7
+
+   Answer: c
+
+86. 80% of a number added to 80 gives the result as the number itself, then the number is :
+   a) 200
+   b) 300
+   c) 400
+   d) 480
+
+   Answer: c
+
+87. Reena goes to a shop to buy a radio costing Rs. 2568. The rate of sales tax is 7% and the final value is rounded off to the next higher integer. She tells the shopkeeper to reduce the price of the radio so that she has to pay Rs. 2568 inclusive of sales tax. Find the reduction needed in the price of the radio.
+   a) Rs. 180
+   b) Rs. 210
+   c) Rs. 168
+   d) Rs. 170
+   e) None of these
+
+   Answer: c
+
+88. Australia scored a total of X runs in 50 overs. India tied the scores in 20% less overs. If India's average run rate had been 33.33% higher the scores would have been tied 10 overs earlier. Find how many runs were scored by Australia?
+   a) 250
+   b) 240
+   c) 200
+   d) 190
+   e) Can't be determined
+
+   Answer: e
+
+89. In 2000, the market shares of the toilet soaps Margo, Palmolive and dove were 40%, 30% and 30% respectively. Starting from the next year, a new soap enters into the market each year and gets 10% of the market share. The existing soap share the remaining market share in the same ratio as they did in the previous year. What percent of the total market share will mango have in 2002?
+   a) 28%
+   b) 32%
+   c) 32.4%
+   d) 34%
+   e) None of these
+
+   Answer: c
+
+90. In an examination, 5% of the applicants were found ineligible and 85% of the eligible candidates belonged to the general category. If 4275 eligible candidates belonged to other categories, then how many candidates applied for the examination?
+   a) 30000
+   b) 35000
+   c) 37000
+   d) 39000
+
+   Answer: a
+
+91. In a competitive examination in State A, 6% candidates got selected from the total appeared candidates. State B had an equal number of candidates appeared and 7% candidates got selected with 80 more candidates got selected than A. What was the number of candidates appeared from each State ?
+   a) 7600
+   b) 8000
+   c) 8400
+   d) 8800
+
+   Answer: b
+
+92. Three candidates contested an election and received 1136, 7636 and 11628 votes respectively. What percentage of the total votes did the winning candidate get ?
+   a) 45%
+   b) 57%
+   c) 60%
+   d) 65%
+
+   Answer: b
+
+93. Fresh grapes contain 80% while dry grapes contain 10% water. If the weight of dry grapes is 250 kg, what was its total weight when it was fresh?
+   a) 1000 kg
+   b) 1125 kg
+   c) 1225 kg
+   d) 1100 kg
+
+   Answer: b
+
+94. A population of variety of tiny bush in an experiment field increased by 10% in the first year, increased by 8% in the second year but decreased by 10% in third year. If the present number of bushes in the experiment field is 26730, then the number of variety of bushes in beginning was:
+   a) 35000
+   b) 27000
+   c) 25000
+   d) 36000
+
+   Answer: c
+
+95. If a% of x is equal to b% of y, then of c% of y is what % of x ?
+   a) c %
+   b) acbacb%
+   c) bcabca%
+   d) abc %
+
+   Answer: b
+
+96. Mr. X salary increased by 20%. On the increase, the tax rate is 10% higher. The percentage increase in tax liability is:
+   a) 20%
+   b) 22%
+   c) 23%
+   d) 24%
+
+   Answer: b
+
+97. The total emoluments of A and B are equal. However, A gets 65% of his basic salary as allowances and B gets 80% of his basic salary as allowances. What is the ratio of the basic salaries of  and B?
+   a) 16 : 13
+   b) 5 : 7
+   c) 12 : 11
+   d) 7 : 9
+
+   Answer: c
+
+98. Distance between A and B is 72 km. Two men started walking from A and B at the same time towards each other. The person who started from A traveled uniformly with average speed of 4 km/hr. The other man traveled with varying speed as follows: In the first hour his speed 2 km/hr, in the second hour it was 2.5 km/hr, in the third hour it was 3 km/hr, and so on. When / where will they meet each other?
+   a) 7 hours after starting
+   b) 10 hours after starting
+   c) 35 km from A
+   d) Mid-way between A and B
+   e) Can't be determined
+
+   Answer: d
+
+99. In company there are 75% skilled workers and reaming are unskilled. 80% of skilled workers and 20% of unskilled workers are permanent. If number of temporary workers is 126, then what is the number of total workers ?
+   a) 480
+   b) 510
+   c) 360
+   d) 377
+
+   Answer: c
+
+100. Population of a district is 2,96,000 out of which 1,66,000 are male. 50% of the population is literate. If 70% males are literate, then the number of woman who are literate, is
+   a) 32,200
+   b) 31,800
+   c) 66,400
+   d) 48,000
+
+   Answer: b
+
+101. x * 12 = 75% of 336 Find x.
+   a) 27
+   b) 25
+   c) 21
+   d) 19
+
+   Answer: c
+
+102. A shop sells floor tiles at Rs. 48 per square meter. A contractor employs a machine that polishes the tiles that damages 10% of the total number of tiles which cannot be used any more. Calculate the amount that needs to be paid by contractor to tile shop owner, if the hall is of a square shape and has a perimeter of 400 meters?
+   a) Rs. 4,00,000
+   b) Rs. 5,00,000
+   c) Rs. 5,28,000
+   d) Rs. 3,65,000
+
+   Answer: c
+
+103. 125% of 860 + 75% of 480 = ?
+   a) 1415
+   b) 1385
+   c) 1435
+   d) None of these
+
+   Answer: c
+
+104. A person subscribing to sky cable for a year pack Rs. 1785. If the monthly subscription is Rs. 175, how much discount does a yearly subscriber get?
+   a) 11%
+   b) 13%
+   c) 15%
+   d) 18%
+
+   Answer: c
+
+105. In a metro train there are 600 passengers out of which 34% are females. Fare of each male is Rs. 20 and each female's fare is 25% less than each male. What is the total revenue generated by all the passengers together?
+   a) Rs. 10880
+   b) Rs. 10980
+   c) Rs. 10740
+   d) Rs. 10680
+
+   Answer: b
+
+106. In a test, minimum passing percentage for girls and boys are 45% and 60% respectively. A boy scored 767 marks and failed by 313 marks. What are the minimum passing marks for girls?
+   a) 910
+   b) 920
+   c) 840
+   d) 810
+
+   Answer: d
+
+107. 50 minutes is what percentage of a day (approx.)-
+   a) 3.5%
+   b) 4%
+   c) 5%
+   d) 6%
+
+   Answer: a
+
+108. In an examination 36% are pass marks. If an examine gets 17 marks and fails by 10 marks, what are the maximum marks?
+   a) 90
+   b) 75
+   c) 60
+   d) 55
+
+   Answer: b
+
+109. Find10031003% of 600
+   a) 100
+   b) 150
+   c) 200
+   d) 225
+
+   Answer: c
+
+110. If 75% of the students in a school are boys and the number of girls is 420, the number of boys is:
+   a) 1176
+   b) 1350
+   c) 1260
+   d) 1125
+
+   Answer: c
+
+111. 25% of the candidates who appeared in an examination failed and only 450 students qualify the exam. The number of students who appeared in the examination was :
+   a) 700
+   b) 600
+   c) 550
+   d) 500
+
+   Answer: b
+
+112. In an assembly election, a candidate got 55% of the total valid votes. 2% of the total votes were declared invalid. If the total number of voters is 104000, then the number of valid votes polled in favour of the candidate is :
+   a) 56506
+   b) 56650
+   c) 56560
+   d) 56056
+
+   Answer: d
+
+113. 75 gm of sugar solution has 30% sugar in it. Then the quantity of sugar that should be added to the solution to make the quantity of the sugar 70% in the solution is :
+   a) 125 gm
+   b) 100 gm
+   c) 120 gm
+   d) 130 gm
+
+   Answer: b
+
+114. In an examination, 1100 boys and 900 girls appeared, 50% of the boys and 40% of the girls passed the examination. The percentage of candidates who failed :
+   a) 45%
+   b) 45.5%
+   c) 50%
+   d) 54.5%
+
+   Answer: d
+
+115. Christy donated 10% of his income to an orphanage and deposited 20% of the remainder in his bank. If he has now Rs. 7200 left, what is his income :
+   a) Rs. 10000
+   b) Rs. 8000
+   c) Rs. 9000
+   d) Rs. 8500
+
+   Answer: a
+
+116. The average marks obtained in a class of 50 students is 70%. The average of first 25 is 60% and that of 24 is 80%. What is the mark obtained by the last student ?
+   a) 90%
+   b) 60%
+   c) 80%
+   d) 70%
+
+   Answer: c
+
+117. If 50% of (P - Q) = 30% of (P + Q) and Q = x% of P, then the value of x is :
+   a) 30
+   b) 25
+   c) 20
+   d) 50
+
+   Answer: b
+
+118. If x% of a is the same as y% of b, then z% of b will be :
+   a) yzxyzx% of a
+   b) zxyzxy% of a
+   c) xyzxyz% of a
+   d) yzyz% of a
+
+   Answer: b
+
+119. A candidate who gets 20% marks in a examination fails by 30 marks but another candidate who gets 32% gets 42 marks more than the pass marks. Then the percentage of pass marks is :
+   a) 52%
+   b) 50%
+   c) 33%
+   d) 25%
+
+   Answer: d
+
+120. A man gives 50% of his money to his son and 30% to his daughter. 80% of the rest is donate to a trust. If he is left with 16000 now, how much money did he have in the beginning ?
+   a) Rs. 400000
+   b) Rs. 40000
+   c) Rs. 90000
+   d) Rs. 80000
+
+   Answer: a
+
+121. Due to fall of 10% in the rate of sugar, 500 gm more sugar can be purchased for Rs. 140. Find the original rate?
+   a) Rs. 31.11
+   b) Rs. 29.22
+   c) Rs. 33.11
+   d) Rs. 32.22
+
+   Answer: a
+
+122. Two numbers are respectively 20% and 50% of a third number. What per cent is the first number of second?
+   a) 10%
+   b) 20%
+   c) 30%
+   d) 40%
+
+   Answer: d
+
+123. An empty fuel tank of a car was filled with A type petrol. When the tank was half-empty, it was filled with B type petrol. Again when the tank was half-empty, it was filled with A type petrol. When the tank was half-empty again, it was filled with B type petrol. What is the percentage of A type petrol at present in the tank?
+   a) 33.5%
+   b) 37.5%
+   c) 40%
+   d) 50%
+
+   Answer: b
+
+124. For an examination it is required to get 36% of maximum marks to pass. A student got 113 marks and failed by 85 marks. The maximum marks for the examination are:
+   a) 500
+   b) 550
+   c) 565
+   d) 620
+
+   Answer: b
+
+125. 1% of 1% of 25% 1000 is:
+   a) 0.025
+   b) 0.0025
+   c) 0.25
+   d) 0.000025
+
+   Answer: a
+
+126. The population of a village increase by 5% annually. If its present population is 4410, then its population 2 years ago was:
+   a) 4500
+   b) 4000
+   c) 3800
+   d) 3500
+
+   Answer: b
+
+127. A spider climbed12521252% of the height of the pole in one hour and in the next hour it covered252252% of remaining height. If pole's height is 192 m, then distance climbed in second hour is:
+   a) 3m
+   b) 5m
+   c) 7m
+   d) 9m
+
+   Answer: d
+
+128. What is a percent of b divided by b percent of a?
+   a) a
+   b) b
+   c) 1
+   d) 10
+   e) 100
+
+   Answer: c
+
+129. In an election 4% of votes cast are invalid. A candidate gets 55% of casted votes and wins the election by 4200 votes. Find the total number of votes casted.
+   a) 30000
+   b) 43750
+   c) 45000
+   d) 42000
+
+   Answer: b
+
+130. In a mixture there is 15% of salt. When 30 liter of water is evaporated, salt becomes 20% of mixture. Find the initial quantity of mixture.
+   a) 120 liters
+   b) 110 liters
+   c) 125 liters
+   d) 115 liters
+
+   Answer: a
+
+131. The schedule working hour of a labour in a week if 48 hours and he gets Rs. 480 for that. Over time rate is 25% more than the the basic salary rate. In a week a labour gets Rs. 605, how many hours altogether he works in that week.
+   a) 49 hours
+   b) 52 hours
+   c) 55 hours
+   d) 58 hours
+
+   Answer: d
+
+132. In an election 4% of the votes caste become invalid. Winner gets 55% of casted  votes and wins the election by a margin of 4800 votes. Find the total number of votes casted.
+   a) 45000
+   b) 48000
+   c) 50000
+   d) 52000
+
+   Answer: c
+
+133. A reduction of 10% in the price of cloth enables a man to buy 6 meters of cloth more for Rs. 2160. Find the reduced price and also the original price of cloth per meter.
+   a) Rs. 36, Rs. 40
+   b) Rs. 40, Rs. 36
+   c) Rs. 36, Rs. 44
+   d) Rs. 44, Rs. 36
+
+   Answer: a
+
+134. A gardener increased the rectangular garden by increasing its length by 40% and decreasing its width by 20%. The area of the new garden:
+   a) Has increased by 20%
+   b) Has increased by 12%
+   c) Has increased by 8%
+   d) Is exactly the same as the old area
+
+   Answer: b
+
+135. If A exceeds B by 40%, B is less than C by 20%, then A : C is
+   a) 28 : 25
+   b) 26 : 25
+   c) 3 : 2
+   d) 3 : 1
+
+   Answer: a
+
+136. A batsman scored 110 runs which included 3 boundaries and 8 sixes. What percent of his total score did he make by running between the wickets?
+   a) 45%
+   b) 45511%45511%
+   c) 54611%54611%
+   d) 55%
+   e) None of these
+
+   Answer: b
+
+137. Two students appeared at an examination. One of them secured 9 marks more than the other and his marks was 56% of the sum of their marks. The marks obtained by them are:
+   a) 39, 30
+   b) 41, 32
+   c) 42, 33
+   d) 43, 34
+   e) None of these
+
+   Answer: c
+
+138. A fruit seller had some apples. He sells 40% apples and still has 420 apples. Originally, he had:
+   a) 588 apples
+   b) 600 apples
+   c) 672 apples
+   d) 700 apples
+   e) None of these
+
+   Answer: d
+
+139. What percentage of numbers from 1 to 70 have 1 or 9 in the unit's digit?
+   a) 1%
+   b) 14%
+   c) 20%
+   d) 21%
+   e) None of these
+
+   Answer: c
+
+140. If A =x% ofyand B =y% ofx, then which of the following is true?
+   a) A is smaller than B
+   b) A is greater than B
+   c) Relationship between A and B cannot be determined
+   d) If x is smaller thany, then A is greater than B
+   e) None of these
+
+   Answer: e
+
+141. If 20% of  a = b, then b% of 20 is the same as:
+   a) 4% of a
+   b) 5% of a
+   c) 20% of a
+   d) None of these
+
+   Answer: a
+
+142. In a certain school, 20% of students are below 8 years of age. The number of students above 8 years of age is2323of the number of students of 8 years of age which is 48. What is the total number of students in the school?
+   a) 72
+   b) 80
+   c) 120
+   d) 150
+   e) 100
+
+   Answer: e
+
+143. Two numbers A and B are such that the sum of 5% of A and 4% of B is two-third of the sum of 6% of A and 8% of B. Find the ratio of A : B.
+   a) 2 : 3
+   b) 1 : 1
+   c) 3 : 4
+   d) 4 : 3
+
+   Answer: d
+
+144. A student multiplied a number by3535instead of5353. What is the percentage error in the calculation?
+   a) 34%
+   b) 44%
+   c) 54%
+   d) 64%
+
+   Answer: d
+
+145. In an election between two candidates,  one got 55% of the total valid votes, 20% of the votes were invalid. If the total number of votes was 7500, the number of valid votes that the other candidate got, was:
+   a) 2700
+   b) 2900
+   c) 3000
+   d) 3100
+
+   Answer: a
+
+146. Three candidates contested an election and received 1136, 7636 and 11628 votes respectively. What percentage of the total votes did the winning candidate get?
+   a) 57%
+   b) 60%
+   c) 65%
+   d) 90%
+
+   Answer: a
+
+147. Two tailors X and Y are paid a total of Rs. 550 per week by their employer. If X is paid 120 percent of the sum paid to Y, how much is Y paid per week?
+   a) Rs. 200
+   b) Rs. 250
+   c) Rs. 300
+   d) None of these
+
+   Answer: b
+
+148. Gauri went to the stationers and bought things worth Rs. 25, out of which 30 paise went on sales tax on taxable purchases. If the tax rate was 6%, then what was the cost of the tax free items?
+   a) Rs. 15
+   b) Rs. 15.70
+   c) Rs. 19.70
+   d) Rs. 20
+
+   Answer: c
+
+149. Rajeev buys good worth Rs. 6650. He gets a rebate of 6% on it. After getting the rebate, he pays sales tax @ 10%. Find the amount he will have to pay for the goods.
+   a) Rs. 6876.10
+   b) Rs. 6999.20
+   c) Rs. 6654
+   d) Rs. 7000
+
+   Answer: a
+
+150. The population of a town increased from 1,75,000 to 2,62,500 in a decade. The average percent increase of population per year is:
+   a) 4.37%
+   b) 5%
+   c) 6%
+   d) 8.75%
+
+   Answer: b
+
+151. A's salary is 50% more than that of B. Then B's salary is less than that of A by :
+   a) 5050%
+   b) 33133313%
+   c) 33143314%
+   d) 44124412%
+
+   Answer: b
+
+152. If 60% of A = 30% of B, B = 40% of C and C = x% of A, then value of x is :
+   a) 800%
+   b) 200%
+   c) 300%
+   d) 500%
+
+   Answer: d
+
+153. In an examination 70% of the candidate passed in English, 80% passed in Mathematics, 10% failed in both subjects. If 144 candidates passed in both, the total number of candidates was :
+   a) 125
+   b) 200
+   c) 240
+   d) 375
+
+   Answer: c
+
+154. Raman's salary is increased by 5% this year. If his present salary is Rs. 1806, the last year's salary was :
+   a) Rs. 1720
+   b) Rs. 1620
+   c) Rs. 1520
+   d) Rs. 1801
+
+   Answer: a
+
+155. If 80% of A = 50% of B and B = x% of A, then the value of x is :
+   a) 400
+   b) 300
+   c) 160
+   d) 150
+
+   Answer: c
+
+156. The percentage of metals in a mine of lead ore is 60%. Now the percentage of silver is3434% of metals and the rest is lead. If the mass of ore extracted from this mine is 8000 kg, the mass (in kg.) of lead is :
+   a) 4763
+   b) 4764
+   c) 4762
+   d) 4761
+
+   Answer: b
+
+157. If 120 is 20% of a number, then 120% of that number will be :
+   a) 20
+   b) 120
+   c) 480
+   d) 720
+
+   Answer: d
+
+158. 498 is 17% less than a number then the number is :
+   a) 610
+   b) 580
+   c) 600
+   d) 620
+
+   Answer: c
+
+159. If radius of a circle is increased by 5%, then the increase in it's area is :
+   a) 10.25%
+   b) 5.75%
+   c) 10%
+   d) 5%
+
+   Answer: a
+
+160. If 60% of A's income is equal to  75% of B's income, then B's income is equal to x% of A's income. The value of x is :
+   a) 70
+   b) 60
+   c) 80
+   d) 90
+
+   Answer: c
+
+161. What is 20% of 25% of 300 ?
+   a) 150
+   b) 60
+   c) 45
+   d) 15
+
+   Answer: d
+
+162. 0.001 is equivalent to :
+   a) 10%
+   b) 1%
+   c) 0.01%
+   d) 0.1%
+
+   Answer: d
+
+163. What percentage of 3.6 kg is 72 gms. ?
+   a) 32%
+   b) 22%
+   c) 12%
+   d) 2%
+
+   Answer: d
+
+164. The tax imposed on an article is decreased by 10% and its consumption is increased by 10%. Find the percentage change in revenue from it.
+   a) 10% increase
+   b) 2% decrease
+   c) 1% decrease
+   d) 11% increase
+
+   Answer: c
+
+165. The length of a rectangle is increased by 10% and breadth decreased by 10% Then the area of the new rectangle is :
+   a) Neither decreased nor increased
+   b) Increased by 1%
+   c) Decreased by 1%
+   d) Decreased 10%
+
+   Answer: c
+
+166. The price of an article was first increased by 10% and then again by 20%. If the last increased price was Rs. 33, the original price was :
+   a) Rs. 30
+   b) Rs. 27.50
+   c) Rs. 26.50
+   d) Rs. 25
+
+   Answer: d
+
+167. The price of a commodity rises from Rs. 6 per kg to Rs. 7.50 per kg. If the expenditure cannot increase, the percentage of reduction in consumption is :
+   a) 15%
+   b) 20%
+   c) 25%
+   d) 30%
+
+   Answer: b
+
+168. What % of a day is 30 minutes ?
+   a) 2.83
+   b) 2.083
+   c) 2.09
+   d) 2.075
+
+   Answer: b
+
+169. A scored 72% in a paper with a maximum marks of 900 and 80% in another paper with a maximum marks of 700. If the result is based on the combined percentage of two papers, the combined percentage is :
+   a) 75.5%
+   b) 76%
+   c) 76.5%
+   d) 77%
+
+   Answer: a
+
+170. In an examination a candidate must secure 40% marks to pass. A candidate, who gets 220 marks, fails by 20 marks. Find the maximum marks for the examination ?
+   a) 1200
+   b) 300
+   c) 600
+   d) 450
+
+   Answer: c
+
+171. 31% of employees pay tax in the year 2008. Non-tax paying employees are 20700. The total number of employees is :
+   a) 31160
+   b) 64750
+   c) 30000
+   d) 66775
+
+   Answer: c
+
+172. If 30% of A is added to 40% of B, the answer is 80% of B. What percentage of A is B ?
+   a) 30%
+   b) 40%
+   c) 70%
+   d) 75%
+
+   Answer: d
+
+173. A village lost 12% of its goats in a flood and 5% of remainder died from diseases. If the number left now is 8360. What was the original number before the flood ?
+   a) 1000
+   b) 10000
+   c) 100000
+   d) 8360
+
+   Answer: b
+
+174. If 'basis points' are defined so that 1 percent is equal to 100 basis points, then by how many basis points is 82.5 percent greater than 62.5 percent.
+   a) 0.2
+   b) 20
+   c) 200
+   d) 2000
+
+   Answer: d
+
+175. 0.01 is what percent of 0.1 ?
+   a) 10%
+   b) 110110%
+   c) 100%
+   d) 11001100%
+
+   Answer: a
+
+176. One-fifth of half of a number is 20. Then 20% of that number is :
+   a) 80
+   b) 60
+   c) 20
+   d) 40
+
+   Answer: d
+
+177. In a class, the number of girls is 20% more than that of the boys. The strength of the class is 66. If 4 more girls are admitted to the class, the ratio of the number of boys to that of the girls is :
+   a) 1 : 2
+   b) 3 : 4
+   c) 1 : 4
+   d) 3 : 5
+
+   Answer: b
+
+178. If P% of P is 36, then P is equal to :
+   a) 3600
+   b) 600
+   c) 60
+   d) 15
+
+   Answer: c
+
+179. If A is equal to 20% of B and B is equal to 25% of C. Then what percentage of C equal to A ?
+   a) 10%
+   b) 15%
+   c) 5%
+   d) 20%
+
+   Answer: c
+
+180. The marked price of an article is Rs. 5000 but due to festive offer a certain percent of discount is declared. Mr. x availed this opportunity and bought the article at reduced price. He then sold it at Rs. 5000 and thereby made a profit of11191119%. The percentage of discount allowed was ?
+   a) 10%
+   b) 313313%
+   c) 712712%
+   d) 11191119%
+
+   Answer: a
+
+181. The number that is to be added to 10% of 320 to have the sum as 30% of 230 is :
+   a) 37
+   b) 32
+   c) 23
+   d) 73
+
+   Answer: a
+
+182. 25% of 120 + 40% of 380 = ? of 637
+   a) 2727
+   b) 1717
+   c) 4747
+   d) 3737
+
+   Answer: a
+
+183. A number, on subtracting 15 from it reduces to its 80%. What is 40% of the number ?
+   a) 75
+   b) 60
+   c) 30
+   d) 90
+
+   Answer: c
+
+184. If 35% of A's income is equal to 25% of B's income, then the ratio of A's income to B's income is :
+   a) 7 : 5
+   b) 5 : 7
+   c) 4 : 7
+   d) 4 : 3
+
+   Answer: b
+
+185. If y% of one hour is, 1 minute 12 seconds, then y is equal to :
+   a) 2
+   b) 1
+   c) 1212
+   d) 1414
+
+   Answer: a
+
+186. When the price of an article was reduce by 20%, its sale increased by 80%. What was the net effect on the sale ?
+   a) 44% increase
+   b) 44% decrease
+   c) 66% increase
+   d) 75% increase
+
+   Answer: a
+
+187. In an examination, 34% failed in Mathematics and 42% failed in English. If 20% failed in both the subjects, the percentage of students who passed in both subjects was :
+   a) 54%
+   b) 50%
+   c) 44%
+   d) 56%
+
+   Answer: c
+
+188. In an election there were only two candidates. One of the candidate secured 40% of votes and is defeated by the other candidate by 298 votes. The total number of votes polled is :
+   a) 745
+   b) 1460
+   c) 1490
+   d) 1500
+
+   Answer: c
+
+189. In what ratio must a mixture of 30% alcohol strength be mixed with that of 50% alcohol strength so as get a mixture of 45% alcohol strength ?
+   a) 1 : 2
+   b) 1 : 3
+   c) 2 : 1
+   d) 3 : 1
+
+   Answer: b
+
+190. When 60% of a number is subtracted from another number, the second number reduces to its 52%, the ratio of the first number to the second number is :
+   a) 6 : 5
+   b) 5 : 3
+   c) 5 : 4
+   d) 4 : 5
+
+   Answer: d
+
+191. The ratio of the number of boys and girls in school at 8 : 12. If 50% of boys and 25% of girls are getting scholarship for their studies, what is the percentage of school students who are not getting any scholarships ?
+   a) 65%
+   b) 66%
+   c) 67%
+   d) 68%
+
+   Answer: a
+
+192. In an examination there were 640 boys and 360 girls, 60% of boys and 80% of were successful. The percentage of failure was :
+   a) 20%
+   b) 60%
+   c) 30.5%
+   d) 32.8%
+
+   Answer: d
+
+193. In an election between two candidates, 75% of the voters cast their votes, out of which 2% votes were declared invalid. A candidate got 9261 votes which were 75% of the valid votes. The total number of voters enrolled in that election was :
+   a) 16000
+   b) 16400
+   c) 16800
+   d) 18000
+
+   Answer: c
+
+194. 1 litre of water is added to 5 litres of alcohol-water solution containing 40% alcohol strength. The strength of alcohol in the new solution will be :
+   a) 30%
+   b) 33%
+   c) 33233323%
+   d) 33133313%
+
+   Answer: d
+
+195. Each side of a rectangular field is diminished by 40%. By how much percent is the area of the field diminished ?
+   a) 32%
+   b) 64%
+   c) 25%
+   d) 16%
+
+   Answer: b
+
+196. There is a ratio of 5 : 4 between two numbers. If 40% of the first number is 12, then what would be 50% of the second number ?
+   a) 12
+   b) 24
+   c) 18
+   d) Data Inadequate
+
+   Answer: a
+
+197. The ratio of number of boys and girls in a school 720 students is 7 : 5. How many more girls should be admitted to make the ratio 1 : 1 ?
+   a) 90
+   b) 120
+   c) 220
+   d) 240
+
+   Answer: b
+
+198. On a certain date, Pakistan has a success rate of 60% against India in all the ODI's played between the two countries. The lost the next 30 ODI's. In a row to India and their success rate comes down to 30%. The total number of ODI's played between the two countries is :
+   a) 50
+   b) 45
+   c) 60
+   d) 30
+
+   Answer: c
+
+199. A person who spends66236623% of his income is able to save Rs. 1200 per month. His monthly expenses (in Rs.) is :
+   a) 1200
+   b) 2400
+   c) 3000
+   d) 3200
+
+   Answer: b
+
+200. The cost of an article worth Rs. 100 is increased by 10% first and again increased by 10%. The total increase in rupees is :
+   a) 20
+   b) 21
+   c) 110
+   d) 121
+
+   Answer: b
+
+201. A sample of 50 litres of glycerine is found to be adulterated to the extent of 20%. How much pure glycerine should be added to it so as to bring down the percentage of impurity to 5% ?
+   a) 155 litres
+   b) 150 litres
+   c) 150.4 litres
+   d) 140 litres
+
+   Answer: b
+
+202. A and B are two fixed points 5 cm apart and C is a point an AB such that AC is 3 cm. If the length of AC is increased by 6%, the length CB is decreased by :
+   a) 6%
+   b) 7%
+   c) 8%
+   d) 9%
+
+   Answer: d
+
+203. What percentage of the whole week does Ajay spend in office, if his office hours are 9 am to 5 pm from Monday to Friday ?
+   a) 33.33%
+   b) 23.81%
+   c) 25.86%
+   d) 42.23%
+
+   Answer: b
+
+204. A's salary was decreased by 50% and subsequently increased by 50%. How much percent does he lose ?
+   a) 25%
+   b) 30%
+   c) 20%
+   d) No loss
+
+   Answer: a
+
+205. A man spend712712% of his money and after spending 75% of the remaining he had Rs. 370 left. How much money did he have :
+   a) 1200
+   b) 1600
+   c) 1500
+   d) 1400
+
+   Answer: b
+
+206. A man spends a part of his monthly income and saves the rest. The ratio of his expenditure to the saving is 61 : 6. If his monthly income is Rs. 8710, the amount of his monthly  savings is :
+   a) Rs. 870
+   b) Rs. 690
+   c) Rs. 980
+   d) Rs. 780
+
+   Answer: d
+
+207. A number is increased by 15% and then decreased by 25% and the number becomes 22 less than the original number. The original number is :
+   a) 140
+   b) 160
+   c) 120
+   d) 100
+
+   Answer: b
+
+208. What is the difference between 0.6 and 0.6% ?
+   a) 5.94
+   b) 0.594
+   c) 60
+   d) 54
+
+   Answer: b
+
+209. A number is decreased by 10% and the resulting number is again decreased by 20%. What is the final percentage of decrease ?
+   a) 25%
+   b) 26%
+   c) 27%
+   d) 28%
+
+   Answer: d
+
+210. In an office, 40% of the staff is female. 70% of the female staff and 50% of the male staff are married. The percentage of the unmarried staff in the office is :
+   a) 65%
+   b) 42%
+   c) 60%
+   d) 64%
+
+   Answer: b
+
+211. The weight of an empty bucket is 25% of the weight of the bucket when filled with some liquid. Some of the liquid has been removed. Then, the bucket, along with the remaining liquid, weighed three-fifths of the original weight. What percentage of the liquid has been removed ?
+   a) 40%
+   b) 62126212
+   c) 56235623%
+   d) 53135313%
+
+   Answer: d
+
+212. 5959part of the population in a village are males. If 30% of the males are married, the percentage of unmarried females in the total population is :
+   a) 20%
+   b) 27792779%
+   c) 40%
+   d) 70%
+
+   Answer: b
+
+213. The ratio 5 : 4 expressed as a percent equals :
+   a) 12.5%
+   b) 40%
+   c) 80%
+   d) 125%
+
+   Answer: d
+
+214. Solve (550% of 250) ÷ 275 = (?)
+   a) 15
+   b) 1.5
+   c) 0.5
+   d) None of these
+
+   Answer: d
+
+215. 270 candidates appeared for an examination, of which 252 passed. The pass percentage is :
+   a) 80%
+   b) 83128312%
+   c) 90139013%
+   d) 93139313%
+
+   Answer: d
+
+216. What will come in the place of (?) in the expression below :x% of y is y% of (?)
+   a) x
+   b) 100x
+   c) x100x100
+   d) y100y100
+
+   Answer: a
+
+217. In the expression xy2, the value of both variables x and y are decreased by 20%. By this, the value of the expression is decreased by :
+   a) 40%
+   b) 48.8%
+   c) 51.2%
+   d) 80%
+
+   Answer: b
+
+218. The value of a machine depreciates at the rate of 12 percent per annum. It was purchased three years ago. Its present value is Rs. 29644.032. What was the purchase price of the machine ?
+   a) Rs. 38900
+   b) Rs. 39000
+   c) Rs. 43500
+   d) Rs. 48700
+   e) None of these
+
+   Answer: c
+
+219. From 5 litres of a 20% solution of alcohol in water, 2 litres of solution is taken out and 2 litres of water is added to it. Find the strength of alcohol in the new solution.
+   a) 10%
+   b) 12%
+   c) 15%
+   d) 18%
+
+   Answer: b
+
+220. A man ordered a length of rope by telephone from his nearest hardware shop. But when a worker in the shop brought the rope, he found that the man on the telephone had miswritten the order by interchange feet and inches. As a result of this, the length of rope received was only 30% of the length he had ordered. The length of the rope which the man ordered was between :
+   a) 6 ft and 7 inches
+   b) 71212ft and 9 ft
+   c) 9 ft and 2 inches
+   d) 101212ft and 12 ft
+
+   Answer: c
+
+221. 2 is what percent of 50 ?
+   a) 2%
+   b) 2.5%
+   c) 4%
+   d) 5%
+
+   Answer: c
+
+222. 15% of 45% of a number is 105.3. What is 24% of that number.
+   a) 385.5
+   b) 374.4
+   c) 390
+   d) 375
+
+   Answer: b
+
+223. The ratio 5 : 4 expressed as a percent equals :
+   a) 125%
+   b) 80%
+   c) 405
+   d) 12.5%
+
+   Answer: a
+
+224. If 60% of A =3434of B, then A : B is :
+   a) 9 : 20
+   b) 20 : 9
+   c) 4 : 5
+   d) 5 : 4
+
+   Answer: d
+
+225. In an examination, 93% of students passed and 259 failed. The total number of students appearing at the examination was :
+   a) 3700
+   b) 3850
+   c) 3950
+   d) 4200
+
+   Answer: a
+
+226. When 75 added to 75% of a number, the answer is the number. Find 40% of that number.
+   a) 100
+   b) 80
+   c) 120
+   d) 160
+
+   Answer: c
+
+227. If 15% of (A + B) = 25% of (A - B), then what percent of B equal to A ?
+   a) 10%
+   b) 60%
+   c) 200%
+   d) 400%
+
+   Answer: d
+
+228. When 60 is subtracted from 60% of a number, the result is 60. The number is :
+   a) 120
+   b) 150
+   c) 180
+   d) 200
+
+   Answer: d
+
+229. In an examination A got 25% marks more than B, B got 10% less than C and C got 25% more than D. If D got 320 marks out of 500, the marks obtained by A were :
+   a) 405
+   b) 450
+   c) 360
+   d) 400
+
+   Answer: b
+
+230. A reduction of 10% in the price of an apple enable a man to buy 10 apples more for Rs. 54. The reduced price of apples per dozen is :
+   a) Rs. 6.48
+   b) Rs. 12.96
+   c) Rs. 10.80
+   d) Rs. 14.40
+
+   Answer: a
+
+231. Two persons contested an election of Parliament. The winning candidate secured 57% of the total votes polled and won by a majority of 42000 votes. The number of total votes polled is :
+   a) 500000
+   b) 600000
+   c) 300000
+   d) 400000
+
+   Answer: c
+
+232. In a factory 60% of the workers are above 30 years and of these 75% are male and the rest are females. If there are 1350 male workers above 30 years, the total number of workers in the factory is :
+   a) 3000
+   b) 2000
+   c) 1800
+   d) 1500
+
+   Answer: a
+
+233. In the last financial year, a car company sold 41800 cars. In this year, the target is sale 51300 cars. By what percent must the sale be increased ?
+   a) 1192211922%
+   b) 89228922%
+   c) 8112381123%
+   d) 2281122811%
+
+   Answer: d
+
+234. One third of a number is 96. What will 67% of that number be ?
+   a) 192.96
+   b) 181.44
+   c) 169.92
+   d) 204.48
+
+   Answer: a
+
+235. If the duty on an article is reduced by 40% of his present  rate by how much percent must its consumption increase in order that the revenue remains unaltered ?
+   a) 60%
+   b) 62136213%
+   c) 72%
+   d) 66236623%
+
+   Answer: d
+
+236. If the numerator of a fraction is increased by 20% and the denominator is decreased by 5%, the value of the new fraction becomes5252. The original fraction is :
+   a) 24192419
+   b) 318318
+   c) 95489548
+   d) 48954895
+
+   Answer: c
+
+237. A line of length 1.5 metres was measured as 1.55 metres by mistakes. What will be the value of error percent ?
+   a) 0.05%
+   b) 37313731%
+   c) 313313%
+   d) 0.08%
+
+   Answer: c
+
+238. A reduction of 20% in the price of wheat enables Bhuvnesh to buy 5 kg more wheat for Rs. 320. The original rate (in rupees per kg) of wheat was :
+   a) 16
+   b) 18
+   c) 20
+   d) 21
+
+   Answer: a
+
+239. If the height of a cylinder is increased by 15% and the radius of its base is decreased by 10% then the percentage change in its curved surface area is :
+   a) 2.5% increased
+   b) 3.5% increased
+   c) 2.5% decreased
+   d) 3.5% decreased
+
+   Answer: b
+
+240. Two numbers are respectively 20% and 50% of the third number. What percent is the first number of the second ?
+   a) 10%
+   b) 20%
+   c) 30%
+   d) 40%
+
+   Answer: d
+
+241. In an examination, 65% of the students passed in Mathematics, 48% passed in Physics and 30% passed in both. How much percent of students failed in both the subjects ?
+   a) 17%
+   b) 43%
+   c) 13%
+   d) 47%
+
+   Answer: a
+
+242. At an election there were two candidate got 38% of votes and lost by 7200 votes. The total numbers of valid votes were :
+   a) 13000
+   b) 13800
+   c) 16200
+   d) 30000
+
+   Answer: d
+
+243. In 2 kg mixture of copper and aluminium, 30% is copper. How much aluminium powder should be added to the mixture so that the quantity of copper becomes 20% ?
+   a) 900 gms
+   b) 800 gms
+   c) 1000 gms
+   d) 1200 gms
+
+   Answer: c
+
+244. If 20% of (A + B) = 50% of B, then value of2A−B2A+B2A−B2A+Bis :
+   a) 1212
+   b) 1313
+   c) 141141
+   d) 1
+
+   Answer: a
+
+245. Ticket for all but 100 seats in a 10000 seat stadium were sold. Of the ticket sold, 20% were sold at half price and the remaining tickets were sold at the full price of Rs. 20. The total revenue from the ticket sales, (in Rs.) was :
+   a) 158400
+   b) 178200
+   c) 180000
+   d) 198000
+
+   Answer: b
+
+246. The average of marks obtained by 100 candidates in a certain examination is 30. If the average marks of passed candidates is 35 and that of the failed candidates is 10, what is the number of candidates who passed the examinations ?
+   a) 60
+   b) 70
+   c) 80
+   d) 90
+
+   Answer: c
+
+247. If 90% of A = 30% of B and B = 2x% of A, then the value of x is :
+   a) 450
+   b) 400
+   c) 300
+   d) 150
+
+   Answer: d
+
+248. 18% of which number is equal to 12% of 75 ?
+   a) 50
+   b) 100
+   c) 2
+   d) 3232
+
+   Answer: a
+
+249. Out of his total income, Mr. Kapur spends 20% on house rent and 70% of the rest on house hold expenses. If he saves Rs. 1800 what is his total income (in Rs.) ?
+   a) Rs. 7800
+   b) Rs. 7000
+   c) Rs. 8000
+   d) Rs. 7500
+
+   Answer: d
+
+250. Two numbers are in the ratio 2 : 3. If 20% of the smaller number added to 20, is equal to the sum of 10% of the larger number and 25, the the smaller number is :
+   a) 100
+   b) 160
+   c) 180
+   d) 200
+
+   Answer: a
+
+251. If X is 20% less then Y, then find the value ofY−XYY−XYandXX−YXX−Y:
+   a) 1515, - 4
+   b) 5,1414
+   c) 2525,−52−52
+   d) 3535,−35−35
+
+   Answer: a
+
+252. The ratio of the number of boys to that of girls in a school is 4 : 1. If 75% of boys and 70% of the girls are scholarship holders, then the percentage of students who do not get scholarship is :
+   a) 50%
+   b) 28%
+   c) 75%
+   d) 26%
+
+   Answer: d
+
+253. A man had a certain amount with him. He spent 20% of that to buy any article and 5% of the remaining on transport. Then he gifted Rs. 120. If he is left with Rs. 1400, the amount he spent on transport is :
+   a) Rs. 76
+   b) Rs. 61
+   c) Rs. 95
+   d) Rs. 80
+
+   Answer: d
+
+254. The income of a company increases 20% per annum. If its income is Rs. 2664000 in the year 2012. Then its income in the year 2010 was :
+   a) Rs. 2120000
+   b) Rs. 1850000
+   c) Rs. 2820000
+   d) Rs. 2855000
+
+   Answer: b
+
+255. An individual pays 30% income tax. On this he has to pay a surcharge of 10%. Thus, the net tax rate, he has pay is :
+   a) 45%
+   b) 40%
+   c) 33%
+   d) 27%
+
+   Answer: c
+
+256. An army lost 10% of its men in war. 10% of the remaining died due to disease and 10% of the rest were declared disabled. Thus the strength of the army was reduced to 729000 active men. The original strength of the army was :
+   a) 1500000
+   b) 1000000
+   c) 1200000
+   d) 1100000
+
+   Answer: b
+
+257. In an examination, 35% of total students failed in Hindi, 45% failed in English and 20% failed in both. Find the percentage of those students who passed in both the subjects ?
+   a) 45%
+   b) 35%
+   c) 20%
+   d) 40%
+
+   Answer: d
+
+258. The price of an article was increased by r%. Later the new price was decreased by r%. If the latest price was Rs. 1, then the original price was :
+   a) Rs. 1
+   b) Rs.1−r21001−r2100
+   c) Rs.1−r2‾‾‾‾‾‾√1001−r2100
+   d) Rs.(1000010000−r2)(1000010000−r2)
+
+   Answer: d
+
+259. The difference of two numbers is 15% of larger sum. The ratio of the larger number to the smaller number is :
+   a) 23 : 17
+   b) 11 : 9
+   c) 17 : 11
+   d) 23 : 11
+
+   Answer: a
+
+260. A number if reduced by 25% becomes 225. By what percent should it be increased so that it becomes 375 ?
+   a) 25%
+   b) 30%
+   c) 35%
+   d) 75%
+
+   Answer: a
+
+261. Out of two numbers, 40% of the greater number is equal to 60% of the smaller. If the sum of the numbers is 150, then the greater number is :
+   a) 70
+   b) 80
+   c) 90
+   d) 60
+
+   Answer: c
+
+262. If the total monthly income of 16 persons is Rs. 80800 and the income of one of them is 120% of the average income, them his income is :
+   a) Rs. 5050
+   b) Rs. 6060
+   c) Rs. 6160
+   d) Rs. 6600
+
+   Answer: b
+
+263. If three-fifth of sixty percent of a number is 36, the number is :
+   a) 100
+   b) 80
+   c) 75
+   d) 90
+
+   Answer: a
+
+264. A number is first decreased by 10% and then increased by 10%. The number so obtained is 50 less than the original number. The original number is :
+   a) 5900
+   b) 5000
+   c) 5500
+   d) 5050
+
+   Answer: b
+
+265. X has twice as much money as that of Y and Y has 50% more money than that of Z. If the average money of all of them is Rs. 110, then the money, which X has is :
+   a) Rs. 55
+   b) Rs. 60
+   c) Rs. 90
+   d) Rs. 180
+
+   Answer: d
+
+266. The sum of two numbers is 520. If the bigger number is decreased by 4% and the smaller number is increased by 12% then the numbers obtained are equal. The smaller number is :
+   a) 280
+   b) 240
+   c) 210
+   d) 300
+
+   Answer: b
+
+267. Tulsiram's salary is 20% more then that of Kashyap. If Tulsiram saves Rs. 720 which is 4% of his salary, then Kashyap's salary is :
+   a) Rs. 15000
+   b) Rs. 12000
+   c) Rs. 10000
+   d) Rs. 22000
+
+   Answer: a
+
+268. The ratio of the number of boys to that of girls in a village is 3 : 2. If 30% of boys and 70% of girls appeared in an examination, the ratio of the number of students, appeared in the examination to that not appeared in the same examination is :
+   a) 1 : 1
+   b) 27 : 23
+   c) 9 : 14
+   d) 23 : 27
+
+   Answer: d
+
+269. The value of a machine is Rs. 6250. It decreases by 10% during the first year, 20% during the second year and 30% during the third year, What will be the value of the machine after 3 years ?
+   a) Rs. 2650
+   b) Rs. 3050
+   c) Rs. 3150
+   d) Rs. 3510
+
+   Answer: c
+
+270. A person gave 20% of his income to his elder son, 30% of remaining to the younger son and 10% of the balance, he donate to a trust. He is left with Rs. 10080. His income was :
+   a) Rs. 50000
+   b) Rs. 40000
+   c) Rs. 30000
+   d) Rs. 20000
+
+   Answer: d
+
+271. Two numbers A and B such that the sum of 5% of A and 4% of B is2323rd of the sum of 6% of A and 8% of B. The ratio A : B is -
+   a) 4 : 3
+   b) 3 : 4
+   c) 1 : 1
+   d) 2 : 3
+
+   Answer: a
+
+272. If a number is increased by 25% and the resulting number is decreased by 25%, then the percentage increase or decrease finally is :
+   a) No change
+   b) Decreased by614614%
+   c) Increased by614614%
+   d) Increased by 6%
+
+   Answer: b
+
+273. In an examination, 60% of the candidates passed in English and 70% of the candidates passed in Mathematics, but 20% failed in both subjects. If 2500 candidates passed in both the subjects, the number of candidates who appeared at the examination was :
+   a) 3000
+   b) 3500
+   c) 4000
+   d) 5000
+
+   Answer: d
+
+274. The value of a property depreciates every year by 10% of its value at the beginning of the year. The present value of the property is Rs. 8100. What was its value 2 years ago ?
+   a) Rs. 10000
+   b) Rs.(9011)2×100(9011)2×100
+   c) Rs.(100101)2×8100(100101)2×8100
+   d) Rs. 9801
+
+   Answer: a
+
+275. If a man receives on one-fourth of his capital 3% interest, on two third 5% and one the remaining 11%, the percentage interest he receives on the whole is :
+   a) 4.5%
+   b) 5%
+   c) 5.5%
+   d) 5.2%
+
+   Answer: b
+
+276. The difference between the value of the number increased by 20% and the value of the number decreased by 25% is 36. Find the number ?
+   a) 7.2
+   b) 0.8
+   c) 720
+   d) 80
+
+   Answer: d
+
+277. In a village, each of the 60% of families has a cow; each of the 30% of families has a buffalo and each of the 15% of families has both a cow and buffalo. In all there are 96 families in the village. How many families do not have a cow or a buffalo ?
+   a) 20
+   b) 24
+   c) 26
+   d) 28
+
+   Answer: b
+
+278. The population of a village has increased annually at the rate of 25%. If at the end of 3 years it is 10000, the population in the beginning of the first year was :
+   a) 5120
+   b) 5000
+   c) 4900
+   d) 4500
+
+   Answer: a
+
+279. A saves 20% of his monthly salary. If his monthly expenditure is Rs. 6000, then his monthly savings is :
+   a) Rs. 1500
+   b) Rs. 1800
+   c) Rs. 1200
+   d) Rs. 4800
+
+   Answer: a
+
+280. A man spends 75% of his income. His income increased by 20% and he increased his expenditure by 15%. His savings will then be increased by :
+   a) 33%
+   b) 33133313%
+   c) 35%
+   d) 40%
+
+   Answer: c
+
+281. The percentage increase in the surface area of a cube when each side is doubled is :
+   a) 200%
+   b) 300%
+   c) 150%
+   d) 50%
+
+   Answer: b
+
+282. In an examination, 35% of the candidates failed in Mathematics and 25% in English. If 10% failed in both Mathematics and English, then how much percent of candidates passed in both the subjects ?
+   a) 50%
+   b) 55%
+   c) 57%
+   d) 60%
+
+   Answer: a
+
+283. The population of a town increases every year by 4%. If population was 50000 in starting, then after two years will be :
+   a) 53900
+   b) 54000
+   c) 54080
+   d) 54900
+
+   Answer: c
+
+284. In a town, the population was 8000. In one year, male population increased by 10% and female population increased by 8% but the total population increased by 9%. The number of males in the town was :
+   a) 4000
+   b) 4500
+   c) 5000
+   d) 6000
+
+   Answer: a
+
+285. The population of a village is 25000. One-fifth are females and the rest are males, 5% of males and 40% of females are uneducated. What percentage on the whole are educated ?
+   a) 75%
+   b) 88%
+   c) 55%
+   d) 85%
+
+   Answer: b
+
+286. In a factory, the production of cycles rose to 48400 from 40000 in 2 years. The rate of growth per annum is ?
+   a) 10.5%
+   b) 9%
+   c) 8%
+   d) 10%
+
+   Answer: d
+
+287. A student scored 32% marks in science subjects out of 300. How much should he score in language papers out of 200 if he is to get overall 46% marks ?
+   a) 72%
+   b) 67%
+   c) 66%
+   d) 60%
+
+   Answer: b
+
+288. Present population of a village is 67600, It has been increasing annually at the rate of 4%. What was the population of the village two years ago ?
+   a) 62500
+   b) 63000
+   c) 64756
+   d) 65200
+
+   Answer: a
+
+289. In a college, 40% of the students were allotted group A, 75% of the remaining were given group B and the remaining 12 students were given group C. Then the number of students who applied for the group is :
+   a) 100
+   b) 60
+   c) 80
+   d) 92
+
+   Answer: c
+
+290. A fruit seller had some apples. He sells 40% apples and still has 420 apples. Originally, he had :
+   a) 588 apples
+   b) 600 apples
+   c) 672 apples
+   d) 700 apples
+
+   Answer: d
+
+291. A dozen pairs of socks quoted at Rs. 180 are available at discount of 20%. How many pairs of socks can be bought for Rs. 48 ?
+   a) 3 pairs
+   b) 4 pairs
+   c) 2 pairs
+   d) 5 pairs
+
+   Answer: b
+
+292. If the population of a town is 64000 and its annual increase is 10%, then its population at the end of 3 years will be :
+   a) 80000
+   b) 85184
+   c) 85000
+   d) 85100
+
+   Answer: b
+
+293. In a village three people contested for the post of village Pradhan. Due to their own interest, all the voters voted and no one vote was invalid. The losing candidate got 30% votes. What could be the minimum absolute margin of votes by which the winning candidate led by the nearest rival, if each candidate got an integral percent of votes ?
+   a) 4
+   b) 2
+   c) 1
+   d) None of these
+
+   Answer: b
+
+294. I paid Rs. 27.20 as sales tax on a watch worth Rs. 340. Find the rate of sales tax.
+   a) 8%
+   b) 9%
+   c) 10%
+   d) 12%
+
+   Answer: a
+
+295. A student scores 55% marks in 8 papers of 100 marks each. He scores 15% of his total marks in English. How much does he score in English ?
+   a) 44
+   b) 45
+   c) 66
+   d) 77
+   e) None of these
+
+   Answer: c
+
+296. A wrist watch of cost price Rs. 1250 was sold by Sharel for Rs. 1500. What was the profit percent ?
+   a) 21%
+   b) 24%
+   c) 25%
+   d) 20%
+
+   Answer: d
+
+297. Ms. Pooja invests 13% of her monthly salary, i.e., Rs. 8554 in Mediclaim Policies. Later she invests 23% of her monthly salary on Child Education Policies; also she invests another 8% of her monthly salary on Mutual Funds. What is the total annual amount invested by Ms. Pooja ?
+   a) Rs. 28952
+   b) Rs. 43428
+   c) Rs. 173712
+   d) Rs. 347424
+   e) None of these
+
+   Answer: a
+
+298. The difference of two numbers is 20% of the larger number. If the smaller number is 20, then the larger number is :
+   a) 25
+   b) 45
+   c) 50
+   d) 80
+
+   Answer: a
+
+299. Two candidates fought an election. One of them got 62% of the total votes and won by 432 votes. What is the total number of votes polled ?
+   a) 1500
+   b) 1600
+   c) 1800
+   d) Cannot be determined
+   e) None of these
+
+   Answer: c
+
+300. If x, y, z are three positive integers such that x is greater then y and y is greater than z, then which of the following is definitely true ?
+   a) x% of y is greater than y% of z
+   b) y% of x is greater than z% of y
+   c) z% of x is greater than y% of z
+   d) All of these
+
+   Answer: d
+
+301. In an examination, 35% candidates failed in one subject and 42% failed in another subject while 15% failed in both the subjects. If 2500 candidates appeared at the examination, how many passed in either subject but not in both ?
+   a) 325
+   b) 1175
+   c) 2125
+   d) None of these
+
+   Answer: b
+
+302. 14% of 14 + 28% of 28 + 92% of 96 - 15% of 85 = ?
+   a) 8.37
+   b) 85.37
+   c) 89.37
+   d) None of these
+
+   Answer: b
+
+303. What percent of 88 is 33 ?
+   a) 34.5%
+   b) 35.5%
+   c) 36.5%
+   d) 37.5%
+
+   Answer: d
+
+304. 40% of 60% of3535th of a number is 504. What is 25% of2525th of that number ?
+   a) 175
+   b) 180
+   c) 350
+   d) 360
+   e) None of these
+
+   Answer: c
+
+305. Nupur invests Rs. 89856, which is 26% of her annual income, in mutual funds. What is her monthly income ?
+   a) Rs. 2398.50
+   b) Rs. 28800
+   c) Rs. 28990
+   d) Rs. 33606.25
+   e) None of these
+
+   Answer: b
+
+306. Two numbers A and B are such that the sum of 5% of A and 4% of B is two-thirds of the sum of 6% of A and 8% of B. Find the ratio of A : B  ?
+   a) 2 : 3
+   b) 1 : 1
+   c) 3 : 4
+   d) 4 : 3
+
+   Answer: d
+
+307. In a college election between two candidates, one candidate got 55% of the total valid votes. 15% of the votes were invalid. If the total votes were 15200, what is the number of valid votes the other candidate got ?
+   a) 5814
+   b) 6840
+   c) 7106
+   d) 8360
+   e) None of these
+
+   Answer: a
+
+308. If x% of y is equal to z, what percent of z is x ?
+   a) y2100y2100%
+   b) y1002y1002%
+   c) 100y100y%
+   d) 1002y1002y%
+
+   Answer: d
+
+309. A part of Rs. 9600 is invested at a 5% annual return, while the remainder is invested at a 3% annual return. If the annual income from both portions is the same, what is the total income from the two investments ?
+   a) Rs. 320
+   b) Rs. 380
+   c) Rs. 410
+   d) Rs. 440
+   e) None of these
+
+   Answer: e
+
+310. Of the 50 researchers in a work group, 40% will be assigned to Team A and the remaining 60% to Team B. However, 70% of the researchers prefer team A and 30% prefer Team B. What is the least possible number of researchers who will not be assigned to the team they prefer ?
+   a) 15
+   b) 20
+   c) 30
+   d) 35
+
+   Answer: a
+
+311. What percent of Rs. 2650 is Rs. 1987.50 ?
+   a) 60%
+   b) 75%
+   c) 80%
+   d) 90%
+
+   Answer: b
+
+312. The price of a commodity which was Rs. 250 three years ago is Rs. 2000 now. The annual rate of increase in the price is ?
+   a) 100%100%
+   b) 200%200%
+   c) 26623%26623%
+   d) None of these
+
+   Answer: a
+
+313. Solve this : (7.9% of 134) - (3.4% of 79) = ?
+   a) 7.3
+   b) 7.8
+   c) 8.1
+   d) 8.6
+   e) None of these
+
+   Answer: e
+
+314. Solve this : 36% of 365 + (?)% of 56.2 = 156.69
+   a) 30
+   b) 35
+   c) 40
+   d) 45
+   e) None of these
+
+   Answer: d
+
+315. Twenty-five percent of Reena's yearly income is equal to seventy-five percent of Anubhab monthly income . If Anubhab yearly income is Rs. 240000, What is the Reena's monthly income ?
+   a) Rs. 60000
+   b) Rs. 12000
+   c) Rs. 5200
+   d) Cannot be determined
+   e) None of these
+
+   Answer: e
+
+316. What will be the answer : 140% of 56 + 56% of 140 = ?
+   a) 78.4
+   b) 87.4
+   c) 156.6
+   d) 158.6
+   e) None of these
+
+   Answer: e
+
+317. A bakery opened with its daily supply of 40 dozen rolls. Half of the rolls were sold by noon and 60% of the remaining rolls were sold between noon and closing time. How many dozen rolls were left unsold ?
+   a) 6
+   b) 8
+   c) 10
+   d) 12
+
+   Answer: b
+
+318. Find the missing value  :35568 ÷ ? of 650 = 456
+   a) 12
+   b) 14
+   c) 16
+   d) 18
+   e) None of these
+
+   Answer: a
+
+319. The value of which of the following fractions is less than twenty percent ?
+   a) 561561
+   b) 2323
+   c) 2525
+   d) 1414
+   e) 211211
+
+   Answer: e
+
+320. Twelve percent of Kaushal's monthly salary is equal to sixteen percent of Nandini's monthly salary. Sanal's monthly salary is half that of Nandini's. If Sonal's annual salary is Rs. 1.08 lacs, what is Kaushal's monthly salary ?
+   a) Rs. 18000
+   b) Rs. 20000
+   c) Rs. 24000
+   d) Rs. 26000
+   e) None of these
+
+   Answer: c
+
+321. When water is changed into ice, its volume increases by 9%. If ice change into water, the percentage decrease in volume is :
+   a) 828109%828109%
+   b) 9%
+   c) 10%
+   d) 18%
+
+   Answer: a
+
+322. A tree increases annually by1818of its height. By how much will it increase after212212years if it stands today 8 m high ?
+   a) 10.75 m
+   b) 11.85 m
+   c) 12.25 m
+   d) 15.60 m
+
+   Answer: a
+
+323. How many litres of a 30% alcohol solution should be added to 40 litres of a 60% alcohol solution to prepare a 50% solution ?
+   a) 20
+   b) 24
+   c) 30
+   d) 32
+
+   Answer: a
+
+324. Solve [180% of (?)] ÷ 2 = 504
+   a) 400
+   b) 480
+   c) 560
+   d) 600
+
+   Answer: c
+
+325. The marked price of an article is Rs. 2400. The shopkeeper gives successive discounts of x% and 15% to the customer. If the customer pays Rs. 1876.80 for the article, find the value of x :
+   a) 9%
+   b) 8%
+   c) 12%
+   d) 11%
+
+   Answer: b
+
+326. 5 out of 2250 parts of earth is sulphur. What is the percentage of sulphur in earth ?
+   a) 11501150%
+   b) 2929%
+   c) 145145%
+   d) 245245%
+
+   Answer: b
+
+327. In a class of 65 students and 4 teachers, each student got sweet that are 20% of the total number of students and each teacher got sweets that are 40% of the total number of students. How many sweets are there ?
+   a) 104
+   b) 845
+   c) 949
+   d) 897
+   e) None of these
+
+   Answer: c
+
+328. If 35% of a number is 175, then what percent of 175 is that number ?
+   a) 35%
+   b) 65%
+   c) 280%
+   d) None of these
+
+   Answer: d
+
+329. A number reduced by 25% becomes 225. What percent should it be increase so that it becomes 390 ?
+   a) 25%
+   b) 30%
+   c) 35%
+   d) 45%
+
+   Answer: b
+
+330. In an examination it is required to get 296 of the total maximum aggregate marks to pass. A student gets 259 marks and is decided failed. The difference of marks obtained by the student and that required to pass is 5%. What are the maximum aggregate marks a students can get ?
+   a) 690
+   b) 740
+   c) 780
+   d) Cannot be determined
+
+   Answer: b
+
+331. When expressed as a fraction 64% would mean :
+   a) 16251625
+   b) 964964
+   c) 881881
+   d) 1212112121
+
+   Answer: a
+
+332. Solve this :(12% of 555) + (15% of 666) = ?
+   a) 166.5
+   b) 167.5
+   c) 168.5
+   d) None of these
+
+   Answer: a
+
+333. Solve this :12% of 5000 = ?
+   a) 600
+   b) 620
+   c) 680
+   d) 720
+
+   Answer: a
+
+334. Krishna's present salary is Rs. 3500. It will increase by 10% next year. What will be Krishna's salary after the increment ?
+   a) Rs. 3850
+   b) Rs. 3950
+   c) Rs. 4000
+   d) Rs. 3900
+
+   Answer: a
+
+335. Solve this : 32% of 825 + 25% of 1440 = 1025 - (?)
+   a) 456
+   b) 206
+   c) 223
+   d) 401
+
+   Answer: d
+
+336. Find the : 38% of 341 = ?
+   a) 120.68
+   b) 129.58
+   c) 135.78
+   d) 136.28
+   e) None of these
+
+   Answer: b
+
+337. If 0.03 is X% of 0.3, then the value of X is :
+   a) 3
+   b) 10
+   c) 30
+   d) Cannot be determined
+
+   Answer: b
+
+338. What is 28% of 36% of5757th of 5000 ?
+   a) 360
+   b) 375
+   c) 420
+   d) 480
+   e) None of these
+
+   Answer: a
+
+339. If x% of y is y% of (?)
+   a) x
+   b) 100x
+   c) x100x100
+   d) y100y100
+
+   Answer: a
+
+340. Solve this :4343of 25%18191819of 57 = ?
+   a) 36
+   b) 8
+   c) 18
+   d) 12
+
+   Answer: c
+
+341. Find the : (550% of 250) ÷ 275 = ?
+   a) 15
+   b) 0.5
+   c) 1.5
+   d) 25
+   e) None of these
+
+   Answer: e
+
+342. By how much percent is four-fifths of 70 lesser than five-sevenths of 112 ?
+   a) 24%
+   b) 30%
+   c) 36%
+   d) 42%
+
+   Answer: b
+
+343. The firm uses the following function to calculate the production out (PO) : PO = 5.3C2L15, where C = capital invested and L = labour employed. If the capital invested (C) increases by 20 percent, the change in PO will be :
+   a) 20% decrease
+   b) 32% increase
+   c) 44% increase
+   d) 56% increase
+
+   Answer: c
+
+344. On a test consisting of 250 questions, Jassi answered 40% of the first 125 questions correctly. What percent of the other 125 questions does she need to answer correctly for her grade on the entire exam to be 60% ?
+   a) 60%
+   b) 75%
+   c) 80%
+   d) Cannot be determined
+   e) None of these
+
+   Answer: c
+
+345. Find the 92.5% of 550 = ?
+   a) 506.45
+   b) 508.75
+   c) 518.55
+   d) 521.65
+   e) None of these
+
+   Answer: b
+
+346. 40% of 265 + 35% of 180 = 50% of ?
+   a) 84.5
+   b) 169
+   c) 253.5
+   d) 338
+   e) None of these
+
+   Answer: d
+
+347. If a exceeds b by x%, then which one of the following equations is correct ?
+   a) a−b=x100a−b=x100
+   b) b=a+100xb=a+100x
+   c) a=bx100+xa=bx100+x
+   d) a=b+bx100a=b+bx100
+
+   Answer: d
+
+348. 10% of 5 and 5% of 10 add up to
+   a) 0.10
+   b) 0.25
+   c) 1.0
+   d) 2.5
+
+   Answer: c
+
+349. In an examination, 30% and 35% students respectively failed in History and Geography while 27% students failed in both subjects. If the number of students passing the examination is 248, find the total number of students who appeared in the examination.
+   a) 380
+   b) 400
+   c) 425
+   d) 725
+
+   Answer: b
+
+350. In an examination, the percentage of students qualified to the number of students appeared from school A is 70%. In school B, the number of students appeared is 20% more than the students appeared from school A and the number of students qualified from school B is 50% more than the students qualified from school A. What is the percentage of students qualified to the   number of students appeared from school B ?
+   a) 30%
+   b) 70%
+   c) 78.5%
+   d) 87.5%
+
+   Answer: d
+
+351. 45% of 300 +?√?= 56% of 750 - 10% of 250
+   a) 60
+   b) 130
+   c) 260
+   d) 67600
+
+   Answer: d
+
+352. The enrolment of students in a school increases from 560 to 581. What is the percent increase in the enrolment ?
+   a) 2.75%
+   b) 3.25%
+   c) 3.72%
+   d) 3.75%
+
+   Answer: d
+
+353. If the average of number, its 75% and its 25% is 240, then the number is :
+   a) 280
+   b) 320
+   c) 360
+   d) 400
+
+   Answer: c
+
+354. A batsman scored 110 runs which included 3 boundaries and 8 sixes. What percent of his total score did he make by running between the wickets ?
+   a) 4545%
+   b) 4551145511%
+   c) 5461154611%
+   d) 5555%
+
+   Answer: b
+
+355. 0.01 is  what percent of 0.1 ?
+   a) 11001100%
+   b) 110110%
+   c) 10%
+   d) 100%
+
+   Answer: c
+
+356. 10% of the voters did not cast their vote in an election between two candidates. 10% of the votes polled were found invalid. The successful candidate got 54% of the valid votes and won by a majority of 1620 votes. The number of voters enrolled on the voters list was :
+   a) 25000
+   b) 33000
+   c) 35000
+   d) 40000
+
+   Answer: a
+
+357. Subtracting 6% of x from x is equivalent to multiplying x by how much ?
+   a) 0.094
+   b) 0.94
+   c) 9.4
+   d) 94
+
+   Answer: b
+
+358. 605 sweets are distributed equally among children in such a way that the number of sweets received by each child is 20% of the total number of children. how many sweets did each child receive ?
+   a) 11
+   b) 24
+   c) 45
+   d) Cannot determined
+   e) None of these
+
+   Answer: a
+
+359. Asha's monthly income is 60% of Deepak's monthly income and 120% of Maya's income. What is Maya's monthly income if Deepak's monthly income is Rs. 78000 ?
+   a) Rs. 36000
+   b) Rs. 39000
+   c) Rs. 42000
+   d) Cannot be determined
+   e) None of these
+
+   Answer: b
+
+360. By how much percent must a motorist increase his speed in order of reduce by 20%, the time taken to cover a certain distance ?
+   a) 20%
+   b) 25%
+   c) 30%
+   d) 35%
+
+   Answer: b
+
+361. The population of a variety of tiny bush in an experimental field increased by 10% in the first year, increased by 8% in the second year but decreased by 10% in the third year. If the present number of bushes in the experimental field is 26730, then the number of bushes in the beginning was :
+   a) 25000
+   b) 27000
+   c) 28000
+   d) 24600
+
+   Answer: a
+
+362. From a container having pure milk, 20% is replaced by water and the process is repeated thrice. At the end of the third operation, the milk is :
+   a) 40% pure
+   b) 50% pure
+   c) 51.2% pure
+   d) 58.8% pure
+
+   Answer: c
+
+363. How much66236623% of Rs. 312 exceeds Rs. 200 ?
+   a) Rs. 96
+   b) Rs. 4
+   c) Rs. 8
+   d) Rs. 104
+
+   Answer: c
+
+364. Find the number : 125% of 3060 - 85% of (?) = 408
+   a) 3890
+   b) 3940
+   c) 4015
+   d) 4020
+   e) None of these
+
+   Answer: d
+
+365. David and his wife each receives an 8 percent annual rise. If David receives a raise of Rs. 800 and his wife receives a raise of Rs. 840, what is the difference between their annual incomes after their raises ?
+   a) Rs. 40
+   b) Rs. 460
+   c) Rs. 500
+   d) Rs. 540
+
+   Answer: d
+
+366. The price of a car is Rs. 325000. It was insured to 85% of its price. The car was damaged completely in an accident and the insurance company paid 90% of the insurance. What was the difference between the price of the car and the amount received ?
+   a) Rs. 32500
+   b) Rs. 48750
+   c) Rs. 76375
+   d) Rs. 81250
+
+   Answer: c
+
+367. In an election, a total of 500000 voters participated. A candidate got 255000 votes which was 60% of total valid votes. What was the percentage of invalid votes :
+   a) 10%
+   b) 12%
+   c) 15%
+   d) 3001730017%
+
+   Answer: c
+
+368. If x 80% of y, then what percent of 2x is y ?
+   a) 40%
+   b) 62126212%
+   c) 66236623%
+   d) 80%
+
+   Answer: b
+
+369. 5 kg of tea and 8 kg of sugar together cost Rs. 172. The price of tea has risen by 20% and that of sugar by 10%. Hence the same quantities of tea and sugar now cost Rs. 199.20. What is the original price of tea per kg ?
+   a) Rs. 16
+   b) Rs. 18
+   c) Rs. 19
+   d) Rs. 20
+
+   Answer: d
+
+370. The charges for a five-day trip by a tourist bus for one full ticket and a half-ticket are Rs. 1440 inclusive of boarding charges which are same for a full ticket and a half-ticket. The charges for the same trip for 2 full tickets and one half-ticket inclusive of boarding charges are Rs. 2220. The fare for a half-ticket is 75% of the full ticket. Find the fare and the boarding charges separately for one full ticket.
+   a) Rs. 580, Rs. 400
+   b) Rs. 280, Rs. 200
+   c) Rs. 480, Rs. 300
+   d) Rs. 380, Rs. 400
+
+   Answer: c
+
+371. Income tax is raised from 4 paise to 5 paise in a rupee but the revenue is increased by 10% only. Find the decrease percent in the amount taxed.
+   a) 12%
+   b) 14%
+   c) 16%
+   d) None of these
+
+   Answer: a
+
+372. The population of a town is 189000. It decreases by 8% in the first year and increases by 5% in the second year. What is the population of the town at the end of 2 year ?
+   a) 182574
+   b) 185472
+   c) 191394
+   d) 193914
+   e) None of these
+
+   Answer: a
+
+373. Two vessels contain equal quantities of 40% alcohol. Sachin changed the concentration of the first vessel to 50% by adding extra quantity of pure alcohol. Vivek changed the concentration of the second vessel to 50% replacing a certain quantity of the solution with pure alcohol. By what percentage is the quantity of alcohol added by Sachin more/less than that replaced by Vivek ?
+   a) 11191119% less
+   b) 11191119% more
+   c) 16231623% less
+   d) 2020% more
+
+   Answer: d
+
+374. Nandini Basu bought an article for Rs. 5844. She gave Rs. 156 to a mechanic to remove its defect. She then sold it for Rs. 5700. What was her loss percent ?
+   a) 5%
+   b) 5.5%
+   c) 2.5%
+   d) 2.46%
+
+   Answer: a
+
+375. Rajeev buy goods worth Rs. 6650. He gets a rebate of 6% on it. After getting the rebate, he pays sale tax @ 10%. Find the amount he will have to pay for the goods ?
+   a) Rs. 6876.10
+   b) Rs. 6999.20
+   c) Rs. 6654
+   d) Rs. 7000
+
+   Answer: a
+
+376. In a year, a man manages to sell only 65% of the chicken he owns. How many chicken should the man  own to sell 47775 chicken in a years ?
+   a) 55000
+   b) 68500
+   c) 73000
+   d) 82500
+   e) None of these
+
+   Answer: e
+
+377. When 125 is subtracted from a number, it reduces to its 37.5 percent. What is 25 percent of that number ?
+   a) 50
+   b) 75
+   c) 125
+   d) 175
+   e) None of these
+
+   Answer: a
+
+378. In an examination it is required to get 40% of the aggregate marks to pass. A student get 261 marks and is declared failed by 4% marks. What are the maximum aggregate marks a student can get ?
+   a) 700
+   b) 730
+   c) 745
+   d) 765
+   e) None of these
+
+   Answer: e
+
+379. If x% of y is the same as4545of 80, then the value of xy is :
+   a) 320
+   b) 400
+   c) 640
+   d) None of these
+
+   Answer: d
+
+380. The contents of a certain box consist of 14 apples and 23 oranges. How many oranges must be removed from the box so that 70% of the pieces of fruit in the box will be apples ?
+   a) 6
+   b) 12
+   c) 17
+   d) 36
+
+   Answer: c
+
+381. If x% of 500 = y% of 300 and x% of y% of 200 = 60, then x = ?
+   a) 102‾√102
+   b) 202‾√202
+   c) 152‾√152
+   d) 302‾√302
+   e) None of these
+
+   Answer: d
+
+382. In a city, 35% of the population is composed of migrants, 20% of whom are from rural areas. Of the local population, 48% is female while this figure for rural and urban migrants is 30% and 40% respectively. What percentage of the total population comprises of females ?
+   a) 42.75%
+   b) 44.50%
+   c) 48%
+   d) None of these
+
+   Answer: b
+
+383. A person speeds 75% of his income. If his income increase by 20% and expenses increase by 15%, his saving will increase by :
+   a) 17121712%
+   b) 2020%
+   c) 33123312%
+   d) 3535%
+
+   Answer: d
+
+384. The population of a town is 1771561. If it had been increasing at 10% per annum, its population 6 years ago was :
+   a) 1000000
+   b) 1100000
+   c) 1210000
+   d) 1331000
+
+   Answer: a
+
+385. In some quantity of ghee, 60% is pure ghee and 40% is vanaspati. If 10 kg pure ghee is added, then the strength of vanaspati ghee becomes 20%. The original quantity was :
+   a) 10 kg
+   b) 15 kg
+   c) 20 kg
+   d) 25 kg
+
+   Answer: a
+
+386. In a graduate class of 200, 40% are women and1515become lecturers. If the number of men who become lecturers is twice that of women, calculate approximate percentage of men who became lecturers.
+   a) 16%
+   b) 18%
+   c) 205
+   d) 27%
+
+   Answer: d
+
+387. Nagaraj could save 10% of his income. But 2 years later, when his income increased by 20%, he could save the same amount only as before. By how much percentage has his expenditure increased ?
+   a) 2229%2229%
+   b) 2313%2313%
+   c) 2429%2429%
+   d) 2529%2529%
+
+   Answer: a
+
+388. 6 c.c. of a 20% solution of alcohol in water is mixed with 4 c.c. of a 60% solution of alcohol in water. The alcoholic strength of the mixture is?
+   a) 20%
+   b) 26%
+   c) 36%
+   d) 40%
+
+   Answer: c
+
+389. A housewife saved Rs. 2.50 in buying an item on sale. If she spent Rs. 25 for the item, approximately how much percent she saved in the transaction ?
+   a) 8%
+   b) 9%
+   c) 10%
+   d) 11%
+
+   Answer: b
+
+390. If Rs. 2800 is2727percent of the value of a house, the worth of the house (in Rs.) is :
+   a) 800000
+   b) 980000
+   c) 1000000
+   d) 1200000
+
+   Answer: b
+
+391. There are 600 boys in a hostel. Each plays either hockey or football or both. If 75% play hockey and 45% play football, how many play both 
+?
+   a) 48
+   b) 60
+   c) 80
+   d) 120
+
+   Answer: d
+
+392. A man spends 80% of his income. With increase in the cost of living, his expenditure increases by37123712% and his income increases by16231623%. His present savings are :
+   a) 537537%
+   b) 557557%
+   c) 612612%
+   d) 623623%
+
+   Answer: b
+
+393. At the college entrance examination, each candidate is admitted or rejected according to whether he has passed or failed the tests. Of the candidates who are really capable, 80% pass the tests and of the incapable, 25% pass the test. Given that 40% of the candidates are really capable, the proportion of capable college students is about:
+   a) 68%
+   b) 70%
+   c) 73%
+   d) 75%
+
+   Answer: a
+
+394. What percent of 7.2 kg is 18 gms ?
+   a) 0.025%
+   b) 0.25%
+   c) 2.5%
+   d) 25%
+
+   Answer: b
+
+395. ? % of 450 + 46% of 285 = 257.1
+   a) 31
+   b) 28
+   c) 32
+   d) 34
+
+   Answer: b
+
+396. Anand has drawn an angle of measure 45°  27' when he was asked to draw an angle of 45° . The percentage error in his drawing is ?
+   a) 0.5%
+   b) 1%
+   c) 1.5%
+   d) 2.0%
+
+   Answer: b
+
+397. An empty fuel tank of a car was filled with A type petrol. When the tank was half-empty, it was filled with B type petrol. Again when the tank was half-empty, it was filled with A type petrol. When the tank was half-empty again, it was filled with B type petrol. What is the percentage of A type petrol at present in the tank ?
+   a) 33.5%
+   b) 37.5%
+   c) 40%
+   d) 50%
+
+   Answer: b
+
+398. An empty fuel tank of a car was filled with A type petrol. When the tank was half-empty, it was filled with B type petrol. Again when the tank was half-empty, it was filled with A type petrol. When the tank was half-empty again, it was filled with B type petrol. What is the percentage of A type petrol at present in the tank ?
+   a) 37.5%
+   b) 35.5%
+   c) 30%
+   d) 60%
+
+   Answer: a
+
+399. Solve this : 15% of 578 + 22.5% of 644 = ?
+   a) 231.4
+   b) 231.6
+   c) 231.8
+   d) 233.6
+   e) None of these
+
+   Answer: b
+
+400. Solve : 105.27% of 1200.11 + 11.80% of 2360.85 = 21.99% of (?) + 1420.99
+   a) 500
+   b) 240
+   c) 310
+   d) 550
+
+   Answer: d
+
+401. In an election, 30% of the voters voted for candidate A whereas 60% of the remaining voted for candidate B. The remaining voters did not vote. If the difference between those who voted for candidate A and those who did not vote was 1200, how many individuals were eligible for casting vote in that election ?
+   a) 10000
+   b) 45000
+   c) 60000
+   d) 72000
+
+   Answer: c
+
+402. x% of x is the same as 10% of
+   a) x10x10
+   b) x210x210
+   c) x310x310
+   d) None of these
+
+   Answer: b
+
+403. In a certain organisation, 40% employees are matriculates, 50% of the remaining are graduates and the remaining 180 are post-graduates. What is the number of graduate employees ?
+   a) 180
+   b) 240
+   c) 300
+   d) 360
+
+   Answer: a
+
+404. In an examination in which full marks were 800, A gets 20% more than B, B gets 20% more than C, and C gets 15% less than D. If A got 576, what percentage of full marks did D get (approximately) ?
+   a) 45.73
+   b) 51.27
+   c) 58.82
+   d) 61.71
+
+   Answer: c
+
+405. The price of an article is reduced by 25%. In order to retain the original price, the present price has to be increased by :
+   a) 20%
+   b) 25%
+   c) 331313%
+   d) 50%
+
+   Answer: c
+
+406. A person's salary is decreased by steps of 20%, 15% and 10%. Approximately by what percent should the reduced salary be increases so as to get back the original salary ?
+   a) 39%
+   b) 44%
+   c) 56%
+   d) 63%
+
+   Answer: d
+
+407. A building worth Rs. 133100 is constructed on land worth Rs. 72900. After how many years will the value of both be the same if land appreciates at 10% p.a. and building depreciates at 10% p.a. ?
+   a) 112112
+   b) 2
+   c) 212212
+   d) 3
+
+   Answer: d
+
+408. A bag contains 600 coins of 25p denomination and 1200 coins of 50p denomination. If 12% of 25p coins and 24% of 50p  are removed, the percentage of money removed from the bag is nearly :
+   a) 15.6%
+   b) 17.8%
+   c) 21.6%
+   d) 30%
+
+   Answer: c
+
+409. Mr. More spent 20% of his monthly income on food and 15% on children's education. 40% of the remaining he spent on entertainment and transport together and 30% on medical. He is left with an amount of Rs. 8775 after all these expenditures. What is Mr. More's monthly income ?
+   a) Rs. 35000
+   b) Rs. 38000
+   c) Rs. 40000
+   d) Rs. 42000
+   e) None of these
+
+   Answer: e
+
+410. If the price of erasers goes down by 25%, a man can buy 2 more erasers for a rupee. How many erasers are available for a rupee ?
+   a) 2
+   b) 4
+   c) 6
+   d) 8
+
+   Answer: c
+
+411. The population of a town is 4.2 × 106. If the population increases by 75 per 1000 per annum, then what will be the population after 2 years ?
+   a) 4633628
+   b) 4853625
+   c) 5253495
+   d) 5853615
+
+   Answer: b
+
+412. A's marks in Biology are 20 less than 25% of the total marks obtained by him in Biology, Maths and Drawing. If his marks in Drawings be 50, what are his marks in Maths ?
+   a) 40
+   b) 45
+   c) 50
+   d) Cannot be determined
+
+   Answer: d
+
+413. If x = 63% of y, then y2is approximately what percent of x2?
+   a) 125%
+   b) 200%
+   c) 250%
+   d) 350%%
+
+   Answer: c
+
+414. A number is first decreased by 10% and then increased by 10%. The number so obtained is 50 less than the original number. The original number is :
+   a) 5000
+   b) 5050
+   c) 5500
+   d) 5900
+
+   Answer: a
+
+415. A city has a population of 300000 out of which 180000 are males. 50% of the population is literate. If 70% of the males are literate, then the percentage of female who are literate is :
+   a) 20%
+   b) 25%
+   c) 35%
+   d) 45%
+
+   Answer: a
+
+416. The price of an articles was increased by r%. Later the new price was decreased by r%. If the latest price was Rs. 1, then the original price was :
+   a) Rs. 1
+   b) Rs.(1−r2100)(1−r2100)
+   c) Rs.1−r2‾‾‾‾‾‾√1001−r2100
+   d) Rs.10000(10000−r2)10000(10000−r2)
+
+   Answer: d
+
+417. In September 2009, the sales of a product were2323rd of the that in July 2009. In November 2009, the sales of the product were higher by 5% as compared to September 2009. How much is the percentage of increase on sales in November 2009 with respect to the base figure in July 2009 ?
+   a) - 20%
+   b) + 25%
+   c) - 30%
+   d) + 40%
+
+   Answer: c
+
+418. Two numbers are respectively 25% and 60% more than a third number. The ratio of the two numbers is:
+   a) 20 : 30
+   b) 20 : 35
+   c) 25 : 32
+   d) 21 : 31
+
+   Answer: c
+
+419. The income of A is 80% of B's income and the expenditure of A is 60% of B's expenditure. If the income of A is equal to 90% of B's expenditure, then by what percentage are the saving of A more than B's savings?
+   a) 140%
+   b) 125%
+   c) 100%
+   d) 150%
+
+   Answer: a
+
+420. What is to be added to 15% of 180 so that the sum is equal to 20% of 360?
+   a) 45
+   b) 40
+   c) 60
+   d) 50
+
+   Answer: a
+
+421. 5 kg of metal A and 20 kg of metal B are mixed to form an alloy. The percentage of metal A in the alloy is ?
+   a) 20%
+   b) 25%
+   c) 40%
+   d) None of these
+
+   Answer: a
+
+422. 23% of 8040 + 42% of 545 = ? % of 3000
+   a) 56.17
+   b) 63.54
+   c) 69.27
+   d) 71.04
+   e) None of these
+
+   Answer: c
+
+423. While purchasing one item costing Rs. 400, I had to pay the sales tax at 7% and on another costing Rs. 6400, the sales tax was 9%. What percent of the sales tax I had to pay, taking the two  items together on an average ?
+   a) 8%
+   b) 8131781317%
+   c) 8151781517%
+   d) 812812%
+
+   Answer: c
+
+424. The difference between 54% of a number and 26% of the same number is 22526. What is 66% of that number ?
+   a) 48372
+   b) 49124
+   c) 51218
+   d) 53097
+   e) None of these
+
+   Answer: d
+
+425. If 75% of a number is added to 75, then the result is the number itself. The number is :
+   a) 50
+   b) 60
+   c) 300
+   d) 400
+
+   Answer: c
+
+426. 40% of 60% of 32% of an amount is Rs. 432. What is the amount ?
+   a) Rs. 5000
+   b) Rs. 5600
+   c) Rs. 6400
+   d) None of these
+
+   Answer: d
+
+427. In a test, minimum passing percentage for girls and boys is 35% and 40% respectively. A boy scored 483 marks and failed by 117 marks. What is the minimum passing marks for girls ?
+   a) 425
+   b) 500
+   c) 520
+   d) 625
+   e) None of these
+
+   Answer: e
+
+428. A clothing supplier stores 800 coats in a warehouse, of which 15 percent are full-length coats. If 500 of the short-length coats are removed form the warehouse, then what percent of the remaining costs are full length ?
+   a) 5.62%
+   b) 9.37%
+   c) 35%
+   d) 40%
+
+   Answer: d
+
+429. Peter could save 10% of his income. But two years later when his income is increased by 20%, he could save the same amount only as before. By how much percent has his expenditure increased ?
+   a) 22%
+   b) 2229%2229%
+   c) 2313%2313%
+   d) 24%
+
+   Answer: b
+
+430. A papaya tree was planted 2 years ago. It grows at the rate of 20% every year. If at present, the height of three is 540 cm, what was it when the tree was planted ?
+   a) 324 cm
+   b) 375 cm
+   c) 400 cm
+   d) 432 cm
+
+   Answer: b
+
+431. In a factory, producing parts for an automobile, the parts manufactured on the shop floor are required to go through three quality checks, each conducted after a specific part of the processing on the raw materials is completed. Only parts that are not rejected at one stage are put through the subsequent stages of production and testing. If average rejection rates at these testing machines during a month are 10%, 5% and 2% respectively, then what is the effective rejection rate for the whole plant ?
+   a) 15.20%
+   b) 16.21%
+   c) 16.48%
+   d) 17%
+
+   Answer: b
+
+432. Depreciation applicable to an equipment is 20%. The value of the equipment 3 years from now will be less by :
+   a) 45%
+   b) 48.8%
+   c) 51.2%
+   d) 60%
+
+   Answer: b
+
+433. In a hotel, 60% had vegetarian lunch while 30% had non-vegetarian lunch and 15% had both types of lunch. If 96 people were present, how many did not eat either type of lunch ?
+   a) 20
+   b) 24
+   c) 26
+   d) 28
+
+   Answer: b
+
+434. 1 litre of water is added to 5 litres of alcohol water solution containing 40% alcohol strength. The strength of alcohol in the new solution will be :
+   a) 30%30%
+   b) 3313%3313%
+   c) 3323%3323%
+   d) 33%33%
+
+   Answer: b
+
+435. Solve this : 30% of 1225 - 64% of 555 = ?
+   a) 10.7
+   b) 12.3
+   c) 13.4
+   d) None of these
+
+   Answer: b
+
+436. One litre of water is evaporated from a 6 litre solution containing 4% sugar. The percentage of sugar in the remaining solution is :
+   a) 313%313%
+   b) 4%4%
+   c) 445%445%
+   d) 5%5%
+
+   Answer: c
+
+437. Find the number :85% of 420 + ?% of 1080 = 735
+   a) 25
+   b) 30
+   c) 35
+   d) 40
+
+   Answer: c
+
+438. What is 45% of 25% of4545thof 850 ?
+   a) 67.5
+   b) 69.5
+   c) 76.5
+   d) 83.5
+   e) None of these
+
+   Answer: c
+
+439. In an examination it is required to get 36% of the aggregate marks to pass. A student gets 198 marks and is declared failed by 36 marks. What is the maximum aggregate marks a student can get ?
+   a) 480
+   b) 550
+   c) 650
+   d) Cannot be determined
+   e) None of these
+
+   Answer: c
+
+440. It costs Rs. 1 to photocopy a sheet of paper. However, 2% discount is allowed on all photocopies done after first 1000 sheets. How much will it cost to copy 5000 sheets of paper ?
+   a) Rs. 3920
+   b) Rs. 3980
+   c) Rs. 4900
+   d) Rs. 4920
+
+   Answer: d
+
+441. 60% of 264 is the same as :
+   a) 10% of 44
+   b) 15% of 1056
+   c) 30% of 132
+   d) None of these
+
+   Answer: b
+
+442. The number which exceeds 16% of it by 42 is :
+   a) 50
+   b) 52
+   c) 58
+   d) 60
+
+   Answer: a
+
+443. Solve this :(23.6% of 1254) - (16.6% of 834) = ?
+   a) 153.5
+   b) 155.5
+   c) 157.5
+   d) 159.5
+   e) None of these
+
+   Answer: c
+
+444. One-fourth of sixty percent of a number is equal to two-fifth of twenty percent of another number. What is the respective ratio of the first number to the second number ?
+   a) 4 : 7
+   b) 5 : 9
+   c) 8 : 13
+   d) Cannot be determined
+   e) None of these
+
+   Answer: e
+
+445. In an examination, 96% of students passed and 500 students failed. How many students did appear at the examination ?
+   a) 14000
+   b) 12500
+   c) 12000
+   d) 13500
+
+   Answer: b
+
+446. The price of a certain item is increased by 15%. If consumer wants to keeps his expenditure on the item same as before, how much percent must he reduce his consumption of that item ?
+   a) 102023%102023%
+   b) 13123%13123%
+   c) 1623%1623%
+   d) 15%15%
+
+   Answer: b
+
+447. The difference between 38% of a number and 24% of the same number is Rs. 135.10. What is 40% of that number ?
+   a) 370
+   b) 378
+   c) 386
+   d) 394
+
+   Answer: c
+
+448. Aman's expense is 30% more than Vimal's and Vimal's expense is 10% less than Raman's. If the sum of their expenses is Rs. 6447, then what would be Aman's expense ?
+   a) Rs. 1890
+   b) Rs. 2100
+   c) Rs. 2200
+   d) Rs. 2457
+   e) None of these
+
+   Answer: d
+
+449. If A is 150 percent of B, then B is what percent of (A + B) ?
+   a) 3313%3313%
+   b) 40%40%
+   c) 6623%6623%
+   d) 75%75%
+
+   Answer: b
+
+450. From the salary of an officer, 10% is deducted as house rent, 20% of the rest, he spends on conveyance, 20% of the rest he pays as income tax and 10% of the balance, he spends on clothes. Then, he is left with Rs. 15552. Find his total salary.
+   a) Rs. 25000
+   b) Rs. 30000
+   c) Rs. 35000
+   d) Rs. 40000
+
+   Answer: b
+
+451. If the price of a book is first decreased by 25% and then increased by 20%, then the net charges in the price will be :
+   a) No change
+   b) 5% increase
+   c) 5% decrease
+   d) 10% decrease
+
+   Answer: d
+
+452. The current birth rate per thousand is 32, whereas the corresponding death rate is 11 per thousand. The net growth rate in terms of population increase in percent is given by :
+   a) 0.0021%
+   b) 0.021%
+   c) 2.1%
+   d) 21%
+
+   Answer: c
+
+453. A reduction of 21% in the price of wheat enables a person to buy 10.5 kg more for Rs. 100. What is the reduced price per kg ?
+   a) Rs. 2
+   b) Rs. 2.25
+   c) Rs. 2.30
+   d) Rs. 2.50
+
+   Answer: a
+
+454. If X is 90% of Y, then what percent of X is Y ?
+   a) 90%90%
+   b) 10119%10119%
+   c) 11119%11119%
+   d) 190%190%
+
+   Answer: c
+
+455. 30% apples out of 450 are rotten, How many apples are in good condition ?
+   a) 125
+   b) 180
+   c) 240
+   d) 315
+
+   Answer: d
+
+456. Find the value :3.2% of 500 × 2.4% of ? = 288
+   a) 600
+   b) 650
+   c) 700
+   d) 750
+
+   Answer: d
+
+457. 76% of the students in a school are boys. If the number of girls is 204, then the total number of students is :
+   a) 760
+   b) 800
+   c) 850
+   d) 900
+
+   Answer: c
+
+458. 1100 boys and 700 girls are examined in a test; 42% of the boys and 30% of the girls pass. The percentage of the total who failed is :
+   a) 58%58%
+   b) 6223%6223%
+   c) 64%64%
+   d) 78%78%
+
+   Answer: b
+
+459. If a number is reduced by 40% it becomes two-thirds of another number. What is the ratio of the first number to the second number ?
+   a) 8 : 9
+   b) 9 : 8
+   c) 10 : 9
+   d) 9 : 10
+   e) None of these
+
+   Answer: c
+
+460. In a mixture of milk and water, the proportion of water by weight was 75%. If in the 60 gm mixture 15 gm of water was added, what would be the percentage of water ?
+   a) 75%
+   b) 88%
+   c) 90%
+   d) 100%
+   e) None of these
+
+   Answer: e
+
+461. If a = b ×dcdc; b, c and d are increased by 10%, then by how much does a increase ?
+   a) 10%
+   b) 11%
+   c) 20%
+   d) 21%
+
+   Answer: a
+
+462. Kamal has 160 toffees. He gave 5% toffees to Ravi, 15% toffees to Anita and one-fourth of the toffees to Gagan. How many toffees are left with Kamal after the distribution ?
+   a) 78
+   b) 69
+   c) 88
+   d) 79
+   e) None of these
+
+   Answer: c
+
+463. If a is 60% of b, then what percent of 4a is 5b ?
+   a) 25122512%
+   b) 148148%
+   c) 62536253%
+   d) 240240%
+
+   Answer: c
+
+464. Solve this :(0.85% of 405) + (2.25% of 550) = ?
+   a) 13.8175
+   b) 14.7125
+   c) 15.7150
+   d) 16.7175
+   e) None of these
+
+   Answer: e
+
+465. An alloy of gold and silver weight 50 g. It contains 80% gold. How much gold should be added to the alloy so that percentage of gold is increased to 90 ?
+   a) 30 g
+   b) 40 g
+   c) 50 g
+   d) 60 g
+
+   Answer: c
+
+466. One-eighth of a number is 41.5. What will 69% of that number be ?
+   a) 219.12
+   b) 225.76
+   c) 229.08
+   d) 232.4
+   e) None of these
+
+   Answer: c
+
+467. A company pays rent of Rs. 25000 per month for office space to its owner. But if the company pays the annual rent at the beginning of the year the owner gives a discount of 5% on the total annual rent. What is the annual amount the company pays to the owner after the discount ?
+   a) Rs. 275000
+   b) Rs. 285000
+   c) Rs. 295000
+   d) Rs. 300000
+   e) None of these
+
+   Answer: b
+
+468. Solve this :(0.56% of 225) × (3.25% of 430) = ?
+   a) 15.3195
+   b) 15.6175
+   c) 17.3075
+   d) 17.6085
+   e) None of these
+
+   Answer: d
+
+469. An interval of 3 hours 40 minutes is wrongly estimated as 3 hours 45.5 minutes. The error percentage is :
+   a) 2.5%
+   b) 5%
+   c) 5.2%
+   d) 5.5%
+
+   Answer: a
+
+470. A number increased by37123712% gives 33. The number is :
+   a) 22
+   b) 24
+   c) 25
+   d) 27
+
+   Answer: b
+
+471. 1.14 expressed as a percent of 1.9 is :
+   a) 6%
+   b) 10%
+   c) 60%
+   d) 90%
+
+   Answer: c
+
+472. 42% of a number is 892.5. What is 73% of that number ?
+   a) 1466.25
+   b) 1508.75
+   c) 1551.25
+   d) 1636.25
+   e) None of these
+
+   Answer: c
+
+473. A toy merchant announces 25% rebate in prices of balls. If one needs to have a rebate of Rs. 40, then how many balls each costing Rs. 32, he should purchase ?
+   a) 5
+   b) 6
+   c) 7
+   d) 10
+
+   Answer: a
+
+474. Solve this :85% of 485.5 = 50% of ?
+   a) 675.75
+   b) 735.65
+   c) 825.35
+   d) 915.5
+   e) None of these
+
+   Answer: c
+
+475. Vinay decided to donate 5% of his salary. On the day of donation he changed his mind and donated Rs. 1687.50, which was 75% of what he had decided earlier. How much is Vinay's salary ?
+   a) Rs. 33750
+   b) Rs. 37500
+   c) Rs. 45000
+   d) Cannot be determined
+   e) None of these
+
+   Answer: c
+
+476. 64% of a number is 2592. What is 88% of that number ?
+   a) 3202
+   b) 3458
+   c) 3564
+   d) 3826
+   e) None of these
+
+   Answer: c
+
+477. Rajan got 76 percent marks and Sonia got 480 marks in a test. The maximum marks of the test equal to the marks obtained by Rajan and Sonia together. How many marks did Rajan score in the test ?
+   a) 1450
+   b) 1520
+   c) 1540
+   d) 2000
+   e) None of these
+
+   Answer: b
+
+478. 30% of 28% of 480 is the same as
+   a) 15% of 56% of 240
+   b) 60% of 28% of 240
+   c) 60% of 56% of 240
+   d) None of these
+
+   Answer: d
+
+479. To meet a government requirement, a bottler must test 5 percent of its spring water and 10 percent of its sparkling water for purity. If a customer ordered 120 cases of spring water and 80 cases of sparkling water, then what percent of all the cases must the bottler test before he can send it out ?
+   a) 6.5%
+   b) 7.0%
+   c) 7.5%
+   d) 8.0%
+
+   Answer: b
+
+480. A 14.4 kg gas cylinder runs for 104 hours when the smaller burner on the gas stove is fully opened while it runs for 80 hours when the larger burner on the gas stove is fully opened. Which of these value is the closest to the percentage difference in the usage of gas per hour, of the smaller burner over the larger burner ?
+   a) 23.07%
+   b) 26.23%
+   c) 30%
+   d) 32.23%
+
+   Answer: a
+
+481. A monthly return railway ticket cost 25 percent more than a single ticket. A week's extension can be had for the former by paying 5 percent of the monthly ticket's cost. If the money paid for the monthly ticket (with extension) is Rs. 84, the price of the single ticket is :
+   a) Rs. 48
+   b) Rs. 64
+   c) Rs. 72
+   d) Rs. 80
+
+   Answer: b
+
+482. Fresh grapes contain 80 percent water while dry grapes contain 10 percent water. If the weight of dry grapes is 250 kg what was its total weight when it was fresh ?
+   a) 1000 kg
+   b) 1100 kg
+   c) 1125 kg
+   d) 1225 kg
+
+   Answer: c
+
+483. When income tax is 3 paise in a rupee, a person's net income is Rs. 237650. What will it be when the income tax is raised to 7 paise ?
+   a) Rs. 233000
+   b) Rs. 231650
+   c) Rs. 227850
+   d) None of these
+
+   Answer: c
+
+484. In a certain month a base ball team that played 60 games had won 30% of its games played. After a phenomenal winning streak this team raised its average to 50%. How many games must the team have won in a row to attain this average ?
+   a) 12
+   b) 20
+   c) 24
+   d) 30
+
+   Answer: c
+
+485. The numbers are respectively1212%1212%and25%25%more than a third number. The as a percentage of the second number is :
+   a) 50%
+   b) 60%
+   c) 75%
+   d) 90%
+
+   Answer: d
+
+486. Two successive price increases of 10% each on an article are equivalent to a single price increase of :
+   a) 19%
+   b) 20%
+   c) 21%
+   d) 22%
+
+   Answer: c
+
+487. In a market research project, 20% opted for Nirma detergent whereas 60% opted for Surf Blue detergent. The remaining individuals were not certain. If the difference between those who opted for Surf Blue and those who were uncertain was 720, how many respondents were covered in the survey ?
+   a) 1440
+   b) 1800
+   c) 3600
+   d) Data inadequate
+
+   Answer: b
+
+488. In an examination, 5% of the applicants  were found ineligible and 85% of the eligible candidates belonged to the general category. If 4275 eligible candidates belonged to other categories, then how many candidates applied for the examinations ?
+   a) 30000
+   b) 35000
+   c) 37000
+   d) None of these
+
+   Answer: a
+
+489. the price of sugar increases by 32%. A family reduces its consumption so that the expenditure of the sugar is up only by 10%. If the total consumption of the sugar before the price rise was 10 kg per month, then the consumption of sugar per month at present (in kg) is :
+   a) 813813
+   b) 812812
+   c) 834834
+   d) 9
+
+   Answer: a
+
+490. On a test consisting of 250 questions, Jassi answered 40% of the first 125 questions correctly. What percent of the other 125 questions does she need to answer correctly for her grade on the entire exam to be 60% ?
+   a) 60%
+   b) 75%
+   c) 80%
+   d) Cannot be determined
+   e) None of these
+
+   Answer: c
+
+491. The population of a town is 8500. It increases by 20% in the first year and by another 25% in the second year. What would be the population of the town after 2 years ?
+   a) 10950
+   b) 11950
+   c) 12550
+   d) 12750
+   e) None of these
+
+   Answer: d
+
+492. In a survey of a city, it was found that 90 percent of the people in the city own a refrigerator and 15 percent own a washing machine. If everybody owns at least one appliance, what percentage owns both ?
+   a) 5 percent
+   b) 8 percent
+   c) 10 percent
+   d) None of these
+
+   Answer: a
+
+493. A and B are two fixed points 5 cm apart and C is a point on AB such that AC is 3 cm. If the length of AC is increased by 6%, the length of CB is decreased by :
+   a) 6%
+   b) 7%
+   c) 8%
+   d) 9%
+
+   Answer: d
+
+494. In an examination, 34% of the students failed in Mathematics and 42% failed in English. If 20% of the students failed in both the subjects, then the percentage of students who passed in both the subjects was :
+   a) 44%
+   b) 50%
+   c) 54%
+   d) 56%
+
+   Answer: d
+
+495. If x% of a is the same as y% of b, then z% of b is :
+   a) xyz%ofaxyz%ofa
+   b) yzx%ofayzx%ofa
+   c) xzy%ofaxzy%ofa
+   d) None of these
+
+   Answer: c
+
+496. In the price of sugar falls by212%212%, a person can buy 9 kg more of sugar for Rs. 1260 than before. If the price had risen by1212%1212%, how much sugar would he have bought for the same sum ?
+   a) 288 kg
+   b) 312 kg
+   c) 328 kg
+   d) 336 kg
+
+   Answer: b
+
+497. At a special sale, 5 tickets can be purchased for the price of 3 tickets. If 5 tickets are purchased at the sale, the amount saved will be what percent of the original price of the 5 tickets ?
+   a) 20%
+   b) 33133313%
+   c) 40%
+   d) 60%
+
+   Answer: c
+
+498. The price of sugar per kg increased from Rs. 16 to Rs. 20. The percentage reduction in the use of sugar so that the expenditure does not increase, should be :
+   a) 15%
+   b) 20%
+   c) 25%
+   d) 40%
+
+   Answer: b
+
+499. If 50% of (x - y) = 30% of (x + y), then what percent of x is y ?
+   a) 25%
+   b) 33133313%
+   c) 40%
+   d) 400%
+
+   Answer: a
+
+500. In a History examination, the average for the entire class was 80 marks. If 10% of the students scored 95 marks and 20% scored 90 marks, what was the average marks of the remaining students of the class ?
+   a) 65.5
+   b) 72.5
+   c) 75
+   d) 85
+
+   Answer: c
+

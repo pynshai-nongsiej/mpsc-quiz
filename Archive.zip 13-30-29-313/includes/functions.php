@@ -6,122 +6,91 @@ function sanitize_input($str) {
 
 // Get exam configuration based on exam type
 function get_exam_config($exam_type) {
-    // Define all available subcategories from TestQnA folders
-    $english_subcategories = [
-        'Antonyms', 'Synonyms', 'Spellings', 'Idioms and Phrases',
-        'One Word Substitutes', 'Change of Speech', 'Change of Voice',
-        'Error Spotting', 'Fill in the Blanks'
-    ];
-    
-    $gk_subcategories = [
-        'General Knowledge', 'Meghalaya GK', 'Books and Authors',
-        'Days and Years', 'Famous Places in India', 'General Science',
-        'Honours and Awards', 'Indian Culture', 'Indian Geography',
-        'Indian History', 'Technology'
-    ];
-    
-    $math_aptitude_subcategories = [
-        'Average', 'Boats and Streams', 'Calendar', 'Clock',
-        'Compound Interest', 'Interest', 'Percentage', 'Problems on Ages',
-        'Problems on HCF and LCM', 'Problems on Trains', 'Profit and Loss',
-        'Ratio', 'Speed Time and Distance', 'Time and Work'
-    ];
-    
-    // Create formatted lists of subcategories for display
-    $english_subcategories_list = "• " . implode("\n• ", $english_subcategories);
-    $gk_subcategories_list = "• " . implode("\n• ", $gk_subcategories);
-    $aptitude_subcategories_list = "• " . implode("\n• ", $math_aptitude_subcategories);
-    
-    // Detailed descriptions with subcategories
-    $english_description = "100 marks covering:\n" . $english_subcategories_list;
-    $gk_description = "100 marks covering:\n" . $gk_subcategories_list;
-    $aptitude_description = "100 marks covering:\n" . $aptitude_subcategories_list;
-    
     $configs = [
         'mpsc_lda' => [
-            'name' => 'MPSC LDA Mock Test (300 Marks)',
+            'name' => 'MPSC LDA Mock Test',
             'categories' => [
                 'General English' => [
-                    'count' => 100,  // 100 questions
-                    'marks' => 100,  // 100 marks
-                    'subcategories' => $english_subcategories,
-                    'description' => $english_description,
-                    'detailed_description' => 'General English (100 marks) covers the following topics:\n' . $english_subcategories_list
+                    'count' => 100,
+                    'subcategories' => [
+                        'Antonyms', 'Synonyms', 'Spellings', 'Idioms and Phrases',
+                        'One Word Substitutes', 'Change of Speech', 'Change of Voice',
+                        'Error Spotting', 'Fill in the Blanks'
+                    ]
                 ],
                 'General Knowledge & Aptitude' => [
-                    'count' => 75,   // 75 questions
-                    'marks' => 100,  // 100 marks
-                    'subcategories' => $gk_subcategories,
-                    'description' => $gk_description,
-                    'detailed_description' => 'General Knowledge & Aptitude (100 marks) covers the following topics:\n' . $gk_subcategories_list
+                    'count' => 75,
+                    'subcategories' => [
+                        'General Knowledge', 'Meghalaya GK', 'Books and Authors',
+                        'Days and Years', 'Famous Places in India', 'General Science',
+                        'Honours and Awards', 'Indian Culture', 'Indian Geography',
+                        'Indian History', 'Technology'
+                    ]
                 ],
                 'Arithmetic' => [
-                    'count' => 50,   // 50 questions
-                    'marks' => 100,  // 100 marks
-                    'subcategories' => $math_aptitude_subcategories,
-                    'description' => $aptitude_description,
-                    'detailed_description' => 'Arithmetic (100 marks) covers the following topics:\n' . $aptitude_subcategories_list
+                    'count' => 50,
+                    'subcategories' => [
+                        'Average', 'Boats and Streams', 'Calendar', 'Clock',
+                        'Compound Interest', 'Interest', 'Percentage', 'Problems on Ages',
+                        'Problems on HCF and LCM', 'Problems on Trains', 'Profit and Loss',
+                        'Ratio', 'Speed Time and Distance', 'Time and Work'
+                    ]
                 ]
-            ],
-            'total_marks' => 300,
-            'total_questions' => 225,
-            'description' => 'MPSC Lower Division Assistant (LDA) Examination Pattern: 225 questions for 300 marks'
+            ]
         ],
         'dsc_lda' => [
-            'name' => 'DSC LDA Mock Test (300 Marks)',
+            'name' => 'DSC LDA Mock Test',
             'categories' => [
                 'General English' => [
-                    'count' => 100,  // 100 marks
-                    'marks' => 100,  // 100 marks
-                    'subcategories' => $english_subcategories,
-                    'description' => $english_description,
-                    'detailed_description' => 'General English (100 marks) covers the following topics:\n' . $english_subcategories_list
+                    'count' => 100,
+                    'subcategories' => [
+                        'Antonyms', 'Synonyms', 'Spellings', 'Idioms and Phrases',
+                        'One Word Substitutes', 'Change of Speech', 'Change of Voice',
+                        'Error Spotting', 'Fill in the Blanks', 'Precis Writing',
+                        'Essay Writing', 'Drafting'
+                    ]
                 ],
                 'Elementary Mathematics & Science' => [
-                    'count' => 70,   // 70 marks
-                    'marks' => 70,   // 70 marks
-                    'subcategories' => array_merge($math_aptitude_subcategories, ['General Science']),
-                    'description' => '70 marks (Elementary Mathematics & Science)'
+                    'count' => 70,
+                    'subcategories' => [
+                        'Average', 'Calendar', 'Clock', 'Compound Interest', 'Interest',
+                        'Percentage', 'Problems on Ages', 'Problems on HCF and LCM',
+                        'Profit and Loss', 'Ratio', 'Time and Work',
+                        'General Science', 'Elementary Science'
+                    ]
                 ],
                 'General Knowledge' => [
-                    'count' => 70,   // 70 marks
-                    'marks' => 70,   // 70 marks
-                    'subcategories' => $gk_subcategories,
-                    'description' => $gk_description,
-                    'detailed_description' => 'General Knowledge (70 marks) covers the following topics:\n' . $gk_subcategories_list
+                    'count' => 70,
+                    'subcategories' => [
+                        'General Knowledge', 'Meghalaya GK', 'Books and Authors',
+                        'Days and Years', 'Famous Places in India', 'General Science',
+                        'Honours and Awards', 'Indian Culture', 'Indian Geography',
+                        'Indian History', 'Technology'
+                    ]
                 ],
                 'Aptitude' => [
-                    'count' => 30,   // 30 marks
-                    'marks' => 30,   // 30 marks
-                    'subcategories' => $math_aptitude_subcategories,
-                    'description' => $aptitude_description,
-                    'detailed_description' => 'Aptitude (30 marks) covers the following topics:\n' . $aptitude_subcategories_list
-                ],
-                'Interview' => [
-                    'count' => 1,    // 1 interview
-                    'marks' => 30,   // 30 marks
-                    'subcategories' => ['Interview'],
-                    'description' => '30 marks (Interview)'
+                    'count' => 30,
+                    'subcategories' => [
+                        'Average', 'Boats and Streams', 'Calendar', 'Clock',
+                        'Compound Interest', 'Interest', 'Percentage', 'Problems on Ages',
+                        'Problems on HCF and LCM', 'Problems on Trains', 'Profit and Loss',
+                        'Ratio', 'Speed Time and Distance', 'Time and Work'
+                    ]
                 ]
-            ],
-            'total_marks' => 300,
-            'total_questions' => 241, // 100 + 70 + 70 + 1 (interview)
-            'description' => 'DSC Lower Division Assistant (LDA) Examination Pattern: 240 marks written + 30 marks interview'
+            ]
         ],
         'mpsc_typist' => [
-            'name' => 'MPSC Typist Test (50 Marks)',
+            'name' => 'MPSC Typist Test',
             'categories' => [
                 'English' => [
-                    'count' => 50,   // 50 questions
-                    'marks' => 50,   // 50 marks
-                    'subcategories' => $english_subcategories,
-                    'description' => $english_description,
-                    'detailed_description' => 'English (50 marks) covers the following topics:\n' . $english_subcategories_list
+                    'count' => 50,
+                    'subcategories' => [
+                        'Antonyms', 'Synonyms', 'Spellings', 'Idioms and Phrases',
+                        'One Word Substitutes', 'Change of Speech', 'Change of Voice',
+                        'Error Spotting', 'Fill in the Blanks', 'General English'
+                    ]
                 ]
-            ],
-            'total_marks' => 50,
-            'total_questions' => 50,
-            'description' => 'MPSC Typist Examination Pattern: English paper (50 marks)'
+            ]
         ]
     ];
 
@@ -130,14 +99,9 @@ function get_exam_config($exam_type) {
         'categories' => [
             'All Categories' => [
                 'count' => 50,
-                'marks' => 50,
-                'subcategories' => 'all',
-                'description' => '50 questions for 50 marks'
+                'subcategories' => 'all'
             ]
-        ],
-        'total_marks' => 50,
-        'total_questions' => 50,
-        'description' => 'General Mock Test: 50 questions for 50 marks'
+        ]
     ];
 }
 
@@ -225,44 +189,6 @@ function get_category_meta($category_name) {
         'indian history' => ['icon' => '🏺', 'bg_color' => 'bg-amber-100', 'text_color' => 'text-amber-800'],
         'technology' => ['icon' => '💻', 'bg_color' => 'bg-indigo-100', 'text_color' => 'text-indigo-800'],
         
-        // Aptitude Categories
-        'aptitude' => ['icon' => '🧮', 'bg_color' => 'bg-blue-100', 'text_color' => 'text-blue-800'],
-        'quantitative aptitude' => ['icon' => '🔢', 'bg_color' => 'bg-blue-100', 'text_color' => 'text-blue-800'],
-        'logical reasoning' => ['icon' => '🧩', 'bg_color' => 'bg-purple-100', 'text_color' => 'text-purple-800'],
-        'data interpretation' => ['icon' => '📊', 'bg_color' => 'bg-teal-100', 'text_color' => 'text-teal-800'],
-        'number series' => ['icon' => '🔢', 'bg_color' => 'bg-indigo-100', 'text_color' => 'text-indigo-800'],
-        'percentage' => ['icon' => '📈', 'bg_color' => 'bg-green-100', 'text_color' => 'text-green-800'],
-        'profit and loss' => ['icon' => '💰', 'bg_color' => 'bg-yellow-100', 'text_color' => 'text-yellow-800'],
-        'simple interest' => ['icon' => '💵', 'bg_color' => 'bg-green-100', 'text_color' => 'text-green-800'],
-        'compound interest' => ['icon' => '💲', 'bg_color' => 'bg-green-100', 'text_color' => 'text-green-800'],
-        'time and work' => ['icon' => '⏱️', 'bg_color' => 'bg-blue-100', 'text_color' => 'text-blue-800'],
-        'time and distance' => ['icon' => '🛣️', 'bg_color' => 'bg-blue-100', 'text_color' => 'text-blue-800'],
-        'average' => ['icon' => '📊', 'bg_color' => 'bg-purple-100', 'text_color' => 'text-purple-800'],
-        'ratio and proportion' => ['icon' => '📐', 'bg_color' => 'bg-red-100', 'text_color' => 'text-red-800'],
-        'algebra' => ['icon' => 'x²', 'bg_color' => 'bg-indigo-100', 'text_color' => 'text-indigo-800'],
-        'geometry' => ['icon' => '△', 'bg_color' => 'bg-blue-100', 'text_color' => 'text-blue-800'],
-        'trigonometry' => ['icon' => 'θ', 'bg_color' => 'bg-purple-100', 'text_color' => 'text-purple-800'],
-        'probability' => ['icon' => '🎲', 'bg_color' => 'bg-red-100', 'text_color' => 'text-red-800'],
-        'permutation and combination' => ['icon' => '🔀', 'bg_color' => 'bg-purple-100', 'text_color' => 'text-purple-800'],
-        'puzzles' => ['icon' => '🧩', 'bg_color' => 'bg-yellow-100', 'text_color' => 'text-yellow-800'],
-        'blood relations' => ['icon' => '👨‍👩‍👧‍👦', 'bg_color' => 'bg-pink-100', 'text_color' => 'text-pink-800'],
-        'coding decoding' => ['icon' => '🔣', 'bg_color' => 'bg-indigo-100', 'text_color' => 'text-indigo-800'],
-        'direction sense' => ['icon' => '🧭', 'bg_color' => 'bg-blue-100', 'text_color' => 'text-blue-800'],
-        'seating arrangement' => ['icon' => '🪑', 'bg_color' => 'bg-purple-100', 'text_color' => 'text-purple-800'],
-        'syllogism' => ['icon' => '⊂', 'bg_color' => 'bg-red-100', 'text_color' => 'text-red-800'],
-        'analogy' => ['icon' => '⇄', 'bg_color' => 'bg-blue-100', 'text_color' => 'text-blue-800'],
-        'classification' => ['icon' => '🗂️', 'bg_color' => 'bg-purple-100', 'text_color' => 'text-purple-800'],
-        'series completion' => ['icon' => '🔢', 'bg_color' => 'bg-teal-100', 'text_color' => 'text-teal-800'],
-        'clock and calendar' => ['icon' => '🕒', 'bg_color' => 'bg-yellow-100', 'text_color' => 'text-yellow-800'],
-        'mathematical operations' => ['icon' => '➕', 'bg_color' => 'bg-green-100', 'text_color' => 'text-green-800'],
-        'data sufficiency' => ['icon' => '📋', 'bg_color' => 'bg-blue-100', 'text_color' => 'text-blue-800'],
-        'statement and conclusions' => ['icon' => '💭', 'bg_color' => 'bg-purple-100', 'text_color' => 'text-purple-800'],
-        'statement and assumptions' => ['icon' => '💡', 'bg_color' => 'bg-yellow-100', 'text_color' => 'text-yellow-800'],
-        'course of action' => ['icon' => '🛤️', 'bg_color' => 'bg-blue-100', 'text_color' => 'text-blue-800'],
-        'cause and effect' => ['icon' => '⚡', 'bg_color' => 'bg-red-100', 'text_color' => 'text-red-800'],
-        'statement and arguments' => ['icon' => '💬', 'bg_color' => 'bg-purple-100', 'text_color' => 'text-purple-800'],
-        'logical deduction' => ['icon' => '🧠', 'bg_color' => 'bg-indigo-100', 'text_color' => 'text-indigo-800'],
-        
         // Default fallback
         'default' => ['icon' => '📚', 'bg_color' => 'bg-gray-100', 'text_color' => 'text-gray-800']
     ];
@@ -298,116 +224,6 @@ function get_category_meta($category_name) {
     }
     if (strpos($category_lower, 'env') !== false || strpos($category_lower, 'geo') !== false) {
         return $category_map['indian geography'];
-    }
-    
-    // Aptitude category fallbacks
-    if (strpos($category_lower, 'quant') !== false || strpos($category_lower, 'math') !== false) {
-        return $category_map['quantitative aptitude'];
-    }
-    if (strpos($category_lower, 'logic') !== false || strpos($category_lower, 'reason') !== false) {
-        return $category_map['logical reasoning'];
-    }
-    if (strpos($category_lower, 'data') !== false || strpos($category_lower, 'interpret') !== false) {
-        return $category_map['data interpretation'];
-    }
-    if (strpos($category_lower, 'number') !== false || strpos($category_lower, 'series') !== false) {
-        return $category_map['number series'];
-    }
-    if (strpos($category_lower, 'percent') !== false) {
-        return $category_map['percentage'];
-    }
-    if (strpos($category_lower, 'profit') !== false || strpos($category_lower, 'loss') !== false) {
-        return $category_map['profit and loss'];
-    }
-    if (strpos($category_lower, 'interest') !== false) {
-        if (strpos($category_lower, 'simple') !== false) {
-            return $category_map['simple interest'];
-        } elseif (strpos($category_lower, 'compound') !== false) {
-            return $category_map['compound interest'];
-        }
-        return $category_map['simple interest']; // default to simple interest
-    }
-    if (strpos($category_lower, 'time') !== false) {
-        if (strpos($category_lower, 'work') !== false) {
-            return $category_map['time and work'];
-        } elseif (strpos($category_lower, 'dist') !== false) {
-            return $category_map['time and distance'];
-        }
-    }
-    if (strpos($category_lower, 'average') !== false) {
-        return $category_map['average'];
-    }
-    if (strpos($category_lower, 'ratio') !== false || strpos($category_lower, 'proportion') !== false) {
-        return $category_map['ratio and proportion'];
-    }
-    if (strpos($category_lower, 'algebra') !== false) {
-        return $category_map['algebra'];
-    }
-    if (strpos($category_lower, 'geo') !== false || strpos($category_lower, 'shape') !== false) {
-        return $category_map['geometry'];
-    }
-    if (strpos($category_lower, 'trigo') !== false) {
-        return $category_map['trigonometry'];
-    }
-    if (strpos($category_lower, 'probab') !== false) {
-        return $category_map['probability'];
-    }
-    if (strpos($category_lower, 'permut') !== false || strpos($category_lower, 'combinat') !== false) {
-        return $category_map['permutation and combination'];
-    }
-    if (strpos($category_lower, 'puzzle') !== false) {
-        return $category_map['puzzles'];
-    }
-    if (strpos($category_lower, 'blood') !== false || strpos($category_lower, 'relation') !== false) {
-        return $category_map['blood relations'];
-    }
-    if (strpos($category_lower, 'code') !== false || strpos($category_lower, 'decod') !== false) {
-        return $category_map['coding decoding'];
-    }
-    if (strpos($category_lower, 'direct') !== false) {
-        return $category_map['direction sense'];
-    }
-    if (strpos($category_lower, 'seat') !== false) {
-        return $category_map['seating arrangement'];
-    }
-    if (strpos($category_lower, 'syllog') !== false) {
-        return $category_map['syllogism'];
-    }
-    if (strpos($category_lower, 'analog') !== false) {
-        return $category_map['analogy'];
-    }
-    if (strpos($category_lower, 'classif') !== false) {
-        return $category_map['classification'];
-    }
-    if (strpos($category_lower, 'clock') !== false || strpos($category_lower, 'calendar') !== false) {
-        return $category_map['clock and calendar'];
-    }
-    if (strpos($category_lower, 'math') !== false || strpos($category_lower, 'operat') !== false) {
-        return $category_map['mathematical operations'];
-    }
-    if (strpos($category_lower, 'suffi') !== false) {
-        return $category_map['data sufficiency'];
-    }
-    if (strpos($category_lower, 'conclu') !== false) {
-        return $category_map['statement and conclusions'];
-    }
-    if (strpos($category_lower, 'assum') !== false) {
-        return $category_map['statement and assumptions'];
-    }
-    if (strpos($category_lower, 'course') !== false || strpos($category_lower, 'action') !== false) {
-        return $category_map['course of action'];
-    }
-    if (strpos($category_lower, 'cause') !== false || strpos($category_lower, 'effect') !== false) {
-        return $category_map['cause and effect'];
-    }
-    if (strpos($category_lower, 'argu') !== false) {
-        return $category_map['statement and arguments'];
-    }
-    if (strpos($category_lower, 'deduc') !== false) {
-        return $category_map['logical deduction'];
-    }
-    if (strpos($category_lower, 'aptitude') !== false) {
-        return $category_map['aptitude'];
     }
     
     return $category_map['default'];
@@ -685,7 +501,6 @@ function parse_test_questions() {
                          ", Question: " . substr($q['question'], 0, 100) . 
                          "..., Answer: " . $q['answer']);
             }
-        } // End of foreach ($question_blocks_raw as $block_index => $block_text)
         }
     }
 
