@@ -1,0 +1,2429 @@
+1. If a : b : c = 3 : 4 : 7, then the ratio (a + b + c) : c is equal to
+   a) 2 : 1
+   b) 14 : 3
+   c) 7 : 2
+   d) 1 : 2
+
+   Answer: a
+
+2. The number of students in 3 classes is in the ratio 2 : 3 : 4. If 12 students are increased in each class this ratio changes to 8 : 11 : 14. The total number of students in the three classes in the beginning was
+   a) 162
+   b) 108
+   c) 96
+   d) 54
+
+   Answer: a
+
+3. A box has 210 coins of denominations one-rupee and fifty paise only. The ratio of their respective values is 13 : 11. The number of one-rupee coin is
+   a) 65
+   b) 66
+   c) 77
+   d) 78
+
+   Answer: d
+
+4. If2323of A=75% of B = 0.6 of C, then A : B : C is
+   a) 2 : 3 : 3
+   b) 3 : 4 : 5
+   c) 4 : 5 : 6
+   d) 9 : 8 : 10
+
+   Answer: d
+
+5. If A and B are in the ratio 3 : 4, and B and C in the ratio 12 : 13, then A and C will be in the ratio
+   a) 3 : 13
+   b) 9 : 13
+   c) 36 : 13
+   d) 13 : 9
+
+   Answer: b
+
+6. The salaries of A, B and C are in the ratio 1 : 3 : 4. If the salaries are increased by 5%, 10% and 15% respectively, then the increased salaries will be in the ratio
+   a) 20 : 66 : 95
+   b) 21 : 66 : 96
+   c) 21 : 66 : 92
+   d) 19 : 66 : 92
+
+   Answer: c
+
+7. If A : B = 2 : 3 and B : C = 4 : 5 then A : B : C is
+   a) 2 : 3 : 5
+   b) 5 : 4 : 6
+   c) 8 : 12 : 15
+   d) 6 : 4 : 5
+
+   Answer: c
+
+8. If two times A is equal to three times of B and also equal to four times of C, then A : B : C is
+   a) 2 : 3 : 4
+   b) 3 : 4 : 2
+   c) 4 : 6 : 3
+   d) 6 : 4 : 3
+
+   Answer: d
+
+9. In a school having roll strength 286, the ratio of boys and girls is 8 : 5. If 22 more girls get admitted into the school, the ratio of boys and girls becomes
+   a) 12 : 7
+   b) 10 : 7
+   c) 8 : 7
+   d) 4 : 3
+
+   Answer: d
+
+10. Two numbers are in ratio 4 : 5 and their LCM is 180. The smaller number is
+   a) 9
+   b) 15
+   c) 36
+   d) 45
+
+   Answer: c
+
+11. IfAA:BB=1212:38,38,BB:CC=1313:5959andCC:DD=5656:34,34,Then the ratio of A : B : C : D is ?
+   a) 6 : 4 : 8 : 10
+   b) 6 : 8 : 9 : 10
+   c) 8 : 6 : 10 : 9
+   d) 4 : 6 : 8 : 10
+
+   Answer: c
+
+12. If A : B : C = 2 : 3 : 4, then ratioABAB:BCBC:CACAis equal to?
+   a) 8 : 9 : 16
+   b) 8 : 9 : 12
+   c) 8 : 9 : 24
+   d) 4 : 9 : 12
+
+   Answer: c
+
+13. If A : B = 2 : 3, B : C = 2 : 4 and C : D = 2 : 5, then A : D is equal to -
+   a) 1 : 5
+   b) 2 : 5
+   c) 3 : 5
+   d) 2 : 15
+
+   Answer: d
+
+14. If 3A = 5B and 4B = 6C, then A : C equal to -
+   a) 2 : 5
+   b) 3 : 5
+   c) 4 : 5
+   d) 5 : 2
+
+   Answer: d
+
+15. In a business, the ratio of the capitals of A and B is 2 : 1, that of B and C is 4 : 3 and that of D and C is 6 : 5. Then the ratio of the capitals of A and D is -
+   a) 9 : 20
+   b) 3 : 5
+   c) 5 : 3
+   d) 20 : 9
+
+   Answer: d
+
+16. If a : b = c : d = e : f = 1 : 2, then (3a + 5c + 7e) : (3b + 5d + 7f) is = ?
+   a) 8 : 7
+   b) 2 : 1
+   c) 1 : 4
+   d) 1 : 2
+
+   Answer: d
+
+17. Of the three numbers, the ration of the first and the second is 8 : 9 and that of the second and third is 3 : 4. If the product of the first and third number is 2400. then the second number is  =  ?
+   a) 45
+   b) 40
+   c) 24
+   d) 10
+
+   Answer: a
+
+18. The annual income of A and B are in the ratio 4 : 3 and the ratio of their expenditures is 3 : 2. If each of them saves Rs. 600 in the year, the annual income of A is = ?
+   a) Rs. 4800
+   b) Rs. 1800
+   c) Rs. 1200
+   d) Rs. 2400
+
+   Answer: d
+
+19. If A : B = 7 : 9 and B : C = 5 : 4, then A : B : C is -
+   a) 7 : 45 : 36
+   b) 28 :36 : 35
+   c) 35 : 45 : 36
+   d) None of these
+
+   Answer: c
+
+20. If A : B =1212:1313and B : C =1212:13,13,then A, B, C is equal to -
+   a) 1 : 2 : 6
+   b) 2 : 3 : 3
+   c) 3 : 2 : 6
+   d) 9 : 6 : 4
+
+   Answer: d
+
+21. If A : B = 2 : 3, B : C = 4 : 5 and C : D = 5 : 9 then A : D is equal to:
+   a) 11 : 17
+   b) 8 : 27
+   c) 5 : 9
+   d) 2 : 9
+
+   Answer: b
+
+22. In a class, the number of girls is 20% more than that of the boys. The strength of the class is 66. If 4 more girls are admitted to the class, the ratio of the number of boys to that of the girls is
+   a) 1 : 2
+   b) 3 : 4
+   c) 1 : 4
+   d) 3 : 5
+
+   Answer: b
+
+23. What must be added to each term of the ratio 7 : 11, So as to make it equal to 3 : 4?
+   a) 8
+   b) 7.5
+   c) 6.5
+   d) 5
+
+   Answer: d
+
+24. Two numbers are in ratio 7 : 11. If 7 is added to each of the numbers, the ratio becomes 2 : 3. The smaller number is
+   a) 39
+   b) 49
+   c) 66
+   d) 77
+
+   Answer: b
+
+25. Two numbers are in ratio P : Q. when 1 is added to both the numerator and the denominator, the ratio gets changed toRSRS. again, when 1 is added to both the numerator and denominator, it becomes1212. Find the sum of P and Q.
+   a) 3
+   b) 4
+   c) 5
+   d) 6
+
+   Answer: c
+
+26. The ratio of water and milk in a 30 liter mixture is 7 : 3. Find the quantity of water to be added to the mixture in order to make this ratio 6 : 1.
+   a) 30
+   b) 32
+   c) 33
+   d) 35
+
+   Answer: c
+
+27. The incomes of A and B are in the ratio 3 : 2 and their expenditure are in ratio 5 : 3. If each saves Rs. 1000, then, A's income can be:
+   a) Rs. 3000
+   b) Rs. 4000
+   c) Rs. 6000
+   d) Rs. 9000
+   e) Rs. 4500
+
+   Answer: c
+
+28. The difference between two positive numbers is 10 and the ratio between them is 5 : 3. Find the product of the two numbers.
+   a) 375
+   b) 175
+   c) 275
+   d) 125
+   e) 250
+
+   Answer: a
+
+29. If 30 oxen can plough1717th of a field in 2 days, how many days 18 oxen will take to do the remaining work?
+   a) 30 days
+   b) 20 days
+   c) 15 days
+   d) 18 days
+   e) 21 days
+
+   Answer: b
+
+30. A cat leaps 5 leaps for every 4 leaps of a dog, but 3 leaps of the dog are equal to 4 leaps of the cat. What is the ratio of the speed of the cat to that of the dog?
+   a) 11 : 15
+   b) 15 : 11
+   c) 16 : 15
+   d) 15 : 16
+   e) 11 : 16
+
+   Answer: d
+
+31. The present ratio of ages of A and B is 4 : 5. 18 years ago, this ratio was 11 : 16. Find the sum total of their present ages.
+   a) 90 years
+   b) 105 years
+   c) 110 years
+   d) 80 years
+   e) 95 years
+
+   Answer: a
+
+32. A dishonest milk man mixed 1 liter of water for every 3 liters of milk and thus made up 36 liters of milk. If he now adds 15 liters of milk to mixture, find the ratio of milk and water in the new mixture:
+   a) 12 : 5
+   b) 14 : 3
+   c) 7 : 2
+   d) 9 : 4
+
+   Answer: b
+
+33. If the ratio of the ages of Maya and Chhaya is 6 : 5 at present, and fifteen years from now, the ratio will get changed to 9 : 8, then find Maya's present age.
+   a) 24 years
+   b) 30 years
+   c) 18 years
+   d) 33 years
+
+   Answer: b
+
+34. The Lucknow-Indore Express without its rake can go 24 km an hour, and the speed is diminished by a quantity that varies as the square root of the number of wagon attached. If it is known that with four wagons its speed is 20 km/h, the greatest number of wagons with which the engine can just move is
+   a) 144
+   b) 140
+   c) 143
+   d) 124
+   e) 142
+
+   Answer: c
+
+35. If x varies as y then  x2+ y2varies as
+   a) x + y
+   b) x - y
+   c) x2- y2
+   d) x3- y3
+   e) None of these
+
+   Answer: e
+
+36. Brindavan Express leave Chennai Central Station every day at 07.50 am and goes to Bangalore City Railway station. This train is very popular among the travelers. On 25th July 2012 number of passengers traveling by I class and II class was in the ratio 1 : 4. The fare for this travel is in the ratio 3 : 1. The total fare collected was Rs. 224000. (Rs. Two lakhs twenty four thousand only). What was the fare collected from I class passengers on that day?
+   a) Rs. 32,000
+   b) Rs. 96,000
+   c) Rs. 1,28,000
+   d) Rs. 5,00,000
+   e) None of these
+
+   Answer: b
+
+37. A vessel of capacity 2 litre has 25% alcohol and another vessel of capacity 6 litre had 40% alcohol. The total liquid of 8 litre was poured out in a vessel of capacity 10 litre and thus the rest part of the vessel was filled with the water. what is the new concentration of mixture ?
+   a) 29%
+   b) 49%
+   c) 31%
+   d) 71%
+   e) None of these
+
+   Answer: a
+
+38. The number of oranges in three basket are in the ratio 3 : 4 : 5. In which ratio the no. of oranges in first two basket must be increased so that the new ratio becomes 5 : 4 : 3 ?
+   a) 3 : 4
+   b) 2 : 3
+   c) 1 : 3
+   d) 2 : 1
+   e) None of these
+
+   Answer: d
+
+39. At a casino in Mumbai, there are 3 tables A, B and C. The payoffs at A is 10 : 1, at B is 20 : 1 and C is 30 :1. If a man bets Rs. 200 at each table and win at two of the tables, what is the maximum and minimum difference between his earnings can be ?
+   a) Rs. 4000
+   b) Rs. 4500
+   c) Rs. 2500
+   d) Rs. 2000
+   e) None of these
+
+   Answer: a
+
+40. A track covers a distance of 550 metres in 1 minute whereas a bus covers a distance of 33 kms in 45 minute. The ratio of their speeds is:
+   a) 4 : 3
+   b) 3 : 5
+   c) 3 : 4
+   d) 50 : 3
+
+   Answer: c
+
+41. Total number of men, women and children working in a factory is 18. They earn Rs. 4000 in a day. If the sum of the wages of all men, all women and all children is in ratio of 18 : 10 : 12 and if the wages of an individual man, woman and child is in ratio 6 : 5 : 3, then how much a woman earn in a day?
+   a) Rs. 120
+   b) Rs. 150
+   c) Rs. 250
+   d) Rs. 400
+   e) None of these
+
+   Answer: c
+
+42. A and B are two alloys in which ratios of gold and copper are 5 : 3 and 5 : 11 respectively. If these equally amount of two alloys are melted and made alloy C. What will be the ratio of gold and copper in alloy C?
+   a) 25 : 23
+   b) 33 : 25
+   c) 15 : 17
+   d) 17 : 15
+
+   Answer: c
+
+43. A bag contains an equal number of one rupee, 50 paise and 25 paise coins. If the total value is Rs. 35, how many coins of each type are there?
+   a) 15
+   b) 18
+   c) 20
+   d) 27
+
+   Answer: c
+
+44. A bucket contains a mixture of two liquids A and B in the proportion 7 : 5. If 9 litres of mixture is replaced by 9 liters of liquid B, then the ratio of the two liquids becomes 7 : 9. How much of the liquid A was there in the bucket ?
+   a) 21 liters
+   b) 23 liters
+   c) 25 liters
+   d) 27 liters
+
+   Answer: a
+
+45. A bucket contains a mixture of two liquids A & B in the proportion 5 : 3. If 16 litres of the mixture is replaced by 16 litres of liquid B, then the ratio of the two liquids becomes 3 : 5. How much of the liquid B was there in the bucket?
+   a) 25 litres
+   b) 15 litres
+   c) 18 litres
+   d) 24 litres
+   e) None of these
+
+   Answer: e
+
+46. 8 litres are drawn from a cask filled with wine and is then filled with water. This operation is performed three more times. The ratio of the quantity of wine now left in cask to that of the total solution is 16 : 81. How much wine did the cask hold originally?
+   a) 24 litres
+   b) 45 litres
+   c) 49 litres
+   d) 44 litres
+
+   Answer: a
+
+47. The milk and water in a mixture are in the ratio 7 : 5. When 15 liters of water are added to it, the ratio of milk and water in the new mixture becomes 7 : 8. The total quantity of water in the new mixture is:
+   a) 35 litres
+   b) 40 litres
+   c) 60 litres
+   d) 96 litres
+
+   Answer: b
+
+48. If x : y = 5 : 2, then (8x + 9y) : (8x + 2y) is :
+   a) 22 : 29
+   b) 26 : 61
+   c) 29 : 22
+   d) 61 : 26
+
+   Answer: c
+
+49. Tom is chasing Jerry. In the same interval of time Tom jumps 8 times while Jerry jumps 6 times. But the distance covered by Tom in 7 Jumps is equal to the distance covered by Jerry in 5 Jumps. The ratio of speed of Tom and Jerry is:
+   a) 48 : 35
+   b) 28 : 15
+   c) 24 : 20
+   d) 20 : 21
+
+   Answer: d
+
+50. The ratio of ducks and frogs in a pond is 37 : 39 respectively. The average number of ducks and frogs in the pond is 152. What is the number of frogs in the pond ?
+   a) 148
+   b) 152
+   c) 156
+   d) 144
+
+   Answer: c
+
+51. Number of students in institutes A and B were in the ratio of 7 : 15 respectively in 2012. In 2013, the number of students in institute A increased by 25% and number of students in institutes B increased by 26%, then what was the respective ratio between number of students in institutes A and B?
+   a) 25 : 56
+   b) 24 : 55
+   c) 24 : 53
+   d) 25 : 53
+   e) 25 : 54
+
+   Answer: e
+
+52. A and B together have Rs. 1210. If415415of A's amount is equal to2525of B's amount, how much amount does B have?
+   a) Rs. 460
+   b) Rs. 484
+   c) Rs. 550
+   d) Rs. 664
+
+   Answer: b
+
+53. Two numbers are respectively 20% and 50% more than a third number. The ratio of the two numbers is:
+   a) 2 : 5
+   b) 3 : 5
+   c) 4 : 5
+   d) 6 : 7
+
+   Answer: c
+
+54. A sum of money is to be distributed among A, B, C, D in the proportion of  5 : 2 : 4 : 3. If C gets Rs. 1000 more than D, what is B's share?
+   a) Rs. 500
+   b) Rs. 1500
+   c) Rs. 2000
+   d) None of these
+
+   Answer: c
+
+55. Seats for Mathematics, Physics and Biology in a school are in the ratio 5 : 7 : 8. There is a proposal to increase these seats by 40%, 50% and 75% respectively. What will be the ratio of increased seats?
+   a) 2 : 3 : 4
+   b) 6 : 7 : 8
+   c) 6 : 8 : 9
+   d) None of these
+
+   Answer: a
+
+56. In a mixture 60 litres, the ratio of milk and water 2 : 1. If this ratio is to be 1 : 2, then the quanity of water to be further added is:
+   a) 20 litres
+   b) 30 litres
+   c) 40 litres
+   d) 60 litres
+
+   Answer: d
+
+57. The ratio of the number of boys and girls in a college is 7 : 8. If the percentage increase in the number of boys and girls be 20% and 10% respectively, what will be the new ratio?
+   a) 8 : 9
+   b) 17 : 18
+   c) 21 : 22
+   d) Cannot be determined
+
+   Answer: c
+
+58. Salaries of Ravi and Sumit are in the ratio 2 : 3. If the salary of each is increased by Rs. 4000, the new ratio becomes 40 : 57. What is Sumit's salary?
+   a) Rs. 17,000
+   b) Rs. 20,000
+   c) Rs. 25,500
+   d) Rs. 38,000
+
+   Answer: d
+
+59. If 0.75 : x :: 5 : 8, then x is equal to:
+   a) 1.12
+   b) 1.2
+   c) 1.25
+   d) 1.30
+
+   Answer: b
+
+60. The sum of three numbers is 98. If the ratio of the first to second is 2 :3 and that of the second to the third is 5 : 8, then the second number is:
+   a) 20
+   b) 30
+   c) 48
+   d) 58
+
+   Answer: b
+
+61. If Rs. 782 be divided into three parts, proportional to1212:2323:3434then the first part is:
+   a) Rs. 182
+   b) Rs. 190
+   c) Rs. 196
+   d) Rs. 204
+
+   Answer: d
+
+62. The salaries A, B, C are in the ratio 2 : 3 : 5. If the increments of 15%, 10% and 20% are allowed respectively in their salaries, then what will be new ratio of their salaries?
+   a) 3 : 3 : 10
+   b) 10 : 11 : 20
+   c) 23 : 33 : 60
+   d) Cannot be determined
+
+   Answer: c
+
+63. If 40% of a number is equal  to two-third of another number, what is the ratio of first number to the second number?
+   a) 2 : 5
+   b) 3 : 7
+   c) 5 : 3
+   d) 7 : 3
+
+   Answer: c
+
+64. The fourth proportional to 5, 8, 15 is:
+   a) 18
+   b) 24
+   c) 19
+   d) 20
+
+   Answer: b
+
+65. Two number are in the ratio 3 : 5. If 9 is subtracted from each, the new numbers are in the ratio 12 : 23. The smaller number is:
+   a) 27
+   b) 33
+   c) 49
+   d) 55
+
+   Answer: b
+
+66. In a bag, there are coins of 25 p, 10 p and 5 p in the ratio of 1 : 2 : 3. If there is Rs. 30 in all, how many 5 p coins are there?
+   a) 50
+   b) 100
+   c) 150
+   d) 200
+
+   Answer: c
+
+67. What is the ratio in Rs. 2.80 and 40 paise?
+   a) 1 : 7
+   b) 2 : 7
+   c) 7 : 1
+   d) 1 : 14
+
+   Answer: c
+
+68. A person spends Rs. 8100 in buying some tables at Rs. 1200 each and some chairs at Rs. 300 each. The ratio of the number of chairs to that of tables when the maximum possible number of tables is purchased,
+   a) 1 : 2
+   b) 1 : 4
+   c) 2 : 1
+   d) 5 : 7
+
+   Answer: a
+
+69. Ifx=13yx=13yandy=12z,y=12z,then x : y : z is equal to = ?
+   a) 3 : 2 : 1
+   b) 1 : 2 : 6
+   c) 1 : 3 : 6
+   d) 2 : 4 : 6
+
+   Answer: c
+
+70. If x : y = 3 : 1, then x3- y3: x3+ y3= ?
+   a) 13 : 14
+   b) 14 : 13
+   c) 10 : 11
+   d) 11 : 10
+
+   Answer: a
+
+71. If 60% A =3434of B, then A : B is
+   a) 4 : 5
+   b) 5 : 4
+   c) 9 : 20
+   d) 20 : 9
+
+   Answer: b
+
+72. Which of the following represents ab = 64?
+   a) 8 : a = 8 : b
+   b) a : 16 = 6 : 4
+   c) a : 8 = b : 8
+   d) 32 : a = b : 2
+   e) None of these
+
+   Answer: d
+
+73. The ratio of boys and girls in a club is 3 : 2. Which of the following could be the actual number of members ?
+   a) 16
+   b) 18
+   c) 24
+   d) 25
+
+   Answer: d
+
+74. If m : n = 3 : 2, then (4m + 5n) : (4m - 5n) is equal to = ?
+   a) 4 : 9
+   b) 9 : 4
+   c) 11 : 1
+   d) 9 : 1
+
+   Answer: c
+
+75. The sum of two numbers is 40 and their difference is 4. The ratio of the numbers is  =  ?
+   a) 21 : 19
+   b) 22 : 9
+   c) 11 : 9
+   d) 11 : 18
+
+   Answer: c
+
+76. How many sides does a regular polygon have whose interior and exterior angle are in the ratio 2 : 1 ?
+   a) 3
+   b) 5
+   c) 6
+   d) 12
+
+   Answer: c
+
+77. Which of the following is the lowest ratio ?
+   a) 7 : 15
+   b) 15 : 23
+   c) 17 : 25
+   d) 21 : 39
+
+   Answer: a
+
+78. 3434:1212:: 27y : ? Solve this -
+   a) 12y
+   b) 18y
+   c) 21y
+   d) 24y
+   e) None of these
+
+   Answer: b
+
+79. Harsha is 40 years old and Ritu is 60 years old. How many years ago was the ratio of their ages is 3 : 5 ?
+   a) 10 years
+   b) 20 years
+   c) 37 years
+   d) 5 years
+
+   Answer: a
+
+80. Two numbers are in the ratio112112:223223When each of these is increased by 15, they become in the ratio123123:212212. The greater of the numbers is  =  ?
+   a) 27
+   b) 36
+   c) 48
+   d) 64
+
+   Answer: c
+
+81. A sum of Rs. 1240 is distributed among A, B and C such that the ratio of amount received by A and B is 6 : 5 and that of B and C is 10 : 9 respectively. Find the share of C ?
+   a) Rs. 480
+   b) Rs. 360
+   c) Rs. 400
+   d) Rs. 630
+
+   Answer: b
+
+82. If x : 7.5 = 7 : 17.5, then the value of x is -
+   a) 1
+   b) 2.5
+   c) 3
+   d) 3.5
+
+   Answer: c
+
+83. The value ofxxwherexx:213213::2121:5050is -
+   a) 11491149
+   b) 11501150
+   c) 49504950
+   d) 27502750
+
+   Answer: c
+
+84. If2‾√2:(1+3‾√)(1+3)::6‾√6:xx, thenxxis equal to -
+   a) 3‾√+33+3
+   b) 1−3‾√1−3
+   c) 1+3‾√1+3
+   d) 3‾√−33−3
+
+   Answer: a
+
+85. In an alloy, the ratio of copper and zinc is 5 : 2. If 1.250 kg of zinc is mixed in 17 kg 500 gm of alloy, then the ratio of copper and zinc will be = ?
+   a) 2 : 1
+   b) 2 : 3
+   c) 3 : 2
+   d) 1 : 2
+
+   Answer: a
+
+86. The income of A, B and C are in the ratio 7 : 9 : 12 and their spending are in the ratio 8 : 9 : 15. If A saves1414th of his income then the savings of A, B and C are in the ratio of = ?
+   a) 56 : 99 : 69
+   b) 69 : 56 : 99
+   c) 99 : 56 : 69
+   d) 99 : 69 : 56
+
+   Answer: a
+
+87. What will be the simplest form of the ratio 3 hours : 1 day?
+   a) 1 : 3
+   b) 1 : 6
+   c) 1 : 8
+   d) 1 : 25
+
+   Answer: c
+
+88. In a proportion the product of 1stand 4thterms is 40 and that of 2ndand 3rdterms is 2.5x. Then the value of x is.
+   a) 16
+   b) 26
+   c) 75
+   d) 90
+
+   Answer: a
+
+89. If 20% of A = 30% of B =1616of C, then A : B : C is -
+   a) 2 : 3 : 6
+   b) 3 : 2 : 16
+   c) 10 : 15 : 18
+   d) 15 : 10 : 18
+
+   Answer: d
+
+90. Two numbers are in the ratio 17 : 45, One - third of the smaller is less than1515of the bigger by 15. The smaller number is = ?
+   a) 25122512
+   b) 67126712
+   c) 76127612
+   d) 86128612
+
+   Answer: c
+
+91. A barrel contains a mixture of wine and water in the ratio 3 : 1. How much fraction of the mixture must be drawn off and substituted by water so that the ratio of wine and water in the resultant mixture becomes 1 : 1 = ?
+   a) 1414
+   b) 1313
+   c) 3434
+   d) 2323
+
+   Answer: b
+
+92. 25% of A's income is equal to 35% of B's income. The ratio of the incomes of A and B is -
+   a) 5 : 7
+   b) 7 : 5
+   c) 13 : 15
+   d) 15 : 13
+
+   Answer: b
+
+93. If x =1313y and y =1212z, then x : y : z is equal to
+   a) 1 : 2 : 6
+   b) 1 : 3 : 6
+   c) 2 : 4 : 6
+   d) 3 : 2 : 1
+
+   Answer: b
+
+94. There are Rs. 225 consisting of one rupee, 50 paise and 25 paise coins. The ratio of their numbers in that order is 8 : 5 : 3. The number of one - rupee coins is = ?
+   a) 80
+   b) 112
+   c) 160
+   d) 172
+
+   Answer: c
+
+95. An amount of money is to be distributed among P, Q ans R in the ratio of 2 : 7 : 9. The total of P's and Q's share is equal to R's share. What is the difference between the shares of P and Q ?
+   a) Rs. 5000
+   b) Rs. 7500
+   c) Rs. 9000
+   d) Information inadequate
+
+   Answer: d
+
+96. If a : b = 5 : 7 and c : d = 2a : 3b then ac : bd is = ?
+   a) 20 : 38
+   b) 50 : 147
+   c) 10 : 21
+   d) 50 : 151
+
+   Answer: b
+
+97. If 2A = 3B = 4C, then A : B : C is equal to -
+   a) 2 : 3 : 4
+   b) 3 : 4 : 6
+   c) 4 : 3 : 2
+   d) 6 : 4 : 3
+
+   Answer: d
+
+98. If x2+ 4y2= 4xy, then x : y is -
+   a) 1 : 1
+   b) 1 : 2
+   c) 2 : 1
+   d) 1 : 4
+
+   Answer: c
+
+99. If W1: W2= 2 : 3 and W1: W3= 1 : 2, then W2: W3is -
+   a) 3 : 4
+   b) 4 : 3
+   c) 2 : 3
+   d) 4 : 5
+
+   Answer: a
+
+100. If a : b = b : c, then a4: b4is equal to = ?
+   a) ac : b2
+   b) a2: c2
+   c) c2: a2
+   d) b2: ac
+
+   Answer: b
+
+101. If A : B =1212:38,38,B : C =1313:5959and C : D =5656:34,34,then the ratio A : B : C : D is
+   a) 4 : 6 : 8 : 10
+   b) 8 : 6 : 10 : 9
+   c) 6 : 8 : 9 : 10
+   d) 6 : 4 : 8 : 10
+
+   Answer: b
+
+102. If p : q : r = 1 : 2 : 4, then5p2+q2+r2‾‾‾‾‾‾‾‾‾‾‾‾‾√5p2+q2+r2is equal to =
+   a) 5
+   b) 2q
+   c) 5p
+   d) 4r
+
+   Answer: c
+
+103. The mean proportion between(3+2‾√)(3+2)and(12−32‾‾‾√)(12−32)is = ?
+   a) 7‾√7
+   b) 27‾√27
+   c) 6
+   d) 15−32‾√215−322
+
+   Answer: b
+
+104. a : b : c = 2 : 3 : 4 and 2a - 3b + 4c = 33, then the value of c is = ?
+   a) 6
+   b) 9
+   c) 12
+   d) 667667
+
+   Answer: c
+
+105. In a ratio which is equal to 7 : 8, if the antecedent is 35, what is the consequent?
+   a) 35
+   b) 40
+   c) 56
+   d) 64
+
+   Answer: b
+
+106. If 8a = 9b then the ratio ofa9a9tob8b8is
+   a) 1 : 1
+   b) 1 : 2
+   c) 2 : 1
+   d) 64 : 81
+   e) 81 : 64
+
+   Answer: a
+
+107. If x : y = 3 : 4, then (2x + 3y) : (3y - 2x) would be equal to.`
+   a) 2 : 1
+   b) 3 : 1
+   c) 3 : 2
+   d) 21 : 1
+
+   Answer: b
+
+108. Rs. 33630 are divided among A, B and C in such a manner that the ratio of the amount of A to that of B is 3 : 7 and the ratio of the amount of B to that of C is 6 : 5. The amount of money received by B is = ?
+   a) Rs. 14868
+   b) Rs. 16257
+   c) Rs. 13290
+   d) Rs. 12390
+
+   Answer: a
+
+109. 200 litres of a mixture contains milk and water in the ratio 17 : 3. After the addition of some more milk to it, the ratio of milk to water in the resulting mixture becomes 7 : 1. The quantity of milk added to it was =?
+   a) 20 Litres
+   b) 40 Litres
+   c) 60 Litres
+   d) 80 Litres
+
+   Answer: b
+
+110. In an innings of a cricket match,three players A, B and C scored a total of 361 runs. If the ratio of the number of runs scored by A to that scored by B and also number of runs scored by B to that scored by C be 3 : 2, the number of runs scored by A was = ?
+   a) 171
+   b) 181
+   c) 185
+   d) 161
+
+   Answer: a
+
+111. If an amount of Rs. 1,50,000 is shared among A, B, and C in the ratio 2 : 3 : 5, then A receives the same amount as he would receive if another sum of money is shared between A, B and C in the ratio of 5 : 3 : 2. The ratio of Rs. 1,50,000 to the second amount of money is -
+   a) 2 : 3
+   b) 3 : 2
+   c) 5 : 2
+   d) 5 : 3
+
+   Answer: c
+
+112. In an alloy, the ratio of copper and zinc is 5 : 2. If 1.250 kg of zinc is mixed in 17 kg 500 g of alloy, then the ratio of copper and zinc in the alloy will be -
+   a) 1 : 2
+   b) 2 : 1
+   c) 2 : 3
+   d) 3 : 2
+
+   Answer: b
+
+113. Ram got twice as many marks in English as in Science. His total mark in English, Science and Math are 180. If the ratio of his marks in English and Maths is 2 : 3, what is the marks in Science = ?
+   a) 30
+   b) 60
+   c) 72
+   d) 90
+
+   Answer: a
+
+114. Two vessels A and B contain milk and water mixed in the ratio 4 : 3 and 2 : 3 respectively. The ratio in which  these mixtures containing half milk and half water is = ?
+   a) 7 : 5
+   b) 6 : 5
+   c) 5 : 6
+   d) 4 : 3
+
+   Answer: a
+
+115. If Rs. x are divided between A and B in the ratioabab:cd,cd,then A gets rupees -
+   a) adxab+cdadxab+cd
+   b) adxad+bcadxad+bc
+   c) abxad+bcabxad+bc
+   d) abxac+bdabxac+bd
+
+   Answer: b
+
+116. Rs. 33630 are divided among A, B and C in such a manner that the ratio of the amount of A to that of B is 3 : 7 and the ratio of the amount of B to that of C is 6 : 5. The amount of money received by B is -
+   a) Rs. 12390
+   b) Rs. 13290
+   c) Rs. 14868
+   d) Rs. 16257
+
+   Answer: c
+
+117. Two alloys both are made up of copper and tin. The ratio of the copper and tin in the first alloy is 1 : 3 and in the second alloy is 2 : 5. In what ratio should the two alloys be mixed to obtain a new alloy in which the ratio of tin and copper be 8 : 3 ?
+   a) 3 : 5
+   b) 4 : 7
+   c) 3 : 8
+   d) 5 : 11
+
+   Answer: b
+
+118. A mixture contains alcohol and water in the ratio of 4 : 3. If 5 litres of water is added to the mixture the ratio becomes 4 : 5. The quantity of alcohol in the given mixture is = ?
+   a) 3 litres
+   b) 4 litres
+   c) 15 litres
+   d) 10 litres
+
+   Answer: d
+
+119. In two alloys A and B the ratio of Zinc and Tin is 5 : 2 and 3 : 4 respectively. 7 kg of the alloy A and 21 kg of the alloy B are mixed together to form a new alloy. What will be the ratio of Zinc and Tin tin the new alloy ?
+   a) 2 : 1
+   b) 1 : 2
+   c) 2 : 3
+   d) 1 : 1
+
+   Answer: d
+
+120. In an innings of a cricket match, three players A, B and C scored a total of 361 runs. If the ratio of the number of runs scored by A to that scored by B and also number of runs scored by B to that scored by C be 3 : 2, the number of runs scored by A was -
+   a) 161
+   b) 171
+   c) 181
+   d) 185
+
+   Answer: b
+
+121. If x : y = 3 : 1, then x3- y3: x3+ y3= ?
+   a) 10 : 11
+   b) 11 : 10
+   c) 13 : 14
+   d) 14 : 13
+
+   Answer: c
+
+122. If 5a + 3b : 2a - 3b = 23 : 5, then the value of a : b is
+   a) 1 : 2
+   b) 1 : 4
+   c) 2 : 1
+   d) 4 : 1
+
+   Answer: d
+
+123. If x : y = 7 : 3, then the value ofxy+y2x2−y2xy+y2x2−y2is
+   a) 3434
+   b) 4343
+   c) 3737
+   d) 7373
+
+   Answer: a
+
+124. The salaries of A, B and C are in the ratio 1 : 3 : 4. If the salaries are increased 5%, 10% and 15% respectively. Then the increased salaries will be in the ratio = ?
+   a) 20 : 66 : 95
+   b) 21 : 66 : 95
+   c) 21 : 66 : 92
+   d) 19 : 66 : 92
+
+   Answer: c
+
+125. There are three numbers A, B, C such that twice A is equal to thrice B and four times B is equal to five times C. Then the ratio between A and C is = ?
+   a) 3 : 4
+   b) 8 : 15
+   c) 15 : 8
+   d) 4 : 3
+
+   Answer: c
+
+126. If a : b = b : c, then a4: b4would be equal to
+   a) ac : b2
+   b) a2: c2
+   c) c2: a2
+   d) b2: ac
+
+   Answer: b
+
+127. If (4x2- 3y2) : (2x2+ 5y2) = 12 : 19, then x : y is
+   a) 2 : 3
+   b) 1 : 2
+   c) 3 : 2
+   d) 2 : 1
+
+   Answer: c
+
+128. If x : y = 3 : 4 and a : b = 1 : 2, then the value of2xa+yb3yb−4xa2xa+yb3yb−4xais
+   a) 5656
+   b) 6565
+   c) 6767
+   d) 7676
+
+   Answer: d
+
+129. Income of A and B are in the ratio 4 : 3 and their annual expenses are in the ratio 3 : 2. If each save Rs. 60000 at the end of the year, the annual income of A is = ?
+   a) Rs. 120000
+   b) Rs. 150000
+   c) Rs. 240000
+   d) Rs. 360000
+
+   Answer: c
+
+130. The weight of Mr. Gupta and Mrs. Gupta are in the ratio 7 : 8 and their total weight is 120 kg. After taking a dieting course Mr. Gupta reduces by 6 kg and the ratio between their weights change to 5 : 6, so Mrs. Gupta has reduced by = ?
+   a) 2 kg
+   b) 4 kg
+   c) 3 kg
+   d) 5 kg
+
+   Answer: b
+
+131. The ratio of the first and second class fares between two railway stations is 4 : 1 and that of the number of passengers travelling by first and second classes is 1 : 40. If on a day Rs. 1100 are collected as total fare, the amount collected from the first class passengers is = ?
+   a) Rs. 315
+   b) Rs. 275
+   c) Rs. 137.50
+   d) Rs. 100
+
+   Answer: d
+
+132. If a : (b + c) = 1 : 3 and c : (a + b) = 5 : 7, then b : (a + c) is equal to.
+   a) 1 : 2
+   b) 2 : 3
+   c) 1 : 3
+   d) 2 : 1
+
+   Answer: a
+
+133. If a : b = 3 : 4, b : c = 4 : 7, thena+b+cca+b+ccis equal to -
+   a) 1
+   b) 2
+   c) 3
+   d) 7
+
+   Answer: b
+
+134. If A : B : C = 2 : 3 : 5 and A = x% of (B + C), then x is equal to -
+   a) 20
+   b) 24
+   c) 25
+   d) 28
+
+   Answer: c
+
+135. If a and b are rational numbers anda+b3‾√a+b3==12−3‾√,12−3,then a : b is equal to = ?
+   a) 2 : 1
+   b) 2 : 3
+   c) 3‾√3: 1
+   d) -3‾√3: 1
+
+   Answer: a
+
+136. If A : B = 3 : 4 and B : C = 8 : 9, then A : B : C is = ?
+   a) 8 : 6 : 9
+   b) 9 : 8 : 6
+   c) 6 : 8 : 9
+   d) 3 : 32 : 9
+
+   Answer: c
+
+137. If 2A = 3B = 4C, the A : B : C is = ?
+   a) 2 : 3 : 4
+   b) 4 : 3 : 2
+   c) 6 : 4 : 3
+   d) 3 : 4 : 6
+
+   Answer: c
+
+138. x, y, z, u are real numbers such that x : y = y : z = z : u and x : u = 64 : 27. the value of x : z is -
+   a) 64 : 27
+   b) 16 : 9
+   c) 4 : 3
+   d) 3 : 4
+
+   Answer: b
+
+139. If p : q : r = 1 : 2 : 4, then5p2+q2+r2‾‾‾‾‾‾‾‾‾‾‾‾‾√5p2+q2+r2is equal to -
+   a) 5
+   b) 2q
+   c) 5p
+   d) 4r
+
+   Answer: c
+
+140. If A : B : C = 2 : 3 : 4, then the ratioABAB:BCBC:CACAis equal to -
+   a) 4 : 9 : 16
+   b) 8 : 9 : 24
+   c) 8 : 9 : 12
+   d) 8 : 9 : 16
+
+   Answer: b
+
+141. The ration 43.5: 25is the same as = ?
+   a) 4 : 1
+   b) 2 : 1
+   c) 1 : 2
+   d) 1 : 4
+
+   Answer: a
+
+142. If A : B = 1 : 2, B : C = 3 : 4, C : D = 6 : 9 and D : E = 12 : 16 then A : B : C : D : E is equal to = ?
+   a) 1 : 3 : 6 : 12 : 16
+   b) 2 : 4 : 6 : 9 : 16
+   c) 3 : 4 : 8 : 12 : 16
+   d) 3 : 6 : 8 : 12 : 16
+
+   Answer: d
+
+143. The numbers are in the ratio 3 : 5 and their LCM is 225. The smaller number is = ?
+   a) 45
+   b) 60
+   c) 75
+   d) 90
+
+   Answer: a
+
+144. Ifab=bc=cd,ab=bc=cd,thenb3+c3+d3a3+b3+c3b3+c3+d3a3+b3+c3will be equal to -
+   a) abab
+   b) bcbc
+   c) cdcd
+   d) dada
+
+   Answer: d
+
+145. If p : q = 3 : 4, r : s = 8 : 5 and x : y = 10 : 6, then psx : qry is equal to.
+   a) 16251625
+   b) 25322532
+   c) 22
+   d) 75327532
+
+   Answer: b
+
+146. Ifx2=y3=z4=x2=y3=z4=2x−3y+5zk,2x−3y+5zk,then the value of k is -
+   a) 12
+   b) 15
+   c) 16
+   d) 18
+
+   Answer: b
+
+147. A mixture contains wine and water in the ratio 3 : 2 and another mixture contains them in the ratio 4 : 5. How many litres of the latter must be mixed with 3 litres of the former so that the resulting mixture may contain equal quantities of wine and water = ?
+   a) 525litres525litres
+   b) 523litres523litres
+   c) 412litres412litres
+   d) 334litres334litres
+
+   Answer: a
+
+148. The monthly salaries of A, B and C are in the ratio 2 : 3 : 5. If C's monthly salary is Rs. 12000 more than that of A, then B's annual salary is = ?
+   a) Rs. 120000
+   b) Rs. 144000
+   c) Rs. 180000
+   d) Rs. 240000
+
+   Answer: b
+
+149. The ratio of the numbers of boys and girls in a school was 5 : 3. Some new boys and girls were admitted to the school, in the ratio 5 : 7. At this, the total number of students in the school became 1200 and the ratio of boys to girls changed to 7 : 5. The number of students in the school before new admissions was = ?
+   a) 700
+   b) 720
+   c) 900
+   d) 960
+
+   Answer: d
+
+150. If a : b = c : d, thenma+ncmb+ndma+ncmb+ndis equal to -
+   a) m : n
+   b) dm : cn
+   c) an : mb
+   d) a : b
+
+   Answer: d
+
+151. Letab:−ba=x:y.ab:−ba=x:y.If(x - y)=(x - y)={ab+ba},{ab+ba},then x is equal to -
+   a) a−baa−ba
+   b) a+baa+ba
+   c) a+bba+bb
+   d) None of these
+
+   Answer: d
+
+152. Ifa+bc=b+ca=c+ab=k,a+bc=b+ca=c+ab=k,then k is equal to -
+   a) 0
+   b) 1
+   c) 2
+   d) a + b + c
+
+   Answer: c
+
+153. If x : y = 3 : 4, then the value of (4x - y) : (2x + 3y) is = ?
+   a) 4 : 9
+   b) 8 : 9
+   c) 4 : 3
+   d) 8 : 3
+
+   Answer: a
+
+154. Three numbers are in the ratio 3 : 4 : 5. The sum of the largest and the smallest equals to the sum of the second number and 52. The smallest number is = ?
+   a) 20
+   b) 27
+   c) 39
+   d) 52
+
+   Answer: c
+
+155. A container contains two liquids A and B in the ratio 7 : 5. When 9 litres of mixture are drawn off and the container is filled with B, the ratio of A and B becomes 1 : 1. How many litres of liquid A was in the  container initially = ?
+   a) 26
+   b) 16121612
+   c) 36343634
+   d) 26342634
+
+   Answer: c
+
+156. If a : b = 2 : 3 and b : c = 4 : 5, then (a + b) : (b + c) is equal to-
+   a) 6 : 8
+   b) 8 : 6
+   c) 20 : 27
+   d) 27 : 20
+
+   Answer: c
+
+157. The fourth proportion to 5, 8, 15 is-
+   a) 18
+   b) 20
+   c) 21
+   d) 24
+
+   Answer: d
+
+158. The fourth proportional to 0.12, 0.21 and 8 is-
+   a) 8.9
+   b) 14
+   c) 17
+   d) 56
+
+   Answer: b
+
+159. In a mixture of 25 litres the ratio of acid to water is 4 : 1. Another 3 litres of water of water is added to the mixture. The ratio of acid to water in the new mixture is = ?
+   a) 5 : 2
+   b) 2 : 5
+   c) 3 : 5
+   d) 5 : 3
+
+   Answer: a
+
+160. The ratio of weekly income of A and B is 9 : 7 and the the ratio of their expenditure is 4 : 3. If each saves Rs. 200 per week, then the sum of their weekly income is = ?
+   a) Rs. 3600
+   b) Rs. 3200
+   c) Rs. 4800
+   d) Rs. 5600
+
+   Answer: b
+
+161. 94 is divided into two parts in such a way that fifth part of the first and the eighth part of the second are in the ratio 3 : 4. The first part is = ?
+   a) 30
+   b) 36
+   c) 40
+   d) 28
+
+   Answer: a
+
+162. Fourth proportional to (a2- b2), (a2- ab), (a3+ b3) is
+   a) a - b
+   b) a4+ b4
+   c) a(a2- ab + b2)
+   d) a3- a2b2+ b2
+
+   Answer: c
+
+163. The third proportional to 38 and 15 is -
+   a) 15×153815×1538
+   b) 38×15238×152
+   c) 38×381538×3815
+   d) 1538×381538×38
+
+   Answer: a
+
+164. The mean proportional between(3+2‾√)(3+2)and(12−32‾‾‾√)(12−32)is-
+   a) 7‾√7
+   b) 27‾√27
+   c) 67‾√67
+   d) 15−32‾√215−322
+
+   Answer: b
+
+165. If3x+55x−2=23,3x+55x−2=23,then the value of x is
+   a) 11
+   b) 19
+   c) 23
+   d) 7
+
+   Answer: b
+
+166. The number to be added to each of the numbers 7, 16, 43, 79 to make the numbers in proportion is = ?
+   a) 2
+   b) 3
+   c) 5
+   d) 1
+
+   Answer: c
+
+167. Two numbers are such that the ratio between them is 4 : 7.  If each is increase by 4, the ratio become 3 : 5. The larger number is = ?
+   a) 36
+   b) 48
+   c) 56
+   d) 64
+
+   Answer: c
+
+168. The ratio between the third proportional of 12 and 30 and mean proportional of 9 and 25 is -
+   a) 2 : 1
+   b) 5 : 1
+   c) 7 : 15
+   d) 9 : 14
+
+   Answer: b
+
+169. The present of A, B and C are in the ratio of 8 : 14 : 22 respectively. The present ages of B, C and D are in the ratio of 21 : 33 : 44 respectively. Which of the represents the ratio of the present ages of A, B, C and D respectively?
+   a) 12 : 21 : 36 : 44
+   b) 12 : 21 : 33 : 44
+   c) 12 : 22 : 31 : 44
+   d) Cannot be determine
+   e) None of these
+
+   Answer: b
+
+170. Rita invested 25%  more than sunil. Sunil invested 30%  less than Abhinav, who invested Rs. 6000. What is the ratio of the amount that Rita invested to the total amount by all of them together ?
+   a) 35 : 104
+   b) 13 : 29
+   c) 101 : 36
+   d) 35 : 103
+   e) None of these
+
+   Answer: d
+
+171. The students of three classes are in the ratio 4 : 6 : 9. If 12 students are increased in each class the ratio changes to 7 : 9 : 12. Then the total number of students in the three classes before the increase is = ?
+   a) 95
+   b) 76
+   c) 100
+   d) 114
+
+   Answer: b
+
+172. Two vessels A and B contain milk 8 : 5 and 5 : 2 respectively. The ratio in which these two mixtures be mixed to get a new mixture containing6931369313% milk is =?
+   a) 3 : 5
+   b) 5 : 2
+   c) 5 : 7
+   d) 2 :7
+
+   Answer: d
+
+173. In two types of stainless steel the ratio of chromium and steel are 2 : 11 and 5 : 21 respectively. In what proportion should the two types be mixed so that the ratio of chromium to steel in the mixed type becomes 7 : 32 = ?
+   a) 2 : 3
+   b) 3 : 4
+   c) 1 : 2
+   d) 1 : 3
+
+   Answer: c
+
+174. One - fourth of sixty percent of a number is equal to two - fifths of twenty percent of another number. What is the respective ratio of the first number to the second number ?
+   a) 4 : 7
+   b) 5 : 9
+   c) 8 : 13
+   d) Cannot be determine
+   e) None of these
+
+   Answer: e
+
+175. The total number of boys in a school is 16%  more than the total number of girls in the school. What is the respective ratio of the total number of boys to the total number of girls in the school ?
+   a) 25 : 21
+   b) 29 : 35
+   c) 25 : 29
+   d) Cannot be determine
+   e) None of these
+
+   Answer: e
+
+176. The ratio of urea and potash in a mixed fertilizer is 7 : 3. Express the quantity of urea present as percentage of the total amount of fertilizer.
+   a) 20%
+   b) 50%
+   c) 60%
+   d) 70%
+
+   Answer: d
+
+177. If the annual income of A, B and C are in the ratio 1 : 3 : 7 and the total annual income of A and C is Rs. 800000, then the monthly salary of B (in Rs. ) is = ?
+   a) Rs. 20000
+   b) Rs. 25000
+   c) Rs. 30000
+   d) Rs. 15000
+
+   Answer: b
+
+178. Annual income of Amit and Veer are the ratio 3 : 2, while the ratio of their expenditure is 5 : 3. If at the end of the year each saves Rs. 1000. The annual income of Amit is = ?
+   a) Rs. 9000
+   b) Rs. 8000
+   c) Rs. 7000
+   d) Rs. 6000
+
+   Answer: d
+
+179. The ratio of the income of A and B as well as B and C is 3 : 2. If one - third of A's income exceeds one - fourth of C's income by Rs. 1000, what is B's income in Rs = ?
+   a) Rs. 3000
+   b) Rs. 2500
+   c) Rs. 3500
+   d) Rs. 4000
+
+   Answer: a
+
+180. Profits of a business are divided among three partners A, B and C in such a way that 4 times the amount received by A is Equal to 6 times the amount received by B and 11 times the amount received by C. The ratio in which the three received the amount is.
+   a) 4 : 6 : 11
+   b) 11 : 6 : 4
+   c) 33 : 22 : 12
+   d) 33 : 6 : 14
+
+   Answer: c
+
+181. The bus fare and train fare of a place from kolkata were Rs. 20 and Rs. 30 respectively. Train fare has been increased by 20%  and the bus fare has been increased by 10%. The ratio of new train fare to new bus fare is.
+   a) 3 : 5
+   b) 5 : 3
+   c) 11 : 18
+   d) 18 : 11
+
+   Answer: d
+
+182. The monthly incomes of two families A and B are shown by the following diagrams:If the income of the family B is Rs. 12000, then the income of family A would be:
+   a) Rs. 15000
+   b) Rs. 20000
+   c) Rs. 25000
+   d) Rs. 30000
+
+   Answer: d
+
+183. A box filled with paper bundles weights 36kg. If the weight of the box and paper bundles respectively are in the ratio of 3 : 22 then the weight of the papers (in grams) is = ?
+   a) 30680 grams
+   b) 30710 grams
+   c) 31500 grams
+   d) 31680 grams
+
+   Answer: d
+
+184. Two numbers are such that the square of one is 224 less than 8 times the square of the other. If the numbers are in the ratio of 3 : 4, then their values are = ?
+   a) 12, 16
+   b) 6, 8
+   c) 9, 12
+   d) 12, 9
+
+   Answer: b
+
+185. If (a + b) : (b + c) : (c + a) = 6 : 7 : 8 and (a + b + c) = 14, then the value of c is = ?
+   a) 6
+   b) 7
+   c) 8
+   d) 14
+
+   Answer: a
+
+186. In a class the number of girls is 20%  more than that of the boys. The strength of the class is 66. If 4 more girls are admitted to the class, the ratio of the number of boys to that of the girls is -
+   a) 1 : 2
+   b) 1 : 4
+   c) 3 : 4
+   d) 3 : 5
+
+   Answer: c
+
+187. Two numbers are respectively 20 percent and 50 percent more than a third number. These two numbers are in the ratio.
+   a) 2 : 5
+   b) 3 : 5
+   c) 4 : 5
+   d) 6 : 7
+
+   Answer: c
+
+188. What is the ratio whose terms differ by 40 and the measure of which is2727?
+   a) 6 : 56
+   b) 14 : 56
+   c) 16 : 56
+   d) 16 : 72
+
+   Answer: c
+
+189. If 5.5 of a = 0.65 of b, then a : b is equal to = ?
+   a) 13 : 11
+   b) 11 : 13
+   c) 13 : 110
+   d) 110 : 13
+
+   Answer: c
+
+190. The ratio of 252.5: 53is same as = ?
+   a) 5 : 3
+   b) 5 : 6
+   c) 1 : 25
+   d) 25 : 1
+
+   Answer: d
+
+191. If x runs scored by A, y runs by B and z runs by C, then x : y = y : z = 3 : 2. If total number of runs scored by A, B and C is 342, the runs scored by each would be respectively = ?
+   a) 144, 96, 64
+   b) 162, 108, 72
+   c) 180, 120, 80
+   d) 189, 126, 84
+
+   Answer: b
+
+192. Find the fraction which will bear the same ratio to127127that311311does to5959
+   a) 155155
+   b) 15991599
+   c) 40334033
+   d) 55
+
+   Answer: a
+
+193. A, B, C and D have Rs. 40, Rs. 50, Rs. 60 and Rs. 70 respectively when they go to visit a fair. A spends Rs. 18, B spends Rs. 21, C spends Rs. 24 and D spends Rs. 27. Who has done the highest expenditure proportionate to his resources ?
+   a) A
+   b) B
+   c) C
+   d) D
+
+   Answer: a
+
+194. Seema and Meena divide a sum of Rs. 25000 in the ratio of 3 : 2 respectively. If Rs. 5000 is added to each of their shares, what would be in the new ratio formed ?
+   a) 2 : 3
+   b) 3 : 4
+   c) 5 : 4
+   d) 4 : 3
+
+   Answer: d
+
+195. A man ordered 4 pairs of black socks and some pairs of brown socks. The price of a pair of black socks is double that of a brown pair. While preparing the bill the clerk interchanged the number of black and brown pairs by mistake which increased the bill by 50% . The ratio of the number of black and brown pairs of socks in the original order was = ?
+   a) 2 : 1
+   b) 1 : 4
+   c) 1 : 2
+   d) 4 : 1
+
+   Answer: b
+
+196. The ratio of age of two boys is 5 : 6. After two years the ratio will be 7 : 8. The ratio of their age after 12 years will be = ?
+   a) 22242224
+   b) 15161516
+   c) 17181718
+   d) 11121112
+
+   Answer: c
+
+197. A person divided Rs. 10800 among his three sons in the ratio 3 : 4 : 5. Second son kept Rs. 1000 for himself, gave Rs. 600 to his wife and divided the remaining money among his two daughters in the ratio 11 : 9. Then one of his daughters received.
+   a) Rs. 1000
+   b) Rs. 1050
+   c) Rs. 1100
+   d) Rs. 1150
+
+   Answer: c
+
+198. The numbers x, y, z are proportional to 2, 3, 5. The sum of x, y, z is 100. If y = px - 10, then p is equal to.
+   a) 3232
+   b) 2
+   c) 5252
+   d) 3
+
+   Answer: b
+
+199. Of three positive numbers, the ratio of first and second is 8 : 9, that of second and third is 3 : 4. The product of first and third is 2400. The sum of the three number is = ?
+   a) 145
+   b) 185
+   c) 295
+   d) 155
+
+   Answer: a
+
+200. Three numbers are in the ratio 1 : 2 : 3. By adding 5 to each of them, the new numbers are in the ratio 2 : 3 : 4. The numbers are = ?
+   a) 10, 20, 30
+   b) 15, 30, 45
+   c) 1, 2, 3
+   d) 5, 10, 15
+
+   Answer: d
+
+201. The sum of three numbers is 116. The second number and the third number are in the ratio of 9 : 16 while the first number and the third number are in the ratio of 1 : 4. Find the second number.
+   a) 8
+   b) 16
+   c) 64
+   d) Cannot be determined
+   e) None of these
+
+   Answer: e
+
+202. Rs. 2010 are to be divided among A, B, C in such a way that if A gets Rs. 5, then B must get Rs. 12 and if B gets Rs. 4, then C must get Rs. 5.50. The share of C will exceed that of B by -
+   a) Rs. 270
+   b) Rs. 360
+   c) Rs. 430
+   d) Rs. 620
+
+   Answer: a
+
+203. A person  bought some rice and wheat for Rs. 380. The ratio of weight of rice and wheat is 4 : 3 and the price equal amount of rice and wheat is in the ratio 5 : 6. The rice was bought of worth = ?
+   a) Rs. 380
+   b) Rs. 300
+   c) Rs. 200
+   d) Rs. 180
+
+   Answer: c
+
+204. The ratio of monthly income of A and B is 6 : 5 and their expenditure are in the ratio  of 4 : 3. If each of them saves Rs. 400 per month, find the sum of their monthly incomes ?
+   a) Rs. 2300
+   b) Rs. 2400
+   c) Rs. 2200
+   d) Rs. 2500
+
+   Answer: c
+
+205. A box contains 420 coins of 1 rupee, 50 paise and 20 paise coins. The ratio of their values is 13 : 11 : 7. The number of 50 paise coins is = ?
+   a) 42
+   b) 78
+   c) 66
+   d) 132
+
+   Answer: d
+
+206. Rs. 600 are divided among A, B, C so that Rs. 40 more than2525of A's share, Rs. 20 more than2727of B's share and Rs. 10 more than917917of C's share may all be equal. What is A's share ?
+   a) Rs. 150
+   b) Rs. 170
+   c) Rs. 200
+   d) Rs. 280
+
+   Answer: a
+
+207. If Rs.1066 are divided among A, B, C and D such that A : B = 3 : 4, B : C = 5 : 6 and C : D = 7 : 5, Who will get the maximum ?
+   a) A
+   b) B
+   c) C
+   d) D
+
+   Answer: c
+
+208. Divide Rs. 671 among A, B and C such that if their shares be increased by Rs. 3, Rs. 7 and Rs. 9 respectively the remainder shall be in the ratio 1 : 2 : 3.
+   a) Rs. 110, Rs. 220, Rs. 336
+   b) Rs. 112, Rs. 223, Rs. 336
+   c) Rs. 105, Rs. 223, Rs. 330
+   d) None of these
+
+   Answer: b
+
+209. A box contains Rs. 56 in the form of coins of 1 rupee, 50 paise and 25 paise. The number of 50 paise coins is double the numbers of 25 paise coins and four times the number of one rupee coins. How many 50 paise coins are there in the box?
+   a) 52
+   b) 64
+   c) 32
+   d) 16
+
+   Answer: b
+
+210. Rs. 1740 is divided among A, B and C such that 0.5 of A = 0.6 of B = 0.75 of C. Then C will get = ?
+   a) Rs. 580
+   b) Rs. 696
+   c) Rs. 348
+   d) Rs. 464
+
+   Answer: d
+
+211. 80%  of a number is equal to the4545th of the other number. what is the ratio between the first number and the second number respectively ?
+   a) 3 : 4
+   b) 3 : 5
+   c) 5 : 3
+   d) None of these
+
+   Answer: d
+
+212. The monthly salaries of Pia and Som are in the ratio of 5 : 4. From her monthly salary, gives3535to her mother, 15%  towards her sister's tuition fees, 18%  towards a loan and she shops with the remaining amount, which is Rs. 2100. What is the monthly salary of Som ?
+   a) Rs. 25000
+   b) Rs. 30000
+   c) Rs. 15000
+   d) Rs. 24000
+
+   Answer: d
+
+213. Two bottles contain acid and water in the ratio 2 : 3 and 1 : 2 respectively. These are mixed in the ratio 1 : 3. What is the ratio of acid and water in the new mixture = ?
+   a) 7 : 13
+   b) 11 : 57
+   c) 23 : 37
+   d) 1 : 3
+
+   Answer: a
+
+214. In a colored picture of blue and yellow color, blue and yellow color is used in the ratio of 4 : 3 respectively. If in the upper half, half blue : yellow is 2 : 3, then in the lower half blue : yellow is =?
+   a) 1 : 1
+   b) 2 : 1
+   c) 26 : 9
+   d) 9 : 26
+
+   Answer: c
+
+215. A bag has coins of 50 paisa, 25 paisa and 10 paisa in the respective ratio of 5 : 8 : 3 whose total value is Rs.144. Find the number of 50 paisa coins.
+   a) 163
+   b) 175
+   c) 200
+   d) 150
+
+   Answer: d
+
+216. 75of58+38of139.2=?75of58+38of139.2=?
+   a) 133.4
+   b) 137.2
+   c) 127.8
+   d) 131.6
+
+   Answer: a
+
+217. A movie was screened for 3 days -  Monday, Tuesday and Wednesday. The respective ratio between the number of spectators on Monday. Tuesday and Wednesday was 2 : 3 : 5 and the price charged for three days was in the respective ratio 2 : 3 : 4. If the difference between the amount earned on Tuesday and Wednesday was Rs. 8800. What was the total amount earned in all three days?
+   a) Rs. 24800
+   b) Rs. 27500
+   c) Rs. 26400
+   d) Rs. 22820
+
+   Answer: c
+
+218. The numerator of a fraction is 3 more than the denominator. When 5 is added to the numerator and 2 is subtracted from the denominator, the fraction becomes83.83.When the original fraction is divided by512,512,the fraction so obtained is:
+   a) 1212
+   b) 2323
+   c) 3434
+   d) 1414
+
+   Answer: d
+
+219. The ratio of the incomes of A and B in 2020 was 5 : 4. The ratios of their individual income in 2020 and 2021 were 4 : 5 and 2 : 3, respectively. If the total income of A and B in 2021 was Rs. 7,05,600, then what was the income (in Rs.) of B in 2021?
+   a) 3,45,600
+   b) 2,79,700
+   c) 3,60,000
+   d) 4,25,900
+
+   Answer: a
+
+220. The ratios of copper to zinc in alloys A and B are 3 : 4 and 5 : 9, respectively. A and B are taken in the ratio 2 : 3 and melted to form a new alloy C. What is the ratio of copper to zinc in C?
+   a) 3 : 5
+   b) 8 : 15
+   c) 9 : 11
+   d) 27 : 43
+
+   Answer: d
+
+221. A sum of Rs. 53 is divided among A, B and C in such a way that A gets Rs. 7 more than what B gets and B gets Rs. 8 more than what C gets. The ratio of their share is gets. The ratio of their share is = ?
+   a) 16 : 9 : 18
+   b) 25 : 18 : 10
+   c) 18 : 25 : 10
+   d) 15 : 8 : 30
+
+   Answer: b
+
+222. Rs. 1087 is divided among A, B and C such that if Rs. 10, Rs. 12 and Rs. 15 are diminished from the shares of A, B and respectively, the remainders will be in the ratio of 5, 7 and 9. What is the share of B ?
+   a) Rs. 260
+   b) Rs. 355
+   c) Rs. 362
+   d) Rs. 465
+
+   Answer: c
+
+223. Two numbers x and y are in the ratio 5 : 7 and their sum is 36. Then x is -
+   a) 12
+   b) 15
+   c) 18
+   d) 19
+
+   Answer: b
+
+224. Two natural numbers are in the ratio 3 : 5 and their product is 2160. The smaller of the numbers is -
+   a) 12
+   b) 18
+   c) 24
+   d) 36
+
+   Answer: d
+
+225. Rs. 900 is divided among A, B, C the division is such that1212of A's money =1313of B's money =1414of C's money. Find the amount ( in rupees) received by A, B, C = ?
+   a) 300, 400, 200
+   b) 350, 450, 100
+   c) 200, 300, 400
+   d) 400, 150, 350
+
+   Answer: c
+
+226. If Rs. 126.50 is divided among A, B and C in the ratio of 2 : 5 : 4, the share of B exceeds that of A by = ?
+   a) Rs. 36.50
+   b) Rs. 35.50
+   c) Rs. 34.50
+   d) Rs. 33.50
+
+   Answer: c
+
+227. A sum of Rs. 76 is divided among A, B and C in such a way that A gets Rs. 7 more than what B gets and B gets Rs. 6 more than what C gets. The ratio of their share is gets. The ratio of their share is = ?
+   a) 19 : 24 : 33
+   b) 32 : 25 : 19
+   c) 32 : 24 : 20
+   d) 19 : 25 : 33
+
+   Answer: b
+
+228. A sum of money is divided among A, B, C and D in the ratio of 3 : 4 : 9 : 10 respectively. If the share of C is Rs. 2580 more than the share of B, then what is the total amount A and D together ?
+   a) Rs. 5676
+   b) Rs. 6192
+   c) Rs. 6708
+   d) Rs. 7224
+   e) None of these
+
+   Answer: c
+
+229. The ratio of the incomes of Ram and Shyam is 7 : 17 and that of Shyam and Sohan is 7 : 17. If the income of Ram is Rs. 490, what is the income of Sohan ?
+   a) Rs. 490
+   b) Rs. 1190
+   c) Rs. 2790
+   d) Rs. 2890
+
+   Answer: d
+
+230. The sides of a triangle are in the ratio1212:1313:1414and its perimeter is 104 cm. The length of the longest side (in cm) is -
+   a) 26
+   b) 32
+   c) 48
+   d) 52
+
+   Answer: c
+
+231. Which of the following represents a correct proportion ?
+   a) 12 : 9 :: 16 : 12
+   b) 13 : 11 :: 5 : 4
+   c) 30 : 45 :: 13 : 24
+   d) 3 : 5 :: 2 : 5
+
+   Answer: a
+
+232. If A : B = 7 : 9 and B : C = 3 : 5 then A : B : C is equal to = ?
+   a) 7 : 9 : 5
+   b) 21 : 35 : 45
+   c) 7 : 9 : 15
+   d) 7 : 3 : 15
+
+   Answer: c
+
+233. The ratio of the length of a school ground to its width is 5 : 2. If the width is 40m, then the length is = ?
+   a) 200m
+   b) 100m
+   c) 50m
+   d) 80m
+
+   Answer: b
+
+234. The sum of the squares of three numbers is 532 and the ratio of the first and the second as also of the second and the third is 3 : 2. The third number is -
+   a) 8
+   b) 12
+   c) 18
+   d) 20
+
+   Answer: a
+
+235. Two numbers are in the ratio 17 : 45. One third of the smaller is less than1515of the bigger by 15. The smaller number is -
+   a) 25122512
+   b) 67126712
+   c) 76127612
+   d) 86128612
+
+   Answer: c
+
+236. Incomes of A, B, and C are in the ratio 7 : 9 : 12 and their respective expenditures are in the ratio 8 : 9 : 15. If A saves1414of his income, then the ratio of their savings is -
+   a) 56 : 99 : 69
+   b) 33 : 19 : 23
+   c) 15 : 28 : 27
+   d) 56 : 69 : 99
+
+   Answer: a
+
+237. The ratio of the ages of two persons is 4 : 7 and the age of one of them is greater than that of the other by 30 years. The sum of their ages (in years) is = ?
+   a) 110
+   b) 100
+   c) 70
+   d) 40
+
+   Answer: a
+
+238. A box contains 280 coins of one rupee, 50 paise and 25 paise. The value of each kind of the coins are in the ratio of 8 : 4 : 3. Then the number of 50 paise coins is = ?
+   a) 70
+   b) 60
+   c) 80
+   d) 90
+
+   Answer: c
+
+239. A policeman starts to chase a thief. When the thief goes 10 steps the policeman moves 8 steps and 5 steps of the policeman are equal to 7 steps of the thief. The ratio of the speed of  the policeman and the thief is  =  ?
+   a) 25 : 28
+   b) 25 : 26
+   c) 28 : 25
+   d) 56 : 25
+
+   Answer: c
+
+240. The total emoluments of A and B are equal. However, A gets 65%  of his basic salary as allowances and B gets 80%  of his basic salary as allowances. What is the ratio of the basic salaries of A and B ?
+   a) 5 : 7
+   b) 7 : 9
+   c) 12 : 11
+   d) 16 : 13
+
+   Answer: c
+
+241. Between two consecutive years my incomes are in the ratio of 2 : 3 and expenses in the ratio 5 : 9. If my income in the second year is Rs. 45000 and my expenses in the first year is Rs. 25000 my total savings for the two years is -
+   a) Nil
+   b) Rs. 5000
+   c) Rs. 10000
+   d) Rs. 15000
+
+   Answer: b
+
+242. The sum of the salaries of A and B is Rs. 2100. A spends 80% of his salary and B spends 70%  of his salary. If their savings are in the proportion of 4 : 3, then what is the salary of A?
+   a) Rs. 700
+   b) Rs. 900
+   c) Rs. 1200
+   d) Rs. 1400
+
+   Answer: d
+
+243. Two alloys contain tin and iron in the ratio of 1 : 2 and 2 : 3. If the two alloys are mixed in the proportion of 3 : 4 respectively (by weight), the ratio of tin and iron in the newly formed alloy is = ?
+   a) 14 : 25
+   b) 10 : 21
+   c) 12 : 23
+   d) 13 : 22
+
+   Answer: d
+
+244. If two number are in the ratio 2 : 3 and the ratio becomes 3 : 4 when 8 is added to both the numbers, then the sum of the two numbers is = ?
+   a) 90
+   b) 50
+   c) 60
+   d) 40
+
+   Answer: d
+
+245. Ifxy=34,xy=34,the ratio of (2x + 3y) and (3y - 2x) is = ?
+   a) 2 : 1
+   b) 3 : 2
+   c) 3 : 1
+   d) 1 : 1
+
+   Answer: c
+
+246. The ratio of incomes of two persons is 5 : 3 and that of their expenditures is 9 : 5. If they save Rs. 2600 and Rs.1800 respectively, their incomes are.
+   a) Rs. 9000, Rs. 5400
+   b) Rs. 10000, Rs. 6000
+   c) Rs. 6000, Rs. 3600
+   d) Rs. 8000, Rs. 4800
+
+   Answer: d
+
+247. In a college the students in Arts and commerce faculties were in the ratio of 4 : 5 respectively. When 65 more students joined commerce faculty the ratio becomes 8 : 11 respectively. How many students are there in Arts faculty?
+   a) 520
+   b) 650
+   c) 715
+   d) Cannot be determined
+   e) None of these
+
+   Answer: a
+
+248. Two numbers are in the ratio 7 : 11. If 7 is added to each of the numbers, the ratio becomes 2 : 3. The smaller number is -
+   a) 39
+   b) 49
+   c) 66
+   d) 77
+
+   Answer: b
+
+249. Incomes of x and y are in the ratio 4 : 3. Their expenditure are in the ratio 12 : 7. Both save Rs. 3200 at the end of the month, then the income of x is = ?
+   a) Rs. 4000
+   b) Rs. 8000
+   c) Rs. 6000
+   d) Rs. 2000
+
+   Answer: b
+
+250. If (x3- y3) : (x2+ xy + y2) = 5 : 1 and (x2- y2) : (x - y) = 7 : 1, then the ratio 2x : 3y equals = ?
+   a) 3 : 2
+   b) 2 : 3
+   c) 4 : 3
+   d) 4 : 1
+
+   Answer: d
+
+251. In a library the ratio of story books and other books is 7 : 2 and there are 1512 story books. Due to collection of some more story books the ratio becomes 15 : 4. The number of story books collected is = ?
+   a) 108
+   b) 205
+   c) 100
+   d) 97
+
+   Answer: a
+
+252. When a particular number is subtracted from each of 7, 9, 11 and 15, the resulting numbers are in proportion. The number to be subtracted is -
+   a) 1
+   b) 2
+   c) 3
+   d) 5
+
+   Answer: c
+
+253. The ratio of milk to water in 80 litres of a mixture is 7 : 3. The water (in litres) to be added to it to make the ratio 2 : 1 is -
+   a) 4
+   b) 5
+   c) 6
+   d) 8
+
+   Answer: a
+
+254. Two numbers are in the ratio of 3 : 5. If 9 is subtracted from each, they are in the ratio of 12 : 23. What is the large number?
+   a) 40
+   b) 45
+   c) 55
+   d) 60
+
+   Answer: c
+
+255. A mixture contains milk and water in the ratio 5 : 1. On adding 5 litres of water, the ratio of milk and water becomes 5 : 2.  The quantity of milk in the mixture is = ?
+   a) 16 litres
+   b) 25 litres
+   c) 32.5 litres
+   d) 22.75 litres
+
+   Answer: b
+
+256. The sides of a triangle are in the ratio of 7 : 9 : 12. The difference between the length of largest and smaller sides is 15 c.m. The length of the largest sides would be = ?
+   a) 36 cm
+   b) 12 cm
+   c) 60 cm
+   d) 24 cm
+
+   Answer: a
+
+257. The three successive angles of a cycle quadrilateral are in the ratio 1 : 3 : 4, find the measure of the fourth angle ?
+   a) 72°
+   b) 30°
+   c) 36°
+   d) 108°
+
+   Answer: a
+
+258. In a certain company, the  ratio of the number of managers to the number of production - line workers is 5 to 72. If 8 additional production - line workers were to be hired, the ratio of the number of managers to the production - line workers would be 5 to 74. How many managers does the company have ?
+   a) 10
+   b) 20
+   c) 25
+   d) 30
+
+   Answer: b
+
+259. What number has to be added to the terms 3 : 5 to make the ratio 5 : 6 ?
+   a) 6
+   b) 7
+   c) 12
+   d) 13
+
+   Answer: b
+
+260. The ratio of the number of ladies to that of gents at a party was 3 : 2. When 20 more gents joined the party, the ratio was reversed. The number of ladies present at the party was -
+   a) 16
+   b) 24
+   c) 32
+   d) 36
+
+   Answer: b
+
+261. The current ages of Sonali and Monali are in the ratio 5 : 3. Five years from now, their ages will be in the ratio 10 : 7. Then Monali's current age is = ?
+   a) 3 years
+   b) 5 years
+   c) 9 years
+   d) 15 years
+
+   Answer: c
+
+262. Ifab=cd=ef,ab=cd=ef,then each of them is equal to = ?
+   a) a+3c+5eb+d−fa+3c+5eb+d−f
+   b) 3a+3c−5eb+3d−f3a+3c−5eb+3d−f
+   c) a+c−eb+d−5fa+c−eb+d−5f
+   d) a+3c−5eb+3d−5fa+3c−5eb+3d−5f
+
+   Answer: d
+
+263. Present ages of A and B are in the ratio 5 : 6 respectively. After seven years this ratio becomes 6 : 7. Then the present age of A in years is = ?
+   a) 35 years
+   b) 33 years
+   c) 32 years
+   d) 30 years
+
+   Answer: a
+
+264. In a school the ratio of boys and girls is 4 : 5 respectively. When 100 girls leave the school the ratio becomes 6 : 7 respectively. How many boys are there in the school ?
+   a) 1300
+   b) 1500
+   c) 1600
+   d) Cannot be determined
+   e) None of these
+
+   Answer: e
+
+265. One year ago the ratio of the ages of Sarika and Gouri was 3 : 4 respectively. One year hence the ratio of their ages will be 10 : 13 respectively. What is Sarika's present age ?
+   a) 18 years
+   b) 20 years
+   c) 26 years
+   d) Cannot be determined
+   e) None of these
+
+   Answer: e
+
+266. If A varies directly proportional to C and B also varies directly proportional to C, which one of the following is not correct ?
+   a) (A+B)αC(A+B)αC
+   b) (A−B)α1C(A−B)α1C
+   c) AB‾‾‾√αCABαC
+   d) AB=constantAB=constant
+
+   Answer: b
+
+267. Arrange the number a =710,710,b =58,58,c =2323in descending order = ?
+   a) a > b > c
+   b) a > c > b
+   c) b > c > a
+   d) c > b > a
+
+   Answer: b
+
+268. A man spends his two months income in three months time, if his monthly income is 6000 , then his annual savings is = ?
+   a) Rs. 18000
+   b) Rs. 24000
+   c) Rs. 12000
+   d) Rs. 36000
+
+   Answer: b
+
+269. A box has 1 rupee, 50 paise and 25 paise coins in the ratio 3 : 2 : 5 worth Rs. 252. The number of 25 paise coins in the box is = ?
+   a) 96
+   b) 144
+   c) 240
+   d) 48
+
+   Answer: c
+
+270. The falling height of an object is proportional to the square of the time. One object falls 64 cm in 2 sec then in 6 sec from how much height the object will fall ?
+   a) 192 cm
+   b) 276 cm
+   c) 436 cm
+   d) 576 cm
+
+   Answer: d
+
+271. y varies directly as (x + 3) and y = 8 when x = 1. What is the value of y when x = 2 ?
+   a) 6
+   b) 10
+   c) 12
+   d) 16
+
+   Answer: b
+
+272. Suppose y varies as the sum of two quantities of which one varies directly as x and the other inversely as x. If y = 6 when x = 4 and y =313313when x = 3, then the relation between x and y is -
+   a) y=2x−8xy=2x−8x
+   b) y=x+4xy=x+4x
+   c) y=2x+4xy=2x+4x
+   d) y=2x+8xy=2x+8x
+
+   Answer: a
+
+273. If 4 years ago the ratio between the ages of P and Q was 5 : 6 and the sum of their ages at present is 52, what is the ratio of their present ages ?
+   a) 5 : 6
+   b) 6 : 7
+   c) 7 : 8
+   d) 4 : 5
+
+   Answer: b
+
+274. Ratio of A's age to B's age is 4 : 3. 'A' will be 26 years old after 6 years. The age of B now is = ?
+   a) 11 years
+   b) 21 years
+   c) 22 years
+   d) 15 years
+
+   Answer: d
+
+275. Two numbers are in the ratio 3 : 5. If 6 is added to both of them, the ratio becomes 2 : 3. The numbers are = ?
+   a) 21 and 35
+   b) 30 and 50
+   c) 24 and 40
+   d) 18 and 30
+
+   Answer: d
+
+276. The boys and girls in a college are in the ratio 3 : 2. If 20%  of the boys and 25% of the girls are adults, the percentage of students who are not adults is -
+   a) 67.5%
+   b) 58%
+   c) 78%
+   d) 82.5%
+
+   Answer: c
+
+277. The cost of a table and a chair are in the ratio of 5 : 7. If the cost of chair and table is increased by 20%  and 10%  respectively, then what will be the new ratio?
+   a) 16 : 17
+   b) 55 : 84
+   c) 60 : 77
+   d) Data inadequate
+   e) None of these
+
+   Answer: b
+
+278. Ratio of earnings of A and B is 8 : 9 respectively. If the earnings of A increase by 50%  and the earnings of B decrease by 25%, the new ratio of their earnings becomes 16 : 9 respectively. What are A's earnings?
+   a) Rs. 22000
+   b) Rs. 28500
+   c) Rs. 37000
+   d) Cannot be determine
+   e) None of these
+
+   Answer: d
+
+279. A mixture contains spirit and water in the ratio of 3 : 2. If it contains 3 litres more spirit than water, the quantity of spirit in the mixture is = ?
+   a) 12 litres
+   b) 10 litres
+   c) 9 litres
+   d) 8 litres
+
+   Answer: c
+
+280. A profit of Rs. 960 is divided between A and B in the ratio1313:1515. The difference of their profit is = ?
+   a) Rs. 120
+   b) Rs. 160
+   c) Rs. 180
+   d) Rs. 240
+
+   Answer: d
+
+281. Three numbers are in the ratio 5 : 7 : 12. If the sum of the first and the third is greater than the second by 50. The sum of the three numbers is = ?
+   a) 125
+   b) 120
+   c) 95
+   d) 85
+
+   Answer: b
+
+282. The weights of two persons A and B are in the ratio of 3 : 5. A's weight increases by 20%  and the total weight of A and B together becomes 80kg, with an increase of 25%. By what percent did the weight of B increase ?
+   a) 20%
+   b) 25%
+   c) 28%
+   d) 30%
+
+   Answer: c
+
+283. Mrs. Richi Rich inherits 3224 gold coins and divides them amongst her 3 daughters Lalita, Palita and Salita in a certain ratio. Out of the total coins each of them received, Lalita sells her 50 coins, Palita donates 85 of her coins and Salita makes jewellery out of her 39 coins. Now the ratio of gold coins with them is 24 : 21 : 16 respectively. How many coins did Lalita receive from her mother ?
+   a) 1050
+   b) 1135
+   c) 1200
+   d) 1250
+   e) None of these
+
+   Answer: d
+
+284. Railway fares of 1st, 2nd and 3rd classes between two stations were in the ratio of 8 : 6 : 3. The fares of 1st and 2nd class were subsequently reduced by1616and112112respectively. If during a year the ratio between the passengers of 1st, 2nd and 3rd classes was 9 : 12 : 26 and the total amount collected by the sale of tickets was Rs. 1088, then find the collection from the passengers of 1st class.
+   a) Rs. 260
+   b) Rs. 280
+   c) Rs. 300
+   d) Rs. 320
+
+   Answer: d
+
+285. If 5 person together can make 5 mats in 5 hours, then 10 person in 10 hours will make = ?
+   a) 20 mats
+   b) 10 mats
+   c) 15 mats
+   d) 5 mats
+
+   Answer: a
+
+286. Rs. 730 were divided among A,B,C in such a way that if A gets Rs. 3 then B gets Rs. 4 and If B gets Rs. 3.5 then C gets Rs. 3. The share of B exceeds that of C by = ?
+   a) Rs. 30
+   b) Rs. 40
+   c) Rs. 70
+   d) Rs. 210
+
+   Answer: b
+
+287. Among 132 examinees of a certain school, the ratio of successful to unsuccessful students is 9 : 2. Had 4 more students passed, then the ratio of successful to unsuccessful students will be = ?
+   a) 14 : 3
+   b) 14 : 5
+   c) 28 : 3
+   d) 28 : 5
+
+   Answer: d
+
+288. Last year, the ratio between the salaries of A and B was 3 : 4. But the ratios of their individual salaries between last year and this year were 4 : 5 and 2 : 3 respectively. If the sum of their present salaries is Rs. 4160, then how much is the salary of A now ?
+   a) Rs. 1040
+   b) Rs. 1600
+   c) Rs. 2560
+   d) Rs. 3120
+
+   Answer: b
+
+289. A and B are two alloys of gold and copper prepared by mixing metals in the ratio 7 : 2 and 7 : 11 respectively. If equal quantities of the alloys are melted to form a third alloy C, then the ratio of gold and copper in alloy C will be.
+   a) 5 : 7
+   b) 5 : 9
+   c) 7 : 5
+   d) 9 : 5
+
+   Answer: c
+
+290. Two glasses of equal volume respectively are half and three - fourths filled with milk. They are then filled to brim by adding water. Their contents are then poured into another vessel. What will be the ratio of milk to water in this vessel ?
+   a) 1 : 3
+   b) 2 : 3
+   c) 3 : 2
+   d) 5 : 3
+
+   Answer: d
+
+291. In a regiment the ratio between the number of officers to soldiers was 3 : 31 before. In a battle 6 officers and 22 soldiers were killed and the ratio become 1 : 13, the number of officers in the regiment before battle was = ?
+   a) 31
+   b) 38
+   c) 21
+   d) 28
+
+   Answer: c
+
+292. Three containers have their volumes in the ratio 3 : 4 : 5. They are full of mixtures of milk and water. The mixtures contain milk and water in the ratio of (4 : 1), (3 : 1) and (5 : 2) respectively. The mixture of all these three containers are poured into a fourth container. The ratio of milk and water in the fourth container is = ?
+   a) 4 : 1
+   b) 151 : 48
+   c) 157 : 53
+   d) 5 : 2
+
+   Answer: c
+
+293. In a college union, there are 48 students. The ratio of the number of boys to the number of girls is 5 : 3. The number of girls to be added in the union, so that the number of boys to girls in 6 : 5 is = ?
+   a) 6
+   b) 7
+   c) 12
+   d) 17
+
+   Answer: b
+
+294. The ratio of milk to water in three containers of equal capacity is 3 : 2, 7 : 3 and 11 : 4 respectively. The contents of the three containers are mixed together. What is the ratio of milk to water after mixing ?
+   a) 19 : 4
+   b) 7 : 3
+   c) 61 : 29
+   d) 41 : 18
+
+   Answer: c
+
+295. Six coins of gold and silver of equal weights are melted and new coins are cast. The ratio of gold and silver in one of the coins is 2 : 1, in another two coins 3 : 5 and 7 : 5 in the remaining coins. What will be the ratio between gold and silver respectively in the new coins ?
+   a) 1 : 1
+   b) 12 : 11
+   c) 42 : 25
+   d) 19 : 17
+
+   Answer: d
+
+296. A dealer buys dry fruit at the rate of Rs. 100, Rs. 80 Rs. 60 per kg. He bought them in the ratio 12 : 15 : 20 by weight. He in total gets 20%  profit by selling the first two and at last he finds he has no gain no loss in selling the whole quantity which he had. What was the percentage loss he suffered for the third quantity ?
+   a) 20%
+   b) 30%
+   c) 40%
+   d) 50%
+
+   Answer: c
+
+297. A and B start an enterprise together, with A as active partner. A invests Rs. 4000 and Rs. 2000 more after 8 months. B invests Rs. 5000 and withdraws Rs. 2000 after 9 months. Being the active partner, A takes Rs. 100 per month as allowance,from the profit. What is the share of B if the profit for for the year is 6700 ?
+   a) Rs. 3350
+   b) Rs. 3250
+   c) Rs. 2700
+   d) Rs. 2800
+
+   Answer: c
+
+298. A's income is Rs. 140 more than B's income ans C's income is Rs. 80 more than D's income. If the ratio of A's and C's income is 2 : 3 and the ratio of B's and D's income is 1 : 2, then the incomes of A, B, C and D are respectively = ?
+   a) Rs. 260, Rs. 120, Rs. 320, Rs. 240
+   b) Rs. 300, Rs. 160, Rs. 600, Rs. 520
+   c) Rs. 400, Rs. 260, Rs. 600, Rs. 520
+   d) Rs. 320, Rs. 180, Rs. 480, Rs. 360
+
+   Answer: c
+
+299. Find the fraction which bears the same ratio to127127that3737does to5959= ?
+   a) 5959
+   b) 135135
+   c) 457457
+   d) 745745
+
+   Answer: b
+
+300. The respective ratio between the monthly salaries of Rene and Som is 5 : 3. Out of her salary Rene gives1616th as rent,1515th to her mother, 30%  as her education loan and keeps 25%  aside for miscellaneous expenditure. Remaining Rs. 5000 she keeps as savings. What is Som's monthly salary ?
+   a) Rs. 21000
+   b) Rs. 24000
+   c) Rs. 27000
+   d) Rs. 36000
+
+   Answer: d
+

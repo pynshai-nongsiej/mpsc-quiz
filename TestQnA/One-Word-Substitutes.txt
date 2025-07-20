@@ -1,404 +1,92 @@
-1. Extreme old age when a man behaves like a fool
-   a) Imbecility
-   b) Senility
-   c) Dotage
-   d) Superannuation
-
-   Answer: c
-
-2. That which cannot be corrected
-   a) Unintelligible
-   b) Indelible
-   c) Illegible
-   d) Incorrigible
-
-   Answer: d
-
-3. The study of ancient societies
-   a) Anthropology
-   b) Archaeology
-   c) History
-   d) Ethnology
+1. A person who renounces the world and practices self-discipline in order to attain salvation:
+   a) Sceptic
+   b) Ascetic
+   c) Devotee
+   d) Antiquarian
 
    Answer: b
 
-4. A person of good understanding knowledge and reasoning power
-   a) Expert
-   b) Intellectual
-   c) Snob
-   d) Literate
-
-   Answer: b
-
-5. A person who insists on something
-   a) Disciplinarian
-   b) Stickler
-   c) Instantaneous
-   d) Boaster
-
-   Answer: b
-
-6. State in which the few govern the many
-   a) Monarchy
-   b) Oligarchy
-   c) Plutocracy
-   d) Autocracy
-
-   Answer: b
-
-7. A style in which a writer makes a display of his knowledge
-   a) Pedantic
-   b) Verbose
-   c) Pompous
-   d) Ornate
+2. One who abandons his religious faith:
+   a) Apostate
+   b) Prostate
+   c) Profane
+   d) Agnostic
 
    Answer: a
 
-8. List of the business or subjects to be considered at a meeting
-   a) Schedule
-   b) Timetable
-   c) Agenda
-   d) Plan
-
-   Answer: c
-
-9. Leave or remove from a place considered dangerous
-   a) Evade
-   b) Evacuate
-   c) Avoid
-   d) Exterminate
-
-   Answer: b
-
-10. A prima facie case is such
-   a) As it seems at first sight
-   b) As it is made to seem at first sight
-   c) As it turns out to be at the end
-   d) As it seems to the court after a number of hearings
-
-   Answer: a
-
-11. A person pretending to be somebody he is not
-   a) Magician
-   b) Rogue
-   c) Liar
-   d) Imposter
+3. A hater of knowledge and learning:
+   a) Bibliophile
+   b) Philologist
+   c) Misogynist
+   d) Misologist
 
    Answer: d
 
-12. A person who knows many foreign languages
-   a) Linguist
-   b) Grammarian
-   c) Polyglot
-   d) Bilingual
-
-   Answer: a
-
-13. One who has little faith in human sincerity and goodness
-   a) Egoist
-   b) Fatalist
-   c) Stoic
-   d) Cynic
-
-   Answer: d
-
-14. One who possesses many talents
-   a) Versatile
-   b) Nubile
-   c) Exceptional
-   d) Gifted
-
-   Answer: a
-
-15. Words inscribed on tomb
-   a) Epitome
-   b) Epistle
-   c) Epilogue
-   d) Epitaph
-
-   Answer: d
-
-16. One who eats everything
-   a) Omnivorous
-   b) Omniscient
-   c) Irrestible
-   d) Insolvent
-
-   Answer: a
-
-17. Malafide case is one
-   a) Which is undertaken in a good faith
-   b) Which is undertaken in a bad faith
-   c) Which is undertaken after a long delay
-   d) Which is not undertaken at all
+4. Commencement of words with the same letter:
+   a) Pun
+   b) Alliteration
+   c) Transferred epithet
+   d) Oxymoron
 
    Answer: b
 
-18. The custom or practice of having more than one husband at same time
-   a) Polygyny
-   b) Polyphony
-   c) Polyandry
-   d) Polychromy
-
-   Answer: c
-
-19. Tending to move away from the centre or axis
-   a) Centrifugal
-   b) Centripetal
-   c) Axiomatic
-   d) Awry
-
-   Answer: a
-
-20. Teetotaller means
-   a) One who abstains from theft
-   b) One who abstains from meat
-   c) One who abstains from taking wine
-   d) One who abstains from malice
-
-   Answer: c
-
-21. A person interested in collecting, studying and selling of old things
-   a) Antiquarian
-   b) Junk-dealer
-   c) Crank
-   d) Archealogist
-
-   Answer: a
-
-22. A drawing on transparent paper
-   a) Red print
-   b) Blue print
-   c) Negative
-   d) Transparency
-
-   Answer: d
-
-23. One who is not easily pleased by anything
-   a) Maiden
-   b) Mediaeval
-   c) Precarious
-   d) Fastidious
-
-   Answer: d
-
-24. A remedy for all diseases
-   a) Stoic
-   b) Marvel
-   c) Panacea
-   d) Recompense
-
-   Answer: c
-
-25. One who is fond of fighting
-   a) Bellicose
-   b) Aggressive
-   c) Belligerent
-   d) Militant
-
-   Answer: a
-
-26. A small shop that sells fashionable clothes, cosmetics, etc.
-   a) Store
-   b) Stall
-   c) Boutique
-   d) Booth
-
-   Answer: c
-
-27. That which cannot be read
-   a) Negligible
-   b) Illegible
-   c) Ineligible
-   d) Incorrigible
-
-   Answer: b
-
-28. In a state of tension or anxiety or suspense
-   a) Off balance
-   b) Depressed
-   c) Diffused
-   d) On tenterhooks
-
-   Answer: d
-
-29. That which cannot be seen
-   a) Insensible
-   b) Intangible
-   c) Invisible
-   d) Unseen
-
-   Answer: c
-
-30. To slap with a flat object
-   a) Chop
-   b) Hew
-   c) Gnaw
-   d) Swat
-
-   Answer: d
-
-31. Habitually silent or talking little
-   a) Servile
-   b) Unequivocal
-   c) Taciturn
-   d) Synoptic
-
-   Answer: c
-
-32. One who cannot be corrected
-   a) Incurable
-   b) Incorrigible
-   c) Hardened
-   d) Invulnerable
-
-   Answer: b
-
-33. Be the embodiment or perfect example of
-   a) Characterise
-   b) Idol
-   c) Personify
-   d) Signify
-
-   Answer: c
-
-34. A person not sure of the existence of god
-   a) Cynic
-   b) Agnostic
+5. Person who does not believe in the existence of God:
+   a) Theist
+   b) Heretic
    c) Atheist
-   d) Theist
-
-   Answer: b
-
-35. A paper written by hand
-   a) Handicraft
-   b) Manuscript
-   c) Handiwork
-   d) Thesis
-
-   Answer: b
-
-36. The act of violating the sanctity of the church is
-   a) Blashphemy
-   b) Heresy
-   c) Sacrilege
-   d) Desecration
+   d) Fanatic
 
    Answer: c
 
-37. Something that can be heard
-   a) Auditory
-   b) Audio-visual
-   c) Audible
-   d) Audition
-
-   Answer: c
-
-38. A name adopted by an author in his writings
-   a) Nickname
-   b) Pseudonym
-   c) Nomenclature
-   d) Title
-
-   Answer: b
-
-39. Study of birds
-   a) Orology
-   b) Optology
-   c) Ophthalmology
-   d) Ornithology
-
-   Answer: d
-
-40. A place that provides refuge
-   a) Asylum
-   b) Sanatorium
-   c) Shelter
-   d) Orphanage
+6. A lady's umbrella is:
+   a) Parasol
+   b) Granary
+   c) Epitaph
+   d) Aviary
 
    Answer: a
 
-41. A child born after death of his father
-   a) Posthumous
-   b) Orphan
-   c) Bastard
-   d) Progenitor
+7. Story of old time gods or heroes is:
+   a) Lyric
+   b) Epic
+   c) Legend
+   d) Romance
+
+   Answer: c
+
+8. A sad song:
+   a) Ditty
+   b) Knell
+   c) Dirge
+   d) Lay
+
+   Answer: c
+
+9. One who believes in the power of fate:
+   a) Fatalist
+   b) Optimist
+   c) Pessimist
+   d) Parsimonious
 
    Answer: a
 
-42. The absence of law and order
-   a) Rebellion
-   b) Anarchy
-   c) Mutiny
-   d) Revolt
-
-   Answer: b
-
-43. Theraison d'etreof a controversy is
-   a) The enthusiasm with which it is kept alive
-   b) The fitness with which participants handle it
-   c) The reason or justification of its existence
-   d) The unending hostility the parties concerned have towards each other
+10. A person who loves everybody:
+   a) Cosmopolitan
+   b) Fratricide
+   c) Altruistic
+   d) Aristocrat
 
    Answer: c
 
-44. A place where bees are kept in called
-   a) An apiary
-   b) A mole
-   c) A hive
-   d) A sanctury
-
-   Answer: a
-
-45. A religious discourse
-   a) Preach
-   b) Stanza
-   c) Sanctorum
-   d) Sermon
-
-   Answer: d
-
-46. Parts of a country behind the coast or a river's banks
-   a) Isthmus
-   b) Archipelago
-   c) Hinterland
-   d) Swamps
-
-   Answer: c
-
-47. Study of the evolution of man as an animal
-   a) Archaeology
-   b) Anthropology
-   c) Chronology
-   d) Ethnology
-
-   Answer: b
-
-48. A person who speaks many languages
-   a) Linguist
-   b) Monolingual
-   c) Polyglot
-   d) Bilingual
-
-   Answer: c
-
-49. One who does not believe in existence of god
-   a) Egoist
-   b) Atheist
-   c) Stoic
-   d) Naive
-
-   Answer: b
-
-50. A disease of mind causing an uncontrollable desire to steal
+11. A disease of mind causing an uncontrollable desire to steal
    a) Schizophrenia
    b) Claustrophobia
    c) Kleptomania
-   d) Magolomania
+   d) Megalomania
 
    Answer: c
 
-51. One who sacrifices his life for a cause
+12. One who sacrifices his life for a cause
    a) Patriot
    b) Martyr
    c) Revolutionary
@@ -406,7 +94,7 @@
 
    Answer: b
 
-52. A person who brings goods illegally into the country
+13. A person who brings goods illegally into the country
    a) Importer
    b) Exporter
    c) Fraud
@@ -414,7 +102,7 @@
 
    Answer: d
 
-53. To take secretly in small quantities
+14. To take secretly in small quantities
    a) Robbery
    b) Pilferage
    c) Theft
@@ -422,7 +110,7 @@
 
    Answer: b
 
-54. To accustom oneself to a foreign climate
+15. To accustom oneself to a foreign climate
    a) Adapt
    b) Adopt
    c) Accustom
@@ -430,7 +118,7 @@
 
    Answer: d
 
-55. One who knows everything
+16. One who knows everything
    a) Literate
    b) Scholar
    c) Omnipotent
@@ -438,23 +126,23 @@
 
    Answer: d
 
-56. Detailed plan of journey
+17. Detailed plan of journey
    a) Travelogue
-   b) Travelkit
+   b) Travel kit
    c) Schedule
    d) Itinerary
 
    Answer: d
 
-57. Giving undue favours to one's own kith and kin
+18. Giving undue favours to one's own kith and kin
    a) Nepotism
    b) Favouritism
-   c) Wordliness
+   c) Worldliness
    d) Corruption
 
    Answer: a
 
-58. Hater of learning and knowledge
+19. Hater of learning and knowledge
    a) Misologist
    b) Bibliophile
    c) Misogynist
@@ -462,15 +150,655 @@
 
    Answer: a
 
-59. A person interested in reading books and nothing else
-   a) Book-keepr
+20. A person interested in reading books and nothing else
+   a) Bookkeeper
    b) Scholar
-   c) Book-worm
+   c) Bookworm
    d) Student
 
    Answer: c
 
-60. A place where monks live as a secluded community
+21. One who cannot easily pleased:
+   a) Cosmopolitan
+   b) Frightening
+   c) Fastidious
+   d) Feminist
+
+   Answer: c
+
+22. The murder of Brother:
+   a) Homicide
+   b) Regicide
+   c) Fratricide
+   d) Suicide
+
+   Answer: c
+
+23. A person who is indifferent to pains and pleasure of life:
+   a) Stoic
+   b) Sadist
+   c) Psychiatrist
+   d) Aristocrat
+
+   Answer: a
+
+24. An act of speaking one's thoughts aloud when by oneself or regardless of any hearers, especially by a character in a play:
+   a) Sinecure
+   b) Soliloquy
+   c) Pessimist
+   d) Philanthropist
+
+   Answer: b
+
+25. A disease which spreads by contact:
+   a) Incurable
+   b) Infectious
+   c) Contagious
+   d) Fatal
+
+   Answer: c
+
+26. A man who rarely speaks the truth:
+   a) Crook
+   b) Liar
+   c) Scoundrel
+   d) Hypocrite
+
+   Answer: b
+
+27. A remedy for all diseases:
+   a) Narcotics
+   b) Antiseptic
+   c) Panacea
+   d) Lyric
+
+   Answer: c
+
+28. International destruction of racial groups:
+   a) Matricide
+   b) Regicide
+   c) Genocide
+   d) Homicide
+
+   Answer: c
+
+29. Custom of having many wives:
+   a) Misogamy
+   b) Bigamy
+   c) Polygamy
+   d) Monogamy
+
+   Answer: c
+
+30. A pioneer of a reform movement:
+   a) Apostle
+   b) Apothecary
+   c) Apotheosis
+   d) Renegade
+
+   Answer: a
+
+31. A person who pretends to have more knowledge or skill than he really has:
+   a) Crook
+   b) Apotheosis
+   c) Renegade
+   d) Charlatan
+
+   Answer: d
+
+32. A person who forsakes religion:
+   a) Apostle
+   b) Apotheosis
+   c) Renegade
+   d) Charlatan
+
+   Answer: c
+
+33. One who studies insect life:
+   a) Geologist
+   b) Zoologist
+   c) Entomologist
+   d) Botanist
+
+   Answer: c
+
+34. A doctor who treats skin diseases:
+   a) Ophthalmologist
+   b) Dermatologist
+   c) Paediatrician
+   d) Cardiologist
+
+   Answer: b
+
+35. A lady who remains unmarried:
+   a) Spinster
+   b) Artist
+   c) Bachelor
+   d) Misanthrope
+
+   Answer: a
+
+36. One who has good taste for food:
+   a) Gourmet
+   b) Curator
+   c) Parasite
+   d) Stoic
+
+   Answer: a
+
+37. One who knows two languages:
+   a) Bigot
+   b) Bigamy
+   c) Bilingual
+   d) Brittle
+
+   Answer: c
+
+38. Government by the representatives of the people:
+   a) Autocracy
+   b) Democracy
+   c) Socialism
+   d) Anarchy
+
+   Answer: b
+
+39. A disease that spreads over a large area:
+   a) Academic
+   b) Epidemic
+   c) Incorrigible
+   d) Invincible
+
+   Answer: b
+
+40. That which can never be believed:
+   a) Irrevocable
+   b) Inevitable
+   c) Incredible
+   d) Irritable
+
+   Answer: c
+
+41. That which cannot be avoided:
+   a) Inevitable
+   b) Irreparable
+   c) Incomparable
+   d) Indisputable
+
+   Answer: a
+
+42. One who able to use the right and left hands equally well:
+   a) Sinister
+   b) Ambidextrous
+   c) Ambivalent
+   d) Amateur
+
+   Answer: b
+
+43. Government by rich:
+   a) Oligarchy
+   b) Aristocracy
+   c) Pantisocracy
+   d) Plutocracy
+
+   Answer: d
+
+44. An independent person or body officially appointed to settle a dispute:
+   a) Arbiter
+   b) Mediator
+   c) Agent provocateur
+   d) Arbitrator
+
+   Answer: d
+
+45. Murder of man:
+   a) Regicide
+   b) Fratricide
+   c) Homicide
+   d) Genocide
+
+   Answer: c
+
+46. Use of force or threats to get someone to agree to something:
+   a) Coercion
+   b) Conviction
+   c) Confession
+   d) Cajolement
+
+   Answer: a
+
+47. Animal that feeds on plants:
+   a) Carnivorous
+   b) Herbivorous
+   c) Insectivorous
+   d) Graminivorous
+
+   Answer: b
+
+48. Group of stars:
+   a) Orbit
+   b) Constellation
+   c) Solar system
+   d) Comet
+
+   Answer: b
+
+49. Lasting only for a very short time:
+   a) Transparent
+   b) Temporal
+   c) Temporary
+   d) Temperate
+
+   Answer: c
+
+50. To examine one's own thoughts and feelings:
+   a) Meditation
+   b) Retrospection
+   c) Reflection
+   d) Introspection
+
+   Answer: d
+
+51. One indifferent to art and literature is :
+   a) Aromatic
+   b) Critic
+   c) Philistine
+   d) Scholar
+
+   Answer: c
+
+52. Open to injury or Criticism :
+   a) Invincible
+   b) Vulnerable
+   c) Naive
+   d) Sensitive
+
+   Answer: b
+
+53. Government by a small group of all powerful persons :
+   a) Oligarchy
+   b) Monarchy
+   c) Democracy
+   d) Anarchy
+
+   Answer: a
+
+54. A narrow piece of land connecting two large masses of land :
+   a) Peninsula
+   b) Isthmus
+   c) Continent
+   d) Gulf
+
+   Answer: b
+
+55. One who collects coins as hobby :
+   a) Philatelist
+   b) Ornithologist
+   c) Statistician
+   d) Numismatist
+
+   Answer: d
+
+56. Extreme old age when a man behaves like a fool
+   a) Imbecility
+   b) Youth
+   c) Dotage
+   d) Superannuation
+
+   Answer: c
+
+57. That which cannot be corrected
+   a) Unintelligible
+   b) Indelible
+   c) Illegible
+   d) Incorrigible
+
+   Answer: d
+
+58. The study of ancient societies
+   a) Anthropology
+   b) Archaeology
+   c) History
+   d) Ethnology
+
+   Answer: b
+
+59. A person of good understanding knowledge and reasoning power
+   a) Expert
+   b) Intellectual
+   c) Snob
+   d) Literate
+
+   Answer: b
+
+60. A person who insists on something
+   a) Disciplinarian
+   b) Stickler
+   c) Instantaneous
+   d) Boaster
+
+   Answer: b
+
+61. State in which the few govern the many
+   a) Monarchy
+   b) Oligarchy
+   c) Plutocracy
+   d) Autocracy
+
+   Answer: b
+
+62. A style in which a writer makes a display of his knowledge
+   a) Pedantic
+   b) Verbose
+   c) Pompous
+   d) Ornate
+
+   Answer: a
+
+63. List of the business or subjects to be considered at a meeting
+   a) Schedule
+   b) Timetable
+   c) Agenda
+   d) Plan
+
+   Answer: c
+
+64. Leave or remove from a place considered dangerous
+   a) Evade
+   b) Evacuate
+   c) Avoid
+   d) Exterminate
+
+   Answer: b
+
+65. A person pretending to be somebody he is not
+   a) Magician
+   b) Rogue
+   c) Liar
+   d) Impostor
+
+   Answer: d
+
+66. A person who knows many foreign languages
+   a) Linguist
+   b) Grammarian
+   c) Polyglot
+   d) Bilingual
+
+   Answer: a
+
+67. One who has little faith in human sincerity and goodness
+   a) Egoist
+   b) Fatalist
+   c) Stoic
+   d) Cynic
+
+   Answer: d
+
+68. One who possesses many talents
+   a) Versatile
+   b) Nubile
+   c) Exceptional
+   d) Gifted
+
+   Answer: a
+
+69. Words inscribed on tomb
+   a) Epitome
+   b) Epistle
+   c) Epilogue
+   d) Epitaph
+
+   Answer: d
+
+70. One who eats everything
+   a) Omnivorous
+   b) Omniscient
+   c) Irresistible
+   d) Insolvent
+
+   Answer: a
+
+71. The custom or practice of having more than one husband at same time
+   a) Polygyny
+   b) Polyphony
+   c) Polyandry
+   d) Polychromy
+
+   Answer: c
+
+72. Tending to move away from the centre or axis
+   a) Centrifugal
+   b) Centripetal
+   c) Axiomatic
+   d) Awry
+
+   Answer: a
+
+73. A person interested in collecting, studying and selling of old things
+   a) Antiquarian
+   b) Junk-dealer
+   c) Crank
+   d) Archealogist
+
+   Answer: a
+
+74. A drawing on transparent paper
+   a) Red print
+   b) Blueprint
+   c) Negative
+   d) Transparency
+
+   Answer: d
+
+75. One who is not easily pleased by anything
+   a) Maiden
+   b) Mediaeval
+   c) Precarious
+   d) Fastidious
+
+   Answer: d
+
+76. A remedy for all diseases
+   a) Stoic
+   b) Marvel
+   c) Panacea
+   d) Recompense
+
+   Answer: c
+
+77. One who is fond of fighting
+   a) Bellicose
+   b) Aggressive
+   c) Belligerent
+   d) Militant
+
+   Answer: a
+
+78. A small shop that sells fashionable clothes, cosmetics, etc.
+   a) Store
+   b) Stall
+   c) Boutique
+   d) Booth
+
+   Answer: c
+
+79. That which cannot be read
+   a) Negligible
+   b) Illegible
+   c) Ineligible
+   d) Incorrigible
+
+   Answer: b
+
+80. In a state of tension or anxiety or suspense
+   a) Off balance
+   b) Depressed
+   c) Diffused
+   d) On tenterhooks
+
+   Answer: d
+
+81. That which cannot be seen
+   a) Insensible
+   b) Intangible
+   c) Invisible
+   d) Unseen
+
+   Answer: c
+
+82. To slap with a flat object
+   a) Chop
+   b) Hew
+   c) Gnaw
+   d) Swat
+
+   Answer: d
+
+83. Habitually silent or talking little
+   a) Servile
+   b) Unequivocal
+   c) Taciturn
+   d) Synoptic
+
+   Answer: c
+
+84. One who cannot be corrected
+   a) Incurable
+   b) Incorrigible
+   c) Hardened
+   d) Invulnerable
+
+   Answer: b
+
+85. Be the embodiment or perfect example of
+   a) Characterise
+   b) Idol
+   c) Personify
+   d) Signify
+
+   Answer: c
+
+86. A person not sure of the existence of god
+   a) Cynic
+   b) Agnostic
+   c) Atheist
+   d) Theist
+
+   Answer: b
+
+87. A paper written by hand
+   a) Handicraft
+   b) Manuscript
+   c) Handiwork
+   d) Thesis
+
+   Answer: b
+
+88. The act of violating the sanctity of the church is
+   a) Blasphemy
+   b) Heresy
+   c) Sacrilege
+   d) Veneration
+
+   Answer: c
+
+89. Something that can be heard
+   a) Auditory
+   b) Audio-visual
+   c) Audible
+   d) Audition
+
+   Answer: c
+
+90. A name adopted by an author in his writings
+   a) Nickname
+   b) Pseudonym
+   c) Nomenclature
+   d) Title
+
+   Answer: b
+
+91. Study of birds
+   a) Orology
+   b) Optology
+   c) Ophthalmology
+   d) Ornithology
+
+   Answer: d
+
+92. A place that provides refuge
+   a) Asylum
+   b) Sanatorium
+   c) Shelter
+   d) Orphanage
+
+   Answer: a
+
+93. A child born after death of his father
+   a) Posthumous
+   b) Orphan
+   c) Bastard
+   d) Progenitor
+
+   Answer: a
+
+94. The absence of law and order
+   a) Rebellion
+   b) Anarchy
+   c) Mutiny
+   d) Revolt
+
+   Answer: b
+
+95. A place where bees are kept in called
+   a) An apiary
+   b) A mole
+   c) A hive
+   d) A sanctuary
+
+   Answer: a
+
+96. A religious discourse
+   a) Preach
+   b) Stanza
+   c) Sanctorum
+   d) Sermon
+
+   Answer: d
+
+97. Parts of a country behind the coast or a river's banks
+   a) Isthmus
+   b) Archipelago
+   c) Hinterland
+   d) Swamps
+
+   Answer: c
+
+98. Study of the evolution of man as an animal
+   a) Archaeology
+   b) Anthropology
+   c) Chronology
+   d) Ethnology
+
+   Answer: b
+
+99. A person who speaks many languages
+   a) Linguist
+   b) Monolingual
+   c) Polyglot
+   d) Bilingual
+
+   Answer: c
+
+100. One who does not believe in existence of god
+   a) Egoist
+   b) Atheist
+   c) Stoic
+   d) Naive
+
+   Answer: b
+
+101. A place where monks live as a secluded community
    a) Cathedral
    b) Diocese
    c) Convent
@@ -478,7 +806,7 @@
 
    Answer: d
 
-61. Incapable of being seen through
+102. Incapable of being seen through
    a) Ductile
    b) Opaque
    c) Obsolete
@@ -486,7 +814,7 @@
 
    Answer: b
 
-62. One who does not care for literature or art
+103. One who does not care for literature or art
    a) Primitive
    b) Illiterate
    c) Philistine
@@ -494,7 +822,7 @@
 
    Answer: c
 
-63. A large sleeping-room with many beds
+104. A large sleeping-room with many beds
    a) Bedroom
    b) Dormitory
    c) Hostel
@@ -502,7 +830,7 @@
 
    Answer: b
 
-64. Continuing fight between parties, families, clans, etc.
+105. Continuing fight between parties, families, clans, etc.
    a) Enmity
    b) Feud
    c) Quarrel
@@ -510,7 +838,7 @@
 
    Answer: b
 
-65. A building for storing threshed grain
+106. A building for storing threshed grain
    a) Hangar
    b) Dockyard
    c) Store
@@ -518,7 +846,7 @@
 
    Answer: d
 
-66. Policeman riding on motorcycles as guards to a VIP
+107. Policeman riding on motorcycles as guards to a VIP
    a) Outriders
    b) Servants
    c) Commandos
@@ -526,7 +854,7 @@
 
    Answer: a
 
-67. One who is determined to exact full vengeance for wrongs done to him
+108. One who is determined to exact full vengeance for wrongs done to him
    a) Virulent
    b) Vindictive
    c) Usurer
@@ -534,7 +862,7 @@
 
    Answer: b
 
-68. Murder of a king
+109. Murder of a king
    a) Infanticide
    b) Matricide
    c) Genocide
@@ -542,7 +870,7 @@
 
    Answer: d
 
-69. An expression of mild disapproval
+110. An expression of mild disapproval
    a) Warning
    b) Denigration
    c) Impertinence
@@ -550,7 +878,87 @@
 
    Answer: d
 
-70. One absorbed in his own thoughts and feelings rather than in things outside
+111. An office or post with no work but high pay
+   a) Honorary
+   b) Sinecure
+   c) Gratis
+   d) Ex-officio
+
+   Answer: b
+
+112. A person who is against the standards of ordinary society especially in dressing
+   a) Joker
+   b) Hippy
+   c) Scapegoat
+   d) Butt
+
+   Answer: b
+
+113. Mental weariness for want of occupation
+   a) Fatigue
+   b) Ennui
+   c) Languor
+   d) Debility
+
+   Answer: b
+
+114. A person living permanently in a certain place
+   a) Native
+   b) Resident
+   c) Domicile
+   d) Subject
+
+   Answer: b
+
+115. To slap with a flat object
+   a) Hew
+   b) Swat
+   c) Chop
+   d) Gnaw
+
+   Answer: b
+
+116. One who is unrelenting and cannot be moved by entreaties
+   a) Inexorable
+   b) Infallible
+   c) Impregnable
+   d) Inexplicable
+
+   Answer: a
+
+117. A disease which spreads by contact
+   a) Infectious
+   b) Contagious
+   c) Contiguous
+   d) Contextual
+
+   Answer: b
+
+118. Person who believes that God is every thing and everything is god
+   a) Agnostic
+   b) Theist
+   c) Pantheist
+   d) Pantechnicon
+
+   Answer: c
+
+119. Words different in meaning but similar in sound
+   a) Homonym
+   b) Synonym
+   c) Acronym
+   d) Antonym
+
+   Answer: a
+
+120. A person who regards the whole world as his country
+   a) Patriot
+   b) Nationalist
+   c) Cosmopolitan
+   d) Metropolitan
+
+   Answer: c
+
+121. One absorbed in his own thoughts and feelings rather than in things outside
    a) Scholar
    b) Recluse
    c) Introvert
@@ -558,7 +966,7 @@
 
    Answer: c
 
-71. One who dabbles in fine arts for the love of it and not for monetary gains
+122. One who dabbles in fine arts for the love of it and not for monetary gains
    a) Connoisseur
    b) Amateur
    c) Professional
@@ -566,7 +974,7 @@
 
    Answer: b
 
-72. A school boy who cuts classes frequently is a
+123. A school boy who cuts classes frequently is a
    a) Defeatist
    b) Sycophant
    c) Truant
@@ -574,7 +982,7 @@
 
    Answer: c
 
-73. Ready to believe
+124. Ready to believe
    a) Credulous
    b) Credible
    c) Creditable
@@ -582,15 +990,15 @@
 
    Answer: a
 
-74. Medical study of skin and its diseases
+125. Medical study of skin and its diseases
    a) Dermatology
    b) Endocrinology
-   c) Gynealogy
+   c) Gynecologist
    d) Orthopaedics
 
    Answer: a
 
-75. A person who tries to deceive people by claiming to be able to do wonderful things
+126. A person who tries to deceive people by claiming to be able to do wonderful things
    a) Trickster
    b) Imposter
    c) Magician
@@ -598,7 +1006,7 @@
 
    Answer: a
 
-76. A dramatic performance
+127. A dramatic performance
    a) Mask
    b) Mosque
    c) Masque
@@ -606,15 +1014,15 @@
 
    Answer: c
 
-77. One who does not marry, especially as a religious obligation
+128. One who does not marry, especially as a religious obligation
    a) Bachelor
    b) Celibate
-   c) Vigin
+   c) Virgin
    d) Recluse
 
    Answer: b
 
-78. That which is perceptible by touch is
+129. That which is perceptible by touch is
    a) Contagious
    b) Contingent
    c) Tenacious
@@ -622,7 +1030,7 @@
 
    Answer: d
 
-79. Very pleasing to eat
+130. Very pleasing to eat
    a) Appetising
    b) Palatable
    c) Tantalising
@@ -630,7 +1038,7 @@
 
    Answer: b
 
-80. The part of government which is concerned with making of rules
+131. The part of government which is concerned with making of rules
    a) Court
    b) Tribunal
    c) Bar
@@ -638,7 +1046,7 @@
 
    Answer: d
 
-81. One who believes that all things and events in life are predetermined is a
+132. One who believes that all things and events in life are predetermined is a
    a) Fatalist
    b) Puritan
    c) Egoist
@@ -646,7 +1054,7 @@
 
    Answer: a
 
-82. Something that relates to everyone in the world
+133. Something that relates to everyone in the world
    a) General
    b) Common
    c) Usual
@@ -654,7 +1062,7 @@
 
    Answer: d
 
-83. To walk with slow or regular Steps is to
+134. To walk with slow or regular Steps is to
    a) Limp
    b) Stride
    c) Pace
@@ -662,7 +1070,7 @@
 
    Answer: c
 
-84. A style full of words
+135. A style full of words
    a) Verbose
    b) Pedantic
    c) Rhetorical
@@ -670,7 +1078,7 @@
 
    Answer: a
 
-85. Murder of a brother
+136. Murder of a brother
    a) Patricide
    b) Regicide
    c) Homicide
@@ -678,7 +1086,7 @@
 
    Answer: d
 
-86. Having superior or intellectual interests and tastes
+137. Having superior or intellectual interests and tastes
    a) Elite
    b) Highbrow
    c) Sophisticated
@@ -686,7 +1094,7 @@
 
    Answer: b
 
-87. To cause troops, etc. to spread out in readiness for battle
+138. To cause troops, etc. to spread out in readiness for battle
    a) Disperse
    b) Deploy
    c) Collocate
@@ -694,7 +1102,7 @@
 
    Answer: b
 
-88. A voice loud enough to be heard
+139. A voice loud enough to be heard
    a) Audible
    b) Applaudable
    c) Laudable
@@ -702,7 +1110,7 @@
 
    Answer: a
 
-89. A light sailing boat built specially for racing
+140. A light sailing boat built specially for racing
    a) Canoe
    b) Yacht
    c) Frigate
@@ -710,7 +1118,7 @@
 
    Answer: b
 
-90. One who is in charge of museum
+141. One who is in charge of museum
    a) Curator
    b) Supervisor
    c) Caretaker
@@ -718,7 +1126,7 @@
 
    Answer: a
 
-91. A government by the nobles
+142. A government by the nobles
    a) Aristocracy
    b) Democracy
    c) Autocracy
@@ -726,7 +1134,7 @@
 
    Answer: a
 
-92. One who is honourably discharged from service
+143. One who is honourably discharged from service
    a) Retired
    b) Emeritus
    c) Relieved
@@ -734,7 +1142,7 @@
 
    Answer: b
 
-93. Present opposing arguments or evidence
+144. Present opposing arguments or evidence
    a) Criticise
    b) Rebuff
    c) Reprimand
@@ -742,7 +1150,7 @@
 
    Answer: d
 
-94. The policy of extending a country's empire and influence
+145. The policy of extending a country's empire and influence
    a) Communism
    b) Internationalism
    c) Capitalism
@@ -750,7 +1158,7 @@
 
    Answer: d
 
-95. Of outstanding significance
+146. Of outstanding significance
    a) Monumental
    b) Rational
    c) Ominous
@@ -758,7 +1166,7 @@
 
    Answer: a
 
-96. Code of diplomatic etiquette and precedence
+147. Code of diplomatic etiquette and precedence
    a) Statesmanship
    b) Formalism
    c) Hierarchy
@@ -766,15 +1174,15 @@
 
    Answer: d
 
-97. A fixed orbit in space in relation to earth
+148. A fixed orbit in space in relation to earth
    a) Geological
    b) Geo-synchronous
-   c) Geo-centric
+   c) Geocentric
    d) Geo-stationary
 
    Answer: d
 
-98. That which cannot be believed
+149. That which cannot be believed
    a) Incredible
    b) Incredulous
    c) Implausible
@@ -782,7 +1190,7 @@
 
    Answer: a
 
-99. To issue a thunderous verbal attack
+150. To issue a thunderous verbal attack
    a) Languish
    b) Animate
    c) Fulminate
@@ -790,3 +1198,3124 @@
 
    Answer: c
 
+151. To examine one's own thoughts and feelings
+   a) Meditation
+   b) Retrospection
+   c) Reflection
+   d) Introspection
+
+   Answer: d
+
+152. Life history of a person written by another
+   a) Autobiography
+   b) Biography
+   c) Bibliography
+   d) Memoir
+
+   Answer: b
+
+153. Bringing about gentle and painless death from incurable disease
+   a) Suicide
+   b) Euphoria
+   c) Gallows
+   d) Euthanasia
+
+   Answer: d
+
+154. To cause troops etc. to spread out in readiness for battle
+   a) Align
+   b) Collocate
+   c) Deploy
+   d) Disperse
+
+   Answer: c
+
+155. Music sung or played at night below a person's window
+   a) Serenade
+   b) Sonnet
+   c) Lyric
+   d) Primo
+
+   Answer: a
+
+156. Strong and settled dislike between two persons
+   a) Apathy
+   b) Benevolence
+   c) Antipathy
+   d) Goodwill
+
+   Answer: c
+
+157. A small house with all rooms on one floor
+   a) Bungalow
+   b) Cottage
+   c) Flat
+   d) Castle
+
+   Answer: a
+
+158. Government by a single person
+   a) Monarchy
+   b) Autocracy
+   c) Plutocracy
+   d) Aristocracy
+
+   Answer: b
+
+159. Part of a church in which bells hang
+   a) Minaret
+   b) Chapel
+   c) Belfry
+   d) Spire
+
+   Answer: c
+
+160. An extremely deep crack or opening in the ground
+   a) Chasm
+   b) Aperture
+   c) Ditch
+   d) Pit
+
+   Answer: a
+
+161. List of headings of the business to be transacted at a meeting
+   a) Schedule
+   b) Agenda
+   c) Proceedings
+   d) Excerpts
+
+   Answer: b
+
+162. The short remaining end of a cigarette
+   a) Stump
+   b) Stub
+   c) Rag
+   d) Scrap
+
+   Answer: b
+
+163. Large scale departure of people
+   a) Migration
+   b) Emigration
+   c) Immigration
+   d) Exodus
+
+   Answer: d
+
+164. Voluntarily giving up throne by king in favour of his son
+   a) Abdication
+   b) Resurrection
+   c) Accession
+   d) Renunciation
+
+   Answer: a
+
+165. A government run by a dictator
+   a) Democracy
+   b) Autocracy
+   c) Oligarchy
+   d) Theocracy
+
+   Answer: b
+
+166. One who despises persons of lower social position
+   a) Prim
+   b) Snob
+   c) Prig
+   d) Aristocrat
+
+   Answer: b
+
+167. A person who believes that pleasure is the chief good
+   a) Stoic
+   b) Hedonist
+   c) Epicure
+   d) Sensual
+
+   Answer: b
+
+168. A short, usually amusing, story about some real person or event
+   a) Anecdote
+   b) Antidote
+   c) Tale
+   d) Allegory
+
+   Answer: a
+
+169. Custom of having many wives
+   a) Monogamy
+   b) Bigamy
+   c) Polygamy
+   d) Matrimony
+
+   Answer: c
+
+170. A man of lax moral
+   a) Ruffian
+   b) Licentious
+   c) Pirate
+   d) Vagabond
+
+   Answer: b
+
+171. One who forcibly seizes control of a bus
+   a) Pirate
+   b) Swindler
+   c) Hijacker
+   d) Pilferer
+
+   Answer: c
+
+172. A government by the nobles
+   a) Democracy
+   b) Bureaucracy
+   c) Autocracy
+   d) Aristocracy
+
+   Answer: d
+
+173. A person who has no money to pay off his debts
+   a) Debtor
+   b) Pauper
+   c) Beggar
+   d) Insolvent
+
+   Answer: d
+
+174. A song embodying religious and sacred emotions
+   a) Lyric
+   b) Ode
+   c) Hymn
+   d) Ballad
+
+   Answer: c
+
+175. Practice of a married woman having extra marital relationship
+   a) Polygamy
+   b) Puberty
+   c) Lechery
+   d) Adultery
+
+   Answer: d
+
+176. Mania for talking
+   a) Logomania
+   b) Pyromania
+   c) Bibliomania
+   d) Kleptomania
+
+   Answer: a
+
+177. The study of ancient societies
+   a) History
+   b) Anthropology
+   c) Ethnology
+   d) Archaeology
+
+   Answer: d
+
+178. A process involving too much official formality
+   a) Nepotism
+   b) Diplomacy
+   c) Red-tapism
+   d) Bureaucracy
+
+   Answer: c
+
+179. The place where public, government or historical records are kept
+   a) Coffer
+   b) Pantry
+   c) Scullery
+   d) Archives
+
+   Answer: d
+
+180. Lottery in which an article is assigned by lot to one of those buying tickets
+   a) Auction
+   b) Raffle
+   c) Audit
+   d) Transit
+
+   Answer: b
+
+181. Child bereaved of one or both the parents
+   a) Desolate
+   b) Destitute
+   c) Orphan
+   d) Lout
+
+   Answer: c
+
+182. One who always runs away from danger
+   a) Escapist
+   b) Timid
+   c) Brave
+   d) Shirker
+
+   Answer: b
+
+183. Gradual recovery from illness
+   a) Hysteria
+   b) Amnesia
+   c) Superannuation
+   d) Convalescence
+
+   Answer: d
+
+184. Commencement of words with the same letter
+   a) Rhyme
+   b) Alliteration
+   c) Pun
+   d) Oxymoron
+
+   Answer: b
+
+185. Woman who offers the use of her body for sexual intercourse to any one who will pay for this
+   a) Voluptuary
+   b) Cuckold
+   c) Prostitute
+   d) Concubine
+
+   Answer: c
+
+186. A person who does not believe in any religion
+   a) Philatelist
+   b) Rationalist
+   c) Atheist
+   d) Pagan
+
+   Answer: d
+
+187. A small enclosure for cattle, sheep, poultry etc.
+   a) Cellar
+   b) Sty
+   c) Pen
+   d) Lair
+
+   Answer: c
+
+188. The act of killing one's wife
+   a) Genocide
+   b) Uxoricide
+   c) Canicide
+   d) Avicide
+
+   Answer: b
+
+189. Anything written in a letter after it is signed
+   a) Posterity
+   b) Postdiction
+   c) Postscript
+   d) Corrigendum
+
+   Answer: c
+
+190. An entertainer who performs difficult physical actions
+   a) Clown
+   b) Gymnast
+   c) Magician
+   d) Acrobat
+
+   Answer: d
+
+191. The policy of extending a country's empire and influence
+   a) Imperialism
+   b) Capitalism
+   c) Internationalism
+   d) Communism
+
+   Answer: a
+
+192. A workman who fits and repairs pipes
+   a) Mechanic
+   b) Blacksmith
+   c) Plumber
+   d) Technocrat
+
+   Answer: c
+
+193. The custom of having more than one husband at the same time
+   a) Polygamy
+   b) Polyandry
+   c) Debauchery
+   d) Bigamy
+
+   Answer: b
+
+194. The foolish belief that one is god
+   a) Blasphemy
+   b) Theocracy
+   c) Paranoia
+   d) Theomania
+
+   Answer: d
+
+195. Person who brings an action at law
+   a) Plaintiff
+   b) Litigant
+   c) Deponent
+   d) Defendant
+
+   Answer: a
+
+196. A post without remuneration
+   a) Voluntary
+   b) Sinecure
+   c) Honorary
+   d) Involuntary
+
+   Answer: c
+
+197. To send an unwanted person out of the country
+   a) Exclude
+   b) Ostracise
+   c) Deport
+   d) Expatriate
+
+   Answer: c
+
+198. Gift left by will
+   a) Alimony
+   b) Parimony
+   c) Legacy
+   d) Property
+
+   Answer: c
+
+199. A poem written on the death of someone loved and lost
+   a) Ode
+   b) Epic
+   c) Sonnet
+   d) Elegy
+
+   Answer: d
+
+200. One who is determined to exact full vengeance for wrongs done to him
+   a) Vindicator
+   b) Usurer
+   c) Vindictive
+   d) Virulent
+
+   Answer: c
+
+201. The cessation of warfare before a treaty is signed
+   a) Affidavit
+   b) Agreement
+   c) Armistice
+   d) Amnesty
+
+   Answer: c
+
+202. Having no beginning or end to its existence
+   a) Eternal
+   b) Obscure
+   c) Universal
+   d) Immeasurable
+
+   Answer: a
+
+203. One who cannot die
+   a) Stable
+   b) Immortal
+   c) Perpetual
+   d) Perennial
+
+   Answer: b
+
+204. Belief or opinion contrary to what is generally accepted
+   a) Unbelief
+   b) Superstition
+   c) Non-conformity
+   d) Heresy
+
+   Answer: d
+
+205. A disease which ends in death
+   a) Contagious
+   b) Harmless
+   c) Fatal
+   d) Safe
+
+   Answer: c
+
+206. A small piece of potato
+   a) Chunk
+   b) Chip
+   c) Scrap
+   d) Bit
+
+   Answer: b
+
+207. Line at which the earth or sea and sky seem to meet
+   a) Horizon
+   b) Zenith
+   c) Fringe
+   d) Plinth
+
+   Answer: a
+
+208. One who is well-versed in any subject; a critical judge of any art, particularly fine arts
+   a) Veteran
+   b) Philistine
+   c) Dilettante
+   d) Connoisseur
+
+   Answer: d
+
+209. Murder of a brother
+   a) Patricide
+   b) Regicide
+   c) Homicide
+   d) Fratricide
+
+   Answer: d
+
+210. One who loves all and sundry
+   a) Optimist
+   b) Humanist
+   c) Altruist
+   d) Philanthropist
+
+   Answer: d
+
+211. A person who speaks or supports an idea
+   a) Pioneer
+   b) Adviser
+   c) Advocate
+   d) Ideologist
+
+   Answer: c
+
+212. One whose attitude is: 'eat, drink and be merry'
+   a) Epicurean
+   b) Cynic
+   c) Materialistic
+   d) Stoic
+
+   Answer: a
+
+213. Deriving pleasure from inflicting pain on others
+   a) Sadism
+   b) Malevolence
+   c) Bigotry
+   d) Masochism
+
+   Answer: a
+
+214. One who pretends illness to escape duty
+   a) Truant
+   b) Malingerer
+   c) Hypocrite
+   d) Concubine
+
+   Answer: b
+
+215. The science of judging a person's character, capabilities, etc. from an examination of the shape of his skull
+   a) Physiology
+   b) Anthropology
+   c) Phrenology
+   d) Morphology
+
+   Answer: c
+
+216. Time after twilight and before night
+   a) Evening
+   b) Dawn
+   c) Dusk
+   d) Eclipse
+
+   Answer: c
+
+217. Animals living on land and in water
+   a) Ambiguous
+   b) Amphibian
+   c) Amorphous
+   d) Ambivalent
+
+   Answer: b
+
+218. A political leader who tries to stir up people
+   a) Demagogue
+   b) Dictator
+   c) Statesman
+   d) Martinet
+
+   Answer: a
+
+219. Atonement for one's sins
+   a) Redemption
+   b) Repentance
+   c) Salvation
+   d) Expiation
+
+   Answer: d
+
+220. A general pardon of political offenders
+   a) Parole
+   b) Forgiveness
+   c) Clemency
+   d) Amnesty
+
+   Answer: d
+
+221. Paying back injury with injury
+   a) Vendetta
+   b) Repression
+   c) Subjugation
+   d) Reprisal
+
+   Answer: d
+
+222. An assembly of hearers
+   a) Audience
+   b) Crowd
+   c) Congregation
+   d) Assemblage
+
+   Answer: a
+
+223. Regard for others as a principle of action
+   a) Cynicism
+   b) Nepotism
+   c) Philanthropy
+   d) Altruism
+
+   Answer: d
+
+224. An animal story with a moral
+   a) Fable
+   b) Tale
+   c) Anecdote
+   d) Parable
+
+   Answer: a
+
+225. Person who pilots or travels in a balloon, airship or other aircraft
+   a) Aeronaut
+   b) Astronaut
+   c) Aerobat
+   d) Acrobat
+
+   Answer: a
+
+226. Simplest and smallest form of plant life, present in air, water and soil; essential to life but may cause disease
+   a) Virus
+   b) Amoeba
+   c) Bacteria
+   d) Toxin
+
+   Answer: c
+
+227. Relationship by blood or birth
+   a) Parentage
+   b) Affiliation
+   c) Consanguinity
+   d) Nepotism
+
+   Answer: c
+
+228. A person who makes love without serious intentions
+   a) Consort
+   b) Philanderer
+   c) Romeo
+   d) Goon
+
+   Answer: b
+
+229. The art of cutting trees and bushes into ornamental shapes
+   a) Horticulture
+   b) Bonsai
+   c) Pruning
+   d) Topiary
+
+   Answer: d
+
+230. A formal written charge against a person for some crime or offence
+   a) Accusation
+   b) Indictment
+   c) Allegation
+   d) Acrimony
+
+   Answer: b
+
+231. A person obsessed with exclusively one idea or subject
+   a) Crazy
+   b) Kleptomaniac
+   c) Monomaniac
+   d) Nymphomaniac
+
+   Answer: c
+
+232. A person who kills somebody especially for political reasons
+   a) Criminal
+   b) Murderer
+   c) Assassin
+   d) Hangman
+
+   Answer: c
+
+233. A child who stays away from school without any good reason
+   a) Vagabond
+   b) Delinquent
+   c) Schizophrenic
+   d) Truant
+
+   Answer: d
+
+234. A person who rules without consulting the opinion of others
+   a) Democrat
+   b) Bureaucrat
+   c) Autocrat
+   d) Fanatic
+
+   Answer: c
+
+235. Person who is indifferent to both pleasure and pain
+   a) Saint
+   b) Ascetic
+   c) Stoic
+   d) Hermit
+
+   Answer: c
+
+236. Mania for stealing articles
+   a) Logomania
+   b) Nymphomania
+   c) Kleptomania
+   d) Hypomania
+
+   Answer: c
+
+237. Mania for travel
+   a) Dromomania
+   b) Pyromania
+   c) Bibliomania
+   d) Logomania
+
+   Answer: a
+
+238. Acutely affected by external impressions
+   a) Ingenious
+   b) Impressionable
+   c) Credulous
+   d) Sensitive
+
+   Answer: d
+
+239. An associate in an office or institution
+   a) Companion
+   b) Ally
+   c) Colleague
+   d) Accomplice
+
+   Answer: c
+
+240. Person who claims to have great love for and understanding of what is beautiful in nature, art etc
+   a) Critic
+   b) Aesthete
+   c) Connoisseur
+   d) Artist
+
+   Answer: b
+
+241. To change shape, nature or substance of
+   a) Modulate
+   b) Substitute
+   c) Remodel
+   d) Transmute
+
+   Answer: d
+
+242. Witty, clever retort
+   a) Sarcasm
+   b) Repartee
+   c) Platitude
+   d) Invective
+
+   Answer: b
+
+243. A girl or woman who flirts, that is, tries to attract people and make advances in love simply to satisfy her vanity
+   a) Prostitute
+   b) Coquette
+   c) Spinster
+   d) Concubine
+
+   Answer: b
+
+244. A story in which ideas are symbolised as people
+   a) Allegory
+   b) Fable
+   c) Legend
+   d) Parable
+
+   Answer: a
+
+245. Opposed to great or sudden change
+   a) Static
+   b) Revolutionary
+   c) Conservative
+   d) Evolutionary
+
+   Answer: c
+
+246. Walking in sleep
+   a) Somniloquism
+   b) Somnambulism
+   c) Obsession
+   d) Hallucination
+
+   Answer: b
+
+247. Language difficult to understand because of bad form
+   a) Rhetoric
+   b) Jargon
+   c) Pedantic
+   d) Verbatim
+
+   Answer: b
+
+248. A child of unusual or remarkable talent
+   a) Scholar
+   b) Diligent
+   c) Freak
+   d) Prodigy
+
+   Answer: d
+
+249. One who loves mankind
+   a) Anthropologist
+   b) Philanthropist
+   c) Seismologist
+   d) Optometrist
+
+   Answer: b
+
+250. A common place remark
+   a) Dialogue
+   b) Platitude
+   c) Epigram
+   d) Statement
+
+   Answer: b
+
+251. Study of mankind
+   a) Pathology
+   b) Physiology
+   c) Philology
+   d) Anthropology
+
+   Answer: d
+
+252. Study of statistics of births, deaths, disease to show the state of community
+   a) Geography
+   b) Anthropology
+   c) Topography
+   d) Demography
+
+   Answer: d
+
+253. One who takes delight in excessive cruelty
+   a) Anarchist
+   b) Sophist
+   c) Sadist
+   d) Nihilist
+
+   Answer: c
+
+254. Not conforming to ordinary rules of behaviour
+   a) Lunatic
+   b) Absurd
+   c) Eccentric
+   d) Maniacal
+
+   Answer: c
+
+255. A man who starves body for the good of soul
+   a) Monk
+   b) Ascetic
+   c) Saint
+   d) Spiritualist
+
+   Answer: b
+
+256. A raised place on which offerings to a god are made
+   a) Mound
+   b) Chapel
+   c) Altar
+   d) Archives
+
+   Answer: c
+
+257. A place where a wild animal lives
+   a) Forest
+   b) Stable
+   c) Lair
+   d) Sanctuary
+
+   Answer: c
+
+258. One who cuts precious stones
+   a) Philatelist
+   b) Drover
+   c) Lapidist
+   d) Oculist
+
+   Answer: c
+
+259. One who compiles dictionary
+   a) Calligrapher
+   b) Editor
+   c) Lexicographer
+   d) Compiler
+
+   Answer: c
+
+260. A person with full discretionary powers to act on behalf of a country
+   a) Ambassador
+   b) Emissary
+   c) Plenipotentiary
+   d) Envoy
+
+   Answer: c
+
+261. A man with prejudiced views against religion
+   a) Orthodox
+   b) Bigot
+   c) Fanatic
+   d) Profane
+
+   Answer: d
+
+262. Medicine which lessens pain
+   a) Balm
+   b) Panacea
+   c) Anodyne
+   d) Antibiotic
+
+   Answer: c
+
+263. One who uses fear as a weapon of power
+   a) Terrorist
+   b) Militant
+   c) Extremist
+   d) Anarchist
+
+   Answer: a
+
+264. A pioneer of a reform movement
+   a) Renegade
+   b) Apostle
+   c) Apotheosis
+   d) Apothecary
+
+   Answer: b
+
+265. Dungeon entered by trapdoor
+   a) Cellar
+   b) Ditch
+   c) Vault
+   d) Oubliette
+
+   Answer: d
+
+266. A person with a beautiful and elegant handwriting
+   a) Calligrapher
+   b) Collier
+   c) Choreographer
+   d) Cartographer
+
+   Answer: a
+
+267. One who does not care for literature or art
+   a) Barbarian
+   b) Philistine
+   c) Illiterate
+   d) Primitive
+
+   Answer: b
+
+268. Intentional destruction of racial groups
+   a) Homicide
+   b) Genocide
+   c) Fratricide
+   d) Regicide
+
+   Answer: b
+
+269. Through which light cannot pass
+   a) Dull
+   b) Dark
+   c) Obscure
+   d) Opaque
+
+   Answer: d
+
+270. An unexpected stroke of good luck
+   a) Fortune
+   b) Windfall
+   c) Boon
+   d) Breakthrough
+
+   Answer: b
+
+271. Stealing from the writings of others
+   a) Copying
+   b) Reframing
+   c) Reproducing
+   d) Plagiarism
+
+   Answer: d
+
+272. A person who is reserved in talks
+   a) Reticent
+   b) Silent
+   c) Mendicant
+   d) Garrulous
+
+   Answer: a
+
+273. To talk much without coming to the point
+   a) Verbosity
+   b) Garrulous
+   c) Loquacity
+   d) Circumlocution
+
+   Answer: d
+
+274. A person who looks on the bright side of things
+   a) Sycophant
+   b) Optimist
+   c) Cynic
+   d) Pessimist
+
+   Answer: b
+
+275. Government by the gods
+   a) Plutocracy
+   b) Theocracy
+   c) Thearchy
+   d) Pantisocracy
+
+   Answer: c
+
+276. Which can be easily believed
+   a) Credulous
+   b) Creditable
+   c) Trustworthy
+   d) Credible
+
+   Answer: d
+
+277. Design made by putting together coloured pieces of glass or stones
+   a) Oleograph
+   b) Mosaic
+   c) Tracery
+   d) Relief
+
+   Answer: b
+
+278. The school or college in which one has been educated
+   a) Matinee
+   b) Alumni
+   c) Alma mater
+   d) Calvin
+
+   Answer: c
+
+279. A woman whose husband is dead
+   a) Virgin
+   b) Spinster
+   c) Wedlock
+   d) Widow
+
+   Answer: d
+
+280. A small piece of wood
+   a) Splinter
+   b) Crumb
+   c) Scrap
+   d) Chip
+
+   Answer: d
+
+281. Wicked to a high degree
+   a) Cruel
+   b) Hateful
+   c) Heinous
+   d) Abominable
+
+   Answer: c
+
+282. One desirous of getting money
+   a) Avaricious
+   b) Voracious
+   c) Garrulous
+   d) Greedy
+
+   Answer: a
+
+283. A person who is always dissatisfied
+   a) Heretic
+   b) Felon
+   c) Malcontent
+   d) Surrogate
+
+   Answer: c
+
+284. A group of three novels or plays, each complete in itself
+   a) Triplet
+   b) Triumvir
+   c) Trilogy
+   d) Trivet
+
+   Answer: c
+
+285. One who is interested in the welfare of women
+   a) Feminine
+   b) Feminist
+   c) Effeminate
+   d) Flamboyant
+
+   Answer: b
+
+286. A sudden rush of wind
+   a) Gale
+   b) Typhoon
+   c) Gust
+   d) Storm
+
+   Answer: c
+
+287. A person who helps you break the law
+   a) Spy
+   b) Collaborator
+   c) Ally
+   d) Accomplice
+
+   Answer: d
+
+288. Short descriptive poem of picturesque scene or incident
+   a) Malady
+   b) Sonnet
+   c) Idyll
+   d) Charade
+
+   Answer: c
+
+289. A short stay at a place
+   a) Halt
+   b) Interlude
+   c) Intermission
+   d) Sojourn
+
+   Answer: d
+
+290. Constant effort to achieve something
+   a) Perseverance
+   b) Attempt
+   c) Enthusiasm
+   d) Vigour
+
+   Answer: a
+
+291. One who lends money at high rate of interest
+   a) Solvent
+   b) Uxorious
+   c) Usurer
+   d) Shylock
+
+   Answer: c
+
+292. A person not sure of the existence of god
+   a) Theist
+   b) Atheist
+   c) Agnostic
+   d) Cynic
+
+   Answer: c
+
+293. Woman trained to help other women in child birth
+   a) Virgin
+   b) Midwife
+   c) Matron
+   d) Nurse
+
+   Answer: b
+
+294. To deprive a thing of its holy character
+   a) Sacrilege
+   b) Blasphemy
+   c) Consecrate
+   d) Desecrate
+
+   Answer: d
+
+295. One who deserts his religion
+   a) Deserter
+   b) Turncoat
+   c) Fanatic
+   d) Apostate
+
+   Answer: d
+
+296. To take one to task
+   a) Disgrace
+   b) Handle
+   c) Entreat
+   d) Rebuke
+
+   Answer: d
+
+297. Mania for setting fires
+   a) Pyromania
+   b) Kleptomania
+   c) Logomania
+   d) Nymphomania
+
+   Answer: a
+
+298. The original inhabitants of a country
+   a) Aborigines
+   b) Citizens
+   c) Natives
+   d) Primitive
+
+   Answer: a
+
+299. Place where birds are kept
+   a) Zoo
+   b) Apiary
+   c) Armoury
+   d) Aviary
+
+   Answer: d
+
+300. Loss of power to move in any or every part of the body
+   a) Rheumatism
+   b) Paralysis
+   c) Eczema
+   d) Leprosy
+
+   Answer: b
+
+301. A house for storing grains
+   a) Cellar
+   b) Store
+   c) Godown
+   d) Granary
+
+   Answer: d
+
+302. One who totally abstains from alcoholic drinks
+   a) Puritan
+   b) Samaritan
+   c) Pedant
+   d) Teetotaller
+
+   Answer: d
+
+303. A man who pays too much attention to his clothes and personal appearance
+   a) Snob
+   b) Duffer
+   c) Dandy
+   d) Licentious
+
+   Answer: c
+
+304. Contempt of god
+   a) Athesim
+   b) Nihilism
+   c) Blasphemy
+   d) Agnosticism
+
+   Answer: c
+
+305. Member of a band of robbers
+   a) Dacoit
+   b) Brigand
+   c) Thief
+   d) Pirate
+
+   Answer: b
+
+306. Responsible according to law
+   a) Liable
+   b) Eligible
+   c) Legalised
+   d) Legitimate
+
+   Answer: a
+
+307. Wistful longing for something one has known in the past
+   a) Hysteria
+   b) Megalomania
+   c) Nostalgia
+   d) Logomania
+
+   Answer: c
+
+308. A man of odd habits
+   a) Eccentric
+   b) Cynical
+   c) Introvert
+   d) Moody
+
+   Answer: a
+
+309. Science of printing
+   a) Calligraphy
+   b) Typography
+   c) Topography
+   d) Cryptography
+
+   Answer: b
+
+310. One who robs smuggler of his smuggled goods after the border has been crossed
+   a) Pirate
+   b) Malefactor
+   c) Hijacker
+   d) Philanderer
+
+   Answer: c
+
+311. One who specialises in the study of birds
+   a) Biologist
+   b) Naturalist
+   c) Zoologist
+   d) Ornithologist
+
+   Answer: d
+
+312. Person who makes love for amusement without serious intentions
+   a) Concubine
+   b) Philanderer
+   c) Dandy
+   d) Flirt
+
+   Answer: b
+
+313. Allowance due to a wife from her husband on separation
+   a) Bail
+   b) Alimony
+   c) Dole
+   d) Compensation
+
+   Answer: b
+
+314. The doctrine that human souls pass from one body to another at the time of death
+   a) Metamorphosis
+   b) Transition
+   c) Transmigration
+   d) Extrapolation
+
+   Answer: c
+
+315. To come as a settler into another country
+   a) Alienate
+   b) Emigrate
+   c) Migrate
+   d) Immigrate
+
+   Answer: d
+
+316. A person who is very fond of sensuous enjoyments
+   a) Epicure
+   b) Stoic
+   c) Lusty
+   d) Hedonist
+
+   Answer: a
+
+317. One who sacrifices his life for a cause
+   a) Soldier
+   b) Revolutionary
+   c) Martyr
+   d) Patriot
+
+   Answer: c
+
+318. A style in which a writer makes a display of his knowledge
+   a) Pedantic
+   b) Ornate
+   c) Verbose
+   d) Pompous
+
+   Answer: a
+
+319. Science of bodily structure
+   a) Anthropology
+   b) Neurology
+   c) Hygiene
+   d) Anatomy
+
+   Answer: d
+
+320. A written declaration made on oath in the presence of a magistrate
+   a) Voucher
+   b) Dossier
+   c) Affidavit
+   d) Document
+
+   Answer: c
+
+321. The power of reading the thoughts of others
+   a) Psychopathy
+   b) Telecommunication
+   c) Psychology
+   d) Telepathy
+
+   Answer: d
+
+322. One filled with excessive and mistaken enthusiasm in cause
+   a) Martyr
+   b) Pedant
+   c) Fanatic
+   d) Patriot
+
+   Answer: c
+
+323. Custom of having many wives
+   a) Polyandry
+   b) Polygamy
+   c) Matrimony
+   d) Celibacy
+
+   Answer: b
+
+324. One who plays a game for pleasure and not professionally
+   a) Veteran
+   b) Player
+   c) Connoisseur
+   d) Amateur
+
+   Answer: d
+
+325. A light sailing boat built especially for racing
+   a) Dinghy
+   b) Canoe
+   c) Yacht
+   d) Frigate
+
+   Answer: c
+
+326. An instrument for viewing objects at a distance
+   a) Microscope
+   b) Telescope
+   c) Periscope
+   d) Kaleidoscope
+
+   Answer: b
+
+327. A man who operates on sick people
+   a) Physician
+   b) Operator
+   c) Surgeon
+   d) Physiotherapist
+
+   Answer: c
+
+328. A person very hard to please
+   a) Obstinate
+   b) Unconquerable
+   c) Fastidious
+   d) Invincible
+
+   Answer: c
+
+329. A name adopted by an author in his writings
+   a) Title
+   b) Nomenclature
+   c) Nickname
+   d) Pseudonym
+
+   Answer: d
+
+330. A person who forsakes religion
+   a) Charlatan
+   b) Apostle
+   c) Renegade
+   d) Apotheosis
+
+   Answer: c
+
+331. Person holding a scholarship at a university
+   a) Intellectual
+   b) Pedant
+   c) Scholar
+   d) Bursar
+
+   Answer: d
+
+332. A person without manners or polish
+   a) Rustic
+   b) Naive
+   c) Boorish
+   d) Barbarian
+
+   Answer: c
+
+333. A funny imitation of a poem
+   a) Counterfeit
+   b) Sonnet
+   c) Caricature
+   d) Parody
+
+   Answer: d
+
+334. A person who is made to bear the blame due to others
+   a) Innocent
+   b) Scapegoat
+   c) Ignoramus
+   d) Nincompoop
+
+   Answer: b
+
+335. A thing or person behind time
+   a) Lazy
+   b) Sluggish
+   c) Indolent
+   d) Antiquated
+
+   Answer: d
+
+336. Man whose wife has been unfaithful to him
+   a) Dandy
+   b) Bastard
+   c) Concubine
+   d) Cuckold
+
+   Answer: d
+
+337. Course for chariot races
+   a) Sanatorium
+   b) Hangar
+   c) Hippodrome
+   d) Arena
+
+   Answer: c
+
+338. Use of more words than are needed to express the meaning
+   a) Circumlocution
+   b) Verbatim
+   c) Ventriloquism
+   d) Pleonasm
+
+   Answer: d
+
+339. A person who rarely speaks the truth
+   a) Scoundrel
+   b) Liar
+   c) Crook
+   d) Hypocrite
+
+   Answer: b
+
+340. To bring peace, and end violence
+   a) Soothe
+   b) Harmonise
+   c) Pacify
+   d) Tranquilize
+
+   Answer: c
+
+341. That which can be interpreted in any way
+   a) Ambient
+   b) Ambivalent
+   c) Amphibious
+   d) Ambiguous
+
+   Answer: d
+
+342. Person who has long experience
+   a) Stalwart
+   b) Pedantic
+   c) Itinerant
+   d) Veteran
+
+   Answer: d
+
+343. Be the embodiment or perfect example
+   a) Signify
+   b) Characterise
+   c) Personify
+   d) Masquerade
+
+   Answer: c
+
+344. A person who maliciously destroys by fire
+   a) Antagonist
+   b) Activist
+   c) Terrorist
+   d) Incendiary
+
+   Answer: d
+
+345. A person claiming to be superior In culture and intellect to others
+   a) Intellectual
+   b) Aristocrat
+   c) Elite
+   d) Highbrow
+
+   Answer: d
+
+346. The line which a plough cuts in the ground
+   a) Vale
+   b) Trench
+   c) Furrow
+   d) Trough
+
+   Answer: c
+
+347. Of unknown and unadmitted authorship
+   a) Gullible
+   b) Anonymous
+   c) Unanimous
+   d) Vexation
+
+   Answer: b
+
+348. A person concerned with practical results and values
+   a) Plagiarist
+   b) Realist
+   c) Pragmatist
+   d) Fundamentalist
+
+   Answer: c
+
+349. A speech by an actor at the end of a play
+   a) Epilogue
+   b) Monologue
+   c) Duologue
+   d) Prologue
+
+   Answer: a
+
+350. Decision made upon a political question by the votes of all qualified persons
+   a) Veto
+   b) Suffrage
+   c) Plebiscite
+   d) Franchise
+
+   Answer: c
+
+351. Act of taking one's life
+   a) Suicide
+   b) Slaughter
+   c) Homicide
+   d) Immolation
+
+   Answer: a
+
+352. A place of ideal peace and happiness
+   a) Asylum
+   b) Utopia
+   c) El dorado
+   d) Elysium
+
+   Answer: d
+
+353. Shining, brilliant and magnificent
+   a) Luminous
+   b) Gleaming
+   c) Resplendent
+   d) Polished
+
+   Answer: c
+
+354. Changing one's mind too quickly
+   a) Adaptability
+   b) Instability
+   c) Versatility
+   d) Vacillation
+
+   Answer: d
+
+355. One who talks very little
+   a) Reserved
+   b) Mute
+   c) Phlegmatic
+   d) Stoic
+
+   Answer: a
+
+356. Government by the representatives of the people
+   a) Diplomacy
+   b) Democracy
+   c) Socialism
+   d) Autocracy
+
+   Answer: b
+
+357. One knowing everything
+   a) Learned
+   b) Omnipresent
+   c) Omnipotent
+   d) Omniscient
+
+   Answer: d
+
+358. The list of courses at a meal or of dishes that can be served in a restaurant
+   a) Agenda
+   b) Menu
+   c) Biodata
+   d) Catalogue
+
+   Answer: b
+
+359. A room leading into a large room or hall
+   a) Anteroom
+   b) Lounge
+   c) Lobby
+   d) Pantry
+
+   Answer: a
+
+360. A low-area storm with high winds rotating about a centre of low atmospheric pressure
+   a) Cyclone
+   b) Tornado
+   c) Typhoon
+   d) Hurricane
+
+   Answer: a
+
+361. One who promotes the idea of absence of government of any kind, when every man should be a law unto himself
+   a) Anarchist
+   b) Belligerent
+   c) Iconoclast
+   d) Agnostic
+
+   Answer: a
+
+362. A field or a part of a garden where fruit trees grow
+   a) Park
+   b) Nursery
+   c) Yard
+   d) Orchard
+
+   Answer: d
+
+363. A slow-witted and incompetent person
+   a) Nigger
+   b) Dud
+   c) Snotty
+   d) Duffer
+
+   Answer: d
+
+364. One who is neither intelligent nor dull
+   a) Tolerable
+   b) Commoner
+   c) Mediocre
+   d) Diligent
+
+   Answer: c
+
+365. Present opposing arguments or evidence
+   a) Rebut
+   b) Criticise
+   c) Rebuff
+   d) Reprimand
+
+   Answer: a
+
+366. Careful in performing duties
+   a) Punctual
+   b) Punctilious
+   c) Sincere
+   d) Pugnacious
+
+   Answer: b
+
+367. The place where bricks are baked
+   a) Foundry
+   b) Mint
+   c) Cemetery
+   d) Kiln
+
+   Answer: d
+
+368. A person who brings goods illegally into the country
+   a) Exporter
+   b) Importer
+   c) Smuggler
+   d) Imposter
+
+   Answer: c
+
+369. One who stirs people for personal politics or profit
+   a) Pedagogue
+   b) Demagogue
+   c) Dictator
+   d) Hypocrite
+
+   Answer: b
+
+370. Cutting for stone in the bladder
+   a) Dichotomy
+   b) Tubectomy
+   c) Vasectomy
+   d) Lithotomy
+
+   Answer: d
+
+371. A person who travels to a sacred place as an act of religious devotion
+   a) Hermit
+   b) Pilgrim
+   c) Saint
+   d) Mendicant
+
+   Answer: b
+
+372. A person sharing responsibility for a political party's discipline and tactics
+   a) Statesman
+   b) Diplomat
+   c) Whip
+   d) Defector
+
+   Answer: c
+
+373. Informal business communication with a personal signature
+   a) Agendum
+   b) Corrigendum
+   c) Plagiarism
+   d) Memorandum
+
+   Answer: d
+
+374. A story in verse
+   a) Elegy
+   b) Hymn
+   c) Sonnet
+   d) Ballad
+
+   Answer: d
+
+375. Parts of country behind the coast or a river's banks
+   a) Swamps
+   b) Archipelago
+   c) Hinterland
+   d) Isthmus
+
+   Answer: c
+
+376. Just punishment for wrong doing
+   a) Nemesis
+   b) Purgation
+   c) Wrath
+   d) Catharsis
+
+   Answer: a
+
+377. To break of proceedings of a meeting for a time
+   a) Convene
+   b) Terminate
+   c) Adjourn
+   d) Procrastinate
+
+   Answer: c
+
+378. One who is likeable
+   a) Amicable
+   b) Amiable
+   c) Effusive
+   d) Ebullient
+
+   Answer: b
+
+379. Something which is not thorough or profound
+   a) Superficial
+   b) Superstitious
+   c) Superfluous
+   d) Supernatural
+
+   Answer: a
+
+380. Using of new words
+   a) Coinage
+   b) Vocabulary
+   c) Neologism
+   d) Malapropism
+
+   Answer: c
+
+381. Equal in rank, merit or quality
+   a) Chum
+   b) Contemporary
+   c) Peer
+   d) Colleague
+
+   Answer: c
+
+382. Books, pictures etc. intended to arouse sexual desire
+   a) Lewd
+   b) Licentious
+   c) Pornography
+   d) Erotica
+
+   Answer: c
+
+383. To mediate between two parties in a dispute
+   a) Interfere
+   b) Interact
+   c) Interrupt
+   d) Intercede
+
+   Answer: d
+
+384. The branch of medical science which deals with the problems of the old
+   a) Oncology
+   b) Geriatrics
+   c) Obstetrics
+   d) Endocrinology
+
+   Answer: b
+
+385. A man who dances to the tunes of his wife
+   a) Effeminate
+   b) Slave
+   c) Henpecked
+   d) Chum
+
+   Answer: c
+
+386. One who is honourably discharged from service
+   a) Emeritus
+   b) Honorary
+   c) Sinecure
+   d) Retired
+
+   Answer: a
+
+387. A heavy unnatural slumber
+   a) Nap
+   b) Insomnia
+   c) Coma
+   d) Stupor
+
+   Answer: d
+
+388. To do away with a rule
+   a) Cancel
+   b) Repeal
+   c) Obliterate
+   d) Abrogate
+
+   Answer: d
+
+389. Food which agrees with one's taste
+   a) Pungent
+   b) Palatable
+   c) Sensuous
+   d) Edible
+
+   Answer: b
+
+390. One who loves books
+   a) Bibliophobe
+   b) Bibliographer
+   c) Bibliophile
+   d) Bibliophagist
+
+   Answer: c
+
+391. Plain or self-evident truth
+   a) Proverb
+   b) Precept
+   c) Truism
+   d) Formula
+
+   Answer: c
+
+392. Printed notice of somebody's death
+   a) Condolence
+   b) Calumny
+   c) Obituary
+   d) Ouija
+
+   Answer: c
+
+393. A person who has just started learning
+   a) Foreman
+   b) Accomplice
+   c) Novice
+   d) Apprentice
+
+   Answer: d
+
+394. A fault that may be forgiven
+   a) Mercenary
+   b) Venial
+   c) Unforgivable
+   d) Inexcusable
+
+   Answer: b
+
+395. Person who gives himself unto luxury and sexual pleasures
+   a) Masochist
+   b) Voluptuary
+   c) Debauch
+   d) Epicure
+
+   Answer: b
+
+396. A woman of lax moral
+   a) Prostitute
+   b) Harlot
+   c) Concubine
+   d) Hostess
+
+   Answer: b
+
+397. Indifference to pleasure or pain
+   a) Docility
+   b) Stoicism
+   c) Patience
+   d) Reticence
+
+   Answer: b
+
+398. Person who gives written testimony for use in law court
+   a) Deponent
+   b) Appellant
+   c) Witness
+   d) Litigant
+
+   Answer: a
+
+399. A person who makes and sells ladies hats, etc
+   a) Draper
+   b) Tinker
+   c) Milliner
+   d) Farrier
+
+   Answer: c
+
+400. A thing liable to be easily broken
+   a) Breakable
+   b) Ductile
+   c) Brittle
+   d) Delicate
+
+   Answer: c
+
+401. Yearly celebration of a date or an event
+   a) Centenary
+   b) Jubilee
+   c) Anniversary
+   d) Birthday
+
+   Answer: c
+
+402. Interested mainly in a small group, country etc
+   a) Fanatic
+   b) Patriotic
+   c) Insular
+   d) Usurer
+
+   Answer: c
+
+403. The period between two reigns
+   a) Lapse
+   b) Interregnum
+   c) Stasis
+   d) Anachronism
+   e) Intermission
+
+   Answer: b
+
+404. A man who is having  the qualities of woman
+   a) Loquacious
+   b) Celibate
+   c) Effeminate
+   d) Epicurean
+
+   Answer: c
+
+405. A person 70 to 79 years old
+   a) Nonagenarian
+   b) Centenarian
+   c) Octogenarian
+   d) Septuagenarian
+
+   Answer: d
+
+406. People in a rowdy scene
+   a) Individual
+   b) Discrete
+   c) Rabble
+   d) Congregation
+
+   Answer: c
+
+407. A person working in the same place with another
+   a) Enemy
+   b) Colleague
+   c) Assistant
+   d) Contemporary
+
+   Answer: b
+
+408. Property inherited from one's father or ancestor
+   a) Alimony
+   b) Patrimony
+   c) Legacy
+   d) Inheritance
+
+   Answer: b
+
+409. A person pretending to be somebody he is not
+   a) Imposter
+   b) Liar
+   c) Rogue
+   d) Magician
+
+   Answer: a
+
+410. Fear of going to bed
+   a) Clinophobia
+   b) Ballistophobia
+   c) Xenophobia
+   d) Stenophobia
+
+   Answer: a
+
+411. Incapable of being  explained or accounted for
+   a) Incredible
+   b) Inexplicable
+   c) Inexplicit
+   d) Inexpressible
+
+   Answer: b
+
+412. Land so surrounded by water as to be almost an island
+   a) Archipelago
+   b) Isthmus
+   c) Peninsula
+   d) Lagoon
+
+   Answer: c
+
+413. A perception without objective reality
+   a) Allusion
+   b) Illusion
+   c) Dyspepsia
+   d) Hallucination
+
+   Answer: d
+
+414. Open rebellion of soldiers and sailors against lawful authority
+   a) Revolt
+   b) Revolution
+   c) Mutiny
+   d) Anarchy
+
+   Answer: c
+
+415. A verse letter
+   a) Epistle
+   b) Epitaph
+   c) Pantomime
+   d) Lay
+
+   Answer: a
+
+416. That which cannot be rectified or made good
+   a) Irreparable
+   b) Irrevocable
+   c) Irreconcilable
+   d) Irreplaceable
+
+   Answer: a
+
+417. That which is perceptible by touch
+   a) Tangible
+   b) Tenacious
+   c) Contagious
+   d) Contingent
+
+   Answer: a
+
+418. Something which can be taken for granted
+   a) Doctrine
+   b) Maxim
+   c) Tenet
+   d) Postulate
+
+   Answer: d
+
+419. Words used in ancient times but no longer in general use now
+   a) Extinct
+   b) Current
+   c) Modern
+   d) Archaic
+
+   Answer: d
+
+420. A person interested in reading books and nothing else
+   a) Student
+   b) Bookworm
+   c) Scholar
+   d) Book-keeper
+
+   Answer: b
+
+421. People at a lecture or concert
+   a) Congregation
+   b) Audience
+   c) Mob
+   d) Spectators
+
+   Answer: b
+
+422. A drawing on transparent paper
+   a) Red print
+   b) Blue print
+   c) Negative
+   d) Transparency
+
+   Answer: d
+
+423. A person who pretends to have more knowledge or skill than he really has
+   a) Renegade
+   b) Apostle
+   c) Charlatan
+   d) Apotheosis
+
+   Answer: c
+
+424. Bring to an end
+   a) Hurl
+   b) Hustle
+   c) Final
+   d) Finish
+
+   Answer: d
+
+425. A person guilty of malicious setting on fire of property etc.
+   a) Plagiarist
+   b) Anarchist
+   c) Arsonist
+   d) Nihilist
+
+   Answer: c
+
+426. That which makes it difficult to recognise the presence of real nature of somebody or something
+   a) Cover
+   b) Mask
+   c) Pretence
+   d) Camouflage
+
+   Answer: d
+
+427. A physician who delivers babies
+   a) Paediatrician
+   b) Obstetrician
+   c) Gynaecologist
+   d) Psychiatrist
+
+   Answer: b
+
+428. Public building where weapons and ammunition are made or stored
+   a) Godown
+   b) Cellar
+   c) Armoury
+   d) Arsenal
+
+   Answer: d
+
+429. One who cannot be corrected
+   a) Invulnerable
+   b) Hardened
+   c) Incurable
+   d) Incorrigible
+
+   Answer: d
+
+430. Poem in short stanzas narrating a popular story
+   a) Ballet
+   b) Epic
+   c) Ballad
+   d) Sonnet
+
+   Answer: c
+
+431. A word no longer in use
+   a) Exotic
+   b) Primitive
+   c) Obsolete
+   d) Ancient
+
+   Answer: c
+
+432. A person who sneaks into a country
+   a) Infiltrator
+   b) Sniper
+   c) Invader
+   d) Aggressor
+
+   Answer: a
+
+433. Creature having both male and female organs
+   a) Sodomite
+   b) Homosexual
+   c) Masochist
+   d) Hermaphrodite
+
+   Answer: d
+
+434. Interval between two events or two periods of time of different character
+   a) Intermission
+   b) Interlude
+   c) Interpolation
+   d) Appendix
+
+   Answer: b
+
+435. Connoisseur of choice food
+   a) Greedy
+   b) Glutton
+   c) Gourmet
+   d) Gourmand
+
+   Answer: c
+
+436. One who eats human flesh
+   a) Beast
+   b) Savage
+   c) Cannibal
+   d) Carnivorous
+
+   Answer: c
+
+437. Official in charge of a museum
+   a) Dean
+   b) Warden
+   c) Curator
+   d) Supervisor
+
+   Answer: c
+
+438. A person's first speech
+   a) Preface
+   b) Maiden
+   c) Opener
+   d) Extempore
+
+   Answer: b
+
+439. Giving undue favours to one's own kith and kin
+   a) Favouritism
+   b) Nepotism
+   c) Corruption
+   d) Worldliness
+
+   Answer: b
+
+440. The act of violating the sanctity of church
+   a) Heresy
+   b) Desecration
+   c) Sacrilege
+   d) Blasphemy
+
+   Answer: c
+
+441. An old unmarried woman
+   a) Virgin
+   b) Bachelor
+   c) Spinster
+   d) Matron
+
+   Answer: c
+
+442. One who thinks that human nature is essentially evil
+   a) Agnostic
+   b) Cynic
+   c) Sceptic
+   d) Misogynist
+
+   Answer: b
+
+443. A person who lives by himself
+   a) Venerable
+   b) Sage
+   c) Quietus
+   d) Recluse
+
+   Answer: d
+
+444. The loop of rope with a running knot used to hang a person
+   a) Noose
+   b) Cable
+   c) Cord
+   d) Chord
+
+   Answer: a
+
+445. The caretaker of a public building
+   a) Dean
+   b) Curator
+   c) Custodian
+   d) Warden
+
+   Answer: c
+
+446. A person who enters without any invitation
+   a) Burglar
+   b) Intruder
+   c) Thief
+   d) Vandal
+
+   Answer: b
+
+447. Lack of enough blood
+   a) Amnesia
+   b) Insomnia
+   c) Anaemia
+   d) Allergy
+
+   Answer: c
+
+448. One who does not know how to save money
+   a) Reckless
+   b) Lavish
+   c) Careless
+   d) Spendthrift
+
+   Answer: d
+
+449. A short journey made by a group of persons together
+   a) Hike
+   b) Excursion
+   c) Picnic
+   d) Stroll
+
+   Answer: b
+
+450. One who has suddenly gained new wealth, power or prestige
+   a) Aristocrat
+   b) Affluent
+   c) Maverick
+   d) Parvenu
+
+   Answer: d
+
+451. One who comes from a country area and is often considered to be stupid
+   a) Villager
+   b) Rustic
+   c) Bumpkin
+   d) Philanderer
+
+   Answer: c
+
+452. Thing that can be felt or touched
+   a) Pandemic
+   b) Palpable
+   c) Paltry
+   d) Panchromatic
+
+   Answer: b
+
+453. One who talks continuously
+   a) Impecunious
+   b) Loquacious
+   c) Voracious
+   d) Avaricious
+
+   Answer: b
+
+454. Interested in and clever at many things
+   a) Manicure
+   b) Manifest
+   c) Intelligent
+   d) Versatile
+
+   Answer: d
+
+455. Run away from home with lover
+   a) Ostracize
+   b) Vanquish
+   c) Abscond
+   d) Elope
+
+   Answer: d
+
+456. Irrational fear of crowds
+   a) Ochlophobia
+   b) Claustrophobia
+   c) Sitophobia
+   d) Astrophobia
+
+   Answer: a
+
+457. A person who is talkative
+   a) Garrulous
+   b) Speaker
+   c) Orator
+   d) Laxative
+
+   Answer: a
+
+458. Explicit undertaking to do something
+   a) Agreement
+   b) Decision
+   c) Settlement
+   d) Promise
+
+   Answer: d
+
+459. An expression of mild disapproval
+   a) Reproof
+   b) Impertinence
+   c) Warning
+   d) Denigration
+
+   Answer: a
+
+460. Murder of a new-born child
+   a) Homicide
+   b) Regicide
+   c) Fratricide
+   d) Infanticide
+
+   Answer: d
+
+461. A person who readily believes others
+   a) Credible
+   b) Credulous
+   c) Sensible
+   d) Sensitive
+
+   Answer: b
+
+462. A person who is skilled in horsemanship
+   a) Cavalier
+   b) Equestrian
+   c) Jockey
+   d) Cavalryman
+
+   Answer: b
+
+463. Code of diplomatic etiquette and precedence
+   a) Formalism
+   b) Statesmanship
+   c) Protocol
+   d) Hierarchy
+
+   Answer: c
+
+464. A place of good climate for invalids
+   a) Asylum
+   b) Hospital
+   c) Cemetery
+   d) Sanatorium
+
+   Answer: d
+
+465. One appointment by two parties to settle a dispute
+   a) Arbiter
+   b) Mediator
+   c) Negotiator
+   d) Middleman
+
+   Answer: a
+
+466. Medical study of the skin and disease
+   a) Dermatology
+   b) Orthopaedics
+   c) Venereology
+   d) Homeopathy
+
+   Answer: a
+
+467. Murder of a king
+   a) Matricide
+   b) Genocide
+   c) Regicide
+   d) Homicide
+
+   Answer: c
+
+468. Forcing out(blood, etc.) from its vessel
+   a) Extrapolate
+   b) Extravasate
+   c) Exuberate
+   d) Extricate
+
+   Answer: b
+
+469. Walk in a vain, self-important way
+   a) Jog
+   b) Trek
+   c) Trudge
+   d) Strut
+
+   Answer: d
+
+470. A book containing summarised information on all branches of knowledge
+   a) Dictionary
+   b) Anthology
+   c) Encyclopaedia
+   d) Directory
+
+   Answer: c
+
+471. To atone for one's sins
+   a) Apologise
+   b) Ingratiate
+   c) Expiate
+   d) Propitiate
+
+   Answer: c
+
+472. People in a riot
+   a) Individual
+   b) Separate
+   c) Mob
+   d) Congregation
+
+   Answer: c
+
+473. A tumour which is not likely to spread
+   a) Benign
+   b) Localised
+   c) Dead
+   d) Malignant
+
+   Answer: a
+
+474. A list of explanation of words, especially unusual ones at the end of a book
+   a) Appendix
+   b) Index
+   c) Glossary
+   d) Bibliography
+
+   Answer: c
+
+475. Room with toilet facilities
+   a) Suite
+   b) Deluxe
+   c) Lavatory
+   d) Cabin
+
+   Answer: c
+
+476. To surround with armed forces
+   a) Seize
+   b) Attack
+   c) Cease
+   d) Besiege
+
+   Answer: d
+
+477. Place which provides both board and lodging
+   a) Cafe
+   b) Inn
+   c) Restaurant
+   d) Motel
+
+   Answer: b
+
+478. The normal abode of an animal or plant
+   a) Environment
+   b) Habitat
+   c) Settlement
+   d) Niche
+
+   Answer: b
+
+479. The rule of a person who is tyrant
+   a) Despotism
+   b) Anarchy
+   c) Tyranny
+   d) Dictatorship
+
+   Answer: a
+
+480. That which can be carried
+   a) Handy
+   b) Portable
+   c) Potable
+   d) Bearable
+
+   Answer: b
+
+481. Place where bankers exchange cheques and adjust balances
+   a) Exchequer
+   b) Clearing house
+   c) Bank
+   d) Commerce
+
+   Answer: b
+
+482. One who can use either of his hands with ease
+   a) Amateur
+   b) Expert
+   c) Ambidextrous
+   d) Gluttonous
+
+   Answer: c
+
+483. One who speaks or understands many languages
+   a) Scholar
+   b) Grammarian
+   c) Linguist
+   d) Polyglot
+
+   Answer: d
+
+484. A person who wishes to throw  over all establishments
+   a) Rebel
+   b) Anarchist
+   c) Terrorist
+   d) Hooligan
+
+   Answer: b
+
+485. Clumsy or ill-bred fellow
+   a) Boor
+   b) Oaf
+   c) Lout
+   d) Yokel
+
+   Answer: a
+
+486. Extreme old age when a man behaves like a fool
+   a) Dotage
+   b) Imbecility
+   c) Young
+   d) Superannuation
+
+   Answer: a
+
+487. A paper written in one's own handwriting
+   a) Manuscript
+   b) Scroll
+   c) Parchment
+   d) Transcript
+
+   Answer: a
+
+488. Of outstanding significance
+   a) Meaningful
+   b) Ominous
+   c) Evident
+   d) Monumental
+   e) Rational
+
+   Answer: d
+
+489. One who promotes the idea of absence of government of any kind, when every man should be a law into himself
+   a) Anarchist
+   b) Belligerent
+   c) Iconoclast
+   d) Agnostic
+
+   Answer: a
+
+490. A statement which cannot be understood
+   a) Infallible
+   b) Illegible
+   c) Inexplicable
+   d) Incomprehensible
+
+   Answer: d
+
+491. To talk without respect of something sacred or holy
+   a) Blasphemy
+   b) Obscenity
+   c) Rudeness
+   d) Vulgarity
+
+   Answer: a
+
+492. A dramatic performance
+   a) Mask
+   b) Mosque
+   c) Masque
+   d) Mascot
+
+   Answer: c
+
+493. A small shop that sells fashionable clothes, cosmetics etc.
+   a) Booth
+   b) Stall
+   c) Boutique
+   d) Store
+
+   Answer: c
+
+494. A violent and bad-tempered woman
+   a) Prostitute
+   b) Concubine
+   c) Virago
+   d) Amazon
+
+   Answer: c
+
+495. To congratulate someone in a formal manner
+   a) Wish
+   b) Solemnize
+   c) Celebrate
+   d) Felicitate
+
+   Answer: d
+
+496. A small, named group of fixed stars
+   a) Galaxy
+   b) Cluster
+   c) Constellation
+   d) Congregation
+
+   Answer: c
+
+497. To remove the skin of a potato or an orange
+   a) Rinse
+   b) Peel
+   c) Scrub
+   d) Remove
+
+   Answer: b
+
+498. The plants and vegetation of a region
+   a) Flora
+   b) Fauna
+   c) Landscape
+   d) Environment
+
+   Answer: a
+
+499. A person who lives alone and avoids other people
+   a) Ascetic
+   b) Recluse
+   c) Unsocial
+   d) Agnostic
+
+   Answer: b
+
+500. Seat on elephant's back
+   a) Saddle
+   b) Howdah
+   c) Lounge
+   d) Hoof
+
+   Answer: b
+
+501. A place adjoining kitchen, for washing dishes etc.
+   a) Cellar
+   b) Wardrobe
+   c) Scullery
+   d) Pantry
+
+   Answer: c
+
+502. One who possesses many talents
+   a) Versatile
+   b) Gifted
+   c) Exceptional
+   d) Nubile
+
+   Answer: a
+
+503. A school for infants and young children
+   a) School
+   b) Nursery
+   c) Infantile
+   d) Kindergarten
+
+   Answer: d
+
+504. One who eats everything
+   a) Omnipotent
+   b) Insolvent
+   c) Omniscient
+   d) Omnivorous
+
+   Answer: d
+
+505. A ride on someone else's back or shoulders
+   a) Hunchback
+   b) Piggyback
+   c) Kickback
+   d) Cuddle
+
+   Answer: b
+
+506. A person who is bad in spelling
+   a) Calligraphist
+   b) Pedant
+   c) Cacographist
+   d) Linguist
+
+   Answer: c
+
+507. A sea abounding in islands
+   a) Strait
+   b) Archipelago
+   c) Ocean
+   d) Gulf
+
+   Answer: b
+
+508. Ridiculous use of words
+   a) Onomatopoeia
+   b) Malapropism
+   c) Neologism
+   d) Pun
+
+   Answer: b
+
+509. A book or picture produced merely to bring in money
+   a) Money-spinner
+   b) Pot-hook
+   c) Pot-boiler
+   d) Blue-bird
+
+   Answer: c
+
+510. Incapable of being wounded
+   a) Invulnerable
+   b) Invincible
+   c) Infallible
+   d) Impregnable
+
+   Answer: a
+
+511. A person who studies the formation of the earth
+   a) Meteorologist
+   b) Anthropologist
+   c) Geologist
+   d) Seismologist
+
+   Answer: c
+
+512. Policy of a political party
+   a) Manifesto
+   b) Agenda
+   c) Report
+   d) Circular
+
+   Answer: a
+
+513. Joint sovereignty exercised over country by two or more countries
+   a) Colonialism
+   b) Entente
+   c) Pandemonium
+   d) Condominium
+
+   Answer: d
+
+514. A cure for all diseases
+   a) Exorcism
+   b) Incantation
+   c) Panacea
+   d) Antibiotic
+
+   Answer: c
+
+515. A short walk for pleasure or exercise
+   a) Jog
+   b) Stroll
+   c) Gallop
+   d) Promenade
+
+   Answer: b
+
+516. One who resides in a country of which he is not a citizen
+   a) Alien
+   b) Native
+   c) Primitive
+   d) Prodigal
+
+   Answer: a
+
+517. Deviation or departure from common rule or standard
+   a) Heterogeneity
+   b) Anomaly
+   c) Unanimity
+   d) Anonymity
+
+   Answer: b
+
+518. A fixed orbit in space in relation to earth
+   a) Geological
+   b) Geo-synchronous
+   c) Geocentric
+   d) Geo-stationary
+
+   Answer: d
+
+519. A tube filled at one end with mirrors and pieces of coloured glass which shows many coloured patterns when turned
+   a) Kaleidoscope
+   b) Periscope
+   c) Microscope
+   d) Gyroscope
+
+   Answer: a
+
+520. Story told to illustrate a moral or spiritual truth
+   a) Didactic
+   b) Parable
+   c) Paragon
+   d) Paradigm
+
+   Answer: b
+
+521. Stage between boyhood and youth
+   a) Puberty
+   b) Adolescence
+   c) Infancy
+   d) Maturity
+
+   Answer: b
+
+522. Unreasoning enthusiasm for the glorification of one's country
+   a) Communism
+   b) Imperialism
+   c) Patriotism
+   d) Chauvinism
+
+   Answer: d
+
+523. That which cannot be understood
+   a) Illegible
+   b) Unintelligible
+   c) Unknown
+   d) Undecipherable
+
+   Answer: b
+
+524. One who draws maps and charts
+   a) Lexicographer
+   b) Mapper
+   c) Cartographer
+   d) Graphologist
+
+   Answer: c
+
+525. A person who hates women
+   a) Misanthropist
+   b) Masochist
+   c) Misogynist
+   d) Misogamist
+
+   Answer: c
+
+526. Part-song for several voices without instrumental accompaniment
+   a) Ballad
+   b) Madrigal
+   c) Panegyric
+   d) Limerick
+
+   Answer: b
+
+527. Word for word reproduction
+   a) Copying
+   b) Mugging
+   c) Verbatim
+   d) Photostat
+
+   Answer: c
+
+528. One who believes that everything is pre-destined
+   a) Pessimist
+   b) Fatalist
+   c) Palmist
+   d) Astrologer
+
+   Answer: b
+
+529. To move along with quick, short twistings
+   a) Swagger
+   b) Stumble
+   c) Wriggle
+   d) Crawl
+
+   Answer: c
+
+530. The form of madness which gives a person the idea that his importance is very great
+   a) Paroxysm
+   b) Megalomania
+   c) Insanity
+   d) Braggart
+
+   Answer: b
+
+531. A person who is more interested in himself rather than anything that is going on around him
+   a) Egoist
+   b) Extrovert
+   c) Introvert
+   d) Eccentric
+
+   Answer: c
+
+532. Anything which destroys the effect of poison
+   a) Serum
+   b) Antiseptic
+   c) Seromycin
+   d) Antidote
+
+   Answer: d
+
+533. Elderly woman in charge of a girl on social occasions
+   a) Spinster
+   b) Matron
+   c) Chaperon
+   d) Chandler
+
+   Answer: c
+
+534. A person who is property of another and bound to serve him
+   a) Bondsman
+   b) Slave
+   c) Servant
+   d) Subordinate
+
+   Answer: b
+
+535. A person who collects coins
+   a) Philatelist
+   b) Numismatist
+   c) Narcissist
+   d) Fatalist
+
+   Answer: b
+
+536. A person who betrays a friend
+   a) Traitor
+   b) Cheat
+   c) Hypocrite
+   d) Disloyal
+
+   Answer: a
+
+537. That which cannot be done without
+   a) Irrevocable
+   b) Impracticable
+   c) Indispensable
+   d) Impossible
+
+   Answer: c
+
+538. One who travels from place to place
+   a) Itinerant
+   b) Mendicant
+   c) Journeyman
+   d) Tramp
+
+   Answer: a
+
+539. A story that can hardly be believed
+   a) Fictitious
+   b) Imaginary
+   c) Concocted
+   d) Incredible
+
+   Answer: d
+
+540. A song sung at a burial
+   a) Elegy
+   b) Ode
+   c) Dirge
+   d) Ballad
+
+   Answer: c
