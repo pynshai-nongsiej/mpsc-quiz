@@ -9,20 +9,10 @@ if (!isset($_SESSION['quiz_file']) || !isset($_SESSION['answers'])) {
     exit;
 }
 
-if ($mock_mode) {
-    $questions = $_SESSION['questions'] ?? [];
-    $quiz_title = $_SESSION['quiz_title'] ?? 'Mock Test';
-    $quiz_id = $_SESSION['quiz_file'] ?? 'mock_test';
-} else {
-    $quiz_file = $_SESSION['quiz_file'];
-    $quiz_path = __DIR__ . '/quizzes/' . $quiz_file;
-    if (!file_exists($quiz_path)) {
-        die('Quiz not found.');
-    }
-    $questions = parse_quiz($quiz_path);
-    $quiz_title = quiz_title_from_filename($quiz_file);
-    $quiz_id = $quiz_file;
-}
+// Use questions from session for both mock and exam modes
+$questions = $_SESSION['questions'] ?? [];
+$quiz_title = $_SESSION['quiz_title'] ?? 'Quiz';
+$quiz_id = $_SESSION['quiz_file'] ?? 'quiz';
 
 $user_answers = $_SESSION['answers'];
 $score = 0;
@@ -307,4 +297,4 @@ foreach ($questions as $i => $q) {
         });
     </script>
 </body>
-</html> 
+</html>

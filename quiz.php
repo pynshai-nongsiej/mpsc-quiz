@@ -149,6 +149,17 @@ if ($mock_mode || $exam_type) {
     }
 }
 
+// Add this code right before the HTML output starts (around line 145)
+// Define query string for form action
+$query_string = '';
+if ($mock_mode) {
+    $query_string = '?mock=1';
+} elseif ($exam_type) {
+    $query_string = '?exam=' . urlencode($exam_type);
+} elseif (isset($_GET['quiz'])) {
+    $query_string = '?quiz=' . urlencode($_GET['quiz']);
+}
+
 // This is the start of the HTML output
 ?>
 <!DOCTYPE html>
@@ -344,7 +355,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </head>
 <body class="bg-[var(--background-color)] text-[var(--text-primary)]">
     <div class="relative flex flex-col min-h-screen justify-between overflow-hidden">
-        <form method="post" action="quiz.php<?= $mock_mode ? '?mock=1' : '' ?>" class="flex-grow flex flex-col">
+        <form method="post" action="quiz.php<?= $query_string ?>" class="flex-grow flex flex-col">
             <header class="flex items-center justify-between p-4 md:p-6">
                 <a href="index.php" class="text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors">
                     <svg fill="currentColor" height="24" viewBox="0 0 256 256" width="24" xmlns="http://www.w3.org/2000/svg">
@@ -622,4 +633,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }
     </script>
 </body>
-</html> 
+</html>
