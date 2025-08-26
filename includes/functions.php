@@ -4,63 +4,307 @@ function sanitize_input($str) {
     return htmlspecialchars(trim($str), ENT_QUOTES, 'UTF-8');
 }
 
-// Get exam configuration based on exam type
+// ===== NEW TESTQNA-BASED FUNCTIONS =====
+
+// Get all TestQnA categories by scanning the TestQnA folder structure
+function get_testqna_categories() {
+    $testqna_path = __DIR__ . '/../TestQnA';
+    $categories = [];
+    
+    if (!is_dir($testqna_path)) {
+        return $categories;
+    }
+    
+    // Scan for main category directories
+    $main_dirs = ['aptitude', 'general-english', 'general-knowledge'];
+    
+    foreach ($main_dirs as $dir) {
+        $dir_path = $testqna_path . '/' . $dir;
+        if (is_dir($dir_path)) {
+            $category_name = str_replace('-', ' ', $dir);
+            $category_name = ucwords($category_name);
+            
+            $subcategories = get_testqna_subcategories($dir);
+            
+            $categories[$dir] = [
+                'name' => $category_name,
+                'folder' => $dir,
+                'path' => $dir_path,
+                'subcategories' => $subcategories,
+                'count' => count($subcategories)
+            ];
+        }
+    }
+    
+    return $categories;
+}
+
+// Get subcategories for a specific TestQnA main category
+function get_testqna_subcategories($category) {
+    // Add type checking to prevent array to string conversion
+    if (!is_string($category)) {
+        error_log('get_testqna_subcategories called with non-string: ' . print_r($category, true));
+        return [];
+    }
+    
+    $testqna_path = __DIR__ . '/../TestQnA/' . $category;
+    $subcategories = [];
+    
+    if (!is_dir($testqna_path)) {
+        return $subcategories;
+    }
+    
+    // Get all .txt files in the category directory
+    $files = glob($testqna_path . '/*.txt');
+    
+    foreach ($files as $file) {
+        $filename = basename($file, '.txt');
+        $subcategory_name = str_replace(['_', '-'], ' ', $filename);
+        $subcategory_name = ucwords($subcategory_name);
+        
+        $subcategories[] = [
+            'name' => $subcategory_name,
+            'filename' => $filename,
+            'file_path' => $file,
+            'category' => $category
+        ];
+    }
+    
+    // Sort subcategories alphabetically
+    usort($subcategories, function($a, $b) {
+        return strcmp($a['name'], $b['name']);
+    });
+    
+    return $subcategories;
+}
+
+// Parse a TestQnA file and extract questions
+function parse_testqna_file($filepath) {
+    if (!file_exists($filepath)) {
+        return [];
+    }
+    
+    $content = file_get_contents($filepath);
+    if (empty($content)) {
+        return [];
+    }
+    
+    $questions = [];
+    $lines = explode("\n", $content);
+    $current_question = null;
+    $current_options = [];
+    $current_answer = null;
+    
+    foreach ($lines as $line) {
+        $line = trim($line);
+        
+        // Skip empty lines
+        if (empty($line)) {
+            continue;
+        }
+        
+        // Check for question number (starts with number followed by period)
+        if (preg_match('/^(\d+)\s*\.\s*(.+)/', $line, $matches)) {
+            // Save previous question if exists
+            if ($current_question !== null && !empty($current_options) && $current_answer !== null) {
+                $questions[] = [
+                    'question' => $current_question,
+                    'options' => $current_options,
+                    'answer' => $current_answer,
+                    'category' => basename(dirname($filepath)),
+                    'subcategory' => basename($filepath, '.txt')
+                ];
+            }
+            
+            // Start new question
+            $current_question = trim($matches[2]);
+            $current_options = [];
+            $current_answer = null;
+        }
+        // Check for options (a), b), c), d), e))
+        elseif (preg_match('/^([a-e])\)\s*(.+)/', $line, $matches)) {
+            $option_letter = strtolower($matches[1]);
+            $option_text = trim($matches[2]);
+            $current_options[$option_letter] = $option_text;
+        }
+        // Check for answer line
+        elseif (preg_match('/^Answer\s*:\s*([a-e])/i', $line, $matches)) {
+            $current_answer = strtolower($matches[1]);
+        }
+        // If line doesn't match patterns but we have a current question, append to question text
+        elseif ($current_question !== null && !preg_match('/^[a-e]\)/', $line) && !preg_match('/^Answer\s*:/i', $line)) {
+            $current_question .= ' ' . $line;
+        }
+    }
+    
+    // Don't forget the last question
+    if ($current_question !== null && !empty($current_options) && $current_answer !== null) {
+        $questions[] = [
+            'question' => $current_question,
+            'options' => $current_options,
+            'answer' => $current_answer,
+            'category' => basename(dirname($filepath)),
+            'subcategory' => basename($filepath, '.txt')
+        ];
+    }
+    
+    return $questions;
+}
+
+// Load randomized questions from TestQnA files
+function load_questions_from_testqna($category, $subcategory = null, $count = 20) {
+    $all_questions = [];
+    
+    if ($subcategory !== null) {
+        // Load from specific subcategory
+        $filepath = __DIR__ . '/../TestQnA/' . $category . '/' . $subcategory . '.txt';
+        $questions = parse_testqna_file($filepath);
+        $all_questions = array_merge($all_questions, $questions);
+    } else {
+        // Load from all subcategories in the category
+        $subcategories = get_testqna_subcategories($category);
+        foreach ($subcategories as $subcat) {
+            $questions = parse_testqna_file($subcat['file_path']);
+            $all_questions = array_merge($all_questions, $questions);
+        }
+    }
+    
+    // Shuffle questions for randomization
+    shuffle($all_questions);
+    
+    // Return requested number of questions
+    return array_slice($all_questions, 0, $count);
+}
+
+// Get TestQnA category metadata for display
+function get_testqna_category_meta($category_folder) {
+    $meta_map = [
+        'aptitude' => [
+            'icon' => '🧮',
+            'bg_color' => 'bg-purple-100',
+            'text_color' => 'text-purple-800',
+            'border_color' => 'border-purple-500'
+        ],
+        'general-english' => [
+            'icon' => '📚',
+            'bg_color' => 'bg-blue-100',
+            'text_color' => 'text-blue-800',
+            'border_color' => 'border-blue-500'
+        ],
+        'general-knowledge' => [
+            'icon' => '🌍',
+            'bg_color' => 'bg-green-100',
+            'text_color' => 'text-green-800',
+            'border_color' => 'border-green-500'
+        ]
+    ];
+    
+    return $meta_map[$category_folder] ?? [
+        'icon' => '📖',
+        'bg_color' => 'bg-gray-100',
+        'text_color' => 'text-gray-800',
+        'border_color' => 'border-gray-500'
+    ];
+}
+
+// Load mixed questions from all subcategories within a main category
+function load_mixed_questions($category, $count = 20) {
+    $all_questions = [];
+    
+    // Get all subcategories for the main category
+    $subcategories = get_testqna_subcategories($category);
+    
+    // Load questions from all subcategories
+    foreach ($subcategories as $subcat) {
+        $questions = parse_testqna_file($subcat['file_path']);
+        $all_questions = array_merge($all_questions, $questions);
+    }
+    
+    // Shuffle questions for randomization
+    shuffle($all_questions);
+    
+    // Return requested number of questions
+    return array_slice($all_questions, 0, $count);
+}
+
+// Load questions specifically from Meghalaya-GK.txt file
+function load_meghalaya_questions($count = 20) {
+    $filepath = __DIR__ . '/../TestQnA/general-knowledge/Meghalaya-GK.txt';
+    
+    if (!file_exists($filepath)) {
+        return [];
+    }
+    
+    $questions = parse_testqna_file($filepath);
+    
+    // Shuffle questions for randomization
+    shuffle($questions);
+    
+    // Return requested number of questions
+    return array_slice($questions, 0, $count);
+}
+
+// ===== END TESTQNA-BASED FUNCTIONS =====
+
+// Get exam configuration based on exam type (Updated to use TestQnA structure)
 function get_exam_config($exam_type) {
-    // Define all available subcategories from TestQnA folders
-    $english_subcategories = [
-        'Antonyms', 'Synonyms', 'Spellings', 'Idioms and Phrases',
-        'One Word Substitutes', 'Change of Speech', 'Change of Voice',
-        'Error Spotting', 'Fill in the Blanks'
+    // Map exam types to TestQnA categories
+    $type_mapping = [
+        'english' => 'general-english',
+        'gk' => 'general-knowledge', 
+        'math' => 'aptitude',
+        'aptitude' => 'aptitude',
+        'general-english' => 'general-english',
+        'general-knowledge' => 'general-knowledge'
     ];
     
-    $gk_subcategories = [
-        'General Knowledge', 'Meghalaya GK', 'Books and Authors',
-        'Days and Years', 'Famous Places in India', 'General Science',
-        'Honours and Awards', 'Indian Culture', 'Indian Geography',
-        'Indian History', 'Technology'
-    ];
+    // Get TestQnA categories
+    $testqna_categories = get_testqna_categories();
     
-    $math_aptitude_subcategories = [
-        'Average', 'Boats and Streams', 'Calendar', 'Clock',
-        'Compound Interest', 'Interest', 'Percentage', 'Problems on Ages',
-        'Problems on HCF and LCM', 'Problems on Trains', 'Profit and Loss',
-        'Ratio', 'Speed Time and Distance', 'Time and Work'
-    ];
+    // Handle TestQnA-based exam types
+    if (isset($type_mapping[$exam_type])) {
+        $testqna_category = $type_mapping[$exam_type];
+        
+        if (isset($testqna_categories[$testqna_category])) {
+            $category_data = $testqna_categories[$testqna_category];
+            
+            // Build subcategories array
+            $subcategories = [];
+            foreach ($category_data['subcategories'] as $subcat) {
+                $subcategories[$subcat['filename']] = $subcat['name'];
+            }
+            
+            return [
+                'name' => $category_data['name'],
+                'subcategories' => $subcategories,
+                'testqna_category' => $testqna_category,
+                'count' => $category_data['count']
+            ];
+        }
+    }
     
-    // Create formatted lists of subcategories for display
-    $english_subcategories_list = "• " . implode("\n• ", $english_subcategories);
-    $gk_subcategories_list = "• " . implode("\n• ", $gk_subcategories);
-    $aptitude_subcategories_list = "• " . implode("\n• ", $math_aptitude_subcategories);
-    
-    // Detailed descriptions with subcategories
-    $english_description = "100 marks covering:\n" . $english_subcategories_list;
-    $gk_description = "100 marks covering:\n" . $gk_subcategories_list;
-    $aptitude_description = "100 marks covering:\n" . $aptitude_subcategories_list;
-    
-    $configs = [
+    // Legacy exam configurations for backward compatibility
+    $legacy_configs = [
         'mpsc_lda' => [
             'name' => 'MPSC LDA Mock Test (300 Marks)',
             'categories' => [
                 'General English' => [
-                    'count' => 100,  // 100 questions
-                    'marks' => 100,  // 100 marks
-                    'subcategories' => $english_subcategories,
-                    'description' => $english_description,
-                    'detailed_description' => 'General English (100 marks) covers the following topics:\n' . $english_subcategories_list
+                    'count' => 100,
+                    'marks' => 100,
+                    'testqna_category' => 'general-english',
+                    'description' => '100 marks covering English Language & Grammar'
                 ],
                 'General Knowledge & Aptitude' => [
-                    'count' => 75,   // 75 questions
-                    'marks' => 100,  // 100 marks
-                    'subcategories' => $gk_subcategories,
-                    'description' => $gk_description,
-                    'detailed_description' => 'General Knowledge & Aptitude (100 marks) covers the following topics:\n' . $gk_subcategories_list
+                    'count' => 75,
+                    'marks' => 100,
+                    'testqna_category' => 'general-knowledge',
+                    'description' => '100 marks covering General Knowledge'
                 ],
                 'Arithmetic' => [
-                    'count' => 50,   // 50 questions
-                    'marks' => 100,  // 100 marks
-                    'subcategories' => $math_aptitude_subcategories,
-                    'description' => $aptitude_description,
-                    'detailed_description' => 'Arithmetic (100 marks) covers the following topics:\n' . $aptitude_subcategories_list
+                    'count' => 50,
+                    'marks' => 100,
+                    'testqna_category' => 'aptitude',
+                    'description' => '100 marks covering Mathematics & Aptitude'
                 ]
             ],
             'total_marks' => 300,
@@ -71,52 +315,48 @@ function get_exam_config($exam_type) {
             'name' => 'DSC LDA Mock Test (300 Marks)',
             'categories' => [
                 'General English' => [
-                    'count' => 100,  // 100 marks
-                    'marks' => 100,  // 100 marks
-                    'subcategories' => $english_subcategories,
-                    'description' => $english_description,
-                    'detailed_description' => 'General English (100 marks) covers the following topics:\n' . $english_subcategories_list
+                    'count' => 100,
+                    'marks' => 100,
+                    'testqna_category' => 'general-english',
+                    'description' => '100 marks covering English Language & Grammar'
                 ],
                 'Elementary Mathematics & Science' => [
-                    'count' => 70,   // 70 marks
-                    'marks' => 70,   // 70 marks
-                    'subcategories' => array_merge($math_aptitude_subcategories, ['General Science']),
-                    'description' => '70 marks (Elementary Mathematics & Science)'
+                    'count' => 70,
+                    'marks' => 70,
+                    'testqna_category' => 'aptitude',
+                    'description' => '70 marks covering Elementary Mathematics & Science'
                 ],
                 'General Knowledge' => [
-                    'count' => 70,   // 70 marks
-                    'marks' => 70,   // 70 marks
-                    'subcategories' => $gk_subcategories,
-                    'description' => $gk_description,
-                    'detailed_description' => 'General Knowledge (70 marks) covers the following topics:\n' . $gk_subcategories_list
+                    'count' => 70,
+                    'marks' => 70,
+                    'testqna_category' => 'general-knowledge',
+                    'description' => '70 marks covering General Knowledge'
                 ],
                 'Aptitude' => [
-                    'count' => 30,   // 30 marks
-                    'marks' => 30,   // 30 marks
-                    'subcategories' => $math_aptitude_subcategories,
-                    'description' => $aptitude_description,
-                    'detailed_description' => 'Aptitude (30 marks) covers the following topics:\n' . $aptitude_subcategories_list
+                    'count' => 30,
+                    'marks' => 30,
+                    'testqna_category' => 'aptitude',
+                    'description' => '30 marks covering Aptitude'
                 ],
                 'Interview' => [
-                    'count' => 1,    // 1 interview
-                    'marks' => 30,   // 30 marks
+                    'count' => 1,
+                    'marks' => 30,
                     'subcategories' => ['Interview'],
                     'description' => '30 marks (Interview)'
                 ]
             ],
             'total_marks' => 300,
-            'total_questions' => 241, // 100 + 70 + 70 + 1 (interview)
+            'total_questions' => 241,
             'description' => 'DSC Lower Division Assistant (LDA) Examination Pattern: 240 marks written + 30 marks interview'
         ],
         'mpsc_typist' => [
             'name' => 'MPSC Typist Test (50 Marks)',
             'categories' => [
                 'English' => [
-                    'count' => 50,   // 50 questions
-                    'marks' => 50,   // 50 marks
-                    'subcategories' => $english_subcategories,
-                    'description' => $english_description,
-                    'detailed_description' => 'English (50 marks) covers the following topics:\n' . $english_subcategories_list
+                    'count' => 50,
+                    'marks' => 50,
+                    'testqna_category' => 'general-english',
+                    'description' => '50 marks covering English Language & Grammar'
                 ]
             ],
             'total_marks' => 50,
@@ -125,7 +365,7 @@ function get_exam_config($exam_type) {
         ]
     ];
 
-    return $configs[$exam_type] ?? [
+    return $legacy_configs[$exam_type] ?? [
         'name' => 'General Mock Test',
         'categories' => [
             'All Categories' => [
@@ -585,9 +825,8 @@ function parse_test_questions() {
                 // Set question text
                 if ($is_error_spotting) {
                     $q['question'] = 'Find the part of the sentence that has an error.';
-                } else if ($is_spellings) {
-                    $q['question'] = 'Choose the correctly spelled word.';
                 } else {
+                    // Use the actual question text from the file instead of hardcoding
                     $q['question'] = implode(' ', $question_lines);
                 }
             
@@ -768,4 +1007,193 @@ function parse_quiz($filename) {
         $questions[] = $q;
     }
     return $questions;
-} 
+}
+
+// Update user statistics after quiz completion
+function updateUserStatistics($user_id, $score, $total_questions, $category) {
+    global $pdo;
+    
+    try {
+        // Check if user statistics record exists
+        if (!$pdo) {
+            throw new Exception("Database connection not established");
+        }
+        $stmt = $pdo->prepare("SELECT * FROM user_statistics WHERE user_id = ?");
+        $stmt->execute([$user_id]);
+        $existing = $stmt->fetch(PDO::FETCH_ASSOC);
+        
+        if ($existing && is_array($existing)) {
+            // Update existing record
+            $new_total_quizzes = $existing['total_quizzes'] + 1;
+            $new_total_questions = $existing['total_questions'] + $total_questions;
+            $new_correct_answers = $existing['correct_answers'] + $score;
+            $new_accuracy = ($new_correct_answers / $new_total_questions) * 100;
+            
+            // Update best score if current score is better
+            $current_percentage = ($score / $total_questions) * 100;
+            $new_best_score = max($existing['best_score'], $current_percentage);
+            
+            if (!$pdo) {
+                throw new Exception("Database connection not established");
+            }
+            $stmt = $pdo->prepare("
+                UPDATE user_statistics 
+                SET total_quizzes = ?, total_questions = ?, correct_answers = ?, 
+                    accuracy_percentage = ?, best_score = ?, last_quiz_date = NOW() 
+                WHERE user_id = ?
+            ");
+            $stmt->execute([$new_total_quizzes, $new_total_questions, $new_correct_answers, 
+                           $new_accuracy, $new_best_score, $user_id]);
+        } else {
+            // Create new record
+            $accuracy = ($score / $total_questions) * 100;
+            if (!$pdo) {
+                throw new Exception("Database connection not established");
+            }
+            $stmt = $pdo->prepare("
+                INSERT INTO user_statistics 
+                (user_id, total_quizzes, total_questions, correct_answers, 
+                 accuracy_percentage, best_score, last_quiz_date) 
+                VALUES (?, 1, ?, ?, ?, ?, NOW())
+            ");
+            $stmt->execute([$user_id, $total_questions, $score, $accuracy, $accuracy]);
+        }
+        
+        return true;
+    } catch (Exception $e) {
+        error_log("Error updating user statistics: " . $e->getMessage());
+        return false;
+    }
+}
+
+// Update daily performance after quiz completion
+function updateDailyPerformance($user_id, $score, $total_questions, $category) {
+    global $pdo;
+    
+    try {
+        $today = date('Y-m-d');
+        $accuracy = ($score / $total_questions) * 100;
+        
+        // Check if record exists for today
+        if (!$pdo) {
+            throw new Exception("Database connection not established");
+        }
+        $stmt = $pdo->prepare("SELECT * FROM daily_performance WHERE user_id = ? AND date = ?");
+        $stmt->execute([$user_id, $today]);
+        $existing = $stmt->fetch(PDO::FETCH_ASSOC);
+        
+        if ($existing && is_array($existing)) {
+            // Update existing record
+            $new_quizzes_taken = $existing['quizzes_taken'] + 1;
+            $new_total_questions = $existing['total_questions'] + $total_questions;
+            $new_correct_answers = $existing['correct_answers'] + $score;
+            $new_accuracy = ($new_correct_answers / $new_total_questions) * 100;
+            
+            if (!$pdo) {
+                throw new Exception("Database connection not established");
+            }
+            $stmt = $pdo->prepare("
+                UPDATE daily_performance 
+                SET quizzes_taken = ?, total_questions = ?, correct_answers = ?, 
+                    accuracy_percentage = ? 
+                WHERE user_id = ? AND date = ?
+            ");
+            $stmt->execute([$new_quizzes_taken, $new_total_questions, $new_correct_answers, 
+                           $new_accuracy, $user_id, $today]);
+        } else {
+            // Create new record
+            if (!$pdo) {
+                throw new Exception("Database connection not established");
+            }
+            $stmt = $pdo->prepare("
+                INSERT INTO daily_performance 
+                (user_id, date, quizzes_taken, total_questions, correct_answers, accuracy_percentage) 
+                VALUES (?, ?, 1, ?, ?, ?)
+            ");
+            $stmt->execute([$user_id, $today, $total_questions, $score, $accuracy]);
+        }
+        
+        return true;
+    } catch (Exception $e) {
+        error_log("Error updating daily performance: " . $e->getMessage());
+        return false;
+    }
+}
+
+// Update category performance after quiz completion
+function updateCategoryPerformance($user_id, $score, $total_questions, $category) {
+    global $pdo;
+    
+    try {
+        // Check if record exists for this user and category
+        if (!$pdo) {
+            throw new Exception("Database connection not established");
+        }
+        $stmt = $pdo->prepare("SELECT * FROM category_performance WHERE user_id = ? AND category_name = ?");
+        $stmt->execute([$user_id, $category]);
+        $existing = $stmt->fetch(PDO::FETCH_ASSOC);
+        
+        if ($existing && is_array($existing)) {
+            // Update existing record
+            $new_quizzes_taken = $existing['quizzes_taken'] + 1;
+            $new_total_questions = $existing['total_questions'] + $total_questions;
+            $new_correct_answers = $existing['correct_answers'] + $score;
+            $new_accuracy = ($new_correct_answers / $new_total_questions) * 100;
+            
+            // Update best score if current score is better
+            $current_percentage = ($score / $total_questions) * 100;
+            $new_best_score = max($existing['best_score'], $current_percentage);
+            
+            if (!$pdo) {
+                throw new Exception("Database connection not established");
+            }
+            $stmt = $pdo->prepare("
+                UPDATE category_performance 
+                SET quizzes_taken = ?, total_questions = ?, correct_answers = ?, 
+                    accuracy_percentage = ?, best_score = ?, last_attempt_date = NOW() 
+                WHERE user_id = ? AND category_name = ?
+            ");
+            $stmt->execute([$new_quizzes_taken, $new_total_questions, $new_correct_answers, 
+                           $new_accuracy, $new_best_score, $user_id, $category]);
+        } else {
+            // Create new record
+            $accuracy = ($score / $total_questions) * 100;
+            if (!$pdo) {
+                throw new Exception("Database connection not established");
+            }
+            $stmt = $pdo->prepare("
+                INSERT INTO category_performance 
+                (user_id, category_name, quizzes_taken, total_questions, correct_answers, 
+                 accuracy_percentage, best_score, last_attempt_date) 
+                VALUES (?, ?, 1, ?, ?, ?, ?, NOW())
+            ");
+            $stmt->execute([$user_id, $category, $total_questions, $score, $accuracy, $accuracy]);
+        }
+        
+        return true;
+    } catch (Exception $e) {
+        error_log("Error updating category performance: " . $e->getMessage());
+        return false;
+    }
+}
+
+// Master function to update all statistics after quiz completion
+function updateAllStatistics($user_id, $score, $total_questions, $category) {
+    $results = [
+        'user_statistics' => updateUserStatistics($user_id, $score, $total_questions, $category),
+        'daily_performance' => updateDailyPerformance($user_id, $score, $total_questions, $category),
+        'category_performance' => updateCategoryPerformance($user_id, $score, $total_questions, $category)
+    ];
+    
+    // Log any failures
+    foreach ($results as $type => $success) {
+        if (!$success) {
+            error_log("Failed to update $type for user $user_id");
+        }
+    }
+    
+    // Return true if all updates succeeded
+    return array_reduce($results, function($carry, $item) {
+        return $carry && $item;
+    }, true);
+}

@@ -1,5 +1,9 @@
 <?php
+require_once __DIR__ . '/config/config.php';
+require_once __DIR__ . '/config/database.php';
+require_once __DIR__ . '/config/session.php';
 require_once __DIR__ . '/includes/functions.php';
+
 $quiz_files = get_quiz_files(__DIR__ . '/quizzes');
 
 // Group quizzes by version
@@ -9,6 +13,16 @@ foreach ($quiz_files as $qf) {
     $grouped[$ver][] = $qf;
 }
 $versions = array_keys($grouped);
+
+// No need for subcategories in the simplified structure
+
+// Check if user is logged in
+$is_logged_in = isLoggedIn();
+$user_name = null;
+if ($is_logged_in) {
+    $current_user = getCurrentUser();
+    $user_name = $current_user ? ($current_user['full_name'] ?? $current_user['username'] ?? 'User') : null;
+}
 ?>
 <!DOCTYPE html>
 <html class="light" lang="en">
@@ -81,7 +95,7 @@ $versions = array_keys($grouped);
             transform: translateY(-4px);
         }
         .typography_h1 {
-            @apply text-4xl font-bold tracking-tight text-[var(--text-primary)];
+            @apply text-3xl md:text-4xl font-bold tracking-tight text-[var(--text-primary)];
         }
         .typography_h2 {
             @apply text-xl font-semibold text-[var(--text-primary)];
@@ -103,61 +117,116 @@ $versions = array_keys($grouped);
             animation: 
                 typing 3.5s steps(40, end) infinite;
             animation-timing-function: cubic-bezier(0.65, 0.05, 0.36, 1);
+            max-width: 100%;
+        }
+        
+        /* Mobile responsive adjustments */
+        @media (max-width: 640px) {
+            .animate-typing-h1 {
+                font-size: 1.875rem; /* 30px */
+                line-height: 2.25rem; /* 36px */
+            }
+            
+            .typography_body {
+                @apply text-sm;
+            }
         }
     </style>
 </head>
 <body class="bg-[var(--background-color)] text-[var(--text-primary)]">
-    <div class="relative flex size-full min-h-screen flex-col justify-between overflow-x-hidden p-6 md:p-8">
-        <header class="absolute top-6 right-6 md:top-8 md:right-8">
-            <div class="flex items-center gap-2">
-                <svg class="w-5 h-5 text-gray-500 dark:text-gray-400" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" stroke-linecap="round" stroke-linejoin="round"></path>
-                </svg>
-                <input class="hidden" id="theme-toggle" type="checkbox"/>
-                <label class="relative flex items-center cursor-pointer w-10 h-6 rounded-full p-1 bg-gray-300 dark:bg-gray-700 transition-colors" for="theme-toggle">
-                    <div class="absolute w-4 h-4 rounded-full bg-white transition-transform duration-200 ease-in-out" style="transform: translateX(0)" id="toggle-ball"></div>
-                </label>
-                <svg class="w-5 h-5 text-gray-500 dark:text-gray-400" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" stroke-linecap="round" stroke-linejoin="round"></path>
-                </svg>
-            </div>
-        </header>
+    <?php include __DIR__ . '/includes/navbar.php'; ?>
+    <?php include __DIR__ . '/includes/mobile_navbar.php'; ?>
+    
+    <div class="relative flex size-full min-h-screen flex-col justify-between overflow-x-hidden p-6 md:p-8 pt-20">
+        
         <main class="flex flex-col items-center justify-center flex-grow text-center">
             <h1 class="typography_h1 mb-3 animate-typing-h1 inline-block">MPSC Quiz Portal</h1>
             <p class="typography_body mb-12 max-w-sm">Enhance your skills with our curated tests designed for aspiring MPSC candidates.</p>
-            <div class="w-full max-w-2xl space-y-5">
-                <a class="glass-card block p-6 text-left hover:bg-[var(--card-bg)] transition-colors duration-300" 
-                   href="quiz.php?exam=mpsc_lda">
-                    <h2 class="typography_h2 mb-1.5 flex items-center">
-                        <span class="material-icons mr-2">assignment</span>
-                        MPSC LDA Mock Test
-                    </h2>
-                    <p class="typography_body">Practice with a full-length MPSC Lower Division Assistant exam simulation.</p>
-                </a>
-                <a class="glass-card block p-6 text-left hover:bg-[var(--card-bg)] transition-colors duration-300" 
-                   href="quiz.php?exam=dsc_lda">
-                    <h2 class="typography_h2 mb-1.5 flex items-center">
-                        <span class="material-icons mr-2">assignment_ind</span>
-                        DSC LDA Mock Test
-                    </h2>
-                    <p class="typography_body">Prepare for District Selection Committee LDA exams with this comprehensive test.</p>
-                </a>
-                <a class="glass-card block p-6 text-left hover:bg-[var(--card-bg)] transition-colors duration-300" 
-                   href="quiz.php?exam=mpsc_typist">
-                    <h2 class="typography_h2 mb-1.5 flex items-center">
-                        <span class="material-icons mr-2">keyboard</span>
-                        MPSC Typist Test
-                    </h2>
-                    <p class="typography_body">Practice for the MPSC Typist examination with our specialized test.</p>
-                </a>
-                <a class="glass-card block p-6 text-left hover:bg-[var(--card-bg)] transition-colors duration-300" 
-                   href="quiz.php?mock=1">
-                    <h2 class="typography_h2 mb-1.5 flex items-center">
+            <div class="w-full max-w-4xl space-y-8">
+                <!-- Main Quiz Categories Section -->
+                <div class="glass-card p-6">
+                    <h2 class="typography_h2 mb-4 flex items-center text-indigo-600 dark:text-indigo-400">
                         <span class="material-icons mr-2">quiz</span>
-                        General Mock Test
+                        Main Quiz Categories
                     </h2>
-                    <p class="typography_body">Take a 50-question test with randomized questions from all categories.</p>
-                </a>
+                    <p class="typography_body mb-6">Choose from our comprehensive quiz categories designed for MPSC preparation.</p>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <!-- Mixed English Test -->
+                        <a class="glass-card block p-6 text-left hover:bg-[var(--card-bg)] transition-all duration-300 border-l-4 border-blue-500 hover:shadow-lg" 
+                           href="quiz.php?category=mixed-english">
+                            <div class="flex items-center mb-3">
+                                <span class="material-icons text-blue-500 mr-3 text-2xl">language</span>
+                                <h3 class="font-semibold text-lg text-[var(--text-primary)]">Mixed English</h3>
+                            </div>
+                            <p class="text-sm text-[var(--text-secondary)] mb-2">Comprehensive English language test covering grammar, vocabulary, and comprehension</p>
+                            <p class="text-xs text-blue-500 font-medium">20 randomized questions</p>
+                        </a>
+
+                        <!-- Mixed GK Test -->
+                        <a class="glass-card block p-6 text-left hover:bg-[var(--card-bg)] transition-all duration-300 border-l-4 border-green-500 hover:shadow-lg" 
+                           href="quiz.php?category=mixed-gk">
+                            <div class="flex items-center mb-3">
+                                <span class="material-icons text-green-500 mr-3 text-2xl">public</span>
+                                <h3 class="font-semibold text-lg text-[var(--text-primary)]">Mixed GK</h3>
+                            </div>
+                            <p class="text-sm text-[var(--text-secondary)] mb-2">General knowledge test covering current affairs, history, geography, and awareness</p>
+                            <p class="text-xs text-green-500 font-medium">20 randomized questions</p>
+                        </a>
+
+                        <!-- Mixed Aptitude Test -->
+                        <a class="glass-card block p-6 text-left hover:bg-[var(--card-bg)] transition-all duration-300 border-l-4 border-purple-500 hover:shadow-lg" 
+                           href="quiz.php?category=mixed-aptitude">
+                            <div class="flex items-center mb-3">
+                                <span class="material-icons text-purple-500 mr-3 text-2xl">calculate</span>
+                                <h3 class="font-semibold text-lg text-[var(--text-primary)]">Mixed Aptitude</h3>
+                            </div>
+                            <p class="text-sm text-[var(--text-secondary)] mb-2">Logical reasoning, quantitative aptitude, and analytical thinking skills</p>
+                            <p class="text-xs text-purple-500 font-medium">20 randomized questions</p>
+                        </a>
+
+                        <!-- Meghalaya GK Test -->
+                        <a class="glass-card block p-6 text-left hover:bg-[var(--card-bg)] transition-all duration-300 border-l-4 border-orange-500 hover:shadow-lg" 
+                           href="quiz.php?category=meghalaya-gk">
+                            <div class="flex items-center mb-3">
+                                <span class="material-icons text-orange-500 mr-3 text-2xl">location_on</span>
+                                <h3 class="font-semibold text-lg text-[var(--text-primary)]">Meghalaya GK</h3>
+                            </div>
+                            <p class="text-sm text-[var(--text-secondary)] mb-2">Dedicated section for Meghalaya-specific general knowledge and current affairs</p>
+                            <p class="text-xs text-orange-500 font-medium">Comprehensive Meghalaya questions</p>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Legacy Tests Section -->
+                <div class="glass-card p-6 bg-gray-50 dark:bg-gray-800/50">
+                    <h2 class="typography_h2 mb-4 flex items-center text-gray-600 dark:text-gray-400">
+                        <span class="material-icons mr-2">assignment</span>
+                        MPSC Specific Tests
+                    </h2>
+                    <p class="typography_body mb-4">Practice with exam-specific mock tests for MPSC positions.</p>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <a class="glass-card block p-4 text-left hover:bg-[var(--card-bg)] transition-colors duration-300" 
+                           href="quiz.php?exam=mpsc_lda">
+                            <h3 class="font-semibold mb-1 text-[var(--text-primary)]">MPSC LDA Mock Test</h3>
+                            <p class="text-sm text-[var(--text-secondary)]">Full-length Lower Division Assistant exam</p>
+                        </a>
+                        <a class="glass-card block p-4 text-left hover:bg-[var(--card-bg)] transition-colors duration-300" 
+                           href="quiz.php?exam=dsc_lda">
+                            <h3 class="font-semibold mb-1 text-[var(--text-primary)]">DSC LDA Mock Test</h3>
+                            <p class="text-sm text-[var(--text-secondary)]">District Selection Committee LDA exam</p>
+                        </a>
+                        <a class="glass-card block p-4 text-left hover:bg-[var(--card-bg)] transition-colors duration-300" 
+                           href="quiz.php?exam=mpsc_typist">
+                            <h3 class="font-semibold mb-1 text-[var(--text-primary)]">MPSC Typist Test</h3>
+                            <p class="text-sm text-[var(--text-secondary)]">Specialized test for typist positions</p>
+                        </a>
+                        <a class="glass-card block p-4 text-left hover:bg-[var(--card-bg)] transition-colors duration-300" 
+                           href="quiz.php?mock=1">
+                            <h3 class="font-semibold mb-1 text-[var(--text-primary)]">General Mock Test</h3>
+                            <p class="text-sm text-[var(--text-secondary)]">50-question comprehensive test</p>
+                        </a>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="text-center py-6">
@@ -180,54 +249,11 @@ $versions = array_keys($grouped);
             } else {
                 console.error('Mock test link not found!');
             }
+            
+            // User dropdown functionality is now handled by navbar.php
         });
 
-        const themeToggle = document.getElementById('theme-toggle');
-        const html = document.documentElement;
-        const toggleBall = document.getElementById('toggle-ball');
-
-        // Function to apply theme
-        function applyTheme(isLight) {
-            if (isLight) {
-                html.classList.add('light');
-                html.classList.remove('dark');
-                localStorage.setItem('theme', 'light');
-                toggleBall.style.transform = 'translateX(0)';
-            } else {
-                html.classList.add('dark');
-                html.classList.remove('light');
-                localStorage.setItem('theme', 'dark');
-                toggleBall.style.transform = 'translateX(20px)';
-            }
-        }
-
-        // Theme toggle event listener
-        themeToggle.addEventListener('change', () => {
-            applyTheme(themeToggle.checked);
-        });
-
-        // Set initial theme based on saved preference or system preference
-        const savedTheme = localStorage.getItem('theme');
-        const prefersLight = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches;
-        
-        // Initialize with dark theme by default
-        html.classList.add('dark');
-        
-        if (savedTheme === 'light' || (!savedTheme && prefersLight)) {
-            themeToggle.checked = true;
-            applyTheme(true);
-        } else {
-            themeToggle.checked = false;
-            applyTheme(false);
-        }
-
-        // Listen for changes in system preference
-        window.matchMedia('(prefers-color-scheme: light)').addEventListener('change', (e) => {
-            if (!localStorage.getItem('theme')) { // Only if user hasn't set a preference
-                themeToggle.checked = e.matches;
-                applyTheme(e.matches);
-            }
-        });
+        // Theme toggle functionality is now handled by navbar.php
     </script>
 </body>
 </html>

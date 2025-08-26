@@ -1,10 +1,19 @@
 <?php
-session_start();
+require_once __DIR__ . '/config/config.php';
+require_once __DIR__ . '/config/database.php';
+require_once __DIR__ . '/config/session.php';
 require_once __DIR__ . '/includes/functions.php';
+
+// Debug: Log session variables at start of result.php
+error_log('DEBUG result.php START: quiz_file=' . ($_SESSION['quiz_file'] ?? 'NOT_SET'));
+error_log('DEBUG result.php START: answers=' . (isset($_SESSION['answers']) ? 'SET(' . count($_SESSION['answers']) . ')' : 'NOT_SET'));
+error_log('DEBUG result.php START: user_id=' . ($_SESSION['user_id'] ?? 'NOT_SET'));
+error_log('DEBUG result.php START: All session vars - ' . print_r($_SESSION, true));
 
 $mock_mode = isset($_SESSION['mock_mode']) && $_SESSION['mock_mode'];
 
 if (!isset($_SESSION['quiz_file']) || !isset($_SESSION['answers'])) {
+    error_log('DEBUG result.php REDIRECT: Missing session variables - redirecting to index.php');
     header('Location: index.php');
     exit;
 }
@@ -23,18 +32,44 @@ $_SESSION['quiz_results'] = ['questions' => $questions, 'results' => []];
 
 foreach ($questions as $i => $q) {
     $correct = strtolower(trim($q['answer']));
-    $user = isset($user_answers[$i]) ? trim($user_answers[$i]) : '';
+    $user_raw = isset($user_answers[$i]) ? trim($user_answers[$i]) : '';
+    $user = $user_raw;
     
     // Handle different answer formats
     $is_correct = false;
+    $user_answer_text = '';
+    $correct_answer_text = '';
+    
     if (!empty($user)) {
         // Extract just the letter if it's in format 'a)' or 'a.'
-        if (preg_match('/^([a-d])[\)\.]?/i', $user, $matches)) {
+        if (preg_match('/^([a-d])[\\)\.]?/i', $user, $matches)) {
             $user = strtolower($matches[1]);
+        } else {
+            // If it's just a letter, convert to lowercase
+            $user = strtolower($user[0] ?? '');
         }
         
         // Compare first character of answer
         $is_correct = (strtolower($user[0] ?? '') === strtolower($correct[0] ?? ''));
+    }
+    
+    // Get answer texts from options
+    if (!empty($q['options']) && is_array($q['options'])) {
+        // Get user answer text
+        if (!empty($user) && strlen($user) > 0) {
+            $user_index = ord(strtoupper($user[0])) - 65;
+            if ($user_index >= 0 && $user_index < count($q['options']) && isset($q['options'][$user_index])) {
+                $user_answer_text = $q['options'][$user_index];
+            }
+        }
+        
+        // Get correct answer text
+        if (!empty($correct) && strlen($correct) > 0) {
+            $correct_index = ord(strtoupper($correct[0])) - 65;
+            if ($correct_index >= 0 && $correct_index < count($q['options']) && isset($q['options'][$correct_index])) {
+                $correct_answer_text = $q['options'][$correct_index];
+            }
+        }
     }
     
     // Add 2 marks for each correct answer
@@ -47,9 +82,97 @@ foreach ($questions as $i => $q) {
         'user' => $user,
         'correct' => $correct,
         'options' => $q['options'],
-        'is_correct' => $is_correct
+        'is_correct' => $is_correct,
+        'user_text' => $user_answer_text,
+        'correct_text' => $correct_answer_text
     ];
-    $_SESSION['quiz_results']['results'][] = $results[count($results) - 1];
+}
+
+// Save quiz results to database if user is logged in and not already saved
+if (isset($_SESSION['user_id']) && !isset($_SESSION['quiz_saved'])) {
+    try {
+        $correct_answers = array_sum(array_column($results, 'is_correct'));
+        $score_percentage = ($correct_answers / $total) * 100;
+        $quiz_type = $_SESSION['exam_type'] ?? ($mock_mode ? 'mock_test' : 'general');
+        
+        // Calculate time taken with validation
+        $time_taken = 0;
+        if (isset($_SESSION['quiz_start_time']) && is_numeric($_SESSION['quiz_start_time'])) {
+            $calculated_time = time() - $_SESSION['quiz_start_time'];
+            // Validate time: should be positive and reasonable (max 4 hours)
+            if ($calculated_time > 0 && $calculated_time <= 14400) {
+                $time_taken = $calculated_time;
+            } else {
+                error_log('Invalid quiz time calculated: ' . $calculated_time . ' seconds. Using 0.');
+                $time_taken = 0;
+            }
+        } else {
+            error_log('Quiz start time not set or invalid. Using 0 for time_taken.');
+        }
+        
+        // Prepare quiz attempt data
+        $quiz_attempt_data = [
+            'user_id' => $_SESSION['user_id'],
+            'quiz_type' => $quiz_type,
+            'quiz_title' => $quiz_title,
+            'total_questions' => $total,
+            'correct_answers' => $correct_answers,
+            'score' => $score,
+            'max_score' => $max_score,
+            'accuracy' => round($score_percentage, 2),
+            'time_taken' => $time_taken,
+            'started_at' => isset($_SESSION['quiz_start_time']) ? date('Y-m-d H:i:s', $_SESSION['quiz_start_time']) : date('Y-m-d H:i:s'),
+            'completed_at' => date('Y-m-d H:i:s')
+        ];
+        
+        // Insert quiz attempt using helper function
+        $attempt_id = insertRecord('quiz_attempts', $quiz_attempt_data);
+        
+        if ($attempt_id) {
+            $_SESSION['quiz_attempt_id'] = $attempt_id;
+            
+            // Save individual responses
+            foreach ($questions as $i => $question) {
+                $result = $results[$i];
+                $user_answer = $result['user'];
+                $correct_answer = $result['correct'];
+                $is_correct = $result['is_correct'];
+                
+                $response_data = [
+                    'attempt_id' => $attempt_id,
+                    'question_number' => $i + 1,
+                    'question_text' => substr($question['question'] ?? '', 0, 1000), // Limit length
+                    'user_answer' => $user_answer,
+                    'correct_answer' => $correct_answer,
+                    'is_correct' => $is_correct ? 1 : 0,
+                    'category' => $question['category']['name'] ?? null,
+                    'subcategory' => $question['category']['subcategory'] ?? null
+                ];
+                
+                insertRecord('quiz_responses', $response_data);
+            }
+            
+            // Update user statistics, daily performance, and category performance
+            $primary_category = !empty($questions) ? ($questions[0]['category']['name'] ?? 'General') : 'General';
+            $stats_updated = updateAllStatistics($_SESSION['user_id'], $correct_answers, $total, $primary_category);
+            
+            if (!$stats_updated) {
+                error_log('Warning: Failed to update some statistics for user ' . $_SESSION['user_id']);
+            }
+            
+            // Mark as saved to prevent duplicate saves
+            $_SESSION['quiz_saved'] = true;
+            
+            // Clean up quiz session variables for next quiz
+            unset($_SESSION['quiz_start_time']);
+            unset($_SESSION['current_quiz_id']);
+            error_log('Quiz session variables cleaned up after saving results');
+        }
+        
+    } catch (Exception $e) {
+        error_log('Error saving quiz attempt in result.php: ' . $e->getMessage());
+        // Continue to display results even if database save fails
+    }
 }
 ?>
 <!DOCTYPE html>
@@ -132,15 +255,7 @@ foreach ($questions as $i => $q) {
         .button_secondary {
             @apply bg-[var(--accent-color)] text-[var(--text-primary)] rounded-full px-8 py-3 font-bold hover:opacity-80 transition-opacity duration-300 text-center;
         }
-        #theme-toggle:checked + .theme-toggle-label .theme-toggle-ball {
-            transform: translateX(1.25rem);
-        }
-        #theme-toggle:checked + .theme-toggle-label .dark-icon {
-            opacity: 0;
-        }
-        #theme-toggle:not(:checked) + .theme-toggle-label .light-icon {
-            opacity: 0;
-        }
+
         .result-item {
             @apply mb-6 p-4 rounded-xl transition-colors duration-200;
         }
@@ -169,32 +284,10 @@ foreach ($questions as $i => $q) {
 </head>
 <body class="bg-background-color text-text-primary font-sans">
     <div class="relative flex size-full min-h-screen flex-col overflow-x-hidden p-6">
-        <header class="flex items-center justify-between">
-            <a href="index.php" class="text-text-primary">
-                <svg fill="currentColor" height="28" viewBox="0 0 256 256" width="28" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z"></path>
-                </svg>
-            </a>
-            <h1 class="text-xl font-bold">Quiz Results</h1>
-            <div class="w-7">
-                <div class="flex items-center">
-                    <input class="sr-only" id="theme-toggle" type="checkbox"/>
-                    <label class="theme-toggle-label flex cursor-pointer items-center" for="theme-toggle">
-                        <div class="relative">
-                            <div class="h-6 w-12 rounded-full bg-[var(--accent-color)] shadow-inner"></div>
-                            <div class="theme-toggle-ball absolute left-1 top-1 flex h-4 w-4 items-center justify-center rounded-full bg-[var(--primary-color)] shadow transition-transform duration-300 ease-in-out">
-                                <svg class="dark-icon h-3 w-3 text-[var(--background-color)] opacity-100 transition-opacity duration-300" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
-                                </svg>
-                                <svg class="light-icon absolute h-3 w-3 text-[var(--background-color)] opacity-0 transition-opacity duration-300" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M12 12a5 5 0 100-10 5 5 0 000 10z"></path>
-                                </svg>
-                            </div>
-                        </div>
-                    </label>
-                </div>
-            </div>
-        </header>
+        <?php include 'includes/navbar.php'; ?>
+        <?php include 'includes/mobile_navbar.php'; ?>
+        
+        <div class="mt-20"></div>
 
         <main class="flex-1 flex items-center justify-center">
             <div class="w-full max-w-md">
@@ -225,10 +318,7 @@ foreach ($questions as $i => $q) {
                     </div>
 
                     <div class="space-y-4">
-                        <a href="quiz_review.php" class="button_primary w-full">
-                            Review Answers
-                        </a>
-                        <a href="quiz.php?<?= $mock_mode ? 'mock=1' : 'quiz=' . urlencode($quiz_id) ?>" class="button_secondary w-full">
+                        <a href="quiz.php?<?= $mock_mode ? 'mock=1' : 'quiz=' . urlencode($quiz_id) ?>" class="button_primary w-full">
                             Try Again
                         </a>
                         <a href="index.php" class="block w-full text-center py-3 px-4 rounded-lg text-sm font-medium text-[var(--text-primary)] hover:bg-[var(--card-bg)] transition-colors">
@@ -252,49 +342,15 @@ foreach ($questions as $i => $q) {
     </div>
 
     <script>
-        const themeToggle = document.getElementById('theme-toggle');
-        const html = document.documentElement;
-
-        // Function to apply theme
-        function applyTheme(isLight) {
-            if (isLight) {
-                html.classList.add('light');
-                html.classList.remove('dark');
-                localStorage.setItem('theme', 'light');
-            } else {
-                html.classList.add('dark');
-                html.classList.remove('light');
-                localStorage.setItem('theme', 'dark');
-            }
-        }
-
-        // Theme toggle event listener
-        themeToggle.addEventListener('change', () => {
-            applyTheme(themeToggle.checked);
-        });
-
-        // Set initial theme based on saved preference or system preference
+        // Initialize theme on page load
         const savedTheme = localStorage.getItem('theme');
-        const prefersLight = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches;
-        
-        // Initialize with dark theme by default
-        html.classList.add('dark');
-        
-        if (savedTheme === 'light' || (!savedTheme && prefersLight)) {
-            themeToggle.checked = true;
-            applyTheme(true);
+        if (savedTheme === 'light') {
+            document.documentElement.classList.add('light');
+            document.documentElement.classList.remove('dark');
         } else {
-            themeToggle.checked = false;
-            applyTheme(false);
+            document.documentElement.classList.add('dark');
+            document.documentElement.classList.remove('light');
         }
-
-        // Listen for changes in system preference
-        window.matchMedia('(prefers-color-scheme: light)').addEventListener('change', (e) => {
-            if (!localStorage.getItem('theme')) { // Only if user hasn't set a preference
-                themeToggle.checked = e.matches;
-                applyTheme(e.matches);
-            }
-        });
     </script>
 </body>
 </html>
