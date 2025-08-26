@@ -32,7 +32,6 @@ define('MAX_QUIZ_ATTEMPTS', 3);
 
 // Pagination
 define('ITEMS_PER_PAGE', 10);
-define('LEADERBOARD_LIMIT', 50);
 define('QUIZ_HISTORY_LIMIT', 20);
 
 // Email Settings (if needed)

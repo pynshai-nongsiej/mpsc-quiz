@@ -101,24 +101,7 @@ CREATE TABLE IF NOT EXISTS daily_performance (
     INDEX idx_date (date)
 );
 
--- Leaderboard rankings (can be computed from quiz_attempts but cached for performance)
-CREATE TABLE IF NOT EXISTS leaderboard_cache (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    user_id INT NOT NULL,
-    username VARCHAR(50) NOT NULL,
-    period_type ENUM('week', 'month', 'all_time') NOT NULL,
-    quiz_type VARCHAR(50), -- NULL for overall rankings
-    total_score INT DEFAULT 0,
-    total_quizzes INT DEFAULT 0,
-    average_accuracy DECIMAL(5,2) DEFAULT 0.00,
-    rank_position INT DEFAULT 0,
-    period_start DATE,
-    period_end DATE,
-    last_updated TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE,
-    INDEX idx_leaderboard (period_type, quiz_type, rank_position),
-    INDEX idx_period (period_start, period_end)
-);
+
 
 -- User sessions for login management
 CREATE TABLE IF NOT EXISTS user_sessions (
@@ -160,22 +143,6 @@ CREATE INDEX idx_user_statistics_accuracy ON user_statistics(average_accuracy DE
 CREATE INDEX idx_daily_performance_user_date ON daily_performance(user_id, date DESC);
 
 -- Views for common queries
-CREATE OR REPLACE VIEW user_leaderboard_view AS
-SELECT 
-    u.id,
-    u.username,
-    u.full_name,
-    us.total_quizzes,
-    us.average_accuracy,
-    us.best_score,
-    us.total_time_spent,
-    us.current_streak,
-    us.last_quiz_date,
-    RANK() OVER (ORDER BY us.average_accuracy DESC, us.total_quizzes DESC) as overall_rank
-FROM users u
-JOIN user_statistics us ON u.id = us.user_id
-WHERE u.is_active = TRUE
-ORDER BY us.average_accuracy DESC, us.total_quizzes DESC;
 
 CREATE OR REPLACE VIEW recent_quiz_performance AS
 SELECT 
