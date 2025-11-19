@@ -1,0 +1,157 @@
+PART-A: GENERAL ENGLISH
+(Marks: 50)
+Each question carries 2 marks
+
+Directions: In the following questions, a sentence is given in Direct/Indirect speech. Out of the four alternatives given, choose the one which best expresses in the same Direct/Indirect speech.
+
+1. "What makes you so sad?" She asked Jane.
+(A) She asked Jane what makes her so sad.
+(B) She asks Jane what makes her so sad.
+(C) She asked Jane what made her so sad. [Answer]
+(D) She asked Jane that makes her so sad.
+
+2. Ben said to Betty, "Will you help me with my project just now?"
+(A) Ben told Betty whether if she would help him in her project just then.
+(B) Ben asked Betty if she would help him in his project just then. [Answer]
+(C) Ben questioned to Betty that will you help me in my project just now.
+(D) Ben asked to Betty that she will help him in his work just now.
+
+3. She asked Ravi, "What is worrying you?"
+(A) She asked Ravi what is worrying him.
+(B) She asks Ravi what was worrying him.
+(C) She asks Ravi what is worrying him.
+(D) She asked Ravi what was worrying him. [Answer]
+
+4. "Please don't cry", he said.
+(A) He begged that I should not cry.
+(B) He begged me not to cry. [Answer]
+(C) He said to please him and not to cry.
+(D) He told me to not to cry.
+
+5. I said to him, "Will you go to Delhi?"
+(A) I asked him will he go to Delhi.
+(B) I said to him would he go to Delhi.
+(C) I asked him if he would go to Delhi. [Answer]
+(D) I said to him would you go to Delhi.
+
+Directions: In the following questions, some sentences have errors and some do not. The underlined words are the key words where you can identify whether the sentence is erroneous or not. From the given set of choices, choose the correct alternative for the identified error. Where there is no error, choose the specified option (D).
+
+6. A friendship founded on business is **best than** business founded on friendship.
+(A) good than
+(B) better than [Answer]
+(C) more better than
+(D) No errors
+
+7. The crowd **which has gather** to protest against the decision slowly turned to their homes.
+(A) which had gathered [Answer]
+(B) which have gather
+(C) gathering up
+(D) No errors
+
+8. The bridge **in connection with** the two cities will remain closed for security reasons.
+(A) connecting [Answer]
+(B) being connected from
+(C) connects between
+(D) No errors
+
+9. Newspapers have great power **because** their enormous circulation.
+(A) on account
+(B) because of [Answer]
+(C) as a result
+(D) No errors
+
+10. **Besides** criticism of some supervisors, the Chairman still commands respect from the employees.
+(A) Despite criticism from [Answer]
+(B) Without criticism of ll
+(C) Unless criticism of
+(D) No errors
+
+Directions: In the questions below, there are jumbled up sentence parts. Rearrange the parts, which are labeled A, B, C and D to form the correct sentence. Choose the correct sequence from the given set of alternatives.
+
+11. dog/Rahul/with his pet/enjoys playing
+    (A) ABCD
+    (B) BDCA
+    (C) CBDA
+    (D) ACBD
+    Correct Order: **Rahul** (B) **enjoys playing** (D) **with his pet** (C) **dog** (A) -> BDCA
+    (B) BDCA [Answer]
+
+12. Vietnam/exports/good to/the Company
+    (A) DBCA [Answer]
+    (B) BDCA
+    (C) ABCD
+    (D) ACBD
+    Correct Order: **The Company** (D) **exports** (B) **good to** (C) **Vietnam** (A) -> DBCA
+
+13. the grass/please/do not/step on.
+    (A) ACBD
+    (B) BCDA [Answer]
+    (C) DBCA
+    (D) ABCD
+    Correct Order: **Please** (B) **do not** (C) **step on** (D) **the grass** (A) -> BCDA
+
+14. perfect sense/someday/everything/will make
+    (A) ABCD
+    (B) CBDA [Answer]
+    (C) BDCA
+    (D) BCDA
+    Correct Order: **Everything** (C) **someday** (B) **will make** (D) **perfect sense** (A) -> CBDA
+
+15. not effect/sales last year/much improvement in/we did
+    (A) BCAD
+    (B) ABCD
+    (C) DACB [Answer]
+    (D) CBAD
+    Correct Order: **We did** (D) **not effect** (A) **much improvement in** (C) **sales last year** (B) -> DACB
+
+Directions: In the following cloze passage, there are blank spaces which are numbered. Against each number, choose the most appropriate word from the set of given alternatives.
+
+**Passage:**
+Childhood is the time when there are **16** responsibilities to make life difficult. If a child **17** good parents, he is fed, looked **18** and loved, whatever he may do, it is improbable that he will ever again in his life **19** given so much without having to do anything **20** return.
+
+16. (A) many (B) little (C) few (D) more
+    (C) few [Answer]
+
+17. (A) had (B) have (C) has (D) will have
+    (C) has [Answer]
+
+18. (A) up (B) at (C) after (D) around
+    (C) after [Answer]
+
+19. (A) is (B) has (C) are (D) be
+    (D) be [Answer]
+
+20. (A) for (B) in (C) as (D) of
+    (B) in [Answer]
+
+Directions: In the following questions, the sentences grammatically correct have blank spaces followed by four alternative answers. Choose the alternative from the given choices.
+
+21. If I had known your problem **I would have helped you**.
+    (A) I would have helped you [Answer]
+    (B) I had helped you
+    (C) I would help you
+    (D) I will help you
+
+22. I had the jacket **altered** as the sleeves were too long.
+    (A) adapted
+    (B) altered [Answer]
+    (C) amended
+    (D) stitch
+
+23. In fact, she must be **getting** on for 50 now.
+    (A) reaching
+    (B) approaching
+    (C) getting [Answer]
+    (D) coming
+
+24. The money will be **transferred** to your account at the end of the month.
+    (A) converted
+    (B) transformed
+    (C) shifted
+    (D) transferred [Answer]
+
+25. The woman **to whom I sold** my house was a criminal.
+    (A) to that I sold
+    (B) to which I sell
+    (C) to whom I sold [Answer]
+    (D) to her I sold

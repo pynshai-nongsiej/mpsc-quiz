@@ -1,0 +1,771 @@
+*** PART-
+I have converted the content of the PDF file **68.pdf** into the requested plaintext (`.txt`) format, including the full reading passage, all questions, options, and the correct answers.
+
+```txt
+*** PART-A: GENERAL ENGLISH ***
+Marks: 100
+Each Question carry 1 mark
+
+===================================================
+
+*** FULL PASSAGE (SECTION-I) ***
+"Time once gone is gone forever." This sentence has encapsulated the true value of time. Time gives only one chance and one has to put all effort and intelligence to make it best usable. Time has no beginning and no ending. All things are born in time, grow in time and then decay and die in time. Time moves at its own pace. It cannot be commanded. It does not wait for kings or princes and has no pity for beggars. It cannot be analyzed. It can not be criticised. We are generally conscious about passing time and its importance. We have developed clocks and watches to indicate its flow. We have invented dates, days and years to indicate and measure it in our own way, but mind me, it is really indivisible and immeasurable. People say time is money. But I am saying that it is more precious than money. Money lost can be recovered, but not the time lost. A moment lost is lost forever. Time is ever changing. We should never postpone doing good and important things. We should never be idle when we ought to be working hard. Leisure is enjoyable only after fruitful hard work. It is our duty to not to leave any work till tomorrow that can be done today and now. We should not waste time. Actually, nobody can waste time. It is we who are being wasted by time. Economy and value of time is very much important. Great men and women use their every moment most profitably and economically. It is through this method that they have invented great things, discovered wonderful things and left their footprints on the sands of time. Even our spare time should be wisely used. It should be utilized in pursuit of healthy and meaningful hobbies and ecstasy. We may study books, learn music, play with children, grow a garden, learn to do something new and useful in our leisure. To value time is to value the divine.
+
+===================================================
+
+*** Section-I (A): CHOOSE THE APPROPRIATE ANTONYMS (Q. Nos. 1-10) ***
+
+1. Complex
+ a) Rigid
+ c) Colossal
+ b) Hard
+ d) Simple
+[Answer: (d)]
+
+2. Pursuit
+ a) Given up
+ c) Vigilance
+ b) Chase
+ d) Search
+[Answer: (a)]
+
+3. Ecstasy
+ a) Bliss
+ c) Agony
+ b) Delight
+ d) Rapture
+[Answer: (c)]
+
+4. Divine
+ a) Celestial
+ c) Heavenly
+ b) Pious
+ d) Earthly
+[Answer: (d)]
+
+5. Encapsulated
+ a) Elaborated
+ c) Reviewed
+ b) Summed up
+ d) Reduced
+[Answer: (a)]
+
+6. Immeasurable
+ a) Vast
+ c) Slight
+ b) Untold
+ d) Inestimable
+[Answer: (c)]
+
+7. Conscious
+ a) Oblivious
+ c) Vigilant
+ b) Mindful
+ d) Alert
+[Answer: (a)]
+
+8. Idle
+ a) Unoccupied
+ c) Vigilant
+ b) Dormant
+ d) Active
+[Answer: (d)]
+
+9. Leisure
+ a) Rest
+ c) Work
+ b) Time off
+ d) Recreation
+[Answer: (c)]
+
+10. Profitably
+ a) Uselessly
+ c) Valuably
+ b) Beneficially
+ d) Gainfully
+[Answer: (a)]
+
+===================================================
+
+*** Section-II (B): CHOOSE THE CORRECT OPTION TO FILL IN THE GAPS (Q. Nos. 11-70) ***
+
+11. Mr. and Mrs Parson ____ to work together everyday.
+ a) drive
+ c) are driving
+ b) drives
+ d) is driving
+[Answer: (a)]
+
+12. The children won't go to sleep ____ we leave a light on outside their bedroom.
+ a) except
+ c) unless
+ b) otherwise
+ d) but
+[Answer: (c)]
+
+13. I'll give you my spare keys in case you ____ home before me.
+ a) would get
+ c) got
+ b) get
+ d) will get
+[Answer: (b)]
+
+14. My holiday in Paris gave me a great ____ to improve my French accent.
+ a) occasion
+ c) hope
+ b) opportunity
+ d) possibility
+[Answer: (b)]
+
+15. I bought ____ new car yesterday.
+ a) an
+ c) the
+ b) a
+ d) none
+[Answer: (b)]
+
+16. I watched ____ video you had sent me.
+ a) the
+ c) a
+ b) an
+ d) none
+[Answer: (a)]
+
+17. He thinks that ____ love is what will save us all.
+ a) an
+ c) the
+ b) a
+ d) none
+[Answer: (d)]
+
+18. He is ____ oldest member of the club.
+ a) a
+ c) an
+ b) the
+ d) none
+[Answer: (b)]
+
+19. We normally live with our parents but for these two months we ____ in our aunt's flat.
+ a) live
+ c) lived
+ b) are living
+ d) have lived
+[Answer: (b)]
+
+20. Unless John ____ harder he won't get this job.
+ a) will try
+ c) tries
+ b) tried
+ d) is trying
+[Answer: (c)]
+
+21. I ____ for them for an hour now.
+ a) am waiting
+ c) waiting
+ b) have been waiting
+ d) was waiting
+[Answer: (b)]
+
+22. Look! Its Tom! I ____ him for ages.
+ a) saw
+ c) am seeing
+ b) have not seen
+ d) see
+[Answer: (b)]
+
+23. Babies ____ when they are hungry.
+ a) cry
+ c) cried
+ b) cries
+ d) are crying
+[Answer: (a)]
+
+24. I ____ tennis every Sunday morning.
+ a) playing
+ c) am playing
+ b) play
+ d) am play
+[Answer: (b)]
+
+25. ____ many times in a year in Frankfurt.
+ a) It snows
+ c) It is snowing
+ b) It snowed
+ d) It is snow
+[Answer: (a)]
+
+26. Sorry, you can't borrow my pencil. I ____ it myself.
+ a) was using
+ c) use
+ b) using
+ d) am using
+[Answer: (d)]
+
+27. What time ____?
+ a) does the train leave?
+ b) leaves the train?
+ c) is the train leaving?
+ d) the train leaves?
+[Answer: (a)]
+
+28. You can keep my IPod if you like it. I ____ it anymore.
+ a) didn't use
+ c) don't use
+ b) doesn't use
+ d) am not using
+[Answer: (c)]
+
+29. My husband and his colleagues ____ golf at the moment
+ a) play
+ c) are playing
+ b) plays
+ d) is playing
+[Answer: (c)]
+
+30. The singer ended the concert ____ her most popular song.
+ a) by
+ c) in
+ b) as
+ d) with
+[Answer: (a)]
+
+31. Fortunately, ____ from a bump on the head, she suffered no serious injuries from her fall.
+ a) other
+ c) besides
+ b) except
+ d) apart
+[Answer: (d)]
+
+32. She had changed so much that ____ anyone recognised her.
+ a) almost
+ c) not
+ b) hardly
+ d) nearly
+[Answer: (b)]
+
+33. ____ to teaching English, she also writes children's books.
+ a) Moreover
+ c) In addition
+ b) As well as
+ d) Apart
+[Answer: (b)]
+
+34. It was clear that the young couple were ____ of taking charge of the restaurant.
+ a) responsible
+ c) capable
+ b) reliable
+ d) able
+[Answer: (c)]
+
+35. The book ____ of ten chapters, each one covering a different topic.
+ a) comprises
+ c) consists
+ b) includes
+ d) contains
+[Answer: (c)]
+
+36. Mary was disappointed with her new shirt as the colour ____ very quickly.
+ a) bleached
+ c) vanished
+ b) misplaced
+ d) faded
+[Answer: (d)]
+
+37. National leaders from all over the world are expected to attend the ____ meeting.
+ a) peak
+ c) top
+ b) summit
+ d) apex
+[Answer: (b)]
+
+38. Jane remained calm when she won the lottery and ____ about her business as if nothing had happened.
+ a) came
+ c) went
+ b) brought
+ d) moved
+[Answer: (c)]
+
+39. I suggest we ____ outside the stadium tomorrow at 8.30.
+ a) meeting
+ c) met
+ b) will meet
+ d) meet
+[Answer: (d)]
+
+40. My remarks were ____ as a joke, but she was offended by them.
+ a) pretended
+ c) meant
+ b) thought
+ d) supposed
+[Answer: (c)]
+
+41. You ought to take up swimming for the ____ of your health
+ a) concern
+ c) sake
+ b) relief
+ d) cause
+[Answer: (c)]
+
+42. If you're not too tired we could have a ____ of chess after lunch.
+ a) match
+ c) game
+ b) play
+ d) party
+[Answer: (c)]
+
+43. Don't you get tried ____ watching TV every night?
+ a) with
+ c) of
+ b) by
+ d) at
+[Answer: (c)]
+
+44. Go on, finish the dessert. It needs ____ up because it won't stay fresh until tomorrow.
+ a) eat
+ c) to eat
+ b) eating
+ d) to be eaten
+[Answer: (b)]
+
+45. Because it had not rained for several months, there was a ____ of water.
+ a) shortage
+ c) scarce
+ b) drop
+ d) waste
+[Answer: (a)]
+
+46. I've always ____ you as my best friend.
+ a) regarded
+ c) meant
+ b) thought
+ d) supposed
+[Answer: (a)]
+
+47. She came to live here ____ a month ago.
+ a) quite
+ c) already
+ b) beyond
+ d) about
+[Answer: (d)]
+
+48. Don't make such a ____! The dentist is only going to look at your teeth.
+ a) fuss
+ c) worry
+ b) trouble
+ d) reaction
+[Answer: (a)]
+
+49. He spent a long time looking for a tie which ____ with his new shirt.
+ a) fixed
+ c) went
+ b) made
+ d) wore
+[Answer: (c)]
+
+50. Anyone ____ after the start of the play is not allowed in until the interval.
+ a) arrives
+ c) arriving
+ b) has arrived
+ d) arrived
+[Answer: (c)]
+
+51. This new magazine is ____ with interesting stories and useful information.
+ a) full
+ c) thick
+ b) packed
+ d) written
+[Answer: (b)]
+
+52. The restaurant was far too noisy ____ relaxed conversation.
+ a) to
+ c) at
+ b) on
+ d) for
+[Answer: (d)]
+
+53. In this branch of medicine, it is vital to ____ open to new ideas.
+ a) stand
+ c) hold
+ b) continue
+ d) remain
+[Answer: (d)]
+
+54. Please ____ your dog.
+ a) prevent
+ c) restrain
+ b) stop
+ d) subdue
+[Answer: (c)]
+
+55. The teacher is popular ____ his students.
+ a) among
+ c) to
+ b) with
+ d) for
+[Answer: (b)]
+
+56. If you ____ and explain your problem, he will help.
+ a) call at him
+ c) call to him
+ b) call upon him
+ d) call in him
+[Answer: (b)]
+
+57. He may have aged ____
+ a) when I last saw him
+ c) before I last saw him
+ b) since I last saw him
+ d) since I saw him
+[Answer: (b)]
+
+58. I need a good explanation of all the costs ____ in buying a new car
+ a) involved
+ c) concerned
+ b) affected
+ d) implied
+[Answer: (a)]
+
+59. The doctor told him to lose weight quickly or pay the ____ later in life.
+ a) fine
+ c) price
+ b) fee
+ d) cost
+[Answer: (c)]
+
+60. Jet lag causes problems with our ____ clock.
+ a) biological
+ c) natural
+ b) botanical
+ d) rhythmical
+[Answer: (a)]
+
+61. I didn't stay behind because I wanted to, I did so because it was my ____
+ a) work
+ c) shift
+ b) duty
+ d) chore
+[Answer: (b)]
+
+62. What angered me wasn't his resignation but the ____ in which he did it.
+ a) method
+ c) aspect
+ b) manner
+ d) bearing
+[Answer: (b)]
+
+63. Despite being ____ in the battle, the soldier fought on and was awarded a medal for bravery.
+ a) enraged
+ c) wounded
+ b) flawed
+ d) bruised
+[Answer: (c)]
+
+64. We're not used to ____ invited to very formal occasions.
+ a) be
+ c) being
+ b) have
+ d) having
+[Answer: (c)]
+
+65. I'd rather we ____ the meeting this evening, because I'm very tired.
+ a) cancel
+ c) do not cancel
+ b) cancelled
+ d) didn't cancel
+[Answer: (b)]
+
+66. She obviously didn't want to discuss the matter so I didn't ____ the point.
+ a) maintain
+ c) follow
+ b) chase
+ d) pursue
+[Answer: (d)]
+
+67. The rain will ____ for most of the morning, but we are expecting a brighter afternoon.
+ a) persist
+ c) resist
+ b) insist
+ d) consist
+[Answer: (a)]
+
+68. Deep sea oil exploration is a dirty and dangerous ____
+ a) situation
+ c) case
+ b) affair
+ d) business
+[Answer: (d)]
+
+69. She obviously didn't want to go so I didn't ____ her to.
+ a) encourage
+ c) control
+ b) follow
+ d) chase
+[Answer: (a)]
+
+70. ____ a maruti 800, he also owns a Hyundai vehicle.
+ a) apart
+ c) besides
+ b) from
+ d) except
+[Answer: (c)]
+
+===================================================
+
+*** Section-III: WHERE CAN YOU SEE THESE NOTICES? (Q. Nos. 71-77) ***
+
+71. YOU CAN LOOK BUT DON'T TOUCH THE PICTURES.
+ a) in an office
+ c) in a museun
+ b) in a cinema
+ d) in the classroom
+[Answer: (c)]
+
+72. SILENCE PLEASE
+ a) in a cinema
+ c) in a bus stop
+ b) in a hospital
+ d) in a street
+[Answer: (b)]
+
+73. PLEASE KEEP YOUR PHONES ON SILENT MODE
+ a) in a meeting
+ c) in a bank
+ b) in a bus
+ d) in a street
+[Answer: (a)]
+
+74. PLEASE GIVE THE EXACT CHANGE TO THE CONDUCTOR.
+ a) in a cinema
+ c) in a bus
+ b) in a bank
+ d) in an aeroplane
+[Answer: (c)]
+
+75. NO PARKING PLEASE.
+ a) in a street
+ c) on a book
+ b) in a cinema
+ d) in a garage
+[Answer: (a)]
+
+76. CROSS BRIDGE FOR TRAIN TO EDINBURGH
+ a) in a bank
+ c) in a station
+ b) in a garage
+ d) in a bus
+[Answer: (c)]
+
+77. KEEP IN A COLD PLACE
+ a) clothes
+ c) furniture
+ b) food
+ d) money
+[Answer: (b)]
+
+===================================================
+
+*** Section-III: CHOOSE THE CORRECT SENTENCE (Q. Nos. 78-90) ***
+
+78.
+(i) I will inform them this.
+(ii) I will inform them of this.
+(iii) They will be informed of this.
+ a) (i) and (iii)
+ c) (i) and (ii)
+ b) (ii) and (iii)
+ d) None of the sentence is correct
+[Answer: (b)]
+
+79.
+(i) I only sleep four hours a day.
+(ii) Four hours sleep in a day is bad for health
+(iii) I sleep in a day four hours.
+ a) (i) and (iii)
+ c) (i) and (ii)
+ b) (ii) and (iii)
+ d) None of the sentence is correct
+[Answer: (c)]
+
+80.
+(i) The dentist kept him waiting for over an hour
+(ii) The dentist kept him waiting for over a hour
+(iii) He was waiting for the dentist for an hour
+ a) (i) and (iii)
+ c) (i) and (ii)
+ b) (ii) and (iii)
+ d) None of the sentence is correct
+[Answer: (a)]
+
+81.
+(i) Why don't you borrow dress from your sister for the party this evening?
+(ii) Why don't you borrow a dress from your sister for the party this evening?
+(iii) Why don't you borrow a dress from your sister for party this evening?
+ a) (i)
+ c) (iii)
+ b) (ii)
+ d) None of the sentence is correct
+[Answer: (b)]
+
+82.
+(i) The possessiveness often lead to problems among couples.
+(ii) Being over possessive often leads to problems between couples.
+(iii) Possessiveness often leads to problems between couples.
+ a) (i) and (iii)
+ c) (i) and (ii)
+ b) (ii) and (iii)
+ d) None of the sentence is correct
+[Answer: (b)]
+
+83.
+(i) Which came first, chicken or egg?
+(ii) Which came first, a chicken or egg?
+(iii) Which came first, the chicken or the egg?
+ a) (i)
+ c) (iii)
+ b) (ii)
+ d) None of the sentence is correct
+[Answer: (c)]
+
+84.
+(i) Advice from their bosses is needed by junior employees.
+(ii) Junior employees need an advice from their bosses.
+(iii) Junior employees need advice from their bosses now and then.
+ a) (i) and (iii)
+ c) (i) and (ii)
+ b) (ii) and (iii)
+ d) None of the sentence is correct
+[Answer: (a)]
+
+85.
+(i) Rahul has been studying at Delhi University for two years now
+(ii) Rahul has been studying at Delhi University for the two years now
+(iii) Rahul was studying at Delhi University for two years now
+ a) (i)
+ c) (iii)
+ b) (ii)
+ d) None of the sentence is correct
+[Answer: (a)]
+
+86.
+(i) You can't teach old dog new tricks.
+(ii) You can't teach to dog new tricks.
+(iii) You can't teach an old dog new tricks.
+ a) (i)
+ c) (iii)
+ b) (ii)
+ d) None of the sentence is correct
+[Answer: (c)]
+
+87.
+(i) The food smells great.
+(ii) The food is smelling great.
+(iii) The food smell great.
+ a) (i) and (iii)
+ c) (i) and (ii)
+ b) (ii) and (iii)
+ d) None of the sentence is correct
+[Answer: (a)]
+
+88.
+(i) We'll go shopping soon.
+(ii) We will go a shopping soon.
+(iii) We will be going for shopping very soon
+ a) (i) and (iii)
+ c) (i) and (ii)
+ b) (ii) and (iii)
+ d) None of the sentence is correct
+[Answer: (a)]
+
+89.
+(i) Will Jane and Mary be coming for a dinner tonight?
+(ii) Will Jane be coming for dinner tonight?
+(iii) Will Jane and Mary come for dinner tonight?
+ a) (i) and (ii)
+ c) (i) and (ii)
+ b) (ii) and (iii)
+ d) None of the sentence is correct
+[Answer: (b)]
+
+90.
+(i) Have you ever been to Spain?
+(ii) Have you to Spain gone before?
+(iii) Have you Spain visited?
+ a) (i)
+ c) (iii)
+ b) (ii)
+ d) None of the sentence is correct
+[Answer: (a)]
+
+===================================================
+
+*** Section-IV: CHOOSE THE CORRECT MEANING FOR THE WORDS AND PHRASES (Q. Nos. 91-100) ***
+
+91. To feel under the weather
+ a) To not feel too happy about the weather
+ c) To not like the weather
+ b) To not feel too well
+ d) None of the above
+[Answer: (b)]
+
+92. When pigs fly
+ a) Something that will never happen
+ c) Something that frequently happens
+ b) Something that will surely happen
+ d) None of the above
+[Answer: (a)]
+
+93. Break a leg
+ a) To take care not to break ones leg
+ c) To wish someone a good day
+ b) To wish someone good luck
+ d) None of the above
+[Answer: (b)]
+
+94. Make a long story short
+ a) To come to the end of the story
+ c) To come to the point
+ b) To give a summary of the story
+ d) None of the above
+[Answer: (b)]
+
+95. Your guess is as good as mine
+ a) To have no purpose at all
+ c) To have no effect at all
+ b) To have no idea at all
+ d) None of the above
+[Answer: (b)]
+
+96. Miss the boat
+ a) Miss a plan
+ c) Miss a chance
+ b) Miss a dance
+ d) None of the above
+[Answer: (c)]
+
+97. Dragging its feet
+ a) Delaying in decision
+ c) Delaying in creation
+ b) Delaying in beginning
+ d) None of the above
+[Answer: (a)]
+
+98. Speak of the devil
+ a) The person you are speaking of is the devil
+ c) The devil has come
+ b) The person you are speaking of actually turns up at that moment
+ d) None of the above
+[Answer: (b)]
+
+99. See eye to eye
+ a) To look into the eye
+ c) There is something in the eye
+ b) To agree with someone
+ d) None of the above
+[Answer: (b)]
+
+100. Let the cat out of the bag
+ a) To purposely conceal the truth
+ c) To accidentally reveal a secret
+ b) To never put a cat inside a bag
+ d) None of the above
+[Answer: (c)]

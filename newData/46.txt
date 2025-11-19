@@ -1,0 +1,379 @@
+PART-A: GENERAL ENGLISH
+(Marks: 100)
+Each question carries 2 marks
+**File Content: 46.txt**
+
+```plaintext
+PART-A: GENERAL ENGLISH (Marks: 100)
+Each question carries 2 marks
+
+Directions (Q. Nos. 1-15): Choose the correct option to fill in the gap(s).
+
+1. Plenty of evidence has come to light to prove that he has been involved ________ smuggling.
+(A) through
+(B) at
+(C) by
+(D) in
+Answer: (D) in
+
+2. ________ first consulting us, I don't think he had any right to reach such an agreement ________ the strikers.
+(A) By/over
+(B) After/on
+(C) Before/from
+(D) Without/with
+Answer: (D) Without/with
+
+3. The influence ________ Freud ________ the generation that followed was even stronger.
+(A) in/to
+(B) from/to
+(C) of/on
+(D) by/upon
+Answer: (C) of/on
+
+4. After becoming familiar ________ the methods used ________ traditional carpentry, he set up his own workshop.
+(A) to/of
+(B) with/in
+(C) in/for
+(D) about/during
+Answer: (B) with/in
+
+5. This material is different ________ that.
+(A) from
+(B) to
+(C) with
+(D) between
+Answer: (A) from
+
+6. Have you read the article ________ Time magazine ________ Google?
+(A) on/on
+(B) to/on
+(C) in/on
+(D) from/on
+Answer: (C) in/on
+
+7. I stayed ________ the Ritz Hotel ________ my visit to New York.
+(A) through/over
+(B) to/while
+(C) at/while
+(D) at/during
+Answer: (D) at/during
+
+8. My house is ________ the end of the street ________ the right.
+(A) in/on
+(B) at/in
+(C) in/at
+(D) at/on
+Answer: (D) at/on
+
+9. Are you ________ or ________ the President?
+(A) pro/con
+(B) for/against
+(C) proto/contra
+(D) with/without
+Answer: (B) for/against
+
+10. She was born ________ Italy ________ February 15th, 1954.
+(A) in/in
+(B) in/to
+(C) in/on
+(D) to/in
+Answer: (C) in/on
+
+11. Oliver Twist is a well-known ________ character from the British literature.
+(A) fictitious
+(B) mythological
+(C) fictional
+(D) legendary
+Answer: (C) fictional
+
+12. The man was accused of getting a credit card using ________ name.
+(A) imaginary
+(B) fictitious
+(C) fictional
+(D) unbelievable
+Answer: (B) fictitious
+
+13. The phoenix is a/an ________ bird that rose from the ashes.
+(A) mythological
+(B) imaginary
+(C) fictional
+(D) make-believe
+Answer: (A) mythological
+
+14. I did not finish the book because I was ________ in the subject.
+(A) involved
+(B) non-interrupted
+(C) captivated
+(D) uninterested
+Answer: (D) uninterested
+
+15. The ________ donkey refused to budge even when we lured him with a carrot.
+(A) steadfast
+(B) resolute
+(C) devoted
+(D) obstinate
+Answer: (D) obstinate
+
+---------------------------------------------------------------------------------------------------
+
+Directions (Q. Nos. 16-25): Choose the option which is opposite in meaning to the given word.
+
+16. Affluent
+(A) wealthy
+(B) abundance
+(C) impoverished
+(D) plentiful
+Answer: (C) impoverished
+
+17. Virtuoso
+(A) amateur
+(B) maestro
+(C) authority
+(D) adept
+Answer: (A) amateur
+
+18. Winsome
+(A) endearing
+(B) charming
+(C) unlikeable
+(D) drooling
+Answer: (C) unlikeable
+
+19. Travesty
+(A) homage
+(B) parody
+(C) mockery
+(D) sham
+Answer: (A) homage
+
+20. Surreptitious
+(A) stealthy
+(B) concealed
+(C) honest
+(D) indirect
+Answer: (C) honest
+
+21. Requisition
+(A) buy
+(B) demand
+(C) solicit
+(D) reply
+Answer: (D) reply
+
+22. Mandated
+(A) dictated
+(B) proclaimed
+(C) bid
+(D) denial
+Answer: (D) denial
+
+23. Quaint
+(A) conventional
+(B) whimsical
+(C) erratic
+(D) bizarre
+Answer: (A) conventional
+
+24. Outlandish
+(A) freakish
+(B) familiar
+(C) grotesque
+(D) ridiculous
+Answer: (B) familiar
+
+25. Amass
+(A) disperse
+(B) meld
+(C) muster
+(D) infuse
+Answer: (A) disperse
+
+---------------------------------------------------------------------------------------------------
+
+Directions (Q. Nos. 26-35): Choose the option which is nearest in meaning to the given word.
+
+26. Amenable
+(A) non-conforming
+(B) intractable
+(C) obedient
+(D) fixed
+Answer: (C) obedient
+
+27. Bane
+(A) fortune
+(B) nuisance
+(C) advantage
+(D) useless
+Answer: (B) nuisance
+
+28. Capitulate
+(A) defend
+(B) fight
+(C) yield
+(D) alienate
+Answer: (C) yield
+
+29. Concede
+(A) contradict
+(B) repudiate
+(C) refuse
+(D) accept
+Answer: (D) accept
+
+30. Defer
+(A) advance
+(B) postpone
+(C) force
+(D) forge
+Answer: (B) postpone
+
+31. Relent
+(A) rise
+(B) increase
+(C) give in
+(D) build
+Answer: (C) give in
+
+32. Debacle
+(A) miracle
+(B) boon
+(C) failure
+(D) wonder
+Answer: (C) failure
+
+33. Cataclysm
+(A) calamity
+(B) boon
+(C) luck
+(D) surrender
+Answer: (A) calamity
+
+34. Covet
+(A) abjure
+(B) reject
+(C) give
+(D) aspire to
+Answer: (D) aspire to
+
+35. Equivocal
+(A) certain
+(B) dubious
+(C) determined
+(D) obvious
+Answer: (B) dubious
+
+---------------------------------------------------------------------------------------------------
+
+Directions (Q. Nos. 36-45): Choose the option which expresses the correct meaning of the given idioms.
+
+36. To catch a tartar
+(A) to trap wanted criminals with great difficulty
+(B) to meet with a disaster
+(C) to catch a dangerous person
+(D) to deal with a person who is more than one's match
+Answer: (D) to deal with a person who is more than one's match
+
+37. To have an axe to grind
+(A) a private end to serve
+(B) to fail to arouse interest
+(C) to have no result
+(D) to work for both sides
+Answer: (A) a private end to serve
+
+38. To put one's hand to the plough
+(A) to take up agricultural farming
+(B) to take a difficult task
+(C) to get entangled with unnecessary things
+(D) to take interest in technical work
+Answer: (B) to take a difficult task
+
+39. To end in smoke
+(A) to excite great applause
+(B) to overcome someone
+(C) to make complete sense
+(D) to ruin oneself
+Answer: (D) to ruin oneself
+
+40. A man of straw
+(A) a worthy fellow
+(B) a very cunning man
+(C) a man of no substance
+(D) a selfish person
+Answer: (C) a man of no substance
+
+41. To weather the storm
+(A) survive a difficult situation
+(B) create difficulty for others
+(C) victim of a crisis
+(D) unsuccessful attempt
+Answer: (A) survive a difficult situation
+
+42. To sit on the fence
+(A) to get into trouble
+(B) when two people agree on something
+(C) when someone does not want to choose or make a decision
+(D) would never like to do something
+Answer: (C) when someone does not want to choose or make a decision
+
+43. Be glad to see the back of
+(A) a good idea or plan
+(B) to mark the end of a show
+(C) when someone understands the situation well
+(D) to be happy to get rid of someone
+Answer: (D) to be happy to get rid of someone
+
+44. Not playing with a full deck
+(A) someone who lacks intelligence
+(B) an easy job or task
+(C) deceive someone into thinking well of them
+(D) to have no answer to a question
+Answer: (A) someone who lacks intelligence
+
+45. Dress up to the nines
+(A) too elaborately dressed
+(B) cannot be trusted
+(C) lacking in style
+(D) ready for the show
+Answer: (A) too elaborately dressed
+
+---------------------------------------------------------------------------------------------------
+
+Directions (Q. Nos. 46-50): Read the following passage carefully and answer the questions given below:
+
+PASSAGE:
+Dolphins are regarded as the friendliest creatures in the sea and stories of them helping drowning sailors have been common since Roman times. The more we learn about dolphins, the more we realize that their society is more complex than people previously imagined. They look after other dolphins when they are ill, care for pregnant mothers and protect the weakest in the community, as we do. Some scientists have suggested that dolphins have a language but it is much more probable that they communicate with each other without needing words. Could any of these mammals be more intelligent than man? Certainly, the most common argument in favour of man's superiority over them that we can kill them more easily than they can kill us is the least satisfactory. On the contrary, the more we discover about these remarkable creatures, the less we appear superior when we destroy them.
+
+46. Dolphins have been regarded as
+(A) being more intelligent than man
+(B) the friendliest creature in the sea
+(C) very sophisticated creatures
+(D) possessing a complex community
+Answer: (B) the friendliest creature in the sea
+
+47. Dolphins have been known to
+(A) talk to humans
+(B) warn drowning sailors
+(C) take care and protect other ailing dolphins
+(D) kill humans easily
+Answer: (C) take care and protect other ailing dolphins
+
+48. It is clear from the passage that dolphins
+(A) are proven to be less intelligent than once thought
+(B) have a reputation for being friendly to humans
+(C) are the most powerful creatures that live in the oceans
+(D) are capable of learning a language and communicating with humans
+Answer: (B) have a reputation for being friendly to humans
+
+49. The fact that the writer of the passage thinks that we can kill dolphins more easily than they can kill us
+(A) means that they are better adapted to their environment than we are
+(B) shows that dolphins have a very sophisticated form of communication
+(C) proves that dolphins are not the most intelligent species at sea
+(D) does not mean that we are superior to them
+Answer: (D) does not mean that we are superior to them
+
+50. One can infer from the reading that
+(A) dolphins are quite abundant in some areas of the world
+(B) communication is the most fascinating aspect of the dolphins
+(C) it is not usual for dolphins to communicate with each other
+(D) dolphins have some social traits that are similar to those of humans
+Answer: (D) dolphins have some social traits that are similar to those of humans
