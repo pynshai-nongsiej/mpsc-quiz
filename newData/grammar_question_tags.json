@@ -1,0 +1,116 @@
+{
+  "category": "Grammar - Question Tags",
+  "total_questions": 11,
+  "questions": [
+    {
+      "question": "You are coming to school ______",
+      "options": [
+        "a) Isn't it?",
+        "b) Aren't you?",
+        "c) Will you?",
+        "d) May you?"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Anybody can cross the river ______",
+      "options": [
+        "a) Can't they?",
+        "b) Won't they?",
+        "c) Will they?",
+        "d) Shall they?"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "You hardly know her ______",
+      "options": [
+        "a) You do?",
+        "b) Do you?",
+        "c) Will you?",
+        "d) Shall you?"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Let us finish the job now ______",
+      "options": [
+        "a) Will we?",
+        "b) Won't we?",
+        "c) Shall we?",
+        "d) Can't we?"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "The girl has been crying since morning. ______",
+      "options": [
+        "a) Has she?",
+        "b) Isn't she?",
+        "c) Hasn't she?",
+        "d) Wont she?"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "I am the best player ______?",
+      "options": [
+        "a) can't I",
+        "b) will I",
+        "c) shall I",
+        "d) aren't I"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "Let's go for a walk, ______?",
+      "options": [
+        "a) should we",
+        "b) can we",
+        "c) shall we",
+        "d) do we"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "You never say where you are going, ______?",
+      "options": [
+        "a) do you",
+        "b) did you",
+        "c) don't you",
+        "d) have you"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "There is little we can do about it, ______?",
+      "options": [
+        "a) was there",
+        "b) has there",
+        "c) isn't there",
+        "d) is there"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "There weren't any issues, ______?",
+      "options": [
+        "a) weren't they",
+        "b) weren't there",
+        "c) were they",
+        "d) were there"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "We live in a tiny flat, ______?",
+      "options": [
+        "a) don't we",
+        "b) do we",
+        "c) doesn't we",
+        "d) does we"
+      ],
+      "answer": "A"
+    }
+  ]
+}

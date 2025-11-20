@@ -1,0 +1,936 @@
+{
+  "category": "Grammar - Direct & Indirect Speech",
+  "total_questions": 93,
+  "questions": [
+    {
+      "question": "Rohan asked me, \"Did you watch IPL match last evening?\"",
+      "options": [
+        "a) Rohan asked me whether I watch the IPL match last evening.",
+        "b) Rohan asked me whether I had seen the IPL match last evening.",
+        "c) Rohan asked me did I watched the IPL match last evening.",
+        "d) Rohan asked me whether I see the IPL match last evening."
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "I said to him, \"Why are you working so hard?\"",
+      "options": [
+        "a) I asked him why he was working so hard.",
+        "b) I asked him why was he working so hard.",
+        "c) I asked him why he has been working so hard.",
+        "d) I asked him why he had been working so hard."
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "He said to her, \"What a cold day!\"",
+      "options": [
+        "a) He told her that it was a very cold day.",
+        "b) He exclaimed that what a cold day it was.",
+        "c) He exclaimed sorrowfully that it was a very cold day.",
+        "d) He exclaimed that it was a very cold day."
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "He told her. \"I want to meet your father.\"",
+      "options": [
+        "a) He told her that I want to meet your father.",
+        "b) He told her that he wanted to meet your father.",
+        "c) He told her that he wanted to meet her father.",
+        "d) He told her that she wanted to meet her father."
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "She said to me, \"I expect you to attend the function.\"",
+      "options": [
+        "a) She told me that she expected me to attend the function",
+        "b) She told me that she expects me to attend the function",
+        "c) She told me that she expected me to have attended the function",
+        "d) She told me she expected me to attends the function"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "\"Are you alone my son?\" asked a soft voice close behind me.",
+      "options": [
+        "a) A soft voice asked that what I was doing there alone.",
+        "b) A soft voice said to me are you alone son.",
+        "c) A soft voice from my back asked if I was alone.",
+        "d) A soft voice behind me asked If I was alone."
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "He said to his father, \"Please increase my pocket money.\"",
+      "options": [
+        "a) He told his father, \"Please increase my pocket money.\"",
+        "b) He pleaded his father to please increase my pocket money.",
+        "c) He requested his father to increase his pocket money.",
+        "d) He asked him to increase my pocket money."
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "My friend said, \"I am leaving today.\"",
+      "options": [
+        "a) my friend said that he is leaving today",
+        "b) my friend said that he was leaving today",
+        "c) my friend said that he leaves today",
+        "d) my friend said that he was leaving that day"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "She said to him, \"what a cold day !\"",
+      "options": [
+        "a) she told him that it was a cold day.",
+        "b) she exclaimed that it was a cold day.",
+        "c) she exclaimed sorrowfully that it was a cold day.",
+        "d) she exclaimed that it was a very cold day."
+      ],
+      "answer": "D (Exclamations often add 'very')."
+    },
+    {
+      "question": "The man exclaimed that his wallet was stolen.",
+      "options": [
+        "a) \"My wallet was stolen!\" the man said.",
+        "b) \"Somebody stole my wallet!\" exclaimed the man.",
+        "c) The man exclaimed, \"My wallet was stolen!\"",
+        "d) The man cried, \"My wallet was stolen\"."
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "Socrates said, \"Virtue is its own reward.\"",
+      "options": [
+        "a) Socrates said that virtue had its own rewards.",
+        "b) Socrates says that virtue is its own rewards.",
+        "c) Socrates said that virtue is its own reward.",
+        "d) Socrates said that virtue was its own rewards."
+      ],
+      "answer": "C (Universal truth remains in present tense)."
+    },
+    {
+      "question": "Mr. Sam asked the boy if he could tell him where the nearest post office was.",
+      "options": [
+        "a) Where is the nearest post office ? Mr. Sam asked the boy.",
+        "b) Mr. Sam asked the boy\" Could you tell me where the nearest post office is\" ?",
+        "c) Mr. Sam asked the boy \"where is the nearest post office ?",
+        "d) Mr. Sam said to the boy \"where is the nearest post office\"?"
+      ],
+      "answer": "B (Polite request structure fits 'could you tell me')."
+    },
+    {
+      "question": "He said, \"It is time to go.\"",
+      "options": [
+        "a) He said that it is time to go.",
+        "b) He said that it is time to be gone.",
+        "c) He said that it was time to go.",
+        "d) He said that it would be time to go."
+      ],
+      "answer": "C (Present tense in reported clause shifts to past)"
+    },
+    {
+      "question": "The policeman said, \"The thief has managed to escape.\"",
+      "options": [
+        "a) The policeman said that the thief has managed to escape.",
+        "b) The policeman said that the thief had managed to escape.",
+        "c) The policeman said that the thief managed to escape.",
+        "d) The policeman said that the thief has escaped."
+      ],
+      "answer": "B (Present Perfect Active shifts to Past Perfect)"
+    },
+    {
+      "question": "They said that they were ready to leave.",
+      "options": [
+        "a) They said, \"They were ready to leave.\"",
+        "b) They said, \"We are ready to leave.\"",
+        "c) They said, \"We were ready to leave.\"",
+        "d) They said, \"They would be ready to leave.\""
+      ],
+      "answer": "B (Present tense reported shifts to past, so past tense reported must be present tense direct)"
+    },
+    {
+      "question": "The teacher said to the students, \"I shall meet you tomorrow.\"",
+      "options": [
+        "a) The teacher told the students that she would meet them the next day.",
+        "b) The teacher told the students that she would be meeting them the next day.",
+        "c) The teacher said to the students that she would meet them the next day.",
+        "d) The teacher said to the students that she should meet them the next day."
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "The officer said that he had already given the instructions.",
+      "options": [
+        "a) The officer said, \"I have already given my instructions.\"",
+        "b) The officer said, \"I had already given the instructions.\"",
+        "c) The officer said, \"I gave the instructions.\"",
+        "d) The officer said, \"The instructions have already been given by me.\""
+      ],
+      "answer": "A (Past Perfect reported can come from Present Perfect or Simple Past direct; A is the best fit)"
+    },
+    {
+      "question": "My friend said, \"I am leaving today.\"",
+      "options": [
+        "a) My friend said that he is leaving today.",
+        "b) My friend said that he was leaving today.",
+        "c) My friend said that he leaves today.",
+        "d) My friend said that he was leaving that day."
+      ],
+      "answer": "D (Tense and time expression shift)"
+    },
+    {
+      "question": "She said to him, \"What a cold day!\"",
+      "options": [
+        "a) She told him that it was a cold day.",
+        "b) She exclaimed that it was a cold day.",
+        "c) She exclaimed sorrowfully that it was a cold day.",
+        "d) She exclaimed that it was a very cold day."
+      ],
+      "answer": "D (Exclamatory sentence shift)"
+    },
+    {
+      "question": "The man exclaimed that his wallet was stolen.",
+      "options": [
+        "a) \"My wallet was stolen!\" the man said.",
+        "b) \"Somebody stole my wallet!\" exclaimed the man.",
+        "c) The man exclaimed, \"My wallet was stolen!\"",
+        "d) The man cried, \"My wallet was stolen.\""
+      ],
+      "answer": "B (Past Simple in Direct Speech becomes Past Perfect in Indirect Speech, or Past Simple if the sense is preserved. B or C are plausible Direct forms, but B is a better structural fit)"
+    },
+    {
+      "question": "Socrates said, \"Virtue is its own reward.\"",
+      "options": [
+        "a) Socrates said that virtue had its own rewards.",
+        "b) Socrates says that virtue is its own rewards.",
+        "c) Socrates said that virtue is its own reward.",
+        "d) Socrates said that virtue was its own rewards."
+      ],
+      "answer": "C (Universal truth, tense does not change)"
+    },
+    {
+      "question": "Mr. Sam asked the boy if he could tell him where the nearest post office is.",
+      "options": [
+        "a) Where is the nearest post office ? Mr. Sam asked the boy.",
+        "b) Mr. Sam asked the boy \"Could you tell me where the nearest post office is\"?",
+        "c) Mr. Sam asked the boy \"where is the nearest post office\" ?",
+        "d) Mr. Sam said to the boy \"where is the nearest post office\"?"
+      ],
+      "answer": "B (Indirect speech often originates from a polite direct question)"
+    },
+    {
+      "question": "He asked me why I was late.",
+      "options": [
+        "a) He asked me, \"Why I was late ?\"",
+        "b) He asked me, \"Why you are late ?\"",
+        "c) He asked me, \"Why am I late?\"",
+        "d) He asked me, \"Why are you late?\""
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "\"Alright, yes, I was wrong and you were right\", he said.",
+      "options": [
+        "a) He admitted that I was wrong and you were right.",
+        "b) He admitted that I was wrong and he was right.",
+        "c) He admitted that he had been wrong and I had been right.",
+        "d) He admitted that he has been wrong and I have been right."
+      ],
+      "answer": "C (Past tense 'was/were' shifts to Past Perfect 'had been' in reported speech)"
+    },
+    {
+      "question": "I asked my brother if he had returned the money to his friend.",
+      "options": [
+        "a) I said to my brother, \"Have you return the money to his friend?\"",
+        "b) I said to my brother, \"Have you returned the money to your friend?\"",
+        "c) Do you return the money to his friend.",
+        "d) Had you returned the money to my friend."
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "My cousin said, \"My room-mate had snored throughout the night.\"",
+      "options": [
+        "a) My cousin said that her room-mate snored throughout the night.",
+        "b) My cousin told me that her room-mate snored throughout the night.",
+        "c) My cousin complained to me that her room-mate is snoring throughout the night.",
+        "d) My cousin felt that her room-mate may be snoring throughout the night."
+      ],
+      "answer": "A (Past Perfect usually remains Past Perfect, or optionally shifts to Simple Past if the sequence of events is clear.)"
+    },
+    {
+      "question": "I told him that he was not working hard.",
+      "options": [
+        "a) I said to him, \"He is not working hard.\"",
+        "b) I told to him, \"You are not working hard.\"",
+        "c) I said, \"You are not working hard.\"",
+        "d) I said to him, \"You are not working hard.\""
+      ],
+      "answer": "D (Present Continuous shifts to Past Continuous)"
+    },
+    {
+      "question": "\"Are you alone, my son?\" asked a soft voice close behind me.",
+      "options": [
+        "a) A soft voice asked that what I was doing there alone.",
+        "b) A soft voice behind me asked if I was alone.",
+        "c) A soft voice from my back asked if I was alone.",
+        "d) A soft voice said to me are you alone son."
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "\"What about going for a swim,\" he said, \"It's quite fine now.\"",
+      "options": [
+        "a) He asked me what about going for a swim as it was quite fine then.",
+        "b) He proposed going for swim as it was quite fine.",
+        "c) He suggested going for a swim as it was quite fine.",
+        "d) He advised me to go for a swim as it was quite fine."
+      ],
+      "answer": "C (The phrase \"What about...\" suggests a suggestion/proposal)"
+    },
+    {
+      "question": "His father ordered him to go to his room and study.",
+      "options": [
+        "a) His father shouted, \"Go right now to your study room\"",
+        "b) His father said to him, \"Go and study in your room.\"",
+        "c) His father said, \"Go to your room and study.\"",
+        "d) His father said firmly, \"Go and study in your room.\""
+      ],
+      "answer": "C (Imperative sentence converted to order)"
+    },
+    {
+      "question": "Lisa said to Marba, \"Joshua will leave for Kolkata tomorrow.\"",
+      "options": [
+        "(A) Lisa told Marba that Joshua will leave for Kolkata tomorrow.",
+        "(B) Lisa told Marba that Joshua left for Kolkata the next day.",
+        "(C) Lisa told Marba that Joshua would be leaving for Kolkata tomorrow.",
+        "(D) Lisa told Marba that Joshua would leave for Kolkata the next day."
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "He said to her, \"What a cold day!\"",
+      "options": [
+        "(A) He told her that it was a cold day.",
+        "(B) He exclaimed to her that it was a cold day.",
+        "(C) He exclaimed that it was a rather cold day.",
+        "(D) He exclaimed that it was a very cold day."
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "He told her that he wants to meet her family.",
+      "options": [
+        "(A) He told her, \"I want to meet your family.\"",
+        "(B) He told her, \"I wanted to meet your family.\"",
+        "(C) He told her, \"I wanted to meet their family.\"",
+        "(D) He told her, \"I wanted to meet her family.\""
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Kiran asked me, \"Did you see the Cricket match on television last night?\"",
+      "options": [
+        "(A) Kiran asked me whether I saw the Cricket match on television the earlier night.",
+        "(B) Kiran asked me whether I had seen the Cricket match on television the previous night.",
+        "(C) Kiran asked me did I see the Cricket match on television the last night.",
+        "(D) Kiran asked me whether I had seen the Cricket match on television the last night."
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "He said to the interviewer, \"Could you please repeat the question?\"",
+      "options": [
+        "(A) He requested the interviewer if he could please repeat the question.",
+        "(B) He requested the interviewer to please repeat the question.",
+        "(C) He requested the interviewer to repeat the question.",
+        "(D) He requested the interviewer if he could repeat the question."
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "He exclaimed that it was a cold day.",
+      "options": [
+        "(A) What a cold day it is!",
+        "(B) The day is very cold.",
+        "(C) Today is very cold.",
+        "(D) It's very cold today."
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "Lisa said to Marba, \"Joshua will leave for Kolkata tomorrow.\"",
+      "options": [
+        "(A) Lisa told Marba that Joshua will leave for Kolkata tomorrow.",
+        "(B) Lisa told Marba that Joshua left for Kolkata the next day.",
+        "(C) Lisa told Marba that Joshua would be leaving for Kolkata tomorrow.",
+        "(D) Lisa told Marba that Joshua would leave for Kolkata the next day."
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "He said to her, \"What a cold day!\"",
+      "options": [
+        "(A) He told her that it was a cold day.",
+        "(B) He exclaimed to her that it was a cold day.",
+        "(C) He exclaimed that it was a rather cold day.",
+        "(D) He exclaimed that it was a very cold day."
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "He told her that he wants to meet her family.",
+      "options": [
+        "(A) He told her, \"I want to meet your family.\"",
+        "(B) He told her, \"I wanted to meet your family.\"",
+        "(C) He told her, \"I wanted to meet their family.\"",
+        "(D) He told her, \"I wanted to meet her family.\""
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Kiran asked me, \"Did you see the Cricket match on television last night?\"",
+      "options": [
+        "(A) Kiran asked me whether I saw the Cricket match on television the earlier night.",
+        "(B) Kiran asked me whether I had seen the Cricket match on television the previous night.",
+        "(C) Kiran asked me did I see the Cricket match on television the last night.",
+        "(D) Kiran asked me whether I had seen the Cricket match on television the last night."
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "He said to the interviewer, \"Could you please repeat the question?\"",
+      "options": [
+        "(A) He requested the interviewer if he could please repeat the question.",
+        "(B) He requested the interviewer to please repeat the question.",
+        "(C) He requested the interviewer to repeat the question.",
+        "(D) He requested the interviewer if he could repeat the question."
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "He exclaimed that it was a cold day.",
+      "options": [
+        "(A) What a cold day it is!",
+        "(B) The day is very cold.",
+        "(C) Today is very cold.",
+        "(D) It's very cold today."
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "Lisa said to Marba, \"Joshua will leave for Kolkata tomorrow.\"",
+      "options": [
+        "(A) Lisa told Marba that Joshua will leave for Kolkata tomorrow.",
+        "(B) Lisa told Marba that Joshua left for Kolkata the next day.",
+        "(C) Lisa told Marba that Joshua would be leaving for Kolkata tomorrow.",
+        "(D) Lisa told Marba that Joshua would leave for Kolkata the next day."
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "He said to her, \"What a cold day!\"",
+      "options": [
+        "(A) He told her that it was a cold day.",
+        "(B) He exclaimed to her that it was a cold day.",
+        "(C) He exclaimed that it was a rather cold day.",
+        "(D) He exclaimed that it was a very cold day."
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "He told her that he wants to meet her family.",
+      "options": [
+        "(A) He told her, \"I want to meet your family.\"",
+        "(B) He told her, \"I wanted to meet your family.\"",
+        "(C) He told her, \"I wanted to meet their family.\"",
+        "(D) He told her, \"I wanted to meet her family.\""
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Kiran asked me, \"Did you see the Cricket match on television last night?\"",
+      "options": [
+        "(A) Kiran asked me whether I saw the Cricket match on television the earlier night.",
+        "(B) Kiran asked me whether I had seen the Cricket match on television the previous night.",
+        "(C) Kiran asked me did I see the Cricket match on television the last night.",
+        "(D) Kiran asked me whether I had seen the Cricket match on television the last night."
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "He said to the interviewer, \"Could you please repeat the question?\"",
+      "options": [
+        "(A) He requested the interviewer if he could please repeat the question.",
+        "(B) He requested the interviewer to please repeat the question.",
+        "(C) He requested the interviewer to repeat the question.",
+        "(D) He requested the interviewer if he could repeat the question."
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "He exclaimed that it was a cold day.",
+      "options": [
+        "(A) What a cold day it is!",
+        "(B) The day is very cold.",
+        "(C) Today is very cold.",
+        "(D) It's very cold today."
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "Juhi said to her friend, \"I can choose to live the way I want to.\"",
+      "options": [
+        "a) Juhi told her friend that she can choose...",
+        "b) Juhi told her friend that she could be choosing...",
+        "c) Juhi told her friend that she chooses...",
+        "d) Juhi told her friend that she could choose to live the way she wanted to."
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "The boss said to the Secretary, \"Bring the file that I had given to you yesterday.\"",
+      "options": [
+        "a) The boss told the Secretary to bring the file that I had given...",
+        "b) The boss told his Secretary to bring the file that he gave her yesterday.",
+        "c) The boss told the Secretary to bring the file that he had given to her the day before.",
+        "d) The boss had told the Secretary..."
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "\"Where are you going?\" Father asked me.",
+      "options": [
+        "a) Father asked me where I am going.",
+        "b) Father asked me that where you are going.",
+        "c) Father asked me where I would be going.",
+        "d) Father asked me where I was going."
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "My friend said to me, \"I am not going to talk to you.\"",
+      "options": [
+        "a) The friend told me that he would not be talking...",
+        "b) The friend has told me that he is not going to talk...",
+        "c) My friend told me that he was not going to talk to me.",
+        "d) The friend has told me..."
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "He said that he was going to the market. (File 19 - Indirect to Direct)",
+      "options": [
+        "a) He says, \"I am going...\"",
+        "b) He said, \"I was going...\"",
+        "c) He said, \"I am going to the market.\"",
+        "d) He said, \"I am going to market.\""
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "He said to me, \"Do you like cricket?\"",
+      "options": [
+        "a) He asked me did I like cricket.",
+        "b) He asked me if I liked cricket.",
+        "c) He asked me whether I like cricket.",
+        "d) He asked me if I like cricket."
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "He said to me, \"Please help me.\"",
+      "options": [
+        "a) He said me to help him.",
+        "b) He asked me that I help him.",
+        "c) He requested me to help him.",
+        "d) He told me help him."
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "John said that he had been working all day. (File 19 - Indirect to Direct)",
+      "options": [
+        "a) John said, \"I worked all day.\"",
+        "b) John said, \"I had worked all day.\"",
+        "c) John said, \"I had been working all day.\"",
+        "d) John said, \"I have been working all day.\""
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "She said, \"I am cooking dinner.\"",
+      "options": [
+        "a) She said she had been cooking dinner.",
+        "b) She said she is cooking dinner.",
+        "c) She said she was cooking dinner.",
+        "d) She said she will cook dinner."
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "The man exclaimed that his wallet was stolen.",
+      "options": [
+        "a) \"My wallet was stolen!\" the man said.",
+        "b) \"Somebody stole my wallet!\" exclaimed the man.",
+        "c) The man exclaimed, \"My wallet was stolen!\"",
+        "d) The man cried, \"My wallet was stolen.\""
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "Rima said to Priya, \"Why are you sketching on the wall?\"",
+      "options": [
+        "a) Rima asked Priya why was she sketching on the wall.",
+        "b) Rima asked Priya why had she been sketching on the wall.",
+        "c) Rima asked Priya that why she is sketching on the wall.",
+        "d) Rima asked Priya why is she sketching on the wall."
+      ],
+      "answer": "A (Best choice among options, though word order in 'a' is inverted)."
+    },
+    {
+      "question": "\"Stand at ease,\" the soldier said to his men.",
+      "options": [
+        "a) The soldier told his men that they should stand at ease.",
+        "b) The soldier said to his men that they should stand at ease.",
+        "c) The soldier urged his men to stand at ease.",
+        "d) The soldier commanded his men to stand at ease."
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "Mr. Swer asked the lady if she could tell him where the nearest post office is. (File 29 - Indirect to Direct)",
+      "options": [
+        "a) \"Where is the nearest post office?\" Mr. Swer asked the lady.",
+        "b) Mr. Swer asked the lady, \"Could you tell me where the nearest post office is?\"",
+        "c) Mr. Swer asked the lady, \"Where is the nearest post office?\"",
+        "d) Mr. Swer said to the lady, \"Where is the nearest post office?\""
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "The Professor said that nobody could solve the problem. (File 29 - Indirect to Direct)",
+      "options": [
+        "a) The Professor said, \"Nobody can solve the problem.\"",
+        "b) The Professor said, \"Nobody could solve the problem.\"",
+        "c) The Professor exclaimed, \"Nobody could solve the problem.\"",
+        "d) The Professor exclaimed, \"Nobody can solve the problem.\""
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "I said to him, \"Why are you working so hard?\"",
+      "options": [
+        "a) I asked him why he was working so hard.",
+        "b) I asked him why was he working...",
+        "c) I asked him why had he been...",
+        "d) I asked him why he had been..."
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "\"You can't bathe in the sea\", he said to me, \"It's very rough.\"",
+      "options": [
+        "a) He said that I can't bathe...",
+        "b) He said that you couldn't bathe...",
+        "c) He said that I couldn't bathe in that sea as it was very rough.",
+        "d) He said that you can't bathe..."
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "She exclaimed with sorrow that it is a miserable plight. (File 44 - Indirect to Direct)",
+      "options": [
+        "a) She said with sorrow, \"What a pity it is.\"",
+        "b) She said, \"What a mystery it is.\"",
+        "c) She said, \"What a miserable sight it is.\"",
+        "d) She said, \"What a miserable plight it is.\""
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "He said, \"I saw a book here.\"",
+      "options": [
+        "a) He said that he saw a book here.",
+        "b) He said that he saw a book there.",
+        "c) He said that he had seen a book here.",
+        "d) He said that he had seen a book there."
+      ],
+      "answer": "D (Saw -> Had seen; Here -> There)."
+    },
+    {
+      "question": "The father warned his son that he should beware of him. (File 44 - Indirect to Direct)",
+      "options": [
+        "a) \"Beware of him!\"",
+        "b) \"Watch that chap!\"",
+        "c) \"Be careful about him.\"",
+        "d) \"Don't fall into the trap.\""
+      ],
+      "answer": "A (Beware of him)."
+    },
+    {
+      "question": "The man exclaimed that his wallet was stolen.",
+      "options": [
+        "a) \"My wallet was stolen !\" the man said.",
+        "b) \"Somebody stole my wallet !\" exclaimed the man.",
+        "c) The man exclaimed, \"My wallet was stolen !\"",
+        "d) The man cried, \"My wallet was stolen.\""
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "Rima said to Priya, \"Why are you sketching on the wall?\"",
+      "options": [
+        "a) Rima asked Priya why was she sketching...",
+        "b) Rima asked Priya why had she been...",
+        "c) Rima asked Priya that why is she...",
+        "d) Rima asked Priya why she was sketching on the wall."
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "\"Stand at ease\", the soldier said to his men.",
+      "options": [
+        "a) The soldier told his men that they should...",
+        "b) The soldier said to his men...",
+        "c) The soldier urged his men...",
+        "d) The soldier commanded his men to stand at ease."
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "Mr. Swer asked the lady if she could tell him where the nearest post office is. (File 41 - Indirect to Direct)",
+      "options": [
+        "a) \"Where is the nearest post office?\"",
+        "b) \"Could you tell me where the nearest post office is?\"",
+        "c) \"Where is the nearest post office?\"",
+        "d) \"Where is the nearest post office?\""
+      ],
+      "answer": "B (Polite request form)."
+    },
+    {
+      "question": "The Professor said that nobody could solve the problem. (File 41 - Indirect to Direct)",
+      "options": [
+        "a) \"Nobody can solve the problem.\"",
+        "b) \"Nobody could solve the problem.\"",
+        "c) \"Nobody could solve the problem.\"",
+        "d) \"Nobody can solve the problem.\""
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Seeta said to me, \"Can you give me your pen?\"",
+      "options": [
+        "a) Seeta asked me can I give her my pen.",
+        "b) Seeta asked me if I can give me your pen.",
+        "c) Seeta asked me if I could give her my pen.",
+        "d) Seeta asked me if I could give me your pen."
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "The father warned his son that he should beware of the pickpocket. (File 41 - Indirect to Direct)",
+      "options": [
+        "a) \"Beware of the pickpocket !\"",
+        "b) \"Watch that chap!\"",
+        "c) \"Be careful...\"",
+        "d) \"Don't fall...\""
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "\"What about going for a swim?\" he said, \"It's quite fine now.\"",
+      "options": [
+        "a) He asked me about going...",
+        "b) He proposed going for a swim as it was quite fine. (Note: 'Now' should be 'then', but option B lacks it. Option C suggested going... as it was quite fine. B is standard for \"What about/Let's\").",
+        "c) He suggested going for a swim as it was quite fine.",
+        "d) He advised..."
+      ],
+      "answer": "C (Suggested)."
+    },
+    {
+      "question": "Bok said to Meda, \"Sara will leave for her village tomorrow.\"",
+      "options": [
+        "a) Bok told Meda that Sara will leave...",
+        "b) Bok told Meda that Sara left...",
+        "c) Bok told Meda that Sara would be leaving...",
+        "d) Bok told Meda that Sara would leave for her village the next day."
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "He said to her, \"What a cold day!\"",
+      "options": [
+        "a) He told her that it was a cold day.",
+        "b) He exclaimed that it was a cold day.",
+        "c) He exclaimed sorrowfully...",
+        "d) He exclaimed to her that it was a very cold day."
+      ],
+      "answer": "D (Exclamations often add 'very')."
+    },
+    {
+      "question": "The man exclaimed that his hat was stolen. (File 31 - Indirect to Direct)",
+      "options": [
+        "a) \"My hat was stolen!\"",
+        "b) \"Somebody steal my hat!\"",
+        "c) The man exclaimed, \"My hat was stolen!\"",
+        "d) The man cried, \"My hat was stolen\"."
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "He told her, \"I want to meet your mother.\"",
+      "options": [
+        "a) He told her that I want...",
+        "b) He told her that he wanted to meet her mother.",
+        "c) He told her that he wanted to meet your mother.",
+        "d) He told her that she wanted..."
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Mrs. Chen asked the boy if he could tell her where the nearest police station is. (File 31 - Indirect to Direct)",
+      "options": [
+        "a) \"Where is the nearest police station?\"",
+        "b) \"Can you tell me where the nearest police station is?\"",
+        "c) \"Where is the nearest police station?\"",
+        "d) \"Where is the nearest police station?\""
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "He said to his friends, \"Let us go for an outing.\"",
+      "options": [
+        "a) He proposed to his friends that they should go for an outing.",
+        "b) He said, \"Friends let us have an outing.\"",
+        "c) He said to his friends that they should go out.",
+        "d) He told his friends to have an outing."
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "He said to his servants, \"Go away at once!\"",
+      "options": [
+        "a) He said to his servants to go away.",
+        "b) Servants go away.",
+        "c) He said, \"Servants go away.\"",
+        "d) He ordered his servants to go away at once."
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "The boy told his friend that he would meet him the next day outside the gym. (File 55 - Direct)",
+      "options": [
+        "a) The boy said, \"Friends I shall meet you the next day outside the gym.\"",
+        "b) The boy said to his friend, \"I will meet you tomorrow outside the gym.\"",
+        "c) The boy said, \"Outside the gym I shall meet you.\"",
+        "d) The boy said, \"Wait for me outside the gym tomorrow.\""
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "The man with the gun said to us, \"Don't move!\"",
+      "options": [
+        "a) The man with the gun warned us not to move.",
+        "b) The man said don't move.",
+        "c) The man with the gun politely asked us not to move.",
+        "d) The man with the gun said move fast."
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Bob said, \"It is very warm for May.\"",
+      "options": [
+        "a) Bob told that it is very warm for May.",
+        "b) Bob shouted that it was warm for May.",
+        "c) Bob said that it was very warm for May.",
+        "d) Bob said that it is very warm for May."
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "Bill added, \"There is a nice breeze.\"",
+      "options": [
+        "a) Bill said that there is a nice breeze.",
+        "b) Bill added that there was a nice breeze.",
+        "c) Bill retorted that there was a nice breeze.",
+        "d) Bill continued to say that there was a nice breeze."
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Their friends said, \"You had better take sweaters with you.\"",
+      "options": [
+        "a) Their friends shouted to them to take their sweaters with them.",
+        "b) Their friends remarked to them to take their sweaters with them.",
+        "c) Their friends advised them to taking their sweaters with them.",
+        "d) Their friends advised them to take their sweaters with them."
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "\"I'll be there,\" Tom said.",
+      "options": [
+        "a) Tom replied that he will be there.",
+        "b) Tom told that he will be there.",
+        "c) Tom said that he will be there.",
+        "d) Tom said that he would be there."
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "Then Professor Miller said, \"There is going to be a meeting of the Economics Club on Friday.\"",
+      "options": [
+        "a) Professor Miller then added that there was going to be a meeting...",
+        "b) Then Professor Miller said that there is going to be a meeting...",
+        "c) Professor Miller added that there is going to be a meeting...",
+        "d) Professor Miller said that there was going to be a meeting..."
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "Sam was the first (a) / person who congratulate (b)/me on my success (c)/No error (d) (File 70 - check if indirect speech question) No, this is an error spotting question. (b) is the error. The doctor said, \"You take rest.\"",
+      "options": [
+        "a) The doctor advised me to take rest.",
+        "b) The doctor was advised me to take rest.",
+        "c) The doctor advised me to took rest.",
+        "d) The doctor said me to you had taken rest."
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "He said to his friends, \"Let us go for an outing.\"",
+      "options": [
+        "a) He proposed to his friends that they should go for an outing.",
+        "b) He said, \"Friends let us have an outing.\"",
+        "c) He said to his friends that they should go out.",
+        "d) He told his friends to have an outing."
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "He said to his servants, \"Go away at once!\"",
+      "options": [
+        "a) He said to his servants to go away.",
+        "b) Servants go away.",
+        "c) He said, \"Servants go away.\"",
+        "d) He ordered his servants to go away at once."
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "The boy told his friend that he would meet him the next day outside the gym. (File 55 - Direct)",
+      "options": [
+        "a) The boy said, \"Friends I shall meet you the next day outside the gym.\"",
+        "b) The boy said to his friend, \"I will meet you tomorrow outside the gym.\"",
+        "c) The boy said, \"Outside the gym I shall meet you.\"",
+        "d) The boy said, \"Wait for me outside the gym tomorrow.\""
+      ],
+      "answer": "B"
+    }
+  ]
+}

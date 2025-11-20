@@ -1,0 +1,526 @@
+{
+  "category": "Grammar - Active & Passive Voice",
+  "total_questions": 52,
+  "questions": [
+    {
+      "question": "I have written a letter. (Active)",
+      "options": [
+        "a) A letter is written by me.",
+        "b) A letter was being written by me.",
+        "c) A letter has been written by me.",
+        "d) A letter had been written by me."
+      ],
+      "answer": "C (Present Perfect Active to Present Perfect Passive)"
+    },
+    {
+      "question": "She is baking a cake. (Active)",
+      "options": [
+        "a) A cake is baked by her.",
+        "b) A cake was baked by her.",
+        "c) A cake is being baked by her.",
+        "d) A cake was being baked by her."
+      ],
+      "answer": "C (Present Continuous Active to Present Continuous Passive)"
+    },
+    {
+      "question": "Sandra bought a new dress. (Active)",
+      "options": [
+        "a) A new dress is bought by Sandra.",
+        "b) A new dress is being bought by Sandra.",
+        "c) A new dress was bought by Sandra.",
+        "d) A new dress was being bought by Sandra."
+      ],
+      "answer": "C (Simple Past Active to Simple Past Passive)"
+    },
+    {
+      "question": "The assignment was finished by us. (Passive)",
+      "options": [
+        "a) We finished the assignment.",
+        "b) We had finished the assignment.",
+        "c) We were finishing the assignment.",
+        "d) We have finished the assignment."
+      ],
+      "answer": "A (Simple Past Passive to Simple Past Active)"
+    },
+    {
+      "question": "He is being followed by the police. (Passive)",
+      "options": [
+        "a) The police followed him.",
+        "b) The police were following him.",
+        "c) The police follow him.",
+        "d) The police are following him."
+      ],
+      "answer": "D (Present Continuous Passive to Present Continuous Active)"
+    },
+    {
+      "question": "The carpenters will take a month's time to make the furniture.",
+      "options": [
+        "a) A month's time is took...",
+        "b) The carpenters to make...",
+        "c) A month's time will be taken by the carpenter to make the furniture.",
+        "d) Making of the furniture..."
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "The city will build a new bridge across the river.",
+      "options": [
+        "a) A new bridge across the river will be built by the city.",
+        "b) A bridge which is new...",
+        "c) Building of a new bridge...",
+        "d) The city will be building..."
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Grandmother is knitting a sweater for you.",
+      "options": [
+        "a) A sweater is being knit by grandmother for you.",
+        "b) A sweater will be knit...",
+        "c) Grandmother is knitting for you...",
+        "d) Knitting of a sweater..."
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Two engines are pulling the train up the hill.",
+      "options": [
+        "a) The train will be pulled...",
+        "b) Up the hill pulling...",
+        "c) The train is being pulled up the hill by two engines.",
+        "d) Two engines are needed..."
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "Directions: Change the voice. The daughter is cooking food.",
+      "options": [
+        "a) Food is being cooked by the daughter.",
+        "b) The daughter is food cooking.",
+        "c) The food is cooked by the daughter.",
+        "d) The daughter is cooked food."
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Nobody has opened this book so far.",
+      "options": [
+        "a) This book has so far been opened by anybody. (Meaning change)",
+        "b) This book have not been opened... (Grammar error)",
+        "c) Nobody so has far open...",
+        "d) This book has not been opened so far by anybody."
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "Someone has broken the glass.",
+      "options": [
+        "a) Someone broke the glass.",
+        "b) The glass is being broken...",
+        "c) Someone is breaking...",
+        "d) The glass has been broken by someone."
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "What have the party done about it? (Question is \"What have...\", plural verb with collective noun party?)",
+      "options": [
+        "a) About it what did...",
+        "b) What has been done about it by the party?",
+        "c) The party have done what...",
+        "d) What party have done..."
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Players have elected her captain of the team.",
+      "options": [
+        "a) She has been elected captain of the team by the players.",
+        "b) Players of the team had elected...",
+        "c) Players of the team her as captain...",
+        "d) She captain of the team..."
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "You have to finish painting this fence by Friday.",
+      "options": [
+        "a) This fence has to be finished painting by you by Friday.",
+        "b) This fence is to be finishing...",
+        "c) Painting of this fence...",
+        "d) By Friday you will have finished... (Tense change)"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "The dealer will service the scooter for free the first three times.",
+      "options": [
+        "a) The scooter will be serviced for free by the dealer for the first three times.",
+        "b) The scooter was serviced...",
+        "c) For the first three times...",
+        "d) Servicing of the scooter..."
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "The Manager gave her a negative feedback...",
+      "options": [
+        "a) A negative feedback was given to her by the Manager during her performance appraisal.",
+        "b) The Manager will give...",
+        "c) A negative feedback is being given...",
+        "d) Giving of a negative feedback..."
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "The General presented us a detailed battle plan.",
+      "options": [
+        "a) A detailed battle plan will be...",
+        "b) The General presents...",
+        "c) A detailed battle plan was presented to us by the General.",
+        "d) Presenting of..."
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "The speeding car knocked down the pedestrian.",
+      "options": [
+        "a) The car which was speeding has knocked down the pedestrian.",
+        "b) The pedestrian was knocked down by the speeding car.",
+        "c) The pedestrian was being knocked down...",
+        "d) Knocking down of..."
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "WE DROVE HIM OUT OF THE HOUSE.",
+      "options": [
+        "a) He was driven out of the house by us.",
+        "b) He is driven out of the house by us.",
+        "c) Out of the house we drove him.",
+        "d) We drive him out of the house."
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "THE CHOIR WILL SING THE NEXT HYMN.",
+      "options": [
+        "a) The next hymn is being sung.",
+        "b) The next hymn will be sung by the choir.",
+        "c) The choir shall sing the next hymn.",
+        "d) The next hymn is sung by the choir."
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "OUR COSTUMES WERE BEING MADE BY JIMMY.",
+      "options": [
+        "a) Jimmy is making our costumes.",
+        "b) Jimmy will make our costumes.",
+        "c) Our costumes is being made.",
+        "d) Jimmy was making our costumes."
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "HE SAID TO THE DOCTOR, \"HOW SOON WILL I BE ABLE TO WALK AGAIN?\" (Indirect Speech)",
+      "options": [
+        "a) He asked the doctor how soon he would be able to walk again.",
+        "b) He asked the doctor how soon would he be able to walk again.",
+        "c) He told the doctor how soon he will be able to walk again.",
+        "d) He asked the doctor that how soon he would be able to walk again."
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "THE JEWELLER SAID TO US, \"THESE DIAMONDS ARE POLISHED HERE.\" (Indirect Speech)",
+      "options": [
+        "a) The jeweller said to us that these diamonds were polished there.",
+        "b) The jeweller informed us that those diamonds were polished there.",
+        "c) The jeweller told us that those diamonds are polished here.",
+        "d) The jeweller said that those diamonds are polished here."
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "MY FATHER SAID TO ME, \"DON'T TALK TO YOUR MOTHER LIKE THAT.\" (Indirect Speech)",
+      "options": [
+        "a) My father said to me not to talk to your mother like that.",
+        "b) My father warned me not to talk to my mother like that.",
+        "c) My father told me don't talk to my mother like that.",
+        "d) My father requested me not to talk to my mother like that."
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "HE SAID TO HIS PARTNER, \"I WILL NOT BE RESPONSIBLE IF THE PROJECT FAILS.\" (Indirect Speech)",
+      "options": [
+        "a) He told his partner that he will not be responsible if the project fails.",
+        "b) He told his partner that he would not be responsible if the project failed.",
+        "c) He said his partner that he would not be responsible if the project failed.",
+        "d) He told his partner that I will not be responsible if the project failed."
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "HE SAID TO HIS FRIENDS, \"LET US GO FOR AN OUTING.\" (Indirect Speech)",
+      "options": [
+        "a) He proposed to his friends that they should go for an outing.",
+        "b) He suggested to his friends to go for an outing.",
+        "c) He asked his friends if they would go for an outing.",
+        "d) He told his friends that they must go for an outing."
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "HE SAID TO HIS SERVANTS, \"GO AWAY AT ONCE!\" (Indirect Speech)",
+      "options": [
+        "a) He asked his servants to go away at once.",
+        "b) He said to his servants to go away at once.",
+        "c) He requested his servants to go away at once.",
+        "d) He ordered his servants to go away at once."
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "THE BOY TOLD HIS FRIEND THAT HE WOULD MEET HIM THE NEXT DAY OUTSIDE THE GYM. (Direct Speech)",
+      "options": [
+        "a) The boy said to his friend, \"I would meet you the next day outside the gym.\"",
+        "b) The boy said to his friend, \"I will meet you tomorrow outside the gym.\"",
+        "c) The boy told his friend, \"I will meet you tomorrow outside the gym.\"",
+        "d) The boy said, \"I will meet you outside the gym.\""
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "WE DROVE HIM OUT OF THE HOUSE. (Passive Voice)",
+      "options": [
+        "a) He was driven out of the house by us.",
+        "b) He is driven out of the house by us.",
+        "c) He had been driven out of the house by us.",
+        "d) He drove out of the house by us."
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "THE CHOIR WILL SING THE NEXT HYMN. (Passive Voice)",
+      "options": [
+        "a) The next hymn will be sang by the choir.",
+        "b) The next hymn will be sung by the choir.",
+        "c) The next hymn is sung by the choir.",
+        "d) The next hymn would be sung by the choir."
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "OUR COSTUMES WERE BEING MADE BY JIMMY. (Active Voice)",
+      "options": [
+        "a) Jimmy had been making our costumes.",
+        "b) Jimmy has been making our costumes.",
+        "c) Jimmy was made our costumes.",
+        "d) Jimmy was making our costumes."
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "Ram's father said to him, \"Do not be impatient about the result of your examination.\"",
+      "options": [
+        "a) Don't be impatient about the result Ram.",
+        "b) Ram's father advised him not to be impatient about the result of his examination.",
+        "c) Ram's father said to Ram not to worry about the result.",
+        "d) Ram told his father about his result."
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "He said to his friends, \"Let us go on a picnic\"",
+      "options": [
+        "a) He proposed to his friends to go on a picnic.",
+        "b) His friends said, 'Let us go on a picnic .",
+        "c) His friends went on a picnic.",
+        "d) He told his friends to go on a picnic."
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "He asked John whether he knew his name.",
+      "options": [
+        "a) He said do I know his name.",
+        "b) He said to John, \"Do you know his name?\"",
+        "c) John asked his name.",
+        "d) Did John know my name?"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "I often say to my friends, \"You are all very dear to me.\"",
+      "options": [
+        "a) I often say my friends are very dear to me.",
+        "b) I often tell my friends that they are all very dear to me.",
+        "c) Very dear to me are my friends.",
+        "d) Friends are dear."
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "He said, \"Is he a doctor?\"",
+      "options": [
+        "a) He asked that whether he was a doctor.",
+        "b) Was he doctor?",
+        "c) He asked whether he was a doctor.",
+        "d) He is a doctor he said."
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "We were watching a film",
+      "options": [
+        "a) we should watch a film",
+        "b) A film was being watched by us.",
+        "c) watching a film we were",
+        "d) we were a film watching"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "The waves are washing away the sandcastle.",
+      "options": [
+        "a) The sandcastle washing away the waves",
+        "b) The sandcastle is being washed away by the waves",
+        "c) Washing waves away the sandcastle",
+        "d) All the waves washing the sandcastle away."
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "She taunted her husband with the memory of his early promise",
+      "options": [
+        "a) Her husband was taunted by her with the memory of his early promise",
+        "b) Husband taunted her with the early promise",
+        "c) Early promise taunted her",
+        "d) Memory of his early promise taunted the husband"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "It was fancied by some of them that beautiful furniture would be made by him",
+      "options": [
+        "a) Beautiful furniture made by him was fancied",
+        "b) Some of them fancied that he would make beautiful furniture",
+        "c) Fancied furniture made by him",
+        "d) Some of them made beautiful furniture"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "My pen has been stolen",
+      "options": [
+        "a) Someone steal my pen",
+        "b) My pen being steal by someone",
+        "c) Someone has stolen my pen",
+        "d) Stolen my pen by someone"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "The illegal immigrants ______ to the police station.",
+      "options": [
+        "a) was taken",
+        "b) were taken",
+        "c) was taking",
+        "d) taken"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "He has ______ a new house.",
+      "options": [
+        "a) buy",
+        "b) been buying",
+        "c) bought",
+        "d) will bought"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "I ______ him several times this morning.",
+      "options": [
+        "a) see",
+        "b) have seen",
+        "c) seeing",
+        "d) was seeing"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Tom ______ a letter to the editor last week.",
+      "options": [
+        "a) write",
+        "b) written",
+        "c) wrote",
+        "d) will write"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "He went around and ______ everybody what to do.",
+      "options": [
+        "a) tell",
+        "b) telling",
+        "c) told",
+        "d) was told"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "My friend said, \"I am leaving today.\"",
+      "options": [
+        "a) My friend said that he is leaving today.",
+        "b) My friend said that he was leaving today.",
+        "c) My friend said that he leaves today.",
+        "d) My friend said that he was leaving that day."
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "She said to him, \"what a cold day !\"",
+      "options": [
+        "a) She told him that it was a cold day.",
+        "b) She exclaimed that it was a cold day.",
+        "c) She exclaimed sorrowfully that it was a cold day.",
+        "d) She exclaimed that it was a very cold day."
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "The man exclaimed that his wallet was stolen.",
+      "options": [
+        "a) \"My wallet was stolen !\" the man said.",
+        "b) \"Somebody stole my wallet!\" exclaimed the man.",
+        "c) The man exclaimed, \"My wallet was stolen!\"",
+        "d) The man cried, \"My wallet was stolen\".."
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Socrates said, \"Virtue is its own reward.\"",
+      "options": [
+        "a) Socrates said that virtue had its own rewards.",
+        "b) Socrates says that virtue is its own rewards.",
+        "c) Socrates said that virtue is its own rewards.",
+        "d) Socrates said that virtue was its own rewards."
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "Mr. Sam asked the boy if he could tell him where the nearest post office was.",
+      "options": [
+        "a) Where is the nearest post office? Mr. Sam asked the boy.",
+        "b) Mr. Sam asked the boy \"Could you tell me where the nearest post office is\"?",
+        "c) Mr. Sam asked the boy \"where is the nearest post office\" ?",
+        "d) Mr. Sam said to the boy \"where is the nearest post office\"?"
+      ],
+      "answer": "B"
+    }
+  ]
+}

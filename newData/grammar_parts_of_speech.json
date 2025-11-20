@@ -1,0 +1,156 @@
+{
+  "category": "Grammar - Parts of Speech",
+  "total_questions": 15,
+  "questions": [
+    {
+      "question": "A ______ of flowers.",
+      "options": [
+        "a) collection",
+        "b) group",
+        "c) bouquet",
+        "d) bundle"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "A ______ of stars. (Also in One Word Substitution: Constellation)",
+      "options": [
+        "a) bunch",
+        "b) crowd",
+        "c) galaxy",
+        "d) gang"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "A ______ of cattle.",
+      "options": [
+        "a) flock",
+        "b) shower",
+        "c) herd",
+        "d) group"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "A ______ of bees. (Swarm is standard, Hive is the home. Out of options: Hive is associated, Swarm not present)",
+      "options": [
+        "a) Hive",
+        "b) flock",
+        "c) pair",
+        "d) heap"
+      ],
+      "answer": "A (Contextual)"
+    },
+    {
+      "question": "An ______ of poems.",
+      "options": [
+        "a) collection",
+        "b) collective",
+        "c) Anthology",
+        "d) group"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "An ______ of ants",
+      "options": [
+        "a) army",
+        "b) fleet",
+        "c) trail",
+        "d) pack"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "A ______ of sheep",
+      "options": [
+        "a) herd",
+        "b) hard",
+        "c) school",
+        "d) flock"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "A ______ of experts",
+      "options": [
+        "a) group",
+        "b) team",
+        "c) panel",
+        "d) board"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "A ______ of dancers (Troupe is standard. Group is acceptable)",
+      "options": [
+        "a) team",
+        "b) choir",
+        "c) group",
+        "d) pack"
+      ],
+      "answer": "C (Or A)"
+    },
+    {
+      "question": "A ______ of crooks",
+      "options": [
+        "a) troop",
+        "b) gang",
+        "c) class",
+        "d) bunch"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "A ______ of drawers",
+      "options": [
+        "a) chest",
+        "b) belt",
+        "c) pack",
+        "d) stack"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "A ______ of natives.",
+      "options": [
+        "a) team",
+        "b) body",
+        "c) crowd",
+        "d) tribe"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "A ______ of camels",
+      "options": [
+        "a) group",
+        "b) train",
+        "c) crew",
+        "d) gang"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "A ______ of bullets.",
+      "options": [
+        "a) pack",
+        "b) troop",
+        "c) hail",
+        "d) battery"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "A ______ of crooks.",
+      "options": [
+        "a) troop",
+        "b) gang",
+        "c) class",
+        "d) bunch"
+      ],
+      "answer": "B"
+    }
+  ]
+}

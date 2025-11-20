@@ -1,0 +1,3216 @@
+{
+  "category": "Grammar - Error Detection & Correction",
+  "total_questions": 321,
+  "questions": [
+    {
+      "question": "Choose the correct sentence:",
+      "options": [
+        "a) How long are you joined this company?",
+        "b) When have you joined this company?",
+        "c) How long have you joined this company?",
+        "d) When you do join this company?"
+      ],
+      "answer": "B (Most likely intended answer for \"When did you join\", though \"did\" is grammatically superior to \"have\" with 'when')"
+    },
+    {
+      "question": "Choose the correct sentence:",
+      "options": [
+        "a) After the picnic, we had lots of food left.",
+        "b) After the picnic, we had lot of food left.",
+        "c) After the picnic, we had lots of foods left.",
+        "d) After the picnic, we had lot of foods left."
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Choose the correct sentence:",
+      "options": [
+        "a) I do my works quick",
+        "b) I did my work quickly",
+        "c) I does my work very quick",
+        "d) I did my work quick"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Choose the correct sentence:",
+      "options": [
+        "a) The shadow follows the child everywhere.",
+        "b) The shadows follows the child everywhere.",
+        "c) The shadows follows the childs everywhere.",
+        "d) The shadow following the child everywhere."
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Choose the correct sentence:",
+      "options": [
+        "a) She is both a dancer or a painter.",
+        "b) She is both a dancer nor a painter.",
+        "c) She is both a dancer as well as a painter.",
+        "d) She is both a dancer and a painter."
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "Everyone considered him as a brave man but he fled from the battlefield.",
+      "options": [
+        "a) Everyone considered him as",
+        "b) A brave man",
+        "c) But he fled from the battlefield",
+        "d) No error"
+      ],
+      "answer": "A (Remove 'as')"
+    },
+    {
+      "question": "During the rainy season many rivers overflew their banks and caused great difficulty.",
+      "options": [
+        "a) During the rainy season",
+        "b) Many rivers overflew their banks",
+        "c) And caused great difficulty",
+        "d) No error"
+      ],
+      "answer": "B (Should be 'overflowed')"
+    },
+    {
+      "question": "He was borne of poor parents but brought up in an affluent family.",
+      "options": [
+        "a) He was borne of poor parents",
+        "b) But brought up",
+        "c) In an affluent family",
+        "d) No error"
+      ],
+      "answer": "A (Should be 'born')"
+    },
+    {
+      "question": "It is a known fact that time does not return back once it is lost.",
+      "options": [
+        "a) It is a known fact",
+        "b) That time does not return back",
+        "c) Once it is lost",
+        "d) No error"
+      ],
+      "answer": "B (Remove 'back')"
+    },
+    {
+      "question": "The Prime Minister called on the President yesterday.",
+      "options": [
+        "a) called",
+        "b) called on",
+        "c) on",
+        "d) no error"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "I has been completely blind to her faults.",
+      "options": [
+        "a) completely",
+        "b) has been",
+        "c) blind",
+        "d) to"
+      ],
+      "answer": "B (Should be 'have been')"
+    },
+    {
+      "question": "To give dust in one's eyes.",
+      "options": [
+        "a) dust",
+        "b) give",
+        "c) in",
+        "d) one's"
+      ],
+      "answer": "B (Should be 'throw')"
+    },
+    {
+      "question": "He earns his bread with the sweat of his brow.",
+      "options": [
+        "a) bread",
+        "b) with",
+        "c) earns",
+        "d) brow"
+      ],
+      "answer": "B (Idiom usually 'by the sweat')"
+    },
+    {
+      "question": "They have had a real good time",
+      "options": [
+        "a) have",
+        "b) had",
+        "c) real",
+        "d) no error"
+      ],
+      "answer": "C (Should be 'really')"
+    },
+    {
+      "question": "Apart from writing the letter for me, he posted it.",
+      "options": [
+        "a) alongwith",
+        "b) as well as",
+        "c) inspite of",
+        "d) No improvement"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "I saw a dead ox walking there.",
+      "options": [
+        "a) I have seen a dead ox walking there.",
+        "b) while walking there I saw a dead ox.",
+        "c) there is a dead ox walking seen by me.",
+        "d) No improvement"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "His bonafides are in doubt.",
+      "options": [
+        "a) would",
+        "b) is",
+        "c) has been",
+        "d) No improvement"
+      ],
+      "answer": "B (or D depending on strict plurality, but 'is' is commonly accepted for the concept of sincerity)"
+    },
+    {
+      "question": "Usage of BOARD (Select inappropriate usage)",
+      "options": [
+        "a) passengers should board the train now.",
+        "b) Vishal is elected to the Board of Directors of Lion's Club.",
+        "c) what do they charge for room and boarding?",
+        "d) dinner will be served on board the plane."
+      ],
+      "answer": "C (Phrase is 'room and board')"
+    },
+    {
+      "question": "Usage of EFFECT (Select inappropriate usage)",
+      "options": [
+        "a) impatient investors effected our roll out date",
+        "b) the management effected a sweeping policy change",
+        "c) the hot sun always has a burning effect on my skin",
+        "d) the production relied too much on spectacular effects"
+      ],
+      "answer": "A (Should be 'affected')"
+    },
+    {
+      "question": "Usage of ADVICE (Select inappropriate usage)",
+      "options": [
+        "a) the mother adviced his son to stay away from bad company",
+        "b) If you are unsure, get advice from a solicitor",
+        "c) the committee said that they feel like an advice bureau",
+        "d) he was too proud to ever seek advice"
+      ],
+      "answer": "A (Should be 'advised' - verb)"
+    },
+    {
+      "question": "Usage of CROP (Select inappropriate usage)",
+      "options": [
+        "a) the main crops are rice and wheat",
+        "b) the drought destroyed the crops in Rajasthan",
+        "c) the dress had to be cropped to fit her",
+        "d) we had a bumper crop this year"
+      ],
+      "answer": "C (Dress is usually hemmed/altered, though cropped is possible, it is the least standard)"
+    },
+    {
+      "question": "Usage of ENSURE (Select inappropriate usage)",
+      "options": [
+        "a) please ensure that she reaches here in time.",
+        "b) all her ornaments are heavily ensured against theft.",
+        "c) the college ensures fairness in the application process.",
+        "d) ensuring that no one was watching, she opened the letter."
+      ],
+      "answer": "B (Should be 'insured')"
+    },
+    {
+      "question": "Error Detection: No sooner (a) / had he said it when he realised (b)/his folly (c) / no error (d).",
+      "options": [
+        "a) No sooner",
+        "b) had he said it when he realised",
+        "c) his folly",
+        "d) no error"
+      ],
+      "answer": "B (Use 'than' instead of 'when')"
+    },
+    {
+      "question": "Error Detection: Yesterday Mark got the (a) / information that his father (b) / died of accident (c) / no error (d).",
+      "options": [
+        "a) Yesterday Mark got the",
+        "b) information that his father",
+        "c) died of accident",
+        "d) no error"
+      ],
+      "answer": "C (Should be 'died in an accident' or 'died of injuries from an accident')"
+    },
+    {
+      "question": "Error Detection: Though he was (a) / highly educated (b) / but he was very modest (c) / no error (d).",
+      "options": [
+        "a) Though he was",
+        "b) highly educated",
+        "c) but he was very modest",
+        "d) no error"
+      ],
+      "answer": "C (Remove 'but' as 'Though' is already used)"
+    },
+    {
+      "question": "Error Detection: A man jumped (a) / in the river (b) / in a state of depression (c) / no error (d).",
+      "options": [
+        "a) A man jumped",
+        "b) in the river",
+        "c) in a state of depression",
+        "d) no error"
+      ],
+      "answer": "B (Should be 'into the river')"
+    },
+    {
+      "question": "Error Detection: He came (a) / from abroad (b) / for seeing me (c) / no error (d).",
+      "options": [
+        "a) He came",
+        "b) from abroad",
+        "c) for seeing me",
+        "d) no error"
+      ],
+      "answer": "C (Should be 'to see me')"
+    },
+    {
+      "question": "Error Detection: It was so lovely weather (a) / that we spent (b) / the whole day in the garden (c) / no error (d).",
+      "options": [
+        "a) It was so lovely weather",
+        "b) that we spent",
+        "c) the whole day in the garden",
+        "d) no error"
+      ],
+      "answer": "A (Should be 'It was such lovely weather' or 'It was so lovely a day')"
+    },
+    {
+      "question": "Error Detection: Jack was living in Dover (a) / for five years (b) / before the year 2020 (c) / no error (d).",
+      "options": [
+        "a) Jack was living in Dover",
+        "b) for five years",
+        "c) before the year 2020",
+        "d) no error"
+      ],
+      "answer": "A (Should be 'Jack had been living' - Past Perfect Continuous)"
+    },
+    {
+      "question": "Error Detection: Us (a) / may stay (b) / in Darjeeling until the monsoon starts (c) / no error (d).",
+      "options": [
+        "a) Us",
+        "b) may stay",
+        "c) in Darjeeling until the monsoon starts",
+        "d) no error"
+      ],
+      "answer": "A (Should be 'We')"
+    },
+    {
+      "question": "Error Detection: The road (a) / to famous movement (b) / passes through a forest (c) / no error (d).",
+      "options": [
+        "a) The road",
+        "b) to famous movement",
+        "c) passes through a forest",
+        "d) no error"
+      ],
+      "answer": "B (Missing an article: 'to the famous monument')"
+    },
+    {
+      "question": "Error Detection: He can (a) / only be cured (b) / by a surgical procedure (c) / no error (d).",
+      "options": [
+        "a) He can",
+        "b) only be cured",
+        "c) by a surgical procedure",
+        "d) no error"
+      ],
+      "answer": "D (No grammatical error)"
+    },
+    {
+      "question": "Error Detection: The girl who you wanted (a) / to marry is a teacher (b)/in a convent school (c)/ No error (d).",
+      "options": [
+        "a) The girl who you wanted",
+        "b) to marry is a teacher",
+        "c) in a convent school",
+        "d) No error"
+      ],
+      "answer": "A (Should be 'whom' as it is the object of 'wanted')"
+    },
+    {
+      "question": "Error Detection: She had her bath, (a) / ate her breakfast (b)/and after all went to school (c)/No error (d).",
+      "options": [
+        "a) She had her bath,",
+        "b) ate her breakfast",
+        "c) and after all went to school",
+        "d) No error"
+      ],
+      "answer": "C (Use 'then' or remove 'after all')"
+    },
+    {
+      "question": "Error Detection: The ship's crew has (a) / tried to save the passengers (b)/from drowning in water (c) / No error (d).",
+      "options": [
+        "a) The ship's crew has",
+        "b) tried to save the passengers",
+        "c) from drowning in water",
+        "d) No error"
+      ],
+      "answer": "A (If crew refers to individual members, use 'have'; given the attempt to save, plurality is implied: 'have')"
+    },
+    {
+      "question": "Error Detection: This matter should be (a)/ discussed strictly between (b)/ you and I (c) / No error (d).",
+      "options": [
+        "a) This matter should be",
+        "b) discussed strictly between",
+        "c) you and I",
+        "d) No error"
+      ],
+      "answer": "C (Should be 'you and me' as it follows the preposition 'between')"
+    },
+    {
+      "question": "Error Detection: The audience of a football match (a) / are pleased (b) / when a goal is scored (c) / No error (d).",
+      "options": [
+        "a) The audience of a football match",
+        "b) are pleased",
+        "c) when a goal is scored",
+        "d) No error"
+      ],
+      "answer": "B (Audience is usually treated as a collective noun here, use 'is pleased')"
+    },
+    {
+      "question": "Select the correct sentence:",
+      "options": [
+        "a) After the picnic, we had lots of bread left.",
+        "b) After the picnic we had lot of breads left.",
+        "c) After the picnic we had lot of bread left.",
+        "d) After the picnic, we had lots of breads left."
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Select the correct sentence:",
+      "options": [
+        "a) I did my work quick.",
+        "b) I did my work very quick.",
+        "c) I did my work quickly.",
+        "d) None of the above"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "Select the correct sentence:",
+      "options": [
+        "a) I am ready to say this at her face.",
+        "b) I am ready to say this on her face.",
+        "c) I am ready to say this in her face.",
+        "d) I am ready to say this to her face."
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "Select the correct sentence:",
+      "options": [
+        "a) The villagers were enjoying winter evening around the fire.",
+        "b) The villagers were enjoying winter evening around fire.",
+        "c) The villagers were enjoying winter evening round fire.",
+        "d) The villagers were enjoying winter evening all round fire."
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Select the correct sentence:",
+      "options": [
+        "a) The team is confident to win the match.",
+        "b) The team is confident of winning the match.",
+        "c) The team is confident to win match.",
+        "d) The team is confident for winning the match."
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Best way of writing the sentence:",
+      "options": [
+        "a) There is little traffic on the roads.",
+        "b) There is a little traffic on the roads.",
+        "c) There is small traffic on the roads.",
+        "d) There is least traffic on the roads."
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Best way of writing the sentence:",
+      "options": [
+        "a) Excess knowledge is a dangerous thing",
+        "b) Excessive knowledge is a dangerous thing",
+        "c) A little knowledge is a dangerous thing",
+        "d) A less knowledge is a dangerous thing"
+      ],
+      "answer": "C (Common idiom)"
+    },
+    {
+      "question": "Best way of writing the sentence:",
+      "options": [
+        "a) His house consists three bedrooms and a toilet",
+        "b) His house comprises of three bedrooms and a toilet",
+        "c) His house comprises three bedrooms and a toilet",
+        "d) His house consists with three bedrooms and a toilet"
+      ],
+      "answer": "C (Option A is also acceptable if 'of' follows 'consists', but C uses 'comprises' correctly without 'of')"
+    },
+    {
+      "question": "Best way of writing the sentence:",
+      "options": [
+        "a) There is a part of him that does not want to join the fold",
+        "b) Partly he does not want to join the fold",
+        "c) A part of him does not want to join the fold",
+        "d) The part of him does not want to join the fold"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "Best way of writing the sentence:",
+      "options": [
+        "a) She has a little followers",
+        "b) She has got few followers",
+        "c) She has much followers",
+        "d) She has many followers"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Sentence Improvement: This is not a good way to write the sentence.",
+      "options": [
+        "a) The right",
+        "b) The correct",
+        "c) Incorrect",
+        "d) No improvement"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "Sentence Improvement: The Police tracked down on the drug dealers' racket.",
+      "options": [
+        "a) Followed up",
+        "b) Traced up",
+        "c) Cracked down",
+        "d) No improvement"
+      ],
+      "answer": "C (Cracked down on)"
+    },
+    {
+      "question": "Sentence Improvement: No sooner the teacher entered than the students kept quiet.",
+      "options": [
+        "a) When the teacher entered",
+        "b) As the teacher entered",
+        "c) As soon as teacher entered",
+        "d) No improvement"
+      ],
+      "answer": "D (A better, corrected sentence would use inversion: \"No sooner did the teacher enter than...\")"
+    },
+    {
+      "question": "Sentence Improvement: The alarm sounded and the workers left.",
+      "options": [
+        "a) The workers left as the alarm sounded.",
+        "b) The workers heard the alarm and left.",
+        "c) When the alarm sounded, the workers left.",
+        "d) No improvement"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "Sentence Improvement: We are getting the subsidised rate.",
+      "options": [
+        "a) Are receiving",
+        "b) Are benefitting from",
+        "c) Have got",
+        "d) No improvement"
+      ],
+      "answer": "A (More appropriate verb)"
+    },
+    {
+      "question": "Sentence Improvement: I shall know her as soon as I see her.",
+      "options": [
+        "a) When I see",
+        "b) Since I have seen",
+        "c) As I shall see",
+        "d) No improvement"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "Sentence Improvement: He told to us everything he knew.",
+      "options": [
+        "a) Us everything he knew",
+        "b) Us everything he is knowing",
+        "c) Us everything he was knowing",
+        "d) No improvement"
+      ],
+      "answer": "A (Remove 'to')"
+    },
+    {
+      "question": "Error Detection: He was a leader and an able Statesman.",
+      "options": [
+        "a) A leader",
+        "b) An able",
+        "c) Statesman",
+        "d) No error"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "Error Detection: They are paid a heavy price for their mistakes.",
+      "options": [
+        "a) Are paid",
+        "b) Heavy price",
+        "c) For their mistakes",
+        "d) No error"
+      ],
+      "answer": "B (Should be 'heavy price' is fine, but in context of money paid, 'high price' is more idiomatic)"
+    },
+    {
+      "question": "Error Detection: You can clean it by soap.",
+      "options": [
+        "a) Can",
+        "b) Clean",
+        "c) By",
+        "d) Soap"
+      ],
+      "answer": "C (Should be 'with soap')"
+    },
+    {
+      "question": "Error Detection: We accidentally met at on the coffee shop",
+      "options": [
+        "a) We accidentally",
+        "b) Met",
+        "c) On",
+        "d) Coffee shop"
+      ],
+      "answer": "C (Remove 'at on')"
+    },
+    {
+      "question": "Error Detection: Human minds (a) / is slow to adjust (b)/ to changing conditions (c)/No error (d).",
+      "options": [
+        "a) Human minds",
+        "b) is slow to adjust",
+        "c) to changing conditions",
+        "d) No error"
+      ],
+      "answer": "A (Subject-verb agreement: 'Human mind' (singular) or change 'is' to 'are')"
+    },
+    {
+      "question": "Error Detection: Western scientific inventions (a)/has increased use of sophisticated equipment (b)/ and transformed our lives at an astounding speed (c) / No error (d).",
+      "options": [
+        "a) Western scientific inventions",
+        "b) has increased use of sophisticated equipment",
+        "c) and transformed our lives at an astounding speed",
+        "d) No error"
+      ],
+      "answer": "B (Should be 'have increased' since the subject is plural: 'inventions')"
+    },
+    {
+      "question": "Error Detection: Knowledge can be achieved through education (a)/but since it is the power of mind (b) / it cannot be achieved through all (c) / No error (d).",
+      "options": [
+        "a) Knowledge can be achieved through education",
+        "b) but since it is the power of mind",
+        "c) it cannot be achieved through all",
+        "d) No error"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "Error Detection: No human being (a) / howsoever great or powerful (b)/ was ever so free than a fish (c)/No error (d).",
+      "options": [
+        "a) No human being",
+        "b) howsoever great or powerful",
+        "c) was ever so free than a fish",
+        "d) No error"
+      ],
+      "answer": "C (Should be 'as' instead of 'than': 'so free as a fish')"
+    },
+    {
+      "question": "Error Detection: She has a remarkably kind disposition (a) / who wins her friends (b) / wherever she goes (c)/No error (d).",
+      "options": [
+        "a) She has a remarkably kind disposition",
+        "b) who wins her friends",
+        "c) wherever she goes",
+        "d) No error"
+      ],
+      "answer": "B (Disposition is a quality, not a person, so use 'which' or 'that')"
+    },
+    {
+      "question": "Error Detection: After the summer break, school will open after two weeks.",
+      "options": [
+        "a) Begin",
+        "b) Reopen",
+        "c) Start",
+        "d) No errors"
+      ],
+      "answer": "B (Reopen is most appropriate for school after a break)"
+    },
+    {
+      "question": "Error Detection: The stream flowed gently under the bridge.",
+      "options": [
+        "a) Above",
+        "b) Across",
+        "c) On",
+        "d) No errors"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "Error Detection: The train from Chennai arrived right in schedule.",
+      "options": [
+        "a) On",
+        "b) By",
+        "c) Over",
+        "d) No errors"
+      ],
+      "answer": "A (On schedule)"
+    },
+    {
+      "question": "Error Detection: The speeding driver is finally caught over the police.",
+      "options": [
+        "a) Over",
+        "b) Under",
+        "c) By",
+        "d) No errors"
+      ],
+      "answer": "C (Caught by the police)"
+    },
+    {
+      "question": "Error Detection: The children enjoyed rowing the boat on the lake.",
+      "options": [
+        "a) By",
+        "b) In",
+        "c) With",
+        "d) No errors"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "Error Detection: The boy trembled in fear of the deadly snake.",
+      "options": [
+        "a) By",
+        "b) On",
+        "c) With",
+        "d) No errors"
+      ],
+      "answer": "C (Trembled with fear)"
+    },
+    {
+      "question": "Error Detection: The film \"Titanic\" is one of the greatest movies ever made.",
+      "options": [
+        "a) Was",
+        "b) Had",
+        "c) Are",
+        "d) No errors"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "Error Detection: He has the guts to rise from the occasion.",
+      "options": [
+        "a) Rise for",
+        "b) Rise to",
+        "c) Rise at",
+        "d) No errors"
+      ],
+      "answer": "B (Rise to the occasion)"
+    },
+    {
+      "question": "Error Detection: He said, every man should look up the future.",
+      "options": [
+        "a) Look at",
+        "b) Look to",
+        "c) Look in",
+        "d) No errors"
+      ],
+      "answer": "B (Look to the future)"
+    },
+    {
+      "question": "Grammar Alternative: ____ have been to the football match.",
+      "options": [
+        "a) Neither Andy nor I",
+        "b) Neither I nor Andy",
+        "c) Neither Andy nor me",
+        "d) Neither me nor Andy gives"
+      ],
+      "answer": "A (Verb agrees with the closest subject, 'I', which is correct for 'have been'; I before Andy is convention but not grammatical rule)"
+    },
+    {
+      "question": "Grammar Alternative: ____, there are so many things to talk about.",
+      "options": [
+        "a) Between us two",
+        "b) Between me and you",
+        "c) Between I and you",
+        "d) Between you and I"
+      ],
+      "answer": "A (Correct pronoun case after 'between')"
+    },
+    {
+      "question": "Grammar Alternative: Daman.____ has been chosen for the debate competition, is a clever boy.",
+      "options": [
+        "a) That",
+        "b) Whom",
+        "c) Who",
+        "d) Which"
+      ],
+      "answer": "C (Relative pronoun for subject)"
+    },
+    {
+      "question": "Grammar Alternative: The Chief guest said that it ____ him great pleasure to be there that evening.",
+      "options": [
+        "a) Gives",
+        "b) Gave",
+        "c) Is giving",
+        "d) Was giving"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Error Detection: He has been seen loiter in the corridor.",
+      "options": [
+        "a) has been seen",
+        "b) loiter",
+        "c) in",
+        "d) No error"
+      ],
+      "answer": "B (Should be 'loitering' or 'loiter to')"
+    },
+    {
+      "question": "Error Detection: We have lose a leader and able Statesman.",
+      "options": [
+        "a) have",
+        "b) lose",
+        "c) able",
+        "d) statesman"
+      ],
+      "answer": "B (Should be 'lost')"
+    },
+    {
+      "question": "Error Detection: They are committed big mistakes.",
+      "options": [
+        "a) are",
+        "b) are committed",
+        "c) they are",
+        "d) big mistakes"
+      ],
+      "answer": "B (Should be 'committed' or 'have committed')"
+    },
+    {
+      "question": "Error Detection: He tied the horse by a rope.",
+      "options": [
+        "a) tied",
+        "b) he tied",
+        "c) by",
+        "d) a rope"
+      ],
+      "answer": "C (Should be 'with a rope')"
+    },
+    {
+      "question": "Error Detection: The teacher was pleased at me.",
+      "options": [
+        "a) the teacher",
+        "b) was",
+        "c) pleased",
+        "d) at"
+      ],
+      "answer": "D (Should be 'pleased with me')"
+    },
+    {
+      "question": "Sentence Improvement: You must accustom yourself with new ideas.",
+      "options": [
+        "a) accustomed yourself",
+        "b) get accustom to with",
+        "c) No improvement",
+        "d) accustom yourself to"
+      ],
+      "answer": "D (Accustom uses the preposition 'to')"
+    },
+    {
+      "question": "Sentence Improvement: Try to lower the amount of fat in your diet.",
+      "options": [
+        "a) No improvement",
+        "b) reduce",
+        "c) cut",
+        "d) lose"
+      ],
+      "answer": "B (Reduce is better than lower for quantities/amounts)"
+    },
+    {
+      "question": "Sentence Improvement: No sooner than it stopped raining, the children went out.",
+      "options": [
+        "a) No improvement",
+        "b) did it stop raining",
+        "c) did it stop raining than",
+        "d) had it stopped raining than"
+      ],
+      "answer": "C (Should be 'No sooner did it stop raining than...')"
+    },
+    {
+      "question": "Sentence Improvement: You should cut off on the amount of cigarettes you smoke.",
+      "options": [
+        "a) cut out",
+        "b) cut down",
+        "c) cut up",
+        "d) No improvement"
+      ],
+      "answer": "B (Cut down on)"
+    },
+    {
+      "question": "Sentence Improvement: I contradicted against him",
+      "options": [
+        "a) contradicted over",
+        "b) No improvement",
+        "c) contradicted",
+        "d) contradicted with"
+      ],
+      "answer": "C (Contradicted should stand alone; remove 'against')"
+    },
+    {
+      "question": "Correct Sentence:",
+      "options": [
+        "(A) Please do not deny an offer made by the Chairman",
+        "(B) Please do not refuse an offer made by the Chairman",
+        "(C) Please do not refrain an offer made by the Chairman",
+        "(D) Please do not reject an offer made by the Chairman"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "Correct Sentence:",
+      "options": [
+        "(A) Health is too important to be neglected",
+        "(B) Health is too important to be discarded",
+        "(C) Health is too important to be detested",
+        "(D) Health is too important to be unmaintained"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Correct Sentence:",
+      "options": [
+        "(A) Like any other country, India has its proper share of superstitions",
+        "(B) Like any other country, India has its peculiar share of superstitions",
+        "(C) Like any other country, India has its fair share of superstitions",
+        "(D) Like any other country India has its actual share of superstitions"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "Correct Sentence:",
+      "options": [
+        "(A) She put up a brief appearance at the end of the party",
+        "(B) She put in a brief appearance at the end of the party",
+        "(C) She put out a brief appearance at the end of the party",
+        "(D) She put at a brief appearance at the end of the party"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Correct Sentence:",
+      "options": [
+        "(A) The terrorists made a vain attempt to blow over the bridge",
+        "(B) The terrorists made a vain attempt to blow down the bridge",
+        "(C) The terrorists made a vain attempt to blow up the bridge",
+        "(D) The terrorists made a vain attempt to blow on the bridge"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "Correct Sentence:",
+      "options": [
+        "(A) The building was so old that it was not habitable",
+        "(B) The building was so old that it was not habitat",
+        "(C) The building was so old that it was not habitation.",
+        "(D) The building was so old that it was not inhabitable"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Correct Sentence:",
+      "options": [
+        "(A) The charming hostess was very graceful to all her guests",
+        "(B) The charming hostess was very gracious to all her guests",
+        "(C) The charming hostess was very grateful to all her guests",
+        "(D) The charming hostess was very greatful to all her guests"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Correct Sentence:",
+      "options": [
+        "(A) The doctor insured the woman that her son would recover",
+        "(B) The doctor ensured the woman that her son would recover",
+        "(C) The doctor assured the woman that her son would recover",
+        "(D) The doctor asured the woman that her son would recover"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "Correct Sentence:",
+      "options": [
+        "(A) Fact is often stranger than fiction",
+        "(B) Fact is often stranger than fancy",
+        "(C) Fact is often stranger than imagination",
+        "(D) Fact is often stranger than reality"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Correct Sentence:",
+      "options": [
+        "(A) Diseases are transferred through contact with infected persons and animals.",
+        "(B) Diseases are transmitted through contact with infected persons and animals",
+        "(C) Diseases are transplanted through contact with infected persons and animals",
+        "(D) Diseases are transmit through contact with infected persons and animals"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Correct Sentence: (i) They were impressed by his performance. (ii) They were impressed with his performance. (iii) They were impressed over his performance.",
+      "options": [
+        "(A) (i) and (ii)",
+        "(B) (i) and (iii)",
+        "(C) (ii) and (iii)",
+        "(D) (i), (ii) and (iii)"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Correct Sentence: (i) The purse is lying on the table. (ii) The purse is lying at the table. (iii) The purse is lying in the table.",
+      "options": [
+        "(A) (i) and (ii)",
+        "(B) (i) and (iii)",
+        "(C) (ii) and (iii)",
+        "(D) (i), (ii) and (iii)"
+      ],
+      "answer": "D (i is common, ii/iii are contextual, but i is grammatically preferred)"
+    },
+    {
+      "question": "Correct Sentence: (i) The man whom I marry must be able to make a decent omelette. (ii) The man that I marry must be able to make a decent omelette. (iii) The man who I marry must be able to make a decent omelette.",
+      "options": [
+        "(A) (i) and (ii)",
+        "(B) (i) and (iii)",
+        "(C) (ii) and (iii)",
+        "(D) (i), (ii) and (iii)"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Correct Sentence: (i) They travelled toward the jungle. (ii) They travelled into the jungle. (iii) They travelled across the jungle.",
+      "options": [
+        "(A) (i) and (ii)",
+        "(B) (i) and (iii)",
+        "(C) (ii) and (iii)",
+        "(D) (i), (ii) and (iii)"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "Correct Sentence: (i) I own that book. (ii) That book belongs to me. (iii) That book is mine.",
+      "options": [
+        "(A) (i) and (ii)",
+        "(B) (i) and (iii)",
+        "(C) (ii) and (iii)",
+        "(D) (i), (ii) and (iii)"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "Correct Sentence: (i) Everyone in the house heard me singing in the shower. (ii) Everyone in the house heard mine singing in the shower. (iii) Everyone in the house heard my singing in the shower.",
+      "options": [
+        "(A) (i) and (ii)",
+        "(B) (i) and (iii)",
+        "(C) (ii) and (iii)",
+        "(D) (i), (ii) and (iii)"
+      ],
+      "answer": "B (i is correct with the objective pronoun; iii is correct with the possessive adjective)"
+    },
+    {
+      "question": "Correct Sentence: (i) Every student was told to go to their advisor. (ii) Every student was told to go to his or her advisor. (iii) The students were told to go to their advisors.",
+      "options": [
+        "(A) (i) and (ii)",
+        "(B) (i) and (iii)",
+        "(C) (ii) and (iii)",
+        "(D) (i), (ii) and (iii)"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "Correct Sentence: (i) When he lost my book I became very angry. (ii) When he lost my book I got very angry. (iii) When he lost my book I felt very angry.",
+      "options": [
+        "(A) (i) and (ii)",
+        "(B) (i) and (iii)",
+        "(C) (ii) and (iii)",
+        "(D) (i), (ii) and (iii)"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "Correct Sentence: (i) The book will be launched next week. (ii) In the following week, they launched the book. (iii) In the next week, they launched the book.",
+      "options": [
+        "(A) (i) and (ii)",
+        "(B) (i) and (iii)",
+        "(C) (ii) and (iii)",
+        "(D) (i), (ii) and (iii)"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Correct Sentence: (i) The daughter praised only her brother. (ii) The daughter only praised her brother. (iii) The daughter praised her only brother.",
+      "options": [
+        "(A) (i) and (ii)",
+        "(B) (i) and (iii)",
+        "(C) (ii) and (iii)",
+        "(D) (i), (ii) and (iii)"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "Error Detection: Steve was senior to Bob in College.",
+      "options": [
+        "(A) is",
+        "(B) were",
+        "(C) are",
+        "(D) No errors"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "Error Correction: Everyone knows that the cheetah is the faster of all animals.",
+      "options": [
+        "(A) fastest",
+        "(B) quick",
+        "(C) fast",
+        "(D) No errors"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Error Correction: None of the two girls who were present in class appeared to be listening to the teacher.",
+      "options": [
+        "(A) One of",
+        "(B) Neither of",
+        "(C) Both of",
+        "(D) No errors"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Error Correction: The big round tables in the sitting room is made of teak.",
+      "options": [
+        "(A) have",
+        "(B) had",
+        "(C) are",
+        "(D) No error"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "Error Correction: He was asking for my opinion for the song he had composed.",
+      "options": [
+        "(A) opinion on",
+        "(B) opinion of",
+        "(C) opinion with",
+        "(D) No error"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Error Correction: The judge had the wisdom to rise to the occasion.",
+      "options": [
+        "(A) rise from",
+        "(B) rise for",
+        "(C) rise at",
+        "(D) No error"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "Error Detection: Steve was senior to Bob in College.",
+      "options": [
+        "(A) is",
+        "(B) were",
+        "(C) are",
+        "(D) No errors"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "Error Correction: Everyone knows that the cheetah is the faster of all animals.",
+      "options": [
+        "(A) fastest",
+        "(B) quick",
+        "(C) fast",
+        "(D) No errors"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Error Correction: None of the two girls who were present in class appeared to be listening to the teacher.",
+      "options": [
+        "(A) One of",
+        "(B) Neither of",
+        "(C) Both of",
+        "(D) No errors"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Error Correction: The big round tables in the sitting room is made of teak.",
+      "options": [
+        "(A) have",
+        "(B) had",
+        "(C) are",
+        "(D) No error"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "Error Correction: He was asking for my opinion for the song he had composed.",
+      "options": [
+        "(A) opinion on",
+        "(B) opinion of",
+        "(C) opinion with",
+        "(D) No error"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Error Correction: The judge had the wisdom to rise to the occasion.",
+      "options": [
+        "(A) rise from",
+        "(B) rise for",
+        "(C) rise at",
+        "(D) No error"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "(A) She was very (B) disheartened with (C) the results of the test (D) No error",
+      "options": [
+        "(A) She was very",
+        "(B) disheartened by",
+        "(C) the results of the test",
+        "(D) No error"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "(A) It is nice enough restaurant (B) but it's not in the same (C) league as Rossi's (D) No error",
+      "options": [
+        "(A) It is nice enough restaurant",
+        "(B) but it's not in the same",
+        "(C) league as Rossi's",
+        "(D) No error"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "(A) We don't usually (B) let students take books home (C) but I'll bend the rules on this occasion (D) No error",
+      "options": [
+        "(A) We don't usually",
+        "(B) let students take books home",
+        "(C) but I'll bend the rules on this occasion",
+        "(D) No error"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "(A) I was the only one (B) in uniform and I stuck (C) like a sore thumb (D) No error",
+      "options": [
+        "(A) I was the only one",
+        "(B) in uniform and I stood out",
+        "(C) like a sore thumb",
+        "(D) No error"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "(A) If something that (B) you have been looking for (C) turns up you find out (D) No error",
+      "options": [
+        "(A) If something that",
+        "(B) you have been looking for",
+        "(C) turns up you find it",
+        "(D) No error"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "(A) He (B) always speaks (C) truthful (D) No error",
+      "options": [
+        "(A) He",
+        "(B) always speaks",
+        "(C) the truth",
+        "(D) No error"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "(A) James told me that (B) he first went to the Mexico (C) and then to the Netherlands (D) No error",
+      "options": [
+        "(A) James told me that",
+        "(B) he first went to Mexico",
+        "(C) and then to the Netherlands",
+        "(D) No error"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "(A) Bible (B) said that we (C) must love one another (D) No error",
+      "options": [
+        "(A) The Bible",
+        "(B) said that we",
+        "(C) must love one another",
+        "(D) No error"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "(A) You shall have to talk to me / (B) first before leaving / (C) No error",
+      "options": [
+        "(A) You will",
+        "(B) have to talk to me",
+        "(C) first before leaving",
+        "(D) No error"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "(A) There are to many / (B) complications, / (C) the doctor told to him / (D) No error",
+      "options": [
+        "(A) There are too many",
+        "(B) complications,",
+        "(C) the doctor told him",
+        "(D) No error"
+      ],
+      "answer": "A (and C, choosing the earliest error)"
+    },
+    {
+      "question": "(A) One must / (B) be careful / (C) with one's speaking / (D) No error",
+      "options": [
+        "(A) One must",
+        "(B) be careful",
+        "(C) about one's speaking",
+        "(D) No error"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "(A) A too long / (B) sentence must / (C) be avoided / (D) No error",
+      "options": [
+        "(A) A sentence that is too long",
+        "(B) sentence must",
+        "(C) be avoided",
+        "(D) No error"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "(A) Reading in / (B) the passage carefully / (C) is important / (D) No error",
+      "options": [
+        "(A) Reading",
+        "(B) the passage carefully",
+        "(C) is important",
+        "(D) No error"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "I. The parents told the Principal that it was not their intention to interfere in the running of the school. II. The parents said they did not intend to interfere with the running of the school. III. The parents said they had no intention of interfering with the running of the school.",
+      "options": [
+        "(A) 1 and 2",
+        "(B) 1 and 3",
+        "(C) 2 and 3",
+        "(D) 1, 2 and 3"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "I. Although Ben is poor, he is not dishonest. II. Poor as Ben is, he is not dishonest. III. Ben is poor and not dishonest.",
+      "options": [
+        "(A) 1 and 2",
+        "(B) 1 and 3",
+        "(C) 2 and 3",
+        "(D) 1, 2 and 3"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "I. We never imagined that she would win the prize. II. We had never ever imagined that she would win the prize. III. Little did we imagine that she would win the prize.",
+      "options": [
+        "(A) 1 and 2",
+        "(B) 1 and 3",
+        "(C) 2 and 3",
+        "(D) 1, 2 and 3"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "I. It was thought that Mike might have stolen the money. II. Mike was suspected to stealing the money. III. Suspicion fell on Mike for stealing the money.",
+      "options": [
+        "(A) 1 and 2",
+        "(B) 1 and 3",
+        "(C) 2 and 3",
+        "(D) 1, 2 and 3"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "I. According to the newspaper, the athletes from Third World Countries were felicitated at the Olympic Games. II. The newspaper reported that athletes from Third World Countries were felicitated at the Olympic Games. III. It was reported in the newspaper that athletes from Third World Countries were felicitated at the Olympic Games.",
+      "options": [
+        "(A) 1 and 2",
+        "(B) 1 and 3",
+        "(C) 2 and 3",
+        "(D) 1, 2 and 3"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "I. His amateur attempt to disguise failed and the police arrested the overconfident trickster. II. His amateur attempt at disguise failed and the police arrested the overconfident trickster. III. His amateur attempt at disguising failed and the police arrested the overconfident trickster.",
+      "options": [
+        "(A) 1 and 2",
+        "(B) 1 and 3",
+        "(C) 2 and 3",
+        "(D) 1, 2 and 3"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "I. He firmly believes that the Stonehenge was built by aliens. II. It is his firm conviction that the Stonehenge was built by aliens. III. He is firmly convinced that the Stonehenge was built by aliens.",
+      "options": [
+        "(A) 1 and 2",
+        "(B) 1 and 3",
+        "(C) 2 and 3",
+        "(D) 1, 2 and 3"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "I. It is not my concern what he does with his money. II. What he does with his money is none of my concern. III. What he does with his money is no concern of mine.",
+      "options": [
+        "(A) 1 and 2",
+        "(B) 1 and 3",
+        "(C) 2 and 3",
+        "(D) 1, 2 and 3"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "I. He said he was sorry to leave the country. II. He expressed his regret at leaving the country. III. He said he was sorry at leaving the country.",
+      "options": [
+        "(A) 1 and 2",
+        "(B) 1 and 3",
+        "(C) 2 and 3",
+        "(D) 1, 2 and 3"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "I. Rather than arrive at a hasty decision we should talk it out. II. Rather than arrive at a hasty decision we should talk it over. III. Rather than arrive at a hasty decision we should talk about it.",
+      "options": [
+        "(A) 1 and 2",
+        "(B) 1 and 3",
+        "(C) 2 and 3",
+        "(D) 1, 2 and 3"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "I. He had leave of four days. II. The harassed wife shot herself with a gun after bidding her husband the last goodbye. III. With a frown on his face, the teacher asked the student to leave the room.",
+      "options": [
+        "(A) 1 and 2",
+        "(B) 2 and 3",
+        "(C) 1 and 3",
+        "(D) 1, 2 and 3"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "I. It was so big a box that I could not lift it. II. He got an employment there. III. Mankind should love nature.",
+      "options": [
+        "(A) 1 and 2",
+        "(B) 2 and 3",
+        "(C) 1 and 3",
+        "(D) 1, 2 and 3"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "I. Many villagers cannot write his name. II. People often spend their leisure in cinemas. III. John said can he go home.",
+      "options": [
+        "(A) 1 and 2",
+        "(B) 2 and 3",
+        "(C) 1 and 3",
+        "(D) 1, 2 and 3"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "I. He takes no care over his work. II. I went to the bank yesterday to collect the passbook. III. John said can he go home.",
+      "options": [
+        "(A) 1 and 2",
+        "(B) 2 and 3",
+        "(C) 1 and 3",
+        "(D) 1, 2 and 3"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "I. I would not hear you. II. Nobody will want to play in his team if he does not treat people kindly. III. It is far too hard an essay for me to attempt.",
+      "options": [
+        "(A) 1 and 2",
+        "(B) 2 and 3",
+        "(C) 1 and 3",
+        "(D) 1, 2 and 3"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "I. Many works must close owing to lack of fuel, if the strike lasts till weekend. II. I was second in my class. III. Travelling from Karjat to Khandala, one would find the line most beautifully laid.",
+      "options": [
+        "(A) 1 and 2",
+        "(B) 2 and 3",
+        "(C) 1 and 3",
+        "(D) 1, 2 and 3"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "I. As the train which is my usual was missing I had to travel on the next. II. I don't know whether he will come or not. III. I missed the train which I usually catch and had to travel by the next.",
+      "options": [
+        "(A) 1 and 2",
+        "(B) 2 and 3",
+        "(C) 1 and 3",
+        "(D) 1, 2 and 3"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "I. He carried little Bhim and I on his shoulders. II. All that he said had no effect on me. III. Those who did this should be punished.",
+      "options": [
+        "(A) 1 and 2",
+        "(B) 2 and 3",
+        "(C) 1 and 3",
+        "(D) 1, 2 and 3"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "I. Everyone of the boys loves to ride. II. Much pains has been taken. III. One should not waste one's time.",
+      "options": [
+        "(A) 1 and 2",
+        "(B) 2 and 3",
+        "(C) 1 and 3",
+        "(D) 1, 2 and 3"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "I. Our followers are but a handful. II. Neither he nor I was there. III. Many a glorious deeds were done.",
+      "options": [
+        "(A) 1 and 2",
+        "(B) 2 and 3",
+        "(C) 1 and 3",
+        "(D) 1, 2 and 3"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "never have and never will be trusted",
+      "options": [
+        "(A) never have and never will be trusted",
+        "(B) never have and will be trusted",
+        "(C) never have been and never will be trusted",
+        "(D) never have had anyone trust them and never will have anyone"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "as fully as him, no one but him",
+      "options": [
+        "(A) as fully as him, no one but him",
+        "(B) as fully as he",
+        "(C) as fully as he does, no one but he",
+        "(D) as fully as he does, no one but he alone"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "make it possible",
+      "options": [
+        "(A) make it possible",
+        "(B) makes it possible",
+        "(C) allows the possibility",
+        "(D) makes possible"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "when the lights went out",
+      "options": [
+        "(A) when the lights went out",
+        "(B) than the lights went out",
+        "(C) and the lights went out",
+        "(D) then the lights went out"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "If I would have",
+      "options": [
+        "(A) If I would have",
+        "(B) In case I would have",
+        "(C) Had I",
+        "(D) If I realised"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "should unitedly undertook",
+      "options": [
+        "(A) should unitedly undertook",
+        "(B) should be unitedly undertaken",
+        "(C) should unitedly undertake",
+        "(D) should be undertaken in unity"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "would be presented the next day",
+      "options": [
+        "(A) would be presented the next day",
+        "(B) would be presented on the next day",
+        "(C) shall be presented tomorrow",
+        "(D) shall be presented the following day"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "can be facilitated from",
+      "options": [
+        "(A) can be facilitated from",
+        "(B) may facilitate through",
+        "(C) can be facilitated by",
+        "(D) may be facilitated by"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "hardly possible to keep",
+      "options": [
+        "(A) hardly possible to keep",
+        "(B) hardly impossible to keep",
+        "(C) hardly impossible for keeping",
+        "(D) hardly possible for keeping"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "stroke a note of caution",
+      "options": [
+        "(A) stroke a note of caution",
+        "(B) striked a note of caution",
+        "(C) struck a note of caution",
+        "(D) struck with a note of caution"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "The gate was opened by David.",
+      "options": [
+        "(A) The gate open by David.",
+        "(B) David did open the gate.",
+        "(C) Opened was the gate by David.",
+        "(D) David opened the gate."
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "My father will write a letter.",
+      "options": [
+        "(A) A letter will be written by my father.",
+        "(B) A letter my father will write.",
+        "(C) My father writes a letter.",
+        "(D) My father is writing a letter."
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "The building was damaged by the fire.",
+      "options": [
+        "(A) The fire damaged the building.",
+        "(B) The building damaged by fire.",
+        "(C) The fire had damaged the building.",
+        "(D) The fire did damaged the building."
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "I am cooking a meal.",
+      "options": [
+        "(A) A meal is prepared.",
+        "(B) A meal is being cooked by me.",
+        "(C) A meal is cooked by me.",
+        "(D) Cooking a meal by me."
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "The road was lined with people.",
+      "options": [
+        "(A) The people lined the road.",
+        "(B) The people will lined the road.",
+        "(C) People had lined on the road.",
+        "(D) People lined up the road."
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "David said, \"I am directing a new film.\"",
+      "options": [
+        "(A) David said he was directing a new flim.",
+        "(B) David said that he was directing a new film.",
+        "(C) David said that I will direct a new film.",
+        "(D) David said that I will been directing a new film."
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "He says, \"I went home on Friday.\"",
+      "options": [
+        "(A) He says that he went home on Friday.",
+        "(B) He said that he will go home on Friday.",
+        "(C) He says that he go home on Friday.",
+        "(D) On Friday he says he goes home."
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Peter told Cynthia that he would go home soon.",
+      "options": [
+        "(A) \"I will go home soon,\" Peter said to Cynthia.",
+        "(B) Peter told Cynthia, \"I am going home.\"",
+        "(C) Peter said to Cynthia, \"I will go home.\"",
+        "(D) \"I will go home soon\", Peter told Cynthia."
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "He said, \"Sit down.\"",
+      "options": [
+        "(A) He asked to sit down.",
+        "(B) He ask me to sit down.",
+        "(C) He asked me to sit down.",
+        "(D) He told me, sit down."
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "She asked the students to start at once.",
+      "options": [
+        "(A) \"Do start at once\", she said to the students.",
+        "(B) \"Do start now\", she said to the students.",
+        "(C) \"Do it now\", she said to the students.",
+        "(D) \"Do it at once\", she said to the students."
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "The white chairs in the sitting room is made of teak.",
+      "options": [
+        "(A) have",
+        "(B) had",
+        "(C) are",
+        "(D) No error"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "He was asking my opinion for the film.",
+      "options": [
+        "(A) opinion on",
+        "(B) opinion of",
+        "(C) opinion with",
+        "(D) No error"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "He has the guts to rise from the occasion.",
+      "options": [
+        "(A) rise for",
+        "(B) rise to",
+        "(C) rise at",
+        "(D) No error"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "I had not completed my project so I thought I was (done with) when the Manager asked me. (File 16 - Improvement)",
+      "options": [
+        "a) done for",
+        "b) done in",
+        "c) done on",
+        "d) No improvement"
+      ],
+      "answer": "A (Done for = in serious trouble)."
+    },
+    {
+      "question": "Robin was upset and so (picked up) his food... (File 16 - Improvement)",
+      "options": [
+        "a) picked out",
+        "b) picked on",
+        "c) picked at",
+        "d) No improvement"
+      ],
+      "answer": "C (Picked at = ate reluctantly)."
+    },
+    {
+      "question": "Serious charges of corruption were (levied against) him. (File 16 - Improvement)",
+      "options": [
+        "a) put",
+        "b) levelled against",
+        "c) made",
+        "d) No improvement"
+      ],
+      "answer": "B (Charges are \"levelled\")."
+    },
+    {
+      "question": "I shall favor (its') adoption. (File 16 - Improvement)",
+      "options": [
+        "a) it",
+        "b) it's",
+        "c) its",
+        "d) No improvement"
+      ],
+      "answer": "C (Possessive \"its\")."
+    },
+    {
+      "question": "I prefer remaining silent (to) speaking falsehood. (File 16 - Improvement)",
+      "options": [
+        "a) than",
+        "b) more than",
+        "c) rather than",
+        "d) No improvement"
+      ],
+      "answer": "D (Prefer X to Y is correct)."
+    },
+    {
+      "question": "Choose correct sentences (1): (i) There was an error of judgement. (ii) There were an error... (iii) There was no error...",
+      "options": [
+        "a) i and ii",
+        "b) i and iii",
+        "c) ii and iii",
+        "d) i, ii and iii"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Choose correct sentences (2): (i) We pining... (ii) We have not been pining... (iii) We have been pining...",
+      "options": [
+        "a) i and ii",
+        "b) i and iii",
+        "c) ii and iii",
+        "d) i, ii and iii"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "Choose correct sentences (3): (i) He finished the work in ten days. (ii) She will do the work within twelve days. (iii) We will do the work since five days. (Incorrect use of since)",
+      "options": [
+        "a) i and ii",
+        "b) i and iii",
+        "c) ii and iii",
+        "d) i, ii and iii"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Choose correct sentences (4): (i) The school is above the river. (ii) The school is beyond the river. (iii) The school stands between the valleys.",
+      "options": [
+        "a) i and ii",
+        "b) i and iii",
+        "c) ii and iii",
+        "d) i, ii and iii"
+      ],
+      "answer": "D (All are grammatically possible, though (iii) is slightly odd \"between the valleys\" usually implies two, but acceptable)."
+    },
+    {
+      "question": "Choose correct sentences (5): (i) The Director... has made this announcement. (ii) The Chief Justice... has written... (iii) Justice Umesh Bhatt attend... (Incorrect, should be attends/attended)",
+      "options": [
+        "a) i and ii",
+        "b) i and iii",
+        "c) ii and iii",
+        "d) i, ii and iii"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Choose correct sentences (6): (i) She called on me... (ii) Someone has been enquiring for you... (iii) She enquire... (Incorrect, should be enquired/enquires)",
+      "options": [
+        "a) i and ii",
+        "b) i and iii",
+        "c) ii and iii",
+        "d) i, ii and iii"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Choose correct sentences (7): (i) The police acquainted us... (ii) They acquitted themselves from honour. (Strange usage) (iii) The magistrate acquitted him of all charges.",
+      "options": [
+        "a) i and ii",
+        "b) i and iii",
+        "c) ii and iii",
+        "d) i, ii and iii"
+      ],
+      "answer": "B (Assuming (ii) is incorrect idiomatically)."
+    },
+    {
+      "question": "Choose correct sentences (8): (i) I was disgusted at him at his rudeness. (Clunky) (ii) I was disgusted by his rudeness. (iii) We are disgusted at her rude behaviour.",
+      "options": [
+        "a) i and ii",
+        "b) i and iii",
+        "c) ii and iii",
+        "d) i, ii and iii"
+      ],
+      "answer": "C (or B, \"disgusted at\" is valid, (i) has double 'at')."
+    },
+    {
+      "question": "Choose correct sentences (9): (i) She confided in her friend. (ii) He could confide in his friend. (iii) We confided our fears to our parents.",
+      "options": [
+        "a) i and ii",
+        "b) i and iii",
+        "c) ii and iii",
+        "d) i, ii and iii"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "Choose correct sentences (10): (i) She looked pleased with herself. (ii) She looked unpleased... (Unpleased is rare, displeased is standard) (iii) The teacher was greatly pleased at...",
+      "options": [
+        "a) i and ii",
+        "b) i and iii",
+        "c) ii and iii",
+        "d) i, ii and iii"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "He suggests that we should be bound by a code of conduct, isn't it?",
+      "options": [
+        "a) is it",
+        "b) aren't we",
+        "c) shouldn't we",
+        "d) No error"
+      ],
+      "answer": "C (Tag should match \"should\")."
+    },
+    {
+      "question": "In order to write poetry, one has to be both sensitive and creative.",
+      "options": [
+        "a) over",
+        "b) so",
+        "c) almost",
+        "d) No error"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "Bees produce sweet honey as its sting is deadly.",
+      "options": [
+        "a) but",
+        "b) for",
+        "c) and",
+        "d) No error"
+      ],
+      "answer": "A (Contrast required: \"honey... but... sting\")."
+    },
+    {
+      "question": "I am tired as I am working since 7 o'clock...",
+      "options": [
+        "a) I was working",
+        "b) I have been working",
+        "c) I had been working",
+        "d) No error"
+      ],
+      "answer": "B (Present perfect continuous)."
+    },
+    {
+      "question": "Sheela told her teacher to explain the chapter once again.",
+      "options": [
+        "a) ordered her teacher",
+        "b) said to her teacher",
+        "c) asked her teacher",
+        "d) No error"
+      ],
+      "answer": "C (Polite request)."
+    },
+    {
+      "question": "Sentence Structure:",
+      "options": [
+        "a) The school is in the center of the village.",
+        "b) The center of the village is the school in.",
+        "c) The school the center of the village is in.",
+        "d) The village is in the center of the school."
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Sentence Structure:",
+      "options": [
+        "a) Every week to the hostels the vegetables are delivered.",
+        "b) The vegetables are delivered every week to the hostels.",
+        "c) To the hostels every week the vegetables are delivered.",
+        "d) The vegetables to the hostels are delivered every week."
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Sentence Structure:",
+      "options": [
+        "a) Next week's figures an improvement to show are expected.",
+        "b) An improvement to show are expected next week's figures.",
+        "c) Next week's figures are expected to show an improvement.",
+        "d) An improvement next week's figures are expected to show."
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "Sentence Structure:",
+      "options": [
+        "a) It's your documents a copy to keep it's a good idea.",
+        "b) It's a good idea to keep a copy of your documents.",
+        "c) To keep a copy of your documents it's a good idea.",
+        "d) It's good idea a copy of your document to keep."
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Sentence Structure:",
+      "options": [
+        "a) Without being played the match the players left.",
+        "b) The players the match without being played left.",
+        "c) The match without being played the players left.",
+        "d) The players left without the match being played."
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "The white chairs in the sitting room is made of teak.",
+      "options": [
+        "a) have",
+        "b) had",
+        "c) are",
+        "d) No error"
+      ],
+      "answer": "C (\"Chairs\" is plural, so \"are\")."
+    },
+    {
+      "question": "He was asking my opinion for the film.",
+      "options": [
+        "a) opinion in",
+        "b) opinion about",
+        "c) opinion with",
+        "d) No error"
+      ],
+      "answer": "B (Opinion about/on)."
+    },
+    {
+      "question": "He has the guts to rise from the occasion.",
+      "options": [
+        "a) rise for",
+        "b) rise to",
+        "c) rise at",
+        "d) No error"
+      ],
+      "answer": "B (Rise to the occasion)."
+    },
+    {
+      "question": "Robert wished he was rich enough to travel the world.",
+      "options": [
+        "a) he is",
+        "b) he will be",
+        "c) to be",
+        "d) No error"
+      ],
+      "answer": "D (or \"were\" for subjunctive, but \"was\" is accepted in colloquial. However, \"to be\" (C) changes meaning. No improvement/Error is often D. Strict grammar might prefer \"were\". If D is No Error, it's likely D)."
+    },
+    {
+      "question": "People are wanting to see the home team win.",
+      "options": [
+        "a) want",
+        "b) feel",
+        "c) thought",
+        "d) No error"
+      ],
+      "answer": "A (Stative verbs like \"want\" usually don't take continuous form. \"People want\")."
+    },
+    {
+      "question": "He suggested that we should be bound by a code of conduct, isn't it?",
+      "options": [
+        "a) is it?",
+        "b) aren't we?",
+        "c) shouldn't we?",
+        "d) No error"
+      ],
+      "answer": "C (Tag matches \"should\")."
+    },
+    {
+      "question": "Bees produce sweet honey as its sting is deadly.",
+      "options": [
+        "a) but",
+        "b) for",
+        "c) and",
+        "d) No error"
+      ],
+      "answer": "A (Contrast: honey is sweet but sting is deadly)."
+    },
+    {
+      "question": "I am tired as I am working since 7 o'clock...",
+      "options": [
+        "a) I was working",
+        "b) I have been working",
+        "c) I had been working",
+        "d) No error"
+      ],
+      "answer": "B (Present perfect continuous)."
+    },
+    {
+      "question": "Sheela told her teacher to explain the chapter once again.",
+      "options": [
+        "a) ordered her teacher",
+        "b) said to her teacher",
+        "c) asked her teacher",
+        "d) No error"
+      ],
+      "answer": "C (Polite request)."
+    },
+    {
+      "question": "I have wrote a letter to her.",
+      "options": [
+        "a) write",
+        "b) written",
+        "c) will write",
+        "d) No error"
+      ],
+      "answer": "B (Have written)."
+    },
+    {
+      "question": "She has been plucks flowers since morning.",
+      "options": [
+        "a) pluck",
+        "b) pick",
+        "c) plucking",
+        "d) No error"
+      ],
+      "answer": "C (Has been plucking)."
+    },
+    {
+      "question": "Charlie Tan sentences:",
+      "options": [
+        "a) ...who's wife live...",
+        "b) ...whose wife lived... (Correct)",
+        "c) ...who's wife lived...",
+        "d) ...who's wife live..."
+      ],
+      "answer": "A (Wait. Option A in File 42 Q4 is \"Charlie Tan, whose wife lived in China, died...\". B is \"...died quite some times ago\". C is \"who's wife\". D is \"who's wife\". Option A is correct grammar \"whose\" and \"time ago\").  A."
+    },
+    {
+      "question": "India has achieves a commendable progress... (File 47 - Improvement)",
+      "options": [
+        "a) gained commendable",
+        "b) achieved commendable",
+        "c) got an achievement which is commendable",
+        "d) gotten a great commendable achievement"
+      ],
+      "answer": "B (Has achieved)."
+    },
+    {
+      "question": "Adult education means education of aged persons who is illiterate. (File 47 - Improvement)",
+      "options": [
+        "a) who are illiterate",
+        "b) who were literate",
+        "c) who needs education",
+        "d) who are old"
+      ],
+      "answer": "A (Persons are plural, so \"who are illiterate\")."
+    },
+    {
+      "question": "Human intervention produces changes... and as a result it becomes imbalanced. (File 47 - Improvement)",
+      "options": [
+        "a) creates an imbalance",
+        "b) created imbalances",
+        "c) thus it created an imbalance",
+        "d) No improvement"
+      ],
+      "answer": "A (Improves awkward phrasing/clarity)."
+    },
+    {
+      "question": "Land pollution can control by judicious and proper use... (File 47 - Improvement)",
+      "options": [
+        "a) should control",
+        "b) may be controlled",
+        "c) should be controlled",
+        "d) is controlled"
+      ],
+      "answer": "C (Passive voice required: should be controlled)."
+    },
+    {
+      "question": "The disposal of radioactive waste is fraught with risk. (File 47 - Improvement)",
+      "options": [
+        "a) is fraught with a lot of risk",
+        "b) was a lot of risk",
+        "c) is risky",
+        "d) No improvement"
+      ],
+      "answer": "D (Correct usage)."
+    },
+    {
+      "question": "Computers are easy to learn and it is called a student friendly machine. (File 47 - Improvement)",
+      "options": [
+        "a) is easy to learn",
+        "b) are very easy to learn",
+        "c) should be learned easily",
+        "d) No improvement"
+      ],
+      "answer": "D (Correct usage, even if slightly non-parallel - it refers to \"computer\" singular concept)."
+    },
+    {
+      "question": "This device allows you to talk to people almost any place in the world. (File 47 - Improvement)",
+      "options": [
+        "a) most place",
+        "b) almost to",
+        "c) anywhere",
+        "d) No improvement"
+      ],
+      "answer": "C (Any place should be anywhere/almost all places)."
+    },
+    {
+      "question": "I was delighted to see him fully recover. (File 6 - Improvement)",
+      "options": [
+        "a) him fully recovered",
+        "b) he fully recovered",
+        "c) his fully recovery",
+        "d) No improvement needed."
+      ],
+      "answer": "A (or D depending on strict grammar, but \"fully recovered\" acts as adjective phrase. However, \"see him fully recover\" (infinitive) is also valid. Option A \"him fully recovered\" emphasizes the state)."
+    },
+    {
+      "question": "They didn't pay any heed to their superior's instructions; I did neither. (File 6 - Improvement)",
+      "options": [
+        "a) I either did",
+        "b) Neither didn't",
+        "c) Nor did I",
+        "d) No improvement needed."
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "The fast train came a halt to before crossing the bridge. (File 6 - Improvement)",
+      "options": [
+        "a) came before to a halt",
+        "b) came to a halt to",
+        "c) came to a halt before",
+        "d) No improvement needed."
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "I can always count on him in times of difficulty. (File 6 - Improvement)",
+      "options": [
+        "a) count with him",
+        "b) count him on",
+        "c) count him",
+        "d) No improvement needed."
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "It was so dark that the children were terribly frightened. (File 6 - Improvement)",
+      "options": [
+        "a) had terrible frightened",
+        "b) were terribly frightening",
+        "c) were terrible frightened",
+        "d) No improvement needed."
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "He took a longer time to read the text for he wanted to go about it carefully. (File 6 - Improvement)",
+      "options": [
+        "a) go at it casually",
+        "b) go through it carefully",
+        "c) go through it hurriedly",
+        "d) No improvement needed."
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Your suggestion is no different from the other employees. (File 6 - Improvement)",
+      "options": [
+        "a) not different from",
+        "b) not different than the",
+        "c) not different from that of the",
+        "d) No improvement needed."
+      ],
+      "answer": "C (Comparison must be between suggestions, not suggestion and employees)."
+    },
+    {
+      "question": "Though his actions were severe criticised, he didn't lose his temper. (File 6 - Improvement)",
+      "options": [
+        "a) were severe criticism",
+        "b) had severe criticise",
+        "c) were severely criticised",
+        "d) No improvement needed."
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "He was untiring in his efforts to eliminate unnecessary controls. (File 6 - Improvement)",
+      "options": [
+        "a) untried in",
+        "b) untried of",
+        "c) untiring into",
+        "d) No improvement needed."
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "The purchase made by him brought with him a number of prizes. (File 6 - Improvement)",
+      "options": [
+        "a) brought him",
+        "b) brought up to him",
+        "c) brought with himself",
+        "d) No improvement needed."
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Choose the correct sentences (1): i. He is too weak to walk. ii. He is walking too weakly. iii. He is so weak that he cannot walk.",
+      "options": [
+        "a) i and ii",
+        "b) i and iii",
+        "c) ii and iii",
+        "d) i, ii and iii"
+      ],
+      "answer": "B (i and iii are standard transformations)."
+    },
+    {
+      "question": "Choose the correct sentences (2): i. The news is so good that it are true. (Incorrect verb) ii. The news is too good to be true. iii. The news is so good that it cannot be true.",
+      "options": [
+        "a) i and ii",
+        "b) i and iii",
+        "c) ii and iii",
+        "d) i, ii and iii"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "Choose the correct sentences (3): i. Only students are allowed here. ii. You are allowed here only if you are a student. iii. Allowed are only students here.",
+      "options": [
+        "a) i and ii",
+        "b) i and iii",
+        "c) ii and iii",
+        "d) i, ii and iii"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Choose the correct sentences (4): i. Tell me the time and place of your birth. ii. I would like to know the time and place of your birth. iii. Could you kindly tell me the time and place of your birth?",
+      "options": [
+        "a) i and ii",
+        "b) i and iii",
+        "c) ii and iii",
+        "d) i, ii and iii"
+      ],
+      "answer": "D (All are grammatically correct requests/statements)."
+    },
+    {
+      "question": "Choose the correct sentences (5): i. You may go anywhere. ii. Nowhere you may go. iii. You may go wherever you like.",
+      "options": [
+        "a) i and ii",
+        "b) i and iii",
+        "c) ii and iii",
+        "d) i, ii and iii"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Choose the correct sentences (6): i. He eats too much for his own good. ii. He eats too much. iii. He eats more than what is enough.",
+      "options": [
+        "a) i and ii",
+        "b) i and iii",
+        "c) ii and iii",
+        "d) i, ii and iii"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "Choose the correct sentences (7): i. Studying always made him sleepy. ii. He is feeling like studying wherever he is sleeping. iii. He always feels sleepy when he is studying.",
+      "options": [
+        "a) i and ii",
+        "b) i and iii",
+        "c) ii and iii",
+        "d) i, ii and iii"
+      ],
+      "answer": "B (ii is nonsensical)."
+    },
+    {
+      "question": "Choose the correct sentences (8): i. This statue is of no use. ii. What is the use of this statue? iii. There is no use of this statue.",
+      "options": [
+        "a) i and ii",
+        "b) i and iii",
+        "c) ii and iii",
+        "d) i, ii and iii"
+      ],
+      "answer": "A (iii is typically \"There is no use for this statue\" or \"It is of no use\")."
+    },
+    {
+      "question": "Choose the correct sentences (9): i. I could not attend the meeting on account of my illness. ii. I could not attend the meeting as I was ill. iii. I could not be ill to attend the meeting.",
+      "options": [
+        "a) i and ii",
+        "b) i and iii",
+        "c) ii and iii",
+        "d) i, ii and iii"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Choose the correct sentences (10): i. He is an orator of great repute. ii. He is orator and greatly repute. iii. He is an extremely renowned orator.",
+      "options": [
+        "a) i and ii",
+        "b) i and iii",
+        "c) ii and iii",
+        "d) i, ii and iii"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "She told the children not to stop the work. (Improvement for underlined part)",
+      "options": [
+        "a) not stopping",
+        "b) don't stop",
+        "c) not stopping of",
+        "d) No improvement"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "I am not telling you that you should hunt out people to pursue your policies. (Improvement for underlined part)",
+      "options": [
+        "a) asking",
+        "b) saying",
+        "c) speaking",
+        "d) No improvement"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "He succeeded by dint of hard work. (Improvement for underlined part)",
+      "options": [
+        "a) by means of",
+        "b) by doing",
+        "c) by virtue of",
+        "d) No improvement"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "You have read that book for ages. (Improvement for underlined part)",
+      "options": [
+        "a) have been reading",
+        "b) had read",
+        "c) will be reading",
+        "d) No improvement"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "He is resembling his father. (Improvement for underlined part)",
+      "options": [
+        "a) has been resembling",
+        "b) resembles like",
+        "c) resembles",
+        "d) No improvement"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "It has been two years since I have seen him last. (Improvement for underlined part)",
+      "options": [
+        "a) when I have seen him",
+        "b) since I had seen him",
+        "c) since I saw him",
+        "d) No improvement"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "He told to us everything he knew. (Improvement for underlined part)",
+      "options": [
+        "a) us everything he knew",
+        "b) us everything he is knowing",
+        "c) us everything he was knowing",
+        "d) No improvement"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "The cows are (a)/running (b)/against the fence (c) / No error (d)",
+      "options": [
+        "a) The cows are",
+        "b) running",
+        "c) against the fence",
+        "d) No error"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "I am studying (a) / hard for the (b) / last three months (c)/No error (d)",
+      "options": [
+        "a) I am studying",
+        "b) hard for the",
+        "c) last three months",
+        "d) No error"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "An honorary degree (a) / was conferred (b)/on the President (c) / No error (d)",
+      "options": [
+        "a) An honorary degree",
+        "b) was conferred",
+        "c) on the President",
+        "d) No error"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "Tina insisted (a) / him to went (b) / back home (c) / No error (d)",
+      "options": [
+        "a) Tina insisted",
+        "b) him to went",
+        "c) back home",
+        "d) No error"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "The Police accused (a) / Vishal with theft (b)/and murder (c) / No error (d)",
+      "options": [
+        "a) The Police accused",
+        "b) Vishal with theft",
+        "c) and murder",
+        "d) No error"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Give the package to whom ever (a) / has the authority (b)/ to sign for it (c) / No error (d)",
+      "options": [
+        "a) Give the package to whom ever",
+        "b) has the authority",
+        "c) to sign for it",
+        "d) No error"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "In our opinion that girl is (a) / enough beautiful (b)/ to be a movie star (c) / No error (d)",
+      "options": [
+        "a) In our opinion that girl is",
+        "b) enough beautiful",
+        "c) to be a movie star",
+        "d) No error"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Our friends got a bank loan (a) / for to buy (b) / a new car (c) / No error (d)",
+      "options": [
+        "a) Our friends got a bank loan",
+        "b) for to buy",
+        "c) a new car",
+        "d) No error"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "The flag is risen at 6.30 (a) / every morning (b)/ without fail (c) / No error (d)",
+      "options": [
+        "a) The flag is risen at 6.30",
+        "b) every morning",
+        "c) without fail",
+        "d) No error"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "The refrigerator is too old (a) / to keep things (b) / at a proper temperature (c) / No error (d)",
+      "options": [
+        "a) The refrigerator is too old",
+        "b) to keep things",
+        "c) at a proper temperature",
+        "d) No error"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "John said that he will visit me now. (Best sentence)",
+      "options": [
+        "a) John said that he will visit me now.",
+        "b) John said that he will visit me then.",
+        "c) John said that he would visit me now.",
+        "d) John said that he would visit me then."
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "Excess knowledge is a dangerous thing (Best sentence)",
+      "options": [
+        "a) Excess knowledge is a dangerous thing",
+        "b) Excessive knowledge is a dangerous thing",
+        "c) A little knowledge is a dangerous thing",
+        "d) A less knowledge is a dangerous thing"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "His house consists three bedrooms and a toilet (Best sentence)",
+      "options": [
+        "a) His house consists three bedrooms and a toilet",
+        "b) His house comprises of three bedrooms and a toilet",
+        "c) His house comprises three bedrooms and a toilet",
+        "d) His house consists with three bedrooms and a toilet"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "I LIKES READING BOOKS. (Error correction - Part B is the corrected error)",
+      "options": [
+        "a) I LIKES",
+        "b) READING BOOKS.",
+        "c) to read books.",
+        "d) books."
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "THEY HAS ARRIVED. (Error correction - Part B is the corrected error)",
+      "options": [
+        "a) THEY",
+        "b) HAS ARRIVED.",
+        "c) have arrived.",
+        "d) arrived."
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "IT'S TIME TO TAKE A DECISIONS. (Error correction - Part B is the corrected error)",
+      "options": [
+        "a) IT'S TIME",
+        "b) TO TAKE A DECISIONS.",
+        "c) make a decision.",
+        "d) to decide."
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "I HAS BEEN WAITING FOR YOU. (Error correction - Part B is the corrected error)",
+      "options": [
+        "a) I",
+        "b) HAS BEEN WAITING FOR YOU.",
+        "c) have waited.",
+        "d) I am waiting."
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "EACH OF THE BOYS HAVE DONE THEIR HOMEWORK. (Error correction - Part B is the corrected error)",
+      "options": [
+        "a) EACH OF THE BOYS",
+        "b) HAVE DONE THEIR HOMEWORK.",
+        "c) has done his homework.",
+        "d) have done the homework."
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "THEY WERE CLEANING THE ROOM NOW. (Error correction - Part B is the corrected error)",
+      "options": [
+        "a) THEY WERE CLEANING",
+        "b) THE ROOM NOW.",
+        "c) The room is being cleaned.",
+        "d) They clean."
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "I AM LOOKING FORWARD TO MEET YOU. (Error correction - Part C is the corrected error)",
+      "options": [
+        "a) I AM LOOKING",
+        "b) FORWARD",
+        "c) TO MEET YOU.",
+        "d) to meet them."
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "DESPITE OF THE RAIN, WE WENT OUT. (Error correction - Part C is the corrected error)",
+      "options": [
+        "a) DESPITE",
+        "b) OF THE RAIN,",
+        "c) WE WENT OUT.",
+        "d) we went to out."
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "IF I WAS RICH, I WOULD BUY A CAR. (Error correction - Part B is the corrected error)",
+      "options": [
+        "a) IF I",
+        "b) WAS RICH,",
+        "c) I WOULD BUY A CAR.",
+        "d) I will buy a car."
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "EVERYONE SHOULD BRING THERE BOOKS. (Error correction - Part B is the corrected error)",
+      "options": [
+        "a) EVERYONE",
+        "b) SHOULD BRING THERE BOOKS.",
+        "c) should bring his books.",
+        "d) should bring there book."
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "CHILDREN SHOULD BE / TEACH / TO SHARE THINGS WITH OTHERS. (Error is in part B)",
+      "options": [
+        "a) CHILDREN SHOULD BE",
+        "b) TEACH",
+        "c) TO SHARE THINGS WITH OTHERS.",
+        "d) No Error"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "IT'S OKAY / TO DISAGREE / BUT ONE SHOULD DO IT RESPECTIVELY. (Error is in part C)",
+      "options": [
+        "a) IT'S OKAY",
+        "b) TO DISAGREE",
+        "c) BUT ONE SHOULD DO IT RESPECTIVELY.",
+        "d) No Error"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "WE HAD / A GREAT TIME / IN THE MOVIES. (Error is in part C)",
+      "options": [
+        "a) WE HAD",
+        "b) A GREAT TIME",
+        "c) IN THE MOVIES.",
+        "d) No Error"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "CHARLES DICKENS / IS / A GREAT WRITER DURING HIS TIME. (Error is in part B)",
+      "options": [
+        "a) CHARLES DICKENS",
+        "b) IS",
+        "c) A GREAT WRITER DURING HIS TIME.",
+        "d) No Error"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "TRUE RICHES / IS NOT TO BE FOUND IN WEALTH / BUT IN GOOD HEALTH. (Error is in part B)",
+      "options": [
+        "a) TRUE RICHES",
+        "b) IS NOT TO BE FOUND IN WEALTH",
+        "c) BUT IN GOOD HEALTH.",
+        "d) No Error"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "\"Twenty miles are a long distance to walk\" remarked Mary (Sentence Improvement)",
+      "options": [
+        "a) is",
+        "b) a lot",
+        "c) feeling",
+        "d) No improvement"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "He highlighted the contribution of women for bringing about social and economic changes. (Sentence Improvement)",
+      "options": [
+        "a) for bringing in",
+        "b) in bringing of",
+        "c) in bringing about",
+        "d) No improvement"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "If you would have seen the dance, you would have enjoyed it too. (Sentence Improvement)",
+      "options": [
+        "a) had you would",
+        "b) if you have had",
+        "c) had you seen",
+        "d) No improvement"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "She has not spoken to her mother since they quarreled. (Sentence Improvement)",
+      "options": [
+        "a) because",
+        "b) ever since",
+        "c) for",
+        "d) No improvement"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "The passengers were flown to Japan on the last trip. (Sentence Improvement)",
+      "options": [
+        "a) flew",
+        "b) fled",
+        "c) have flied",
+        "d) No improvement"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "After the summer break, school will open after two weeks.",
+      "options": [
+        "a) begin",
+        "b) reopen",
+        "c) start",
+        "d) No errors"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "The stream flowed gently under the bridge.",
+      "options": [
+        "a) above",
+        "b) across",
+        "c) on",
+        "d) No errors"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "The train from Chennai arrived right in schedule.",
+      "options": [
+        "a) on",
+        "b) by",
+        "c) over",
+        "d) No errors"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "The speeding driver is finally caught over the police.",
+      "options": [
+        "a) over",
+        "b) under",
+        "c) by",
+        "d) No errors"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "The children enjoyed rowing the boat on the lake.",
+      "options": [
+        "a) by",
+        "b) in",
+        "c) with",
+        "d) No errors"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "Aaron found it very difficult to part of his wife",
+      "options": [
+        "a) to part for",
+        "b) to be parted of",
+        "c) to part from",
+        "d) No improvement"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "Ravi must be accountable of his deeds",
+      "options": [
+        "a) be accountable from",
+        "b) be accountable to",
+        "c) be made accountable for",
+        "d) No improvement"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "Mina's book was translate to many different languages",
+      "options": [
+        "a) was translated into",
+        "b) is translate to",
+        "c) would be translated for",
+        "d) No improvement"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Harry has been working in the company since the last 20 years",
+      "options": [
+        "a) in 20 years",
+        "b) about 20 years",
+        "c) for the last 20 years",
+        "d) No improvement"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "Edmund's generosity is worthy of following by everyone",
+      "options": [
+        "a) to be followed",
+        "b) to follow",
+        "c) to be following",
+        "d) No improvement"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Japanese armies effort to destroy the allied forces at Imphal and invade India, but were driven back into Burma.",
+      "options": [
+        "a) attempted to destroy",
+        "b) experimented to destroy",
+        "c) strengthened to destruct",
+        "d) No improvement"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "He stopped to work an hour ago.",
+      "options": [
+        "a) worked",
+        "b) to have worked",
+        "c) working",
+        "d) No improvement"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "My teacher is the kinder of all.",
+      "options": [
+        "a) kind",
+        "b) kindly",
+        "c) kindest",
+        "d) No improvement"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "The accident occurred in the centre of the road.",
+      "options": [
+        "a) middle",
+        "b) path",
+        "c) way",
+        "d) No improvement"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Hardly had I reached the station when the train started.",
+      "options": [
+        "a) then",
+        "b) than",
+        "c) since",
+        "d) No improvement"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "He is wilful to help you.",
+      "options": [
+        "a) willingly",
+        "b) willing",
+        "c) wilfully",
+        "d) No improvement"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "His father died when he was very young.",
+      "options": [
+        "a) broke down",
+        "b) passed away",
+        "c) took off",
+        "d) No improvement"
+      ],
+      "answer": "B (Polite improvement, though died is correct. 'Passed away' is standard euphemism). Actually 'died' is not grammatically wrong. But 'passed away' is often preferred in tests as 'improvement'. If no error is not an option that fits best, B is likely. Wait, D is No improvement. 'Died' is factual. 'Passed away' is improvement in tone. Let's check if 'died' has error. No. But questions often ask for 'better'. I will mark B."
+    },
+    {
+      "question": "She could not help laughing at his foolishness.",
+      "options": [
+        "a) to laugh",
+        "b) laughed",
+        "c) by laughing",
+        "d) No improvement"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "They could walk to school because it was close.",
+      "options": [
+        "a) start walking",
+        "b) walking",
+        "c) were walked",
+        "d) No improvement"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "He is one of the bright student of his class.",
+      "options": [
+        "a) brightest students",
+        "b) brighter student",
+        "c) brightly students",
+        "d) No improvement"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Having received your invitation this morning, I am writing to thank you for the same.",
+      "options": [
+        "a) I will",
+        "b) I'm",
+        "c) I will be",
+        "d) No errors"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "If you lend him a book, never will you get it back.",
+      "options": [
+        "a) you never will",
+        "b) you will never",
+        "c) never you will",
+        "d) No errors"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "It was him who came running into the classroom.",
+      "options": [
+        "a) it was he",
+        "b) he was one",
+        "c) it was this",
+        "d) No errors"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "It is high time he ______ earning",
+      "options": [
+        "a) will start",
+        "b) started",
+        "c) starts",
+        "d) has started"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "I am ready to say this ______ her face",
+      "options": [
+        "a) at",
+        "b) on",
+        "c) in",
+        "d) to"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "A good teacher provides ______ with all useful information",
+      "options": [
+        "a) a student",
+        "b) to students",
+        "c) to a student",
+        "d) to student"
+      ],
+      "answer": "A (provides a student with...)"
+    },
+    {
+      "question": "You are not allowed to enter ______ the house (Options in PDF: a) You are not allowed to enter the house b) enter into c) enter in d) enter at)",
+      "options": [
+        "a) (no preposition)",
+        "b) into",
+        "c) in",
+        "d) at"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Your answers are better than ______",
+      "options": [
+        "a) Adriel",
+        "b) best than Adriel",
+        "c) Adriel's",
+        "d) answered by Adriel"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "Identify the segment that contains a grammatical error:",
+      "options": [
+        "a) I reach to my house",
+        "b) as soon as",
+        "c) I will send the driver",
+        "d) to pick you up"
+      ],
+      "answer": "A (Correction: reach my house)"
+    },
+    {
+      "question": "Identify the segment that contains a grammatical error: (Sentence likely: \"Since 2000, poor nutrition have been declining...\")",
+      "options": [
+        "a) Declining in the country",
+        "b) Since 2000",
+        "c) Poor nutrition have been",
+        "d) People face hunger and"
+      ],
+      "answer": "C (Correction: has been)"
+    },
+    {
+      "question": "Identify the segment that contains a grammatical error:",
+      "options": [
+        "a) had you",
+        "b) lost our lives",
+        "c) not reached in time",
+        "d) we will have"
+      ],
+      "answer": "D (Correction: we would have)"
+    },
+    {
+      "question": "Identify the segment that contains a grammatical error:",
+      "options": [
+        "a) each of the survivors of the pandemic",
+        "b) free psychological consultation to ease their",
+        "c) have been offered",
+        "d) trauma, by some of the top consultants"
+      ],
+      "answer": "C (Correction: has been offered - 'each' takes singular)"
+    },
+    {
+      "question": "Identify the segment that contains a grammatical error: (Between usually for two, Among for more. Assuming students > 2)",
+      "options": [
+        "a) encouraging healthy competition",
+        "b) between the students",
+        "c) was one of the objectives",
+        "d) of the college"
+      ],
+      "answer": "B (Correction: among)"
+    },
+    {
+      "question": "I forbid you not to go there again",
+      "options": [
+        "a) not to go",
+        "b) I forbid you",
+        "c) there again",
+        "d) no error"
+      ],
+      "answer": "A (Remove 'not')"
+    },
+    {
+      "question": "A cup of coffee is an excellent complement to smoked salmon.",
+      "options": [
+        "a) to smoked salmon",
+        "b) a cup of coffee",
+        "c) is an excellent complement",
+        "d) no error"
+      ],
+      "answer": "D (No error)"
+    },
+    {
+      "question": "I called at his house yesterday and have given him money.",
+      "options": [
+        "a) at his house yesterday",
+        "b) and have given him money",
+        "c) I called",
+        "d) no error"
+      ],
+      "answer": "B (Should be \"gave him money\")"
+    },
+    {
+      "question": "Not much people realize his sincerity.",
+      "options": [
+        "a) his sincerity",
+        "b) people realize",
+        "c) not much",
+        "d) no error"
+      ],
+      "answer": "C (Should be \"Not many\")"
+    },
+    {
+      "question": "This group of rural achievers is very different than the ones in the past.",
+      "options": [
+        "a) the ones in the past",
+        "b) is very different than",
+        "c) this group of rural achievers",
+        "d) no error"
+      ],
+      "answer": "B (Different from)"
+    },
+    {
+      "question": "According to one survey only those forests which were not under village management succumbed from fires recently.",
+      "options": [
+        "a) according to one survey only",
+        "b) those forests which were not under",
+        "c) village management succumbed from fires recently",
+        "d) no error"
+      ],
+      "answer": "C (Succumb to)"
+    },
+    {
+      "question": "He lay his luggage aside and lay down to rest for a while.",
+      "options": [
+        "a) he lay his luggage",
+        "b) aside and lay down",
+        "c) to rest for a while",
+        "d) no error"
+      ],
+      "answer": "A (He laid his luggage)"
+    },
+    {
+      "question": "Would you please order for tea and biscuits for all of us?",
+      "options": [
+        "a) would you please order",
+        "b) for tea and biscuits",
+        "c) for all of us",
+        "d) no error"
+      ],
+      "answer": "B (Remove 'for')"
+    },
+    {
+      "question": "After the teacher had told the boys how to pronounce the word all of them in one voice repeated the word again",
+      "options": [
+        "a) after the teacher had told the boys how to",
+        "b) pronounce the word all of them",
+        "c) in one voice repeated the word again",
+        "d) no error"
+      ],
+      "answer": "C (Remove 'again')"
+    },
+    {
+      "question": "I declined the invitation not because I did not want to go but because I have no time.",
+      "options": [
+        "a) I declined the invitation",
+        "b) not because I did not want to go",
+        "c) but because I have no time",
+        "d) no error"
+      ],
+      "answer": "C (Should be \"had no time\")"
+    }
+  ]
+}

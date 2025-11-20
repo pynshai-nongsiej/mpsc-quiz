@@ -1,0 +1,106 @@
+{
+  "category": "Vocabulary - Analogies",
+  "total_questions": 10,
+  "questions": [
+    {
+      "question": "Saturday: Sunday",
+      "options": [
+        "a) wednesday: Friday",
+        "b) Sunday: Tuesday",
+        "c) Weekend: Weekday",
+        "d) Sunday: Monday"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "Dog: Puppy",
+      "options": [
+        "a) Male: Female",
+        "b) Cat: Kitten",
+        "c) Goat: Bleat",
+        "d) Horse: Mare"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Epic: Poem",
+      "options": [
+        "a) Sonnet: Stanza",
+        "b) Lesson: Teach",
+        "c) Art: Artist",
+        "d) Subject: English"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "Cricket: Pitch",
+      "options": [
+        "a) Crop: Produce",
+        "b) Boxer: Ring",
+        "c) Run: Bowler",
+        "d) Assistant: Officer"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Inch: Centimetre",
+      "options": [
+        "a) Litre : Height",
+        "b) Pound: Weight",
+        "c) Kilogram: Heavy",
+        "d) Metre: Measurement"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Wool: Knitting",
+      "options": [
+        "a) Stitching: Cotton",
+        "b) Pin: Chair",
+        "c) Thread: Crochet",
+        "d) Woolen: Winter"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "Air: Breathe",
+      "options": [
+        "a) Rain: Water",
+        "b) Time: Watch",
+        "c) Wine: Grapes",
+        "d) Hen: Cock"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Engineer: Site",
+      "options": [
+        "a) Man: Woman",
+        "b) Medicine: Cure",
+        "c) Judge: Justice",
+        "d) Doctor: Clinic"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "Apple: Orange",
+      "options": [
+        "a) Banana: Grape",
+        "b) Fruit: Health",
+        "c) Yellow: Colour",
+        "d) Winter: Spring"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "District: State",
+      "options": [
+        "a) Town: Area",
+        "b) Capital: Country",
+        "c) City: Development",
+        "d) Block: Village"
+      ],
+      "answer": "B"
+    }
+  ]
+}

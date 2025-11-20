@@ -1,0 +1,66 @@
+{
+  "Vocabulary - Synonyms": {
+    "filename": "vocabulary_synonyms.json",
+    "count": 891
+  },
+  "Vocabulary - Antonyms": {
+    "filename": "vocabulary_antonyms.json",
+    "count": 667
+  },
+  "Vocabulary - One Word Substitution": {
+    "filename": "vocabulary_one_word_substitution.json",
+    "count": 379
+  },
+  "Vocabulary - Idioms & Phrases": {
+    "filename": "vocabulary_idioms_phrases.json",
+    "count": 624
+  },
+  "Grammar - Prepositions & Fill in the Blanks": {
+    "filename": "grammar_prepositions_fill_in_the_blanks.json",
+    "count": 1595
+  },
+  "Grammar - Error Detection & Correction": {
+    "filename": "grammar_error_detection_correction.json",
+    "count": 321
+  },
+  "Grammar - Sentence Arrangement": {
+    "filename": "grammar_sentence_arrangement.json",
+    "count": 60
+  },
+  "Grammar - Direct & Indirect Speech": {
+    "filename": "grammar_direct_indirect_speech.json",
+    "count": 93
+  },
+  "Vocabulary - Spelling": {
+    "filename": "vocabulary_spelling.json",
+    "count": 63
+  },
+  "Grammar - Active & Passive Voice": {
+    "filename": "grammar_active_passive_voice.json",
+    "count": 52
+  },
+  "Reading Comprehension - Cloze Test": {
+    "filename": "reading_comprehension_cloze_test.json",
+    "count": 25
+  },
+  "Grammar - Tenses & Verb Forms": {
+    "filename": "grammar_tenses_verb_forms.json",
+    "count": 36
+  },
+  "Grammar - Sentence Structure": {
+    "filename": "grammar_sentence_structure.json",
+    "count": 61
+  },
+  "Vocabulary - Analogies": {
+    "filename": "vocabulary_analogies.json",
+    "count": 10
+  },
+  "Grammar - Parts of Speech": {
+    "filename": "grammar_parts_of_speech.json",
+    "count": 15
+  },
+  "Grammar - Question Tags": {
+    "filename": "grammar_question_tags.json",
+    "count": 11
+  }
+}

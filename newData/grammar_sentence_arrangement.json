@@ -1,0 +1,606 @@
+{
+  "category": "Grammar - Sentence Arrangement",
+  "total_questions": 60,
+  "questions": [
+    {
+      "question": "When he... P) did not know Q) he was nervous and R) heard the hue and cry at midnight S) what to do The proper sentence should be:",
+      "options": [
+        "a) PQRS",
+        "b) RQPS",
+        "c) SQPR",
+        "d) QSPR"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "It has been established that... P) Einstein was Q) although a great scientist R) weak in arithmetic S) right from his school days The proper sentence should be:",
+      "options": [
+        "a) SRPQ",
+        "b) QPSR",
+        "c) QPRS",
+        "d) RQPS"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "Then... P) it struck me Q) of course R) suitable it was S) how eminently The proper sentence should be:",
+      "options": [
+        "a) PSRQ",
+        "b) QSRP",
+        "c) QPSR",
+        "d) SPQR"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "People... P) at his dispensary Q) went to him R) of all professions S) for medicine and treatment The proper sentence should be:",
+      "options": [
+        "a) RPQS",
+        "b) QPRS",
+        "c) PRQS",
+        "d) RQSP"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "She was so kind and generous that... P) she not only Q) made others do so R) but also S) helped them herself The proper sentence should be:",
+      "options": [
+        "a) SPQR",
+        "b) PSRQ",
+        "c) PRSQ",
+        "d) QPRS"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "The reference P) is simultaneously a matter Q) to the size of a vulnerable community R) of legal as well as political and ethical perspective",
+      "options": [
+        "a) RPQ",
+        "b) QRP",
+        "c) QPR",
+        "d) PRQ"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "Do people take P) rejection of every candidate ? Q) the trouble to go and R) vote only to register their",
+      "options": [
+        "a) RQP",
+        "b) RPQ",
+        "c) PRQ",
+        "d) QRP"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Indian women P: Enjoy equal status and opportunities Q: Have become financially independent R: In the present era S: And have a say in decision making",
+      "options": [
+        "a) PQRS",
+        "b) RPSQ",
+        "c) QPRS",
+        "d) RQPS"
+      ],
+      "answer": "D (R: In the present era Q: Have become financially independent P: Enjoy equal status and opportunities S: And have a say in decision making)"
+    },
+    {
+      "question": "The tradition of tolerance P: That is an appreciation of other faiths Q: Not merely in a negative R: Has been with us for centuries S: But in a positive sense",
+      "options": [
+        "a) PQSR",
+        "b) PRQS",
+        "c) RQSP",
+        "d) RPQS"
+      ],
+      "answer": "C (R: Has been with us for centuries Q: Not merely in a negative S: But in a positive sense P: That is an appreciation of other faiths)"
+    },
+    {
+      "question": "The present day politicians P: Obsessed with the monomania of looting the country Q: And filling their own coffers R: The leaders governing the country S: Could be seen fighting for the bone like the stray dogs on the street.",
+      "options": [
+        "a) SPQR",
+        "b) PQRS",
+        "c) RSPQ",
+        "d) RPQS"
+      ],
+      "answer": "C (R: The leaders governing the country S: Could be seen fighting for the bone like the stray dogs on the street. P: Obsessed with the monomania of looting the country Q: And filling their own coffers)"
+    },
+    {
+      "question": "The teacher P: Can only perform his work Q: Like the artist, the philosopher and the man of letters R: If he feels himself to be an individual directed by an inner creative impulse S: Not dominated and fettered by an outside authority",
+      "options": [
+        "a) QPRS",
+        "b) PSQR",
+        "c) PRSQ",
+        "d) PSRQ"
+      ],
+      "answer": "A (Q: Like the artist, the philosopher and the man of letters P: Can only perform his work R: If he feels himself to be an individual directed by an inner creative impulse S: Not dominated and fettered by an outside authority)"
+    },
+    {
+      "question": "When we survey P: We find everywhere some forms of the family Q: All known human societies R: Some set of permanent arrangements by which males assist females S: In caring for children while they are young",
+      "options": [
+        "a) QPRS",
+        "b) PRSQ",
+        "c) PQRS",
+        "d) QRSP"
+      ],
+      "answer": "D (Q: All known human societies R: Some set of permanent arrangements by which males assist females S: In caring for children while they are young P: We find everywhere some forms of the family)"
+    },
+    {
+      "question": "water supply / locality / this / has a good / A. water supply B. locality C. this D. has a good",
+      "options": [
+        "a) ABCD",
+        "c) ACBD",
+        "b) ABDC",
+        "d) CBDA"
+      ],
+      "answer": "D (C: This B: locality D: has a good A: water supply)"
+    },
+    {
+      "question": "the garden / Maria / vegetables in / grows / A. the garden B. Maria C. vegetables in D. grows",
+      "options": [
+        "a) ACBD",
+        "c) BACD",
+        "b) BDCA",
+        "d) DCAB"
+      ],
+      "answer": "C (B: Maria D: grows C: vegetables in A: the garden)"
+    },
+    {
+      "question": "to memorize / all the actors have / the new play / the lines of / A. to memorize B. all the actors have C. the new play D. the lines of",
+      "options": [
+        "a) BADC",
+        "c) ADCB",
+        "b) CDBA",
+        "d) BDAC"
+      ],
+      "answer": "D (B: all the actors have D: the lines of A: to memorize C: the new play)"
+    },
+    {
+      "question": "work on time / she tells / to leave / Donbok / A. work on time B. she tells C. to leave D. Donbok",
+      "options": [
+        "a) DCAB",
+        "b) CBAD",
+        "c) DACB",
+        "d) BDCA"
+      ],
+      "answer": "D (B: she tells D: Donbok C: to leave A: work on time)"
+    },
+    {
+      "question": "the / nightfall / their hooting calls at / owls began / A. the B. nightfall C. their hooting calls at D. owls began",
+      "options": [
+        "a) DCAB",
+        "c) ABCD",
+        "b) ADCB",
+        "d) DCBA"
+      ],
+      "answer": "A (D: owls began C: their hooting calls at A: the B: nightfall)"
+    },
+    {
+      "question": "that the burglar / I read / has been caught / in the paper / A. that the burglar B. I read C. has been caught D. in the paper",
+      "options": [
+        "a) ACBD",
+        "c) BACD",
+        "b) BDAC",
+        "d) DCAB"
+      ],
+      "answer": "B (B: I read D: in the paper A: that the burglar C: has been caught)"
+    },
+    {
+      "question": "masterpiece / the / worked at his / artist carefully / A. masterpiece B. the C. worked at his D. artist carefully",
+      "options": [
+        "a) DCAB",
+        "c) BDCA",
+        "b) CBAD",
+        "d) DCBA"
+      ],
+      "answer": "C (B: the D: artist carefully C: worked at his A: masterpiece)"
+    },
+    {
+      "question": "(A) entered the shop/(B) of a theatrical company/(C) the invisible man/(D) to get some clothes",
+      "options": [
+        "a) ABCD",
+        "b) CABD",
+        "c) BACD",
+        "d) CADB"
+      ],
+      "answer": "D (C: the invisible man A: entered the shop D: to get some clothes B: of a theatrical company)"
+    },
+    {
+      "question": "(A) to encourage the development of/(B) cottage industries in the village/(C) an exhibition was organized/(D) by the district authorities",
+      "options": [
+        "a) ABCD",
+        "b) BADC",
+        "c) CDAB",
+        "d) ACDB"
+      ],
+      "answer": "C (C: an exhibition was organized D: by the district authorities A: to encourage the development of B: cottage industries in the village)"
+    },
+    {
+      "question": "(A) I sow a seed/(B) I saw the sapling/(C) I saw a sprout/(D) I saw a plant",
+      "options": [
+        "a) ACBD",
+        "b) DCBA",
+        "c) ABCD",
+        "d) CBAD"
+      ],
+      "answer": "A (A: I sow a seed C: I saw a sprout B: I saw the sapling D: I saw a plant)"
+    },
+    {
+      "question": "(A) but he/(B) was, in/(C) foolish person/(D) fact, a",
+      "options": [
+        "a) CABD",
+        "b) ABCD",
+        "c) ACBD",
+        "d) ABDC"
+      ],
+      "answer": "D (A: but he B: was, in D: fact, a C: foolish person)"
+    },
+    {
+      "question": "(A) i happily ran/(B) in the world/(C) without a care/(D) after the aeroplane",
+      "options": [
+        "a) CDBA",
+        "b) ADCB",
+        "c) ABCD",
+        "d) DABC"
+      ],
+      "answer": "B (A: i happily ran D: after the aeroplane C: without a care B: in the world)"
+    },
+    {
+      "question": "The most picturesque P- is the successful management of the game Q- element in the football match R- resulting from team work",
+      "options": [
+        "(A) PQR",
+        "(B) QPR",
+        "(C) RQP",
+        "(D) PRQ"
+      ],
+      "answer": "B (The most picturesque Q: element in the football match P: is the successful management of the game R: resulting from team work)"
+    },
+    {
+      "question": "Science has enabled us P- of work is shorter time and Q- with less physical labour R- to do a much greater volume",
+      "options": [
+        "(A) PQR",
+        "(B) RQP",
+        "(C) RPQ",
+        "(D) QRP"
+      ],
+      "answer": "B (Science has enabled us R: to do a much greater volume Q: with less physical labour P: of work is shorter time and)"
+    },
+    {
+      "question": "(a) give/(b) armies/(c) forests/(d) cover to/(e) our",
+      "options": [
+        "(A) baced",
+        "(B) cbaed",
+        "(C) cadeb",
+        "(D) dceba"
+      ],
+      "answer": "B (c: forests b: armies a: give d: cover to e: our -> Forests give cover to our armies)"
+    },
+    {
+      "question": "(a) platform/(b) was unusually/(c) crowded/(d) the railway/(e) last Sunday",
+      "options": [
+        "(A) ebacd",
+        "(B) bdace",
+        "(C) daceb",
+        "(D) dabce"
+      ],
+      "answer": "C (d: the railway a: platform b: was unusually c: crowded e: last Sunday -> The railway platform was unusually crowded last Sunday)"
+    },
+    {
+      "question": "(a) hardly/(b) stepped out/(c) had he/(d) to rain/(e) when it began",
+      "options": [
+        "(A) acbed",
+        "(B) dcbae",
+        "(C) edcab",
+        "(D) cbaed"
+      ],
+      "answer": "D (c: had he b: stepped out a: hardly e: when it began d: to rain -> Hardly had he stepped out when it began to rain)"
+    },
+    {
+      "question": "I. the managing director II. in listening to her III. was not interested IV. explanation about why profits were lessening",
+      "options": [
+        "(A) I, II, III, IV",
+        "(B) I, II, IV, III",
+        "(C) I, III, II, IV",
+        "(D) III, II, IV, I"
+      ],
+      "answer": "C (I, III, II, IV -> The managing director was not interested in listening to her explanation about why profits were lessening)"
+    },
+    {
+      "question": "I. that the burglar II. I read III. has been caught IV. in the paper",
+      "options": [
+        "(A) I, III, II, IV",
+        "(B) II, IV, I, III",
+        "(C) II, I, III, IV",
+        "(D) IV, III, I, II"
+      ],
+      "answer": "B (II, IV, I, III -> I read in the paper that the burglar has been caught)"
+    },
+    {
+      "question": "I. the coastline II. the rugged III. they admired IV. beauty of",
+      "options": [
+        "(A) III, II, IV, I",
+        "(B) III, IV, II, I",
+        "(C) I, IV, III, II",
+        "(D) II, IV, III, I"
+      ],
+      "answer": "A (III, II, IV, I -> They admired the rugged beauty of the coastline)"
+    },
+    {
+      "question": "(a) give/(b) armies/(c) forests/(d) cover to/(e) our",
+      "options": [
+        "(A) baced",
+        "(B) cbaed",
+        "(C) cadeb",
+        "(D) dceba"
+      ],
+      "answer": "B (c: forests b: armies a: give d: cover to e: our -> Forests give cover to our armies)"
+    },
+    {
+      "question": "(a) platform/(b) was unusually/(c) crowded/(d) the railway/(e) last Sunday",
+      "options": [
+        "(A) ebacd",
+        "(B) bdace",
+        "(C) daceb",
+        "(D) dabce"
+      ],
+      "answer": "C (d: the railway a: platform b: was unusually c: crowded e: last Sunday -> The railway platform was unusually crowded last Sunday)"
+    },
+    {
+      "question": "(a) hardly/(b) stepped out/(c) had he/(d) to rain/(e) when it began",
+      "options": [
+        "(A) acbed",
+        "(B) dcbae",
+        "(C) edcab",
+        "(D) cbaed"
+      ],
+      "answer": "D (c: had he b: stepped out a: hardly e: when it began d: to rain -> Hardly had he stepped out when it began to rain)"
+    },
+    {
+      "question": "I. the managing director II. in listening to her III. was not interested IV. explanation about why profits were lessening",
+      "options": [
+        "(A) I, II, III, IV",
+        "(B) I, II, IV, III",
+        "(C) I, III, II, IV",
+        "(D) III, II, IV, I"
+      ],
+      "answer": "C (I, III, II, IV -> The managing director was not interested in listening to her explanation about why profits were lessening)"
+    },
+    {
+      "question": "I. that the burglar II. I read III. has been caught IV. in the paper",
+      "options": [
+        "(A) I, III, II, IV",
+        "(B) II, IV, I, III",
+        "(C) II, I, III, IV",
+        "(D) IV, III, I, II"
+      ],
+      "answer": "B (II, IV, I, III -> I read in the paper that the burglar has been caught)"
+    },
+    {
+      "question": "I. the coastline II. the rugged III. they admired IV. beauty of",
+      "options": [
+        "(A) III, II, IV, I",
+        "(B) III, IV, II, I",
+        "(C) I, IV, III, II",
+        "(D) II, IV, III, I"
+      ],
+      "answer": "A (III, II, IV, I -> They admired the rugged beauty of the coastline)"
+    },
+    {
+      "question": "Directions: Rearrange the parts to form a correct sentence. children (a) / the (b) / were (c) / the animals (d) / fascinated by (e)",
+      "options": [
+        "a) baced",
+        "b) cbaed",
+        "c) edcba",
+        "d) dceba"
+      ],
+      "answer": "A (The children were fascinated by the animals)."
+    },
+    {
+      "question": "plays an (a) / upbringing (b) / important (c) / personal progress (d) / role in (e)",
+      "options": [
+        "a) ebacd",
+        "b) bdace",
+        "c) daceb",
+        "d) baced"
+      ],
+      "answer": "D (Upbringing plays an important role in personal progress)."
+    },
+    {
+      "question": "an (a) / him popular (b) / made (c) / unexpected (d) / victory (e)",
+      "options": [
+        "a) adecb",
+        "b) dcbae",
+        "c) cbade",
+        "d) aecbd"
+      ],
+      "answer": "A (An unexpected victory made him popular)."
+    },
+    {
+      "question": "the coastline (a) / the rugged (b) / they (c) / beauty of (d) / admired (e)",
+      "options": [
+        "a) acebd",
+        "b) cebda",
+        "c) caebd",
+        "d) dcbae"
+      ],
+      "answer": "B (They admired the rugged beauty of the coastline). Note: Option B order 'c-e-b-d-a' puts 'rugged' before 'beauty'."
+    },
+    {
+      "question": "free time (a) / with (b) / little (c) / left her (d) / her job (e)",
+      "options": [
+        "a) adebc",
+        "b) dabce",
+        "c) edbca",
+        "d) dacbe"
+      ],
+      "answer": "C (Her job left her with little free time)."
+    },
+    {
+      "question": "Let's look at File 44 Q43 options again.",
+      "options": [
+        "(A) a, e, c, b, d - An victory made him popular unexpected (Wrong).",
+        "(B) a, d, e, c, b - An unexpected victory made him popular (Correct).",
+        "(C) c, b, a, d, e",
+        "(D) d, c, b, a, e"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Directions: Rearrange the sentences in the correct order. I'll look for your (P) if I find it (Q) note book and (R) give you a ring (S) I will",
+      "options": [
+        "a) PQRS",
+        "b) RQSP",
+        "c) PQSR",
+        "d) SRQP"
+      ],
+      "answer": "Not fully clear from snippet, but typically: \"I'll look for your note book and if I find it I will give you a ring.\" -> P (your) Q (notebook and) R?? No. P -> Q -> R doesn't fit. Let's assume the prompt is split: \"I'll look for your...\" P) if I find it Q) note book and R) give you a ring S) I will."
+    },
+    {
+      "question": "A. She's putting them on the trolley B. She went to the mall C. She's taking the food packets D. She's paying for the items at the counter.",
+      "options": [
+        "a) BCAD",
+        "b) BACD",
+        "c) BDCA",
+        "d) BDAC"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "A. First aid could be vital in saving someone's life B. Every year many accidents occur C. With some care accidents can be prevented D. In case of an accident, knowing first aid can be of great help",
+      "options": [
+        "a) BADC",
+        "b) BCAD",
+        "c) DCBA",
+        "d) ABCD"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "A. The bus is going from the city to the University B. The bus is now stuck in front of the car C. The bus is waiting at the bus stop for the passengers D. The bus is moving slowly from the city to its destination",
+      "options": [
+        "a) ABCD",
+        "b) BCDA",
+        "c) CABD",
+        "d) DBCA"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "A. Do not break blisters or apply anything on the burns B. Immediately cool the area with cold water for a few minutes C. A burn is caused by dry heat, steam, hot water or oil D. A burn should be covered with a sterile or clean cloth or bandage",
+      "options": [
+        "a) BACD",
+        "b) CBAD",
+        "c) CBDA",
+        "d) ABCD"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "A. You must water the plant regularly B. You must place the pot near the sunlight C. You must cover the pot with plastic wrap for a few days D. You must plant the seed in the pot first.",
+      "options": [
+        "a) CDBA",
+        "b) CBDA",
+        "c) DBCA",
+        "d) BACD"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "THE COOPERATIVE SYSTEM (Q) OF DOING BUSINESS IS (P) A GOOD WAY OF ENCOURAGING (R) ORDINARY WORKERS TO WORK HARD.",
+      "options": [
+        "a) QPR",
+        "b) RPQ",
+        "c) PRQ",
+        "d) RQP"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "OUR BODY TAKES IN MANY TOXINS FROM (R) THE ATMOSPHERE AND THE FOOD (P) WE EAT, AND WE MUST HAVE (Q) A PROCESS FOR PURGING THESE IMPURITIES.",
+      "options": [
+        "a) PQR",
+        "b) RPQ",
+        "c) QPR",
+        "d) RQP"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "TELECOMMUNICATION INCLUDES (Q) DEVICES AND SYSTEMS THAT (P) TRANSMIT ELECTRONIC SIGNALS (R) ACROSS LONG DISTANCES.",
+      "options": [
+        "a) PQR",
+        "b) RQP",
+        "c) QPR",
+        "d) PRQ"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "THE MOON IS (R) THE EARTH'S NATURAL (P) SATELLITE AND IS ITS (Q) NEAREST NEIGHBOUR IN SPACE.",
+      "options": [
+        "a) PQR",
+        "b) QPR",
+        "c) PQR",
+        "d) RPQ"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "HE IS INTELLIGENT (Q) BUT HIS BROTHER IS (P) FAR MORE INTELLIGENT (R) THAN HE IS.",
+      "options": [
+        "a) QPR",
+        "b) RQP",
+        "c) PQR",
+        "d) PRQ"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "D) has a good",
+      "options": [
+        "a) ABCD",
+        "b) ABDC",
+        "c) ACBD",
+        "d) CBDA"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "D) the lines of",
+      "options": [
+        "a) BADC",
+        "b) CDBA",
+        "c) ADCB",
+        "d) BDAC"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "D) grows",
+      "options": [
+        "a) ACBD",
+        "b) BDCA",
+        "c) BACD",
+        "d) DCAB"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "D) Donbok",
+      "options": [
+        "a) DCAB",
+        "b) CBAD",
+        "c) DCAB",
+        "d) BDCA"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "D) owls began",
+      "options": [
+        "a) DCAB",
+        "b) ADCB",
+        "c) ABCD",
+        "d) DCBA"
+      ],
+      "answer": "A"
+    }
+  ]
+}

@@ -4650,3 +4650,561 @@
    e) No error
 
    Answer: c
+
+
+545. "WHAT MAKES YOU SO SAD?" SHE ASKED JANE. :
+   a) She asked Jane what makes her so sad.
+   b) She asks Jane what makes her so sad.
+   c) She asked Jane what made her so sad.
+   d) She asked Jane that makes her so sad.
+
+   Answer: c
+
+546. BEN SAID TO BETTY, "WILL YOU HELP ME WITH MY PROJECT JUST NOW?" :
+   a) Ben told Betty whether if she would help him in her project just then.
+   b) Ben asked Betty if she would help him in his project just then.
+   c) Ben questioned to Betty that will you help me in my project just now.
+   d) Ben asked to Betty that she will help him in his work just now.
+
+   Answer: b
+
+547. SHE ASKED RAVI, "WHAT IS WORRYING YOU?" :
+   a) She asked Ravi what is worrying him.
+   b) She asks Ravi what was worrying him.
+   c) She asks Ravi what is worrying him.
+   d) She asked Ravi what was worrying him.
+
+   Answer: d
+
+548. "PLEASE DON'T CRY", HE SAID. :
+   a) He begged that I should not cry.
+   b) He begged me not to cry.
+   c) He said to please him and not to cry.
+   d) He told me to not to cry.
+
+   Answer: b
+
+549. I SAID TO HIM, "WILL YOU GO TO DELHI?" :
+   a) I asked him will he go to Delhi.
+   b) I said to him would he go to Delhi.
+   c) I asked him if he would go to Delhi.
+   d) I said to him would you go to Delhi.
+
+   Answer: c
+
+550. A FRIENDSHIP FOUNDED ON BUSINESS IS **BEST THAN** BUSINESS FOUNDED ON FRIENDSHIP. :
+   a) good than
+   b) better than
+   c) more better than
+   d) No errors
+
+   Answer: b
+
+551. THE CROWD **WHICH HAS GATHER** TO PROTEST AGAINST THE DECISION SLOWLY TURNED TO THEIR HOMES. :
+   a) which had gathered
+   b) which have gather
+   c) gathering up
+   d) No errors
+
+   Answer: a
+
+552. THE BRIDGE **IN CONNECTION WITH** THE TWO CITIES WILL REMAIN CLOSED FOR SECURITY REASONS. :
+   a) connecting
+   b) being connected from
+   c) connects between
+   d) No errors
+
+   Answer: a
+
+553. NEWSPAPERS HAVE GREAT POWER **BECAUSE** THEIR ENORMOUS CIRCULATION. :
+   a) on account
+   b) because of
+   c) as a result
+   d) No errors
+
+   Answer: b
+
+554. **BESIDES** CRITICISM OF SOME SUPERVISORS, THE CHAIRMAN STILL COMMANDS RESPECT FROM THE EMPLOYEES. :
+   a) Despite criticism from
+   b) Without criticism of ll
+   c) Unless criticism of
+   d) No errors
+
+   Answer: a
+
+555. DOG/RAHUL/WITH HIS PET/ENJOYS PLAYING :
+   a) ABCD
+   b) BDCA
+   c) CBDA
+   d) ACBD
+
+   Answer: a
+
+556. VIETNAM/EXPORTS/GOOD TO/THE COMPANY :
+   a) DBCA
+   b) BDCA
+   c) ABCD
+   d) ACBD
+
+   Answer: a
+
+557. THE GRASS/PLEASE/DO NOT/STEP ON. :
+   a) ACBD
+   b) BCDA
+   c) DBCA
+   d) ABCD
+
+   Answer: b
+
+558. PERFECT SENSE/SOMEDAY/EVERYTHING/WILL MAKE :
+   a) ABCD
+   b) CBDA
+   c) BDCA
+   d) BCDA
+
+   Answer: b
+
+559. NOT EFFECT/SALES LAST YEAR/MUCH IMPROVEMENT IN/WE DID :
+   a) BCAD
+   b) ABCD
+   c) DACB
+   d) CBAD
+
+   Answer: c
+
+560. (A) MANY (B) LITTLE (C) FEW (D) MORE :
+   c) few
+
+   Answer: c
+
+561. (A) HAD (B) HAVE (C) HAS (D) WILL HAVE :
+   c) has
+
+   Answer: c
+
+562. (A) UP (B) AT (C) AFTER (D) AROUND :
+   c) after
+
+   Answer: c
+
+563. (A) IS (B) HAS (C) ARE (D) BE :
+   d) be
+
+   Answer: d
+
+564. (A) FOR (B) IN (C) AS (D) OF :
+   b) in
+
+   Answer: b
+
+565. IF I HAD KNOWN YOUR PROBLEM **I WOULD HAVE HELPED YOU**. :
+   a) I would have helped you
+   b) I had helped you
+   c) I would help you
+   d) I will help you
+
+   Answer: a
+
+566. I HAD THE JACKET **ALTERED** AS THE SLEEVES WERE TOO LONG. :
+   a) adapted
+   b) altered
+   c) amended
+   d) stitch
+
+   Answer: b
+
+567. IN FACT, SHE MUST BE **GETTING** ON FOR 50 NOW. :
+   a) reaching
+   b) approaching
+   c) getting
+   d) coming
+
+   Answer: c
+
+568. THE MONEY WILL BE **TRANSFERRED** TO YOUR ACCOUNT AT THE END OF THE MONTH. :
+   a) converted
+   b) transformed
+   c) shifted
+   d) transferred
+
+   Answer: d
+
+569. THE WOMAN **TO WHOM I SOLD** MY HOUSE WAS A CRIMINAL. :
+   a) to that I sold
+   b) to which I sell
+   c) to whom I sold
+   d) to her I sold
+
+   Answer: c
+
+
+570. "WHAT MAKES YOU SO SAD?" SHE ASKED JANE. :
+   a) She asked Jane what makes her so sad.
+   b) She asks Jane what makes her so sad.
+   c) She asked Jane what made her so sad.
+   d) She asked Jane that makes her so sad.
+
+   Answer: c
+
+571. BEN SAID TO BETTY, "WILL YOU HELP ME WITH MY PROJECT JUST NOW?" :
+   a) Ben told Betty whether if she would help him in her project just then.
+   b) Ben asked Betty if she would help him in his project just then.
+   c) Ben questioned to Betty that will you help me in my project just now.
+   d) Ben asked to Betty that she will help him in his work just now.
+
+   Answer: b
+
+572. SHE ASKED RAVI, "WHAT IS WORRYING YOU?" :
+   a) She asked Ravi what is worrying him.
+   b) She asks Ravi what was worrying him.
+   c) She asks Ravi what is worrying him.
+   d) She asked Ravi what was worrying him.
+
+   Answer: d
+
+573. "PLEASE DON'T CRY", HE SAID. :
+   a) He begged that I should not cry.
+   b) He begged me not to cry.
+   c) He said to please him and not to cry.
+   d) He told me to not to cry.
+
+   Answer: b
+
+574. I SAID TO HIM, "WILL YOU GO TO DELHI?" :
+   a) I asked him will he go to Delhi.
+   b) I said to him would he go to Delhi.
+   c) I asked him if he would go to Delhi.
+   d) I said to him would you go to Delhi.
+
+   Answer: c
+
+575. A FRIENDSHIP FOUNDED ON BUSINESS IS **BEST THAN** BUSINESS FOUNDED ON FRIENDSHIP. :
+   a) good than
+   b) better than
+   c) more better than
+   d) No errors
+
+   Answer: b
+
+576. THE CROWD **WHICH HAS GATHER** TO PROTEST AGAINST THE DECISION SLOWLY TURNED TO THEIR HOMES. :
+   a) which had gathered
+   b) which have gather
+   c) gathering up
+   d) No errors
+
+   Answer: a
+
+577. THE BRIDGE **IN CONNECTION WITH** THE TWO CITIES WILL REMAIN CLOSED FOR SECURITY REASONS. :
+   a) connecting
+   b) being connected from
+   c) connects between
+   d) No errors
+
+   Answer: a
+
+578. NEWSPAPERS HAVE GREAT POWER **BECAUSE** THEIR ENORMOUS CIRCULATION. :
+   a) on account
+   b) because of
+   c) as a result
+   d) No errors
+
+   Answer: b
+
+579. **BESIDES** CRITICISM OF SOME SUPERVISORS, THE CHAIRMAN STILL COMMANDS RESPECT FROM THE EMPLOYEES. :
+   a) Despite criticism from
+   b) Without criticism of ll
+   c) Unless criticism of
+   d) No errors
+
+   Answer: a
+
+580. DOG/RAHUL/WITH HIS PET/ENJOYS PLAYING :
+   a) ABCD
+   b) BDCA
+   c) CBDA
+   d) ACBD
+
+   Answer: a
+
+581. VIETNAM/EXPORTS/GOOD TO/THE COMPANY :
+   a) DBCA
+   b) BDCA
+   c) ABCD
+   d) ACBD
+
+   Answer: a
+
+582. THE GRASS/PLEASE/DO NOT/STEP ON. :
+   a) ACBD
+   b) BCDA
+   c) DBCA
+   d) ABCD
+
+   Answer: b
+
+583. PERFECT SENSE/SOMEDAY/EVERYTHING/WILL MAKE :
+   a) ABCD
+   b) CBDA
+   c) BDCA
+   d) BCDA
+
+   Answer: b
+
+584. NOT EFFECT/SALES LAST YEAR/MUCH IMPROVEMENT IN/WE DID :
+   a) BCAD
+   b) ABCD
+   c) DACB
+   d) CBAD
+
+   Answer: c
+
+585. (A) MANY (B) LITTLE (C) FEW (D) MORE :
+   c) few
+
+   Answer: c
+
+586. (A) HAD (B) HAVE (C) HAS (D) WILL HAVE :
+   c) has
+
+   Answer: c
+
+587. (A) UP (B) AT (C) AFTER (D) AROUND :
+   c) after
+
+   Answer: c
+
+588. (A) IS (B) HAS (C) ARE (D) BE :
+   d) be
+
+   Answer: d
+
+589. (A) FOR (B) IN (C) AS (D) OF :
+   b) in
+
+   Answer: b
+
+590. IF I HAD KNOWN YOUR PROBLEM **I WOULD HAVE HELPED YOU**. :
+   a) I would have helped you
+   b) I had helped you
+   c) I would help you
+   d) I will help you
+
+   Answer: a
+
+591. I HAD THE JACKET **ALTERED** AS THE SLEEVES WERE TOO LONG. :
+   a) adapted
+   b) altered
+   c) amended
+   d) stitch
+
+   Answer: b
+
+592. IN FACT, SHE MUST BE **GETTING** ON FOR 50 NOW. :
+   a) reaching
+   b) approaching
+   c) getting
+   d) coming
+
+   Answer: c
+
+593. THE MONEY WILL BE **TRANSFERRED** TO YOUR ACCOUNT AT THE END OF THE MONTH. :
+   a) converted
+   b) transformed
+   c) shifted
+   d) transferred
+
+   Answer: d
+
+594. THE WOMAN **TO WHOM I SOLD** MY HOUSE WAS A CRIMINAL. :
+   a) to that I sold
+   b) to which I sell
+   c) to whom I sold
+   d) to her I sold
+
+   Answer: c
+
+
+595. "WHAT MAKES YOU SO SAD?" SHE ASKED JANE. :
+   a) She asked Jane what makes her so sad.
+   b) She asks Jane what makes her so sad.
+   c) She asked Jane what made her so sad.
+   d) She asked Jane that makes her so sad.
+
+   Answer: c
+
+596. BEN SAID TO BETTY, "WILL YOU HELP ME WITH MY PROJECT JUST NOW?" :
+   a) Ben told Betty whether if she would help him in her project just then.
+   b) Ben asked Betty if she would help him in his project just then.
+   c) Ben questioned to Betty that will you help me in my project just now.
+   d) Ben asked to Betty that she will help him in his work just now.
+
+   Answer: b
+
+597. SHE ASKED RAVI, "WHAT IS WORRYING YOU?" :
+   a) She asked Ravi what is worrying him.
+   b) She asks Ravi what was worrying him.
+   c) She asks Ravi what is worrying him.
+   d) She asked Ravi what was worrying him.
+
+   Answer: d
+
+598. "PLEASE DON'T CRY", HE SAID. :
+   a) He begged that I should not cry.
+   b) He begged me not to cry.
+   c) He said to please him and not to cry.
+   d) He told me to not to cry.
+
+   Answer: b
+
+599. I SAID TO HIM, "WILL YOU GO TO DELHI?" :
+   a) I asked him will he go to Delhi.
+   b) I said to him would he go to Delhi.
+   c) I asked him if he would go to Delhi.
+   d) I said to him would you go to Delhi.
+
+   Answer: c
+
+600. A FRIENDSHIP FOUNDED ON BUSINESS IS **BEST THAN** BUSINESS FOUNDED ON FRIENDSHIP. :
+   a) good than
+   b) better than
+   c) more better than
+   d) No errors
+
+   Answer: b
+
+601. THE CROWD **WHICH HAS GATHER** TO PROTEST AGAINST THE DECISION SLOWLY TURNED TO THEIR HOMES. :
+   a) which had gathered
+   b) which have gather
+   c) gathering up
+   d) No errors
+
+   Answer: a
+
+602. THE BRIDGE **IN CONNECTION WITH** THE TWO CITIES WILL REMAIN CLOSED FOR SECURITY REASONS. :
+   a) connecting
+   b) being connected from
+   c) connects between
+   d) No errors
+
+   Answer: a
+
+603. NEWSPAPERS HAVE GREAT POWER **BECAUSE** THEIR ENORMOUS CIRCULATION. :
+   a) on account
+   b) because of
+   c) as a result
+   d) No errors
+
+   Answer: b
+
+604. **BESIDES** CRITICISM OF SOME SUPERVISORS, THE CHAIRMAN STILL COMMANDS RESPECT FROM THE EMPLOYEES. :
+   a) Despite criticism from
+   b) Without criticism of ll
+   c) Unless criticism of
+   d) No errors
+
+   Answer: a
+
+605. DOG/RAHUL/WITH HIS PET/ENJOYS PLAYING :
+   a) ABCD
+   b) BDCA
+   c) CBDA
+   d) ACBD
+
+   Answer: a
+
+606. VIETNAM/EXPORTS/GOOD TO/THE COMPANY :
+   a) DBCA
+   b) BDCA
+   c) ABCD
+   d) ACBD
+
+   Answer: a
+
+607. THE GRASS/PLEASE/DO NOT/STEP ON. :
+   a) ACBD
+   b) BCDA
+   c) DBCA
+   d) ABCD
+
+   Answer: b
+
+608. PERFECT SENSE/SOMEDAY/EVERYTHING/WILL MAKE :
+   a) ABCD
+   b) CBDA
+   c) BDCA
+   d) BCDA
+
+   Answer: b
+
+609. NOT EFFECT/SALES LAST YEAR/MUCH IMPROVEMENT IN/WE DID :
+   a) BCAD
+   b) ABCD
+   c) DACB
+   d) CBAD
+
+   Answer: c
+
+610. (A) MANY (B) LITTLE (C) FEW (D) MORE :
+   c) few
+
+   Answer: c
+
+611. (A) HAD (B) HAVE (C) HAS (D) WILL HAVE :
+   c) has
+
+   Answer: c
+
+612. (A) UP (B) AT (C) AFTER (D) AROUND :
+   c) after
+
+   Answer: c
+
+613. (A) IS (B) HAS (C) ARE (D) BE :
+   d) be
+
+   Answer: d
+
+614. (A) FOR (B) IN (C) AS (D) OF :
+   b) in
+
+   Answer: b
+
+615. IF I HAD KNOWN YOUR PROBLEM **I WOULD HAVE HELPED YOU**. :
+   a) I would have helped you
+   b) I had helped you
+   c) I would help you
+   d) I will help you
+
+   Answer: a
+
+616. I HAD THE JACKET **ALTERED** AS THE SLEEVES WERE TOO LONG. :
+   a) adapted
+   b) altered
+   c) amended
+   d) stitch
+
+   Answer: b
+
+617. IN FACT, SHE MUST BE **GETTING** ON FOR 50 NOW. :
+   a) reaching
+   b) approaching
+   c) getting
+   d) coming
+
+   Answer: c
+
+618. THE MONEY WILL BE **TRANSFERRED** TO YOUR ACCOUNT AT THE END OF THE MONTH. :
+   a) converted
+   b) transformed
+   c) shifted
+   d) transferred
+
+   Answer: d
+
+619. THE WOMAN **TO WHOM I SOLD** MY HOUSE WAS A CRIMINAL. :
+   a) to that I sold
+   b) to which I sell
+   c) to whom I sold
+   d) to her I sold
+
+   Answer: c

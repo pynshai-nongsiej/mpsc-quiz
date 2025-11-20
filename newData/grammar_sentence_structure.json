@@ -1,0 +1,616 @@
+{
+  "category": "Grammar - Sentence Structure",
+  "total_questions": 61,
+  "questions": [
+    {
+      "question": "Directions: Choose the improvement for the underlined part. The movie had quite an effective on her.",
+      "options": [
+        "a) an effectually",
+        "b) an effectual",
+        "c) an effective",
+        "d) an effect"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "Please elaborating your plan...",
+      "options": [
+        "a) elaborate",
+        "b) elaboration",
+        "c) elaborating",
+        "d) elaborateness"
+      ],
+      "answer": "A (Imperative: Elaborate)."
+    },
+    {
+      "question": "The disease smallpox has almost been eradicator.",
+      "options": [
+        "a) eradicating",
+        "b) eradicated",
+        "c) eradicator",
+        "d) eradication"
+      ],
+      "answer": "B (Has been eradicated)."
+    },
+    {
+      "question": "Saibal has got an extensive to finish...",
+      "options": [
+        "a) an extended",
+        "b) an extensive",
+        "c) an extenuation",
+        "d) an extension"
+      ],
+      "answer": "D (An extension)."
+    },
+    {
+      "question": "It is fashioning to have an iPad...",
+      "options": [
+        "a) fashion",
+        "b) fashionable",
+        "c) fashionably",
+        "d) fashioning"
+      ],
+      "answer": "B (Fashionable)."
+    },
+    {
+      "question": "(i) We spent the holidays in a cottage in the mountains. (ii) We spent the holidays in a small cottage, rented from a friend in the mountains. (iii) We spent the holidays in the mountains, in a small cottage we rented from a friend.",
+      "options": [
+        "a) (i) & (ii)",
+        "b) (i) & (iii)",
+        "c) (ii) & (iii)",
+        "d) (i), (ii) & (iii)"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "(i) He announced his retirement from the civil service. (ii) He announced that he was retiring from civil service. (iii) He announced that he was retiring from the civil service.",
+      "options": [
+        "a) (i) & (ii)",
+        "b) (i) & (iii)",
+        "c) (ii) & (iii)",
+        "d) (i), (ii) & (iii)"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "(i) What an opportunity you have missed! (ii) What an opportunity you missed! (iii) What opportunity you missed!",
+      "options": [
+        "a) (i) & (ii)",
+        "b) (i) & (iii)",
+        "c) (ii) & (iii)",
+        "d) (i), (ii) & (iii)"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "(i) He picked up the ball quite quickly. (ii) He picked up the ball quickly. (iii) He quickly picked the ball.",
+      "options": [
+        "a) (i) & (ii)",
+        "b) (i) & (iii)",
+        "c) (ii) & (iii)",
+        "d) (i), (ii) & (iii)"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "(i) Her husband gave the necklace on their wedding day. (ii) Her husband gave her a necklace on their wedding day. (iii) Her husband gave her the necklace on their wedding day.",
+      "options": [
+        "a) (i) & (ii)",
+        "b) (i) & (iii)",
+        "c) (ii) & (iii)",
+        "d) (i), (ii) & (iii)"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "(i) I have not seen him since last January. (ii) I did not see him since last January. (iii) I have not seen him since January.",
+      "options": [
+        "a) (i) & (ii)",
+        "b) (i) & (iii)",
+        "c) (ii) & (iii)",
+        "d) (i), (ii) & (iii)"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "(i) A terrorist got killed in an encounter. (ii) A terrorist was killed in an encounter. (iii) A terrorist has been killed in an encounter.",
+      "options": [
+        "a) (i) & (ii)",
+        "b) (i) & (iii)",
+        "c) (ii) & (iii)",
+        "d) (i), (ii) & (iii)"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "(i) I told him, honesty is the best policy. (ii) I told him that honesty is the best policy. (iii) I told him that honesty was the best policy.",
+      "options": [
+        "a) (i) & (ii)",
+        "b) (i) & (iii)",
+        "c) (ii) & (iii)",
+        "d) (i), (ii) & (iii)"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "(i) I switched on the television. There were no interesting programmes on. (ii) I switched on the television but there were no interesting programmes on. (iii) I switched on the television and there were no interesting programmes on.",
+      "options": [
+        "a) (i) & (ii)",
+        "b) (i) & (iii)",
+        "c) (ii) & (iii)",
+        "d) (i), (ii) & (iii)"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "(i) I have decided to sell several of my furniture. (ii) I have decided to sell my furniture. (iii) I have decided to sell some of my furniture.",
+      "options": [
+        "a) (i) & (ii)",
+        "b) (i) & (iii)",
+        "c) (ii) & (iii)",
+        "d) (i), (ii) & (iii)"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "(i) These chairs are very comfortable but they are too expensive (ii) These chairs are comfortable but they are expensive (iii) These chairs are comfortable and expensive",
+      "options": [
+        "a) (i) & (ii)",
+        "b) (i) & (iii)",
+        "c) (ii) & (iii)",
+        "d) (i), (ii) & (iii)"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "(i) Those ladies play tennis well, but they cannot swim. (ii) The ladies play tennis well, but they cannot swim. (iii) Those ladies play tennis well and they cannot swim.",
+      "options": [
+        "a) (i) & (ii)",
+        "b) (i) & (iii)",
+        "c) (ii) & (iii)",
+        "d) (i), (ii) & (iii)"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "(i) If your friends are tired, they ought to spend a holiday by the sea. (ii) If your friends are tired, they have to spend a holiday by the sea. (iii) If your friends are tired, they can spend a holiday by the sea.",
+      "options": [
+        "a) (i) & (ii)",
+        "b) (i) & (iii)",
+        "c) (ii) & (iii)",
+        "d) (i), (ii) & (iii)"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "(i) They must do as they are told. (ii) They must do as you have told. (iii) You must do as you are told.",
+      "options": [
+        "a) (i) & (ii)",
+        "b) (i) & (iii)",
+        "c) (ii) & (iii)",
+        "d) (i), (ii) & (iii)"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "(i) If you had left earlier, you would have caught the train. (ii) If you leave early, you would have caught the train. (iii) If you had left earlier, you would have been able to catch the train.",
+      "options": [
+        "a) (i) & (ii)",
+        "b) (i) & (iii)",
+        "c) (ii) & (iii)",
+        "d) (i), (ii) & (iii)"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "(i) They go to work by car and come home on foot. (ii) They go to work by car and come home by foot. (iii) They go to work by car and come home walking.",
+      "options": [
+        "a) (i) & (ii)",
+        "b) (i) & (iii)",
+        "c) (ii) & (iii)",
+        "d) (i), (ii) & (iii)"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "(i) If it rains, you will get wet. (ii) If it rains, you will be wet. (iii) If it starts to rain, you will be wet.",
+      "options": [
+        "a) (i) & (ii)",
+        "b) (i) & (iii)",
+        "c) (ii) & (iii)",
+        "d) (i), (ii) & (iii)"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "(i) They come here a month ago. (ii) They came here a month ago. (iii) They arrived here a month ago.",
+      "options": [
+        "a) (i) & (ii)",
+        "b) (i) & (iii)",
+        "c) (ii) & (iii)",
+        "d) (i), (ii) & (iii)"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "(i) How can I say what he is like until I see him. (ii) How can I say what he is like until I have seen him. (iii) How can I say what he is like until I have met him.",
+      "options": [
+        "a) (i) & (ii)",
+        "b) (i) & (iii)",
+        "c) (ii) & (iii)",
+        "d) (i), (ii) & (iii)"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "(i) You will succeed if you do as I tell you. (ii) Do as I tell you, you will surely succeed. (iii) You will surely succeed if you do as I tell you.",
+      "options": [
+        "a) (i) & (ii)",
+        "b) (i) & (iii)",
+        "c) (ii) & (iii)",
+        "d) (i), (ii) & (iii)"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "(i) The reason they missed the train was that the car broke down. (ii) The reason they missed the train was because the car broke down. (iii) They missed the train because the car broke down.",
+      "options": [
+        "a) (i) and (ii)",
+        "b) (i) and (iii)",
+        "c) (ii) and (iii)",
+        "d) (i), (ii) and (iii)"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "(i) He will answer if you write to him. (ii) He would answer if you wrote to him. (iii) He would have answered if you had written to him.",
+      "options": [
+        "a) (i) and (ii)",
+        "b) (i) and (iii)",
+        "c) (ii) and (iii)",
+        "d) (i), (ii) and (iii)"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "(i) He is always early. (ii) He will always come early. (iii) He always comes early.",
+      "options": [
+        "a) (i) and (ii)",
+        "b) (i) and (iii)",
+        "c) (ii) and (iii)",
+        "d) (i), (ii) and (iii)"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "(i) You need to cut your hair. (ii) Your hair needs cutting badly. (iii) Your hair badly needs cutting.",
+      "options": [
+        "a) (i) and (ii)",
+        "b) (i) and (iii)",
+        "c) (ii) and (iii)",
+        "d) (i), (ii) and (iii)"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "(i) He doesn't have a cold today. (ii) He has a cold today. (iii) He hasn't a cold today.",
+      "options": [
+        "a) (i) and (ii)",
+        "b) (i) and (iii)",
+        "c) (ii) and (iii)",
+        "d) (i), (ii) and (iii)"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "(i) He is a firm believer of democratic principles. (ii) He firmly believes in democratic principles. (iii) He firmly belief in democratic principles.",
+      "options": [
+        "a) (i) & (ii)",
+        "b) (i) & (iii)",
+        "c) (ii) & (iii)",
+        "d) (i), (ii) & (iii)"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "(i) The output of our factory has not been satisfactory. (ii) The output of our factory was not satisfactory. (iii) The output of our factory has not been satisfying.",
+      "options": [
+        "a) (i) & (ii)",
+        "b) (i) & (iii)",
+        "c) (ii) & (iii)",
+        "d) (i), (ii) & (iii)"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "(i) On second thoughts the employees withdrew his resignation from his job. (ii) On second thoughts the employee has withdrawn his resignation from his job. (iii) On second thoughts the employee withdrew his resignation from his job.",
+      "options": [
+        "a) (i) & (ii)",
+        "b) (i) & (iii)",
+        "c) (ii) & (iii)",
+        "d) (i), (ii) & (iii)"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "(i) The radio was the main source of entertainment before the television. (ii) The radio was the main form of entertainment before the television. (iii) The radio is the main form of entertainment before the television.",
+      "options": [
+        "a) (i) & (ii)",
+        "b) (i) & (iii)",
+        "c) (ii) & (iii)",
+        "d) (i), (ii) & (iii)"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "(i) We were unable to hold our meeting as three members do not make a quorum. (ii) We are unable to hold our meeting as three members do not make a quorum. (iii) We were unable to hold the meeting since three members do not make a quorum.",
+      "options": [
+        "a) (i) & (ii)",
+        "b) (i) & (iii)",
+        "c) (ii) & (iii)",
+        "d) (i), (ii) & (iii)"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "(i) He told his friends that he had decided to retire. (ii) He told his friends of his decision to retire. (iii) He told his friends of his retirement.",
+      "options": [
+        "a) (i) & (ii)",
+        "b) (i) & (iii)",
+        "c) (ii) & (iii)",
+        "d) (i), (ii) & (iii)"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "(i) The newly marketed jam was adulterated and found to contain harmful ingredients. (ii) The newly marketed jam was adulterated and containing harmful ingredients. (iii) The newly marketed jam was adulterated and contains harmful ingredients.",
+      "options": [
+        "a) (i) & (ii)",
+        "b) (i) & (iii)",
+        "c) (ii) & (iii)",
+        "d) (i), (ii) & (iii)"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "(i) Although a mild mannered man... yet he was a dynamic leader... (ii) He was a mild mannered man... but was a dynamic leader... (iii) Although a mild mannered man... he was a dynamic leader...",
+      "options": [
+        "a) (i) & (ii)",
+        "b) (i) & (iii)",
+        "c) (ii) & (iii)",
+        "d) (i), (ii) & (iii)"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "i) The police made everyone to leave... ii) The police made everyone leave... iii) The police asked everyone to leave...",
+      "options": [
+        "a) (i) & (ii)",
+        "b) (i) & (iii)",
+        "c) (ii) & (iii)",
+        "d) (i), (ii) & (iii)"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "We waste much time on trifles. (Active/Passive)",
+      "options": [
+        "a) Much time was wasted on trifles",
+        "b) Much time will be wasted on trifles",
+        "c) Much time is wasted by us on trifles",
+        "d) Much time is wasted on trifles"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "How was it managed by you? (Active/Passive)",
+      "options": [
+        "a) How have you managed it?",
+        "b) Did you manage it?",
+        "c) How did you manage it ?",
+        "d) Was it managed by you ?"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "I was obliged to go. (Active/Passive)",
+      "options": [
+        "a) Circumstances obliges me to go",
+        "b) Circumstances oblige I should go",
+        "c) Circumstances oblige me to go",
+        "d) Circumstances obliged me to go"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "Do you understand what I mean? (Active/Passive)",
+      "options": [
+        "a) What I mean is understood by you?",
+        "b) Was what I mean understood by you?",
+        "c) Is what I mean understood by you?",
+        "d) What I mean is that understood by you?"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "The child's shrill wail broke the silence (Active/Passive)",
+      "options": [
+        "a) The silence is being broken by the child's shrill wail",
+        "b) The child's shrill wail was broken by the silence",
+        "c) The silence was broken by the child's shrill wail",
+        "d) The silence was being broken by the child's shrill wail"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "Rearrange: While we are learning equally (P) a right to equal opportunity (Q) all have not the same capacity (R) meaning that we have",
+      "options": [
+        "a) RPQ",
+        "b) RQP",
+        "c) PQR",
+        "d) QPR"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Rearrange: During this period (P) coal as a fuel (Q) in place of wood (R) people were beginning to use",
+      "options": [
+        "a) QRP",
+        "b) PRQ",
+        "c) RPQ",
+        "d) RQP"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "Rearrange: The sudden spell (P) of showers washed out (Q) the suspended particles from (R) the air, a rare phenomenon in Delhi",
+      "options": [
+        "a) PQR",
+        "b) RPQ",
+        "c) QPR",
+        "d) RQP"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Rearrange: Our body takes in many toxins from (P) we eat, and we must have (Q) a process for purging these impurities (R) the atmosphere and the food",
+      "options": [
+        "a) PQR",
+        "b) RPQ",
+        "c) QPR",
+        "d) RQP"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Rearrange: All animals have (P) have memory (Q) animals do not (R) sensation but some",
+      "options": [
+        "a) QRP",
+        "b) PRQ",
+        "c) RQP",
+        "d) PQR"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "They only work when they have no money (Sentence Improvement)",
+      "options": [
+        "a) When they have no money, they only work",
+        "b) They only work they have no money",
+        "c) They work only when they have no money",
+        "d) No improvement"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "He had hardly gone out then it began to rain (Sentence Improvement)",
+      "options": [
+        "a) He had hardly gone out before it began to rain",
+        "b) He had hardly gone out when it began to rain",
+        "c) He had hardly gone out as it began to rain",
+        "d) No improvement"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "He is the bravest of the two soldiers (Sentence Improvement)",
+      "options": [
+        "a) He is the braver of the two soldiers",
+        "b) He is the bravest between the two soldiers",
+        "c) He is the bravest than the two soldiers",
+        "d) No improvement"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "We have no less than a thousand students in our College (Sentence Improvement)",
+      "options": [
+        "a) We have not less than a thousand students in our College",
+        "b) We have no fewer than a thousand students in our College",
+        "c) We have no little than a thousand students in our College",
+        "d) No improvement"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "It is predicted that oil reserves will finished by 2034. (Sentence Improvement)",
+      "options": [
+        "a) It is predicted that oil reserves will have finish by 2034",
+        "b) It is predicted that oil reserves will finish by 2034",
+        "c) It is predicted that oil reserves should finish by 2034",
+        "d) No improvement"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Hardly had he reached home when the telephone rang. (Sentence Improvement)",
+      "options": [
+        "a) Hardly he reached home when the telephone rang",
+        "b) Hardly he had reached home when the telephone rang",
+        "c) Hardly did he reach home when the telephone rang",
+        "d) No improvement"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "He said to me. \"What is it you have done?\" (Direct/Indirect)",
+      "options": [
+        "a) He asked me that what is it you have done",
+        "b) He asked me what it is I had done",
+        "c) He asked me what it was I had done",
+        "d) He asked me what it was I have done"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "She said to him, \"I have often told you this story.\" (Direct/Indirect)",
+      "options": [
+        "a) She said to him that I have often told you this story",
+        "b) She told him that she has often told him that story",
+        "c) She told him that she have often told him the story",
+        "d) She told him that she had often told him that story"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "Kala said to Radha, \"Who were you speaking to over the phone?\" (Direct/Indirect)",
+      "options": [
+        "a) Kala asked Radha that who she was speaking to over the phone",
+        "b) Kala asked Radha that who she has been speaking to over the phone",
+        "c) Kala asked Radha who she had been speaking to over the phone",
+        "d) Kala asked Radha that who she had been speaking to over the phone"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "\"Have you finished your work, Ahmad?\". asked Vinod. (Direct/Indirect)",
+      "options": [
+        "a) Vinod asked whether Ahmad had finished your work",
+        "b) Vinod asked whether Ahmad had finished work",
+        "c) Vinod asked whether Ahmad had finished their work",
+        "d) Vinod asked Ahmad whether he had finished his work"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "He exclaimed with joy that their team had won the tournament. (Direct/Indirect)",
+      "options": [
+        "a) He exclaimed. \"Hurrah! Our team has won the tournament.\"",
+        "b) He said, \"Our team won the tournament.\"",
+        "c) He said, \"Wow! Our team won the tournament.\"",
+        "d) He said, \"Alas! Our team won the tournament.\""
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "The young man promised her that he would be there the next day. (Direct/Indirect)",
+      "options": [
+        "a) The young man said, \"I will be there the next day.\"",
+        "b) The young man said. \"I promise to be here tomorrow.\"",
+        "c) The young man said, \"I will promise to be there the next day.\"",
+        "d) The young man said. \"Promise. I will be here today.\""
+      ],
+      "answer": "B"
+    }
+  ]
+}
