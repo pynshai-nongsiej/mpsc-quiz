@@ -750,7 +750,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             applyTheme(true);
         } 
 
-        // Quiz functionality
+        // Quiz functionality with debugging
+        console.log('Initializing quiz functionality...');
+        
+        // Add visual indicator that JavaScript is working
+        document.body.style.border = '3px solid green';
+        setTimeout(() => {
+            document.body.style.border = 'none';
+        }, 2000);
+        
         const questionContainers = document.querySelectorAll('.question-container');
         const nextButton = document.getElementById('next-button');
         const progressBar = document.getElementById('progress-bar');
@@ -758,20 +766,33 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         let currentQuestion = 0;
         let answerLocked = false;
 
+        console.log('Found elements:', {
+            questionContainers: questionContainers.length,
+            nextButton: !!nextButton,
+            progressBar: !!progressBar,
+            currentQuestionSpan: !!currentQuestionSpan
+        });
+
         // Initialize progress
         updateProgress();
 
         // Add click handlers to options
-        document.querySelectorAll('.quiz-option').forEach(option => {
+        const quizOptions = document.querySelectorAll('.quiz-option');
+        console.log('Found quiz options:', quizOptions.length);
+        
+        quizOptions.forEach((option, index) => {
+            console.log(`Adding click handler to option ${index}:`, option.textContent.trim());
             option.addEventListener('click', () => {
-                console.log('Option clicked. Answer locked:', answerLocked);
+                console.log('Option clicked!', option.textContent.trim(), 'Answer locked:', answerLocked);
                 if (answerLocked) {
-                    console.log('Answer already locked, ignoring click');
+                    console.log('Answer locked, ignoring click');
                     return;
                 }
                 
                 const questionIndex = parseInt(option.dataset.question);
+                console.log('Question index:', questionIndex);
                 const options = document.querySelectorAll(`.quiz-option[data-question="${questionIndex}"]`);
+                console.log('Found options for question:', options.length);
                 
                 // Remove selected class from all options in this question
                 options.forEach(opt => {
@@ -791,66 +812,64 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 
                 // Show feedback
                 const indicator = option.querySelector('.indicator');
-                indicator.classList.remove('hidden');
-                
-                if (isCorrect) {
-                    option.classList.add('correct');
-                    indicator.querySelector('svg:first-child').classList.remove('hidden');
-                } else {
-                    option.classList.add('incorrect');
-                    indicator.querySelector('svg:last-child').classList.remove('hidden');
+                if (indicator) {
+                    indicator.classList.remove('hidden');
                     
-                    // Highlight correct answer (only if it's different from selected option)
-                    const correctOption = document.querySelector(`.question-container[data-question="${questionIndex}"] input[value="${correctAnswer}"]`).parentNode;
-                    if (correctOption !== option) {
-                        correctOption.classList.add('correct');
-                        correctOption.querySelector('.indicator').classList.remove('hidden');
-                        correctOption.querySelector('svg:first-child').classList.remove('hidden');
+                    if (isCorrect) {
+                        option.classList.add('correct');
+                        const correctSvg = indicator.querySelector('svg:first-child');
+                        if (correctSvg) {
+                            correctSvg.classList.remove('hidden');
+                        }
+                    } else {
+                        option.classList.add('incorrect');
+                        const incorrectSvg = indicator.querySelector('svg:last-child');
+                        if (incorrectSvg) {
+                            incorrectSvg.classList.remove('hidden');
+                        }
+                        
+                        // Highlight correct answer (only if it's different from selected option)
+                        const correctInput = document.querySelector(`.question-container[data-question="${questionIndex}"] input[value="${correctAnswer}"]`);
+                        if (correctInput && correctInput.parentNode) {
+                            const correctOption = correctInput.parentNode;
+                            if (correctOption && correctOption !== option) {
+                                correctOption.classList.add('correct');
+                                const correctIndicator = correctOption.querySelector('.indicator');
+                                if (correctIndicator) {
+                                    correctIndicator.classList.remove('hidden');
+                                    const correctSvg = correctIndicator.querySelector('svg:first-child');
+                                    if (correctSvg) {
+                                        correctSvg.classList.remove('hidden');
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
                 
                 // Disable all options
-                document.querySelectorAll(`.quiz-option[data-question="${questionIndex}"]`).forEach(opt => {
+                options.forEach(opt => {
                     opt.classList.add('disabled');
                 });
                 
                 // Auto-advance to next question after 1 second
-                console.log('Setting timeout for auto-advance. Current question:', currentQuestion, 'Total questions:', questionContainers.length);
-                
+                console.log('Setting timeout for auto-advance...');
                 setTimeout(() => {
-                    try {
-                        console.log('Auto-advance timeout triggered. Moving to next question.');
-                        
-                        currentQuestion++;
-                        if (currentQuestion < questionContainers.length) {
-                            console.log('Showing question:', currentQuestion);
-                            showQuestion(currentQuestion);
-                            answerLocked = false;
-                            updateProgress();
+                    console.log('Timeout executed! Current question:', currentQuestion, 'Total:', questionContainers.length);
+                    currentQuestion++;
+                    if (currentQuestion < questionContainers.length) {
+                        console.log('Moving to next question:', currentQuestion);
+                        showQuestion(currentQuestion);
+                        answerLocked = false;
+                        updateProgress();
+                    } else {
+                        console.log('Quiz completed - submitting form');
+                        // Quiz completed - submit form
+                        const form = document.querySelector('form');
+                        if (form) {
+                            form.submit();
                         } else {
-                            console.log('Quiz completed. Submitting form.');
-                            // Capture elapsed time before submitting the form
-                            const elapsedTime = getAccurateElapsedTime();
-                            const timerInput = document.getElementById('hidden_timer_elapsed');
-                            if (timerInput) {
-                                timerInput.value = elapsedTime;
-                            }
-                            console.log('Quiz completed. Total elapsed time:', elapsedTime, 'seconds');
-                            
-                            // Submit the form if it's the last question
-                            const form = document.querySelector('form');
-                            if (form) {
-                                form.submit();
-                            }
-                        }
-                    } catch (error) {
-                        console.error('Error in auto-advance:', error);
-                        // Fallback: try to continue anyway
-                        currentQuestion++;
-                        if (currentQuestion < questionContainers.length) {
-                            showQuestion(currentQuestion);
-                            answerLocked = false;
-                            updateProgress();
+                            console.error('Form not found!');
                         }
                     }
                 }, 1000);
