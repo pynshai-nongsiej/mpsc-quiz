@@ -385,15 +385,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         'user_answer' => $user_answer,
                         'correct_answer' => $correct_answer,
                         'is_correct' => $is_correct ? 1 : 0,
-                        'category' => $question['category']['name'] ?? null,
-                        'subcategory' => $question['category']['subcategory'] ?? null
+                        'category' => $question['category'] ?? null,
+                        'subcategory' => $question['subcategory'] ?? null
                     ];
                     
                     insertRecord('quiz_responses', $response_data);
                 }
                 
                 // Update user statistics, daily performance, and category performance
-                $primary_category = !empty($questions) ? ($questions[0]['category']['name'] ?? 'General') : 'General';
+                $primary_category = !empty($questions) ? ($questions[0]['category'] ?? 'General') : 'General';
                 $stats_updated = updateAllStatistics($_SESSION['user_id'], $correct_answers, $total_questions, $primary_category);
                 
                 if (!$stats_updated) {
@@ -595,11 +595,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <?php foreach ($questions as $i => $q): ?>
                     <div class="question-container <?= $i === 0 ? 'active' : 'hidden' ?>" data-question="<?= $i ?>" data-correct-answer="<?= strtolower($q['answer'] ?? 'a') ?>">
                         <?php 
-                        // Get the subcategory from the question data
-                        $subcategory = $q['category']['subcategory'] ?? 'General';
+                        // Get the category from the question data
+                        $category_name = $q['category'] ?? 'General';
                         
-                        // Get the category metadata for this subcategory
-                        $category_meta = get_category_meta($subcategory);
+                        // Get the category metadata for this category
+                        $category_meta = get_category_meta($category_name);
                         
                         // Set default values if not found
                         $bg_color = $category_meta['bg_color'] ?? 'bg-gray-100';
@@ -609,7 +609,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         <div class="mb-4">
                             <span class="inline-flex items-center px-3 py-1 text-sm font-semibold rounded-full <?= $bg_color ?> <?= $text_color ?> space-x-2">
                                 <span class="text-base"><?= $icon ?></span>
-                                <span><?= htmlspecialchars($subcategory) ?></span>
+                                <span><?= htmlspecialchars($category_name) ?></span>
                             </span>
                         </div>
                         <h2 class="text-2xl font-bold leading-tight mb-8 text-center"><?= htmlspecialchars($q['question']) ?></h2>
@@ -669,7 +669,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
             <footer class="p-4 md:p-6 sticky bottom-0 bg-[var(--background-color)]/80 backdrop-blur-sm pb-20 md:pb-6">
                 <div class="flex justify-end">
-                    <button type="button" class="glass-button w-full sm:w-auto flex items-center justify-center rounded-full h-14 px-8 text-lg font-bold" id="next-button">
+                    <button type="button" class="glass-button w-full sm:w-auto flex items-center justify-center rounded-full h-14 px-8 text-lg font-bold hidden" id="next-button">
                         <span>Next</span>
                         <svg class="ml-2" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
                             <polyline points="9 18 15 12 9 6"></polyline>
@@ -764,7 +764,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         // Add click handlers to options
         document.querySelectorAll('.quiz-option').forEach(option => {
             option.addEventListener('click', () => {
-                if (answerLocked) return;
+                console.log('Option clicked. Answer locked:', answerLocked);
+                if (answerLocked) {
+                    console.log('Answer already locked, ignoring click');
+                    return;
+                }
                 
                 const questionIndex = parseInt(option.dataset.question);
                 const options = document.querySelectorAll(`.quiz-option[data-question="${questionIndex}"]`);
@@ -780,72 +784,81 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 const radio = option.querySelector('input[type="radio"]');
                 radio.checked = true;
                 
-                // Enable next button
-                nextButton.disabled = false;
-            });
-        });
-
-        // Next button handler
-        nextButton.addEventListener('click', () => {
-            if (answerLocked) {
-                // Move to next question
-                currentQuestion++;
-                if (currentQuestion < questionContainers.length) {
-                    showQuestion(currentQuestion);
-                    answerLocked = false;
-                    nextButton.innerHTML = '<span>Next</span><svg class="ml-2" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><polyline points="9 18 15 12 9 6"></polyline></svg>';
-                    updateProgress();
-                } else {
-                    // Capture elapsed time before submitting the form
-                    const elapsedTime = getAccurateElapsedTime();
-                    document.getElementById('hidden_timer_elapsed').value = elapsedTime;
-                    console.log('Quiz completed. Total elapsed time:', elapsedTime, 'seconds');
-                    
-                    // Submit the form if it's the last question
-                    document.querySelector('form').submit();
-                }
-            } else {
-                // Lock the answer and show feedback
-                const selectedOption = document.querySelector(`.question-container[data-question="${currentQuestion}"] .selected`);
-                if (!selectedOption) return;
-                
+                // Lock the answer and show feedback immediately
                 answerLocked = true;
-                const questionIndex = selectedOption.closest('.question-container').dataset.question;
                 const correctAnswer = document.querySelector(`.question-container[data-question="${questionIndex}"]`).dataset.correctAnswer;
-                const isCorrect = selectedOption.querySelector('input[type="radio"]').value === correctAnswer;
+                const isCorrect = radio.value === correctAnswer;
                 
                 // Show feedback
-                const indicator = selectedOption.querySelector('.indicator');
+                const indicator = option.querySelector('.indicator');
                 indicator.classList.remove('hidden');
                 
                 if (isCorrect) {
-                    selectedOption.classList.add('correct');
+                    option.classList.add('correct');
                     indicator.querySelector('svg:first-child').classList.remove('hidden');
                 } else {
-                    selectedOption.classList.add('incorrect');
+                    option.classList.add('incorrect');
                     indicator.querySelector('svg:last-child').classList.remove('hidden');
                     
-                    // Highlight correct answer
-                    const correctAnswer = document.querySelector(`.question-container[data-question="${currentQuestion}"]`).dataset.correctAnswer;
-                    const correctOption = document.querySelector(`.question-container[data-question="${currentQuestion}"] input[value="${correctAnswer}"]`).parentNode;
-                    correctOption.classList.add('correct');
-                    correctOption.querySelector('.indicator').classList.remove('hidden');
-                    correctOption.querySelector('svg:first-child').classList.remove('hidden');
+                    // Highlight correct answer (only if it's different from selected option)
+                    const correctOption = document.querySelector(`.question-container[data-question="${questionIndex}"] input[value="${correctAnswer}"]`).parentNode;
+                    if (correctOption !== option) {
+                        correctOption.classList.add('correct');
+                        correctOption.querySelector('.indicator').classList.remove('hidden');
+                        correctOption.querySelector('svg:first-child').classList.remove('hidden');
+                    }
                 }
                 
                 // Disable all options
-                document.querySelectorAll(`.quiz-option[data-question="${currentQuestion}"]`).forEach(opt => {
+                document.querySelectorAll(`.quiz-option[data-question="${questionIndex}"]`).forEach(opt => {
                     opt.classList.add('disabled');
                 });
                 
-                // Update button text
-                if (currentQuestion === questionContainers.length - 1) {
-                    nextButton.innerHTML = '<span>Submit</span>';
-                } else {
-                    nextButton.innerHTML = '<span>Next Question</span><svg class="ml-2" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><polyline points="9 18 15 12 9 6"></polyline></svg>';
-                }
-            }
+                // Auto-advance to next question after 1 second
+                console.log('Setting timeout for auto-advance. Current question:', currentQuestion, 'Total questions:', questionContainers.length);
+                
+                setTimeout(() => {
+                    try {
+                        console.log('Auto-advance timeout triggered. Moving to next question.');
+                        
+                        currentQuestion++;
+                        if (currentQuestion < questionContainers.length) {
+                            console.log('Showing question:', currentQuestion);
+                            showQuestion(currentQuestion);
+                            answerLocked = false;
+                            updateProgress();
+                        } else {
+                            console.log('Quiz completed. Submitting form.');
+                            // Capture elapsed time before submitting the form
+                            const elapsedTime = getAccurateElapsedTime();
+                            const timerInput = document.getElementById('hidden_timer_elapsed');
+                            if (timerInput) {
+                                timerInput.value = elapsedTime;
+                            }
+                            console.log('Quiz completed. Total elapsed time:', elapsedTime, 'seconds');
+                            
+                            // Submit the form if it's the last question
+                            const form = document.querySelector('form');
+                            if (form) {
+                                form.submit();
+                            }
+                        }
+                    } catch (error) {
+                        console.error('Error in auto-advance:', error);
+                        // Fallback: try to continue anyway
+                        currentQuestion++;
+                        if (currentQuestion < questionContainers.length) {
+                            showQuestion(currentQuestion);
+                            answerLocked = false;
+                            updateProgress();
+                        }
+                    }
+                }, 1000);
+            });
         });
+
+        // Next button handler (kept for compatibility but hidden)
+        // Questions now auto-advance after selection
 
         function showQuestion(index) {
             questionContainers.forEach((container, i) => {
@@ -857,9 +870,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     container.classList.remove('active');
                 }
             });
-            
-            // Reset next button state
-            nextButton.disabled = true;
         }
 
         function updateProgress() {

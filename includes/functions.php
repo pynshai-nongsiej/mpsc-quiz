@@ -54,20 +54,56 @@ function get_testqna_subcategories($category) {
         return $subcategories;
     }
     
-    // Get all .txt files in the category directory
-    $files = glob($testqna_path . '/*.txt');
-    
-    foreach ($files as $file) {
-        $filename = basename($file, '.txt');
-        $subcategory_name = str_replace(['_', '-'], ' ', $filename);
-        $subcategory_name = ucwords($subcategory_name);
+    // Handle different file types based on category
+    if ($category === 'general-english') {
+        // For general-english, use JSON files
+        $files = glob($testqna_path . '/*.json');
         
-        $subcategories[] = [
-            'name' => $subcategory_name,
-            'filename' => $filename,
-            'file_path' => $file,
-            'category' => $category
-        ];
+        // Exclude categories_summary.json
+        $files = array_filter($files, function($file) {
+            return basename($file) !== 'categories_summary.json';
+        });
+        
+        foreach ($files as $file) {
+            $filename = basename($file, '.json');
+            
+            // Read JSON to get the category name
+            $json_content = file_get_contents($file);
+            $data = json_decode($json_content, true);
+            
+            if ($data && isset($data['category'])) {
+                $subcategory_name = $data['category'];
+            } else {
+                // Fallback to filename conversion
+                $subcategory_name = str_replace(['_', '-'], ' ', $filename);
+                $subcategory_name = ucwords($subcategory_name);
+            }
+            
+            $subcategories[] = [
+                'name' => $subcategory_name,
+                'filename' => $filename,
+                'file_path' => $file,
+                'category' => $category,
+                'file_type' => 'json'
+            ];
+        }
+    } else {
+        // For other categories, use TXT files
+        $files = glob($testqna_path . '/*.txt');
+        
+        foreach ($files as $file) {
+            $filename = basename($file, '.txt');
+            $subcategory_name = str_replace(['_', '-'], ' ', $filename);
+            $subcategory_name = ucwords($subcategory_name);
+            
+            $subcategories[] = [
+                'name' => $subcategory_name,
+                'filename' => $filename,
+                'file_path' => $file,
+                'category' => $category,
+                'file_type' => 'txt'
+            ];
+        }
     }
     
     // Sort subcategories alphabetically
@@ -90,62 +126,102 @@ function parse_testqna_file($filepath) {
     }
     
     $questions = [];
-    $lines = explode("\n", $content);
-    $current_question = null;
-    $current_options = [];
-    $current_answer = null;
+    $file_extension = pathinfo($filepath, PATHINFO_EXTENSION);
     
-    foreach ($lines as $line) {
-        $line = trim($line);
-        
-        // Skip empty lines
-        if (empty($line)) {
-            continue;
+    if ($file_extension === 'json') {
+        // Parse JSON file
+        $data = json_decode($content, true);
+        if (!$data || !isset($data['questions'])) {
+            return [];
         }
         
-        // Check for question number (starts with number followed by period)
-        if (preg_match('/^(\d+)\s*\.\s*(.+)/', $line, $matches)) {
-            // Save previous question if exists
-            if ($current_question !== null && !empty($current_options) && $current_answer !== null) {
-                $questions[] = [
-                    'question' => $current_question,
-                    'options' => $current_options,
-                    'answer' => $current_answer,
-                    'category' => basename(dirname($filepath)),
-                    'subcategory' => basename($filepath, '.txt')
-                ];
+        foreach ($data['questions'] as $q) {
+            if (!isset($q['question']) || !isset($q['options']) || !isset($q['answer'])) {
+                continue;
             }
             
-            // Start new question
-            $current_question = trim($matches[2]);
-            $current_options = [];
-            $current_answer = null;
+            // Convert options array to associative array with letters
+            $options = [];
+            foreach ($q['options'] as $index => $option) {
+                // Remove the letter prefix if it exists (e.g., "a) Text" -> "Text")
+                $option_text = preg_replace('/^[a-e]\)\s*/', '', $option);
+                $letter = chr(97 + $index); // 97 is ASCII for 'a'
+                $options[$letter] = $option_text;
+            }
+            
+            // Convert answer to lowercase
+            $answer = strtolower($q['answer']);
+            
+            // Get the category name from JSON data or use filename
+            $category_name = isset($data['category']) ? $data['category'] : (str_replace(['_', '-'], ' ', basename($filepath, '.json')));
+            
+            $questions[] = [
+                'question' => $q['question'],
+                'options' => $options,
+                'answer' => $answer,
+                'category' => $category_name,
+                'subcategory' => basename($filepath, '.json')
+            ];
         }
-        // Check for options (a), b), c), d), e))
-        elseif (preg_match('/^([a-e])\)\s*(.+)/', $line, $matches)) {
-            $option_letter = strtolower($matches[1]);
-            $option_text = trim($matches[2]);
-            $current_options[$option_letter] = $option_text;
+    } else {
+        // Parse TXT file (existing logic)
+        $lines = explode("\n", $content);
+        $current_question = null;
+        $current_options = [];
+        $current_answer = null;
+        
+        foreach ($lines as $line) {
+            $line = trim($line);
+            
+            // Skip empty lines
+            if (empty($line)) {
+                continue;
+            }
+            
+            // Check for question number (starts with number followed by period)
+            if (preg_match('/^(\d+)\s*\.\s*(.+)/', $line, $matches)) {
+                // Save previous question if exists
+                if ($current_question !== null && !empty($current_options) && $current_answer !== null) {
+                    $questions[] = [
+                        'question' => $current_question,
+                        'options' => $current_options,
+                        'answer' => $current_answer,
+                        'category' => basename(dirname($filepath)),
+                        'subcategory' => basename($filepath, '.txt')
+                    ];
+                }
+                
+                // Start new question
+                $current_question = trim($matches[2]);
+                $current_options = [];
+                $current_answer = null;
+            }
+            // Check for options (a), b), c), d), e))
+            elseif (preg_match('/^([a-e])\)\s*(.+)/', $line, $matches)) {
+                $option_letter = strtolower($matches[1]);
+                $option_text = trim($matches[2]);
+                $current_options[$option_letter] = $option_text;
+            }
+            // Check for answer line
+            elseif (preg_match('/^Answer\s*:\s*([a-e])/i', $line, $matches)) {
+                $current_answer = strtolower($matches[1]);
+            }
+            // If line doesn't match patterns but we have a current question, append to question text
+            elseif ($current_question !== null && !preg_match('/^[a-e]\)/', $line) && !preg_match('/^Answer\s*:/i', $line)) {
+                $current_question .= ' ' . $line;
+            }
         }
-        // Check for answer line
-        elseif (preg_match('/^Answer\s*:\s*([a-e])/i', $line, $matches)) {
-            $current_answer = strtolower($matches[1]);
+        
+        // Don't forget the last question
+        if ($current_question !== null && !empty($current_options) && $current_answer !== null) {
+            $questions[] = [
+                'question' => $current_question,
+                'options' => $current_options,
+                'answer' => $current_answer,
+                'category' => basename(dirname($filepath)),
+                'subcategory' => basename($filepath, '.txt')
+            ];
         }
-        // If line doesn't match patterns but we have a current question, append to question text
-        elseif ($current_question !== null && !preg_match('/^[a-e]\)/', $line) && !preg_match('/^Answer\s*:/i', $line)) {
-            $current_question .= ' ' . $line;
-        }
-    }
-    
-    // Don't forget the last question
-    if ($current_question !== null && !empty($current_options) && $current_answer !== null) {
-        $questions[] = [
-            'question' => $current_question,
-            'options' => $current_options,
-            'answer' => $current_answer,
-            'category' => basename(dirname($filepath)),
-            'subcategory' => basename($filepath, '.txt')
-        ];
     }
     
     return $questions;
@@ -157,7 +233,9 @@ function load_questions_from_testqna($category, $subcategory = null, $count = 20
     
     if ($subcategory !== null) {
         // Load from specific subcategory
-        $filepath = __DIR__ . '/../TestQnA/' . $category . '/' . $subcategory . '.txt';
+        // Determine file extension based on category
+        $file_extension = ($category === 'general-english') ? '.json' : '.txt';
+        $filepath = __DIR__ . '/../TestQnA/' . $category . '/' . $subcategory . $file_extension;
         $questions = parse_testqna_file($filepath);
         $all_questions = array_merge($all_questions, $questions);
     } else {
@@ -697,12 +775,22 @@ function parse_test_questions() {
             continue;
         }
         
-        // Get all .txt files in the category directory
-        $files = glob($category_path . '/*.txt');
-        error_log("DEBUG: Found " . count($files) . " files in category: " . $category_name);
+        // Get files based on category type
+        if ($category_dir === 'general-english') {
+            // For general-english, get JSON files (excluding categories_summary.json)
+            $files = glob($category_path . '/*.json');
+            $files = array_filter($files, function($file) {
+                return basename($file) !== 'categories_summary.json';
+            });
+            error_log("DEBUG: Found " . count($files) . " JSON files in category: " . $category_name);
+        } else {
+            // For other categories, get TXT files
+            $files = glob($category_path . '/*.txt');
+            error_log("DEBUG: Found " . count($files) . " TXT files in category: " . $category_name);
+        }
         
         if (empty($files)) {
-            error_log("WARNING: No .txt files found in category: " . $category_name);
+            error_log("WARNING: No files found in category: " . $category_name);
             continue;
         }
         
