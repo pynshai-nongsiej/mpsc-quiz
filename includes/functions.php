@@ -942,8 +942,7 @@ function parse_test_questions() {
                 if ($is_error_spotting) {
                     $q['question'] = 'Find the part of the sentence that has an error.';
                 } else {
-                    // Use the actual question text from the file instead of hardcoding
-                    $q['question'] = implode(' ', $question_lines);
+                   $q['question'] = implode(' ', $question_lines);
                 }
             
             // Debug: Log the constructed question
@@ -1125,62 +1124,6 @@ function parse_quiz($filename) {
     return $questions;
 }
 
-// Update user statistics after quiz completion
-function updateUserStatistics($user_id, $score, $total_questions, $category) {
-    global $pdo;
-    
-    try {
-        // Check if user statistics record exists
-        if (!$pdo) {
-            throw new Exception("Database connection not established");
-        }
-        $stmt = $pdo->prepare("SELECT * FROM user_statistics WHERE user_id = ?");
-        $stmt->execute([$user_id]);
-        $existing = $stmt->fetch(PDO::FETCH_ASSOC);
-        
-        if ($existing && is_array($existing)) {
-            // Update existing record
-            $new_total_quizzes = $existing['total_quizzes'] + 1;
-            $new_total_questions = $existing['total_questions'] + $total_questions;
-            $new_correct_answers = $existing['correct_answers'] + $score;
-            $new_accuracy = ($new_correct_answers / $new_total_questions) * 100;
-            
-            // Update best score if current score is better
-            $current_percentage = ($score / $total_questions) * 100;
-            $new_best_score = max($existing['best_score'], $current_percentage);
-            
-            if (!$pdo) {
-                throw new Exception("Database connection not established");
-            }
-            $stmt = $pdo->prepare("
-                UPDATE user_statistics 
-                SET total_quizzes = ?, total_questions = ?, correct_answers = ?, 
-                    accuracy_percentage = ?, best_score = ?, last_quiz_date = NOW() 
-                WHERE user_id = ?
-            ");
-            $stmt->execute([$new_total_quizzes, $new_total_questions, $new_correct_answers, 
-                           $new_accuracy, $new_best_score, $user_id]);
-        } else {
-            // Create new record
-            $accuracy = ($score / $total_questions) * 100;
-            if (!$pdo) {
-                throw new Exception("Database connection not established");
-            }
-            $stmt = $pdo->prepare("
-                INSERT INTO user_statistics 
-                (user_id, total_quizzes, total_questions, correct_answers, 
-                 accuracy_percentage, best_score, last_quiz_date) 
-                VALUES (?, 1, ?, ?, ?, ?, NOW())
-            ");
-            $stmt->execute([$user_id, $total_questions, $score, $accuracy, $accuracy]);
-        }
-        
-        return true;
-    } catch (Exception $e) {
-        error_log("Error updating user statistics: " . $e->getMessage());
-        return false;
-    }
-}
 
 // Update daily performance after quiz completion
 function updateDailyPerformance($user_id, $score, $total_questions, $category) {
@@ -1312,5 +1255,463 @@ function updateAllStatistics($user_id, $score, $total_questions, $category) {
     return array_reduce($results, function($carry, $item) {
         return $carry && $item;
     }, true);
+}
+
+// Performance Analytics Helper Functions
+
+/**
+ * Calculate performance trends for a user (without stored procedures)
+ */
+function calculatePerformanceTrends($user_id, $days_back = 30) {
+    try {
+        $pdo = getConnection();
+        
+        // Calculate daily trends for the specified period
+        $start_date = date('Y-m-d', strtotime("-$days_back days"));
+        $end_date = date('Y-m-d');
+        
+        // Get daily performance data
+        $stmt = $pdo->prepare("
+            SELECT 
+                DATE(completed_at) as date,
+                AVG(accuracy) as avg_accuracy,
+                COUNT(*) as quiz_count
+            FROM quiz_attempts 
+            WHERE user_id = ? 
+            AND DATE(completed_at) BETWEEN ? AND ?
+            GROUP BY DATE(completed_at)
+            ORDER BY date ASC
+        ");
+        $stmt->execute([$user_id, $start_date, $end_date]);
+        $daily_data = $stmt->fetchAll(PDO::FETCH_ASSOC);
+        
+        // Calculate trends and insert/update performance_trends table
+        $prev_accuracy = null;
+        foreach ($daily_data as $day) {
+            $trend_value = 0;
+            if ($prev_accuracy !== null) {
+                $trend_value = $day['avg_accuracy'] - $prev_accuracy;
+            }
+            
+            // Insert or update trend data
+            $stmt = $pdo->prepare("
+                INSERT INTO performance_trends (user_id, trend_period, period_start, period_end, avg_accuracy, accuracy_trend, calculated_at)
+                VALUES (?, 'daily', ?, ?, ?, ?, NOW())
+                ON DUPLICATE KEY UPDATE 
+                    avg_accuracy = VALUES(avg_accuracy),
+                    accuracy_trend = VALUES(accuracy_trend),
+                    calculated_at = NOW()
+            ");
+            $stmt->execute([$user_id, $day['date'], $day['date'], $day['avg_accuracy'], $trend_value]);
+            
+            $prev_accuracy = $day['avg_accuracy'];
+        }
+        
+        return true;
+    } catch (Exception $e) {
+        error_log("Error calculating performance trends: " . $e->getMessage());
+        return false;
+    }
+}
+
+/**
+ * Update user statistics after quiz completion (without stored procedures)
+ */
+function updateUserStatistics($user_id) {
+    try {
+        $pdo = getConnection();
+        
+        // Calculate totals from quiz_attempts
+        $stmt = $pdo->prepare("
+            SELECT 
+                COUNT(*) as total_quizzes,
+                SUM(total_questions) as total_questions_answered,
+                SUM(correct_answers) as total_correct_answers,
+                ROUND(AVG(accuracy), 2) as average_accuracy,
+                MAX(accuracy) as best_accuracy,
+                SUM(time_taken) as total_time_spent,
+                MAX(DATE(completed_at)) as last_quiz_date
+            FROM quiz_attempts 
+            WHERE user_id = ?
+        ");
+        $stmt->execute([$user_id]);
+        $stats = $stmt->fetch(PDO::FETCH_ASSOC);
+        
+        if (!$stats || $stats['total_quizzes'] == 0) {
+            return false;
+        }
+        
+        // Calculate current streak (consecutive days with quizzes)
+        $stmt = $pdo->prepare("
+            SELECT COUNT(*) as streak_count
+            FROM (
+                SELECT DATE(completed_at) as quiz_date
+                FROM quiz_attempts 
+                WHERE user_id = ? 
+                AND completed_at >= DATE_SUB(NOW(), INTERVAL 30 DAY)
+                GROUP BY DATE(completed_at)
+                ORDER BY quiz_date DESC
+            ) consecutive_days
+        ");
+        $stmt->execute([$user_id]);
+        $streak_data = $stmt->fetch(PDO::FETCH_ASSOC);
+        $current_streak = $streak_data['streak_count'] ?? 0;
+        
+        // Insert or update user statistics
+        $stmt = $pdo->prepare("
+            INSERT INTO user_statistics (
+                user_id, total_quizzes, total_questions_answered, total_correct_answers,
+                average_accuracy, best_accuracy, total_time_spent, current_streak, 
+                longest_streak, last_quiz_date, updated_at
+            )
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, NOW())
+            ON DUPLICATE KEY UPDATE
+                total_quizzes = VALUES(total_quizzes),
+                total_questions_answered = VALUES(total_questions_answered),
+                total_correct_answers = VALUES(total_correct_answers),
+                average_accuracy = VALUES(average_accuracy),
+                best_accuracy = GREATEST(best_accuracy, VALUES(best_accuracy)),
+                total_time_spent = VALUES(total_time_spent),
+                current_streak = VALUES(current_streak),
+                longest_streak = GREATEST(longest_streak, VALUES(current_streak)),
+                last_quiz_date = VALUES(last_quiz_date),
+                updated_at = NOW()
+        ");
+        
+        $stmt->execute([
+            $user_id,
+            $stats['total_quizzes'],
+            $stats['total_questions_answered'] ?? 0,
+            $stats['total_correct_answers'] ?? 0,
+            $stats['average_accuracy'] ?? 0,
+            $stats['best_accuracy'] ?? 0,
+            $stats['total_time_spent'] ?? 0,
+            $current_streak,
+            $current_streak, // Will be compared with existing longest_streak
+            $stats['last_quiz_date']
+        ]);
+        
+        return true;
+    } catch (Exception $e) {
+        error_log("Error updating user statistics: " . $e->getMessage());
+        return false;
+    }
+}
+
+/**
+ * Get user performance summary (using cache table)
+ */
+function getUserPerformanceSummary($user_id) {
+    try {
+        $pdo = getConnection();
+        
+        // First try to get from cache
+        $stmt = $pdo->prepare("SELECT * FROM user_performance_cache WHERE user_id = ?");
+        $stmt->execute([$user_id]);
+        $cached = $stmt->fetch(PDO::FETCH_ASSOC);
+        
+        // If cache is recent (less than 1 hour old), return it
+        if ($cached && strtotime($cached['cache_updated_at']) > (time() - 3600)) {
+            return $cached;
+        }
+        
+        // Otherwise, calculate fresh data
+        $stmt = $pdo->prepare("
+            SELECT 
+                u.id as user_id,
+                u.username,
+                u.full_name,
+                COALESCE(COUNT(qa.id), 0) as total_quizzes,
+                COALESCE(ROUND(AVG(qa.accuracy), 2), 0) as average_accuracy,
+                COALESCE(MAX(qa.accuracy), 0) as best_accuracy,
+                MAX(DATE(qa.completed_at)) as last_quiz_date
+            FROM users u
+            LEFT JOIN quiz_attempts qa ON u.id = qa.user_id
+            WHERE u.id = ?
+            GROUP BY u.id, u.username, u.full_name
+        ");
+        $stmt->execute([$user_id]);
+        $summary = $stmt->fetch(PDO::FETCH_ASSOC);
+        
+        if (!$summary) {
+            return null;
+        }
+        
+        // Get categories attempted
+        $stmt = $pdo->prepare("
+            SELECT COUNT(DISTINCT qr.category) as categories_attempted
+            FROM quiz_attempts qa 
+            JOIN quiz_responses qr ON qa.id = qr.attempt_id 
+            WHERE qa.user_id = ?
+        ");
+        $stmt->execute([$user_id]);
+        $categories = $stmt->fetch(PDO::FETCH_ASSOC);
+        $summary['categories_attempted'] = $categories['categories_attempted'] ?? 0;
+        
+        // Get best category
+        $stmt = $pdo->prepare("
+            SELECT qr.category 
+            FROM quiz_attempts qa 
+            JOIN quiz_responses qr ON qa.id = qr.attempt_id 
+            WHERE qa.user_id = ? 
+            GROUP BY qr.category 
+            ORDER BY AVG(CASE WHEN qr.is_correct THEN 100 ELSE 0 END) DESC 
+            LIMIT 1
+        ");
+        $stmt->execute([$user_id]);
+        $best_cat = $stmt->fetch(PDO::FETCH_ASSOC);
+        $summary['best_category'] = $best_cat['category'] ?? 'N/A';
+        
+        // Get recent accuracy
+        $stmt = $pdo->prepare("
+            SELECT ROUND(AVG(accuracy), 0) as last_7_days_accuracy
+            FROM quiz_attempts 
+            WHERE user_id = ? AND completed_at >= DATE_SUB(NOW(), INTERVAL 7 DAY)
+        ");
+        $stmt->execute([$user_id]);
+        $recent = $stmt->fetch(PDO::FETCH_ASSOC);
+        $summary['last_7_days_accuracy'] = $recent['last_7_days_accuracy'] ?? 0;
+        
+        // Update cache
+        $stmt = $pdo->prepare("
+            INSERT INTO user_performance_cache (
+                user_id, total_quizzes, average_accuracy, best_accuracy, 
+                categories_attempted, best_category, last_7_days_accuracy, last_quiz_date
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+            ON DUPLICATE KEY UPDATE
+                total_quizzes = VALUES(total_quizzes),
+                average_accuracy = VALUES(average_accuracy),
+                best_accuracy = VALUES(best_accuracy),
+                categories_attempted = VALUES(categories_attempted),
+                best_category = VALUES(best_category),
+                last_7_days_accuracy = VALUES(last_7_days_accuracy),
+                last_quiz_date = VALUES(last_quiz_date),
+                cache_updated_at = NOW()
+        ");
+        $stmt->execute([
+            $user_id, $summary['total_quizzes'], $summary['average_accuracy'], 
+            $summary['best_accuracy'], $summary['categories_attempted'], 
+            $summary['best_category'], $summary['last_7_days_accuracy'], 
+            $summary['last_quiz_date']
+        ]);
+        
+        return $summary;
+        
+    } catch (Exception $e) {
+        error_log("Error getting user performance summary: " . $e->getMessage());
+        return null;
+    }
+}
+
+/**
+ * Get category performance for a user (using cache table)
+ */
+function getCategoryPerformance($user_id, $limit = null) {
+    try {
+        $pdo = getConnection();
+        
+        // Try to get from cache first
+        $sql = "SELECT * FROM category_performance_cache WHERE user_id = ? ORDER BY accuracy DESC";
+        if ($limit) {
+            $sql .= " LIMIT " . (int)$limit;
+        }
+        $stmt = $pdo->prepare($sql);
+        $stmt->execute([$user_id]);
+        $cached = $stmt->fetchAll(PDO::FETCH_ASSOC);
+        
+        // If we have cached data that's recent, return it
+        if (!empty($cached)) {
+            $latest_cache = max(array_column($cached, 'cache_updated_at'));
+            if (strtotime($latest_cache) > (time() - 3600)) { // 1 hour cache
+                return $cached;
+            }
+        }
+        
+        // Otherwise, calculate fresh data
+        $sql = "
+            SELECT 
+                qa.user_id,
+                qr.category,
+                COUNT(*) as total_questions,
+                SUM(CASE WHEN qr.is_correct THEN 1 ELSE 0 END) as correct_answers,
+                ROUND(AVG(CASE WHEN qr.is_correct THEN 100 ELSE 0 END), 2) as accuracy,
+                AVG(qr.time_spent) as avg_time_per_question,
+                MAX(qa.completed_at) as last_attempted,
+                COUNT(DISTINCT qa.id) as quiz_attempts
+            FROM quiz_attempts qa
+            JOIN quiz_responses qr ON qa.id = qr.attempt_id
+            WHERE qa.user_id = ?
+            GROUP BY qa.user_id, qr.category
+            ORDER BY accuracy DESC
+        ";
+        if ($limit) {
+            $sql .= " LIMIT " . (int)$limit;
+        }
+        
+        $stmt = $pdo->prepare($sql);
+        $stmt->execute([$user_id]);
+        $performance = $stmt->fetchAll(PDO::FETCH_ASSOC);
+        
+        // Update cache for each category
+        foreach ($performance as $cat) {
+            $strength_level = 'Needs Improvement';
+            if ($cat['accuracy'] >= 80) $strength_level = 'Strong';
+            elseif ($cat['accuracy'] >= 60) $strength_level = 'Average';
+            
+            $stmt = $pdo->prepare("
+                INSERT INTO category_performance_cache (
+                    user_id, category, total_questions, correct_answers, accuracy,
+                    avg_time_per_question, quiz_attempts, last_attempted, strength_level
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+                ON DUPLICATE KEY UPDATE
+                    total_questions = VALUES(total_questions),
+                    correct_answers = VALUES(correct_answers),
+                    accuracy = VALUES(accuracy),
+                    avg_time_per_question = VALUES(avg_time_per_question),
+                    quiz_attempts = VALUES(quiz_attempts),
+                    last_attempted = VALUES(last_attempted),
+                    strength_level = VALUES(strength_level),
+                    cache_updated_at = NOW()
+            ");
+            $stmt->execute([
+                $user_id, $cat['category'], $cat['total_questions'], $cat['correct_answers'],
+                $cat['accuracy'], $cat['avg_time_per_question'], $cat['quiz_attempts'],
+                $cat['last_attempted'], $strength_level
+            ]);
+        }
+        
+        return $performance;
+        
+    } catch (Exception $e) {
+        error_log("Error getting category performance: " . $e->getMessage());
+        return [];
+    }
+}
+
+/**
+ * Get recent performance trends (using cache table)
+ */
+function getRecentPerformanceTrends($user_id, $days = 30) {
+    try {
+        $pdo = getConnection();
+        
+        // Get from daily performance cache
+        $stmt = $pdo->prepare("
+            SELECT * FROM daily_performance_cache 
+            WHERE user_id = ? AND quiz_date >= DATE_SUB(NOW(), INTERVAL ? DAY)
+            ORDER BY quiz_date DESC
+        ");
+        $stmt->execute([$user_id, $days]);
+        $cached = $stmt->fetchAll(PDO::FETCH_ASSOC);
+        
+        // If cache is empty or old, refresh it
+        if (empty($cached)) {
+            refreshDailyPerformanceCache($user_id, $days);
+            
+            // Try again
+            $stmt->execute([$user_id, $days]);
+            $cached = $stmt->fetchAll(PDO::FETCH_ASSOC);
+        }
+        
+        return $cached;
+        
+    } catch (Exception $e) {
+        error_log("Error getting recent performance trends: " . $e->getMessage());
+        return [];
+    }
+}
+
+/**
+ * Refresh daily performance cache
+ */
+function refreshDailyPerformanceCache($user_id, $days = 90) {
+    try {
+        $pdo = getConnection();
+        
+        $stmt = $pdo->prepare("
+            INSERT INTO daily_performance_cache (
+                user_id, quiz_date, quizzes_taken, total_questions, correct_answers,
+                avg_accuracy, total_time_spent, best_accuracy
+            )
+            SELECT 
+                user_id,
+                DATE(completed_at) as quiz_date,
+                COUNT(*) as quizzes_taken,
+                SUM(total_questions) as total_questions,
+                SUM(correct_answers) as correct_answers,
+                ROUND(AVG(accuracy), 2) as avg_accuracy,
+                SUM(time_taken) as total_time_spent,
+                MAX(accuracy) as best_accuracy
+            FROM quiz_attempts
+            WHERE user_id = ? AND completed_at >= DATE_SUB(NOW(), INTERVAL ? DAY)
+            GROUP BY user_id, DATE(completed_at)
+            ON DUPLICATE KEY UPDATE
+                quizzes_taken = VALUES(quizzes_taken),
+                total_questions = VALUES(total_questions),
+                correct_answers = VALUES(correct_answers),
+                avg_accuracy = VALUES(avg_accuracy),
+                total_time_spent = VALUES(total_time_spent),
+                best_accuracy = VALUES(best_accuracy),
+                cache_updated_at = NOW()
+        ");
+        $stmt->execute([$user_id, $days]);
+        
+        return true;
+    } catch (Exception $e) {
+        error_log("Error refreshing daily performance cache: " . $e->getMessage());
+        return false;
+    }
+}
+
+/**
+ * Enhanced quiz completion tracking with performance analytics
+ */
+function recordQuizCompletionWithAnalytics($user_id, $quiz_title, $quiz_type, $total_questions, $correct_answers, $accuracy, $time_taken, $questions_data = []) {
+    try {
+        $pdo = getConnection();
+        
+        // Record the quiz attempt
+        $stmt = $pdo->prepare("
+            INSERT INTO quiz_attempts (user_id, quiz_title, quiz_type, total_questions, correct_answers, score, max_score, accuracy, time_taken, started_at, completed_at)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, NOW() - INTERVAL ? SECOND, NOW())
+        ");
+        
+        $score = $correct_answers * 2; // 2 points per correct answer
+        $max_score = $total_questions * 2;
+        
+        $stmt->execute([
+            $user_id, $quiz_title, $quiz_type, $total_questions, 
+            $correct_answers, $score, $max_score, $accuracy, $time_taken, $time_taken
+        ]);
+        
+        $quiz_attempt_id = $pdo->lastInsertId();
+        
+        // Record individual question responses if provided
+        if (!empty($questions_data)) {
+            $stmt = $pdo->prepare("
+                INSERT INTO quiz_responses (attempt_id, question_number, question_text, user_answer, correct_answer, is_correct, category, subcategory)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+            ");
+            
+            foreach ($questions_data as $index => $question) {
+                $stmt->execute([
+                    $quiz_attempt_id,
+                    $index + 1,
+                    $question['question'],
+                    $question['user_answer'] ?? '',
+                    $question['correct_answer'],
+                    $question['is_correct'] ? 1 : 0,
+                    $question['category'] ?? '',
+                    $question['subcategory'] ?? ''
+                ]);
+            }
+        }
+        
+        return $quiz_attempt_id;
+        
+    } catch (Exception $e) {
+        error_log("Error recording quiz completion: " . $e->getMessage());
+        return false;
+    }
 }
 
