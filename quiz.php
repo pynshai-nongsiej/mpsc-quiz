@@ -33,12 +33,12 @@ if ($mock_mode || $exam_type || $category) {
                         'name' => 'Mixed English Test',
                         'categories' => [
                             'General English' => [
-                                'count' => 20,
+                                'count' => 25,
                                 'testqna_category' => 'general-english',
                                 'subcategory' => null
                             ]
                         ],
-                        'total_questions' => 20
+                        'total_questions' => 25
                     ];
                     break;
                 case 'mixed-gk':
@@ -46,12 +46,12 @@ if ($mock_mode || $exam_type || $category) {
                         'name' => 'Mixed General Knowledge Test',
                         'categories' => [
                             'General Knowledge' => [
-                                'count' => 20,
+                                'count' => 25,
                                 'testqna_category' => 'general-knowledge',
                                 'subcategory' => null
                             ]
                         ],
-                        'total_questions' => 20
+                        'total_questions' => 25
                     ];
                     break;
                 case 'mixed-aptitude':
@@ -59,12 +59,12 @@ if ($mock_mode || $exam_type || $category) {
                         'name' => 'Mixed Aptitude Test',
                         'categories' => [
                             'General Aptitude' => [
-                                'count' => 20,
+                                'count' => 25,
                                 'testqna_category' => 'aptitude',
                                 'subcategory' => null
                             ]
                         ],
-                        'total_questions' => 20
+                        'total_questions' => 25
                     ];
                     break;
                 case 'meghalaya-gk':
@@ -72,12 +72,12 @@ if ($mock_mode || $exam_type || $category) {
                         'name' => 'Meghalaya General Knowledge Test',
                         'categories' => [
                             'Meghalaya GK' => [
-                                'count' => 20,
+                                'count' => 25,
                                 'testqna_category' => 'general-knowledge',
                                 'subcategory' => 'meghalaya'
                             ]
                         ],
-                        'total_questions' => 20
+                        'total_questions' => 25
                     ];
                     break;
                 default:
@@ -127,7 +127,8 @@ if ($mock_mode || $exam_type || $category) {
                 }
                 
                 // Load questions from TestQnA using the new function
-                $category_questions = load_questions_from_testqna($testqna_category, $target_subcategory, $target_count);
+                $user_id = $_SESSION['user_id'] ?? null;
+                $category_questions = load_questions_from_testqna($testqna_category, $target_subcategory, $target_count, $user_id);
                 
                 if (empty($category_questions)) {
                     error_log("WARNING: No questions found for category: $testqna_category" . ($target_subcategory ? ", subcategory: $target_subcategory" : ""));
@@ -417,18 +418,93 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     header('Location: result.php');
     exit;
 }
+
 ?>
 <!DOCTYPE html>
 <html class="light" lang="en">
 <head>
     <meta charset="utf-8"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-    <title>Quiz: <?= htmlspecialchars($quiz_title ?? 'Quiz') ?></title>
+    <title><?= htmlspecialchars($quiz_title) ?> - MPSC Quiz Portal</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <link href="https://fonts.googleapis.com" rel="preconnect"/>
     <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&amp;display=swap" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+
+    <?php if (isset($_SESSION['category_reset'])): ?>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const resetData = <?= json_encode($_SESSION['category_reset']) ?>;
+        showResetNotification(resetData);
+    });
+
+    function showResetNotification(data) {
+        const notification = document.createElement('div');
+        notification.className = 'fixed top-20 right-4 z-50 max-w-md bg-white dark:bg-gray-800 border border-green-200 dark:border-green-700 rounded-lg shadow-lg p-6 transform translate-x-full transition-transform duration-300';
+        
+        notification.innerHTML = `
+            <div class="flex items-start">
+                <div class="flex-shrink-0">
+                    <span class="text-2xl">🎉</span>
+                </div>
+                <div class="ml-3 w-0 flex-1">
+                    <p class="text-sm font-medium text-gray-900 dark:text-white">
+                        Category Reset Complete!
+                    </p>
+                    <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">
+                        ${data.message}
+                    </p>
+                    ${data.stats ? `
+                    <div class="mt-3 text-xs text-gray-600 dark:text-gray-300 space-y-1">
+                        <div class="flex justify-between">
+                            <span>Previous Average:</span>
+                            <span class="font-semibold">${data.stats.average_score || 0}%</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span>Highest Score:</span>
+                            <span class="font-semibold text-green-600">${data.stats.highest_score || 0}%</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span>Total Attempts:</span>
+                            <span class="font-semibold">${data.stats.total_attempts || 0}</span>
+                        </div>
+                    </div>
+                    ` : ''}
+                </div>
+                <div class="ml-4 flex-shrink-0 flex">
+                    <button onclick="this.parentElement.parentElement.parentElement.remove()" class="bg-white dark:bg-gray-800 rounded-md inline-flex text-gray-400 hover:text-gray-500 focus:outline-none">
+                        <span class="sr-only">Close</span>
+                        <span class="material-symbols-outlined text-lg">close</span>
+                    </button>
+                </div>
+            </div>
+        `;
+        
+        document.body.appendChild(notification);
+        
+        // Slide in
+        setTimeout(() => {
+            notification.classList.remove('translate-x-full');
+        }, 100);
+        
+        // Auto-hide after 8 seconds
+        setTimeout(() => {
+            notification.classList.add('translate-x-full');
+            setTimeout(() => {
+                if (notification.parentNode) {
+                    notification.parentNode.removeChild(notification);
+                }
+            }, 300);
+        }, 8000);
+    }
+    </script>
+    <?php 
+        // Clear the reset notification after displaying
+        unset($_SESSION['category_reset']); 
+    endif; 
+    ?>
     <style>
         .material-symbols-outlined {
             font-variation-settings: 'FILL' 0,

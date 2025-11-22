@@ -255,8 +255,8 @@ function parse_testqna_file($filepath) {
     return $questions;
 }
 
-// Load randomized questions from TestQnA files
-function load_questions_from_testqna($category, $subcategory = null, $count = 20) {
+// Load randomized questions from TestQnA files with repetition prevention
+function load_questions_from_testqna($category, $subcategory = null, $count = 20, $user_id = null) {
     $all_questions = [];
     
     if ($subcategory !== null) {
@@ -275,11 +275,83 @@ function load_questions_from_testqna($category, $subcategory = null, $count = 20
         }
     }
     
+    // If user is logged in, filter out previously used questions
+    if ($user_id && isLoggedIn()) {
+        // Check if category needs reset
+        $reset_status = checkCategoryResetStatus($user_id, $category);
+        
+        if ($reset_status['needs_reset']) {
+            // Perform automatic reset
+            $reset_stats = resetCategoryProgress($user_id, $category);
+            
+            // Store reset notification in session
+            $_SESSION['category_reset'] = [
+                'category' => $category,
+                'stats' => $reset_stats,
+                'message' => "🎉 Congratulations! You've completed most questions in " . ucfirst(str_replace('-', ' ', $category)) . "!"
+            ];
+            
+            error_log("Category {$category} reset for user {$user_id}. Stats: " . json_encode($reset_stats));
+        } else {
+            // Filter out used questions
+            $used_hashes = getUsedQuestionHashes($user_id, $category);
+            
+            if (!empty($used_hashes)) {
+                $filtered_questions = [];
+                foreach ($all_questions as $question) {
+                    $question_hash = generateQuestionHash(
+                        $question['question'], 
+                        $question['options'], 
+                        $question['answer']
+                    );
+                    
+                    if (!in_array($question_hash, $used_hashes)) {
+                        $filtered_questions[] = $question;
+                    }
+                }
+                
+                $all_questions = $filtered_questions;
+                error_log("Filtered out " . count($used_hashes) . " used questions for user {$user_id} in category {$category}. Remaining: " . count($all_questions));
+            }
+        }
+        
+        // If we don't have enough unused questions, add some used ones to reach the count
+        if (count($all_questions) < $count) {
+            error_log("Not enough unused questions (" . count($all_questions) . " < {$count}) for user {$user_id} in category {$category}");
+            
+            // Load all questions again if needed
+            if (count($all_questions) < $count / 2) {
+                $all_questions = [];
+                if ($subcategory !== null) {
+                    $file_extension = ($category === 'general-english') ? '.json' : '.txt';
+                    $filepath = __DIR__ . '/../TestQnA/' . $category . '/' . $subcategory . $file_extension;
+                    $questions = parse_testqna_file($filepath);
+                    $all_questions = array_merge($all_questions, $questions);
+                } else {
+                    $subcategories = get_testqna_subcategories($category);
+                    foreach ($subcategories as $subcat) {
+                        $questions = parse_testqna_file($subcat['file_path']);
+                        $all_questions = array_merge($all_questions, $questions);
+                    }
+                }
+                
+                error_log("Reloaded all questions for user {$user_id} in category {$category}. Total: " . count($all_questions));
+            }
+        }
+    }
+    
     // Shuffle questions for randomization
     shuffle($all_questions);
     
     // Return requested number of questions
-    return array_slice($all_questions, 0, $count);
+    $selected_questions = array_slice($all_questions, 0, $count);
+    
+    // Track the selected questions if user is logged in
+    if ($user_id && isLoggedIn() && !empty($selected_questions)) {
+        trackUsedQuestions($user_id, $category, $selected_questions);
+    }
+    
+    return $selected_questions;
 }
 
 // Get TestQnA category metadata for display
@@ -1712,6 +1784,267 @@ function recordQuizCompletionWithAnalytics($user_id, $quiz_title, $quiz_type, $t
     } catch (Exception $e) {
         error_log("Error recording quiz completion: " . $e->getMessage());
         return false;
+    }
+}
+
+/**
+ * Generate a unique hash for a question to track usage
+ */
+function generateQuestionHash($question_text, $options, $answer) {
+    $content = $question_text . serialize($options) . $answer;
+    return hash('sha256', $content);
+}
+
+/**
+ * Track used questions for a user in a specific category
+ */
+function trackUsedQuestions($user_id, $category, $questions) {
+    try {
+        $pdo = getConnection();
+        
+        $stmt = $pdo->prepare("
+            INSERT IGNORE INTO user_question_history (user_id, category, subcategory, question_hash, question_text, used_at)
+            VALUES (?, ?, ?, ?, ?, NOW())
+        ");
+        
+        foreach ($questions as $question) {
+            $question_hash = generateQuestionHash(
+                $question['question'], 
+                $question['options'], 
+                $question['answer']
+            );
+            
+            $stmt->execute([
+                $user_id,
+                $category,
+                $question['subcategory'] ?? null,
+                $question_hash,
+                substr($question['question'], 0, 1000) // Limit length
+            ]);
+        }
+        
+        // Update category progress
+        updateCategoryProgress($user_id, $category);
+        
+        return true;
+        
+    } catch (Exception $e) {
+        error_log("Error tracking used questions: " . $e->getMessage());
+        return false;
+    }
+}
+
+/**
+ * Get used question hashes for a user in a specific category
+ */
+function getUsedQuestionHashes($user_id, $category) {
+    try {
+        $pdo = getConnection();
+        
+        $stmt = $pdo->prepare("
+            SELECT question_hash 
+            FROM user_question_history 
+            WHERE user_id = ? AND category = ?
+        ");
+        
+        $stmt->execute([$user_id, $category]);
+        
+        return array_column($stmt->fetchAll(PDO::FETCH_ASSOC), 'question_hash');
+        
+    } catch (Exception $e) {
+        error_log("Error getting used question hashes: " . $e->getMessage());
+        return [];
+    }
+}
+
+/**
+ * Update category progress tracking
+ */
+function updateCategoryProgress($user_id, $category) {
+    try {
+        $pdo = getConnection();
+        
+        // Count total available questions in category
+        $total_questions = countTotalQuestionsInCategory($category);
+        
+        // Count used questions
+        $stmt = $pdo->prepare("
+            SELECT COUNT(*) as used_count 
+            FROM user_question_history 
+            WHERE user_id = ? AND category = ?
+        ");
+        $stmt->execute([$user_id, $category]);
+        $used_count = $stmt->fetchColumn();
+        
+        $completion_percentage = $total_questions > 0 ? ($used_count / $total_questions) * 100 : 0;
+        
+        // Insert or update progress
+        $stmt = $pdo->prepare("
+            INSERT INTO user_category_progress (user_id, category, total_questions_available, questions_used, completion_percentage)
+            VALUES (?, ?, ?, ?, ?)
+            ON DUPLICATE KEY UPDATE
+                total_questions_available = VALUES(total_questions_available),
+                questions_used = VALUES(questions_used),
+                completion_percentage = VALUES(completion_percentage),
+                updated_at = CURRENT_TIMESTAMP
+        ");
+        
+        $stmt->execute([$user_id, $category, $total_questions, $used_count, $completion_percentage]);
+        
+        return true;
+        
+    } catch (Exception $e) {
+        error_log("Error updating category progress: " . $e->getMessage());
+        return false;
+    }
+}
+
+/**
+ * Count total questions available in a category
+ */
+function countTotalQuestionsInCategory($category) {
+    try {
+        $total = 0;
+        $subcategories = get_testqna_subcategories($category);
+        
+        foreach ($subcategories as $subcat) {
+            $questions = parse_testqna_file($subcat['file_path']);
+            $total += count($questions);
+        }
+        
+        return $total;
+        
+    } catch (Exception $e) {
+        error_log("Error counting total questions in category: " . $e->getMessage());
+        return 0;
+    }
+}
+
+/**
+ * Check if category needs reset and get performance stats
+ */
+function checkCategoryResetStatus($user_id, $category) {
+    try {
+        $pdo = getConnection();
+        
+        $stmt = $pdo->prepare("
+            SELECT 
+                total_questions_available,
+                questions_used,
+                completion_percentage,
+                last_reset_at,
+                reset_count
+            FROM user_category_progress 
+            WHERE user_id = ? AND category = ?
+        ");
+        
+        $stmt->execute([$user_id, $category]);
+        $progress = $stmt->fetch(PDO::FETCH_ASSOC);
+        
+        if (!$progress) {
+            return ['needs_reset' => false, 'stats' => null];
+        }
+        
+        $needs_reset = $progress['completion_percentage'] >= 95; // Reset when 95% complete
+        
+        $stats = null;
+        if ($needs_reset) {
+            // Get performance stats before reset
+            $stats = getCategoryPerformanceStats($user_id, $category, $progress['last_reset_at']);
+        }
+        
+        return [
+            'needs_reset' => $needs_reset,
+            'progress' => $progress,
+            'stats' => $stats
+        ];
+        
+    } catch (Exception $e) {
+        error_log("Error checking category reset status: " . $e->getMessage());
+        return ['needs_reset' => false, 'stats' => null];
+    }
+}
+
+/**
+ * Get performance statistics for a category
+ */
+function getCategoryPerformanceStats($user_id, $category, $since_date = null) {
+    try {
+        $pdo = getConnection();
+        
+        $date_condition = $since_date ? "AND qa.completed_at > ?" : "";
+        $params = [$user_id];
+        if ($since_date) {
+            $params[] = $since_date;
+        }
+        
+        $stmt = $pdo->prepare("
+            SELECT 
+                COUNT(*) as total_attempts,
+                ROUND(AVG(qa.accuracy), 2) as average_score,
+                ROUND(MAX(qa.accuracy), 2) as highest_score,
+                ROUND(MIN(qa.accuracy), 2) as lowest_score
+            FROM quiz_attempts qa
+            WHERE qa.user_id = ? 
+            AND (qa.quiz_type LIKE '%{$category}%' OR qa.quiz_title LIKE '%{$category}%')
+            {$date_condition}
+        ");
+        
+        $stmt->execute($params);
+        
+        return $stmt->fetch(PDO::FETCH_ASSOC);
+        
+    } catch (Exception $e) {
+        error_log("Error getting category performance stats: " . $e->getMessage());
+        return null;
+    }
+}
+
+/**
+ * Reset category progress and save performance stats
+ */
+function resetCategoryProgress($user_id, $category) {
+    try {
+        $pdo = getConnection();
+        
+        // Get current performance stats before reset
+        $stats = getCategoryPerformanceStats($user_id, $category);
+        
+        // Update progress table with reset info
+        $stmt = $pdo->prepare("
+            UPDATE user_category_progress 
+            SET 
+                last_reset_at = NOW(),
+                reset_count = reset_count + 1,
+                average_score_before_reset = ?,
+                highest_score_before_reset = ?,
+                total_attempts_before_reset = ?
+            WHERE user_id = ? AND category = ?
+        ");
+        
+        $stmt->execute([
+            $stats['average_score'] ?? 0,
+            $stats['highest_score'] ?? 0,
+            $stats['total_attempts'] ?? 0,
+            $user_id,
+            $category
+        ]);
+        
+        // Clear used questions history for this category
+        $stmt = $pdo->prepare("
+            DELETE FROM user_question_history 
+            WHERE user_id = ? AND category = ?
+        ");
+        $stmt->execute([$user_id, $category]);
+        
+        // Reset progress counters
+        updateCategoryProgress($user_id, $category);
+        
+        return $stats;
+        
+    } catch (Exception $e) {
+        error_log("Error resetting category progress: " . $e->getMessage());
+        return null;
     }
 }
 

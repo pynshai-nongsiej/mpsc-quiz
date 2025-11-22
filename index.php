@@ -176,7 +176,7 @@ if ($is_logged_in) {
 <p class="mt-2 text-sm text-[var(--category-text)]">Comprehensive English language test covering grammar, vocabulary, and comprehension.</p>
 </div>
 <div class="mt-6">
-<span class="text-xs font-medium px-3 py-1 bg-[rgba(255,255,255,0.1)] dark:bg-[rgba(0,0,0,0.1)] rounded-full border border-[var(--glass-border)]">20 randomized questions</span>
+<span class="text-xs font-medium px-3 py-1 bg-[rgba(255,255,255,0.1)] dark:bg-[rgba(0,0,0,0.1)] rounded-full border border-[var(--glass-border)]">25 randomized questions</span>
 </div>
 </a>
 <a href="quiz.php?category=mixed-gk" class="flex flex-col p-8 bg-[var(--glass-bg)] backdrop-blur-2xl border border-[var(--glass-border)] rounded-xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
@@ -186,7 +186,7 @@ if ($is_logged_in) {
 <p class="mt-2 text-sm text-[var(--category-text)]">General knowledge test covering current affairs, history, geography, and awareness.</p>
 </div>
 <div class="mt-6">
-<span class="text-xs font-medium px-3 py-1 bg-[rgba(255,255,255,0.1)] dark:bg-[rgba(0,0,0,0.1)] rounded-full border border-[var(--glass-border)]">20 randomized questions</span>
+<span class="text-xs font-medium px-3 py-1 bg-[rgba(255,255,255,0.1)] dark:bg-[rgba(0,0,0,0.1)] rounded-full border border-[var(--glass-border)]">25 randomized questions</span>
 </div>
 </a>
 <a href="quiz.php?category=mixed-aptitude" class="flex flex-col p-8 bg-[var(--glass-bg)] backdrop-blur-2xl border border-[var(--glass-border)] rounded-xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
@@ -196,7 +196,7 @@ if ($is_logged_in) {
 <p class="mt-2 text-sm text-[var(--category-text)]">Logical reasoning, quantitative aptitude, and analytical thinking skills.</p>
 </div>
 <div class="mt-6">
-<span class="text-xs font-medium px-3 py-1 bg-[rgba(255,255,255,0.1)] dark:bg-[rgba(0,0,0,0.1)] rounded-full border border-[var(--glass-border)]">20 randomized questions</span>
+<span class="text-xs font-medium px-3 py-1 bg-[rgba(255,255,255,0.1)] dark:bg-[rgba(0,0,0,0.1)] rounded-full border border-[var(--glass-border)]">25 randomized questions</span>
 </div>
 </a>
 <a href="quiz.php?category=meghalaya-gk" class="flex flex-col p-8 bg-[var(--glass-bg)] backdrop-blur-2xl border border-[var(--glass-border)] rounded-xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
@@ -206,7 +206,7 @@ if ($is_logged_in) {
 <p class="mt-2 text-sm text-[var(--category-text)]">Dedicated section for Meghalaya-specific general knowledge and current affairs.</p>
 </div>
 <div class="mt-6">
-<span class="text-xs font-medium px-3 py-1 bg-[rgba(255,255,255,0.1)] dark:bg-[rgba(0,0,0,0.1)] rounded-full border border-[var(--glass-border)]">Comprehensive Meghalaya questions</span>
+<span class="text-xs font-medium px-3 py-1 bg-[rgba(255,255,255,0.1)] dark:bg-[rgba(0,0,0,0.1)] rounded-full border border-[var(--glass-border)]">25 randomized questions</span>
 </div>
 </a>
 </div>
