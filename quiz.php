@@ -424,150 +424,188 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <meta charset="utf-8"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <title>Quiz: <?= htmlspecialchars($quiz_title ?? 'Quiz') ?></title>
-    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&amp;display=swap" rel="stylesheet"/>
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-    <style type="text/tailwindcss">
-        :root {
-            --background-color-light: #f5f5f5;
-            --text-primary-light: #121212;
-            --text-secondary-light: #6B7280;
-            --card-bg-light: rgba(255, 255, 255, 0.6);
-            --card-border-light: rgba(0, 0, 0, 0.05);
-            --card-hover-shadow-light: rgba(0, 0, 0, 0.05);
-            --toggle-bg-light: #E5E7EB;
-            --toggle-indicator-light: #ffffff;
-            --background-color-dark: #121212;
-            --text-primary-dark: #f5f5f5;
-            --text-secondary-dark: #9CA3AF;
-            --card-bg-dark: rgba(31, 31, 31, 0.6);
-            --card-border-dark: rgba(255, 255, 255, 0.1);
-            --card-hover-shadow-dark: rgba(255, 255, 255, 0.05);
-            --toggle-bg-dark: #374151;
-            --toggle-indicator-dark: #1F2937;
-            --progress-bar-bg: #e5e7eb;
-            --progress-bar-fill: #1f2937;
-            --progress-bar-glow: 0 0 8px rgba(0, 0, 0, 0.1);
+    <link href="https://fonts.googleapis.com" rel="preconnect"/>
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+    <style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 24
         }
-        .light {
-            --background-color: var(--background-color-light);
-            --text-primary: var(--text-primary-light);
-            --text-secondary: var(--text-secondary-light);
-            --card-bg: var(--card-bg-light);
-            --card-border: var(--card-border-light);
-            --card-hover-shadow: var(--card-hover-shadow-light);
-            --toggle-bg: var(--toggle-bg-light);
-            --toggle-indicator: var(--toggle-indicator-light);
-            --option-hover-bg: rgba(0, 0, 0, 0.05);
-            --option-checked-bg: #1f2937;
-            --option-checked-text: #ffffff;
-            --correct-bg: #d1fae5;
-            --correct-border: #10b981;
-            --correct-text: #065f46;
-            --incorrect-bg: #fee2e2;
-            --incorrect-border: #ef4444;
-            --incorrect-text: #991b1b;
+        .light .glassmorphic {
+            background-color: rgba(255, 255, 255, 0.15);
+            -webkit-backdrop-filter: blur(20px);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.1);
         }
-        .dark {
-            --background-color: var(--background-color-dark);
-            --text-primary: var(--text-primary-dark);
-            --text-secondary: var(--text-secondary-dark);
-            --card-bg: var(--card-bg-dark);
-            --card-border: var(--card-border-dark);
-            --card-hover-shadow: var(--card-hover-shadow-dark);
-            --toggle-bg: var(--toggle-bg-dark);
-            --toggle-indicator: var(--toggle-indicator-dark);
-            --progress-bar-bg: #374151;
-            --progress-bar-fill: #f9fafb;
-            --progress-bar-glow: 0 0 8px rgba(255, 255, 255, 0.1);
-            --option-hover-bg: rgba(255, 255, 255, 0.1);
-            --option-checked-bg: #f9fafb;
-            --option-checked-text: #1f2937;
-            --correct-bg: #064e3b;
-            --correct-border: #34d399;
-            --correct-text: #d1fae5;
-            --incorrect-bg: #7f1d1d;
-            --incorrect-border: #f87171;
-            --incorrect-text: #fee2e2;
+        .dark .glassmorphic {
+            background-color: rgba(16, 16, 16, 0.15);
+            -webkit-backdrop-filter: blur(20px);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
         }
-        @keyframes fadeIn {
-          from {
-            opacity: 0;
-            transform: translateY(10px);
-          }
-          to {
-            opacity: 1;
-            transform: translateY(0);
-          }
+        .light .glassmorphic-darker {
+            background-color: rgba(255, 255, 255, 0.05);
+            -webkit-backdrop-filter: blur(30px);
+            backdrop-filter: blur(30px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
         }
-        .fade-in {
-          animation: fadeIn 0.5s ease-in-out forwards;
+        .dark .glassmorphic-darker {
+            background-color: rgba(0, 0, 0, 0.1);
+            -webkit-backdrop-filter: blur(30px);
+            backdrop-filter: blur(30px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
         }
-        .glassmorphism-panel {
-          background: var(--card-bg);
-          backdrop-filter: blur(20px);
-          border: 1px solid var(--card-border);
-          border-radius: 1.5rem;
+        .parallax-shape {
+            position: absolute;
+            border-radius: 9999px;
+            filter: blur(80px);
         }
-        .glass-button {
-          background: var(--primary-color);
-          color: var(--button-primary-text);
-          transition: all 0.3s ease;
+        .light .parallax-shape {
+            background-color: rgba(0, 0, 0, 0.03);
         }
-        .glass-button:hover {
-          opacity: 0.9;
-          transform: scale(1.02);
+        .dark .parallax-shape {
+            background-color: rgba(255, 255, 255, 0.03);
         }
-        .progress-glow {
-          box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+        .light .option-radio:checked+.option-label {
+            background-color: #000000;
+            color: #ffffff;
+            border-color: #000000;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
         }
-        #theme-toggle:checked+label div {
-          transform: translateX(100%);
+        .dark .option-radio:checked+.option-label {
+            background-color: #ffffff;
+            color: #000000;
+            border-color: #ffffff;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+        }
+        .light .hollow-button {
+            background-color: transparent;
+            border: 1px solid #000000;
+            color: #000000;
+            transition: all 200ms ease-in-out;
+        }
+        .light .hollow-button:hover {
+            background-color: #000000;
+            color: #ffffff;
+        }
+        .dark .hollow-button {
+            border: 1px solid #ffffff;
+            color: #ffffff;
+        }
+        .dark .hollow-button:hover {
+            background-color: #ffffff;
+            color: #000000;
+        }
+        .light .primary-button {
+            background-color: #000000;
+            color: #ffffff;
+            transition: all 200ms ease-in-out;
+        }
+        .light .primary-button:hover {
+            transform: scale(1.03);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+        }
+        .dark .primary-button {
+            background-color: #ffffff;
+            color: #000000;
+        }
+        .dark .primary-button:hover {
+            box-shadow: 0 4px 20px rgba(255, 255, 255, 0.15);
+        }
+        .primary-button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            transform: none !important;
+            box-shadow: none !important;
+        }
+        .hollow-button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
         }
         .quiz-option {
-          transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease-out, box-shadow 0.3s ease, border-color 0.3s ease;
+            transition: all 200ms ease-in-out;
         }
         .quiz-option:hover:not(.disabled) {
-          background-color: var(--option-hover-bg);
-          transform: translateY(-2px);
+            border-color: rgba(0, 0, 0, 0.3);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+        .dark .quiz-option:hover:not(.disabled) {
+            border-color: rgba(255, 255, 255, 0.3);
         }
         .quiz-option.selected {
-          background-color: var(--option-checked-bg);
-          color: var(--option-checked-text);
-          box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            background-color: #000000;
+            color: #ffffff;
+            border-color: #000000;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
         }
-        .quiz-option.selected:hover {
-            background-color: var(--option-checked-bg);
-            color: var(--option-checked-text);
-        }
-        .quiz-option.correct {
-          background-color: var(--correct-bg);
-          border-color: var(--correct-border);
-          color: var(--correct-text);
-          box-shadow: 0 0 15px -3px var(--correct-border);
-        }
-        .quiz-option.incorrect {
-          background-color: var(--incorrect-bg);
-          border-color: var(--incorrect-border);
-          color: var(--incorrect-text);
-          box-shadow: 0 0 15px -3px var(--incorrect-border);
+        .dark .quiz-option.selected {
+            background-color: #ffffff;
+            color: #000000;
+            border-color: #ffffff;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
         }
         .quiz-option.disabled {
-          cursor: not-allowed;
-          pointer-events: none;
+            cursor: not-allowed;
+            pointer-events: none;
+        }
+        /* Responsive question text sizing */
+        .question-text {
+            font-size: clamp(1.1rem, 3.5vw, 2rem);
+            line-height: 1.4;
+        }
+        .question-text.long-question {
+            font-size: clamp(0.95rem, 2.8vw, 1.4rem);
+            line-height: 1.3;
+        }
+        .question-text.very-long-question {
+            font-size: clamp(0.85rem, 2.2vw, 1.2rem);
+            line-height: 1.2;
         }
     </style>
-    <style>
-        body {
-          min-height: max(884px, 100dvh);
-          font-family: 'Manrope', sans-serif;
-          transition: background-color 0.3s ease, color 0.3s ease;
+    <script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#000000",
+                        "background-light": "#ffffff",
+                        "background-dark": "#000000",
+                    },
+                    fontFamily: {
+                        "display": ["Space Grotesk", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.5rem",
+                        "lg": "0.75rem",
+                        "xl": "1rem",
+                        "full": "9999px"
+                    },
+                },
+            },
         }
-    </style>
+        function toggleTheme() {
+            document.documentElement.classList.toggle('dark');
+            document.documentElement.classList.toggle('light');
+        }
+    </script>
 </head>
-<body class="bg-[var(--background-color)] text-[var(--text-primary)]">
-    <div class="relative flex flex-col min-h-screen justify-between overflow-hidden">
-        <form method="post" action="quiz.php<?= $query_string ?>" class="flex-grow flex flex-col">
+<body class="font-display bg-background-light dark:bg-background-dark text-primary dark:text-background-light transition-colors duration-300">
+<div class="relative flex h-screen min-h-[700px] w-full flex-col items-center justify-center overflow-hidden p-4 sm:p-6 md:p-8">
+    <!-- Parallax Background Shapes -->
+    <div class="parallax-shape -top-1/4 -left-1/4 h-1/2 w-1/2" data-alt="Abstract blurred circular shape, monochrome, low opacity"></div>
+    <div class="parallax-shape -bottom-1/4 -right-1/4 h-2/3 w-2/3" data-alt="Abstract blurred circular shape, monochrome, low opacity"></div>
+    <div class="parallax-shape top-1/2 -right-1/3 h-1/2 w-1/2" data-alt="Abstract blurred circular shape, monochrome, low opacity"></div>
+    
+    <div class="relative z-10 flex h-full w-full max-w-4xl flex-col">
+        <form method="post" action="quiz.php<?= $query_string ?>" class="flex h-full flex-col">
             <?php
             // Generate CSRF token if not exists
             if (empty($_SESSION['csrf_token'])) {
@@ -577,108 +615,115 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <input type="hidden" name="csrf_token" value="<?= htmlspecialchars($_SESSION['csrf_token']) ?>">
             <input type="hidden" name="quiz_type" value="<?php echo htmlspecialchars($quiz_type ?? 'general'); ?>">
             <input type="hidden" name="hidden_timer_elapsed" id="hidden_timer_elapsed" value="0">
-            <?php include 'includes/navbar.php'; ?>
-            <?php include 'includes/mobile_navbar.php'; ?>
-            
-            <div class="mt-20"></div>
 
-            <div class="mb-6 fade-in px-2">
-                <div class="flex justify-between items-center mb-2">
-                    <p class="text-sm font-semibold text-[var(--text-secondary)]">Question <span id="current-question">1</span> of <?= count($questions) ?></p>
-                </div>
-                <div class="w-full bg-[var(--progress-bar-bg)] rounded-full h-2">
-                    <div class="h-2 rounded-full progress-glow" id="progress-bar" style="width: 0%; background-color: var(--progress-bar-fill); box-shadow: var(--progress-bar-glow);"></div>
-                </div>
-            </div>
-
-            <div class="glassmorphism-panel p-6 sm:p-8 flex-grow flex flex-col justify-center fade-in" style="animation-delay: 0.2s;">
-                <?php foreach ($questions as $i => $q): ?>
-                    <div class="question-container <?= $i === 0 ? 'active' : 'hidden' ?>" data-question="<?= $i ?>" data-correct-answer="<?= strtolower($q['answer'] ?? 'a') ?>">
-                        <?php 
-                        // Get the category from the question data
-                        $category_name = $q['category'] ?? 'General';
-                        
-                        // Get the category metadata for this category
-                        $category_meta = get_category_meta($category_name);
-                        
-                        // Set default values if not found
-                        $bg_color = $category_meta['bg_color'] ?? 'bg-gray-100';
-                        $text_color = $category_meta['text_color'] ?? 'text-gray-800';
-                        $icon = $category_meta['icon'] ?? '📚';
-                        ?>
-                        <div class="mb-4">
-                            <span class="inline-flex items-center px-3 py-1 text-sm font-semibold rounded-full <?= $bg_color ?> <?= $text_color ?> space-x-2">
-                                <span class="text-base"><?= $icon ?></span>
-                                <span><?= htmlspecialchars($category_name) ?></span>
-                            </span>
+            <!-- Header with Progress and Timer -->
+            <header class="w-full pb-8 pt-4">
+                <div class="flex items-start justify-between gap-4">
+                    <div class="flex flex-1 flex-col gap-3">
+                        <p class="text-sm font-medium leading-normal text-black/80 dark:text-white/80">Question <span id="current-question">1</span> of <?= count($questions) ?></p>
+                        <div class="h-1.5 w-full rounded-full glassmorphic-darker">
+                            <div class="h-1.5 rounded-full bg-black dark:bg-white" id="progress-bar" style="width: 0%;"></div>
                         </div>
-                        <h2 class="text-2xl font-bold leading-tight mb-8 text-center"><?= htmlspecialchars($q['question']) ?></h2>
-                        <?php if (isset($q['is_error_spotting']) && $q['is_error_spotting']): ?>
-                            <div class="mb-6 p-4 bg-white/10 rounded-lg">
-                                <p class="text-lg mb-4"><?= nl2br(htmlspecialchars($q['full_sentence'] ?? '')) ?></p>
+                    </div>
+                    <div class="flex shrink-0 items-center justify-center gap-4">
+                        <div class="relative flex h-16 w-16 items-center justify-center rounded-full border border-black/20 dark:border-white/20">
+                            <svg class="absolute inset-0 h-full w-full -rotate-90 transform" fill="none" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+                                <circle class="text-black/10 dark:text-white/10" cx="18" cy="18" r="16" stroke="currentColor" stroke-width="2"></circle>
+                                <circle class="text-black dark:text-white" cx="18" cy="18" r="16" stroke="currentColor" stroke-dasharray="100" stroke-dashoffset="53" stroke-linecap="round" stroke-width="2" id="timer-circle"></circle>
+                            </svg>
+                            <span class="text-lg font-bold text-black dark:text-white" id="timer-display">--</span>
+                        </div>
+                        <button type="button" aria-label="Toggle theme" class="flex h-12 w-12 items-center justify-center rounded-full glassmorphic transition-transform duration-200 hover:scale-110" onclick="toggleTheme()">
+                            <span class="material-symbols-outlined text-black dark:hidden">dark_mode</span>
+                            <span class="material-symbols-outlined hidden text-white dark:inline">light_mode</span>
+                        </button>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Main Quiz Content -->
+            <main class="flex flex-1 flex-col items-center justify-center gap-12">
+                <?php foreach ($questions as $i => $q): ?>
+                    <div class="question-container w-full <?= $i === 0 ? 'active' : 'hidden' ?>" data-question="<?= $i ?>" data-correct-answer="<?= strtolower($q['answer'] ?? 'a') ?>">
+                        <!-- Question Card -->
+                        <div class="w-full max-w-3xl rounded-xl glassmorphic p-8 md:p-12 mx-auto">
+                            <?php 
+                            // Get the category from the question data
+                            $category_name = $q['category'] ?? 'General';
+                            
+                            // Get the category metadata for this category
+                            $category_meta = get_category_meta($category_name);
+                            
+                            // Set default values if not found
+                            $bg_color = $category_meta['bg_color'] ?? 'bg-gray-100';
+                            $text_color = $category_meta['text_color'] ?? 'text-gray-800';
+                            $icon = $category_meta['icon'] ?? '📚';
+                            ?>
+                            <?php if ($category_name !== 'General'): ?>
+                            <div class="mb-6">
+                                <span class="inline-flex items-center px-3 py-1 text-sm font-semibold rounded-full <?= $bg_color ?> <?= $text_color ?> space-x-2">
+                                    <span class="text-base"><?= $icon ?></span>
+                                    <span><?= htmlspecialchars($category_name) ?></span>
+                                </span>
                             </div>
-                            <div class="space-y-3">
+                            <?php endif; ?>
+                            <p class="question-text text-center font-bold leading-relaxed tracking-tight text-black dark:text-white" data-question-length="<?= strlen($q['question']) ?>">
+                                <?= htmlspecialchars($q['question']) ?>
+                            </p>
+                            <p class="mt-4 text-center text-base font-normal leading-normal text-black/60 dark:text-white/60">Select the correct option below.</p>
+                        </div>
+                        <!-- Options -->
+                        <div class="w-full max-w-2xl mx-auto mt-8">
+                            <?php if (isset($q['is_error_spotting']) && $q['is_error_spotting']): ?>
+                                <div class="mb-6 p-4 glassmorphic rounded-lg">
+                                    <p class="text-lg mb-4 text-black dark:text-white"><?= nl2br(htmlspecialchars($q['full_sentence'] ?? '')) ?></p>
+                                </div>
+                            <?php endif; ?>
+                            <fieldset class="grid grid-cols-1 gap-3 sm:grid-cols-2">
+                                <legend class="sr-only">Quiz Options</legend>
                                 <?php 
                                 // Handle TestQnA format where options are associative array with letter keys
                                 foreach ($q['options'] as $opt_letter => $opt_text): 
                                     $display_letter = strtoupper($opt_letter);
                                 ?>
-                                    <div class="quiz-option p-4 rounded-xl cursor-pointer border border-transparent flex justify-between items-center" 
-                                         data-question="<?= $i ?>" 
-                                         data-option="<?= $opt_letter ?>">
-                                        <span class="text-base font-semibold flex-1"><?= $display_letter ?>) Part (<?= $display_letter ?>) contains the error</span>
-                                        <div class="indicator hidden">
-                                            <svg class="w-6 h-6 text-[var(--correct-text)]" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                                <path clip-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" fill-rule="evenodd"></path>
-                                            </svg>
-                                            <svg class="w-6 h-6 text-[var(--incorrect-text)] hidden" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                                <path clip-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" fill-rule="evenodd"></path>
-                                            </svg>
-                                        </div>
-                                        <input type="radio" name="answers[<?= $i ?>]" value="<?= $opt_letter ?>" class="hidden" required>
+                                    <div>
+                                        <input class="option-radio peer hidden" id="option<?= $i ?>_<?= $opt_letter ?>" name="answers[<?= $i ?>]" type="radio" value="<?= $opt_letter ?>" required/>
+                                        <label class="quiz-option option-label group flex cursor-pointer items-center justify-center rounded-lg border border-solid border-black/10 bg-white/50 p-4 text-center text-black transition-all duration-200 ease-in-out hover:border-black/30 hover:shadow-lg dark:border-white/10 dark:bg-black/10 dark:text-white dark:hover:border-white/30" for="option<?= $i ?>_<?= $opt_letter ?>" data-question="<?= $i ?>" data-option="<?= $opt_letter ?>">
+                                            <span class="text-base font-medium leading-normal">
+                                                <?php if (isset($q['is_error_spotting']) && $q['is_error_spotting']): ?>
+                                                    <?= $display_letter ?>) Part (<?= $display_letter ?>) contains the error
+                                                <?php else: ?>
+                                                    <?= $display_letter ?>) <?= htmlspecialchars($opt_text) ?>
+                                                <?php endif; ?>
+                                            </span>
+                                        </label>
                                     </div>
                                 <?php endforeach; ?>
-                            </div>
-                        <?php else: ?>
-                            <div class="space-y-3">
-                                <?php 
-                                // Handle TestQnA format where options are associative array with letter keys
-                                foreach ($q['options'] as $opt_letter => $opt_text): 
-                                    $display_letter = strtoupper($opt_letter);
-                                ?>
-                                    <div class="quiz-option p-4 rounded-xl cursor-pointer border border-transparent flex justify-between items-center" 
-                                         data-question="<?= $i ?>" 
-                                         data-option="<?= $opt_letter ?>">
-                                        <span class="text-base font-semibold flex-1"><?= $display_letter ?>) <?= htmlspecialchars($opt_text) ?></span>
-                                        <div class="indicator hidden">
-                                            <svg class="w-6 h-6 text-[var(--correct-text)]" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                                <path clip-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" fill-rule="evenodd"></path>
-                                            </svg>
-                                            <svg class="w-6 h-6 text-[var(--incorrect-text)] hidden" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                                <path clip-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" fill-rule="evenodd"></path>
-                                            </svg>
-                                        </div>
-                                        <input type="radio" name="answers[<?= $i ?>]" value="<?= $opt_letter ?>" class="hidden" required>
-                                    </div>
-                                <?php endforeach; ?>
-                            </div>
-                        <?php endif; ?>
+                            </fieldset>
+                        </div>
                     </div>
                 <?php endforeach; ?>
-            </div>
-
-            <footer class="p-4 md:p-6 sticky bottom-0 bg-[var(--background-color)]/80 backdrop-blur-sm pb-20 md:pb-6">
-                <div class="flex justify-end">
-                    <button type="button" class="glass-button w-full sm:w-auto flex items-center justify-center rounded-full h-14 px-8 text-lg font-bold hidden" id="next-button">
-                        <span>Next</span>
-                        <svg class="ml-2" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                            <polyline points="9 18 15 12 9 6"></polyline>
-                        </svg>
-                    </button>
+            </main>
+            
+            <!-- Footer with Navigation -->
+            <footer class="sticky bottom-0 z-20 w-full py-4 sm:py-6">
+                <div class="mx-auto w-full max-w-3xl rounded-xl glassmorphic p-2">
+                    <div class="flex items-center justify-between gap-2 sm:gap-4">
+                        <button type="button" id="back-button" class="flex h-12 min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg px-5 text-base font-bold leading-normal tracking-wide hollow-button" style="display: none;">
+                            <span class="truncate">Back</span>
+                        </button>
+                        <button type="button" id="next-button" class="flex h-12 flex-1 min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg px-5 text-base font-bold leading-normal tracking-wide primary-button" disabled>
+                            <span class="truncate">Next Question</span>
+                        </button>
+                        <button type="button" id="quit-button" class="flex h-12 min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg px-5 text-base font-bold leading-normal tracking-wide hollow-button" onclick="if(confirm('Are you sure you want to quit the quiz?')) { window.location.href='index.php'; }">
+                            <span class="truncate">Quit</span>
+                        </button>
+                    </div>
                 </div>
             </footer>
         </form>
     </div>
+</div>
 
     <script>
         // Hidden Timer Implementation - starts immediately when quiz loads
@@ -727,7 +772,37 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             return Math.max(0, totalElapsed - timeAwaySeconds);
         }
 
-        // Define applyTheme function first
+        // Timer display functionality
+        let timerStartTime = Date.now();
+        let timerInterval;
+        
+        function updateTimerDisplay() {
+            const elapsed = Math.floor((Date.now() - timerStartTime) / 1000);
+            const minutes = Math.floor(elapsed / 60);
+            const seconds = elapsed % 60;
+            const timerDisplay = document.getElementById('timer-display');
+            const timerCircle = document.getElementById('timer-circle');
+            
+            if (timerDisplay) {
+                if (elapsed < 60) {
+                    timerDisplay.textContent = seconds.toString().padStart(2, '0');
+                } else {
+                    timerDisplay.textContent = `${minutes}:${seconds.toString().padStart(2, '0')}`;
+                }
+            }
+            
+            // Update circular progress (optional - can be used for time limits)
+            if (timerCircle) {
+                // For now, just keep it as a visual element
+                // You can add time limit functionality here if needed
+            }
+        }
+        
+        // Start timer display
+        timerInterval = setInterval(updateTimerDisplay, 1000);
+        updateTimerDisplay(); // Initial call
+        
+        // Define applyTheme function
         function applyTheme(isDark) {
             if (isDark) {
                 document.documentElement.classList.add('dark');
@@ -742,142 +817,111 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         // Initialize theme on page load
         const savedTheme = localStorage.getItem('theme');
-        if (savedTheme === 'light') {
-            document.documentElement.classList.add('light');
-            document.documentElement.classList.remove('dark');
-        } else {
-            // Default to dark theme
+        if (savedTheme === 'dark') {
             applyTheme(true);
+        } else {
+            // Default to light theme
+            applyTheme(false);
         } 
 
-        // Quiz functionality with debugging
-        console.log('Initializing quiz functionality...');
-        
-        // Add visual indicator that JavaScript is working
-        document.body.style.border = '3px solid green';
-        setTimeout(() => {
-            document.body.style.border = 'none';
-        }, 2000);
+        // Quiz functionality
+        console.log('Initializing new glassmorphism quiz interface...');
         
         const questionContainers = document.querySelectorAll('.question-container');
         const nextButton = document.getElementById('next-button');
+        const backButton = document.getElementById('back-button');
         const progressBar = document.getElementById('progress-bar');
         const currentQuestionSpan = document.getElementById('current-question');
         let currentQuestion = 0;
         let answerLocked = false;
+        let selectedAnswers = {};
 
         console.log('Found elements:', {
             questionContainers: questionContainers.length,
             nextButton: !!nextButton,
+            backButton: !!backButton,
             progressBar: !!progressBar,
             currentQuestionSpan: !!currentQuestionSpan
         });
 
-        // Initialize progress
+        // Initialize progress and navigation
         updateProgress();
+        updateNavigationButtons();
 
-        // Add click handlers to options
-        const quizOptions = document.querySelectorAll('.quiz-option');
-        console.log('Found quiz options:', quizOptions.length);
-        
-        quizOptions.forEach((option, index) => {
-            console.log(`Adding click handler to option ${index}:`, option.textContent.trim());
-            option.addEventListener('click', () => {
-                console.log('Option clicked!', option.textContent.trim(), 'Answer locked:', answerLocked);
-                if (answerLocked) {
-                    console.log('Answer locked, ignoring click');
-                    return;
-                }
-                
-                const questionIndex = parseInt(option.dataset.question);
-                console.log('Question index:', questionIndex);
-                const options = document.querySelectorAll(`.quiz-option[data-question="${questionIndex}"]`);
-                console.log('Found options for question:', options.length);
-                
-                // Remove selected class from all options in this question
-                options.forEach(opt => {
-                    opt.classList.remove('selected');
-                    opt.querySelector('input[type="radio"]').checked = false;
-                });
-                
-                // Select clicked option
-                option.classList.add('selected');
-                const radio = option.querySelector('input[type="radio"]');
-                radio.checked = true;
-                
-                // Lock the answer and show feedback immediately
-                answerLocked = true;
-                const correctAnswer = document.querySelector(`.question-container[data-question="${questionIndex}"]`).dataset.correctAnswer;
-                const isCorrect = radio.value === correctAnswer;
-                
-                // Show feedback
-                const indicator = option.querySelector('.indicator');
-                if (indicator) {
-                    indicator.classList.remove('hidden');
+        // Option selection handling - listen to radio input changes
+        document.querySelectorAll('input[type="radio"][name^="answers"]').forEach(radio => {
+            radio.addEventListener('change', function() {
+                if (this.checked) {
+                    const questionIndex = parseInt(this.name.match(/\[(\d+)\]/)[1]);
+                    const optionValue = this.value;
                     
-                    if (isCorrect) {
-                        option.classList.add('correct');
-                        const correctSvg = indicator.querySelector('svg:first-child');
-                        if (correctSvg) {
-                            correctSvg.classList.remove('hidden');
-                        }
-                    } else {
-                        option.classList.add('incorrect');
-                        const incorrectSvg = indicator.querySelector('svg:last-child');
-                        if (incorrectSvg) {
-                            incorrectSvg.classList.remove('hidden');
-                        }
-                        
-                        // Highlight correct answer (only if it's different from selected option)
-                        const correctInput = document.querySelector(`.question-container[data-question="${questionIndex}"] input[value="${correctAnswer}"]`);
-                        if (correctInput && correctInput.parentNode) {
-                            const correctOption = correctInput.parentNode;
-                            if (correctOption && correctOption !== option) {
-                                correctOption.classList.add('correct');
-                                const correctIndicator = correctOption.querySelector('.indicator');
-                                if (correctIndicator) {
-                                    correctIndicator.classList.remove('hidden');
-                                    const correctSvg = correctIndicator.querySelector('svg:first-child');
-                                    if (correctSvg) {
-                                        correctSvg.classList.remove('hidden');
-                                    }
-                                }
-                            }
-                        }
+                    // Clear all visual selections for this question
+                    document.querySelectorAll(`.quiz-option[data-question="${questionIndex}"]`).forEach(opt => {
+                        opt.classList.remove('selected');
+                    });
+                    
+                    // Add selected class to the corresponding label
+                    const label = document.querySelector(`label[for="${this.id}"]`);
+                    if (label) {
+                        label.classList.add('selected');
                     }
+                    
+                    // Store the answer
+                    selectedAnswers[questionIndex] = optionValue;
+                    
+                    // Update navigation buttons
+                    updateNavigationButtons();
+                    
+                    console.log('Answer selected:', questionIndex, optionValue);
                 }
-                
-                // Disable all options
-                options.forEach(opt => {
-                    opt.classList.add('disabled');
-                });
-                
-                // Auto-advance to next question after 1 second
-                console.log('Setting timeout for auto-advance...');
-                setTimeout(() => {
-                    console.log('Timeout executed! Current question:', currentQuestion, 'Total:', questionContainers.length);
-                    currentQuestion++;
-                    if (currentQuestion < questionContainers.length) {
-                        console.log('Moving to next question:', currentQuestion);
-                        showQuestion(currentQuestion);
-                        answerLocked = false;
-                        updateProgress();
-                    } else {
-                        console.log('Quiz completed - submitting form');
-                        // Quiz completed - submit form
-                        const form = document.querySelector('form');
-                        if (form) {
-                            form.submit();
-                        } else {
-                            console.error('Form not found!');
-                        }
-                    }
-                }, 1000);
             });
         });
+        
+        // Navigation button handlers
+        if (nextButton) {
+            nextButton.addEventListener('click', function() {
+                // Don't proceed if button is disabled
+                if (this.disabled) return;
+                
+                if (currentQuestion < questionContainers.length - 1) {
+                    currentQuestion++;
+                    showQuestion(currentQuestion);
+                    updateProgress();
+                    updateNavigationButtons();
+                } else {
+                    // Submit form on last question
+                    const form = document.querySelector('form');
+                    if (form) form.submit();
+                }
+            });
+        }
+        
+        if (backButton) {
+            backButton.addEventListener('click', function() {
+                if (currentQuestion > 0) {
+                    currentQuestion--;
+                    showQuestion(currentQuestion);
+                    updateProgress();
+                    updateNavigationButtons();
+                }
+            });
+        }
 
-        // Next button handler (kept for compatibility but hidden)
-        // Questions now auto-advance after selection
+        // Keyboard navigation
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'ArrowLeft' && currentQuestion > 0) {
+                backButton.click();
+            } else if (e.key === 'ArrowRight' && selectedAnswers[currentQuestion] && !nextButton.disabled) {
+                nextButton.click();
+            } else if (e.key >= '1' && e.key <= '4') {
+                // Select option by number key
+                const optionIndex = parseInt(e.key) - 1;
+                const options = document.querySelectorAll(`.quiz-option[data-question="${currentQuestion}"]`);
+                if (options[optionIndex]) {
+                    options[optionIndex].click();
+                }
+            }
+        });
 
         function showQuestion(index) {
             questionContainers.forEach((container, i) => {
@@ -889,13 +933,111 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     container.classList.remove('active');
                 }
             });
+            
+            // Apply responsive font sizing based on question length
+            applyQuestionSizing(index);
+            
+            // Restore selected state for the current question
+            restoreSelectedState(index);
+        }
+        
+        function applyQuestionSizing(questionIndex) {
+            const questionText = document.querySelector(`.question-container[data-question="${questionIndex}"] .question-text`);
+            if (questionText) {
+                const length = parseInt(questionText.dataset.questionLength) || 0;
+                
+                // Remove existing length classes
+                questionText.classList.remove('long-question', 'very-long-question');
+                
+                // Apply appropriate class based on length (more aggressive thresholds)
+                if (length > 120) {
+                    questionText.classList.add('very-long-question');
+                } else if (length > 60) {
+                    questionText.classList.add('long-question');
+                }
+                
+                console.log(`Question ${questionIndex} length: ${length}, applied class:`, 
+                    length > 120 ? 'very-long-question' : length > 60 ? 'long-question' : 'normal');
+            }
+        }
+        
+        function restoreSelectedState(questionIndex) {
+            // Clear all visual selections for this question first
+            document.querySelectorAll(`.quiz-option[data-question="${questionIndex}"]`).forEach(opt => {
+                opt.classList.remove('selected');
+            });
+            
+            // If there's a saved answer, restore the visual state
+            if (selectedAnswers[questionIndex] !== undefined) {
+                const savedValue = selectedAnswers[questionIndex];
+                const radio = document.querySelector(`input[name="answers[${questionIndex}]"][value="${savedValue}"]`);
+                if (radio) {
+                    radio.checked = true;
+                    const label = document.querySelector(`label[for="${radio.id}"]`);
+                    if (label) {
+                        label.classList.add('selected');
+                    }
+                }
+            }
         }
 
         function updateProgress() {
             const progress = ((currentQuestion + 1) / questionContainers.length) * 100;
-            progressBar.style.width = `${progress}%`;
-            currentQuestionSpan.textContent = currentQuestion + 1;
+            if (progressBar) {
+                progressBar.style.width = `${progress}%`;
+            }
+            if (currentQuestionSpan) {
+                currentQuestionSpan.textContent = currentQuestion + 1;
+            }
         }
+        
+        function updateNavigationButtons() {
+            const hasAnswer = selectedAnswers[currentQuestion] !== undefined;
+            const isFirstQuestion = currentQuestion === 0;
+            const isLastQuestion = currentQuestion === questionContainers.length - 1;
+            
+            // Show/hide back button
+            if (backButton) {
+                backButton.style.display = isFirstQuestion ? 'none' : 'flex';
+            }
+            
+            // Always show next button, but enable/disable based on answer
+            if (nextButton) {
+                nextButton.style.display = 'flex';
+                nextButton.disabled = !hasAnswer;
+                nextButton.style.opacity = hasAnswer ? '1' : '0.5';
+                nextButton.style.cursor = hasAnswer ? 'pointer' : 'not-allowed';
+                
+                const nextButtonText = nextButton.querySelector('span');
+                if (nextButtonText) {
+                    nextButtonText.textContent = isLastQuestion ? 'Submit Quiz' : 'Next Question';
+                }
+            }
+        }
+        
+        // Auto-save answers to hidden timer field
+        function updateHiddenTimer() {
+            const hiddenTimerField = document.getElementById('hidden_timer_elapsed');
+            if (hiddenTimerField) {
+                hiddenTimerField.value = getAccurateElapsedTime();
+            }
+        }
+        
+        // Update hidden timer every 5 seconds
+        setInterval(updateHiddenTimer, 5000);
+        
+        // Update on form submission
+        document.querySelector('form').addEventListener('submit', updateHiddenTimer);
+        
+        // Initialize the interface
+        showQuestion(0);
+        
+        // Apply sizing to all questions on load
+        for (let i = 0; i < questionContainers.length; i++) {
+            applyQuestionSizing(i);
+        }
+        
+        console.log('Glassmorphism quiz interface initialized successfully');
     </script>
 </body>
 </html>

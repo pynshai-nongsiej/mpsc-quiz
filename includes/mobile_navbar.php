@@ -26,239 +26,154 @@ if ($is_logged_in) {
 $current_page = basename($_SERVER['PHP_SELF']);
 ?>
 
-<!-- Mobile Bottom Navigation Bar -->
-<nav class="mobile-bottom-navbar fixed bottom-0 left-0 right-0 z-50 bg-white border-t border-gray-200 md:hidden" style="display: none;">
-    <!-- Bottom Navigation Content -->
-    <div class="mobile-nav-content flex items-center justify-around px-2 py-2">
-        <!-- Home -->
-        <a href="index.php" class="mobile-nav-item <?php echo $current_page === 'index.php' ? 'active' : ''; ?>">
-            <svg class="mobile-nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
-                <polyline points="9,22 9,12 15,12 15,22"></polyline>
-            </svg>
-            <span class="mobile-nav-text">Home</span>
-        </a>
-
-        <?php if ($is_logged_in): ?>
-        <!-- Quiz History -->
-        <a href="quiz-history.php" class="mobile-nav-item <?php echo $current_page === 'quiz-history.php' ? 'active' : ''; ?>">
-            <svg class="mobile-nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                <circle cx="12" cy="12" r="10"></circle>
-                <polyline points="12,6 12,12 16,14"></polyline>
-            </svg>
-            <span class="mobile-nav-text">History</span>
-        </a>
-
-        <!-- Performance -->
-        <a href="performance.php" class="mobile-nav-item <?php echo $current_page === 'performance.php' ? 'active' : ''; ?>">
-            <svg class="mobile-nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                <path d="M3 3v18h18"></path>
-                <path d="m19 9-5 5-4-4-3 3"></path>
-            </svg>
-            <span class="mobile-nav-text">Performance</span>
-        </a>
-
-        <!-- User Menu -->
-        <div class="mobile-nav-item user-menu-mobile" id="mobile-user-menu">
-            <button class="mobile-user-button" id="mobile-user-button">
-                <svg class="mobile-nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-                    <circle cx="12" cy="7" r="4"></circle>
+<!-- Mobile Top Navigation Bar -->
+<nav class="mobile-top-navbar fixed top-0 left-0 right-0 z-50 md:hidden glassmorphic-mobile border-b border-white/20 dark:border-white/10" style="display: block;">
+    <!-- Top Navigation Header -->
+    <div class="flex items-center justify-between px-4 py-4">
+        <!-- Logo -->
+        <a href="index.php" class="flex items-center gap-2 text-black dark:text-white">
+            <div class="w-6 h-6 flex items-center justify-center">
+                <svg fill="currentColor" height="100%" viewBox="0 0 24 24" width="100%" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"></path>
+                    <path d="M12 4c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm0 6c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"></path>
                 </svg>
-                <span class="mobile-nav-text">Account</span>
-            </button>
-            
-            <!-- Mobile User Dropdown -->
-            <div class="mobile-user-dropdown" id="mobile-user-dropdown">
-                <div class="mobile-dropdown-header">
-                    <span class="mobile-user-name"><?php echo htmlspecialchars($user_name); ?></span>
-                </div>
-                <a href="profile.php" class="mobile-dropdown-item">
-                    <svg class="mobile-dropdown-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-                        <circle cx="12" cy="7" r="4"></circle>
-                    </svg>
-                    <span>Profile</span>
-                </a>
-                <a href="quiz-history.php" class="mobile-dropdown-item">
-                    <svg class="mobile-dropdown-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                        <circle cx="12" cy="12" r="10"></circle>
-                        <polyline points="12,6 12,12 16,14"></polyline>
-                    </svg>
-                    <span>Quiz History</span>
-                </a>
-                <a href="performance.php" class="mobile-dropdown-item">
-                    <svg class="mobile-dropdown-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                        <path d="M3 3v18h18"></path>
-                        <path d="m19 9-5 5-4-4-3 3"></path>
-                    </svg>
-                    <span>Performance</span>
-                </a>
-                <div class="mobile-dropdown-divider"></div>
-                <a href="logout.php" class="mobile-dropdown-item logout">
-                    <svg class="mobile-dropdown-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                        <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
-                        <polyline points="16,17 21,12 16,7"></polyline>
-                        <line x1="21" y1="12" x2="9" y2="12"></line>
-                    </svg>
-                    <span>Logout</span>
-                </a>
             </div>
-        </div>
-        <?php else: ?>
-        <!-- Login -->
-        <a href="login.php" class="mobile-nav-item <?php echo $current_page === 'login.php' ? 'active' : ''; ?>">
-            <svg class="mobile-nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"></path>
-                <polyline points="10,17 15,12 10,7"></polyline>
-                <line x1="15" y1="12" x2="3" y2="12"></line>
-            </svg>
-            <span class="mobile-nav-text">Login</span>
+            <span class="text-lg font-bold tracking-wider">MPSC</span>
         </a>
 
-        <!-- Quiz -->
-        <a href="quiz.php" class="mobile-nav-item <?php echo $current_page === 'quiz.php' ? 'active' : ''; ?>">
-            <svg class="mobile-nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
-            </svg>
-            <span class="mobile-nav-text">Quiz</span>
-        </a>
-        <?php endif; ?>
+        <!-- Controls -->
+        <div class="flex items-center gap-2">
+            <!-- Theme Toggle -->
+            <button class="mobile-glass-btn theme-toggle-mobile" id="mobile-theme-toggle">
+                <svg class="w-5 h-5 theme-icon-light" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path>
+                </svg>
+                <svg class="w-5 h-5 theme-icon-dark" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="display: none;">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path>
+                </svg>
+            </button>
 
-        <!-- Theme Toggle -->
-        <button class="mobile-nav-item theme-toggle-mobile" id="mobile-theme-toggle">
-            <svg class="mobile-nav-icon theme-icon-light" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path>
-            </svg>
-            <svg class="mobile-nav-icon theme-icon-dark" viewBox="0 0 24 24" fill="none" stroke="currentColor" style="display: none;">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path>
-            </svg>
-            <span class="mobile-nav-text">Theme</span>
-        </button>
-    </div>
-
-    <!-- Mobile Menu Overlay -->
-    <div id="mobile-menu-overlay" class="mobile-menu-overlay fixed inset-0 bg-black bg-opacity-50 z-40 hidden" aria-hidden="true"></div>
-
-    <!-- Mobile Menu Panel -->
-    <div id="mobile-menu-panel" class="mobile-menu-panel fixed top-0 right-0 h-full w-80 max-w-full bg-white dark:bg-gray-900 shadow-xl transform translate-x-full transition-transform duration-300 ease-in-out z-50">
-        <!-- Menu Header -->
-        <div class="flex items-center justify-between p-4 border-b border-gray-200 dark:border-gray-700">
-            <h2 class="text-lg font-semibold text-gray-900 dark:text-white">Menu</h2>
-            <button id="mobile-menu-close" class="touch-target p-2 rounded-lg text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200" aria-label="Close menu">
-                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <!-- Menu Button -->
+            <button class="mobile-glass-btn" id="mobile-menu-button">
+                <svg class="w-6 h-6" id="menu-icon-open" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+                <svg class="w-6 h-6 hidden" id="menu-icon-close" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
                 </svg>
             </button>
         </div>
+    </div>
 
-        <!-- Menu Content -->
-        <div class="flex flex-col h-full">
-            <!-- User Section -->
+    <!-- Mobile Dropdown Menu -->
+    <div id="mobile-menu" class="hidden glassmorphic-mobile border-t border-white/20 dark:border-white/10 absolute top-full left-0 right-0 shadow-xl">
+        <div class="px-4 py-4 space-y-2">
+            <!-- Home -->
+            <a href="index.php" class="mobile-nav-link <?php echo $current_page === 'index.php' ? 'active' : ''; ?>">
+                <svg class="mobile-nav-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path>
+                </svg>
+                <span>Home</span>
+            </a>
+            
             <?php if ($is_logged_in): ?>
-            <div class="p-4 border-b border-gray-200 dark:border-gray-700">
-                <div class="flex items-center space-x-3">
-                    <div class="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center">
-                        <span class="text-white font-semibold text-lg"><?php echo strtoupper(substr($user_name, 0, 1)); ?></span>
-                    </div>
-                    <div class="flex-1 min-w-0">
-                        <p class="text-sm font-medium text-gray-900 dark:text-white truncate"><?php echo htmlspecialchars($user_name); ?></p>
-                    </div>
-                </div>
+            <!-- Quiz History -->
+            <a href="quiz-history.php" class="mobile-nav-link <?php echo $current_page === 'quiz-history.php' ? 'active' : ''; ?>">
+                <svg class="mobile-nav-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+                <span>Quiz History</span>
+            </a>
+            
+            <!-- Performance -->
+            <a href="performance.php" class="mobile-nav-link <?php echo $current_page === 'performance.php' ? 'active' : ''; ?>">
+                <svg class="mobile-nav-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+                </svg>
+                <span>Performance</span>
+            </a>
+            
+            <div class="border-t border-white/20 dark:border-white/10 my-3"></div>
+            
+            <div class="px-4 py-2 text-sm text-black/60 dark:text-white/60">
+                Welcome, <?= htmlspecialchars($user_name) ?>
             </div>
+            
+            <!-- Logout -->
+            <a href="logout.php" class="mobile-nav-link logout">
+                <svg class="mobile-nav-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1"></path>
+                </svg>
+                <span>Logout</span>
+            </a>
+            
+            <?php else: ?>
+            <!-- Login -->
+            <a href="login.php" class="mobile-nav-link <?php echo $current_page === 'login.php' ? 'active' : ''; ?>">
+                <svg class="mobile-nav-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1"></path>
+                </svg>
+                <span>Log In</span>
+            </a>
+            
+            <!-- Register -->
+            <a href="register.php" class="mobile-nav-link <?php echo $current_page === 'register.php' ? 'active' : ''; ?>">
+                <svg class="mobile-nav-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18 9v3m0 0v3m0-3h3m-3 0h-3m-2-5a4 4 0 11-8 0 4 4 0 018 0zM3 20a6 6 0 0112 0v1H3v-1z"></path>
+                </svg>
+                <span>Register</span>
+            </a>
             <?php endif; ?>
-
-            <!-- Navigation Links -->
-            <div class="flex-1 py-4">
-                <nav class="space-y-1">
-                    <a href="/" class="mobile-nav-link flex items-center px-4 py-3 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">
-                        <svg class="w-5 h-5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path>
-                        </svg>
-                        <span class="font-medium">Home</span>
-                    </a>
-
-                    <a href="/quiz.php" class="mobile-nav-link flex items-center px-4 py-3 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">
-                        <svg class="w-5 h-5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
-                        </svg>
-                        <span class="font-medium">Take Quiz</span>
-                    </a>
-
-                    <a href="/performance.php" class="mobile-nav-link flex items-center px-4 py-3 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">
-                        <svg class="w-5 h-5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
-                        </svg>
-                        <span class="font-medium">Performance</span>
-                    </a>
-
-                    <?php if ($is_logged_in): ?>
-                    <a href="/profile.php" class="mobile-nav-link flex items-center px-4 py-3 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">
-                        <svg class="w-5 h-5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
-                        </svg>
-                        <span class="font-medium">Profile</span>
-                    </a>
-
-                    <a href="/dashboard.php" class="mobile-nav-link flex items-center px-4 py-3 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">
-                        <svg class="w-5 h-5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"></path>
-                        </svg>
-                        <span class="font-medium">Dashboard</span>
-                    </a>
-                    <?php endif; ?>
-                </nav>
-            </div>
-
-            <!-- Bottom Actions -->
-            <div class="border-t border-gray-200 dark:border-gray-700 p-4">
-                <?php if ($is_logged_in): ?>
-                <a href="/logout.php" class="mobile-nav-link flex items-center px-4 py-3 text-red-600 dark:text-red-400 hover:bg-red-50 dark:hover:bg-red-900/20 rounded-lg transition-colors">
-                    <svg class="w-5 h-5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1"></path>
-                    </svg>
-                    <span class="font-medium">Sign Out</span>
-                </a>
-                <?php else: ?>
-                <div class="space-y-2">
-                    <a href="/login.php" class="mobile-nav-link flex items-center justify-center px-4 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
-                        <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1"></path>
-                        </svg>
-                        <span class="font-medium">Sign In</span>
-                    </a>
-                    <a href="/quiz.php" class="mobile-nav-link flex items-center justify-center px-4 py-3 border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors">
-                        <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
-                        </svg>
-                        <span class="font-medium">Take Quiz</span>
-                    </a>
-                </div>
-                <?php endif; ?>
-            </div>
         </div>
     </div>
+
 </nav>
 
 <!-- Mobile Navigation Styles -->
 <style>
-/* Mobile Bottom Navigation Styles - Glassmorphism */
-.mobile-bottom-navbar {
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
-    box-shadow: 0 -8px 32px rgba(0, 0, 0, 0.1), 0 -4px 16px rgba(0, 0, 0, 0.05), inset 0 1px 0 rgba(255, 255, 255, 0.3);
-    height: 70px;
-    padding-bottom: env(safe-area-inset-bottom);
-    z-index: 1000;
+/* Glassmorphism Mobile Navigation Styles */
+.glassmorphic-mobile {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.1);
 }
 
-/* Dark mode for bottom navbar */
-.dark .mobile-bottom-navbar {
-    background: rgba(0, 0, 0, 0.2);
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-    box-shadow: 0 -8px 32px rgba(0, 0, 0, 0.3), 0 -4px 16px rgba(0, 0, 0, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+.dark .glassmorphic-mobile {
+    background: rgba(20, 20, 20, 0.95);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.mobile-glass-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: inherit;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.mobile-glass-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);
+}
+
+.dark .mobile-glass-btn {
+    background: rgba(20, 20, 20, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.dark .mobile-glass-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
 }
 
 /* Navigation content */
@@ -268,84 +183,85 @@ $current_page = basename($_SERVER['PHP_SELF']);
     margin: 0 auto;
 }
 
-/* Navigation items */
-.mobile-nav-item {
+/* Mobile Navigation Links */
+.mobile-nav-link {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    padding: 12px 8px;
-    min-width: 48px;
-    min-height: 48px;
+    padding: 0.75rem 1rem;
+    border-radius: 0.5rem;
+    color: inherit;
     text-decoration: none;
-    color: #6b7280;
-    transition: all 0.2s ease;
-    border-radius: 8px;
-    position: relative;
-    flex: 1;
-    max-width: 80px;
-    touch-action: manipulation;
-}
-
-.mobile-nav-item:hover {
-    color: #000000;
-    background-color: rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.mobile-nav-item.active {
-    color: #000000;
-    background-color: rgba(0, 0, 0, 0.15);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), 0 2px 8px rgba(0, 0, 0, 0.1);
+.mobile-nav-link:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateX(4px);
 }
 
-.mobile-nav-item.active::before {
-    content: '';
-    position: absolute;
-    top: -1px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 24px;
-    height: 3px;
-    background: linear-gradient(90deg, #000000, #333333);
-    border-radius: 0 0 2px 2px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+.mobile-nav-link.active {
+    background: rgba(255, 255, 255, 0.3);
+    border-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 }
 
-/* Dark mode for nav items */
-.dark .mobile-nav-item {
-    color: #e5e7eb;
+.mobile-nav-link.logout {
+    color: #ef4444;
 }
 
-.dark .mobile-nav-item:hover {
-    color: #ffffff;
-    background-color: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+.mobile-nav-link.logout:hover {
+    background: rgba(239, 68, 68, 0.2);
 }
 
-.dark .mobile-nav-item.active {
-    color: #ffffff;
-    background-color: rgba(255, 255, 255, 0.15);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 2px 8px rgba(0, 0, 0, 0.3);
+.dark .mobile-nav-link {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.15);
 }
 
-.dark .mobile-nav-item.active::before {
-    background: linear-gradient(90deg, #ffffff, #e5e7eb);
-    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+.dark .mobile-nav-link:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.dark .mobile-nav-link.active {
+    background: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.3);
 }
 
 /* Navigation icons */
 .mobile-nav-icon {
-    width: 20px;
-    height: 20px;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-right: 0.75rem;
     stroke-width: 2;
-    margin-bottom: 2px;
+}
+
+/* Mobile menu animations */
+#mobile-menu {
+    transition: all 0.3s ease-in-out;
+    transform: translateY(-10px);
+    opacity: 0;
+}
+
+#mobile-menu.show {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* Theme toggle specific styles */
+.theme-toggle-mobile .theme-icon-dark {
+    display: none;
+}
+
+.dark .theme-toggle-mobile .theme-icon-light {
+    display: none;
+}
+
+.dark .theme-toggle-mobile .theme-icon-dark {
+    display: block;
 }
 
 /* Navigation text */
@@ -662,182 +578,124 @@ $current_page = basename($_SERVER['PHP_SELF']);
         
         // Get elements
         const themeToggle = document.getElementById('mobile-theme-toggle');
-        const userButton = document.getElementById('mobile-user-button');
-        const userDropdown = document.getElementById('mobile-user-dropdown');
-        const navItems = document.querySelectorAll('.mobile-nav-item');
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const menuIconOpen = document.getElementById('menu-icon-open');
+        const menuIconClose = document.getElementById('menu-icon-close');
         
         // Theme toggle functionality
         if (themeToggle) {
-            // Initialize theme manager if not already done
-            if (window.ThemeManager) {
-                window.ThemeManager.init();
+            function toggleTheme() {
+                const html = document.documentElement;
+                const isDark = html.classList.contains('dark');
                 
-                function updateThemeIcons() {
-                    const html = document.documentElement;
-                    const isDark = html.classList.contains('dark');
-                    const lightIcon = themeToggle.querySelector('.theme-icon-light');
-                    const darkIcon = themeToggle.querySelector('.theme-icon-dark');
-                    
-                    if (lightIcon && darkIcon) {
-                        if (isDark) {
-                            lightIcon.style.display = 'none';
-                            darkIcon.style.display = 'block';
-                        } else {
-                            lightIcon.style.display = 'block';
-                            darkIcon.style.display = 'none';
-                        }
-                    }
-                }
-                
-                // Update mobile icons when theme changes
-                window.ThemeManager.addCallback(updateThemeIcons);
-                
-                // Initialize icons
-                updateThemeIcons();
-                
-                themeToggle.addEventListener('click', function() {
-                    window.ThemeManager.toggle();
-                });
-                themeToggle.addEventListener('touchend', function(e) {
-                    e.preventDefault();
-                    window.ThemeManager.toggle();
-                });
-            } else {
-                // Fallback if ThemeManager is not available
-                function toggleTheme() {
-                    console.log('Toggling theme');
-                    const html = document.documentElement;
-                    const isDark = html.classList.contains('dark');
-                    
-                    if (isDark) {
-                        html.classList.remove('dark');
-                        localStorage.setItem('theme', 'light');
-                    } else {
-                        html.classList.add('dark');
-                        localStorage.setItem('theme', 'dark');
-                    }
-                    
-                    updateThemeIcons();
-                }
-                
-                function updateThemeIcons() {
-                    const html = document.documentElement;
-                    const isDark = html.classList.contains('dark');
-                    const lightIcon = themeToggle.querySelector('.theme-icon-light');
-                    const darkIcon = themeToggle.querySelector('.theme-icon-dark');
-                    
-                    if (lightIcon && darkIcon) {
-                        if (isDark) {
-                            lightIcon.style.display = 'none';
-                            darkIcon.style.display = 'block';
-                        } else {
-                            lightIcon.style.display = 'block';
-                            darkIcon.style.display = 'none';
-                        }
-                    }
-                }
-                
-                // Initialize theme
-                const savedTheme = localStorage.getItem('theme');
-                const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-                
-                if (savedTheme === 'dark' || (!savedTheme && prefersDark)) {
-                    document.documentElement.classList.add('dark');
+                if (isDark) {
+                    html.classList.remove('dark');
+                    html.classList.add('light');
+                    localStorage.setItem('theme', 'light');
+                } else {
+                    html.classList.remove('light');
+                    html.classList.add('dark');
+                    localStorage.setItem('theme', 'dark');
                 }
                 
                 updateThemeIcons();
-                
-                themeToggle.addEventListener('click', toggleTheme);
-                themeToggle.addEventListener('touchend', function(e) {
-                    e.preventDefault();
-                    toggleTheme();
-                });
             }
+            
+            function updateThemeIcons() {
+                const html = document.documentElement;
+                const isDark = html.classList.contains('dark');
+                const lightIcon = themeToggle.querySelector('.theme-icon-light');
+                const darkIcon = themeToggle.querySelector('.theme-icon-dark');
+                
+                if (lightIcon && darkIcon) {
+                    if (isDark) {
+                        lightIcon.style.display = 'none';
+                        darkIcon.style.display = 'block';
+                    } else {
+                        lightIcon.style.display = 'block';
+                        darkIcon.style.display = 'none';
+                    }
+                }
+            }
+            
+            // Initialize theme
+            const savedTheme = localStorage.getItem('theme');
+            if (savedTheme) {
+                document.documentElement.classList.remove('dark', 'light');
+                document.documentElement.classList.add(savedTheme);
+            }
+            
+            updateThemeIcons();
+            
+            themeToggle.addEventListener('click', toggleTheme);
         }
         
-        // User dropdown functionality
-        if (userButton && userDropdown) {
-            userButton.addEventListener('click', function(e) {
+        // Mobile menu functionality
+        if (mobileMenuButton && mobileMenu) {
+            mobileMenuButton.addEventListener('click', function(e) {
                 e.preventDefault();
                 e.stopPropagation();
-                toggleUserDropdown();
-            });
-            
-            // Close dropdown when clicking outside
-            document.addEventListener('click', function(e) {
-                if (!userButton.contains(e.target) && !userDropdown.contains(e.target)) {
-                    closeUserDropdown();
-                }
-            });
-            
-            // Close dropdown on escape key
-            document.addEventListener('keydown', function(e) {
-                if (e.key === 'Escape') {
-                    closeUserDropdown();
-                }
-            });
-        }
-        
-        function toggleUserDropdown() {
-            if (userDropdown.classList.contains('show')) {
-                closeUserDropdown();
-            } else {
-                openUserDropdown();
-            }
-        }
-        
-        function openUserDropdown() {
-            userDropdown.classList.add('show');
-        }
-        
-        function closeUserDropdown() {
-            userDropdown.classList.remove('show');
-        }
-        
-        // Active link highlighting
-        function updateActiveLink() {
-            const currentPath = window.location.pathname;
-            const currentPage = currentPath.split('/').pop() || 'index.php';
-            
-            navItems.forEach(item => {
-                const href = item.getAttribute('href');
-                if (href && href.includes(currentPage)) {
-                    item.classList.add('active');
+                
+                const isOpen = mobileMenu.classList.contains('show');
+                
+                if (isOpen) {
+                    closeMobileMenu();
                 } else {
-                    item.classList.remove('active');
+                    openMobileMenu();
                 }
             });
-        }
-        
-        // Initialize active link
-        updateActiveLink();
-        
-        // Touch event handling for better mobile experience
-        navItems.forEach(item => {
-            // Add touch feedback
-            item.addEventListener('touchstart', function() {
-                this.style.transform = 'scale(0.95)';
-            }, { passive: true });
             
-            item.addEventListener('touchend', function() {
-                this.style.transform = 'scale(1)';
-            }, { passive: true });
+            // Close mobile menu when clicking outside
+            document.addEventListener('click', function(e) {
+                if (!mobileMenuButton.contains(e.target) && !mobileMenu.contains(e.target)) {
+                    closeMobileMenu();
+                }
+            });
             
-            item.addEventListener('touchcancel', function() {
-                this.style.transform = 'scale(1)';
-            }, { passive: true });
-        });
-        
-        // Handle window resize
-        window.addEventListener('resize', function() {
-            if (window.innerWidth >= 768) {
-                closeUserDropdown();
+            // Close mobile menu when clicking on menu items
+            const menuLinks = mobileMenu.querySelectorAll('a');
+            menuLinks.forEach(link => {
+                link.addEventListener('click', function() {
+                    closeMobileMenu();
+                });
+            });
+            
+            // Close mobile menu when window is resized to desktop
+            window.addEventListener('resize', function() {
+                if (window.innerWidth >= 768) {
+                    closeMobileMenu();
+                }
+            });
+            
+            function openMobileMenu() {
+                mobileMenu.classList.remove('hidden');
+                setTimeout(() => {
+                    mobileMenu.classList.add('show');
+                }, 10);
+                
+                if (menuIconOpen && menuIconClose) {
+                    menuIconOpen.classList.add('hidden');
+                    menuIconClose.classList.remove('hidden');
+                }
             }
-        });
+            
+            function closeMobileMenu() {
+                mobileMenu.classList.remove('show');
+                setTimeout(() => {
+                    mobileMenu.classList.add('hidden');
+                }, 300);
+                
+                if (menuIconOpen && menuIconClose) {
+                    menuIconOpen.classList.remove('hidden');
+                    menuIconClose.classList.add('hidden');
+                }
+            }
+        }
         
         // Show mobile navbar on mobile devices
         if (window.innerWidth <= 768) {
-            const mobileNavbar = document.querySelector('.mobile-bottom-navbar');
+            const mobileNavbar = document.querySelector('.mobile-top-navbar');
             if (mobileNavbar) {
                 mobileNavbar.style.display = 'block';
             }

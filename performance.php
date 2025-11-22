@@ -49,458 +49,295 @@ try {
             COUNT(*) as total_quizzes,
             AVG(accuracy) as avg_accuracy,
             SUM(time_taken) as total_time,
-            100.0 as completion_rate
+            AVG(CASE WHEN accuracy >= 60 THEN 1 ELSE 0 END) * 100 as completion_rate
         FROM quiz_attempts 
-        WHERE user_id = ?" . $date_condition . "
+        WHERE user_id = ? $date_condition
     ");
     $stmt->execute($date_params);
-    $result = $stmt->fetch(PDO::FETCH_ASSOC);
-    if ($result) {
-        $overall_stats = $result;
-    }
+    $stats = $stmt->fetch(PDO::FETCH_ASSOC);
     
-    // Get daily performance for the selected time period
-    $daily_period = $time_period === 'all' ? '90' : $time_period; // Default to 90 days for 'all'
+    if ($stats) {
+        $overall_stats = [
+            'total_quizzes' => (int)$stats['total_quizzes'],
+            'avg_accuracy' => round($stats['avg_accuracy'] ?: 0, 1),
+            'total_time' => (int)$stats['total_time'],
+            'completion_rate' => round($stats['completion_rate'] ?: 0, 1)
+        ];
+    }
+
+    // Get category performance
     $stmt = $pdo->prepare("
         SELECT 
-            DATE(completed_at) as quiz_date,
-            AVG(accuracy) as daily_accuracy
+            quiz_type as category,
+            COUNT(*) as attempts,
+            AVG(accuracy) as avg_accuracy,
+            AVG(time_taken) as avg_time
         FROM quiz_attempts 
-        WHERE user_id = ? AND completed_at >= DATE_SUB(NOW(), INTERVAL ? DAY)
-        GROUP BY DATE(completed_at)
-        ORDER BY quiz_date ASC
-    ");
-    $stmt->execute([$user_id, (int)$daily_period]);
-    $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
-    if ($result) {
-        $daily_performance = $result;
-    }
-    
-    // Get category performance from quiz_responses table
-    $category_date_condition = str_replace('completed_at', 'qa.completed_at', $date_condition);
-    $stmt = $pdo->prepare("
-        SELECT 
-            qr.category,
-            AVG(CASE WHEN qr.is_correct THEN 100 ELSE 0 END) as avg_accuracy,
-            COUNT(DISTINCT qa.id) as quiz_count
-        FROM quiz_responses qr
-        JOIN quiz_attempts qa ON qr.attempt_id = qa.id
-        WHERE qa.user_id = ? AND qr.category IS NOT NULL" . $category_date_condition . "
-        GROUP BY qr.category
+        WHERE user_id = ? $date_condition
+        GROUP BY quiz_type
         ORDER BY avg_accuracy DESC
     ");
     $stmt->execute($date_params);
-    $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
-    if ($result) {
-        $category_performance = $result;
-    }
-    
+    $category_performance = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
     // Get recent quiz results
     $stmt = $pdo->prepare("
         SELECT 
             quiz_title,
-            completed_at as created_at,
             accuracy,
             time_taken,
-            'completed' as status
+            completed_at,
+            CASE 
+                WHEN accuracy >= 80 THEN 'excellent'
+                WHEN accuracy >= 60 THEN 'good'
+                ELSE 'needs_improvement'
+            END as status
         FROM quiz_attempts 
-        WHERE user_id = ?" . $date_condition . "
+        WHERE user_id = ? $date_condition
         ORDER BY completed_at DESC
         LIMIT 10
     ");
     $stmt->execute($date_params);
-    $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
-    if ($result) {
-        $recent_quizzes = $result;
-    }
-    
-} catch (PDOException $e) {
-    $error_message = 'Error fetching performance data: ' . $e->getMessage();
+    $recent_quizzes = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+} catch (Exception $e) {
+    $error_message = 'Error loading performance data: ' . $e->getMessage();
+    error_log($error_message);
 }
 
-// Helper function to format time
+// Helper functions
 function formatTime($seconds) {
-    // Ensure we have a valid number
-    $seconds = (int)$seconds;
-    
     if ($seconds < 60) {
         return $seconds . 's';
     } elseif ($seconds < 3600) {
         $minutes = floor($seconds / 60);
         $remainingSeconds = $seconds % 60;
-        return sprintf('%d:%02d', $minutes, $remainingSeconds);
+        return sprintf('%dm %02ds', $minutes, $remainingSeconds);
     } else {
         $hours = floor($seconds / 3600);
         $minutes = floor(($seconds % 3600) / 60);
-        $remainingSeconds = $seconds % 60;
-        return sprintf('%d:%02d:%02d', $hours, $minutes, $remainingSeconds);
+        return sprintf('%dh %02dm', $hours, $minutes);
     }
 }
 
-// Helper function to get status color
+function getAccuracyColor($accuracy) {
+    if ($accuracy >= 80) return '#10b981'; // green
+    if ($accuracy >= 60) return '#f59e0b'; // yellow
+    return '#ef4444'; // red
+}
+
 function getStatusColor($status) {
     switch ($status) {
-        case 'completed':
-            return 'text-[var(--success-color)]';
-        case 'failed':
-            return 'text-[var(--danger-color)]';
-        case 'in_progress':
-            return 'text-[var(--warning-color)]';
-        default:
-            return 'text-[var(--text-secondary)]';
-    }
-}
-
-// Helper function to get accuracy color
-function getAccuracyColor($accuracy) {
-    if ($accuracy >= 80) {
-        return 'var(--success-color)';
-    } elseif ($accuracy >= 60) {
-        return 'var(--warning-color)';
-    } else {
-        return 'var(--danger-color)';
-    }
-}
-
-// Prepare daily performance data for chart
-$days = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
-$daily_data = array_fill(0, 7, 0);
-
-if (!empty($daily_performance)) {
-    foreach ($daily_performance as $day) {
-        if (isset($day['quiz_date']) && isset($day['daily_accuracy'])) {
-            $day_of_week = date('N', strtotime($day['quiz_date'])) - 1; // 0-6 for Mon-Sun
-            if ($day_of_week >= 0 && $day_of_week < 7) {
-                $daily_data[$day_of_week] = round($day['daily_accuracy'], 1);
-            }
-        }
+        case 'excellent': return 'text-green-500';
+        case 'good': return 'text-yellow-500';
+        default: return 'text-red-500';
     }
 }
 ?>
-
 <!DOCTYPE html>
-<html lang="en"><head>
+<html class="light" lang="en">
+<head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Quiz Analytics Dashboard</title>
+<title>Performance Analytics - MPSC Quiz Portal</title>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<link href="https://fonts.googleapis.com" rel="preconnect"/>
-<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
-<style type="text/tailwindcss">
-        :root {
-            --background-color-light: #f5f5f5;
-            --text-primary-light: #121212;
-            --text-secondary-light: #6B7280;
-            --card-bg-light: rgba(255, 255, 255, 0.6);
-            --card-border-light: rgba(0, 0, 0, 0.05);
-            --card-hover-shadow-light: rgba(0, 0, 0, 0.05);
-            --toggle-bg-light: #E5E7EB;
-            --toggle-indicator-light: #ffffff;
-            --background-color-dark: #121212;
-            --text-primary-dark: #f5f5f5;
-            --text-secondary-dark: #9CA3AF;
-            --card-bg-dark: rgba(31, 31, 31, 0.6);
-            --card-border-dark: rgba(255, 255, 255, 0.1);
-            --card-hover-shadow-dark: rgba(255, 255, 255, 0.05);
-            --toggle-bg-dark: #374151;
-            --toggle-indicator-dark: #1F2937;
-            --success-color: #10b981;
-            --warning-color: #f59e0b;
-            --danger-color: #ef4444;
-        }
-        .light {
-            --background-color: var(--background-color-light);
-            --text-primary: var(--text-primary-light);
-            --text-secondary: var(--text-secondary-light);
-            --card-bg: var(--card-bg-light);
-            --card-border: var(--card-border-light);
-            --card-hover-shadow: var(--card-hover-shadow-light);
-            --toggle-bg: var(--toggle-bg-light);
-            --toggle-indicator: var(--toggle-indicator-light);
-        }
-        .dark {
-            --background-color: var(--background-color-dark);
-            --text-primary: var(--text-primary-dark);
-            --text-secondary: var(--text-secondary-dark);
-            --card-bg: var(--card-bg-dark);
-            --card-border: var(--card-border-dark);
-            --card-hover-shadow: var(--card-hover-shadow-dark);
-            --toggle-bg: var(--toggle-bg-dark);
-            --toggle-indicator: var(--toggle-indicator-dark);
-        }
-        body {
-            font-family: 'Inter', sans-serif;
-            background: linear-gradient(135deg, var(--background-color) 0%, #1a1a1a 100%);
-            color: var(--text-primary);
-            margin: 0;
-            padding: 0;
-            min-height: 100vh;
-        }
-        .main_container {
-            @apply container mx-auto px-4 py-8;
-        }
-        .card {
-            @apply bg-[var(--card-background)] rounded-lg p-6 border border-[var(--card-border)] backdrop-blur-sm transition-all duration-300 hover:bg-[rgba(255,255,255,0.15)] hover:border-[rgba(255,255,255,0.3)];
-        }
-        .card_title {
-            @apply text-lg font-semibold mb-2 text-[var(--text-secondary)];
-        }
-        .kpi_value {
-            @apply text-3xl font-bold text-[var(--text-primary)];
-        }
-        .kpi_change {
-            @apply text-sm ml-2;
-        }
-        .chart_container {
-            @apply h-64;
-        }
-        .filter_container {
-            @apply flex items-center justify-between mb-6;
-        }
-        .filter_group {
-            @apply flex space-x-2;
-        }
-        .filter_toggle {
-            background-color: var(--card-bg);
-            color: var(--text-primary);
-            @apply px-4 py-2 rounded-lg text-sm font-medium transition-colors;
-            border: 1px solid var(--card-border);
-        }
-        .filter_toggle:hover {
-            background-color: var(--card-hover-shadow);
-            border-color: var(--text-secondary);
-        }
-        .filter_toggle.active {
-            background-color: var(--text-primary);
-            color: var(--background-color);
-            border-color: var(--text-primary);
-        }
-        .dropdown_button {
-            background-color: var(--card-bg);
-            color: var(--text-primary);
-            @apply px-4 py-2 rounded-lg text-sm font-medium transition-colors flex items-center gap-2;
-            border: 1px solid var(--card-border);
-        }
-        .dropdown_button:hover {
-            background-color: var(--card-hover-shadow);
-            border-color: var(--text-secondary);
-        }
-        .typography_h1 {
-            @apply text-3xl font-bold mb-6 text-[var(--text-primary)];
-        }
-        .typography_h2 {
-            @apply text-2xl font-semibold mb-4 text-[var(--text-primary)];
-        }
-        .typography_body {
-            @apply text-base text-[var(--text-secondary)];
-        }
-        .progress_bar_bg {
-            @apply bg-gray-700 rounded-full h-2.5;
-        }
-        .progress_bar {
-            @apply h-2.5 rounded-full;
-        }
-        .table_row {
-            @apply border-b border-[var(--card-border)];
-        }
-        .table_cell {
-            @apply py-3 px-2 text-sm;
-        }
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            fontFamily: {
+              "display": ["Space Grotesk", "sans-serif"]
+            },
+          },
+        },
+      }
+    </script>
+<style>
+      .glassmorphic {
+        background-color: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(25px);
+        -webkit-backdrop-filter: blur(25px);
+        border: 1px solid rgba(0, 0, 0, 0.1);
+      }
+      .dark .glassmorphic {
+        background-color: rgba(255, 255, 255, 0.05);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+      }
+      .glass-btn-hover:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+      }
+      .dark .glass-btn-hover:hover {
+        background-color: rgba(255, 255, 255, 0.15);
+      }
     </style>
 </head>
-<body class="bg-[var(--background-color)]">
-<?php include 'includes/navbar.php'; ?>
-<?php include 'includes/mobile_navbar.php'; ?>
-<div class="min-h-screen flex flex-col">
-<main class="main_container flex-1">
-<div class="filter_container">
-<div class="relative">
-<button class="dropdown_button quiz-dropdown">
-                    <?php echo $quiz_type === 'all' ? 'All Quizzes' : ucfirst($quiz_type) . ' Quizzes'; ?>
-                    <svg class="bi bi-chevron-down" fill="currentColor" height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg">
-<path d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" fill-rule="evenodd"></path>
-</svg>
-</button>
-<div class="dropdown-content absolute top-full left-0 mt-1 bg-[var(--card-bg)] border border-[var(--card-border)] rounded-lg shadow-lg z-10 min-w-[150px] backdrop-blur-sm" style="display: none;">
-    <a href="#" class="block px-4 py-2 text-sm text-[var(--text-primary)] hover:bg-[var(--card-hover-shadow)] transition-colors" data-type="all">All Quizzes</a>
-    <a href="#" class="block px-4 py-2 text-sm text-[var(--text-primary)] hover:bg-[var(--card-hover-shadow)] transition-colors" data-type="practice">Practice Quizzes</a>
-    <a href="#" class="block px-4 py-2 text-sm text-[var(--text-primary)] hover:bg-[var(--card-hover-shadow)] transition-colors" data-type="mock">Mock Tests</a>
+<body class="bg-[var(--bg-color)] text-[var(--fg-color)] font-display transition-colors duration-500 light">
+<?php 
+// Add CSS variables for glassmorphism theme
+echo '<style>
+:root {
+    --bg-light: #ffffff;
+    --fg-light: #000000;
+    --bg-dark: #000000;
+    --fg-dark: #ffffff;
+    --glass-bg-light: rgba(255, 255, 255, 0.5);
+    --glass-border-light: rgba(0, 0, 0, 0.1);
+    --glass-bg-dark: rgba(29, 29, 29, 0.5);
+    --glass-border-dark: rgba(255, 255, 255, 0.2);
+    --subtle-text: #374151;
+    --category-text: #1f2937;
+    --header-glass-bg: rgba(255, 255, 255, 0.75);
+    --header-glass-border: rgba(0, 0, 0, 0.08);
+}
+html.light {
+    --bg-color: var(--bg-light);
+    --fg-color: var(--fg-light);
+    --glass-bg: var(--glass-bg-light);
+    --glass-border: var(--glass-border-light);
+    --subtle-text: #374151;
+    --category-text: #1f2937;
+    --header-glass-bg: rgba(255, 255, 255, 0.75);
+    --header-glass-border: rgba(0, 0, 0, 0.08);
+}
+html.dark {
+    --bg-color: var(--bg-dark);
+    --fg-color: var(--fg-dark);
+    --glass-bg: var(--glass-bg-dark);
+    --glass-border: var(--glass-border-dark);
+    --subtle-text: #d1d5db;
+    --category-text: #e5e7eb;
+    --header-glass-bg: rgba(17, 17, 17, 0.75);
+    --header-glass-border: rgba(255, 255, 255, 0.12);
+}
+</style>';
+include 'includes/navbar.php'; 
+?>
+<div class="relative flex min-h-screen w-full flex-col overflow-hidden pt-20">
+<!-- Animated Background Elements -->
+<div class="absolute top-[-20%] left-[-15%] w-96 h-96 bg-black/5 dark:bg-white/5 rounded-full blur-3xl animate-[spin_20s_linear_infinite] opacity-50"></div>
+<div class="absolute bottom-[-10%] right-[-10%] w-[40rem] h-[40rem] bg-black/5 dark:bg-white/5 rounded-3xl blur-3xl animate-[spin_30s_linear_infinite] opacity-50"></div>
+
+<div class="relative z-10 flex h-full w-full max-w-6xl mx-auto grow flex-col px-4 py-12 sm:px-6 lg:px-8">
+
+<!-- Page Header -->
+<header class="w-full text-center mb-8">
+<h1 class="text-5xl font-bold leading-tight tracking-wider text-black dark:text-white sm:text-6xl">Performance Analytics</h1>
+<p class="mt-4 text-lg text-[var(--subtle-text)]">Track your quiz performance and identify areas for improvement</p>
+</header>
+
+<!-- Time Period Filter -->
+<div class="mb-8">
+<div class="glassmorphic mx-auto max-w-2xl rounded-xl p-4 shadow-sm">
+<div class="flex flex-wrap justify-center gap-2">
+<a href="?period=7" class="px-4 py-2 rounded-lg text-sm font-medium transition-colors <?= $time_period === '7' ? 'bg-black text-white dark:bg-white dark:text-black' : 'text-[var(--fg-color)] hover:bg-black/10 dark:hover:bg-white/10' ?>">Last 7 Days</a>
+<a href="?period=30" class="px-4 py-2 rounded-lg text-sm font-medium transition-colors <?= $time_period === '30' ? 'bg-black text-white dark:bg-white dark:text-black' : 'text-[var(--fg-color)] hover:bg-black/10 dark:hover:bg-white/10' ?>">Last 30 Days</a>
+<a href="?period=90" class="px-4 py-2 rounded-lg text-sm font-medium transition-colors <?= $time_period === '90' ? 'bg-black text-white dark:bg-white dark:text-black' : 'text-[var(--fg-color)] hover:bg-black/10 dark:hover:bg-white/10' ?>">Last 90 Days</a>
+<a href="?period=all" class="px-4 py-2 rounded-lg text-sm font-medium transition-colors <?= $time_period === 'all' ? 'bg-black text-white dark:bg-white dark:text-black' : 'text-[var(--fg-color)] hover:bg-black/10 dark:hover:bg-white/10' ?>">All Time</a>
 </div>
 </div>
-<div class="filter_group">
-<button class="filter_toggle <?php echo $time_period === '7' ? 'active' : ''; ?>" data-period="7">Last 7 days</button>
-<button class="filter_toggle <?php echo $time_period === '30' ? 'active' : ''; ?>" data-period="30">Last 30 days</button>
-<button class="filter_toggle <?php echo $time_period === '90' ? 'active' : ''; ?>" data-period="90">Last 90 days</button>
-<button class="filter_toggle <?php echo $time_period === 'all' ? 'active' : ''; ?>" data-period="all">All Time</button>
 </div>
-</div>
+
 <?php if ($error_message): ?>
-<div class="bg-red-500/10 border border-red-500/20 rounded-lg p-4 mb-6">
-    <p class="text-red-400"><?php echo htmlspecialchars($error_message); ?></p>
+<div class="mb-8">
+<div class="glassmorphic rounded-xl p-6 border-red-500/50 bg-red-500/10">
+<p class="text-red-400 text-center"><?= htmlspecialchars($error_message) ?></p>
+</div>
 </div>
 <?php endif; ?>
 
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-6">
-<div class="card">
-<p class="card_title">Total Quizzes Taken</p>
-<p class="kpi_value"><?php echo $overall_stats['total_quizzes'] ?? 0; ?></p>
+<!-- Overall Statistics -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+<div class="glassmorphic rounded-xl p-6 text-center">
+<div class="text-3xl font-bold text-[var(--fg-color)] mb-2"><?= $overall_stats['total_quizzes'] ?></div>
+<div class="text-sm text-[var(--subtle-text)]">Total Quizzes</div>
 </div>
-<div class="card">
-<p class="card_title">Average Accuracy</p>
-<p class="kpi_value"><?php echo $overall_stats['avg_accuracy'] ? round($overall_stats['avg_accuracy'], 1) . '%' : '0%'; ?></p>
+<div class="glassmorphic rounded-xl p-6 text-center">
+<div class="text-3xl font-bold text-[var(--fg-color)] mb-2"><?= $overall_stats['avg_accuracy'] ?>%</div>
+<div class="text-sm text-[var(--subtle-text)]">Average Accuracy</div>
 </div>
-<div class="card">
-<p class="card_title">Total Time Spent</p>
-<p class="kpi_value"><?php echo $overall_stats['total_time'] ? formatTime($overall_stats['total_time']) : '0s'; ?></p>
+<div class="glassmorphic rounded-xl p-6 text-center">
+<div class="text-3xl font-bold text-[var(--fg-color)] mb-2"><?= formatTime($overall_stats['total_time']) ?></div>
+<div class="text-sm text-[var(--subtle-text)]">Total Time Spent</div>
 </div>
-<div class="card">
-<p class="card_title">Completion Rate</p>
-<p class="kpi_value"><?php echo $overall_stats['completion_rate'] ? round($overall_stats['completion_rate'], 1) . '%' : '0%'; ?></p>
-</div>
-</div>
-<div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-6">
-<div class="card lg:col-span-2">
-<h2 class="typography_h2">Daily Accuracy Breakdown</h2>
-<div class="chart_container flex items-end justify-between gap-2 pt-4">
-<?php for ($i = 0; $i < 7; $i++): 
-    $accuracy = $daily_data[$i];
-    $height = $accuracy > 0 ? $accuracy : 5; // Minimum height for visibility
-    $color = 'bg-gray-700';
-    $hoverColor = 'var(--success-color)';
-    
-    if ($accuracy >= 80) {
-        $hoverColor = 'var(--success-color)';
-    } elseif ($accuracy >= 60) {
-        $hoverColor = 'var(--warning-color)';
-    } elseif ($accuracy > 0) {;
-        $hoverColor = 'var(--danger-color)';
-    }
-?>
-<div class="group relative flex h-full w-full flex-col-reverse items-center gap-2 text-center">
-<div class="h-[75%] w-1/2 rounded-t-lg bg-gray-700 transition-colors group-hover:bg-[<?php echo $hoverColor; ?>]" style="height: <?php echo $height; ?>%"></div>
-<div class="absolute -top-8 hidden rounded-md bg-gray-900/80 px-2 py-1 text-xs font-bold text-white group-hover:block"><?php echo $accuracy > 0 ? $accuracy . '%' : 'No data'; ?></div>
-<p class="text-xs text-[var(--text-secondary)]"><?php echo $days[$i]; ?></p>
-</div>
-<?php endfor; ?>
+<div class="glassmorphic rounded-xl p-6 text-center">
+<div class="text-3xl font-bold text-[var(--fg-color)] mb-2"><?= $overall_stats['completion_rate'] ?>%</div>
+<div class="text-sm text-[var(--subtle-text)]">Success Rate (≥60%)</div>
 </div>
 </div>
-<div class="card">
-<h2 class="typography_h2">Topic Performance</h2>
-<div class="space-y-4">
+
+<!-- Category Performance -->
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
+<div class="glassmorphic rounded-xl p-6">
+<h2 class="text-2xl font-bold text-[var(--fg-color)] mb-6">Category Performance</h2>
 <?php if (empty($category_performance)): ?>
-    <p class="text-[var(--text-secondary)] text-center py-4">No category performance data available</p>
+<p class="text-[var(--subtle-text)] text-center py-8">No category data available</p>
 <?php else: ?>
-    <?php foreach ($category_performance as $category): 
-        $accuracy = round($category['avg_accuracy'], 1);
-        $progressColor = getAccuracyColor($accuracy);
-    ?>
-    <div>
-    <div class="flex justify-between mb-1 text-sm font-medium text-[var(--text-secondary)]">
-    <span><?php echo htmlspecialchars($category['category'] ?: 'General'); ?></span>
-    <span class="text-[var(--text-primary)]"><?php echo $accuracy; ?>%</span>
-    </div>
-    <div class="progress_bar_bg">
-    <div class="progress_bar" style="width: <?php echo $accuracy; ?>%; background-color: <?php echo $progressColor; ?>"></div>
-    </div>
-    </div>
-    <?php endforeach; ?>
+<div class="space-y-4">
+<?php foreach ($category_performance as $category): 
+    $accuracy = round($category['avg_accuracy'], 1);
+    $progressColor = getAccuracyColor($accuracy);
+?>
+<div class="space-y-2">
+<div class="flex justify-between items-center">
+<span class="text-[var(--fg-color)] font-medium"><?= htmlspecialchars(ucfirst(str_replace('_', ' ', $category['category'] ?: 'General'))) ?></span>
+<span class="text-[var(--fg-color)] font-bold"><?= $accuracy ?>%</span>
+</div>
+<div class="w-full bg-black/10 dark:bg-white/10 rounded-full h-2">
+<div class="h-2 rounded-full transition-all duration-300" style="width: <?= $accuracy ?>%; background-color: <?= $progressColor ?>"></div>
+</div>
+<div class="text-xs text-[var(--subtle-text)]"><?= $category['attempts'] ?> attempts</div>
+</div>
+<?php endforeach; ?>
+</div>
 <?php endif; ?>
 </div>
-</div>
-</div>
-<div class="card">
-<h2 class="typography_h2">Recent Quiz Results</h2>
-<div class="overflow-x-auto">
-<table class="w-full text-left text-[var(--text-secondary)]">
-<thead class="text-xs uppercase">
-<tr class="border-b border-[var(--card-border)]">
-<th class="table_cell">Quiz Name</th>
-<th class="table_cell">Date</th>
-<th class="table_cell">Accuracy</th>
-<th class="table_cell">Time Spent</th>
-<th class="table_cell">Status</th>
-</tr>
-</thead>
-<tbody>
+
+<!-- Recent Quiz Results -->
+<div class="glassmorphic rounded-xl p-6">
+<h2 class="text-2xl font-bold text-[var(--fg-color)] mb-6">Recent Results</h2>
 <?php if (empty($recent_quizzes)): ?>
-<tr class="table_row">
-<td colspan="5" class="table_cell text-center text-[var(--text-secondary)] py-8">No recent quiz results found</td>
-</tr>
+<p class="text-[var(--subtle-text)] text-center py-8">No recent quiz results found</p>
 <?php else: ?>
-<?php foreach ($recent_quizzes as $quiz): 
+<div class="space-y-3">
+<?php foreach (array_slice($recent_quizzes, 0, 5) as $quiz): 
     $accuracy = round($quiz['accuracy'], 1);
     $accuracyColor = getAccuracyColor($accuracy);
     $statusColor = getStatusColor($quiz['status']);
-    $timeAgo = date('M j, Y', strtotime($quiz['created_at']));
+    $timeAgo = date('M j', strtotime($quiz['completed_at']));
 ?>
-<tr class="table_row">
-<td class="table_cell text-[var(--text-primary)]"><?php echo htmlspecialchars($quiz['quiz_title'] ?: 'Untitled Quiz'); ?></td>
-<td class="table_cell"><?php echo $timeAgo; ?></td>
-<td class="table_cell" style="color: <?php echo $accuracyColor; ?>"><?php echo $accuracy; ?>%</td>
-<td class="table_cell"><?php echo $quiz['time_taken'] ? formatTime($quiz['time_taken']) : '-'; ?></td>
-<td class="table_cell <?php echo $statusColor; ?>"><?php echo ucfirst($quiz['status']); ?></td>
-</tr>
+<div class="flex justify-between items-center p-3 rounded-lg bg-black/5 dark:bg-white/5">
+<div class="flex-1">
+<div class="font-medium text-[var(--fg-color)]"><?= htmlspecialchars($quiz['quiz_title'] ?: 'Untitled Quiz') ?></div>
+<div class="text-xs text-[var(--subtle-text)]"><?= $timeAgo ?> • <?= formatTime($quiz['time_taken'] ?: 0) ?></div>
+</div>
+<div class="text-right">
+<div class="font-bold" style="color: <?= $accuracyColor ?>"><?= $accuracy ?>%</div>
+<div class="text-xs <?= $statusColor ?>"><?= ucfirst($quiz['status']) ?></div>
+</div>
+</div>
 <?php endforeach; ?>
+</div>
 <?php endif; ?>
-</tbody>
-</table>
 </div>
 </div>
-</main>
-</div>
-<script>
-// Filter functionality
-document.addEventListener('DOMContentLoaded', function() {
-    const filterButtons = document.querySelectorAll('.filter_toggle');
-    
-    filterButtons.forEach(button => {
-        button.addEventListener('click', function() {
-            const period = this.getAttribute('data-period');
-            
-            // Update URL with new period parameter
-            const url = new URL(window.location);
-            url.searchParams.set('period', period);
-            
-            // Reload page with new parameters
-            window.location.href = url.toString();
-        });
-    });
-    
-    // Quiz type dropdown functionality
-    const quizDropdown = document.querySelector('.quiz-dropdown');
-    const dropdownContent = document.querySelector('.dropdown-content');
-    
-    if (quizDropdown && dropdownContent) {
-        quizDropdown.addEventListener('click', function(e) {
-            e.preventDefault();
-            dropdownContent.style.display = dropdownContent.style.display === 'block' ? 'none' : 'block';
-        });
-        
-        // Close dropdown when clicking outside
-        document.addEventListener('click', function(e) {
-            if (!quizDropdown.contains(e.target)) {
-                dropdownContent.style.display = 'none';
-            }
-        });
-        
-        // Handle dropdown item clicks
-        const dropdownItems = dropdownContent.querySelectorAll('a');
-        dropdownItems.forEach(item => {
-            item.addEventListener('click', function(e) {
-                e.preventDefault();
-                const type = this.getAttribute('data-type') || 'all';
-                
-                // Update URL with new type parameter
-                const url = new URL(window.location);
-                url.searchParams.set('type', type);
-                
-                // Reload page with new parameters
-                window.location.href = url.toString();
-            });
-        });
-    }
-});
-</script>
 
-</body></html>
+<!-- Action Buttons -->
+<footer class="mt-12">
+<div class="flex flex-col gap-4 sm:flex-row sm:justify-center">
+<a href="index.php" class="flex h-14 min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-xl bg-black px-8 text-base font-bold text-white transition-transform duration-200 hover:scale-105 dark:bg-white dark:text-black">
+<span class="truncate">Take Another Quiz</span>
+</a>
+<a href="quiz-history.php" class="glassmorphic glass-btn-hover flex h-14 min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-xl border border-black/20 px-8 text-base font-bold text-black transition-transform duration-200 hover:scale-105 dark:border-white/20 dark:text-white">
+<span class="truncate">View Quiz History</span>
+</a>
+</div>
+</footer>
+
+</div>
+</div>
+
+</body>
+</html>

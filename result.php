@@ -49,308 +49,375 @@ foreach ($questions as $i => $q) {
             $user = strtolower($user[0] ?? '');
         }
         
-        // Compare first character of answer
-        $is_correct = (strtolower($user[0] ?? '') === strtolower($correct[0] ?? ''));
-    }
-    
-    // Get answer texts from options
-    if (!empty($q['options']) && is_array($q['options'])) {
         // Get user answer text
-        if (!empty($user) && strlen($user) > 0) {
-            $user_index = ord(strtoupper($user[0])) - 65;
-            if ($user_index >= 0 && $user_index < count($q['options']) && isset($q['options'][$user_index])) {
-                $user_answer_text = $q['options'][$user_index];
-            }
-        }
-        
-        // Get correct answer text
-        if (!empty($correct) && strlen($correct) > 0) {
-            $correct_index = ord(strtoupper($correct[0])) - 65;
-            if ($correct_index >= 0 && $correct_index < count($q['options']) && isset($q['options'][$correct_index])) {
-                $correct_answer_text = $q['options'][$correct_index];
-            }
+        if (isset($q['options'][$user])) {
+            $user_answer_text = $q['options'][$user];
         }
     }
     
-    // Add 2 marks for each correct answer
+    // Get correct answer text
+    if (isset($q['options'][$correct])) {
+        $correct_answer_text = $q['options'][$correct];
+    }
+    
+    $is_correct = ($user === $correct);
+    
+    
     if ($is_correct) {
         $score += 2;
     }
     
     $results[] = [
         'question' => $q['question'],
-        'user' => $user,
-        'correct' => $correct,
         'options' => $q['options'],
+        'user_answer' => $user,
+        'correct_answer' => $correct,
         'is_correct' => $is_correct,
-        'user_text' => $user_answer_text,
-        'correct_text' => $correct_answer_text
+        'user_answer_text' => $user_answer_text,
+        'correct_answer_text' => $correct_answer_text
     ];
 }
 
-// Save quiz results to database if user is logged in and not already saved
-if (isset($_SESSION['user_id']) && !isset($_SESSION['quiz_saved'])) {
+$_SESSION['quiz_results']['results'] = $results;
+
+// Save to database if user is logged in
+if (isset($_SESSION['user_id']) && !$mock_mode) {
     try {
-        $correct_answers = array_sum(array_column($results, 'is_correct'));
-        $score_percentage = ($correct_answers / $total) * 100;
-        $quiz_type = $_SESSION['exam_type'] ?? ($mock_mode ? 'mock_test' : 'general');
+        $pdo = getConnection();
+        $accuracy = $max_score > 0 ? ($score / $max_score) * 100 : 0;
+        $time_taken = $_SESSION['time_taken'] ?? 0;
         
-        // Calculate time taken with validation
-        $time_taken = 0;
-        if (isset($_SESSION['quiz_start_time']) && is_numeric($_SESSION['quiz_start_time'])) {
-            $calculated_time = time() - $_SESSION['quiz_start_time'];
-            // Validate time: should be positive and reasonable (max 4 hours)
-            if ($calculated_time > 0 && $calculated_time <= 14400) {
-                $time_taken = $calculated_time;
-            } else {
-                error_log('Invalid quiz time calculated: ' . $calculated_time . ' seconds. Using 0.');
-                $time_taken = 0;
-            }
-        } else {
-            error_log('Quiz start time not set or invalid. Using 0 for time_taken.');
-        }
+        $stmt = $pdo->prepare("
+            INSERT INTO quiz_attempts (user_id, quiz_title, quiz_type, total_questions, correct_answers, accuracy, time_taken, completed_at) 
+            VALUES (?, ?, ?, ?, ?, ?, ?, NOW())
+        ");
         
-        // Prepare quiz attempt data
-        $quiz_attempt_data = [
-            'user_id' => $_SESSION['user_id'],
-            'quiz_type' => $quiz_type,
-            'quiz_title' => $quiz_title,
-            'total_questions' => $total,
-            'correct_answers' => $correct_answers,
-            'score' => $score,
-            'max_score' => $max_score,
-            'accuracy' => round($score_percentage, 2),
-            'time_taken' => $time_taken,
-            'started_at' => isset($_SESSION['quiz_start_time']) ? date('Y-m-d H:i:s', $_SESSION['quiz_start_time']) : date('Y-m-d H:i:s'),
-            'completed_at' => date('Y-m-d H:i:s')
-        ];
+        $stmt->execute([
+            $_SESSION['user_id'],
+            $quiz_title,
+            $quiz_id,
+            $total,
+            $score / 2, // Convert back to number of correct answers
+            $accuracy,
+            $time_taken
+        ]);
         
-        // Insert quiz attempt using helper function
-        $attempt_id = insertRecord('quiz_attempts', $quiz_attempt_data);
-        
-        if ($attempt_id) {
-            $_SESSION['quiz_attempt_id'] = $attempt_id;
-            
-            // Save individual responses
-            foreach ($questions as $i => $question) {
-                $result = $results[$i];
-                $user_answer = $result['user'];
-                $correct_answer = $result['correct'];
-                $is_correct = $result['is_correct'];
-                
-                $response_data = [
-                    'attempt_id' => $attempt_id,
-                    'question_number' => $i + 1,
-                    'question_text' => substr($question['question'] ?? '', 0, 1000), // Limit length
-                    'user_answer' => $user_answer,
-                    'correct_answer' => $correct_answer,
-                    'is_correct' => $is_correct ? 1 : 0,
-                    'category' => $question['category']['name'] ?? null,
-                    'subcategory' => $question['category']['subcategory'] ?? null
-                ];
-                
-                insertRecord('quiz_responses', $response_data);
-            }
-            
-            // Update user statistics, daily performance, and category performance
-            $primary_category = !empty($questions) ? ($questions[0]['category']['name'] ?? 'General') : 'General';
-            $stats_updated = updateAllStatistics($_SESSION['user_id'], $correct_answers, $total, $primary_category);
-            
-            if (!$stats_updated) {
-                error_log('Warning: Failed to update some statistics for user ' . $_SESSION['user_id']);
-            }
-            
-            // Mark as saved to prevent duplicate saves
-            $_SESSION['quiz_saved'] = true;
-            
-            // Clean up quiz session variables for next quiz
-            unset($_SESSION['quiz_start_time']);
-            unset($_SESSION['current_quiz_id']);
-            error_log('Quiz session variables cleaned up after saving results');
-        }
-        
+        error_log('DEBUG result.php: Quiz attempt saved to database');
     } catch (Exception $e) {
-        error_log('Error saving quiz attempt in result.php: ' . $e->getMessage());
-        // Continue to display results even if database save fails
+        error_log('DEBUG result.php: Error saving to database: ' . $e->getMessage());
     }
+}
+
+// Calculate performance metrics
+$percentage = $max_score > 0 ? ($score / $max_score) * 100 : 0;
+$correct_count = $score / 2;
+$wrong_count = $total - $correct_count;
+
+// Performance message
+$performance_message = '';
+$performance_color = '';
+if ($percentage >= 80) {
+    $performance_message = "Excellent work! Outstanding performance! 🎉";
+    $performance_color = 'text-green-500';
+} elseif ($percentage >= 60) {
+    $performance_message = "Good job! Keep up the great work! 👍";
+    $performance_color = 'text-blue-500';
+} else {
+    $performance_message = "Keep practicing! You'll improve with time! 💪";
+    $performance_color = 'text-orange-500';
 }
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html class="light" lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <link rel="icon" href="favicon.svg" type="image/svg+xml">
-    <link rel="shortcut icon" href="favicon.svg" type="image/svg+xml">
-    <title>Quiz Results</title>
-    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-    <link href="https://fonts.googleapis.com" rel="preconnect">
-    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&amp;display=swap" rel="stylesheet">
-    <style type="text/tailwindcss">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Quiz Results - MPSC Quiz Portal</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<style>
         :root {
-            --background-color-light: #f5f5f5;
-            --text-primary-light: #121212;
-            --text-secondary-light: #6B7280;
-            --card-bg-light: rgba(255, 255, 255, 0.6);
-            --card-border-light: rgba(0, 0, 0, 0.05);
-            --card-hover-shadow-light: rgba(0, 0, 0, 0.05);
-            --toggle-bg-light: #E5E7EB;
-            --toggle-indicator-light: #ffffff;
-            --background-color-dark: #121212;
-            --text-primary-dark: #f5f5f5;
-            --text-secondary-dark: #9CA3AF;
-            --card-bg-dark: rgba(31, 31, 31, 0.6);
-            --card-border-dark: rgba(255, 255, 255, 0.1);
-            --card-hover-shadow-dark: rgba(255, 255, 255, 0.05);
-            --toggle-bg-dark: #374151;
-            --toggle-indicator-dark: #1F2937;
-            --result-correct: #10b981;
-            --result-incorrect: #ef4444;
-            --result-neutral: #9ca3af;
+            --bg-light: #ffffff;
+            --fg-light: #000000;
+            --bg-dark: #000000;
+            --fg-dark: #ffffff;
+            --glass-bg-light: rgba(255, 255, 255, 0.5);
+            --glass-border-light: rgba(0, 0, 0, 0.1);
+            --glass-bg-dark: rgba(29, 29, 29, 0.5);
+            --glass-border-dark: rgba(255, 255, 255, 0.2);
+            --subtle-text: #374151;
+            --category-text: #1f2937;
+            --header-glass-bg: rgba(255, 255, 255, 0.75);
+            --header-glass-border: rgba(0, 0, 0, 0.08);
         }
-        .light {
-            --background-color: var(--background-color-light);
-            --text-primary: var(--text-primary-light);
-            --text-secondary: var(--text-secondary-light);
-            --card-bg: var(--card-bg-light);
-            --card-border: var(--card-border-light);
-            --card-hover-shadow: var(--card-hover-shadow-light);
-            --toggle-bg: var(--toggle-bg-light);
-            --toggle-indicator: var(--toggle-indicator-light);
-            --result-correct: #10b981;
-            --result-incorrect: #ef4444;
-            --result-neutral: #6b7280;
+        html.light {
+            --bg-color: var(--bg-light);
+            --fg-color: var(--fg-light);
+            --glass-bg: var(--glass-bg-light);
+            --glass-border: var(--glass-border-light);
+            --subtle-text: #374151;
+            --category-text: #1f2937;
+            --header-glass-bg: rgba(255, 255, 255, 0.75);
+            --header-glass-border: rgba(0, 0, 0, 0.08);
         }
-        .dark {
-            --background-color: var(--background-color-dark);
-            --text-primary: var(--text-primary-dark);
-            --text-secondary: var(--text-secondary-dark);
-            --card-bg: var(--card-bg-dark);
-            --card-border: var(--card-border-dark);
-            --card-hover-shadow: var(--card-hover-shadow-dark);
-            --toggle-bg: var(--toggle-bg-dark);
-            --toggle-indicator: var(--toggle-indicator-dark);
-            --result-correct: #34d399;
-            --result-incorrect: #f87171;
-            --result-neutral: #9ca3af;
-        }
-        body {
-            font-family: "Manrope", sans-serif;
-            background-color: var(--background-color);
-            color: var(--text-primary);
-            transition: background-color 0.3s ease, color 0.3s ease;
-        }
-        .card {
-            background: var(--card-bg);
-            border-radius: 24px;
-            backdrop-filter: blur(10px);
-            -webkit-backdrop-filter: blur(10px);
-            border: 1px solid var(--card-border);
-            transition: background-color 0.3s ease, border-color 0.3s ease;
-        }
-        .button_primary {
-            @apply bg-[var(--primary-color)] text-[var(--button-primary-text)] rounded-full px-8 py-3 font-bold hover:opacity-80 transition-opacity duration-300 text-center;
-        }
-        .button_secondary {
-            @apply bg-[var(--accent-color)] text-[var(--text-primary)] rounded-full px-8 py-3 font-bold hover:opacity-80 transition-opacity duration-300 text-center;
+        html.dark {
+            --bg-color: var(--bg-dark);
+            --fg-color: var(--fg-dark);
+            --glass-bg: var(--glass-bg-dark);
+            --glass-border: var(--glass-border-dark);
+            --subtle-text: #d1d5db;
+            --category-text: #e5e7eb;
+            --header-glass-bg: rgba(17, 17, 17, 0.75);
+            --header-glass-border: rgba(255, 255, 255, 0.12);
         }
 
-        .result-item {
-            @apply mb-6 p-4 rounded-xl transition-colors duration-200;
+        .glassmorphic {
+            background-color: var(--glass-bg);
+            backdrop-filter: blur(25px);
+            -webkit-backdrop-filter: blur(25px);
+            border: 1px solid var(--glass-border);
         }
-        .result-item.correct {
-            @apply bg-green-500/10 border border-green-500/20;
+
+        .score-circle {
+            background: conic-gradient(
+                from 0deg,
+                #10b981 0deg <?= $percentage * 3.6 ?>deg,
+                rgba(255, 255, 255, 0.1) <?= $percentage * 3.6 ?>deg 360deg
+            );
+            border-radius: 50%;
+            padding: 4px;
         }
-        .result-item.wrong {
-            @apply bg-red-500/10 border border-red-500/20;
+
+        .score-inner {
+            background: var(--bg-color);
+            border-radius: 50%;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
         }
-        .option {
-            @apply block py-2 px-4 my-1 rounded-lg transition-colors duration-200 text-left;
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
-        .correct-answer {
-            @apply bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-300 border border-green-200 dark:border-green-800;
+
+        .fade-in-up {
+            animation: fadeInUp 0.6s ease-out;
         }
-        .user-wrong {
-            @apply bg-red-100 text-red-800 dark:bg-red-900/30 dark:text-red-300 border border-red-200 dark:border-red-800;
-        }
-        .light .result-item.correct {
-            @apply bg-green-50 border-green-200;
-        }
-        .light .result-item.wrong {
-            @apply bg-red-50 border-red-200;
-        }
+
+        .stagger-1 { animation-delay: 0.1s; }
+        .stagger-2 { animation-delay: 0.2s; }
+        .stagger-3 { animation-delay: 0.3s; }
+        .stagger-4 { animation-delay: 0.4s; }
     </style>
-</head>
-<body class="bg-background-color text-text-primary font-sans">
-    <div class="relative flex size-full min-h-screen flex-col overflow-x-hidden p-6">
-        <?php include 'includes/navbar.php'; ?>
-        <?php include 'includes/mobile_navbar.php'; ?>
-        
-        <div class="mt-20"></div>
-
-        <main class="flex-1 flex items-center justify-center">
-            <div class="w-full max-w-md">
-                <div class="card p-8 md:p-12 mb-8">
-                    <h2 class="mb-2 text-4xl font-extrabold tracking-tight text-center">Quiz Completed!</h2>
-                    <p class="text-text-secondary text-lg text-center mb-8">You've successfully completed the quiz. Here's how you did:</p>
-                    
-                    <div class="mb-8 flex flex-col items-center justify-center rounded-2xl bg-[var(--score-bg)] p-8 transition-colors duration-300">
-                        <p class="text-text-secondary text-lg mb-2">Your Score</p>
-                        <div class="text-5xl font-bold">
-                            <span class="text-[var(--result-correct)]"><?= $score ?></span>
-                            <span class="text-text-secondary">/<?= $max_score ?></span>
-                        </div>
-                        <p class="mt-2 text-text-secondary">
-                            (<?= $max_score > 0 ? round(($score / $max_score) * 100) : 0 ?>%)
-                        </p>
-                        <?php
-                            $percentage = $max_score > 0 ? ($score / $max_score) * 100 : 0;
-                            if ($percentage >= 80) {
-                                echo "Excellent work! ";
-                            } elseif ($percentage >= 60) {
-                                echo "Good job! Keep it up! ";
-                            } else {
-                                echo "Keep practicing! You'll get better! ";
-                            }
-                            ?>
-                        </p>
-                    </div>
-
-                    <div class="space-y-4">
-                        <a href="quiz.php?<?= $mock_mode ? 'mock=1' : 'quiz=' . urlencode($quiz_id) ?>" class="button_primary w-full">
-                            Try Again
-                        </a>
-                        <a href="index.php" class="block w-full text-center py-3 px-4 rounded-lg text-sm font-medium text-[var(--text-primary)] hover:bg-[var(--card-bg)] transition-colors">
-                            Back to Home
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </main>
-
-        <footer class="mx-auto w-full max-w-md pb-4">
-            <div class="flex flex-col gap-4">
-                <?php if ($mock_mode): ?>
-                    <a href="quiz.php?mock=1" class="button_primary">Retry Mock Test</a>
-                <?php else: ?>
-                    <a href="quiz.php?quiz=<?= urlencode($quiz_id) ?>" class="button_primary">Retry Quiz</a>
-                <?php endif; ?>
-                <a href="index.php" class="button_secondary">Back to Home</a>
-            </div>
-        </footer>
-    </div>
-
-    <script>
-        // Initialize theme on page load
-        const savedTheme = localStorage.getItem('theme');
-        if (savedTheme === 'light') {
-            document.documentElement.classList.add('light');
-            document.documentElement.classList.remove('dark');
-        } else {
-            document.documentElement.classList.add('dark');
-            document.documentElement.classList.remove('light');
-        }
+<script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            fontFamily: {
+              "display": ["Space Grotesk", "sans-serif"]
+            },
+          },
+        },
+      }
     </script>
+</head>
+<body class="font-display bg-[var(--bg-color)] text-[var(--fg-color)] transition-colors duration-500 light">
+<?php include 'includes/navbar.php'; ?>
+
+<div class="relative flex min-h-screen w-full flex-col overflow-hidden pt-20">
+<!-- Animated Background Elements -->
+<div class="absolute top-[-20%] left-[-15%] w-96 h-96 bg-black/5 dark:bg-white/5 rounded-full blur-3xl animate-[spin_20s_linear_infinite] opacity-50"></div>
+<div class="absolute bottom-[-10%] right-[-10%] w-[40rem] h-[40rem] bg-black/5 dark:bg-white/5 rounded-3xl blur-3xl animate-[spin_30s_linear_infinite] opacity-50"></div>
+
+<div class="relative z-10 flex h-full w-full max-w-4xl mx-auto grow flex-col px-4 py-12 sm:px-6 lg:px-8">
+
+<!-- Page Header -->
+<header class="w-full text-center mb-8 fade-in-up">
+<h1 class="text-5xl font-bold leading-tight tracking-wider text-black dark:text-white sm:text-6xl">Quiz Complete!</h1>
+<p class="mt-4 text-lg text-[var(--subtle-text)]">Here's how you performed on "<?= htmlspecialchars($quiz_title) ?>"</p>
+</header>
+
+<!-- Score Section -->
+<div class="mb-12 fade-in-up stagger-1">
+<div class="glassmorphic mx-auto max-w-2xl rounded-xl p-8 shadow-lg">
+<div class="flex flex-col lg:flex-row items-center gap-8">
+<!-- Score Circle -->
+<div class="flex-shrink-0">
+<div class="score-circle w-48 h-48">
+<div class="score-inner">
+<div class="text-4xl font-bold text-[var(--fg-color)]"><?= round($percentage) ?>%</div>
+<div class="text-sm text-[var(--subtle-text)] mt-1"><?= $score ?>/<?= $max_score ?></div>
+</div>
+</div>
+</div>
+
+<!-- Score Details -->
+<div class="flex-1 text-center lg:text-left">
+<h2 class="text-3xl font-bold text-[var(--fg-color)] mb-4">Your Performance</h2>
+<div class="grid grid-cols-2 gap-6 mb-6">
+<div class="glassmorphic rounded-lg p-4">
+<div class="text-2xl font-bold text-green-500"><?= $correct_count ?></div>
+<div class="text-sm text-[var(--subtle-text)]">Correct</div>
+</div>
+<div class="glassmorphic rounded-lg p-4">
+<div class="text-2xl font-bold text-red-500"><?= $wrong_count ?></div>
+<div class="text-sm text-[var(--subtle-text)]">Wrong</div>
+</div>
+</div>
+<p class="text-lg <?= $performance_color ?> font-medium"><?= $performance_message ?></p>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Action Buttons -->
+<div class="mb-12 fade-in-up stagger-2">
+<div class="flex flex-col gap-4 sm:flex-row sm:justify-center">
+<a href="quiz.php?<?= $mock_mode ? 'mock=1' : 'quiz=' . urlencode($quiz_id) ?>" class="flex h-14 min-w-[140px] cursor-pointer items-center justify-center overflow-hidden rounded-xl bg-black px-8 text-base font-bold text-white transition-transform duration-200 hover:scale-105 dark:bg-white dark:text-black">
+<span class="truncate">Try Again</span>
+</a>
+<a href="index.php" class="glassmorphic flex h-14 min-w-[140px] cursor-pointer items-center justify-center overflow-hidden rounded-xl border border-black/20 px-8 text-base font-bold text-black transition-transform duration-200 hover:scale-105 dark:border-white/20 dark:text-white hover:bg-black/5 dark:hover:bg-white/5">
+<span class="truncate">Back to Home</span>
+</a>
+<?php if (isLoggedIn()): ?>
+<a href="quiz-history.php" class="glassmorphic flex h-14 min-w-[140px] cursor-pointer items-center justify-center overflow-hidden rounded-xl border border-black/20 px-8 text-base font-bold text-black transition-transform duration-200 hover:scale-105 dark:border-white/20 dark:text-white hover:bg-black/5 dark:hover:bg-white/5">
+<span class="truncate">View History</span>
+</a>
+<?php endif; ?>
+</div>
+</div>
+
+<!-- Detailed Results (Optional - can be toggled) -->
+<div class="fade-in-up stagger-3">
+<div class="glassmorphic rounded-xl p-6 shadow-lg">
+<div class="flex items-center justify-between mb-6">
+<h3 class="text-2xl font-bold text-[var(--fg-color)]">Detailed Results</h3>
+<button id="toggle-details" class="glassmorphic px-4 py-2 rounded-lg text-sm font-medium text-[var(--fg-color)] hover:bg-black/5 dark:hover:bg-white/5 transition-colors">
+Show Details
+</button>
+</div>
+
+<div id="detailed-results" class="hidden space-y-4">
+<?php foreach ($results as $index => $result): ?>
+<div class="glassmorphic rounded-lg p-4 <?= $result['is_correct'] ? 'border-l-4 border-green-500' : 'border-l-4 border-red-500' ?>">
+<div class="mb-3">
+<span class="text-sm font-medium text-[var(--subtle-text)]">Question <?= $index + 1 ?></span>
+<h4 class="text-lg font-medium text-[var(--fg-color)] mt-1"><?= htmlspecialchars($result['question']) ?></h4>
+</div>
+<div class="grid gap-2">
+<div class="flex items-center gap-2">
+<span class="text-sm text-[var(--subtle-text)]">Your answer:</span>
+<span class="px-2 py-1 rounded text-sm <?= $result['is_correct'] ? 'bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-300' : 'bg-red-100 text-red-800 dark:bg-red-900/30 dark:text-red-300' ?>">
+<?= $result['user_answer_text'] ?: 'No answer' ?>
+</span>
+</div>
+<?php if (!$result['is_correct']): ?>
+<div class="flex items-center gap-2">
+<span class="text-sm text-[var(--subtle-text)]">Correct answer:</span>
+<span class="px-2 py-1 rounded text-sm bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-300">
+<?= $result['correct_answer_text'] ?>
+</span>
+</div>
+<?php endif; ?>
+</div>
+</div>
+<?php endforeach; ?>
+</div>
+</div>
+</div>
+
+<!-- Performance Tips -->
+<div class="mt-12 fade-in-up stagger-4">
+<div class="glassmorphic rounded-xl p-6 shadow-lg">
+<h3 class="text-xl font-bold text-[var(--fg-color)] mb-4">💡 Tips for Improvement</h3>
+<div class="grid md:grid-cols-2 gap-4 text-sm text-[var(--subtle-text)]">
+<?php if ($percentage < 60): ?>
+<div class="flex items-start gap-2">
+<span class="text-blue-500">📚</span>
+<span>Review the topics you found challenging and practice more questions.</span>
+</div>
+<div class="flex items-start gap-2">
+<span class="text-green-500">⏰</span>
+<span>Take your time to read each question carefully before answering.</span>
+</div>
+<?php elseif ($percentage < 80): ?>
+<div class="flex items-start gap-2">
+<span class="text-blue-500">🎯</span>
+<span>Focus on accuracy - you're doing well, just need to be more precise.</span>
+</div>
+<div class="flex items-start gap-2">
+<span class="text-purple-500">📖</span>
+<span>Review the questions you got wrong to avoid similar mistakes.</span>
+</div>
+<?php else: ?>
+<div class="flex items-start gap-2">
+<span class="text-gold-500">🏆</span>
+<span>Excellent work! Keep practicing to maintain this high standard.</span>
+</div>
+<div class="flex items-start gap-2">
+<span class="text-blue-500">🚀</span>
+<span>Try more challenging quizzes to further improve your skills.</span>
+</div>
+<?php endif; ?>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+<script>
+// Initialize theme on page load
+const savedTheme = localStorage.getItem('theme');
+if (savedTheme) {
+    document.documentElement.classList.remove('dark', 'light');
+    document.documentElement.classList.add(savedTheme);
+}
+
+// Toggle detailed results
+document.getElementById('toggle-details').addEventListener('click', function() {
+    const details = document.getElementById('detailed-results');
+    const button = this;
+    
+    if (details.classList.contains('hidden')) {
+        details.classList.remove('hidden');
+        button.textContent = 'Hide Details';
+    } else {
+        details.classList.add('hidden');
+        button.textContent = 'Show Details';
+    }
+});
+
+// Add stagger animation to elements
+document.addEventListener('DOMContentLoaded', function() {
+    const elements = document.querySelectorAll('.fade-in-up');
+    elements.forEach((el, index) => {
+        el.style.opacity = '0';
+        el.style.transform = 'translateY(30px)';
+        
+        setTimeout(() => {
+            el.style.transition = 'all 0.6s ease-out';
+            el.style.opacity = '1';
+            el.style.transform = 'translateY(0)';
+        }, index * 100);
+    });
+});
+</script>
+
 </body>
 </html>

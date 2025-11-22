@@ -140,23 +140,51 @@ function parse_testqna_file($filepath) {
                 continue;
             }
             
+            // Clean the question text - remove contextual file references and category indicators
+            $question_text = preg_replace('/\(File\s+\d+(\s*-\s*[^)]+)?\)\s*/', '', $q['question']);
+            // Remove category indicators like (Antonym), (Synonym), (Active), (Passive), etc.
+            $question_text = preg_replace('/\s*\([^)]*(?:Antonym|Synonym|Active|Passive|Grammar|Vocabulary|Idiom|Phrase|Spelling|Comprehension|Reading|Writing)[^)]*\)\s*$/i', '', $question_text);
+            $question_text = trim($question_text);
+            
             // Convert options array to associative array with letters
             $options = [];
             foreach ($q['options'] as $index => $option) {
-                // Remove the letter prefix if it exists (e.g., "a) Text" -> "Text")
-                $option_text = preg_replace('/^[a-e]\)\s*/', '', $option);
+                // Remove the letter prefix if it exists (e.g., "a) Text", "(a) Text", "(A) Text" -> "Text")
+                $option_text = preg_replace('/^(\([a-eA-E]\)|[a-eA-E]\))\s*/', '', $option);
+                // Also remove file references from options
+                $option_text = preg_replace('/\(File\s+\d+(\s*-\s*[^)]+)?\)\s*/', '', $option_text);
+                $option_text = trim($option_text);
                 $letter = chr(97 + $index); // 97 is ASCII for 'a'
                 $options[$letter] = $option_text;
             }
             
-            // Convert answer to lowercase
-            $answer = strtolower($q['answer']);
+            // Extract the letter from the answer (handle formats like "C (explanation)" or just "c")
+            $original_answer = $q['answer'];
+            $answer = $q['answer'];
+            if (preg_match('/^([a-dA-D])\s*[\(\.]/', $answer, $matches)) {
+                // Extract letter from formats like "C (explanation)" or "c."
+                $answer = strtolower($matches[1]);
+            } elseif (preg_match('/^([a-dA-D])$/', $answer, $matches)) {
+                // Just a single letter
+                $answer = strtolower($matches[1]);
+            } else {
+                // If no letter found, try to extract first letter
+                $first_char = substr(trim($answer), 0, 1);
+                if (preg_match('/[a-dA-D]/', $first_char)) {
+                    $answer = strtolower($first_char);
+                } else {
+                    // Log problematic answers for debugging
+                    error_log("DEBUG: Could not extract answer letter from: '$original_answer' in file: " . basename($filepath));
+                    $answer = 'a'; // Default fallback
+                }
+            }
+            
             
             // Get the category name from JSON data or use filename
             $category_name = isset($data['category']) ? $data['category'] : (str_replace(['_', '-'], ' ', basename($filepath, '.json')));
             
             $questions[] = [
-                'question' => $q['question'],
+                'question' => $question_text,
                 'options' => $options,
                 'answer' => $answer,
                 'category' => $category_name,
@@ -1285,3 +1313,4 @@ function updateAllStatistics($user_id, $score, $total_questions, $category) {
         return $carry && $item;
     }, true);
 }
+

@@ -1,35 +1,8 @@
-<?php
-require_once __DIR__ . '/config/config.php';
-require_once __DIR__ . '/config/database.php';
-require_once __DIR__ . '/config/session.php';
-require_once __DIR__ . '/includes/functions.php';
-
-$quiz_files = get_quiz_files(__DIR__ . '/quizzes');
-
-// Group quizzes by version
-$grouped = [];
-foreach ($quiz_files as $qf) {
-    [$ver, $file] = explode('/', $qf, 2);
-    $grouped[$ver][] = $qf;
-}
-$versions = array_keys($grouped);
-
-// Check if user is logged in
-$is_logged_in = isLoggedIn();
-$user_name = null;
-if ($is_logged_in) {
-    $current_user = getCurrentUser();
-    $user_name = $current_user ? ($current_user['full_name'] ?? $current_user['username'] ?? 'User') : null;
-}
-?>
 <!DOCTYPE html>
-<html class="dark" lang="en">
-<head>
+<html class="dark" lang="en"><head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>MPSC Quiz - Master Your Knowledge</title>
-<link rel="icon" href="favicon.svg" type="image/svg+xml">
-<link rel="shortcut icon" href="favicon.svg" type="image/svg+xml">
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
@@ -126,16 +99,34 @@ if ($is_logged_in) {
       function toggleTheme() {
         document.documentElement.classList.toggle('dark');
         document.documentElement.classList.toggle('light');
-        // Save theme preference
-        const isDark = document.documentElement.classList.contains('dark');
-        localStorage.setItem('theme', isDark ? 'dark' : 'light');
       }
     </script>
 </head>
 <body class="font-display bg-[var(--bg-color)] text-[var(--fg-color)] transition-colors duration-500 light">
 <div id="cursor-glow"></div>
-<?php include 'includes/navbar.php'; ?>
 <div class="relative flex min-h-screen w-full flex-col overflow-hidden">
+<header class="fixed top-0 left-0 right-0 z-50 flex items-center justify-between whitespace-nowrap px-4 sm:px-10 lg:px-20 py-5 bg-[var(--header-glass-bg)] backdrop-blur-md border-b border-[var(--header-glass-border)] transition-colors duration-500">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 flex items-center justify-center text-[var(--fg-color)]">
+<svg fill="currentColor" height="100%" viewBox="0 0 24 24" width="100%" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"></path>
+<path d="M12 4c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm0 6c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"></path>
+</svg>
+</div>
+<span class="text-2xl font-bold tracking-widest">MPSC</span>
+</div>
+<div class="flex items-center justify-end gap-2">
+<button class="relative flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 text-sm font-bold leading-normal tracking-[0.015em] transition-all duration-300 group">
+<div class="absolute inset-0 bg-[var(--glass-bg)] backdrop-blur-md border border-[var(--glass-border)] rounded-lg transition-all duration-300 group-hover:bg-[rgba(255,255,255,0.2)] dark:group-hover:bg-[rgba(0,0,0,0.2)]"></div>
+<span class="truncate z-10">Log In</span>
+</button>
+<button class="relative flex items-center justify-center size-10 rounded-lg group" onclick="toggleTheme()">
+<div class="absolute inset-0 bg-[var(--glass-bg)] backdrop-blur-md border border-[var(--glass-border)] rounded-lg transition-all duration-300 group-hover:bg-[rgba(255,255,255,0.2)] dark:group-hover:bg-[rgba(0,0,0,0.2)]"></div>
+<span class="material-symbols-outlined !text-2xl z-10 block dark:hidden">dark_mode</span>
+<span class="material-symbols-outlined !text-2xl z-10 hidden dark:block">light_mode</span>
+</button>
+</div>
+</header>
 <main class="relative flex flex-1 flex-col items-center justify-center text-center py-20 px-4 min-h-screen" id="parallax-container" style="perspective: 1000px;">
 <div class="absolute inset-[-10%] z-0 flex items-center justify-center opacity-100 transition-opacity duration-500" style="transform-style: preserve-3d;">
 <div class="parallax-element generative-1 absolute top-[10%] left-[15%] size-48 rounded-full border border-[var(--glass-border)] bg-[var(--glass-bg)] backdrop-blur-md" data-depth="0.3"></div>
@@ -150,12 +141,10 @@ if ($is_logged_in) {
 <h1 class="text-6xl md:text-8xl font-bold leading-tight tracking-tighter">Master Your Quizzes Daily</h1>
 <p class="text-[var(--subtle-text)] text-lg md:text-xl font-normal leading-relaxed tracking-wider max-w-2xl mx-auto">Engage with beautifully crafted quizzes designed for modern learning.</p>
 </div>
-<?php if (!$is_logged_in): ?>
-<a class="group/cta relative flex min-w-[200px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-14 px-8 transition-transform duration-300 hover:scale-105" href="register.php" style="transform-style: preserve-3d;">
+<a class="group/cta relative flex min-w-[200px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-14 px-8 transition-transform duration-300 hover:scale-105" href="#" style="transform-style: preserve-3d;">
 <div class="cta-bg absolute inset-0 bg-[var(--glass-bg)] backdrop-blur-2xl border border-[var(--glass-border-cta)] rounded-xl shadow-lg transition-transform duration-300 ease-in-out"></div>
 <span class="cta-text truncate text-lg font-bold tracking-wider transition-transform duration-300 ease-in-out">Start Learning</span>
 </a>
-<?php endif; ?>
 </div>
 </main>
 <section class="relative w-full py-20 px-4 sm:px-6 lg:px-8">
@@ -169,7 +158,7 @@ if ($is_logged_in) {
 <p class="mt-4 max-w-2xl text-base text-[var(--category-text)]">Choose from our comprehensive quiz categories designed for MPSC preparation.</p>
 </div>
 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 w-full">
-<a href="quiz.php?category=mixed-english" class="flex flex-col p-8 bg-[var(--glass-bg)] backdrop-blur-2xl border border-[var(--glass-border)] rounded-xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
+<div class="flex flex-col p-8 bg-[var(--glass-bg)] backdrop-blur-2xl border border-[var(--glass-border)] rounded-xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
 <div class="flex-grow">
 <span class="material-symbols-outlined !text-4xl">language</span>
 <h3 class="mt-6 text-xl font-bold">Mixed English</h3>
@@ -178,8 +167,8 @@ if ($is_logged_in) {
 <div class="mt-6">
 <span class="text-xs font-medium px-3 py-1 bg-[rgba(255,255,255,0.1)] dark:bg-[rgba(0,0,0,0.1)] rounded-full border border-[var(--glass-border)]">20 randomized questions</span>
 </div>
-</a>
-<a href="quiz.php?category=mixed-gk" class="flex flex-col p-8 bg-[var(--glass-bg)] backdrop-blur-2xl border border-[var(--glass-border)] rounded-xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
+</div>
+<div class="flex flex-col p-8 bg-[var(--glass-bg)] backdrop-blur-2xl border border-[var(--glass-border)] rounded-xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
 <div class="flex-grow">
 <span class="material-symbols-outlined !text-4xl">public</span>
 <h3 class="mt-6 text-xl font-bold">Mixed GK</h3>
@@ -188,8 +177,8 @@ if ($is_logged_in) {
 <div class="mt-6">
 <span class="text-xs font-medium px-3 py-1 bg-[rgba(255,255,255,0.1)] dark:bg-[rgba(0,0,0,0.1)] rounded-full border border-[var(--glass-border)]">20 randomized questions</span>
 </div>
-</a>
-<a href="quiz.php?category=mixed-aptitude" class="flex flex-col p-8 bg-[var(--glass-bg)] backdrop-blur-2xl border border-[var(--glass-border)] rounded-xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
+</div>
+<div class="flex flex-col p-8 bg-[var(--glass-bg)] backdrop-blur-2xl border border-[var(--glass-border)] rounded-xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
 <div class="flex-grow">
 <span class="material-symbols-outlined !text-4xl">calculate</span>
 <h3 class="mt-6 text-xl font-bold">Mixed Aptitude</h3>
@@ -198,8 +187,8 @@ if ($is_logged_in) {
 <div class="mt-6">
 <span class="text-xs font-medium px-3 py-1 bg-[rgba(255,255,255,0.1)] dark:bg-[rgba(0,0,0,0.1)] rounded-full border border-[var(--glass-border)]">20 randomized questions</span>
 </div>
-</a>
-<a href="quiz.php?category=meghalaya-gk" class="flex flex-col p-8 bg-[var(--glass-bg)] backdrop-blur-2xl border border-[var(--glass-border)] rounded-xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
+</div>
+<div class="flex flex-col p-8 bg-[var(--glass-bg)] backdrop-blur-2xl border border-[var(--glass-border)] rounded-xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
 <div class="flex-grow">
 <span class="material-symbols-outlined !text-4xl">location_on</span>
 <h3 class="mt-6 text-xl font-bold">Meghalaya GK</h3>
@@ -208,22 +197,12 @@ if ($is_logged_in) {
 <div class="mt-6">
 <span class="text-xs font-medium px-3 py-1 bg-[rgba(255,255,255,0.1)] dark:bg-[rgba(0,0,0,0.1)] rounded-full border border-[var(--glass-border)]">Comprehensive Meghalaya questions</span>
 </div>
-</a>
+</div>
 </div>
 </div>
 </section>
-<footer class="text-center py-6">
-<p class="text-sm text-[var(--subtle-text)]">Created by Pynshailang Nongsiej</p>
-</footer>
 <script>
     document.addEventListener('DOMContentLoaded', function () {
-        // Load saved theme
-        const savedTheme = localStorage.getItem('theme');
-        if (savedTheme) {
-            document.documentElement.classList.remove('dark', 'light');
-            document.documentElement.classList.add(savedTheme);
-        }
-        
         const parallaxContainer = document.getElementById('parallax-container');
         if (parallaxContainer) {
             parallaxContainer.addEventListener('mousemove', function (e) {
@@ -236,6 +215,22 @@ if ($is_logged_in) {
                     const depth = el.getAttribute('data-depth');
                     const moveX = -(mouseX * depth) / 100;
                     const moveY = -(mouseY * depth) / 100;
+                    const baseTransform = window.getComputedStyle(el).getPropertyValue('transform');
+                    // This is a simplified approach; robustly combining transforms is complex.
+                    // For this animation, we assume animation only handles transform properties not set by JS.
+                    // To be safe, we let JS handle translateX/Y and CSS handle rotate/scale.
+                    // We extract the existing animation transform part.
+                    let currentAnimationTransform = "";
+                    if (el.style.animationName) {
+                        // This part is tricky as we can't easily get the *current* transform from animation.
+                        // So we will just append the mouse-move transform.
+                        // The key is to ensure the animation doesn't also use translateX/Y.
+                        // Since `generative-flow` uses translateX/Y, we have to combine them.
+                        // This JS part will now be just for the parallax effect, and CSS animation will be separate.
+                        // We will let them override. A better approach would be to have JS control all of it.
+                        // But per instructions, let's keep it simple.
+                    }
+                    // This will override animation's translate but keep its rotate/scale
                     el.style.transform = `translateX(${moveX}px) translateY(${moveY}px)`;
                 });
             });
@@ -243,11 +238,11 @@ if ($is_logged_in) {
         const cursorGlow = document.getElementById('cursor-glow');
         if (cursorGlow) {
             document.addEventListener('mousemove', function(e) {
+                // Using transform for performance
                 cursorGlow.style.transform = `translate(${e.clientX - 250}px, ${e.clientY - 250}px)`;
             });
         }
     });
 </script>
 </div>
-</body>
-</html>
+</body></html>

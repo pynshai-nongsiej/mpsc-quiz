@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Monochrome Glassmorphism Quiz</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 24
+        }
+        .light .glassmorphic {
+            background-color: rgba(255, 255, 255, 0.15);
+            -webkit-backdrop-filter: blur(20px);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.1);
+        }
+        .dark .glassmorphic {
+            background-color: rgba(16, 16, 16, 0.15);
+            -webkit-backdrop-filter: blur(20px);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+        }
+        .light .glassmorphic-darker {
+            background-color: rgba(255, 255, 255, 0.05);
+            -webkit-backdrop-filter: blur(30px);
+            backdrop-filter: blur(30px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .dark .glassmorphic-darker {
+            background-color: rgba(0, 0, 0, 0.1);
+            -webkit-backdrop-filter: blur(30px);
+            backdrop-filter: blur(30px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        .parallax-shape {
+            position: absolute;
+            border-radius: 9999px;
+            filter: blur(80px);
+        }
+        .light .parallax-shape {
+            background-color: rgba(0, 0, 0, 0.03);
+        }
+        .dark .parallax-shape {
+            background-color: rgba(255, 255, 255, 0.03);
+        }
+        .light .option-radio:checked+.option-label {
+            background-color: #000000;
+            color: #ffffff;
+            border-color: #000000;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+        }
+        .dark .option-radio:checked+.option-label {
+            background-color: #ffffff;
+            color: #000000;
+            border-color: #ffffff;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+        }
+        .light .hollow-button {
+            background-color: transparent;
+            border: 1px solid #000000;
+            color: #000000;
+            transition: all 200ms ease-in-out;
+        }
+        .light .hollow-button:hover {
+            background-color: #000000;
+            color: #ffffff;
+        }
+        .dark .hollow-button {
+            border: 1px solid #ffffff;
+            color: #ffffff;
+        }
+        .dark .hollow-button:hover {
+            background-color: #ffffff;
+            color: #000000;
+        }
+        .light .primary-button {
+            background-color: #000000;
+            color: #ffffff;
+            transition: all 200ms ease-in-out;
+        }
+        .light .primary-button:hover {
+            transform: scale(1.03);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+        }
+        .dark .primary-button {
+            background-color: #ffffff;
+            color: #000000;
+        }
+        .dark .primary-button:hover {
+            box-shadow: 0 4px 20px rgba(255, 255, 255, 0.15);
+        }
+    </style>
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#000000",
+                        "background-light": "#ffffff",
+                        "background-dark": "#000000",
+                    },
+                    fontFamily: {
+                        "display": ["Space Grotesk", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.5rem",
+                        "lg": "0.75rem",
+                        "xl": "1rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+        function toggleTheme() {
+            document.documentElement.classList.toggle('dark');
+            document.documentElement.classList.toggle('light');
+        }
+    </script>
+</head>
+<body class="font-display bg-background-light dark:bg-background-dark text-primary dark:text-background-light transition-colors duration-300">
+<div class="relative flex h-screen min-h-[700px] w-full flex-col items-center justify-center overflow-hidden p-4 sm:p-6 md:p-8">
+<div class="parallax-shape -top-1/4 -left-1/4 h-1/2 w-1/2" data-alt="Abstract blurred circular shape, monochrome, low opacity"></div>
+<div class="parallax-shape -bottom-1/4 -right-1/4 h-2/3 w-2/3" data-alt="Abstract blurred circular shape, monochrome, low opacity"></div>
+<div class="parallax-shape top-1/2 -right-1/3 h-1/2 w-1/2" data-alt="Abstract blurred circular shape, monochrome, low opacity"></div>
+<div class="relative z-10 flex h-full w-full max-w-4xl flex-col">
+<header class="w-full pb-8 pt-4">
+<div class="flex items-start justify-between gap-4">
+<div class="flex flex-1 flex-col gap-3">
+<p class="text-sm font-medium leading-normal text-black/80 dark:text-white/80">Question 5 of 10</p>
+<div class="h-1.5 w-full rounded-full glassmorphic-darker">
+<div class="h-1.5 rounded-full bg-black dark:bg-white" style="width: 50%;"></div>
+</div>
+</div>
+<div class="flex shrink-0 items-center justify-center gap-4">
+<div class="relative flex h-16 w-16 items-center justify-center rounded-full border border-black/20 dark:border-white/20">
+<svg class="absolute inset-0 h-full w-full -rotate-90 transform" fill="none" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+<circle class="text-black/10 dark:text-white/10" cx="18" cy="18" r="16" stroke="currentColor" stroke-width="2"></circle>
+<circle class="text-black dark:text-white" cx="18" cy="18" r="16" stroke="currentColor" stroke-dasharray="100" stroke-dashoffset="53" stroke-linecap="round" stroke-width="2"></circle>
+</svg>
+<span class="text-lg font-bold text-black dark:text-white">28</span>
+</div>
+<button aria-label="Toggle theme" class="flex h-12 w-12 items-center justify-center rounded-full glassmorphic transition-transform duration-200 hover:scale-110" onclick="toggleTheme()">
+<span class="material-symbols-outlined text-black dark:hidden">dark_mode</span>
+<span class="material-symbols-outlined hidden text-white dark:inline">light_mode</span>
+</button>
+</div>
+</div>
+</header>
+<main class="flex flex-1 flex-col items-center justify-center gap-12">
+<div class="w-full max-w-3xl rounded-xl glassmorphic p-8 md:p-12">
+<p class="text-center text-2xl font-bold leading-relaxed tracking-tight text-black dark:text-white md:text-3xl lg:text-4xl">
+                        Which principle of design emphasizes the visual weight of objects, color, texture, and space?
+                    </p>
+<p class="mt-4 text-center text-base font-normal leading-normal text-black/60 dark:text-white/60">Select the correct option below.</p>
+</div>
+<div class="w-full max-w-2xl">
+<fieldset class="grid grid-cols-1 gap-3 sm:grid-cols-2">
+<legend class="sr-only">Quiz Options</legend>
+<div>
+<input class="option-radio peer hidden" id="option1" name="quiz-option" type="radio" value="Balance"/>
+<label class="option-label group flex cursor-pointer items-center justify-center rounded-lg border border-solid border-black/10 bg-white/50 p-4 text-center text-black transition-all duration-200 ease-in-out hover:border-black/30 hover:shadow-lg dark:border-white/10 dark:bg-black/10 dark:text-white dark:hover:border-white/30" for="option1">
+<span class="text-base font-medium leading-normal">Balance</span>
+</label>
+</div>
+<div>
+<input class="option-radio peer hidden" id="option2" name="quiz-option" type="radio" value="Contrast"/>
+<label class="option-label group flex cursor-pointer items-center justify-center rounded-lg border border-solid border-black/10 bg-white/50 p-4 text-center text-black transition-all duration-200 ease-in-out hover:border-black/30 hover:shadow-lg dark:border-white/10 dark:bg-black/10 dark:text-white dark:hover:border-white/30" for="option2">
+<span class="text-base font-medium leading-normal">Contrast</span>
+</label>
+</div>
+<div>
+<input checked="" class="option-radio peer hidden" id="option3" name="quiz-option" type="radio" value="Hierarchy"/>
+<label class="option-label group flex cursor-pointer items-center justify-center rounded-lg border border-solid p-4 text-center transition-all duration-200 ease-in-out dark:text-white text-black peer-checked:text-white peer-checked:dark:text-black hover:shadow-lg border-black/10 dark:border-white/10 bg-white/50 dark:bg-black/10 hover:border-black/30 dark:hover:border-white/30" for="option3">
+<span class="text-base font-medium leading-normal">Hierarchy</span>
+</label>
+</div>
+<div>
+<input class="option-radio peer hidden" id="option4" name="quiz-option" type="radio" value="Repetition"/>
+<label class="option-label group flex cursor-pointer items-center justify-center rounded-lg border border-solid border-black/10 bg-white/50 p-4 text-center text-black transition-all duration-200 ease-in-out hover:border-black/30 hover:shadow-lg dark:border-white/10 dark:bg-black/10 dark:text-white dark:hover:border-white/30" for="option4">
+<span class="text-base font-medium leading-normal">Repetition</span>
+</label>
+</div>
+</fieldset>
+</div>
+</main>
+<footer class="sticky bottom-0 z-20 w-full py-4 sm:py-6">
+<div class="mx-auto w-full max-w-3xl rounded-xl glassmorphic p-2">
+<div class="flex items-center justify-between gap-2 sm:gap-4">
+<button class="flex h-12 min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg px-5 text-base font-bold leading-normal tracking-wide hollow-button">
+<span class="truncate">Back</span>
+</button>
+<button class="flex h-12 flex-1 min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg px-5 text-base font-bold leading-normal tracking-wide primary-button">
+<span class="truncate">Next Question</span>
+</button>
+<button class="flex h-12 min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg px-5 text-base font-bold leading-normal tracking-wide hollow-button">
+<span class="truncate">Quit</span>
+</button>
+</div>
+</div>
+</footer>
+</div>
+</div>
+</body></html>
