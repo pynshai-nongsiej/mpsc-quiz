@@ -26,7 +26,7 @@ define('LOGIN_LOCKOUT_TIME', 900); // 15 minutes
 
 // Quiz Settings
 define('QUIZ_TIME_LIMIT', 1800); // 30 minutes
-define('QUESTIONS_PER_QUIZ', 20);
+define('QUESTIONS_PER_QUIZ', 10);
 define('PASSING_SCORE', 60); // percentage
 define('MAX_QUIZ_ATTEMPTS', 3);
 

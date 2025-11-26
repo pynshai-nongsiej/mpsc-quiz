@@ -467,51 +467,51 @@ function get_exam_config($exam_type) {
             'name' => 'MPSC LDA Mock Test (300 Marks)',
             'categories' => [
                 'General English' => [
-                    'count' => 100,
+                    'count' => 4,
                     'marks' => 100,
                     'testqna_category' => 'general-english',
                     'description' => '100 marks covering English Language & Grammar'
                 ],
                 'General Knowledge & Aptitude' => [
-                    'count' => 75,
+                    'count' => 3,
                     'marks' => 100,
                     'testqna_category' => 'general-knowledge',
                     'description' => '100 marks covering General Knowledge'
                 ],
                 'Arithmetic' => [
-                    'count' => 50,
+                    'count' => 3,
                     'marks' => 100,
                     'testqna_category' => 'aptitude',
                     'description' => '100 marks covering Mathematics & Aptitude'
                 ]
             ],
             'total_marks' => 300,
-            'total_questions' => 225,
+            'total_questions' => 10,
             'description' => 'MPSC Lower Division Assistant (LDA) Examination Pattern: 225 questions for 300 marks'
         ],
         'dsc_lda' => [
             'name' => 'DSC LDA Mock Test (300 Marks)',
             'categories' => [
                 'General English' => [
-                    'count' => 100,
+                    'count' => 4,
                     'marks' => 100,
                     'testqna_category' => 'general-english',
                     'description' => '100 marks covering English Language & Grammar'
                 ],
                 'Elementary Mathematics & Science' => [
-                    'count' => 70,
+                    'count' => 3,
                     'marks' => 70,
                     'testqna_category' => 'aptitude',
                     'description' => '70 marks covering Elementary Mathematics & Science'
                 ],
                 'General Knowledge' => [
-                    'count' => 70,
+                    'count' => 2,
                     'marks' => 70,
                     'testqna_category' => 'general-knowledge',
                     'description' => '70 marks covering General Knowledge'
                 ],
                 'Aptitude' => [
-                    'count' => 30,
+                    'count' => 1,
                     'marks' => 30,
                     'testqna_category' => 'aptitude',
                     'description' => '30 marks covering Aptitude'
@@ -524,21 +524,21 @@ function get_exam_config($exam_type) {
                 ]
             ],
             'total_marks' => 300,
-            'total_questions' => 241,
+            'total_questions' => 10,
             'description' => 'DSC Lower Division Assistant (LDA) Examination Pattern: 240 marks written + 30 marks interview'
         ],
         'mpsc_typist' => [
             'name' => 'MPSC Typist Test (50 Marks)',
             'categories' => [
                 'English' => [
-                    'count' => 50,
+                    'count' => 10,
                     'marks' => 50,
                     'testqna_category' => 'general-english',
                     'description' => '50 marks covering English Language & Grammar'
                 ]
             ],
             'total_marks' => 50,
-            'total_questions' => 50,
+            'total_questions' => 10,
             'description' => 'MPSC Typist Examination Pattern: English paper (50 marks)'
         ]
     ];
@@ -547,15 +547,15 @@ function get_exam_config($exam_type) {
         'name' => 'General Mock Test',
         'categories' => [
             'All Categories' => [
-                'count' => 50,
+                'count' => 10,
                 'marks' => 50,
                 'subcategories' => 'all',
-                'description' => '50 questions for 50 marks'
+                'description' => '10 questions for 50 marks'
             ]
         ],
         'total_marks' => 50,
-        'total_questions' => 50,
-        'description' => 'General Mock Test: 50 questions for 50 marks'
+        'total_questions' => 10,
+        'description' => 'General Mock Test: 10 questions for 50 marks'
     ];
 }
 

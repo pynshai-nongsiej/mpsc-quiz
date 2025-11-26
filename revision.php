@@ -1,306 +1,141 @@
 <?php
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
-require_once __DIR__ . '/includes/functions.php';
 require_once __DIR__ . '/config/config.php';
 require_once __DIR__ . '/config/database.php';
 require_once __DIR__ . '/config/session.php';
+require_once __DIR__ . '/includes/functions.php';
 
-// Session is already started in db_config.php
-
-// Clear quiz_saved flag when starting a new quiz to prevent duplicate saves
-if (isset($_SESSION['quiz_saved'])) {
-    unset($_SESSION['quiz_saved']);
+// Check if user is logged in
+if (!isLoggedIn()) {
+    header('Location: login.php');
+    exit;
 }
 
-$mock_mode = isset($_GET['mock']) && ($_GET['mock'] === 'true' || $_GET['mock'] === '1');
-$exam_type = $_GET['exam'] ?? '';
-$category = $_GET['category'] ?? '';
-$type = $_GET['type'] ?? '';
+$currentUser = getCurrentUser();
+$userId = getCurrentUserId();
 
-if ($mock_mode || $exam_type || $category) {
-    if ($_SERVER['REQUEST_METHOD'] === 'POST' && !empty($_SESSION['questions'])) {
-        // On form submission, use the previously stored questions and titles
-        $questions   = $_SESSION['questions'];
-        $quiz_title  = $_SESSION['quiz_title'] ?? 'Mock Test';
-        $quiz_id     = $_SESSION['quiz_file'] ?? 'mock_test';
-    } else {
-        // Get exam configuration based on category
-        if ($category) {
-            switch ($category) {
-                case 'mixed-english':
-                    $exam_config = [
-                        'name' => 'Mixed English Test',
-                        'categories' => [
-                            'General English' => [
-                                'count' => 10,
-                                'testqna_category' => 'general-english',
-                                'subcategory' => null
-                            ]
-                        ],
-                        'total_questions' => 10
-                    ];
-                    break;
-                case 'mixed-gk':
-                    $exam_config = [
-                        'name' => 'Mixed General Knowledge Test',
-                        'categories' => [
-                            'General Knowledge' => [
-                                'count' => 10,
-                                'testqna_category' => 'general-knowledge',
-                                'subcategory' => null
-                            ]
-                        ],
-                        'total_questions' => 10
-                    ];
-                    break;
-                case 'mixed-aptitude':
-                    $exam_config = [
-                        'name' => 'Mixed Aptitude Test',
-                        'categories' => [
-                            'General Aptitude' => [
-                                'count' => 10,
-                                'testqna_category' => 'aptitude',
-                                'subcategory' => null
-                            ]
-                        ],
-                        'total_questions' => 10
-                    ];
-                    break;
-                case 'meghalaya-gk':
-                    $exam_config = [
-                        'name' => 'Meghalaya General Knowledge Test',
-                        'categories' => [
-                            'Meghalaya GK' => [
-                                'count' => 10,
-                                'testqna_category' => 'general-knowledge',
-                                'subcategory' => 'meghalaya'
-                            ]
-                        ],
-                        'total_questions' => 10
-                    ];
-                    break;
-                default:
-                    die('Invalid category specified.');
-            }
-        } else {
-            // Original exam configuration
-            $exam_config = $exam_type ? get_exam_config($exam_type) : [
-                'name' => 'General Mock Test',
-                'categories' => [
-                    'All Categories' => [
-                        'count' => 10,
-                        'subcategories' => 'all'
-                    ]
-                ]
-            ];
-        }
-        
-        // Use appropriate loading function based on category
-        if ($category === 'meghalaya-gk') {
-            $selected_questions = load_meghalaya_questions(10);
-            error_log('Loaded ' . count($selected_questions) . ' Meghalaya GK questions');
-        } else {
-            // Use new TestQnA functions to load questions
-            $selected_questions = [];
-            
-            // Process each category in the exam configuration
-            foreach ($exam_config['categories'] as $category_name => $category_config) {
-                $target_count = $category_config['count'];
-                $testqna_category = $category_config['testqna_category'] ?? null;
-                $target_subcategory = $category_config['subcategory'] ?? null;
-                
-                // Map category names to TestQnA categories if not explicitly set
-                if (!$testqna_category) {
-                    $category_mapping = [
-                        'General English' => 'general-english',
-                        'General Knowledge' => 'general-knowledge', 
-                        'General Aptitude' => 'aptitude',
-                        'Aptitude' => 'aptitude'
-                    ];
-                    $testqna_category = $category_mapping[$category_name] ?? 'general-english';
-                }
-                
-                // For Typist test, only use English category
-                if ($exam_type === 'mpsc_typist') {
-                    $testqna_category = 'general-english';
-                }
-                
-                // Load questions from TestQnA using the new function
-                $user_id = $_SESSION['user_id'] ?? null;
-                $category_questions = load_questions_from_testqna($testqna_category, $target_subcategory, $target_count, $user_id);
-                
-                if (empty($category_questions)) {
-                    error_log("WARNING: No questions found for category: $testqna_category" . ($target_subcategory ? ", subcategory: $target_subcategory" : ""));
-                    continue;
-                }
-                
-                $selected_questions = array_merge($selected_questions, $category_questions);
-                
-                error_log(sprintf(
-                    'Selected %d questions for %s from TestQnA category: %s%s',
-                    count($category_questions),
-                    $category_name,
-                    $testqna_category,
-                    $target_subcategory ? " (subcategory: $target_subcategory)" : ""
-                ));
-            }
-        }
-        
-        $questions = $selected_questions;
-        
-        // Set quiz title based on exam type or default to Mock Test
-        $quiz_title = $exam_config['name'] . ' (' . count($questions) . ' Questions)' ?? 'Mock Test';
-        $quiz_id = $exam_type ?? 'mock_test_' . time(); // Unique ID for each mock test
-        
-        // Debug: Check the first question
-        if (!empty($questions)) {
-            error_log('First question: ' . print_r($questions[0], true));
-        } else {
-            error_log('WARNING: No questions were selected for the test');
-        }
-        
-        // Check if we got any questions
-        if (empty($questions)) {
-            error_log('No questions found from TestQnA functions');
-            die('No questions found. Please check the error logs for more information.');
-        }
-        
-        // Get the total expected questions from the exam config
-        $total_expected = $exam_config['total_questions'] ?? count($questions);
-        
-        // If we need more questions to reach the expected total, load from all categories
-        $remaining = $total_expected - count($questions);
-        if ($remaining > 0) {
-            // Load additional questions from all categories
-            $additional_questions = [];
-            foreach (['general-english', 'general-knowledge', 'aptitude'] as $cat) {
-                $extra = load_questions_from_testqna($cat, null, ceil($remaining / 3));
-                $additional_questions = array_merge($additional_questions, $extra);
-            }
-            
-            // Remove duplicates and shuffle
-            $additional_questions = array_udiff($additional_questions, $questions, function($a, $b) {
-                return strcmp(serialize($a), serialize($b));
-            });
-            shuffle($additional_questions);
-            
-            // Add the needed amount
-            $questions = array_merge($questions, array_slice($additional_questions, 0, $remaining));
-            
-            error_log(sprintf(
-                'Added %d more questions from other categories to reach total of %d',
-                min($remaining, count($additional_questions)),
-                count($questions)
-            ));
-        }
-        
-        // Shuffle the final set of questions
-        shuffle($questions);
-        
-        error_log('Successfully loaded ' . count($questions) . ' questions from TestQnA functions');
-        
-        if (empty($questions)) {
-            error_log('No questions available after filtering');
-            die('No valid questions found. Please check the question format in the TestQnA directory.');
-        }
-        
-        // Set marks per question (2 marks per question)
-        foreach ($questions as &$question) {
-            $question['marks'] = 2;
-        }
-        unset($question); // Break the reference
-        
-        // Store questions in session for review
-        $_SESSION['questions'] = $questions;
-        $_SESSION['mock_mode'] = true;
-        $_SESSION['quiz_title'] = $quiz_title;
-        if ($category) {
-            $_SESSION['quiz_file'] = $category . '_' . time();
-        } else {
-            $_SESSION['quiz_file'] = $exam_type ?? 'mock_test_' . time();
-        }
-        
-        // Debug: Check the first question
-        if (!empty($questions[0])) {
-            error_log('First question: ' . print_r($questions[0], true));
-        } else {
-            error_log('WARNING: No questions available in the quiz');
-        }
-    }
+// Get attempt ID from URL
+$attemptId = $_GET['attempt_id'] ?? null;
+
+if (!$attemptId || !is_numeric($attemptId)) {
+    header('Location: quiz-history.php');
+    exit;
 }
 
-// Handle non-mock quiz mode and ensure $quiz_title is defined
-if (!$mock_mode && !$exam_type && !$category) {
-    if (!isset($_GET['quiz'])) {
-        header('Location: index.php');
+// Fetch the original quiz attempt details
+try {
+    $originalAttempt = fetchOne("
+        SELECT 
+            qa.id,
+            qa.quiz_type,
+            qa.quiz_title,
+            qa.total_questions,
+            qa.completed_at
+        FROM quiz_attempts qa
+        WHERE qa.id = ? AND qa.user_id = ?
+    ", [$attemptId, $userId]);
+    
+    if (!$originalAttempt) {
+        header('Location: quiz-history.php');
         exit;
     }
-    $quiz_file = $_GET['quiz'];
-    $quiz_path = __DIR__ . '/quizzes/' . $quiz_file;
-    if (!file_exists($quiz_path)) {
-        die('Quiz not found.');
-    }
-    $questions = parse_quiz($quiz_path);
-    if (empty($questions)) {
-        die('No questions found in the quiz file.');
-    }
-    $quiz_title = quiz_title_from_filename($quiz_file);
-    $quiz_id = $quiz_file;
     
-    // Store quiz data in session for form submission
-    $_SESSION['questions'] = $questions;
-    $_SESSION['quiz_title'] = $quiz_title;
-    $_SESSION['quiz_file'] = $quiz_file;
-    $quiz_id = $quiz_file;
+    // Fetch all questions from the original attempt with complete options
+    $originalQuestions = fetchAll("
+        SELECT 
+            qr.question_number,
+            qr.question_text,
+            qr.option_a,
+            qr.option_b,
+            qr.option_c,
+            qr.option_d,
+            qr.user_answer,
+            qr.correct_answer,
+            qr.is_correct,
+            qr.category,
+            qr.subcategory,
+            qr.question_type
+        FROM quiz_responses qr
+        WHERE qr.attempt_id = ?
+        ORDER BY qr.question_number
+    ", [$attemptId]);
+    
+    if (empty($originalQuestions)) {
+        header('Location: quiz-history.php');
+        exit;
+    }
+    
+} catch (Exception $e) {
+    error_log('Error fetching revision quiz data: ' . $e->getMessage());
+    header('Location: quiz-history.php');
+    exit;
 }
 
-// Ensure quiz_title is always defined
-if (!isset($quiz_title)) {
-    $quiz_title = 'Quiz';
+// Convert the stored database questions back to quiz format
+// This ensures we get the exact same questions with their original options
+$questions = [];
+
+foreach ($originalQuestions as $dbQuestion) {
+    // Check if we have stored options (for newer quiz attempts)
+    if ($dbQuestion['option_a'] || $dbQuestion['option_b'] || $dbQuestion['option_c'] || $dbQuestion['option_d']) {
+        // Use the stored options
+        $options = [];
+        if ($dbQuestion['option_a']) $options['a'] = $dbQuestion['option_a'];
+        if ($dbQuestion['option_b']) $options['b'] = $dbQuestion['option_b'];
+        if ($dbQuestion['option_c']) $options['c'] = $dbQuestion['option_c'];
+        if ($dbQuestion['option_d']) $options['d'] = $dbQuestion['option_d'];
+        
+        $questions[] = [
+            'question' => $dbQuestion['question_text'],
+            'options' => $options,
+            'answer' => strtolower($dbQuestion['correct_answer']),
+            'category' => $dbQuestion['category'] ?? 'General',
+            'subcategory' => $dbQuestion['subcategory'] ?? null,
+            'marks' => 2,
+            'type' => $dbQuestion['question_type'] ?? 'multiple_choice'
+        ];
+        
+        error_log('Using stored options for question: ' . substr($dbQuestion['question_text'], 0, 50));
+    } else {
+        // Fallback for older quiz attempts without stored options
+        // Create generic options but keep the original question and correct answer
+        $questions[] = [
+            'question' => $dbQuestion['question_text'],
+            'options' => [
+                'a' => 'Option A',
+                'b' => 'Option B',
+                'c' => 'Option C',
+                'd' => 'Option D'
+            ],
+            'answer' => strtolower($dbQuestion['correct_answer']),
+            'category' => $dbQuestion['category'] ?? 'General',
+            'subcategory' => $dbQuestion['subcategory'] ?? null,
+            'marks' => 2,
+            'type' => $dbQuestion['question_type'] ?? 'multiple_choice'
+        ];
+        
+        error_log('Using fallback options for older question: ' . substr($dbQuestion['question_text'], 0, 50));
+    }
 }
 
-// Define query string for form action
-$query_string = '';
-if ($mock_mode) {
-    $query_string = '?mock=1';
-} elseif ($exam_type) {
-    $query_string = '?exam=' . urlencode($exam_type);
-} elseif ($category) {
-    $query_string = '?category=' . urlencode($category);
-} elseif (isset($_GET['quiz'])) {
-    $query_string = '?quiz=' . urlencode($_GET['quiz']);
-}
+error_log("Loaded " . count($questions) . " exact revision questions from database");
 
-// Reset and set quiz start time for new quiz session
-// Always reset to ensure accurate timing for each quiz attempt
-if (!isset($_SESSION['current_quiz_id']) || $_SESSION['current_quiz_id'] !== $quiz_id) {
-    $_SESSION['quiz_start_time'] = time();
-    $_SESSION['current_quiz_id'] = $quiz_id;
-    error_log('Quiz timer started for quiz: ' . $quiz_id . ' at ' . date('Y-m-d H:i:s'));
-} elseif (!isset($_SESSION['quiz_start_time'])) {
-    // Fallback if quiz_start_time is missing
-    $_SESSION['quiz_start_time'] = time();
-    error_log('Quiz timer reset due to missing start time');
-}
+// Store questions in session for form submission
+$_SESSION['questions'] = $questions;
+$_SESSION['quiz_title'] = 'Revision: ' . $originalAttempt['quiz_title'];
+$_SESSION['quiz_file'] = 'revision_' . $attemptId . '_' . time();
+$_SESSION['revision_mode'] = true;
+$_SESSION['original_attempt_id'] = $attemptId;
+
+// Set quiz start time
+$_SESSION['quiz_start_time'] = time();
+$_SESSION['current_quiz_id'] = 'revision_' . $attemptId;
 
 // Handle form submission
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $_SESSION['answers'] = $_POST['answers'] ?? [];
-    $_SESSION['mock_mode'] = $mock_mode;
-    $_SESSION['quiz_title'] = $quiz_title;
+    $_SESSION['revision_mode'] = true;
     
-    // Ensure quiz_file is set for result.php
-    if (!isset($_SESSION['quiz_file']) && isset($quiz_file)) {
-        $_SESSION['quiz_file'] = $quiz_file;
-    }
-    
-    // Debug: Log session variables before redirect
-    error_log('DEBUG quiz.php POST: quiz_file=' . ($_SESSION['quiz_file'] ?? 'NOT_SET'));
-    error_log('DEBUG quiz.php POST: answers_count=' . count($_SESSION['answers']));
-    error_log('DEBUG quiz.php POST: user_id=' . ($_SESSION['user_id'] ?? 'NOT_SET'));
-    
-    // Save quiz attempt to database if user is logged in
+    // Save revision attempt to database if user is logged in
     if (isset($_SESSION['user_id'])) {
         try {
             // Calculate score
@@ -318,37 +153,21 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             }
             
             $score_percentage = ($correct_answers / $total_questions) * 100;
-            $quiz_type = $exam_type ?? ($mock_mode ? 'mock_test' : 'general');
+            $quiz_type = 'revision_' . $originalAttempt['quiz_type'];
             
-            // Calculate time taken with validation - prioritize hidden timer
+            // Calculate time taken
             $time_taken = 0;
-            
-            // First, try to use the hidden timer elapsed time (more accurate)
             if (isset($_POST['hidden_timer_elapsed']) && is_numeric($_POST['hidden_timer_elapsed'])) {
                 $hidden_timer_elapsed = (int)$_POST['hidden_timer_elapsed'];
-                // Validate hidden timer: should be positive and reasonable (max 4 hours)
                 if ($hidden_timer_elapsed > 0 && $hidden_timer_elapsed <= 14400) {
                     $time_taken = $hidden_timer_elapsed;
-                    error_log('Using hidden timer elapsed time: ' . $hidden_timer_elapsed . ' seconds');
-                } else {
-                    error_log('Invalid hidden timer elapsed time: ' . $hidden_timer_elapsed . ' seconds. Falling back to server-side calculation.');
                 }
             }
             
-            // Fallback to server-side calculation if hidden timer is not available or invalid
-            if ($time_taken === 0) {
-                if (isset($_SESSION['quiz_start_time']) && is_numeric($_SESSION['quiz_start_time'])) {
-                    $calculated_time = time() - $_SESSION['quiz_start_time'];
-                    // Validate time: should be positive and reasonable (max 4 hours)
-                    if ($calculated_time > 0 && $calculated_time <= 14400) {
-                        $time_taken = $calculated_time;
-                        error_log('Using server-side calculated time: ' . $calculated_time . ' seconds');
-                    } else {
-                        error_log('Invalid quiz time calculated in quiz.php: ' . $calculated_time . ' seconds. Using 0.');
-                        $time_taken = 0;
-                    }
-                } else {
-                    error_log('Quiz start time not set or invalid in quiz.php. Using 0 for time_taken.');
+            if ($time_taken === 0 && isset($_SESSION['quiz_start_time'])) {
+                $calculated_time = time() - $_SESSION['quiz_start_time'];
+                if ($calculated_time > 0 && $calculated_time <= 14400) {
+                    $time_taken = $calculated_time;
                 }
             }
             
@@ -356,10 +175,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $quiz_attempt_data = [
                 'user_id' => $_SESSION['user_id'],
                 'quiz_type' => $quiz_type,
-                'quiz_title' => $quiz_title,
+                'quiz_title' => $_SESSION['quiz_title'],
                 'total_questions' => $total_questions,
                 'correct_answers' => $correct_answers,
-                'score' => $correct_answers * 2, // Assuming 2 marks per question
+                'score' => $correct_answers * 2,
                 'max_score' => $total_questions * 2,
                 'accuracy' => round($score_percentage, 2),
                 'time_taken' => $time_taken,
@@ -367,70 +186,50 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 'completed_at' => date(DATE_FORMAT)
             ];
             
-            // Insert quiz attempt using helper function
+            // Insert quiz attempt
             $attempt_id = insertRecord('quiz_attempts', $quiz_attempt_data);
             
             if ($attempt_id) {
                 $_SESSION['quiz_attempt_id'] = $attempt_id;
                 
-                // Save individual responses with complete question options
+                // Save individual responses
                 foreach ($questions as $i => $question) {
                     $user_answer = $user_answers[$i] ?? null;
                     $correct_answer = $question['answer'] ?? 'a';
                     $is_correct = strtolower($user_answer) === strtolower($correct_answer);
                     
-                    // Extract options from the question
-                    $options = $question['options'] ?? [];
-                    $option_a = $options['a'] ?? null;
-                    $option_b = $options['b'] ?? null;
-                    $option_c = $options['c'] ?? null;
-                    $option_d = $options['d'] ?? null;
-                    
                     $response_data = [
                         'attempt_id' => $attempt_id,
                         'question_number' => $i + 1,
-                        'question_text' => substr($question['question'] ?? '', 0, 1000), // Limit length
-                        'option_a' => $option_a ? substr($option_a, 0, 500) : null,
-                        'option_b' => $option_b ? substr($option_b, 0, 500) : null,
-                        'option_c' => $option_c ? substr($option_c, 0, 500) : null,
-                        'option_d' => $option_d ? substr($option_d, 0, 500) : null,
+                        'question_text' => substr($question['question'] ?? '', 0, 1000),
                         'user_answer' => $user_answer,
                         'correct_answer' => $correct_answer,
                         'is_correct' => $is_correct ? 1 : 0,
                         'category' => $question['category'] ?? null,
-                        'subcategory' => $question['subcategory'] ?? null,
-                        'question_type' => $question['type'] ?? 'multiple_choice'
+                        'subcategory' => $question['subcategory'] ?? null
                     ];
                     
                     insertRecord('quiz_responses', $response_data);
                 }
                 
-                // Update user statistics, daily performance, and category performance
+                // Update user statistics
                 $primary_category = !empty($questions) ? ($questions[0]['category'] ?? 'General') : 'General';
-                $stats_updated = updateAllStatistics($_SESSION['user_id'], $correct_answers, $total_questions, $primary_category);
+                updateAllStatistics($_SESSION['user_id'], $correct_answers, $total_questions, $primary_category);
                 
-                if (!$stats_updated) {
-                    error_log('Warning: Failed to update some statistics for user ' . $_SESSION['user_id']);
-                }
-                
-                // Mark as saved to prevent duplicate saves in result.php
                 $_SESSION['quiz_saved'] = true;
-                error_log('Quiz attempt saved successfully in quiz.php, setting quiz_saved flag');
             }
             
         } catch (Exception $e) {
-            error_log('Error saving quiz attempt: ' . $e->getMessage());
-            // Continue to result page even if database save fails
+            error_log('Error saving revision quiz attempt: ' . $e->getMessage());
         }
     }
-    
-    // Final debug before redirect
-    error_log('DEBUG quiz.php REDIRECT: All session vars - ' . print_r($_SESSION, true));
     
     header('Location: result.php');
     exit;
 }
 
+$quiz_title = $_SESSION['quiz_title'] ?? 'Revision Quiz';
+$query_string = '?revision=1&attempt_id=' . urlencode($attemptId);
 ?>
 <!DOCTYPE html>
 <html class="light" lang="en">
@@ -445,78 +244,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&amp;display=swap" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
 
-    <?php if (isset($_SESSION['category_reset'])): ?>
-    <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const resetData = <?= json_encode($_SESSION['category_reset']) ?>;
-        showResetNotification(resetData);
-    });
-
-    function showResetNotification(data) {
-        const notification = document.createElement('div');
-        notification.className = 'fixed top-20 right-4 z-50 max-w-md bg-white dark:bg-gray-800 border border-green-200 dark:border-green-700 rounded-lg shadow-lg p-6 transform translate-x-full transition-transform duration-300';
-        
-        notification.innerHTML = `
-            <div class="flex items-start">
-                <div class="flex-shrink-0">
-                    <span class="text-2xl">🎉</span>
-                </div>
-                <div class="ml-3 w-0 flex-1">
-                    <p class="text-sm font-medium text-gray-900 dark:text-white">
-                        Category Reset Complete!
-                    </p>
-                    <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">
-                        ${data.message}
-                    </p>
-                    ${data.stats ? `
-                    <div class="mt-3 text-xs text-gray-600 dark:text-gray-300 space-y-1">
-                        <div class="flex justify-between">
-                            <span>Previous Average:</span>
-                            <span class="font-semibold">${data.stats.average_score || 0}%</span>
-                        </div>
-                        <div class="flex justify-between">
-                            <span>Highest Score:</span>
-                            <span class="font-semibold text-green-600">${data.stats.highest_score || 0}%</span>
-                        </div>
-                        <div class="flex justify-between">
-                            <span>Total Attempts:</span>
-                            <span class="font-semibold">${data.stats.total_attempts || 0}</span>
-                        </div>
-                    </div>
-                    ` : ''}
-                </div>
-                <div class="ml-4 flex-shrink-0 flex">
-                    <button onclick="this.parentElement.parentElement.parentElement.remove()" class="bg-white dark:bg-gray-800 rounded-md inline-flex text-gray-400 hover:text-gray-500 focus:outline-none">
-                        <span class="sr-only">Close</span>
-                        <span class="material-symbols-outlined text-lg">close</span>
-                    </button>
-                </div>
-            </div>
-        `;
-        
-        document.body.appendChild(notification);
-        
-        // Slide in
-        setTimeout(() => {
-            notification.classList.remove('translate-x-full');
-        }, 100);
-        
-        // Auto-hide after 8 seconds
-        setTimeout(() => {
-            notification.classList.add('translate-x-full');
-            setTimeout(() => {
-                if (notification.parentNode) {
-                    notification.parentNode.removeChild(notification);
-                }
-            }, 300);
-        }, 8000);
-    }
-    </script>
-    <?php 
-        // Clear the reset notification after displaying
-        unset($_SESSION['category_reset']); 
-    endif; 
-    ?>
     <style>
         .material-symbols-outlined {
             font-variation-settings: 'FILL' 0,
@@ -693,15 +420,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <div class="parallax-shape top-1/2 -right-1/3 h-1/2 w-1/2" data-alt="Abstract blurred circular shape, monochrome, low opacity"></div>
     
     <div class="relative z-10 flex h-full w-full max-w-4xl flex-col">
-        <form method="post" action="quiz.php<?= $query_string ?>" class="flex h-full flex-col">
-            <?php
-            // Generate CSRF token if not exists
-            if (empty($_SESSION['csrf_token'])) {
-                $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
-            }
-            ?>
-            <input type="hidden" name="csrf_token" value="<?= htmlspecialchars($_SESSION['csrf_token']) ?>">
-            <input type="hidden" name="quiz_type" value="<?php echo htmlspecialchars($quiz_type ?? 'general'); ?>">
+        <form method="post" action="revision.php<?= $query_string ?>" class="flex h-full flex-col">
             <input type="hidden" name="hidden_timer_elapsed" id="hidden_timer_elapsed" value="0">
 
             <!-- Header with Progress and Timer -->
@@ -762,15 +481,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         </div>
                         <!-- Options -->
                         <div class="w-full max-w-2xl mx-auto mt-8">
-                            <?php if (isset($q['is_error_spotting']) && $q['is_error_spotting']): ?>
-                                <div class="mb-6 p-4 glassmorphic rounded-lg">
-                                    <p class="text-lg mb-4 text-black dark:text-white"><?= nl2br(htmlspecialchars($q['full_sentence'] ?? '')) ?></p>
-                                </div>
-                            <?php endif; ?>
                             <fieldset class="grid grid-cols-1 gap-3 sm:grid-cols-2">
                                 <legend class="sr-only">Quiz Options</legend>
                                 <?php 
-                                // Handle TestQnA format where options are associative array with letter keys
+                                // Use the actual question options
                                 foreach ($q['options'] as $opt_letter => $opt_text): 
                                     $display_letter = strtoupper($opt_letter);
                                 ?>
@@ -778,11 +492,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                                         <input class="option-radio peer hidden" id="option<?= $i ?>_<?= $opt_letter ?>" name="answers[<?= $i ?>]" type="radio" value="<?= $opt_letter ?>" required/>
                                         <label class="quiz-option option-label group flex cursor-pointer items-center justify-center rounded-lg border border-solid border-black/10 bg-white/50 p-4 text-center text-black transition-all duration-200 ease-in-out hover:border-black/30 hover:shadow-lg dark:border-white/10 dark:bg-black/10 dark:text-white dark:hover:border-white/30" for="option<?= $i ?>_<?= $opt_letter ?>" data-question="<?= $i ?>" data-option="<?= $opt_letter ?>">
                                             <span class="text-base font-medium leading-normal">
-                                                <?php if (isset($q['is_error_spotting']) && $q['is_error_spotting']): ?>
-                                                    <?= $display_letter ?>) Part (<?= $display_letter ?>) contains the error
-                                                <?php else: ?>
-                                                    <?= $display_letter ?>) <?= htmlspecialchars($opt_text) ?>
-                                                <?php endif; ?>
+                                                <?= $display_letter ?>) <?= htmlspecialchars($opt_text) ?>
                                             </span>
                                         </label>
                                     </div>
@@ -803,7 +513,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         <button type="button" id="next-button" class="flex h-12 flex-1 min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg px-5 text-base font-bold leading-normal tracking-wide primary-button" disabled>
                             <span class="truncate">Next Question</span>
                         </button>
-                        <button type="button" id="quit-button" class="flex h-12 min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg px-5 text-base font-bold leading-normal tracking-wide hollow-button" onclick="if(confirm('Are you sure you want to quit the quiz?')) { window.location.href='index.php'; }">
+                        <button type="button" id="quit-button" class="flex h-12 min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg px-5 text-base font-bold leading-normal tracking-wide hollow-button" onclick="if(confirm('Are you sure you want to quit the quiz?')) { window.location.href='quiz-history.php'; }">
                             <span class="truncate">Quit</span>
                         </button>
                     </div>
@@ -1127,5 +837,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         
         console.log('Glassmorphism quiz interface initialized successfully');
     </script>
+
 </body>
 </html>

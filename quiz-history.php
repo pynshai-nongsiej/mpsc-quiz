@@ -31,7 +31,7 @@ function formatTime($seconds) {
     }
 }
 
-// Fetch quiz history for the current user
+// Fetch quiz history for the current user with improvement tracking
 try {
     $quizHistory = fetchAll("
         SELECT 
@@ -44,15 +44,57 @@ try {
             qa.correct_answers,
             qa.time_taken,
             qa.completed_at,
-            qa.quiz_type
+            qa.quiz_type,
+            DATE(qa.completed_at) as quiz_date
         FROM quiz_attempts qa
         WHERE qa.user_id = ?
         ORDER BY qa.completed_at DESC
-        LIMIT 20
     ", [$userId]);
+    
+    // Group quiz history by date and calculate improvements for revisions
+    $groupedHistory = [];
+    $originalAttempts = []; // Store original attempts for comparison
+    
+    foreach ($quizHistory as $quiz) {
+        $date = $quiz['quiz_date'];
+        
+        // Check if this is a revision attempt
+        $isRevision = strpos($quiz['quiz_type'], 'revision_') === 0;
+        
+        if ($isRevision) {
+            // Extract original attempt ID from revision quiz type
+            $originalAttemptId = str_replace('revision_', '', $quiz['quiz_type']);
+            
+            // Find the original attempt to calculate improvement
+            $originalAttempt = null;
+            foreach ($quizHistory as $original) {
+                if ($original['id'] == $originalAttemptId) {
+                    $originalAttempt = $original;
+                    break;
+                }
+            }
+            
+            if ($originalAttempt) {
+                $quiz['original_attempt'] = $originalAttempt;
+                $quiz['accuracy_improvement'] = $quiz['accuracy'] - $originalAttempt['accuracy'];
+                $quiz['score_improvement'] = $quiz['score'] - $originalAttempt['score'];
+                $quiz['time_improvement'] = $originalAttempt['time_taken'] - $quiz['time_taken']; // Negative means took longer
+            }
+        } else {
+            // Store original attempts for revision comparison
+            $originalAttempts[$quiz['id']] = $quiz;
+        }
+        
+        if (!isset($groupedHistory[$date])) {
+            $groupedHistory[$date] = [];
+        }
+        $groupedHistory[$date][] = $quiz;
+    }
+    
 } catch (Exception $e) {
     error_log('Error fetching quiz history: ' . $e->getMessage());
     $quizHistory = [];
+    $groupedHistory = [];
 }
 ?>
 <!DOCTYPE html>
@@ -160,9 +202,22 @@ include 'includes/navbar.php';
 </div>
 </div>
 
+<!-- Revision Info Banner -->
+<div class="mb-8">
+<div class="glassmorphic mx-auto max-w-3xl rounded-xl p-6 shadow-sm">
+<div class="flex items-center gap-3 mb-3">
+<span class="text-2xl">📚</span>
+<h2 class="text-xl font-bold text-black dark:text-white">Revision Mode</h2>
+</div>
+<p class="text-sm font-normal leading-relaxed text-black/80 dark:text-white/80">
+Click the "📚 Revise" button next to any quiz to retake it with the same questions. This helps reinforce your learning and improve memory retention. Your revision attempts are tracked separately from original attempts.
+</p>
+</div>
+</div>
+
 <!-- Quiz History List -->
-<main class="flex flex-col gap-6">
-<?php if (empty($quizHistory)): ?>
+<main class="flex flex-col gap-8">
+<?php if (empty($groupedHistory)): ?>
     <div class="glassmorphic w-full rounded-xl p-8 @container shadow-md text-center">
         <h2 class="text-2xl font-bold leading-tight tracking-wide text-black dark:text-white mb-4">No Quiz History Found</h2>
         <p class="text-base font-normal text-black/80 dark:text-white/80 mb-6">You haven't completed any quizzes yet. Start your learning journey!</p>
@@ -171,31 +226,122 @@ include 'includes/navbar.php';
         </a>
     </div>
 <?php else: ?>
-    <?php foreach ($quizHistory as $quiz): ?>
+    <?php foreach ($groupedHistory as $date => $quizzes): ?>
         <?php 
-            $completedDate = new DateTime($quiz['completed_at']);
-            $formattedDate = $completedDate->format('M j, Y');
-            $timeFormatted = $quiz['time_taken'] ? formatTime($quiz['time_taken']) : 'N/A';
+            $dateObj = new DateTime($date);
+            $formattedDate = $dateObj->format('F j, Y');
+            $dayOfWeek = $dateObj->format('l');
         ?>
-        <div class="glassmorphic w-full rounded-xl p-6 @container shadow-md transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
-            <div class="flex flex-col items-stretch justify-start gap-4 md:flex-row md:items-start">
-                <div class="flex w-full flex-col items-stretch justify-center gap-2">
-                    <p class="text-xs font-normal uppercase tracking-widest text-black/60 dark:text-white/60"><?php echo $formattedDate; ?></p>
-                    <p class="text-xl font-bold leading-tight tracking-wide text-black dark:text-white"><?php echo htmlspecialchars($quiz['quiz_title']); ?></p>
-                    <div class="mt-2 flex flex-col gap-1 sm:flex-row sm:items-center sm:justify-between">
-                        <p class="text-sm font-normal text-black/80 dark:text-white/80">
-                            Score: <?php echo $quiz['correct_answers']; ?>/<?php echo $quiz['total_questions']; ?> · 
-                            Accuracy: <?php echo number_format($quiz['accuracy'], 1); ?>% · 
-                            Time: <?php echo $timeFormatted; ?>
-                        </p>
-                        <a class="text-sm font-medium text-black underline decoration-black/50 underline-offset-4 transition-colors hover:decoration-black dark:text-white dark:decoration-white/50 dark:hover:decoration-white" href="#" onclick="viewQuizDetails(<?php echo $quiz['id']; ?>)">View Details</a>
+        
+        <!-- Date Group Header -->
+        <div class="flex flex-col gap-4">
+            <div class="flex items-center gap-3">
+                <h2 class="text-2xl font-bold text-black dark:text-white"><?php echo $formattedDate; ?></h2>
+                <span class="text-sm font-medium text-black/60 dark:text-white/60"><?php echo $dayOfWeek; ?></span>
+                <div class="flex-1 h-px bg-black/20 dark:bg-white/20"></div>
+                <span class="text-sm font-medium text-black/60 dark:text-white/60"><?php echo count($quizzes); ?> quiz<?php echo count($quizzes) > 1 ? 'es' : ''; ?></span>
+            </div>
+            
+            <!-- Quizzes for this date -->
+            <div class="flex flex-col gap-4">
+                <?php foreach ($quizzes as $quiz): ?>
+                    <?php 
+                        $completedTime = new DateTime($quiz['completed_at']);
+                        $timeFormatted = $quiz['time_taken'] ? formatTime($quiz['time_taken']) : 'N/A';
+                        $isRevision = strpos($quiz['quiz_type'], 'revision_') === 0;
+                    ?>
+                    
+                    <div class="glassmorphic w-full rounded-xl p-6 shadow-md transition-all duration-300 hover:-translate-y-1 hover:shadow-lg <?php echo $isRevision ? 'border-l-4 border-purple-500' : ''; ?>">
+                        <div class="flex flex-col gap-4">
+                            <!-- Quiz Header -->
+                            <div class="flex items-start justify-between">
+                                <div class="flex-1">
+                                    <div class="flex items-center gap-2 mb-2">
+                                        <?php if ($isRevision): ?>
+                                            <span class="inline-flex items-center px-2 py-1 text-xs font-semibold bg-purple-100 text-purple-800 dark:bg-purple-900 dark:text-purple-200 rounded-full">
+                                                📚 Revision
+                                            </span>
+                                        <?php endif; ?>
+                                        <span class="text-xs font-normal text-black/60 dark:text-white/60">
+                                            <?php echo $completedTime->format('g:i A'); ?>
+                                        </span>
+                                    </div>
+                                    <h3 class="text-xl font-bold leading-tight tracking-wide text-black dark:text-white">
+                                        <?php echo htmlspecialchars($quiz['quiz_title']); ?>
+                                    </h3>
+                                </div>
+                            </div>
+                            
+                            <!-- Quiz Stats -->
+                            <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                                <div class="text-center sm:text-left">
+                                    <p class="text-sm font-medium text-black/60 dark:text-white/60">Score</p>
+                                    <p class="text-lg font-bold text-black dark:text-white">
+                                        <?php echo $quiz['correct_answers']; ?>/<?php echo $quiz['total_questions']; ?>
+                                    </p>
+                                </div>
+                                <div class="text-center sm:text-left">
+                                    <p class="text-sm font-medium text-black/60 dark:text-white/60">Accuracy</p>
+                                    <p class="text-lg font-bold text-black dark:text-white">
+                                        <?php echo number_format($quiz['accuracy'], 1); ?>%
+                                    </p>
+                                </div>
+                                <div class="text-center sm:text-left">
+                                    <p class="text-sm font-medium text-black/60 dark:text-white/60">Time</p>
+                                    <p class="text-lg font-bold text-black dark:text-white"><?php echo $timeFormatted; ?></p>
+                                </div>
+                            </div>
+                            
+                            <!-- Improvement Metrics for Revisions -->
+                            <?php if ($isRevision && isset($quiz['original_attempt'])): ?>
+                                <div class="bg-purple-50 dark:bg-purple-900/20 rounded-lg p-4">
+                                    <h4 class="text-sm font-semibold text-purple-800 dark:text-purple-200 mb-2">📈 Improvement from Original</h4>
+                                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 text-sm">
+                                        <div>
+                                            <span class="text-purple-600 dark:text-purple-300">Accuracy:</span>
+                                            <span class="font-semibold <?php echo $quiz['accuracy_improvement'] >= 0 ? 'text-green-600 dark:text-green-400' : 'text-red-600 dark:text-red-400'; ?>">
+                                                <?php echo ($quiz['accuracy_improvement'] >= 0 ? '+' : '') . number_format($quiz['accuracy_improvement'], 1); ?>%
+                                            </span>
+                                        </div>
+                                        <div>
+                                            <span class="text-purple-600 dark:text-purple-300">Score:</span>
+                                            <span class="font-semibold <?php echo $quiz['score_improvement'] >= 0 ? 'text-green-600 dark:text-green-400' : 'text-red-600 dark:text-red-400'; ?>">
+                                                <?php echo ($quiz['score_improvement'] >= 0 ? '+' : '') . $quiz['score_improvement']; ?>
+                                            </span>
+                                        </div>
+                                        <div>
+                                            <span class="text-purple-600 dark:text-purple-300">Time:</span>
+                                            <span class="font-semibold <?php echo $quiz['time_improvement'] >= 0 ? 'text-green-600 dark:text-green-400' : 'text-red-600 dark:text-red-400'; ?>">
+                                                <?php 
+                                                if ($quiz['time_improvement'] >= 0) {
+                                                    echo '-' . formatTime(abs($quiz['time_improvement'])) . ' faster';
+                                                } else {
+                                                    echo '+' . formatTime(abs($quiz['time_improvement'])) . ' slower';
+                                                }
+                                                ?>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            <?php endif; ?>
+                            
+                            <!-- Action Buttons -->
+                            <div class="flex flex-col sm:flex-row gap-3 pt-2">
+                                <button onclick="viewQuizDetails(<?php echo $quiz['id']; ?>)" 
+                                        class="flex-1 px-4 py-2 text-sm font-medium text-black dark:text-white bg-white/20 dark:bg-black/20 border border-black/20 dark:border-white/20 rounded-lg hover:bg-white/30 dark:hover:bg-black/30 transition-colors">
+                                    👁️ View Details
+                                </button>
+                                
+                                <?php if (!$isRevision): ?>
+                                    <a href="revision.php?attempt_id=<?php echo $quiz['id']; ?>" 
+                                       class="flex-1 px-4 py-2 text-sm font-medium text-center text-white bg-purple-600 hover:bg-purple-700 dark:bg-purple-500 dark:hover:bg-purple-600 rounded-lg transition-colors">
+                                        📚 Revise
+                                    </a>
+                                <?php endif; ?>
+                            </div>
+                        </div>
                     </div>
-                    <div class="mt-2">
-                        <span class="inline-block px-3 py-1 text-xs font-medium rounded-full glassmorphic">
-                            <?php echo ucfirst(str_replace('_', ' ', $quiz['quiz_type'])); ?>
-                        </span>
-                    </div>
-                </div>
+                <?php endforeach; ?>
             </div>
         </div>
     <?php endforeach; ?>
@@ -218,8 +364,8 @@ include 'includes/navbar.php';
 
 <script>
 function viewQuizDetails(attemptId) {
-    // You can implement a modal or redirect to a detailed view
-    alert('Quiz details feature coming soon! Attempt ID: ' + attemptId);
+    // Redirect to result page to view detailed quiz results
+    window.location.href = 'result.php?attempt_id=' + attemptId;
 }
 
 // Theme is now handled by the navbar
